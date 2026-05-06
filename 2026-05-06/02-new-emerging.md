@@ -1,97 +1,137 @@
 # New & Emerging — 2026-05-06
 
-New models, startups, tools, paradigm shifts, and things that just appeared on the radar.
+New models, startups, tools, funding rounds, and paradigm shifts that just landed on the radar.
 
 ---
 
-## 1. GPT-5.5 Is the First Truly Omnimodal Model with Agentic Architecture
+## 1. Cursor 3.0 — The IDE Is Now a Multi-Agent Operating System
 
-**What happened:** GPT-5.5 processes text, images, audio, and video in a single unified system (not modality-switched pipelines). More importantly, it was architected for agentic use: calling tools, maintaining state across long multi-step tasks, recovering from errors without human handholding. 1M token context window.
+**What happened:** Cursor shipped version 3.0 on April 2, 2026, fundamentally changing what an IDE is. The headline feature is the **Agents Window** — you can now run many AI agents in **parallel** across different repos and environments: locally, in git worktrees, on remote SSH, and in the cloud.
+
+New in May 2026 updates:
+- **Async multitasking**: Background agents run while you work on something else
+- **`/best-of-n` command**: Runs the same task in parallel across multiple models in isolated worktrees, then compares outcomes side-by-side
+- **Multi-root workspaces**: Cross-repo changes in one session
+- **Tiled layout**: Split view to manage multiple live agents simultaneously
+
+Cursor is reportedly at $2B+ annualized revenue, valued at $29.3B (raised November 2025), with rumors of talks at a $50B valuation.
 
 **Sources:**
-- [attainmentlabs founder review](https://www.attainmentlabs.com/blog/gpt-5-5-vs-claude-opus-vs-gemini)
-- [ofox.ai API benchmarks](https://ofox.ai/blog/gpt-5-5-api-vs-claude-opus-gemini-3-1-flagship-2026/)
+- [Cursor 3.0 Changelog](https://cursor.com/changelog/3-0)
+- [Cursor Blog — Meet the new Cursor](https://cursor.com/blog/cursor-3)
+- [InfoQ — Cursor 3 agent-first interface](https://www.infoq.com/news/2026/04/cursor-3-agent-first-interface/)
+- [DataCamp — What is Cursor 3?](https://www.datacamp.com/blog/cursor-3)
+- [Releasebot — Cursor May 2026 updates](https://releasebot.io/updates/cursor)
 
-**Insight:** The omnimodal + agentic combination matters for startups. You can now build agents that watch a video, read the transcript, and take actions — all in one API call. This opens product surfaces that were impossible or clunky 12 months ago.
+**Why it matters to you:**
+- **Immediately actionable:** If you use Cursor, upgrade now and learn the Agents Window. The `/best-of-n` command is genuinely novel — running the same feature implementation across Claude, GPT, and Gemini and comparing results is a workflow that didn't exist 60 days ago.
+- **Startup signal:** A code editor just became one of the most valuable dev tools companies ever built at $29–50B. The lesson: the interface layer on top of commodity AI can capture enormous value. Think "Cursor for X" in your target domain.
+- **Interview signal:** Knowing how to orchestrate multiple agents in parallel, manage worktrees, and run comparative agent evals is a differentiating skill for MLE/SDE interviews in 2026.
 
 ---
 
-## 2. Devin Slashed Price from $500/month to $20/month
+## 2. Google "Remy" — Personal AI Agent Coming to Gemini
 
-**What happened:** Cognition's Devin — the first "fully autonomous" software engineer agent — dropped its price from $500/month to $20/month. This 25× price cut signals commoditization pressure on autonomous coding agents.
+**What happened:** Google is dogfooding "Remy" internally — a 24/7 personal AI agent embedded in Gemini that takes autonomous actions across your digital life. Connected to Gmail, Calendar, Docs, Drive, GitHub, Spotify, WhatsApp, Google Home, and Android utilities. Not just answering questions — scheduling meetings, managing tasks, responding to messages.
+
+Remy is Google's direct response to **OpenClaw**, the personal agent that went viral in early 2026, prompting Sam Altman to hire its creator for OpenAI's personal agent team.
+
+Meta is building "Hatch" on the same playbook (internal testing by end of June).
 
 **Sources:**
-- [codegen.com best coding agents](https://codegen.com/blog/best-ai-coding-agents/)
-- [morphllm.com ranked coding agents](https://www.morphllm.com/best-ai-coding-agents-2026)
+- [AI News — Remy agent](https://www.artificialintelligence-news.com/news/google-remy-ai-agent-gemini-user-control/)
+- [eWeek — Gemini Remy](https://www.eweek.com/news/google-gemini-remy-ai-agent/)
+- [IT Pro — Remy vs OpenClaw](https://www.itpro.com/technology/artificial-intelligence/google-is-building-its-own-openclaw-alternative-remy-elevates-the-gemini-app-into-a-true-assistant)
+- [The Decoder — Google and Meta race on personal agents](https://the-decoder.com/google-and-meta-race-to-build-personal-ai-agents-as-anthropic-and-openai-pull-further-ahead/)
 
-**Insight:** When the flagship autonomous coder goes from $500 to $20, the category is entering mass adoption phase. This is the Dropbox → commodity cloud storage moment for AI coding. As a CS grad: you should be fluent with at least 2–3 agentic coding tools now. As a startup founder: building *on top of* agents (vertical workflows, integrations) is more defensible than building the base agent itself.
+**Why it matters to you:**
+- The personal agent race (Google Remy, OpenAI, Meta Hatch, Apple) is the new mobile OS race. Whoever owns the agent layer owns the relationship above all other apps.
+- As a **startup founder**: which domain problems will the general personal agent *not* solve well? Deep vertical expertise (medical, legal, scientific, engineering-specific) will remain your wedge.
 
 ---
 
-## 3. Cursor at $29B Valuation, Reportedly in Talks for $50B
+## 3. Rhoda AI — $450M Series A for Robotic Intelligence via Video Prediction
 
-**What happened:** Cursor raised at a $29.3B valuation in November 2025 and is now reportedly in talks at $50B valuation, with $2B+ annualized revenue.
+**What happened:** Rhoda AI publicly launched with **$450 million in Series A funding**, unveiling its **FutureVision** platform — a robotic intelligence system built on video-predictive control. The system predicts future video frames to plan and execute robot actions, rather than relying on traditional state-space models.
 
 **Sources:**
-- [morphllm.com AI coding agents](https://www.morphllm.com/best-ai-coding-agents-2026)
-- [agentic.ai best coding agents](https://agentic.ai/best/coding-agents)
+- [Crescendo AI — VC investment deals](https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups)
+- [AI Funding Tracker — startup news today](https://aifundingtracker.com/ai-startup-funding-news-today/)
 
-**Insight:** A code editor just became one of the most valuable dev tools companies ever built. The lesson: the interface layer on top of AI can capture enormous value even when the underlying models are commodities. Think about what the "Cursor for X" looks like in your target domain.
+**Why it matters to you:**
+- Video-predictive control for robotics is a distinct approach from the dominant behavior-cloning paradigm. If it works at scale, it generalizes better to unseen environments without massive labeled data.
+- The $450M Series A at *launch* shows that robotics + embodied AI continues to attract capital at extraordinary levels. Physical AI is the next frontier after software agents.
 
 ---
 
-## 4. Sierra AI Raises ~$1 Billion (Bret Taylor, ex-Salesforce/OpenAI Chair)
+## 4. Standard Intelligence — $75M, Model That Controls Software by Watching Video
 
-**What happened:** Sierra, the AI customer experience platform founded by Bret Taylor (ex-Salesforce co-CEO, ex-OpenAI board chair), is raising nearly $1 billion in a new funding round.
+**What happened:** Standard Intelligence raised **$75 million** for **FDM-1** (Foundation Decision Model), a model that learns to control software by watching demonstration videos — no code, no API calls, just video. It observes, infers intent, and replicates actions across any software interface.
 
 **Sources:**
-- [CNBC — Bret Taylor's Sierra raises nearly $1B](https://www.cnbc.com/2026/05/04/bret-taylor-sierra-fundraise-openai.html)
+- [AI Funding Tracker — startup news](https://aifundingtracker.com/ai-startup-funding-news-today/)
+- [Blog.mean.ceo — AI startup funding news May 2026](https://blog.mean.ceo/ai-startup-funding-news-may-2026/)
 
-**Insight:** "AI for customer experience" is a massive market because every enterprise has a customer service function. Sierra is essentially an agentic layer on top of CRMs. Bret Taylor's operator credibility (built Salesforce, chaired OpenAI) is as important as the product here — this is a reminder that founder-market fit and network are early moats for B2B AI startups.
+**Why it matters to you:**
+- A model that can operate *any* software GUI by watching videos removes the need for API integrations entirely. This is a different architecture than MCP-style tool-calling and could be more generalized.
+- Startup angle: if this works, it enables automation of software workflows that were previously "unautomatable" — legacy systems with no API, proprietary enterprise tools, complex UI-only workflows.
 
 ---
 
-## 5. Record $1.1B Seed Round — Former DeepMind Researcher's Startup Pursuing Superintelligence
+## 5. Runware — $50M Series A for an AI Model Aggregation API
 
-**What happened:** A startup founded by a former Google DeepMind researcher raised a $1.1 billion *seed* round co-led by Sequoia and Lightspeed, with Nvidia, DST Global, Index, and Google participating. The stated goal: superintelligence.
+**What happened:** Runware raised **$50 million** to scale its **Sonic Inference Engine** — a single API that routes requests across hundreds of thousands of AI models. Developers get unified access, automatic fallback, and optimal pricing without managing multiple provider integrations.
 
 **Sources:**
-- [CNBC — DeepMind Ineffable Intelligence record seed funding](https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html)
+- [AI Funding Tracker](https://aifundingtracker.com/ai-startup-funding-news-today/)
+- [Crescendo AI VC deals](https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups)
 
-**Insight:** The $1.1B seed round number is surreal but tells you something real: frontier AI lab credibility (research pedigree + specific technical vision) unlocks capital at scales that weren't possible 2 years ago. If you want to raise at this level, you need either a) a frontier research background or b) tight partnership with someone who has one.
+**Why it matters to you:**
+- Model routing and aggregation is a growing category as the number of frontier models multiplies. Similar to Helicone, LiteLLM, or Portkey but with broader ambition.
+- For builders: a single API that routes to the best/cheapest model per task is a compelling alternative to managing individual provider SDKs. Worth evaluating for your projects.
 
 ---
 
-## 6. Zhipu AI's GLM-4.7 — Trained Without NVIDIA Hardware
+## 6. Nova Intelligence — $31.5M Series A, AI Agents for SAP Migration
 
-**What happened:** China's Zhipu AI released GLM-4.7, a competitive frontier model trained entirely without NVIDIA GPUs (using domestic Chinese AI chips). It delivers performance competitive with open-weight Western models.
+**What happened:** Nova Intelligence secured **$31.5 million** building AI agents that help enterprises migrate legacy systems into SAP S/4HANA using generative automation.
 
 **Sources:**
-- [llm-stats.com AI news](https://llm-stats.com/ai-news)
-- [blog.mean.ceo new model releases](https://blog.mean.ceo/new-ai-model-releases-news-may-2026/)
+- [Fundraise Insider — AI startups 2026](https://fundraiseinsider.com/blog/ai-startups/)
+- [Blog.mean.ceo — startup funding trends May 2026](https://blog.mean.ceo/startup-funding-trends-may-2026/)
 
-**Insight:** This is significant. US export controls on NVIDIA chips were supposed to slow Chinese AI development. GLM-4.7 suggests they're adapting. Watch this closely — if Chinese labs can match frontier performance on non-NVIDIA hardware, the geopolitical lever the US is using weakens substantially.
+**Why it matters to you:**
+- SAP migration is a massive, painful, expensive enterprise problem. Nova is the "Cursor for enterprise IT migration" — an agent that takes a specific, well-defined, highly valuable workflow and automates it end-to-end.
+- Pattern to copy: pick the most painful, repetitive enterprise workflow in a domain you know, wrap it in agents, sell the outcome not the technology.
 
 ---
 
-## 7. Agentic AI Replacing Chatbot Wrappers — Vertical Agents Are Winning
+## 7. OpenClaw Goes Mainstream — The Personal Agent That Started the Race
 
-**What happened:** Multiple analysts and investors now report that enterprise AI buyers are moving past "chatbot wrapper" products. The winning pattern is **vertical agentic AI**: tools that take *actions* in specific domains (sales, legal, coding, admin) rather than answering questions.
+**What happened:** OpenClaw (a personal AI agent built by an indie developer) became a viral sensation in early 2026 for its ability to respond to messages, conduct research, and take autonomous actions across web and apps. Sam Altman hired its creator to work on OpenAI's personal agent team. This single viral demo triggered the Google Remy and Meta Hatch development tracks.
 
-**Sources:**
-- [blog.mean.ceo AI startup trends May 2026](https://blog.mean.ceo/ai-startup-trends-may-2026/)
-- [aiandnews.com breakthroughs May 2026](https://www.aiandnews.com/blog/latest-ai-news-may-2026-3/)
-
-**Insight:** If you're ideating a startup: the "chatbot for X" pitch is dead. The "agent that does X autonomously" pitch is what VCs and enterprise buyers are paying for in 2026. Define the *action loop* your agent closes, not just the questions it can answer.
+**Why it matters to you:**
+- A solo developer with a good idea and the right demo timing can change the roadmap of billion-dollar labs. This is the kind of market signal that creates startup opportunities.
+- The product surface is clearly valued: every major lab is now trying to be your 24/7 digital agent. The opportunity is in specialization — a personal agent for researchers, for engineers, for doctors, rather than a general one.
 
 ---
 
-## 8. MCP (Model Context Protocol) Becomes Agentic Standard
+## 8. The Vertical Agent > Horizontal Platform Pattern Is Now Confirmed
 
-**What happened:** Nearly every AI coding tool, agent framework, and developer platform now supports MCP (Model Context Protocol) for connecting agents to external APIs, data sources, and tools. It originated from Anthropic but has been adopted industry-wide.
+**The pattern:** Across funding data, enterprise sales results, and product launches in Q1–Q2 2026, one theme consistently wins: **vertical agentic AI** — tools that take *autonomous actions* in specific domains — beats general-purpose AI assistants for enterprise adoption.
+
+- Anthropic sells 10 pre-configured financial sector agents → wins 70% of enterprise deals vs OpenAI
+- Sierra (customer experience agents, Bret Taylor) → raises ~$1B
+- Nova Intelligence (SAP migration agents) → $31.5M at seed/Series A
+- Reserv (insurance claims AI) → $125M Series C led by KKR
 
 **Sources:**
-- [morphllm.com AI coding agents](https://www.morphllm.com/best-ai-coding-agents-2026)
-- [artificialanalysis.ai coding agents comparison](https://artificialanalysis.ai/agents/coding)
+- [Blog.mean.ceo — startup funding trends May 2026](https://blog.mean.ceo/startup-funding-trends-may-2026/)
+- [Wellows — 85 hottest AI startups 2026](https://wellows.com/blog/ai-startups/)
+- [Crescendo AI — agentic AI news](https://www.crescendo.ai/news/latest-ai-news-and-updates)
 
-**Insight:** MCP is becoming the HTTP of AI agents — the plumbing that makes tool-calling interoperable. Learn how to build and consume MCP servers. It's a concrete, hirable skill in 2026.
+**The formula that's getting funded:**
+1. A specific vertical with measurable, repeatable workflow pain
+2. An agent that takes *actions* (not just answers questions)
+3. A measurable ROI metric in the first 30 days
+4. A founder with deep domain credibility in that vertical

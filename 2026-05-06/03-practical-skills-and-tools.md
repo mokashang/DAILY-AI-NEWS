@@ -1,137 +1,205 @@
 # Practical Skills & Tools — 2026-05-06
 
-Hands-on stuff you can act on today. Workflows, tools, prompting, agentic setups.
+Hands-on stuff you can act on today. Tools, workflows, prompting, security, and productivity.
 
 ---
 
-## 1. The 2026 AI Coding Agent Stack — What Actually Changes How You Ship
+## 1. Cursor 3.0 Agents Window — How to Actually Use It
 
-**What happened:** Multiple independent tests of 15+ coding agents converge on the same short list of tools that make a real difference. The rest are noise.
+**What it is:** Cursor 3.0's Agents Window lets you run multiple AI agents in parallel across different repos, environments (local, SSH, cloud, worktrees), and models simultaneously.
 
-**Top Tier (as of today):**
-| Tool | Best For | Cost |
+**How to get started:**
+```
+1. Upgrade Cursor to 3.0+
+2. Cmd+Shift+P → "Agents Window"
+3. Start your first agent with a task in natural language
+4. Open a second agent for a different file or parallel feature
+5. Use /best-of-n to run the same task across models and compare
+```
+
+**The `/best-of-n` workflow (genuinely new):**
+- Type: `/best-of-n implement the auth middleware`
+- Cursor spawns the task to Claude, GPT-5.5, and Gemini simultaneously, each in an isolated worktree
+- Review the 3 implementations side-by-side, pick the best or merge pieces
+- This is ensemble coding without writing any orchestration code yourself
+
+**Async multitasking pattern:**
+- Start a long refactor as a background agent
+- Switch to a new agent to work on a separate feature
+- Background agent surfaces results in the Agents Window when done
+
+**Sources:**
+- [Cursor 3.0 changelog](https://cursor.com/changelog/3-0)
+- [Digital Applied — complete guide](https://www.digitalapplied.com/blog/cursor-3-agents-window-design-mode-complete-guide)
+- [DataCamp — What is Cursor 3](https://www.datacamp.com/blog/cursor-3)
+
+**Insight:** Most developers are still using Cursor like a fancy autocomplete. The Agents Window is a fundamentally different workflow — you're now a manager of a team of agents, not a line-by-line copilot user. Shift your mental model: define the task, delegate, review, merge.
+
+---
+
+## 2. Vibe Coding in 2026 — The Real Risks and How to Avoid Them
+
+**What is vibe coding?** AI-assisted development where you describe a task in natural language and the LLM generates the code. Coined by Andrej Karpathy (OpenAI co-founder) in February 2025. Now the dominant coding style for prototyping and solo projects.
+
+**The hard data on risks:**
+- A CodeRabbit analysis of 470 open-source GitHub PRs found AI co-authored code has:
+  - **2.74× more security vulnerabilities** than human-written code
+  - **75% more misconfigurations**
+  - Higher rates of logic errors and flawed control flow
+- METR study (July 2025): experienced developers were **19% slower** with AI coding tools on complex unfamiliar tasks (despite predicting they'd be 24% faster)
+
+**But senior engineers DO benefit:**
+- 3+ years experience → **40–50% productivity gain** with AI tools
+- Junior engineers → only **15–25% gain** (they struggle to evaluate AI outputs)
+
+**ACM Technology Policy Council's 2026 warning:** Vibe coding lacks key safeguards for professional software. The "just accept everything the AI generates" approach is now widely recognized as risky.
+
+**Best practices for 2026 vibe coding:**
+1. **Be explicit about security in the prompt**: "write secure code, validate all inputs, encrypt passwords, check for SQL injection"
+2. **Architecture is yours, implementation is the agent's**: You define the structure; the agent fills it in
+3. **Review every PR as if a junior wrote it** — because in terms of judgment, they did
+4. **Add AI-aware tests**: Testing frameworks that check logic and compliance specifically for AI-generated code
+5. **Never vibe-code auth, payments, or data access** — these need human review at every line
+6. **Use it for prototyping aggressively, but harden before shipping**
+
+**Sources:**
+- [Daily.dev — Vibe coding 2026](https://daily.dev/blog/vibe-coding-how-ai-changing-developers-code)
+- [DEV Community — Secure vibe coded applications](https://dev.to/devin-rosario/how-to-secure-vibe-coded-applications-in-2026-208d)
+- [Kaspersky — Safe vibe coding guide](https://www.kaspersky.com/blog/safer-vibe-coding-2026/55677/)
+- [Softr — 8 vibe coding best practices](https://www.softr.io/blog/vibe-coding-best-practices)
+- [ACM — Vibe coding safeguards warning](https://www.acm.org/media-center/2026/april/techbrief-vibe-coding)
+- [Medium — Is vibe coding harmful?](https://medium.com/@uday.devworks/is-vibe-coding-harmful-complete-guide-to-risks-security-issues-best-practices-7aa4564c519d)
+
+**Insight for you as a grad student:** The 40–50% productivity gain for senior engineers comes from the ability to critically evaluate AI output. Right now, every project you build with AI tools is also training you to be a better AI output evaluator — which is the actual skill that compounds. Don't skip review.
+
+---
+
+## 3. Context-First AI Development — The Real Differentiator
+
+**The finding:** A DeveloperWeek 2026 report identifies "context" as the master key for AI tools. Organizations that feed necessary industry and company context to agents beforehand — or make it available during task execution — get dramatically better results than those using generic prompts.
+
+**What "context-first" means in practice:**
+
+**For coding agents:**
+```
+Bad:  "Fix the authentication bug"
+Good: "You are working in a FastAPI app (Python 3.12, PostgreSQL).
+       The auth module is in /src/auth/. The issue is that JWT tokens
+       are not being invalidated on logout because the blacklist check
+       in /src/auth/middleware.py:validate_token() is skipped when
+       the user is marked as 'admin'. Fix this specific bug without
+       changing the token generation logic."
+```
+
+**For research/writing agents:**
+```
+Bad:  "Summarize this paper"
+Good: "I am a CS grad student working on multimodal reasoning.
+       Summarize this paper in 3 parts:
+       1. Technical contribution (1 paragraph, assume ML background)
+       2. How this relates to visual grounding in MLLMs
+       3. Whether I should cite this in my related work section and why"
+```
+
+**Building a project context file:** Keep a `CONTEXT.md` in every repo with:
+- What the project does and who uses it
+- Key architectural decisions and their reasons
+- What's in scope vs explicitly out of scope
+- Current tech stack and versions
+
+Then prefix every agent session: "Read CONTEXT.md before starting any task."
+
+**Sources:**
+- [Axify.io — AI developer productivity 2026](https://axify.io/blog/use-ai-for-developer-productivity)
+- [Stack Overflow — DeveloperWeek 2026](https://stackoverflow.blog/2026/03/05/developerweek-2026/)
+- [DEV Community — AI-powered dev workflow 2026](https://dev.to/devactivity/the-ai-powered-dev-workflow-reshaping-software-engineering-in-2026-1mk4)
+
+---
+
+## 4. The 2026 AI Developer Stack — What's Actually Worth Using
+
+Based on independent tests, Stack Overflow surveys, and DeveloperWeek 2026 data:
+
+| Tool | What It's For | Cost | Signal |
+|---|---|---|---|
+| **Cursor 3.0** | IDE + parallel agents + code review | $20/mo | 85% of developers using AI tools report it as primary IDE |
+| **Claude Code** | Terminal-first, complex multi-file, SWE-bench best | Usage-based | Highest benchmark performance on autonomous coding |
+| **GitHub Copilot** | Inline autocomplete, PR workflows, tight GitHub integration | $10/mo | Best for teams already in GitHub ecosystem |
+| **Devin** | Fully autonomous tasks (spin up, implement, open PR) | $20/mo | Dropped from $500/mo — commoditization signal |
+| **Gemini CLI** | Free 1M context window, large codebase reads | Free tier | Best free tool for reading large existing codebases |
+| **Bolt.new** | Rapid prototype from description | Free tier | Fastest "idea → deployed prototype" for demos |
+
+**The 2-tool stack that covers 90% of needs:**
+- **Cursor** for day-to-day IDE work and feature development
+- **Claude Code** for large refactors, ambiguous architectural tasks, and anything requiring SWE-bench-level reasoning
+
+**Sources:**
+- [DataNorth AI — Top 10 AI tools 2026](https://datanorth.ai/blog/top-10-ai-tools-for-2026)
+- [Iterathon — AI developer productivity stack 2026](https://iterathon.tech/blog/ai-developer-productivity-stack-2026-complete-toolchain-guide)
+- [Vibecoding.app — developer workflows](https://vibecoding.app/blog/developer-workflows-with-ai)
+- [DEV Community — best AI tools for developers](https://dev.to/devin-rosario/best-ai-tools-for-developers-to-boost-productivity-in-2026-4b97)
+
+---
+
+## 5. MCP (Model Context Protocol) — Still the Most Important Protocol to Learn
+
+**Status:** MCP is now effectively the universal standard for connecting AI agents to external tools, APIs, and data. Every major agent platform supports it. It originated from Anthropic but is now truly cross-platform.
+
+**Why you need to know it today:**
+- "I built an MCP server for X" is a differentiating resume line
+- MCP is to AI agents what REST was to web APIs — the plumbing that makes everything composable
+- Building an MCP server that exposes a domain-specific data source plugs into *every* MCP-compatible agent
+
+**How to build your first MCP server (1 hour project):**
+```bash
+npx @modelcontextprotocol/create-server my-mcp-server
+cd my-mcp-server
+# Edit to expose a real API (arXiv papers, your GitHub issues, a database)
+# Connect in Claude Code: Settings → MCP Servers
+# Test: ask Claude to "list today's papers on multimodal reasoning"
+```
+
+**High-value MCP servers to build for your portfolio:**
+- arXiv paper fetcher for your research area
+- Personal job tracker (GitHub issues + Glassdoor/Linkedin data)
+- Codebase semantic search for your thesis/project repo
+
+**Sources:**
+- [MCP spec docs](https://modelcontextprotocol.io/docs)
+- [Morphllm — AI coding agents 2026](https://www.morphllm.com/best-ai-coding-agents-2026)
+
+---
+
+## 6. AI Workflow Automation Without Code — Gumloop and Zapier AI
+
+**What's new:** Both Gumloop and Zapier now let you describe an automation workflow in plain English and build it automatically.
+
+**Practical automations for a CS grad student:**
+```
+"When a new paper is posted on arXiv with keywords 
+[your research area], summarize it and add to my Notion research DB"
+
+"When I get an email with 'job' or 'intern' in the subject, 
+extract company name, role, deadline, and add to Airtable"
+
+"When I commit to my GitHub repo, post a summary of changes 
+to my research Slack channel"
+```
+
+**Sources:**
+- [Gumloop — 10 best AI workflow automation tools](https://www.gumloop.com/blog/best-ai-workflow-automation-tools)
+- [Progineous — best AI tools productivity 2026](https://progineous.com/blog/en/best-ai-tools-productivity-2026)
+
+**Insight:** A solo grad student / founder running smart automations operates with the leverage of a 3-person team. Set up one automation per week for a month and see what changes.
+
+---
+
+## Quick-Start Actions for This Week
+
+| Action | Time | Payoff |
 |---|---|---|
-| **Claude Code** (Opus 4.7) | Terminal-first, complex multi-file tasks, highest SWE-bench | Usage-based |
-| **Cursor** | IDE-native, multi-file editing, huge ecosystem | $20/mo |
-| **OpenAI Codex** (GPT-5.5) | Long-context, omnimodal, agentic orchestration | Usage-based |
-| **Devin** | Fully autonomous tasks (spin up, implement, PR) | $20/mo |
-| **GitHub Copilot** | In-editor autocomplete + PR workflows | $10/mo |
-| **Gemini CLI** | Free 1M context, good for large codebase reads | Free tier |
-
-**Sources:**
-- [artificialanalysis.ai coding agents](https://artificialanalysis.ai/agents/coding)
-- [mightybot.ai coding agents ranked](https://mightybot.ai/blog/coding-ai-agents-for-accelerating-engineering-workflows/)
-- [morphllm.com 15 agents tested](https://www.morphllm.com/ai-coding-agent)
-- [codegen.com best agents 2026](https://codegen.com/blog/best-ai-coding-agents/)
-
-**Insight / Practical tip:** Don't try all of them. Pick Cursor for daily IDE work + Claude Code for big refactors and ambiguous tasks. That 2-tool stack covers 90% of needs. Claude Code's terminal-native workflow pairs extremely well with git workflows.
-
----
-
-## 2. MCP (Model Context Protocol) — Learn to Build and Consume MCP Servers
-
-**What it is:** MCP is an open standard (originally Anthropic's, now universal) that lets AI agents connect to external tools, APIs, and data sources in a standardized way. Like USB for AI tools.
-
-**Why you need to know it:** Every major agent platform now speaks MCP. If you can build an MCP server that connects an AI to a domain-specific data source or API, you can plug that capability into *any* compatible agent.
-
-**How to start:**
-1. Read the [MCP spec docs](https://modelcontextprotocol.io/docs)
-2. Clone a starter: `npx @modelcontextprotocol/create-server my-server`
-3. Connect it to Claude Code or Cursor
-4. Build something that reads from a real API (weather, GitHub issues, your own DB)
-
-**Sources:**
-- [GitHub awesome-ai-agents-2026](https://github.com/caramaschiHG/awesome-ai-agents-2026)
-- [theplanettools.ai rise of agents 2026](https://theplanettools.ai/guides/rise-of-ai-agents-2026)
-
-**Insight:** "I built an MCP server for X" is a differentiating line on a resume or portfolio in 2026. It shows you understand how agents compose with external systems — not just how to prompt a chatbot.
-
----
-
-## 3. Prompting for Agents vs Prompting for Chat — They Are Different Skills
-
-**Core distinction:** Chat prompting optimizes for a single great answer. Agent prompting optimizes for reliable *task completion* across multiple steps, tool calls, and error-recovery situations.
-
-**Practical agent prompting rules:**
-- **Define the termination condition** explicitly — agents need to know when they're done
-- **Use numbered steps** for complex tasks; agents hold state better with explicit structure
-- **Specify output format** early — JSON, file path, command — not natural language
-- **Include failure modes** — "if you can't find X, stop and report Y instead of guessing"
-- **Give context about the *system*, not just the task** — what repo, what env, what's already running
-
-**Example (bad):** "Fix the auth bug"
-**Example (good):** "In `/src/auth/`, identify the function causing the 401 error on `/api/login`. Write a fix, run the existing tests in `/tests/auth/`, confirm they pass, then output the diff. If tests fail, stop and report the error."
-
-**Sources:**
-- [zapier.com best AI productivity tools](https://zapier.com/blog/best-ai-productivity-tools/)
-- [nucamp.co how to use AI at work 2026](https://www.nucamp.co/blog/how-to-use-ai-at-work-in-2026-a-beginner-s-guide-for-any-profession)
-
-**Insight:** Most people using agents in 2026 are still writing chat prompts and wondering why agents fail. Learning to write agent-grade prompts is a concrete skill gap you can close this week.
-
----
-
-## 4. Notion as a "Project Brain" — Meeting Intelligence Workflow
-
-**What it is:** Notion's 2026 update added native system audio capture (no bot joining your calls). It captures meetings, summarizes decisions automatically, and syncs with your calendar. Combined with Notion AI, it creates a persistent project memory.
-
-**Practical setup for a CS grad student:**
-1. Notion workspace with AI enabled
-2. Link your Google Calendar
-3. Enable audio capture for advisor meetings, class lectures, team standups
-4. Create a "Research Decisions" database — Notion AI auto-populates it from meeting summaries
-5. Weekly: ask Notion AI "what did I commit to this week that I haven't done?"
-
-**Sources:**
-- [medium.com 19 best AI productivity tools](https://medium.com/@genai.works/19-best-ai-productivity-tools-for-2026-ranked-by-tier-16772365f901)
-- [monday.com reclaiming teams time](https://monday.com/blog/project-management/ai-productivity-tools/)
-
-**Insight:** A grad student with a well-structured Notion AI brain operates like a funded team. Your advisor sees someone who follows up, tracks decisions, and ships. That matters for recommendations and for startup team habits.
-
----
-
-## 5. Zapier's Prompt-Based Workflow Creation — No-Code AI Automation
-
-**What it is:** Zapier now lets you describe a workflow in plain English — "when someone fills out my Typeform, add them to my email list and create a task in Asana" — and it builds the automation for you.
-
-**Practical use cases for CS grads / early startups:**
-- Automatically log new GitHub issues to a Notion database
-- When you get an email with "AI job" in subject → extract company, role, and add to Airtable job tracker
-- When arxiv papers mention your research topic → summarize and post to a Slack channel
-
-**Sources:**
-- [zapier.com best AI productivity tools](https://zapier.com/blog/best-ai-productivity-tools/)
-- [expressanalytics.com top 10 AI tools](https://www.expressanalytics.com/blog/top-10-ai-tools-in-2026)
-
-**Insight:** A solo founder using Zapier AI automations can handle marketing, CRM, and ops tasks that would otherwise require a hire. Learn this stack early — it saves 3–5 hrs/week minimum.
-
----
-
-## 6. ElevenLabs for Professional AI Voice — Real Use Cases
-
-**What it is:** ElevenLabs produces the most realistic AI voice synthesis in 2026. Voice cloning (with permission), custom voice creation, quality good enough for podcasts, product demos, and video content.
-
-**Where CS grads use this practically:**
-- Demo videos for projects / startup pitches (narrate without recording yourself)
-- Turn research paper summaries into audio for commute listening
-- Build voice interfaces for your agent prototypes
-
-**Sources:**
-- [medium.com AI productivity tools](https://medium.com/@genai.works/19-best-ai-productivity-tools-for-2026-ranked-by-tier-16772365f901)
-
----
-
-## 7. The "AI 3.5-Hour Weekly Save" Is Real — But Only If You Redesign Workflows
-
-**The data:** Real-world adoption studies show AI tools save an average of 3.5 hours/week. But teams that redesign workflows end-to-end around AI report 10–20 hours/week saved per person.
-
-**The practical difference:**
-- **Bolt-on AI** (just use ChatGPT for some tasks) → 3.5 hrs saved
-- **Redesigned workflow** (AI handles the full repeatable pipeline; humans handle exceptions) → 10–20 hrs saved
-
-**How to redesign:** Pick your highest-friction repeatable task (writing experiment reports, summarizing papers, answering boilerplate emails). Map every step. Identify which steps are templated or rule-based. Automate those with agents. Human reviews only the judgment calls.
-
-**Sources:**
-- [sciencenewstoday.org 10 best AI tools to 10x productivity](https://www.sciencenewstoday.org/10-best-ai-tools-in-2026-to-10x-your-productivity)
-- [progineous.com best AI tools 2026](https://progineous.com/blog/en/best-ai-tools-productivity-2026)
-
-**Insight:** As a grad student building startup instincts: operational leverage through AI automation is a founder superpower. Practice this now so it's muscle memory by the time you have a team.
+| Upgrade to Cursor 3.0, try Agents Window | 30 min | Immediate productivity |
+| Add `CONTEXT.md` to your main project | 20 min | All agent sessions improve |
+| Read your last vibe-coded PR for security issues | 1 hr | Find bugs before they ship |
+| Build a minimal MCP server for your research area | 1-2 hr | Resume differentiator |
+| Set up 1 Gumloop/Zapier arxiv automation | 45 min | Daily paper awareness |

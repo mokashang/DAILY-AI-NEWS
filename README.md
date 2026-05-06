@@ -1,28 +1,45 @@
 # DAILY-AI-NEWS
 
-A personal AI news tracker for a CS grad student pursuing startups and SDE/MLE roles.
+A personal AI news intelligence system for a CS grad student pursuing startups and SDE/MLE/AI roles.
+
+Every day gets its own folder. Every story has a source and a direct "why it matters to you" section.
+
+---
 
 ## Folder Structure
 
-Each day gets its own folder: `YYYY-MM-DD/`
+```
+YYYY-MM-DD/
+├── 01-big-lab-moves.md        # OpenAI, Anthropic, Google, Meta, xAI, Apple — strategy, products, policy
+├── 02-new-emerging.md         # New models, startups, tools, funding rounds, paradigm shifts
+├── 03-practical-skills.md     # Hands-on workflows, tools, prompting, productivity — act on this TODAY
+├── 04-research-progress.md    # arXiv papers, benchmarks, breakthroughs — what's moving the frontier
+└── 05-career-and-startup.md   # Job market, VC trends, skills to build, startup playbook
+```
 
-Inside, five files cover every angle that matters:
-
-| File | What's in it |
-|---|---|
-| `01-big-lab-moves.md` | OpenAI, Google, Anthropic, Meta, Microsoft, xAI, Apple — strategy, products, partnerships, policy |
-| `02-new-emerging.md` | New models, startups, tools, funding rounds, paradigm shifts to watch |
-| `03-practical-skills-and-tools.md` | Hands-on tips, workflows, prompt techniques, coding agents, tools you can use TODAY |
-| `04-research-progress.md` | arXiv papers, benchmarks, breakthroughs — what's moving the frontier |
-| `05-career-and-startup.md` | Job market, startup signals, VC trends, skills to build, things CS grads should know |
-
-## How to Read
-
-Each item in every file has:
-- **Headline** — what happened
-- **Source** — where it came from (with link)
+Every entry has:
+- **What happened** — the fact
+- **Sources** — verified links, no secondhand summaries without attribution
 - **Why it matters to you** — direct implication for startup or job hunt
+
+---
+
+## Editions
+
+| Date | Highlights |
+|---|---|
+| [2026-05-06](./2026-05-06/) | Anthropic Claude Mythos (cybersecurity model restricted at launch) · OpenAI $25B ARR + IPO · Google "Remy" personal agent · Cursor 3.0 Agents Window · Vibe coding security risks · CS job market reality check · Vertical agent startup formula |
+
+---
 
 ## Master Source List
 
-See [`SOURCES.md`](./SOURCES.md) for the full curated list of reliable AI news sources.
+See [`SOURCES.md`](./SOURCES.md) — organized by type with notes on reliability and signal quality.
+
+---
+
+## Reading Strategy
+
+**5 minutes/day (minimum):** Read just the bold headlines in each file.
+**20 minutes/day (recommended):** Read one full file deeply, rotate through the 5 over the week.
+**Weekend:** Pick one item from `03-practical-skills` and actually do it.

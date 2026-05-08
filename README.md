@@ -10,11 +10,11 @@ Every day gets its own folder. Every story has a source and a direct "why it mat
 
 ```
 YYYY-MM-DD/
-├── 01-big-lab-moves.md        # OpenAI, Anthropic, Google, Meta, xAI, Apple — strategy, products, policy
-├── 02-new-emerging.md         # New models, startups, tools, funding rounds, paradigm shifts
-├── 03-practical-skills.md     # Hands-on workflows, tools, prompting, productivity — act on this TODAY
-├── 04-research-progress.md    # arXiv papers, benchmarks, breakthroughs — what's moving the frontier
-└── 05-career-and-startup.md   # Job market, VC trends, skills to build, startup playbook
+├── 01-big-lab-moves.md             # OpenAI, Anthropic, Google, Meta, xAI, Apple — strategy, products, policy
+├── 02-new-emerging.md              # New models, startups, tools, funding rounds, paradigm shifts
+├── 03-practical-skills-and-tools.md # Hands-on workflows, tools, prompting, productivity — act on this TODAY
+├── 04-research-progress.md         # arXiv papers, benchmarks, breakthroughs — what's moving the frontier
+└── 05-career-and-startup.md        # Job market, VC trends, skills to build, startup playbook
 ```
 
 Every entry has:
@@ -28,6 +28,7 @@ Every entry has:
 
 | Date | Highlights |
 |---|---|
+| [2026-05-08](./2026-05-08/) | Anthropic-Google **$200B compute deal** (1M TPUs) · Anthropic Wall Street + Jamie Dimon · DeepSeek V4 (MIT license, runs on Huawei Ascend) · Pit $16M a16z launch · Parallel Web Systems $2B · GPT-5.5 Codex browser agent · Mem0 graph memory · 2026 resume formula · Wedge of 2026 = "AI product team as a service" |
 | [2026-05-06](./2026-05-06/) | Anthropic Claude Mythos (cybersecurity model restricted at launch) · OpenAI $25B ARR + IPO · Google "Remy" personal agent · Cursor 3.0 Agents Window · Vibe coding security risks · CS job market reality check · Vertical agent startup formula |
 
 ---

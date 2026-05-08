@@ -146,3 +146,131 @@ Checked weekly for market signal.
 - [Indeed MLE new grad](https://www.indeed.com/q-machine-learning-engineer-new-grad-jobs.html)
 - [startup.jobs ML](https://startup.jobs/machine-learning-jobs)
 - [YC AI Companies hiring](https://www.ycombinator.com/companies/industry/ai)
+
+---
+
+## Tier 9: China AI Ecosystem (Open-Weight Frontier)
+
+The open-weight frontier is now overwhelmingly Chinese. Ignoring this tier means missing half the action.
+
+### Labs (Primary)
+- [DeepSeek (Hugging Face)](https://huggingface.co/deepseek-ai) — V4 series, MIT license
+- [Z.ai / Zhipu AI](https://huggingface.co/zai-org) — GLM-5/5.1, trained on Huawei Ascend
+- [Moonshot AI / Kimi](https://huggingface.co/moonshotai) — K2.6, 1T params open weights
+- [MiniMax](https://huggingface.co/MiniMaxAI) — M2.7, multimodal long-context
+- [Qwen / Alibaba](https://huggingface.co/Qwen) — Qwen3 series, embeddings
+- [BAAI (智源)](https://www.baai.ac.cn/) — Beijing Academy of AI, FlagOpen ecosystem
+
+### Chinese AI Press (English coverage of CN labs)
+- [QbitAI / 量子位 (English)](https://www.qbitai.com/) — flagship Chinese AI press
+- [Jiqizhixin / 机器之心 (Synced)](https://syncedreview.com/) — English-language Chinese AI coverage
+- [The Decoder — China tag](https://the-decoder.com/tag/china/) — non-Chinese reporting on CN labs
+- [SCMP Tech](https://www.scmp.com/tech) — South China Morning Post, regional perspective
+- [Bloomberg China Tech](https://www.bloomberg.com/asia/china) — financial angle on CN AI
+
+---
+
+## Tier 10: Podcasts & Long-Form Audio
+
+For the deep walk / commute / weekend slot. Long-form interviews give context that headlines never carry.
+
+- [Latent Space](https://www.latent.space/podcast) — swyx + Alessio, builder-focused, weekly
+- [Dwarkesh Podcast](https://www.dwarkeshpatel.com/podcast) — long-form with frontier researchers (Dario, Demis, etc.)
+- [No Priors](https://www.no-priors.com/) — Sarah Guo + Elad Gil, founder lens
+- [Cognitive Revolution](https://www.cognitiverevolution.ai/) — Nathan Labenz, exhaustive technical deep-dives
+- [Lenny's Podcast](https://www.lennysnewsletter.com/podcast) — product + AI for builders
+- [Lex Fridman Podcast](https://lexfridman.com/podcast/) — variable signal, occasional gold (Karpathy, LeCun, etc.)
+- [The TWIML AI Podcast](https://twimlai.com/podcast/twimlai/) — Sam Charrington, ML practitioners
+- [Practical AI](https://changelog.com/practicalai) — ML in production
+- [Acquired](https://www.acquired.fm/) — strategic deep-dives on big tech (relevant for understanding lab strategy)
+
+---
+
+## Tier 11: GitHub Awesome Lists & Curated Repos
+
+The community-curated firehose. Star and revisit monthly.
+
+- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — apps with code samples
+- [Awesome-LLM (Hannibal046)](https://github.com/Hannibal046/Awesome-LLM) — papers, models, tools
+- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — MCP server catalog
+- [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) — agent frameworks and projects
+- [awesome-ai-agent-papers (VoltAgent)](https://github.com/VoltAgent/awesome-ai-agent-papers) — 2026 agent research papers, curated
+- [awesome-deep-learning-papers](https://github.com/terryum/awesome-deep-learning-papers) — classic ML/DL canon
+- [Papers-Literature-ML-DL-RL-AI](https://github.com/tirthajyoti/Papers-Literature-ML-DL-RL-AI) — broader curated list
+- [open-source-llms-list](https://github.com/eugeneyan/open-llms) — open LLMs registry
+- [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) — generative AI broadly
+- [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) — LLM survey papers map
+- [Build-Your-Own-X](https://github.com/codecrafters-io/build-your-own-x) — when you want to ship a portfolio piece
+
+---
+
+## Tier 12: Live Dashboards & Trackers
+
+For "what is actually best *right now*" — without reading any words.
+
+- [Artificial Analysis](https://artificialanalysis.ai/) — model comparisons, pricing, latency, intelligence index
+- [LMArena (formerly Chatbot Arena)](https://lmarena.ai/) — human-preference Elo rankings
+- [SWE-bench Leaderboards](https://www.swebench.com/) — coding agent state of the art
+- [Scale Labs SWE-Bench Pro](https://labs.scale.com/leaderboard/swe_bench_pro_public) — harder real-codebase variant
+- [OpenRouter Rankings](https://openrouter.ai/rankings) — usage-weighted model popularity
+- [llm-stats LLM Updates](https://llm-stats.com/llm-updates) — daily release tracker
+- [Hugging Face Trending Models](https://huggingface.co/models?sort=trending) — what's hot right now on HF
+- [Hugging Face Trending Papers](https://huggingface.co/papers/trending) — community-curated paper signal
+- [GitHub Trending](https://github.com/trending) — repos blowing up today
+- [Epoch AI](https://epoch.ai/) — frontier benchmarks, compute scaling, costs
+- [BenchLM](https://benchlm.ai/) — benchmark aggregator for coding, agents, reasoning
+
+---
+
+## Tier 13: Operator-Run Newsletters & Strategy Blogs
+
+Higher signal than tech press because the writer is also a practitioner or strategist with skin in the game.
+
+- [Stratechery (Ben Thompson)](https://stratechery.com/) — strategy + business model analysis (paywall, weekly free)
+- [Last Week in AI](https://lastweekin.ai/) — news + commentary, technical
+- [The Pragmatic Engineer (Gergely Orosz)](https://newsletter.pragmaticengineer.com/) — best for tech-job market signal
+- [AI Snake Oil (Arvind Narayanan)](https://www.aisnakeoil.com/) — calling out hype with rigor
+- [Latent Space (newsletter)](https://www.latent.space/) — swyx, builder-focused weekly digest
+- [Pivot to AI (David Gerard)](https://pivot-to-ai.com/) — counter-narrative skepticism (good calibration)
+- [Marginal Revolution — Tech](https://marginalrevolution.com/) — Tyler Cowen on AI economy
+- [Not Boring (Packy McCormick)](https://www.notboring.co/) — VC-y, narrative-rich startup analysis
+- [The Generalist (Mario Gabriele)](https://www.generalist.com/) — long-form company breakdowns
+
+---
+
+## Tier 14: Specialized Job Trackers (Beyond General Boards)
+
+For when you want signal on the *AI-specific* job market, not generic "we're hiring."
+
+- [AI Jobs (aijobs.net)](https://aijobs.net/) — pure AI/ML role aggregator
+- [ML Jobs Board (mlh.io)](https://ml.jobs/) — ML-focused
+- [Levels.fyi AI/ML filter](https://www.levels.fyi/comp.html?track=Software%20Engineer&specialization=Machine%20Learning) — comp data for MLE roles
+- [Anthropic Careers](https://www.anthropic.com/careers) — direct
+- [OpenAI Careers](https://openai.com/careers/search/) — direct
+- [Google DeepMind Careers](https://deepmind.google/about/careers/) — direct
+- [Meta AI Research Careers](https://www.metacareers.com/teams/technology?tab=AI%2FResearch) — direct
+- [xAI Careers](https://x.ai/careers) — direct
+- [Hugging Face Careers](https://apply.workable.com/huggingface/) — direct, often remote
+- [The AI Careers Network](https://aicareers.io/) — curated AI-only listings
+- [Wellfound (formerly AngelList Talent)](https://wellfound.com/role/r/machine-learning-engineer) — startup-side MLE roles
+
+---
+
+## Source Reliability Quick-Reference
+
+| Tier | Use For | Trust Level | Cadence |
+|---|---|---|---|
+| 1 (Primary) | Verifying any specific claim | Highest | As they post |
+| 2 (arXiv) | Frontier research, pre-publication | High (preprint caveat) | Daily scan |
+| 3 (Specialized) | Curation + analysis | High | Daily |
+| 4 (Tech press) | Context, business angle | Medium (verify) | Daily |
+| 5 (VC/Startup) | Funding intel | Medium-High | Weekly |
+| 6 (Practitioner) | Practical "what works" | High for hands-on | Daily |
+| 7 (X / Twitter) | First-mover signals | Variable, high noise | Continuous |
+| 8 (Deep blogs) | Synthesis & frameworks | High | Weekly |
+| 9 (China) | Open-weight + non-Western | High | Daily for releases |
+| 10 (Podcasts) | Deep context | High | Weekly |
+| 11 (GitHub Awesome) | Tools + repos | Variable | Monthly star-check |
+| 12 (Dashboards) | Real-time "what's best" | Highest for quant | Anytime |
+| 13 (Operator newsletters) | Strategy synthesis | Highest for analysis | Weekly |
+| 14 (Job trackers) | Market signal | High | Weekly |

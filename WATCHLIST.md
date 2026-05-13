@@ -4,7 +4,7 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-12**
+Last updated: **2026-05-13**
 
 ---
 
@@ -12,8 +12,10 @@ Last updated: **2026-05-12**
 
 | Thread | Status | Last move | Watching for |
 |---|---|---|---|
-| **Anthropic $50B raise at ~$900B post** | 🟡 | 2026-05-12 board decision expected this week per TechCrunch | Signed term sheet; final post-money; lock-up period |
+| **Anthropic $50B raise at ~$900B post** | 🟡 | 2026-05-13 board decision slipping toward late May | Signed term sheet; final post-money; lock-up period |
 | **Anthropic ARR trajectory** | 🟡 | $44B disclosed in May 8 investor meeting | Monthly progression; first month of deceleration |
+| **Wispr Flow ~$260M / ~$2B** | 🟡 | In talks per Bloomberg May 12; Menlo Ventures leading | Round close; Voice OS product expansion |
+| **Judgment Labs $32M Seed + Series A** | 🟢 | Closed May 12 — Lightspeed leading both rounds | Hiring volume; first major customer logos |
 | **Anthropic Oct 2026 IPO path** | 🟡 | Active consideration alongside the $50B round | S-1 filing; whether it's primary or secondary-heavy |
 | **OpenAI $25B ARR + IPO path** | 🟡 | Q1 2026 IPO chatter | S-1 filing; revenue mix disclosure |
 | **Cognition (Devin) $25B raise** | 🟡 | Hundreds of millions pending; Founders Fund leading | Round close; final valuation; new enterprise logos |
@@ -37,8 +39,10 @@ Last updated: **2026-05-12**
 | **Mistral open frontier release** | ⚪ | Quiet quarter | EU sovereignty narrative catalyst |
 | **Apple "Extensions" SDK** | 🟡 | iOS 27 reveal expected WWDC June 9 | Official SDK + featured Extensions list |
 | **xAI voice stack (STT + TTS + Imagine Quality)** | 🟢 | Standalone APIs shipped GA week of May 11 | Mistral partnership formalization; speech latency benchmarks |
-| **Aluminium OS (Google desktop platform)** | 🟡 | Reveal at Android Show today May 12 | Developer SDK at I/O May 19; OEM hardware shipping dates |
-| **Android XR glasses (gen 2)** | 🟡 | Previewed today May 12 | Final hardware partners; consumer launch date |
+| **Aluminium OS (Google desktop platform)** | 🟡 | Reveal at Android Show May 12 | Developer SDK at I/O May 19; OEM hardware shipping dates |
+| **Android XR glasses (gen 2)** | 🟡 | Previewed May 12 | Final hardware partners; consumer launch date |
+| **Claude for Legal (12 plugins + 20+ MCP connectors)** | 🟢 | Launched May 12 — first major Anthropic vertical | Healthcare / Finance / etc verticals next; partner volume growth |
+| **Meta Avocado / Mango (next flagship LLMs)** | 🟡 | Delays confirmed May 12; closed-source pivot at C-suite | H2 2026 launch date; whether any portion ships open-weights |
 
 ---
 
@@ -51,6 +55,7 @@ Last updated: **2026-05-12**
 | **Anthropic Mythos EU access standoff** | 🟡 | Spain Minister Cuerpo publicly cited Article 51 (May 5–11) | Formal EU enforcement action; counter-narrative from Anthropic; OpenAI takes EU market share |
 | **OpenAI GPT-5.5-Cyber EU access deal** | 🟢 | Confirmed agreement to share with EU pre-deployment body (CNBC May 11) | Formal review timeline; how it differs from Mythos terms |
 | **Pentagon: 8 AI vendors selected, Anthropic excluded** | 🟢 | Confirmed early May | Anthropic appeal or alternative DoD path |
+| **First AI-built zero-day in the wild (Google Threat Intel)** | 🟢 | Confirmed by Bloomberg + Google May 11–12; mass-exploit campaign averted | Whether NIST issues updated AI-risk guidance within 60 days; CISO mandate response |
 | **Trump AI Action Plan execution** | 🟡 | CAISI partnerships are first deliverable | Export-control updates; sovereignty mandates |
 | **Microsoft–OpenAI partnership amendment** | 🟢 | Non-exclusive license confirmed May; OpenAI can serve from any cloud | Whether OpenAI signs major non-Azure cloud deal next |
 
@@ -72,7 +77,11 @@ Last updated: **2026-05-12**
 | Thread | Status | Last move | Watching for |
 |---|---|---|---|
 | **CAIO adoption 76% (IBM)** | 🟢 | Report released May 11; broader coverage May 12 | LinkedIn job-posting volume for CAIO + reports-to-CAIO roles |
-| **CS new-grad market bifurcation (Q1 data)** | 🟢 | 52,050 Q1 tech layoffs · generic SWE -40% · MLE +41.8% YoY | Q2 print; whether MLE growth holds at >25% YoY |
+| **CS new-grad market bifurcation (Q1 data — revised)** | 🟢 | Revised May 13: 78,557 Q1 tech layoffs / 47.9% AI-attributed · generic SWE -40% · MLE +41.8% YoY | Q2 print; whether MLE growth holds at >25% YoY |
+| **Meta May 20 layoffs (8,000)** | 🟡 | Confirmed for May 20 | Senior MLE/AI talent flooding market; Meta-alumni startup formations 60–90 days later |
+| **Microsoft voluntary buyouts (~8,750 potential)** | 🟡 | Confirmed ~7% US employees eligible | Where ex-Microsoft AI/Copilot talent lands; small-AI-startup product orgs that absorb them |
+| **GM AI-skills-driven IT layoffs** | 🟢 | Confirmed May 11 — "hundreds" cut to fund AI hires | Atlassian model replication across legacy enterprises |
+| **Atlassian barbell (cut + 800 AI hires)** | 🟢 | Confirmed; cleanest "AI-reshape" example | Which large enterprises follow with the same simultaneous-cut-and-hire pattern |
 | **Frontier-lab new-grad MLE comp $400–600K** | 🟡 | Anthropic-driven | Whether Google/Meta/OpenAI publicly match in fall 2026 cycle |
 | **JPM 400 AI engineers, GS 200, MS 150, Citi 250** | 🟡 | Confirmed throughout May | When NYC AI-eng demand surpasses SF |
 | **FDE roles industry-wide** | 🟡 | Volume up 3× over Q1 | Whether comp converges with frontier-lab IC bands |
@@ -88,6 +97,9 @@ Last updated: **2026-05-12**
 | Thread | Status | Last move | Watching for |
 |---|---|---|---|
 | **Anthropic Dreaming** | 🟡 | Research preview May 7 | Generalization beyond coding/finance/legal |
+| **Agent Reliability framework (arXiv 2602.16666)** | 🟢 | v2 active; 12 metrics across 4 dimensions; reliability decoupling thesis | Replications; whether labs internally adopt the metrics |
+| **Outcome-Driven Constraint Violations benchmark (2512.20798)** | 🟢 | Published; complements Constraint Decay (capability vs alignment failure modes) | Independent benchmarks; vendor-by-vendor replication |
+| **HF trending: GenericAgent / rStar / HyperEyes / AutoTTS / DeepCode** | 🟢 | Trending May W20 | Whether DeepCode-style doc-to-code becomes a startup category |
 | **Multi-agent vs single-agent under matched compute** | 🟡 | Stanford finding | Replications; counter-papers |
 | **Mamba/hybrid open frontier (Nemotron)** | 🟡 | Nano Omni shipped | Next hybrid open model at scale |
 | **On-policy distillation sweep (OPD survey + SDPO + OPSD)** | 🟡 | First comprehensive survey published April · SDPO + OPSD reproducible code | Whether frontier labs adopt at training time |
@@ -113,3 +125,7 @@ Last updated: **2026-05-12**
 | **Apply to Google DeepMind Early Career** | ⚪ | Submit this month |
 | **Send 3 cold emails to frontier-lab engineers** | ⚪ | This week |
 | **Post 3-prediction Aluminium OS take on LinkedIn/X** | ⚪ | By Friday May 15 |
+| **Ship MCP server + Claude Skill weekend project** | ⚪ | This weekend (May 17–18) — see 2026-05-13/03 |
+| **Apply to 1 Anthropic FDE / Integration Engineer role** | ⚪ | This week — pair with the MCP artifact link |
+| **Read arXiv 2602.16666 + post 1 tweet/LinkedIn takeaway** | ⚪ | This week |
+| **Benchmark voice latency across Grok / OpenAI Realtime-2 / Google Speech** | ⚪ | By end of May |

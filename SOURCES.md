@@ -23,6 +23,7 @@ These are first-party — no middleman, no spin. Always check these before readi
 ### Financial Filings & Revenue Data
 - [Sacra — OpenAI](https://sacra.com/c/openai/) — revenue estimates, valuation, financials
 - [The Information](https://www.theinformation.com/) — best sourced tech financial reporting (paywall)
+- [Ramp AI Index](https://ramp.com/data/ai-index) — monthly verified business-adoption data (which AI vendors companies actually pay for) — highest-signal adoption tracker
 
 ---
 
@@ -131,6 +132,7 @@ Slower cadence, higher depth. Read on weekends.
 - [Schneier on Security](https://www.schneier.com/) — AI security analysis from a credible source
 - [Gwern.net](https://gwern.net/) — long-form, extremely high density, speculative but rigorous
 - [TLDL](https://www.tldl.io/) — AI news with timeline and trend tracking
+- [SemiAnalysis (Dylan Patel)](https://newsletter.semianalysis.com/) — deep compute/infra economics and adoption-data analysis (e.g., Claude Code commit-share)
 
 ---
 

@@ -4,7 +4,7 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-14**
+Last updated: **2026-05-15**
 
 ---
 
@@ -26,6 +26,8 @@ Last updated: **2026-05-14**
 | **Q1 2026 venture data ($300B / 80% AI)** | 🟢 | Crunchbase reported | Q2 2026 print — will the AI share hold above 70%? |
 | **Browser-agent infra category ($2B+ rounds)** | 🟡 | Parallel Web closed at $2B | Next $2B+ round in the category |
 | **Mistral capital event (EU sovereignty catalyst)** | ⚪ | EU vs. Mythos escalation accelerates this | Round $5B+ announced; or xAI partnership formalized |
+| **Anthropic acquires Stainless (≥$300M)** | 🟡 | 2026-05-12 → 2026-05-15: advanced talks reported (The Information, multiple confirms) | Deal close; OpenAI/Google response on SDK toolchain ownership |
+| **Chapter Medicare-AI Series E ($100M, Generation IM)** | 🟢 | Closed May 2026 | Hiring volume; whether Medicaid-equivalent player gets funded next |
 
 ---
 
@@ -45,6 +47,8 @@ Last updated: **2026-05-14**
 | **Claude Code share of GitHub commits** | 🟡 | SemiAnalysis: ~4% of all public commits (~135K/day), double the prior month | Whether the 20%-by-end-2026 projection tracks; reliability/outage complaints at scale |
 | **Android XR glasses (gen 2)** | 🟡 | Previewed May 12 | Final hardware partners; consumer launch date |
 | **Claude for Legal (12 plugins + 20+ MCP connectors)** | 🟢 | Launched May 12 — first major Anthropic vertical | Healthcare / Finance / etc verticals next; partner volume growth |
+| **PwC × Anthropic: 30K trained → 364K global; Claude-native Finance practice** | 🟡 | 2026-05-14 announcement; first Big-4 single-vendor mass-cert commitment | Deloitte / Accenture / EY counter-commitments (90 day window); first F500 deal won by the Finance practice |
+| **Google I/O 2026 (May 19, 10 AM PT)** | 🟡 | Pre-keynote leaks: Gemini 4 (native image+video), "Remy" agent, "Gemini Spark" proactive agent, Android 17 SDK, Googlebook SDK, Android XR glasses Gen 2 | Keynote live; SDK feature set; pricing of Gemini 4 vs Claude / GPT |
 | **Meta Avocado / Mango (next flagship LLMs)** | 🟡 | Delays confirmed May 12; closed-source pivot at C-suite | H2 2026 launch date; whether any portion ships open-weights |
 
 ---
@@ -115,6 +119,9 @@ Last updated: **2026-05-14**
 | **Calibration / abstention ("Answer, Refuse, or Guess?")** | 🟡 | Appier research published — LLMs miscalibrated in both directions on risk | Replications; whether abstention layers become standard in vertical agents |
 | **Agent memory maintenance (STALE / SAGE / survey 2603.07670)** | 🟡 | Memory-validity + graph-memory work trending May W19 | Whether staleness detection becomes a funded infra category vs Mem0/EverMemOS |
 | **Neuro-symbolic efficiency (~100× energy, ICRA Vienna)** | ⚪ | Presented May 2026 — task-specific result | Replication outside robotics; whether it enables on-device agents |
+| **Attractor Models — fixed-point latent reasoning** | 🟡 | arXiv submission May 12 — frames latent refinement as fixed-point problem; memory-efficient | Replications outside the original lab; whether commercial APIs absorb the pattern |
+| **"Many Faces of On-Policy Distillation" (unified taxonomy)** | 🟡 | arXiv May 11 — capability-gap sweet spot, diversity scaffolding, reward-landscape shape | Whether labs cite this as the canonical OPD reference; production OPD pipelines that follow the prescription |
+| **AI-skill wage premium 25% → 56% in 12 months** | 🟢 | Lightcast / Dice / IEEE Spectrum spring 2026 reads | Whether premium holds above 40% through Q4 2026; non-AI tech wage compression continues |
 
 ---
 
@@ -144,3 +151,7 @@ Last updated: **2026-05-14**
 | **Apply to 1 AI-infrastructure role** | ⚪ | This week — new less-crowded lane, Cisco data confirms demand |
 | **Watch Google I/O 2026 keynote (May 19)** | ⚪ | Googlebook/Aluminium OS SDK drop |
 | **Log where Meta May 20 layoff alumni land** | ⚪ | Start May 21 — leading signal for strong new product orgs |
+| **Pick ONE of the 5 AI sub-roles (Applied / Platform / LLM / Product / Responsible)** | ⚪ | This weekend — and rewrite resume headline to match |
+| **Ship + publish public MCP server (4–6 hr weekend project)** | ⚪ | By Sun May 17 night — pin above resume projects |
+| **Watch I/O keynote (May 19) and publish next-morning 1-page Gemini-vs-Claude-vs-OpenAI agent comparison** | ⚪ | By May 20 — single highest-leverage 4-hour artifact this week |
+| **Read "Attractor Models" + "Many Faces of OPD" end-to-end** | ⚪ | This week — earn the right to drop the vocabulary in interviews |

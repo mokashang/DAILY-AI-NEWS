@@ -133,6 +133,8 @@ Slower cadence, higher depth. Read on weekends.
 - [Gwern.net](https://gwern.net/) — long-form, extremely high density, speculative but rigorous
 - [TLDL](https://www.tldl.io/) — AI news with timeline and trend tracking
 - [SemiAnalysis (Dylan Patel)](https://newsletter.semianalysis.com/) — deep compute/infra economics and adoption-data analysis (e.g., Claude Code commit-share)
+- [Stratechery (Ben Thompson)](https://stratechery.com/) — strategic framing of platform / lab moves (M&A, distribution, business models)
+- [Latent Space (swyx + Alessio)](https://www.latent.space/) — practitioner deep dives, leaks, and podcasts with the eng-leads behind frontier products
 
 ---
 

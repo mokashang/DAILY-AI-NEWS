@@ -4,7 +4,7 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-15**
+Last updated: **2026-05-16**
 
 ---
 
@@ -28,6 +28,11 @@ Last updated: **2026-05-15**
 | **Mistral capital event (EU sovereignty catalyst)** | ⚪ | EU vs. Mythos escalation accelerates this | Round $5B+ announced; or xAI partnership formalized |
 | **Anthropic acquires Stainless (≥$300M)** | 🟡 | 2026-05-12 → 2026-05-15: advanced talks reported (The Information, multiple confirms) | Deal close; OpenAI/Google response on SDK toolchain ownership |
 | **Chapter Medicare-AI Series E ($100M, Generation IM)** | 🟢 | Closed May 2026 | Hiring volume; whether Medicaid-equivalent player gets funded next |
+| **GridCARE $64M Series A (oversubscribed, power-acceleration)** | 🟢 | Closed week of May 12; significant step-up from prior round | First adjacent round in interconnection-queue or on-site-gen tooling; NVIDIA strategic invest? |
+| **Sprouts.ai $9M Pre-Series A (Revenue Agents, B2B GTM)** | 🟢 | Closed May 15 (TGV + Accel) | Hiring volume; whether the GTM-agent category gets another mega-round to anchor it |
+| **Nectar Social $30M Series A (agentic marketing OS)** | 🟢 | Closed May 14 | Customer logos; whether the consolidation pitch lands with mid-market marketers |
+| **Multiverse $70M (AI-skills workforce training)** | 🟢 | Closed May 14 | Enterprise customer expansion; pricing model |
+| **equipifi $34M Series B (BNPL for community banks)** | 🟢 | Closed May 14 | AI-product roadmap; partner-FI count |
 
 ---
 
@@ -50,6 +55,10 @@ Last updated: **2026-05-15**
 | **PwC × Anthropic: 30K trained → 364K global; Claude-native Finance practice** | 🟡 | 2026-05-14 announcement; first Big-4 single-vendor mass-cert commitment | Deloitte / Accenture / EY counter-commitments (90 day window); first F500 deal won by the Finance practice |
 | **Google I/O 2026 (May 19, 10 AM PT)** | 🟡 | Pre-keynote leaks: Gemini 4 (native image+video), "Remy" agent, "Gemini Spark" proactive agent, Android 17 SDK, Googlebook SDK, Android XR glasses Gen 2 | Keynote live; SDK feature set; pricing of Gemini 4 vs Claude / GPT |
 | **Meta Avocado / Mango (next flagship LLMs)** | 🟡 | Delays confirmed May 12; closed-source pivot at C-suite | H2 2026 launch date; whether any portion ships open-weights |
+| **Claude for Small Business (QuickBooks/PayPal/HubSpot/Canva/DocuSign/Workspace/MS365)** | 🟢 | Launched May 13; free 10-city in-person tour kicked off May 14 | Adoption velocity in SMB segment (Anthropic's first <500-employee push); partner-app integration depth |
+| **Anthropic Agent SDK metering split (effective June 15)** | 🟡 | Announced; credit pool by tier ($20/$100/$200); programmatic billed at full API list rate | June 8 email with exact allocations; community workarounds (router SDKs, prompt caching, batching); downstream vendor responses (Zed already adapting) |
+| **OpenAI ChatGPT Personal Finance (Plaid, 12K+ FIs)** | 🟢 | Launched May 15, Pro-only US preview | Intuit integration timing; Plus rollout; non-US clones |
+| **Gemini "Omni" unified video/image/audio model** | 🟡 | Second UI string surfaces May 14–15; synchronized audio + NL video editing observed | Official reveal May 19 I/O keynote |
 
 ---
 
@@ -122,6 +131,9 @@ Last updated: **2026-05-15**
 | **Attractor Models — fixed-point latent reasoning** | 🟡 | arXiv submission May 12 — frames latent refinement as fixed-point problem; memory-efficient | Replications outside the original lab; whether commercial APIs absorb the pattern |
 | **"Many Faces of On-Policy Distillation" (unified taxonomy)** | 🟡 | arXiv May 11 — capability-gap sweet spot, diversity scaffolding, reward-landscape shape | Whether labs cite this as the canonical OPD reference; production OPD pipelines that follow the prescription |
 | **AI-skill wage premium 25% → 56% in 12 months** | 🟢 | Lightcast / Dice / IEEE Spectrum spring 2026 reads | Whether premium holds above 40% through Q4 2026; non-AI tech wage compression continues |
+| **Cattle Trade multi-agent benchmark (arXiv 2605.14537)** | 🟢 | Published May 14 — bluffing/bidding/bargaining under imperfect info | Citation velocity; whether labs report scores in next flagship releases |
+| **Successor-Representation Spectrum for LLM topologies (arXiv 2605.11453)** | 🟢 | Published May 12 — principled topology selection for multi-agent systems | Adoption in multi-agent debugging tooling; integration into Sierra/Cognition/CrewAI |
+| **Topology-not-alignment safety position paper** | 🟡 | Position paper week of May 12 (Bajaj et al.) | Whether EU policymakers cite the framing; whether it shapes Article 51 enforcement criteria |
 
 ---
 
@@ -155,3 +167,9 @@ Last updated: **2026-05-15**
 | **Ship + publish public MCP server (4–6 hr weekend project)** | ⚪ | By Sun May 17 night — pin above resume projects |
 | **Watch I/O keynote (May 19) and publish next-morning 1-page Gemini-vs-Claude-vs-OpenAI agent comparison** | ⚪ | By May 20 — single highest-leverage 4-hour artifact this week |
 | **Read "Attractor Models" + "Many Faces of OPD" end-to-end** | ⚪ | This week — earn the right to drop the vocabulary in interviews |
+| **Audit Claude programmatic spend before June 15 metering change** | ⚪ NEW — URGENT | This weekend — see 2026-05-16/03 |
+| **Retitle resume headline to "AI Integration Engineer in training"** | ⚪ NEW | Tonight — see 2026-05-16/05 |
+| **Apply to 5 specific AI Integration Engineer roles with MCP artifact attached** | ⚪ NEW | This week — see 2026-05-16/05 |
+| **Read "Cattle Trade" + "Successor-Representation Spectrum" papers** | ⚪ NEW | This week — replaces last week's reading task once Attractor Models / OPD are done |
+| **Publish Gemini-vs-Claude-vs-OpenAI agent comparison Wed May 20 (post-I/O)** | ⚪ | Watch I/O Tuesday 10 AM PT; publish next morning |
+| **Pitch one local SMB on a "vertical-Claude-for-X" workflow library** | ⚪ NEW | This week — doubles as customer discovery for the startup wedge |

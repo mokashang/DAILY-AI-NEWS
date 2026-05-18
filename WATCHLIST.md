@@ -4,7 +4,7 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-17**
+Last updated: **2026-05-18**
 
 ---
 
@@ -12,7 +12,7 @@ Last updated: **2026-05-17**
 
 | Thread | Status | Last move | Watching for |
 |---|---|---|---|
-| **Anthropic $30–50B raise at up to ~$950B post** | 🟡 | 2026-05-13/14: valuation now reported as high as $950B (NYT/Bloomberg/Sherwood); would eclipse OpenAI's $854B | Signed term sheet; final post-money; lock-up period |
+| **Anthropic $30–50B raise at up to ~$950B post** | 🟡 | 2026-05-18: still no term sheet signed (per BuildFastWithAI Monday digest); 3rd consecutive week characterized as "imminent" — likely slipping to align with post-June-15 metering data; possible close timed to Code w/ Claude Tokyo (June 5–6) | Signed term sheet; final post-money; lock-up period; whether MGX / UK Sovereign / SoftBank Vision Fund 3 anchor |
 | **Anthropic ARR trajectory** | 🟡 | $44B disclosed in May 8 investor meeting | Monthly progression; first month of deceleration |
 | **Anthropic > OpenAI on US business adoption** | 🟢 | 2026-05-14 Ramp AI Index: Anthropic 34.4% vs OpenAI 32.3% — first crossover ever | Revenue crossover (Anthropic leads seats, OpenAI leads dollars); whether the 2.1pt lead holds |
 | **OpenAI "The Development Company" enterprise JV** | 🟡 | Raised $4B from 19 investors at $10B valuation | First enterprise customer logos; how it competes with Anthropic's PE-deployment JV |
@@ -53,14 +53,18 @@ Last updated: **2026-05-17**
 | **Android XR glasses (gen 2)** | 🟡 | Previewed May 12 | Final hardware partners; consumer launch date |
 | **Claude for Legal (12 plugins + 20+ MCP connectors)** | 🟢 | Launched May 12 — first major Anthropic vertical | Healthcare / Finance / etc verticals next; partner volume growth |
 | **PwC × Anthropic: 30K trained → 364K global; Claude-native Finance practice** | 🟡 | 2026-05-14 announcement; first Big-4 single-vendor mass-cert commitment | Deloitte / Accenture / EY counter-commitments (90 day window); first F500 deal won by the Finance practice |
-| **Google I/O 2026 (May 19, 10 AM PT)** | 🟡 | Pre-keynote leaks: Gemini 4 (native image+video), "Remy" agent, "Gemini Spark" proactive agent, Android 17 SDK, Googlebook SDK, Android XR glasses Gen 2 | Keynote live; SDK feature set; pricing of Gemini 4 vs Claude / GPT |
+| **Google I/O 2026 (May 19, 10 AM PT)** | 🟡 | **T-minus 1 day** — final pre-keynote consensus (May 18): Gemini 3.2 Flash (not Gemini 4 rebrand), Gemma 4 open-weights, Android 17 SDK, Aluminium OS / Googlebook + OEM ship windows, Android XR Gen 2 (Samsung + Warby Parker rumored), Vertex AI Agent SDK pricing (the key line item to watch); TechTimes framing: "Gemini lands behind Mythos and GPT-5.5" | Keynote live; whether Sundar leads consumer vs enterprise; Vertex Agent SDK pricing vs Claude metered tier; first independent Gemma 4 fine-tune to cross 1K stars |
 | **Meta Avocado / Mango (next flagship LLMs)** | 🟡 | Delays confirmed May 12; closed-source pivot at C-suite | H2 2026 launch date; whether any portion ships open-weights |
 | **Claude for Small Business (QuickBooks/PayPal/HubSpot/Canva/DocuSign/Workspace/MS365)** | 🟢 | Launched May 13; free 10-city in-person tour kicked off May 14 | Adoption velocity in SMB segment (Anthropic's first <500-employee push); partner-app integration depth |
-| **Anthropic Agent SDK metering split (effective June 15)** | 🟡 | Announced; credit pool by tier ($20/$100/$200); programmatic billed at full API list rate | June 8 email with exact allocations; community workarounds (router SDKs, prompt caching, batching); downstream vendor responses (Zed already adapting) |
+| **Anthropic Agent SDK metering split (effective June 15)** | 🟡 | 2026-05-18: confirmed via TECHSY that **the credit doesn't auto-activate — manual toggle required in account settings** (do this tonight). Announced; credit pool by tier ($20/$100/$200); programmatic billed at full API list rate | June 8 email with exact allocations; how many programmatic-Claude users miss the toggle and get blocked on June 15; community workarounds (router SDKs, prompt caching, batching); downstream vendor responses (Zed already adapting) |
 | **OpenAI ChatGPT Personal Finance (Plaid, 12K+ FIs)** | 🟢 | Launched May 15, Pro-only US preview | Intuit integration timing; Plus rollout; non-US clones |
 | **Gemini "Omni" unified video/image/audio model** | 🟡 | Sample clips now public from at least one Gemini Pro tester (May 16–17); ~10 sec/clip cap suggested, daily quota burnable in 2 prompts | Official reveal May 19 I/O keynote |
 | **OpenAI Codex in ChatGPT mobile (iOS + Android)** | 🟢 | Shipped May 14 to all plans incl. Free/Go; macOS desktop-app prereq; ~4M weekly Codex users disclosed | Windows desktop support timing; whether Anthropic ships Claude Code mobile parity within 90 days |
 | **Anthropic × Gates Foundation $200M / 4-yr partnership** | 🟢 | Announced May 14, full Sunday cycle May 17 — global health (polio, HPV, eclampsia/preeclampsia), education (K-12 + sub-Saharan Africa / India literacy), economic mobility (smallholder farming) | First Anthropic JD posts for "Applied AI — Mission Programs / Solutions Engineer — Health / Education" within 30 days; OpenAI / DeepMind parity mission deals |
+| **Code w/ Claude London (May 20–21) + Tokyo (June 5–6)** | 🟢 NEW | Announced; opens **36 hours after I/O 2026 keynote ends** = explicit counter-programming; Day-1 livestream; keynote panel Ami Vora · Boris Cherny · Angela Jiang; customer presenters Asana · Cursor · GitHub · Replit · Vercel | New SDK feature announcements timed to land 24h after Sundar; whether Anthropic reveals a "Vertex-Agent-SDK response"; which customer announces a deeper Claude integration |
+| **Isomorphic Labs $2.1B Series B** | 🟢 NEW | Closed May 12 — Thrive lead, + Alphabet/GV + MGX + Temasek + CapitalG + UK Sovereign AI Fund; total capital base $2.6B; first "Lab+VC+Sovereign+Industry" four-corner template | Whether the four-corner template is replicated in another vertical AI round inside 60 days (biotech / materials / energy / defense); London + Cambridge MA + Lausanne hiring waves |
+| **Mustafa Suleyman 18-month white-collar automation forecast** | 🟡 NEW | Multiple May 2026 reiterations (Fortune, Tom's Hardware, Irish Examiner, AzazTV) — names accounting, legal, marketing, project management as first targets; opposing data from Thomson Reuters 2025 survey shows augmentation > displacement | Whether Sam Altman + Sundar Pichai publicly converge on the same 12–18 month timeline at I/O / future events; whether Copilot-attach economics show the predicted lift in Microsoft Q2 earnings (Aug 2026) |
+| **OpenAI Sweetpea / Jony Ive device** | 🟡 | H2 2026 target reaffirmed (Chris Lehane at Axios House Davos Jan 2026); Foxconn manufacturing; screenless behind-the-ear wearable + glasses + voice-recorder exploration | Official reveal date; first hardware impressions; pricing; OS integration story (does it embed ChatGPT mobile + Codex Mobile?) |
 
 ---
 
@@ -97,13 +101,13 @@ Last updated: **2026-05-17**
 |---|---|---|---|
 | **CAIO adoption 76% (IBM)** | 🟢 | Report released May 11; broader coverage May 12 | LinkedIn job-posting volume for CAIO + reports-to-CAIO roles |
 | **CS new-grad market bifurcation (Q1 data — revised)** | 🟢 | Revised May 13: 78,557 Q1 tech layoffs / 47.9% AI-attributed · generic SWE -40% · MLE +41.8% YoY | Q2 print; whether MLE growth holds at >25% YoY |
-| **Meta May 20 layoffs (8,000)** | 🟡 | Confirmed for May 20 | Senior MLE/AI talent flooding market; Meta-alumni startup formations 60–90 days later |
+| **Meta May 20 layoffs (8,000 + 6,000 req cancellations = ~14K effective)** | 🟡 | **T-minus 2 days** — confirmed for Wed May 20; severance 16 wks + 2 wks/yr + 18 mo health; restructure under CAIO Alexandr Wang's Superintelligence Labs pods; funding $135B 2026 AI infra spend; brings Zuckerberg's cumulative cuts since 2022 to ~25K | Senior MLE/AI talent flooding market on May 21–22 (your outreach window opens Thursday); Meta-alumni startup formations 60–90 days later; which 5 startups (Cognition / Sierra / Decagon / Pit / Avoca / etc.) absorb the highest-leverage alumni |
 | **Microsoft voluntary buyouts (~8,750 potential)** | 🟡 | Confirmed ~7% US employees eligible | Where ex-Microsoft AI/Copilot talent lands; small-AI-startup product orgs that absorb them |
 | **GM AI-skills-driven IT layoffs** | 🟢 | Confirmed May 11 — "hundreds" cut to fund AI hires | Atlassian model replication across legacy enterprises |
 | **Atlassian barbell (cut + 800 AI hires)** | 🟢 | Confirmed; cleanest "AI-reshape" example | Which large enterprises follow with the same simultaneous-cut-and-hire pattern |
 | **Frontier-lab new-grad MLE comp $400–600K** | 🟡 | Anthropic-driven | Whether Google/Meta/OpenAI publicly match in fall 2026 cycle |
 | **JPM 400 AI engineers, GS 200, MS 150, Citi 250** | 🟡 | Confirmed throughout May | When NYC AI-eng demand surpasses SF |
-| **FDE roles industry-wide** | 🟡 | **Revised May 17:** **+800% YoY** in postings (KORE1/Metaintro); Google Cloud 59 open (12 Applied AI in NY/Atlanta); Salesforce / Anthropic / Palantir / OpenAI / Cohere / Databricks / Scale / EY-UK all hiring; senior base $215–310K; frontier-lab TC regularly $500K+ | Whether comp converges with frontier-lab IC bands; whether Big-4 (Deloitte/Accenture) match EY's UK FDE launch |
+| **FDE roles industry-wide** | 🟡 | **Revised May 17:** **+800% YoY** in postings (KORE1/Metaintro); also framed as **42× growth 2023→2025** (Computerworld); Google Cloud 59 open (12 Applied AI in NY/Atlanta); Salesforce / Anthropic / Palantir / OpenAI / Cohere / Databricks / Scale / EY-UK all hiring; senior base $215–310K; frontier-lab TC regularly $500K+. **May 18 update:** Vertex Agent SDK hiring wave expected within 7 days of I/O keynote; Atlas-G Protocol MCP-mediated interview tooling now in pilot for some teams | Whether comp converges with frontier-lab IC bands; whether Big-4 (Deloitte/Accenture) match EY's UK FDE launch; Vertex Agent SDK FDE postings count by May 25 |
 | **Cognition (Devin) hiring wave** | 🟡 | Round pending close; enterprise revenue 80× YoY | Founding-engineer / deployment-engineer JD volume |
 | **Defense AI (Scout, Anduril, Shield, Saronic, Helsing)** | 🟡 | Scout $100M Series A · Helsing $1.2B strategic | Clearance-required role volume |
 | **Cloudflare layoffs (1,100)** | 🟢 | Confirmed week of 05-09 | Whether other "AI-replaced" layoffs in the same form factor follow |
@@ -141,6 +145,11 @@ Last updated: **2026-05-17**
 | **TrajAD — Runtime trajectory verifier w/ precise rollback** | 🟢 NEW | Trending May 17 — Haiku-size verifier for Opus-size main agents; ~10× verifier-to-agent ratio | Production-vendor integrations from Anthropic / Sierra / Cognition; false-positive-rate field reports |
 | **"Agentic AI Orchestration Should Be Bayes-consistent" position paper** | 🟡 NEW | Position paper May 17 trending | Whether frontier-lab posts cite the framing; whether "Bayes-consistent" appears in job-post requirements within 90 days |
 | **Lifting Traces to Logic (programmatic skill induction)** | 🟡 NEW | arXiv May 17 — neuro-symbolic skill abstraction from agent traces; portable across providers | Whether commercial agent memory systems (Mem0/EverMemOS) absorb the technique |
+| **CHAL — Council of Hierarchical Agentic Language Models (arXiv 2605.12718)** | 🟢 NEW | arXiv May 12, trending May 18 — hierarchical multi-agent dialectic, defeasible argumentation as belief optimization; 3–8pp improvement on ambiguous-evidence tasks vs monolithic CoT, at 3–7× token cost | Citation velocity by mid-July; production adoption by Sierra / Decagon / Cognition; whether the *task-conditional* multi-agent framing replaces the 2025 "single agent under matched compute wins" framing |
+| **MemReread — Memory-Guided Long-Context Rereading (arXiv 2605.10268)** | 🟢 NEW | arXiv May 11, trending May 18 — streaming rereading guided by structured working memory; alternative to RAG for long-document tasks | Whether the memory-architecture subfield converges on read-first vs retrieve-first; production adoption signals from Mem0 / EverMemOS / Cognee |
+| **ARIS — Cross-Model Adversarial-Collaboration Research Harness** | 🟢 NEW | Trending May 18 — open-source counter to Anthropic Dreaming + Karpathy autoresearch; multi-vendor adversarial roles for verification | Replication of Anthropic Dreaming results in public; whether commercial "AI scientist SaaS" products ship on top of ARIS |
+| **Storage Is Not Memory — Retrieval-Centered Agent Recall** | 🟡 NEW | Trending May 18 — proposes storage / recall / memory trichotomy; reframes the "agent memory" product category | Whether the vocabulary is adopted in product copy (Mem0, EverMemOS, LangMem, Cognee); citation velocity 60 days |
+| **Multimodal Procedural Knowledge — Skill Cards for Visual Agents (SJTU)** | 🟡 NEW | Trending May 14, deeper May 18 — text + state-cards + visual-keyframes as portable skill structure for GUI / Computer-Use / robotics agents | First commercial vendor to ship "portable skill cards" as a feature; whether a skill-card marketplace category forms |
 
 ---
 
@@ -186,3 +195,15 @@ Last updated: **2026-05-17**
 | **Re-title LinkedIn headline to "AI Integration / FDE — Anthropic stack · MCP · Cost-aware agents"** | ⚪ NEW — TONIGHT | Sunday May 17 — see 2026-05-17/05 §1; do before Monday-morning recruiter search wave |
 | **Pick ONE vertical-agent wedge and Loom-demo it to 1 buyer this week** | ⚪ NEW | This week — see 2026-05-17/05 §3 — the rising-lane bet that pairs with the FDE fallback |
 | **Pre-load Tuesday I/O viewing template (10 AM–1:30 PM PT) + 1-page Gemini vs Claude vs GPT post-keynote** | ⚪ NEW | Monday/Tuesday May 18–19 — see 2026-05-17/03 §4 |
+| **Toggle the Agent SDK credit setting in Claude account settings** | ⚪ NEW — TONIGHT | Monday May 18 — see 2026-05-18/03 §2; credit doesn't auto-activate, silent fail June 15 if skipped |
+| **Pre-stage the Gemini vs Claude vs GPT comparison doc** (pre-fill Claude Opus 4.7 + GPT-5.5 rows) | ⚪ NEW — TONIGHT | Monday May 18 — see 2026-05-18/03 §1 |
+| **Pre-write LinkedIn / X teaser post template with 4 placeholders** | ⚪ NEW — TONIGHT | Monday May 18 — see 2026-05-18/03 §1 Block 3 |
+| **Block Tuesday 10 AM–5 PM PT for I/O viewing + comparison publish + 1 FDE application** | ⚪ NEW — TONIGHT | Monday May 18 — see 2026-05-18/03 §1 Block 5 |
+| **Set 12:45 AM PT alarm Wednesday for Code w/ Claude London Day-1 livestream** | ⚪ NEW | Monday/Tuesday — see 2026-05-18/03 §3 |
+| **Build "Thursday outreach short-list" of 10 Meta engineers (no contact yet)** | ⚪ NEW — TONIGHT | Monday May 18 — see 2026-05-18/05 §1 |
+| **Pre-write 5 Thursday DM templates (one per Meta sub-org archetype)** | ⚪ NEW | Mon/Tue May 18–19 — see 2026-05-18/05 §1 |
+| **Refresh LinkedIn headline to add "Vertex stack"** | ⚪ NEW — TONIGHT | Monday May 18 — see 2026-05-18/05 §4 — signals readiness for Wednesday's Vertex Agent SDK hiring wave |
+| **Re-read ME.md + decide whether to add a vertical-PM-agent wedge to Active Portfolio** | ⚪ NEW | Monday/Tuesday May 18–19 — see 2026-05-18/05 §5 and 2026-05-18/02 §4 — the most under-built of the "Suleyman 4" verticals |
+| **Apply to Isomorphic Labs engineering role (London / Cambridge MA / Lausanne)** | ⚪ NEW | This week — see 2026-05-18/02 §1; rare AI-vertical employer not requiring biology PhD; lead with any comp-bio / chem-adjacent ML coursework |
+| **Read CHAL paper end-to-end + post 1-paragraph LinkedIn comparison to DyTopo + Bayes-consistent orchestration** | ⚪ NEW | This week — see 2026-05-18/04 §1 — signals current-week multi-agent reading depth |
+| **Watch first 8 minutes of Sundar's I/O opener to classify consumer-first vs enterprise-first framing** | ⚪ NEW | Tuesday — see 2026-05-18/01 §1 Insight — most predictive single signal for next-18-mo lab competition |

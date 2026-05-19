@@ -1,0 +1,58 @@
+# TL;DR — 2026-05-19 (Tuesday)
+
+Sixty-second skim. **Today is Google I/O 2026 keynote day** (10 AM PT) — and **Anthropic's Code w/ Claude London Day-1 runs the same day** (correction to yesterday's edition, which had London opening Wednesday — the official Anthropic schedule lists London on **May 19**, Tokyo on **June 10**, same calendar day as I/O). Meta's 8,000-person reorg lands tomorrow May 20. Three of the largest non-Anthropic / non-OpenAI stories of 2026 collide inside a 36-hour window starting now. This edition is built around: (1) **real-time I/O monitoring discipline** — what to write down in which 15-minute block, (2) recognizing that Anthropic's same-day London counter-programming is *bolder* than yesterday's edition framed it, (3) confirmed funding details on **Isomorphic Labs $2.1B**, **Sierra $950M / $15B**, **Parallel Web Systems $100M Sequoia**, and **OpenAI Deployment Company $4B + Tomoro / 150 FDEs** that re-shape the FDE / AI-Integration job market for the next 90 days.
+
+---
+
+1. **Google I/O 2026 keynote = today, 10 AM PT.** Pre-keynote consensus has narrowed to: **Gemini 3.5 (not 3.2 Flash and not Gemini 4)** as the developer-tier flagship, **Gemma 4** open-weights, **Gemini Omni** unified video/image/audio + chat-based editing, **Gemini Spark / Remy** proactive personal agent, **Android XR Gen 2** glasses (Samsung Galaxy XR + Warby Parker + Gentle Monster — all three named in May 17–18 leaks), **Aluminium OS / Googlebook** with formal product name + OEM ship windows (Acer, Asus, Dell, HP, Lenovo confirmed), **Android 17 SDK** with system-level agent hooks, and **Vertex AI Agent Platform pricing** (current public rate: $0.0864/vCPU-hr runtime + $0.25 per 1K stored session events; Gemini 3 endpoint pricing live July 1 for non-global endpoints). The TechTimes framing — "*Gemini lands behind Mythos and GPT-5.5*" — sets the bar: Google must *close the capability gap* today, not lead. → [`01-big-lab-moves.md`](./01-big-lab-moves.md#1-io-day) `#google #io2026 #gemini35 #gemma4 #vertex-agent-platform #aluminium-os`
+
+2. **CORRECTION + ESCALATION: Code w/ Claude London is TODAY (May 19), not tomorrow.** Anthropic's official conference site ([claude.com/code-with-claude](https://claude.com/code-with-claude)) lists: **SF May 6 · London May 19 · Tokyo June 10**. London Day-1 runs **the same calendar day as Google I/O**, with Day-1 livestreamed. This is more aggressive counter-programming than the +36-hour framing in yesterday's edition — Anthropic is **directly contesting the news cycle**, not just shaping the post-keynote conversation. Confirmed customer presenters: **Asana, Cursor, GitHub, Replit, Vercel.** Day-1 keynote panel: Ami Vora · Boris Cherny · Angela Jiang. → [`01-big-lab-moves.md`](./01-big-lab-moves.md#2-london-today) `#anthropic #code-w-claude #london #counter-programming #correction`
+
+3. **Meta May 20 layoff: T-minus 1 day.** Reuters / TheNextWeb / CNN Business consensus: **8,000 cuts = 10% of the 78,865-person workforce**, restructured under CAIO **Alexandr Wang's Superintelligence Labs** pods (Wang's first Meta-model **Muse Spark** shipped earlier in May). $115–135B 2026 AI infra spend funds the headcount swap. Affected divisions: Reality Labs, Facebook social, recruiting, sales, global operations. **Your inbox fills up Thursday May 21–Friday May 22 with senior MLE/AI talent on the market** — be ready with the pre-written outreach DM templates from yesterday's `[05] §1`. → [`05-career-and-startup.md`](./05-career-and-startup.md#1-meta-tminus-1) `#meta #layoffs #mle-supply-shock #superintelligence-labs`
+
+4. **Isomorphic Labs $2.1B Series B — full details now confirmed.** Bloomberg + 7 financial outlets confirm: **Thrive Capital lead** with Alphabet/GV + Temasek + CapitalG + MGX (Abu Dhabi) + UK Sovereign AI Fund. Founded 2021 as DeepMind spinout under Demis Hassabis (Nobel-prize-winning Hassabis remains CEO). Funding scales **IsoDDE** (proprietary AI drug-design engine built on multiple foundational models) and accelerates clinical-trial-bound pipeline. Headquartered London with Cambridge + Lausanne offices. Strategic partnerships: **Novartis, Eli Lilly, Johnson & Johnson** already named. This is the first publicly-disclosed **Lab + Big-VC + Sovereign + Big-Pharma four-corner template** of 2026; expect biotech/materials/energy AI verticals to copy the structure in Q3. → [`02-new-emerging.md`](./02-new-emerging.md#1-isomorphic) `#isomorphic #drug-discovery #deepmind #sovereign-ai #four-corner-template`
+
+5. **Sierra raised $950M at $15B valuation** (Google Ventures + Tiger Global lead, 3-year-old company) → [`02-new-emerging.md`](./02-new-emerging.md#2-sierra). **Parallel Web Systems raised $100M led by Sequoia**, total raised to $230M, founded by former Twitter CEO Parag Agrawal, AI agent search/research infrastructure → [`02-new-emerging.md`](./02-new-emerging.md#3-parallel-web). **Runware $50M Series A** for the "Sonic Inference Engine" — plans to deploy 2M+ Hugging Face models by year-end → [`02-new-emerging.md`](./02-new-emerging.md#4-runware). **Oboe $16M** for personalized course generation → [`02-new-emerging.md`](./02-new-emerging.md#5-oboe). Combined readout: **investors are funding (a) frontier-distribution agents (Sierra), (b) agent-infrastructure layers (Parallel, Runware), (c) consumer-AI-learning (Oboe)** — three live wedges for an SDE-pivoting-to-startup. `#sierra #parallel-web #runware #oboe #funding`
+
+6. **OpenAI Deployment Company + Tomoro acquisition (May 11–12) re-shapes the FDE market.** $4B initial capital, 19-investor consortium (**TPG lead** with Advent + Bain Capital + Brookfield as co-leads). Tomoro acquisition adds **150 experienced FDEs / Deployment Specialists from day one**, plus offices in London + Edinburgh + Manchester + Singapore + Sydney + Melbourne. Customer list at acquisition: **Tesco, Virgin Atlantic, Supercell.** Combined with last week's FDE-postings-+800%-YoY data, this is the clearest single signal of where the AI-Integration job market is heading. **The Tomoro alumni network is now the highest-leverage cold-outreach pool in the FDE/Solutions-Engineering lane for the next 60 days.** → [`05-career-and-startup.md`](./05-career-and-startup.md#2-openai-deployment-co) `#openai #fde #tomoro #deployment-company`
+
+7. **Anthropic ad-free commitment — first explicit policy statement.** Anthropic published a position post confirming **Claude will remain ad-free**, framing advertising incentives as "incompatible with a genuinely helpful AI assistant." Read as a competitive moat carve-out vs. Google's ad-based business model: if Vertex Agent Platform's economics drift toward ad-supported tiers (likely path for consumer Gemini Spark), Anthropic just pre-committed to the *anti-ad* side of the trust market. **Anthropic × Workday Foundation Solopreneurship Accelerator** announced same week: 15 solopreneurs get seed funding + Claude credits + AI-first entrepreneurship curriculum. **Apply if you have a vertical-Claude-for-X wedge.** → [`01-big-lab-moves.md`](./01-big-lab-moves.md#3-anthropic-ad-free) `#anthropic #ad-free #workday #solopreneur #policy`
+
+8. **arXiv this week (refreshed for May 18–19):** **AIRS-Bench** (20-task science-agent benchmark — frontier models score 17–34% end-to-end), **JADE** (expert-grounded dynamic evaluation: decompose output into claims, check each against expert KB), **TrajAD** (runtime trajectory verifier with precise rollback — Haiku-size verifier for Opus-size agents), **AgentScope distributed multi-agent improvements**, plus continued momentum on **CHAL / MemReread / ARIS / Storage Is Not Memory / Multimodal Procedural Knowledge**. Combined readout: **evaluation + observability + trajectory verification are the two production-bound research lanes this week** (memory is still hot but now derivative). → [`04-research-progress.md`](./04-research-progress.md#1-airs-bench) `#research #agents #evaluation #verification #benchmarks`
+
+---
+
+## One thing to DO this Tuesday
+
+→ **Run the 15-minute-block I/O monitoring discipline** ([`03` §1](./03-practical-skills-and-tools.md#1-io-live-discipline)) and publish the 1-page Gemini-vs-Claude-vs-GPT comparison **within 90 minutes of keynote end (~12:30 PM PT)**. The pre-staged template from yesterday is ready — fill in the 4 placeholders (`[FLAGSHIP_NAME]`, `[CONTEXT_WINDOW]`, `[PRICING_PER_M]`, `[ONE_SURPRISE]`), publish to LinkedIn + X simultaneously. Then at **1 PM PT, switch the second monitor to the Code w/ Claude London livestream** — Anthropic's Day-1 keynote rebuts whatever Sundar said this morning, in real time. Take 5 minutes of notes; publish an **end-of-day "I/O vs Code w/ Claude — same-day same-team showdown" follow-up post by 5 PM PT.** Two posts in one day, both grounded in original viewing notes, is the highest-velocity professional-brand day you'll have until WWDC June 9.
+
+**Total time: ~6 hours active monitoring + 90 minutes writing. Expected reward: top-of-feed visibility for the entire week + 2–4 inbound recruiter messages by Wednesday morning.** Detailed schedule in [`03` §1](./03-practical-skills-and-tools.md#1-io-live-discipline).
+
+## Watchlist deltas
+
+- 🆕 **Anthropic ad-free commitment policy post:** new thread — first explicit policy line; track whether OpenAI / Google respond with parity commitments
+- 🆕 **Workday Foundation × Anthropic Solopreneurship Accelerator:** new thread — 15-founder cohort; apply if you have a vertical-Claude-for-X wedge ready
+- 🆕 **OpenAI Deployment Company + Tomoro acquisition (~150 FDEs):** new thread — most material FDE-market shift of 2026 to date; alumni outreach now the highest-leverage cold pool
+- 🆕 **Anthropic Code w/ Claude — Tokyo June 10 (not June 5–6 as previously logged):** correction
+- ⬆️ **Code w/ Claude London:** May 19 (TODAY) confirmed via claude.com/code-with-claude — corrected from May 20–21 framing in yesterday's edition; Day-1 livestream collides directly with I/O 2026
+- ⬆️ **Google I/O 2026:** Day 1 today; Day 2 tomorrow May 20 (developer breakouts); Vertex AI Agent Platform pricing is the line item to watch most carefully
+- ⬆️ **Meta May 20 layoff:** T-minus 1 — confirmed 8K cuts / 10% workforce / Reality Labs + Facebook social + recruiting + sales + global ops; CAIO Alexandr Wang's Superintelligence Labs pods absorb survivors
+- ⬆️ **Isomorphic Labs Series B:** $2.1B closed May 12 confirmed; **first London-based AI-vertical hiring wave inside 60 days** is the leading signal to watch
+- ⬆️ **Sierra valuation:** $15B at $950M Series E confirmed (GV + Tiger Global lead) — was $15.8B earlier in May per other reads; settle to $15B as the canonical figure until S-1 emerges
+- ➡️ **Anthropic Agent SDK metering (June 15):** T-minus 27 days — no change; manual toggle still required
+- ➡️ **Anthropic $30B raise at $900B+:** "no term sheet signed" enters Day 19 of "imminent" — Code w/ Claude London today is the natural news-cycle window if it prints
+
+---
+
+## How to read this edition
+
+| Time budget | Path |
+|---|---|
+| 60 sec | This file. Done. |
+| 5 min | This file + the I/O day-of section in `01-big-lab-moves.md` |
+| 20 min | `03-practical-skills-and-tools.md` — install the live-monitoring discipline + publish the 1-page post |
+| Today (10 AM – 6 PM PT) | The §"One thing to DO this Tuesday" schedule above |
+| Tonight | Skim `02-new-emerging.md` for the funding readout — 4 rounds in 7 days is the densest week of 2026 |
+| Wednesday AM | Re-read `01-big-lab-moves.md` §1 with the actual keynote in hand; mark which predictions hit / missed |
+
+Source-confidence legend: `[primary]` first-party · `[secondary]` reputable journalism · `[aggregator]` curated digest · `[analysis]` analyst writeup · `[rumor]` leaked / unconfirmed.

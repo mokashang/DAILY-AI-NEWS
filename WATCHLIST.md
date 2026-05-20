@@ -4,7 +4,7 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-19**
+Last updated: **2026-05-20**
 
 ---
 
@@ -48,7 +48,11 @@ Last updated: **2026-05-19**
 |---|---|---|---|
 | **GPT-5.6 / next OpenAI flagship** | ⚪ | Leak chatter on Latent Space; nothing official | Official announcement; Realtime-3 voice |
 | **Claude Opus 4.8 / next Anthropic flagship** | ⚪ | No leaks yet | Anthropic dev keynote (rumored June) |
-| **Gemini 3.5 / Gemini 4** | 🟡 | Expected at I/O developer keynote May 19 | I/O 2026 reveal · Deep Research Max agent |
+| **Gemini 3.5 (Flash shipped; Pro pending)** | 🟢 | **2026-05-19 RESOLVED:** Gemini 3.5 Flash GA same-day — $1.50/1M in · $9/1M out · $0.15 cached · 1,048,576 in / 65,536 out ctx · text+image+audio+video in · "within 2 pts of Anthropic flagship at ⅓ price" · already GA in GitHub Copilot. Gemini 3.5 **Pro** internal-only, ships June 2026 | Gemini 3.5 Pro June launch + pricing; whether Claude/OpenAI cut prices in response; Flash adoption curve in agent stacks |
+| **WebMCP (open web standard for agents)** | 🟡 NEW | **2026-05-19:** Google proposed WebMCP at I/O — sites expose callable JS/HTML-form tools; browser agents call instead of scrape. Built on Anthropic MCP lineage. Experimental **origin trial in Chrome 149**; Gemini-in-Chrome support "coming soon" | Chrome 149 flag availability date; whether OpenAI adopts MCP-shaped web tooling; first WebMCP-native infra startups (60–90d lag expected); W3C standardization path |
+| **Gemini 3.5 Flash price war ($1.50/1M)** | 🟡 NEW | **2026-05-19:** VentureBeat — can "slash enterprise AI costs $1B+/yr"; reframes frontier as cheapest-good-enough + best rails | Claude / OpenAI price response; impact on "cheap-inference" startups (Runware et al.); whether cost-aware routing becomes a standard interview topic |
+| **Antigravity 2.0 + Managed Agents (Gemini API) + ADK 2.0** | 🟡 NEW | **2026-05-19:** standalone agent-first desktop app + CLI + SDK; "one API call → sandboxed agent (reason/tools/code in isolated Linux)" — near-verbatim Anthropic Managed Agents; Chrome DevTools-for-agents supports 20+ non-Google agents | Google Cloud Agent/Antigravity Solutions hiring; Gemini Enterprise Agent Platform pricing detail; whether the runtime primitive fully commoditizes |
+| **Gemini Spark + AI Ultra ($100/mo proactive consumer agent)** | 🟡 NEW | **2026-05-19:** "24/7 AI agent" in new $100/mo tier; matches Anthropic Max-5x price point | Spark adoption; whether proactive-agent trust/safety incidents surface (ties to IPI thread); OpenAI/Anthropic consumer-agent responses |
 | **Nemotron 4 (NVIDIA open)** | ⚪ | Nemotron 3 Nano Omni shipped May | Whether NVIDIA goes annual on Nemotron |
 | **DeepSeek V5** | ⚪ | V4 still being discounted | Summer launch likely |
 | **Mistral open frontier release** | ⚪ | Quiet quarter | EU sovereignty narrative catalyst |
@@ -109,7 +113,7 @@ Last updated: **2026-05-19**
 |---|---|---|---|
 | **CAIO adoption 76% (IBM)** | 🟢 | Report released May 11; broader coverage May 12 | LinkedIn job-posting volume for CAIO + reports-to-CAIO roles |
 | **CS new-grad market bifurcation (Q1 data — revised)** | 🟢 | Revised May 13: 78,557 Q1 tech layoffs / 47.9% AI-attributed · generic SWE -40% · MLE +41.8% YoY | Q2 print; whether MLE growth holds at >25% YoY |
-| **Meta May 20 layoffs (8,000 = 10% of 78,865 workforce)** | 🟡 | **T-minus 1 day** — confirmed for Wed May 20; multiple primary outlets confirm **8K = 10% of workforce** (not 8K + 6K req cancellations as earlier framed); severance 16 wks + 2 wks/yr + 18 mo health; restructure under CAIO Alexandr Wang's Superintelligence Labs pods (Wang's first Meta-model Muse Spark shipped earlier May); funding $115–135B 2026 AI infra spend; affected divisions Reality Labs + Facebook social + recruiting + sales + global ops; brings Zuckerberg's cumulative cuts since 2022 to ~33K | Senior MLE/AI talent flooding market on May 21–22 (your outreach window opens Thursday); Meta-alumni startup formations 60–90 days later; which 5 startups (Cognition / Sierra / Decagon / Pit / Avoca / etc.) absorb the highest-leverage alumni; Meta Q2 GAAP operating-income trajectory as the empirical test of the "AI capex substitutes for headcount OPEX" thesis |
+| **Meta May 20 layoffs (8,000 ≈ 10% workforce)** | 🟢 EXECUTING | **2026-05-20:** notifications began Wed — ~8K notified (≈10%) **+ 6K canceled open reqs = ~14K impact**; Singapore first (4 AM local) → UK → US; **~7,000 redirected into new AI teams: Applied AI Engineering / Agent Transformation Accelerator XFN / Central Analytics** (CPO Janelle Gale); AI infra spend cited up to **$145B**; **more company-wide cuts planned H2 2026** (Reuters); confirmed NPR/CNN/CNBC/Reuters; severance 16 wks + 2 wks/yr + 18 mo health | Outreach window Thu 5/21 8 AM PT — split pool (b) displaced SDE/ads/ops vs (c) redirected-to-AI; Meta-alumni startup formations 60–90 days; H2-cut timing; Meta Q2 GAAP operating-income as the "AI-capex-substitutes-headcount" empirical test; whether MS/Salesforce/Oracle copy the *redirect-not-just-cut* move |
 | **Microsoft voluntary buyouts (~8,750 potential)** | 🟡 | Confirmed ~7% US employees eligible | Where ex-Microsoft AI/Copilot talent lands; small-AI-startup product orgs that absorb them |
 | **GM AI-skills-driven IT layoffs** | 🟢 | Confirmed May 11 — "hundreds" cut to fund AI hires | Atlassian model replication across legacy enterprises |
 | **Atlassian barbell (cut + 800 AI hires)** | 🟢 | Confirmed; cleanest "AI-reshape" example | Which large enterprises follow with the same simultaneous-cut-and-hire pattern |
@@ -162,6 +166,9 @@ Last updated: **2026-05-19**
 | **JADE — Expert-Grounded Dynamic Evaluation (per-claim decomposition)** | 🟢 NEW | **2026-05-19:** Per-claim factuality eval methodology — decompose agent output, check each claim against expert KB; foundational for vertical-AI eval (Claude for Legal, OpenAI personal finance) | Whether Judgment Labs / Anthropic / OpenAI ship JADE-style APIs in production; first vertical-AI vendor to publish JADE-style scores on their own product |
 | **TrajAD — Runtime Trajectory Verifier with Precise Rollback (deeper)** | 🟢 | **2026-05-19:** Haiku-size verifier monitors Opus-size main agent; ~10× verifier-to-agent ratio is cost-efficient enough to ship in production; rollback semantics are the missing primitive in current agent frameworks | First open-source TrajAD implementation cross 1K stars; Anthropic / Sierra / Cognition production integrations |
 | **AgentScope distributed multi-agent improvements** | 🟢 NEW | **2026-05-19:** Distributed orchestration mechanisms + flexible environments + user-friendly tooling for large-scale multi-agent simulation | Whether AgentScope becomes the canonical multi-agent reproducibility platform; citation velocity 60-day check |
+| **Indirect prompt injection (IPI) in the wild — Google threat report** | 🟢 NEW | **2026-05-20:** First large-scale empirical measurement — **+32% relative growth in malicious IPI (Nov 2025→Feb 2026)**; real PayPal-transaction payloads hidden invisibly in HTML targeting payment-capable agents; sophistication still low (window to harden open); recommended defense = cheap **dual-model "sanitiser"** in front of privileged agent | Next-quarter IPI growth number (leading indicator of agent deployment); whether dual-model sanitiser becomes a standard FDE-deployment requirement; first IPI-defense startup/feature; convergence with TrajAD/JADE (one supervisory primitive) |
+| **Convergence thesis — cheap guard model supervising privileged agent** | 🟡 NEW | **2026-05-20:** TrajAD (verification) + JADE (per-claim eval) + Google IPI (injection defense) all land on the same primitive; economically unlocked by Gemini 3.5 Flash @ $1.50/1M making always-on guard models ~free | Whether labs ship "supervisor model" as a first-class API feature; whether the framing appears in job-post requirements within 90 days |
+| **DyTopo / RuleSmith / CommCP — multi-agent robustness wave** | 🟡 NEW | **2026-05-20:** DyTopo (per-round topology rewiring), RuleSmith (self-play + Bayesian opt for rule-balancing), CommCP (conformal prediction over inter-agent messages) — classical statistical rigor re-entering the agent stack | Whether conformal prediction becomes standard in multi-agent coordination; production adoption; citation velocity |
 
 ---
 
@@ -206,6 +213,12 @@ Last updated: **2026-05-19**
 | **Apply to 2 FDE roles tonight (Google Cloud + Anthropic)** | ⚪ NEW — TONIGHT | Sunday May 17 — see 2026-05-17/05 §1; +800% FDE posting spike confirmed |
 | **Re-title LinkedIn headline to "AI Integration / FDE — Anthropic stack · MCP · Cost-aware agents"** | ⚪ NEW — TONIGHT | Sunday May 17 — see 2026-05-17/05 §1; do before Monday-morning recruiter search wave |
 | **Pick ONE vertical-agent wedge and Loom-demo it to 1 buyer this week** | ⚪ NEW | This week — see 2026-05-17/05 §3 — the rising-lane bet that pairs with the FDE fallback |
+| **Publish GRADED I/O comparison table (real Flash $1.50/1M numbers + own take)** | ⚪ NEW — TODAY | Wed May 20 — see 2026-05-20/03 §1; grading your own prediction = credibility signal |
+| **Fix LinkedIn skills to real terms (Antigravity/Managed Agents/WebMCP), NOT "Vertex AI Agent Platform"** | ⚪ NEW — TODAY | Wed May 20 — see 2026-05-20/01 §1 |
+| **Ship dual-model "sanitiser" prompt-injection defense project (vulnerable vs defended traces)** | ⚪ NEW | Fri May 22 — see 2026-05-20/05 §3; answers the #1 agent-deployment interview question |
+| **Ship WebMCP origin-trial demo (or "what I'll build when Chrome 149 lands" post)** | ⚪ NEW | Sat May 23 — see 2026-05-20/03 §2; first-mover SEO repo of the month |
+| **Add Gemini 3.5 Flash as cheap leg in 3-provider router + per-step cost chart** | ⚪ NEW | This week — see 2026-05-20/03 §4; now the most resume-relevant artifact |
+| **Add Google Cloud Agent / Antigravity Solutions roles to apply list (thin queue)** | ⚪ NEW | This week — see 2026-05-20/05 §4 |
 | **Pre-load Tuesday I/O viewing template (10 AM–1:30 PM PT) + 1-page Gemini vs Claude vs GPT post-keynote** | ⚪ NEW | Monday/Tuesday May 18–19 — see 2026-05-17/03 §4 |
 | **Toggle the Agent SDK credit setting in Claude account settings** | ⚪ NEW — TONIGHT | Monday May 18 — see 2026-05-18/03 §2; credit doesn't auto-activate, silent fail June 15 if skipped |
 | **Pre-stage the Gemini vs Claude vs GPT comparison doc** (pre-fill Claude Opus 4.7 + GPT-5.5 rows) | ⚪ NEW — TONIGHT | Monday May 18 — see 2026-05-18/03 §1 |

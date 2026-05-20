@@ -4,52 +4,55 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-19**
+Last updated: **2026-05-20**
 
 ---
 
 ## This week (May 19 – May 25)
 
-### Today (Tuesday May 19) — I/O DAY
+### Tuesday May 19 — I/O DAY (done)
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | Run 15-min-block I/O live-monitoring discipline (10 AM – 12:30 PM PT) | Today 10 AM PT | [2026-05-19/03 §1](./2026-05-19/03-practical-skills-and-tools.md#1-io-live-discipline) |
-| ⚪ | Publish 1-page Gemini-vs-Claude-vs-GPT comparison post to LinkedIn + X | Today 12:30 PM PT | [2026-05-19/03 §1](./2026-05-19/03-practical-skills-and-tools.md#1-io-live-discipline) |
-| ⚪ | Update LinkedIn headline + top-5 skills with post-keynote keyword | Today 11:55 AM PT | [2026-05-19/05 §4](./2026-05-19/05-career-and-startup.md#4-resume-edit) |
-| ⚪ | Watch 12-min Code w/ Claude London slice (~1–1:15 PM PT) | Today ~1 PM PT | [2026-05-19/03 §2](./2026-05-19/03-practical-skills-and-tools.md#3-cwc-london-monitoring) |
-| ⚪ | Publish 5 PM PT "I/O vs Code w/ Claude same-day showdown" follow-up | Today 5 PM PT | [2026-05-19/03 §2](./2026-05-19/03-practical-skills-and-tools.md#3-cwc-london-monitoring) |
-| ⚪ | Tonight: update WATCHLIST + ACTIONS + STARTUPS (30 min) | Today night | [2026-05-19/03 §5](./2026-05-19/03-practical-skills-and-tools.md#5-tonight) |
+| 🟢 | Run 15-min-block I/O live-monitoring discipline | Tue | [2026-05-19/03 §1](./2026-05-19/03-practical-skills-and-tools.md#1-io-live-discipline) |
+| 🟢 | Publish Gemini-vs-Claude-vs-GPT comparison (real numbers now in [2026-05-20/03 §1](./2026-05-20/03-practical-skills-and-tools.md#1-comparison-table)) | Tue/Wed | [2026-05-20/03 §1](./2026-05-20/03-practical-skills-and-tools.md#1-comparison-table) |
+| 🟡 | Update LinkedIn skills — **keyword corrected**: NOT "Vertex AI Agent Platform"; real terms are Antigravity 2.0 / Managed Agents (Gemini API) / WebMCP | Wed | [2026-05-20/01 §1](./2026-05-20/01-big-lab-moves.md#1-io-scorecard) |
+| 🟢 | Watch Code w/ Claude London slice | Tue | [2026-05-19/03 §2](./2026-05-19/03-practical-skills-and-tools.md#3-cwc-london-monitoring) |
 
-### Wednesday May 20 (Meta layoff day)
+### Today (Wednesday May 20) — Meta cut executing
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | Apply to one OpenAI FDE role before Tomoro-integration applicant flood | Wed | [2026-05-19/05 §2](./2026-05-19/05-career-and-startup.md#2-openai-deployment-co) |
-| ⚪ | Apply to one Anthropic Solutions / Integration Engineer role | Wed | [2026-05-19/05 §2](./2026-05-19/05-career-and-startup.md#2-openai-deployment-co) |
+| ⚪ | **Publish the GRADED I/O comparison table** (real Flash $1.50/1M numbers) + 1-line take | Today | [2026-05-20/03 §1](./2026-05-20/03-practical-skills-and-tools.md#1-comparison-table) |
+| ⚪ | Fix LinkedIn skills row to real on-stage terms (Antigravity / Managed Agents / WebMCP / Gemini 3.5 Flash) | Today | [2026-05-20/01 §1](./2026-05-20/01-big-lab-moves.md#1-io-scorecard) |
+| ⚪ | Apply to one OpenAI FDE role before Tomoro-integration flood | Today | [2026-05-19/05 §2](./2026-05-19/05-career-and-startup.md#2-openai-deployment-co) |
+| ⚪ | Apply to one Anthropic Solutions / Integration role | Today | [2026-05-19/05 §2](./2026-05-19/05-career-and-startup.md#2-openai-deployment-co) |
+| ⚪ | Add **Google Cloud Agent / Antigravity Solutions** roles to apply list (thin queue, just stood up) | Today | [2026-05-20/05 §4](./2026-05-20/05-career-and-startup.md#4-applications) |
 | ⚪ | LinkedIn-search 20 Tomoro FDEs + send connect requests | Wed | [2026-05-19/05 §2](./2026-05-19/05-career-and-startup.md#2-openai-deployment-co) |
-| ⚪ | Watch Code w/ Claude London Day-2 (extended day for solo devs / early founders) | Wed | [2026-05-19/01 §2](./2026-05-19/01-big-lab-moves.md#2-london-today) |
+| ⚪ | Add Gemini 3.5 Flash as cheap leg in 3-provider router + log per-step cost | Wed/this week | [2026-05-20/03 §4](./2026-05-20/03-practical-skills-and-tools.md#4-cost-routing) |
 
 ### Thursday May 21 (Meta-alumni outreach window)
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | 8 AM PT — send 10 Meta-engineer DMs using pre-written templates | Thu 8 AM PT | [2026-05-19/05 §1](./2026-05-19/05-career-and-startup.md#1-meta-tminus-1) |
-| ⚪ | Add all DMs to APPLICATIONS.md tracker | Thu evening | [APPLICATIONS.md](./APPLICATIONS.md) |
+| ⚪ | 8 AM PT — send 10 Meta DMs; **split pools: (b) displaced SDE/ads/ops = substance, (c) redirected-to-AI-teams = congrats/no-ask** | Thu 8 AM PT | [2026-05-20/05 §1](./2026-05-20/05-career-and-startup.md#1-meta-outreach) |
+| ⚪ | Add all DMs to APPLICATIONS.md (tag pool a/b/c) | Thu evening | [APPLICATIONS.md](./APPLICATIONS.md) |
 
 ### Friday May 22
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | 30-min Meta-alumni reply window | Fri | [2026-05-19/05 §1](./2026-05-19/05-career-and-startup.md#1-meta-tminus-1) |
-| ⚪ | Ship AIRS-Bench portfolio project to GitHub | Fri night | [2026-05-19/05 §3](./2026-05-19/05-career-and-startup.md#3-airs-bench-project) |
+| ⚪ | 30-min Meta-alumni reply window | Fri | [2026-05-20/05 §1](./2026-05-20/05-career-and-startup.md#1-meta-outreach) |
+| ⚪ | **Ship the dual-model sanitiser safety project** (vulnerable vs. defended, both traces) | Fri night | [2026-05-20/05 §3](./2026-05-20/05-career-and-startup.md#3-safety-project) |
+| ⚪ | (optional) Ship AIRS-Bench portfolio project | Fri | [2026-05-19/05 §3](./2026-05-19/05-career-and-startup.md#3-airs-bench-project) |
 
 ### Saturday May 23
 
 | Status | Action | Due | Source |
 |---|---|---|---|
+| ⚪ | **Ship WebMCP origin-trial demo** (or "what I'll build when Chrome 149 lands" post) | Sat | [2026-05-20/03 §2](./2026-05-20/03-practical-skills-and-tools.md#2-webmcp-demo) |
 | ⚪ | Workday × Anthropic Solopreneurship Accelerator application | Sat | [2026-05-19/05 §5](./2026-05-19/05-career-and-startup.md#5-workday-solopreneur) |
-| ⚪ | STARTUPS.md wedge refinement | Sat | [STARTUPS.md](./STARTUPS.md) |
+| ⚪ | STARTUPS.md re-rank — agent-identity/WebMCP-tooling to top-fit | Sat | [STARTUPS.md](./STARTUPS.md) |
 
 ### Sunday May 24
 

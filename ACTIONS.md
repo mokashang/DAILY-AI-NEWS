@@ -4,7 +4,7 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-20**
+Last updated: **2026-05-21**
 
 ---
 
@@ -35,21 +35,24 @@ Last updated: **2026-05-20**
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | 8 AM PT — send 10 Meta DMs; **split pools: (b) displaced SDE/ads/ops = substance, (c) redirected-to-AI-teams = congrats/no-ask** | Thu 8 AM PT | [2026-05-20/05 §1](./2026-05-20/05-career-and-startup.md#1-meta-outreach) |
-| ⚪ | Add all DMs to APPLICATIONS.md (tag pool a/b/c) | Thu evening | [APPLICATIONS.md](./APPLICATIONS.md) |
+| ⚪ | 8 AM PT — send 10 Meta DMs; **split pools: (a) displaced = substance, (b) redirected-to-AI = congrats/no-ask, (c) spinning-out = track** | Thu 8 AM PT | [2026-05-21/05 §1](./2026-05-21/05-career-and-startup.md#1-meta-outreach) |
+| ⚪ | Add all DMs to `apps/meta-alumni-tracker.md` + APPLICATIONS.md (tag pool a/b/c, set 90-day follow-up) | Thu evening | [2026-05-21/05 §1](./2026-05-21/05-career-and-startup.md#1-meta-outreach) |
+| ⚪ | Add **pre-deployment evaluation / AI-assurance** to skills vocabulary; add **bank AI-risk teams** (JPM/GS) to apply list — new lane the AI EO just opened | This week | [2026-05-21/05 §3](./2026-05-21/05-career-and-startup.md#3-eo-lane) |
+| ⚪ | Keep the weekly **1 Anthropic Solutions/FDE/Integration** application (artifacts attached) — profitable-early + $15B/yr compute = growth-hire posture | This week | [2026-05-21/05 §4](./2026-05-21/05-career-and-startup.md#4-anthropic-hiring) |
 
 ### Friday May 22
 
 | Status | Action | Due | Source |
 |---|---|---|---|
 | ⚪ | 30-min Meta-alumni reply window | Fri | [2026-05-20/05 §1](./2026-05-20/05-career-and-startup.md#1-meta-outreach) |
-| ⚪ | **Ship the dual-model sanitiser safety project** (vulnerable vs. defended, both traces) | Fri night | [2026-05-20/05 §3](./2026-05-20/05-career-and-startup.md#3-safety-project) |
+| ⚪ | **Ship the dual-model sanitiser safety project** (vulnerable vs. defended, both traces) — frame as "pre-deployment evaluation" per the EO lane | Fri night | [2026-05-20/05 §3](./2026-05-20/05-career-and-startup.md#3-safety-project) · [2026-05-21/05 §3](./2026-05-21/05-career-and-startup.md#3-eo-lane) |
 | ⚪ | (optional) Ship AIRS-Bench portfolio project | Fri | [2026-05-19/05 §3](./2026-05-19/05-career-and-startup.md#3-airs-bench-project) |
 
 ### Saturday May 23
 
 | Status | Action | Due | Source |
 |---|---|---|---|
+| ⚪ | **Ship the hook-guarded, MCP-wired mini-agent + per-step cost trace** (orchestration + guardrails + cost-awareness in one artifact) | Sat | [2026-05-21/03 §2](./2026-05-21/03-practical-skills-and-tools.md#2-artifact) |
 | ⚪ | **Ship WebMCP origin-trial demo** (or "what I'll build when Chrome 149 lands" post) | Sat | [2026-05-20/03 §2](./2026-05-20/03-practical-skills-and-tools.md#2-webmcp-demo) |
 | ⚪ | Workday × Anthropic Solopreneurship Accelerator application | Sat | [2026-05-19/05 §5](./2026-05-19/05-career-and-startup.md#5-workday-solopreneur) |
 | ⚪ | STARTUPS.md re-rank — agent-identity/WebMCP-tooling to top-fit | Sat | [STARTUPS.md](./STARTUPS.md) |

@@ -4,7 +4,7 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-20**
+Last updated: **2026-05-21**
 
 ---
 
@@ -14,12 +14,14 @@ Last updated: **2026-05-20**
 |---|---|---|---|
 | **Anthropic $30–50B raise at up to ~$950B post** | 🟡 | 2026-05-18: still no term sheet signed (per BuildFastWithAI Monday digest); 3rd consecutive week characterized as "imminent" — likely slipping to align with post-June-15 metering data; possible close timed to Code w/ Claude Tokyo (June 5–6) | Signed term sheet; final post-money; lock-up period; whether MGX / UK Sovereign / SoftBank Vision Fund 3 anchor |
 | **Anthropic ARR trajectory** | 🟡 | $44B disclosed in May 8 investor meeting | Monthly progression; first month of deceleration |
+| **Anthropic first profitable quarter** | 🟡 | **2026-05-21:** reporting projects Q2 2026 revenue ~$10.9B (>2×) and **~$559M operating profit — ~2 yrs ahead of internal plan**, despite $15B/yr Colossus bill | Whether profitability holds once the full $1.25B/mo compute cost ramps; impact on the $30–50B raise terms / IPO timing |
 | **Anthropic > OpenAI on US business adoption** | 🟢 | 2026-05-14 Ramp AI Index: Anthropic 34.4% vs OpenAI 32.3% — first crossover ever | Revenue crossover (Anthropic leads seats, OpenAI leads dollars); whether the 2.1pt lead holds |
 | **OpenAI "The Development Company" enterprise JV** | 🟡 | Raised $4B from 19 investors at $10B valuation | First enterprise customer logos; how it competes with Anthropic's PE-deployment JV |
 | **Wispr Flow ~$260M / ~$2B** | 🟡 | In talks per Bloomberg May 12; Menlo Ventures leading | Round close; Voice OS product expansion |
 | **Judgment Labs $32M Seed + Series A** | 🟢 | Closed May 12 — Lightspeed leading both rounds | Hiring volume; first major customer logos |
 | **Anthropic Oct 2026 IPO path** | 🟡 | Active consideration alongside the $50B round | S-1 filing; whether it's primary or secondary-heavy |
 | **OpenAI $25B ARR + IPO path** | 🟡 | Q1 2026 IPO chatter | S-1 filing; revenue mix disclosure |
+| **OpenAI ad revenue (ChatGPT Ads Manager)** | 🟡 | **2026-05-21:** self-serve Ads Manager (CPC, **no minimum spend**, agency + Adobe/Criteo partners) live; target **$2.5B this year → $100B/yr by 2030**; ads to Free/Go tiers — vs **Anthropic's ad-free pledge** | Whether ad revenue materializes at target; whether Anthropic holds ad-free; agent-mediated-commerce / attribution as an emerging wedge |
 | **Cognition (Devin) $25B raise** | 🟡 | Hundreds of millions pending; Founders Fund leading | Round close; final valuation; new enterprise logos |
 | **Sierra $15.8B Series E** | 🟢 | Closed early May | Hiring volume / TAM signals over next 60 days |
 | **Moonshot AI $20B valuation** | 🟢 | Closed early May | Kimi K2.7 release; OpenRouter share |
@@ -91,6 +93,7 @@ Last updated: **2026-05-20**
 | **Pentagon: 8 AI vendors selected, Anthropic excluded** | 🟢 | Confirmed early May | Anthropic appeal or alternative DoD path |
 | **First AI-built zero-day in the wild (Google Threat Intel)** | 🟢 | Confirmed by Bloomberg + Google May 11–12; mass-exploit campaign averted | Whether NIST issues updated AI-risk guidance within 60 days; CISO mandate response |
 | **Trump AI Action Plan execution** | 🟡 | CAISI partnerships are first deliverable | Export-control updates; sovereignty mandates |
+| **Trump AI/cybersecurity executive order (pre-release model review)** | 🟡 | **2026-05-21:** signing as soon as Thursday w/ CEO ceremony; voluntary framework — labs **provide covered models to govt 90 days pre-release** (+ pre-access for critical infra e.g. banks); labs lobbying for **14 days**; driven by cyber-risk (Mythos, GPT-5.5-Cyber); OpenAI + Anthropic engaged | The FINAL window (14 vs 90 days = labs-win-on-velocity vs security-hawks-win); which CEOs attend; whether "voluntary" hardens into mandatory; the pre-deployment-eval / AI-assurance job market it creates (see [2026-05-21/05 §3](./2026-05-21/05-career-and-startup.md#3-eo-lane)) |
 | **US–China AI safety protocol** | 🟡 | 2026-05-14: Bessent confirms formal talks launched at Trump–Xi Beijing summit; goal = keep frontier models from non-state actors | Published provisions; weight-custody / API-KYC requirements; first concrete compliance surface |
 | **Microsoft–OpenAI partnership amendment** | 🟢 | Non-exclusive license confirmed May; OpenAI can serve from any cloud | Whether OpenAI signs major non-Azure cloud deal next |
 
@@ -101,7 +104,7 @@ Last updated: **2026-05-20**
 | Thread | Status | Last move | Watching for |
 |---|---|---|---|
 | **Anthropic–Google $200B compute deal (5 yrs)** | 🟢 | Confirmed early May | Quarterly utilization disclosures |
-| **Anthropic rents all of Colossus 1 from xAI/SpaceX** | 🟢 | 220K GPUs, 300MW, closed | Whether Colossus 2 / 3 deal materializes |
+| **Anthropic rents all of Colossus 1 from xAI/SpaceX** | 🟢 CONTRACTUAL | **2026-05-21:** terms now disclosed in **SpaceX's S-1** — **$1.25B/month through May 2029 (~$15B/yr, $40B+ total)**, discounted first 2 months during ramp; entire Colossus 1 = 300MW, 220K+ GPUs (H100/H200/GB200); Musk frames it as "AI compute as a service at scale" | Whether Colossus 2/3 deal materializes; whether the $15B/yr bill survives Anthropic's profitability projection; other labs disclosing comparable compute liabilities in filings |
 | **NVIDIA $40B+ in AI equity bets** | 🟡 | IREN $2.1B, Corning $3.2B confirmed | Next major equity bet; antitrust angle |
 | **US grid load 5–7% AI by 2027** | 🟡 | Air Street State of AI projection | Data-center permitting wins/losses |
 
@@ -132,6 +135,8 @@ Last updated: **2026-05-20**
 
 | Thread | Status | Last move | Watching for |
 |---|---|---|---|
+| **AI does net-new mathematics (OpenAI Erdős result)** | 🟡 | **2026-05-21:** an OpenAI **general-purpose** reasoning model disproved a central conjecture in the planar unit-distance problem (Erdős 1946) — infinite family of better constructions, proof via algebraic number theory; verified by Noga Alon + Thomas Bloom | **Reproducibility / generality** — can the same model do this across problems, or needle-in-haystack? Independent replication; whether other labs publish comparable "general model → novel proof" results; live-benchmark response (LemmaBench) |
+| **Live / contamination-resistant benchmarks (LemmaBench, RepoReason)** | 🟡 | **2026-05-21:** arXiv wave of continuously-refreshed, memorization-resistant evals (LemmaBench 2602.24173 live math; RepoReason 2601.03731 repo-level; PostTrainBench 2603.08640) | Adoption by labs / the EO pre-release review process; whether eval-as-a-service startups raise on it |
 | **Anthropic Dreaming** | 🟡 | Research preview May 7 | Generalization beyond coding/finance/legal |
 | **Agent Reliability framework (arXiv 2602.16666)** | 🟢 | v2 active; 12 metrics across 4 dimensions; reliability decoupling thesis | Replications; whether labs internally adopt the metrics |
 | **Outcome-Driven Constraint Violations benchmark (2512.20798)** | 🟢 | Published; complements Constraint Decay (capability vs alignment failure modes) | Independent benchmarks; vendor-by-vendor replication |

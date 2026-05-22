@@ -4,7 +4,7 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-21**
+Last updated: **2026-05-22**
 
 ---
 
@@ -20,7 +20,10 @@ Last updated: **2026-05-21**
 | **Wispr Flow ~$260M / ~$2B** | 🟡 | In talks per Bloomberg May 12; Menlo Ventures leading | Round close; Voice OS product expansion |
 | **Judgment Labs $32M Seed + Series A** | 🟢 | Closed May 12 — Lightspeed leading both rounds | Hiring volume; first major customer logos |
 | **Anthropic Oct 2026 IPO path** | 🟡 | Active consideration alongside the $50B round | S-1 filing; whether it's primary or secondary-heavy |
-| **OpenAI $25B ARR + IPO path** | 🟡 | Q1 2026 IPO chatter | S-1 filing; revenue mix disclosure |
+| **OpenAI IPO path (confidential S-1)** | 🟡 | **2026-05-22:** filing a **confidential S-1 with the SEC as early as today** (Goldman + Morgan Stanley); targeting **Sept 2026 listing at ~$852B–$1T**; financials stay private until ~15d pre-roadshow; unblocked after Musk lost his lawsuit | Public S-1 (revenue mix: API vs ChatGPT vs ads vs enterprise; Microsoft terms; ad-revenue disclosure); roadshow window; first-day pop → first-earnings arc |
+| **Anthropic IPO path (October 2026 target)** | 🟡 | **2026-05-22:** reported targeting **October 2026** listing, on the back of projected first profitable quarter (Q2 ~$10.9B rev, ~$559M op profit) | Whether the October path firms up; S-1 filing; how the $1.25B/mo Colossus bill reads in a prospectus |
+| **The IPO wave as an asset-class shift (SpaceX + OpenAI + Anthropic)** | 🟡 NEW | **2026-05-22:** three frontier-adjacent giants potentially public inside ~12 mo = frontier AI becomes a **public-market asset class**; changes liquidity, secondary comp, employer-risk | First prints; whether public markets underwrite frontier-AI economics; founder-recycling from liquidity events |
+| **OpenAI $25B ARR + IPO path** | 🟢 SUPERSEDED | Q1 2026 IPO chatter → now concrete (see confidential S-1 row above) | (folded into the OpenAI IPO-path row) |
 | **OpenAI ad revenue (ChatGPT Ads Manager)** | 🟡 | **2026-05-21:** self-serve Ads Manager (CPC, **no minimum spend**, agency + Adobe/Criteo partners) live; target **$2.5B this year → $100B/yr by 2030**; ads to Free/Go tiers — vs **Anthropic's ad-free pledge** | Whether ad revenue materializes at target; whether Anthropic holds ad-free; agent-mediated-commerce / attribution as an emerging wedge |
 | **Cognition (Devin) $25B raise** | 🟡 | Hundreds of millions pending; Founders Fund leading | Round close; final valuation; new enterprise logos |
 | **Sierra $15.8B Series E** | 🟢 | Closed early May | Hiring volume / TAM signals over next 60 days |
@@ -31,6 +34,7 @@ Last updated: **2026-05-21**
 | **Anthropic acquires Stainless (≥$300M)** | 🟡 | 2026-05-12 → 2026-05-15: advanced talks reported (The Information, multiple confirms) | Deal close; OpenAI/Google response on SDK toolchain ownership |
 | **Chapter Medicare-AI Series E ($100M, Generation IM)** | 🟢 | Closed May 2026 | Hiring volume; whether Medicaid-equivalent player gets funded next |
 | **GridCARE $64M Series A (oversubscribed, power-acceleration)** | 🟢 | Closed week of May 12; significant step-up from prior round | First adjacent round in interconnection-queue or on-site-gen tooling; NVIDIA strategic invest? |
+| **Exaforce $125M Series B (agentic SOC)** | 🟢 NEW | **2026-05-22 (closed ~May 12):** HarbourVest/Peak XV/Mayfield/Khosla/Seligman/AICONIC; total $200M (1 yr after $75M A); real-time security knowledge graph + agents ("Exabots") + MDR; ~10× faster investigations, fewer tokens; ~130 employees | Next $100M+ AI-SOC round; whether the EO's cyber-clearinghouse formalizes a govt buyer; agentic-SOC hiring volume |
 | **Sprouts.ai $9M Pre-Series A (Revenue Agents, B2B GTM)** | 🟢 | Closed May 15 (TGV + Accel) | Hiring volume; whether the GTM-agent category gets another mega-round to anchor it |
 | **Nectar Social $30M Series A (agentic marketing OS)** | 🟢 | Closed May 14 | Customer logos; whether the consolidation pitch lands with mid-market marketers |
 | **Multiverse $70M (AI-skills workforce training)** | 🟢 | Closed May 14 | Enterprise customer expansion; pricing model |
@@ -93,7 +97,7 @@ Last updated: **2026-05-21**
 | **Pentagon: 8 AI vendors selected, Anthropic excluded** | 🟢 | Confirmed early May | Anthropic appeal or alternative DoD path |
 | **First AI-built zero-day in the wild (Google Threat Intel)** | 🟢 | Confirmed by Bloomberg + Google May 11–12; mass-exploit campaign averted | Whether NIST issues updated AI-risk guidance within 60 days; CISO mandate response |
 | **Trump AI Action Plan execution** | 🟡 | CAISI partnerships are first deliverable | Export-control updates; sovereignty mandates |
-| **Trump AI/cybersecurity executive order (pre-release model review)** | 🟡 | **2026-05-21:** signing as soon as Thursday w/ CEO ceremony; voluntary framework — labs **provide covered models to govt 90 days pre-release** (+ pre-access for critical infra e.g. banks); labs lobbying for **14 days**; driven by cyber-risk (Mythos, GPT-5.5-Cyber); OpenAI + Anthropic engaged | The FINAL window (14 vs 90 days = labs-win-on-velocity vs security-hawks-win); which CEOs attend; whether "voluntary" hardens into mandatory; the pre-deployment-eval / AI-assurance job market it creates (see [2026-05-21/05 §3](./2026-05-21/05-career-and-startup.md#3-eo-lane)) |
+| **Trump AI/cybersecurity executive order (pre-release model review)** | 🟡 STALLED | **2026-05-22: POSTPONED** — the planned signing was pulled; Trump "didn't like certain aspects" and "hates regulation" ("I don't want to get in the way of [US AI] leading"). Draft survives: voluntary **90-day pre-release frontier review** + Treasury-led **cybersecurity "clearinghouse"** (find/fix vulns in unreleased models); negotiated w/ Nat'l Cyber Director Sean Cairncross + OpenAI/Anthropic/Reflection AI. **2026-05-21:** had been "signing as soon as Thursday w/ CEO ceremony"; labs lobbying 14 vs 90 days | The **re-scheduled** signing date (if any); whether the 90-day frontier-review half survives a redraft or only the cyber-clearinghouse does; the (now-delayed) pre-deployment-eval / AI-assurance job market (see [2026-05-22/01 §1](./2026-05-22/01-big-lab-moves.md#1-eo-postponed)) |
 | **US–China AI safety protocol** | 🟡 | 2026-05-14: Bessent confirms formal talks launched at Trump–Xi Beijing summit; goal = keep frontier models from non-state actors | Published provisions; weight-custody / API-KYC requirements; first concrete compliance surface |
 | **Microsoft–OpenAI partnership amendment** | 🟢 | Non-exclusive license confirmed May; OpenAI can serve from any cloud | Whether OpenAI signs major non-Azure cloud deal next |
 
@@ -114,6 +118,7 @@ Last updated: **2026-05-21**
 
 | Thread | Status | Last move | Watching for |
 |---|---|---|---|
+| **Karpathy → Anthropic (pre-training automation)** | 🟡 NEW | **2026-05-22 (announced May 19, started this week):** Andrej Karpathy (OpenAI founding member → Tesla → OpenAI → Eureka Labs) joins **Anthropic's pre-training team**, launching a **new group using Claude to accelerate pre-training research** | What the team ships; whether it's the production face of the PostTrainBench / recursive-self-improvement thread; downstream "AI-does-AI-R&D" tooling startups; talent-market follow-on (Anthropic queue thickening) |
 | **CAIO adoption 76% (IBM)** | 🟢 | Report released May 11; broader coverage May 12 | LinkedIn job-posting volume for CAIO + reports-to-CAIO roles |
 | **CS new-grad market bifurcation (Q1 data — revised)** | 🟢 | Revised May 13: 78,557 Q1 tech layoffs / 47.9% AI-attributed · generic SWE -40% · MLE +41.8% YoY | Q2 print; whether MLE growth holds at >25% YoY |
 | **Meta May 20 layoffs (8,000 ≈ 10% workforce)** | 🟢 EXECUTING | **2026-05-20:** notifications began Wed — ~8K notified (≈10%) **+ 6K canceled open reqs = ~14K impact**; Singapore first (4 AM local) → UK → US; **~7,000 redirected into new AI teams: Applied AI Engineering / Agent Transformation Accelerator XFN / Central Analytics** (CPO Janelle Gale); AI infra spend cited up to **$145B**; **more company-wide cuts planned H2 2026** (Reuters); confirmed NPR/CNN/CNBC/Reuters; severance 16 wks + 2 wks/yr + 18 mo health | Outreach window Thu 5/21 8 AM PT — split pool (b) displaced SDE/ads/ops vs (c) redirected-to-AI; Meta-alumni startup formations 60–90 days; H2-cut timing; Meta Q2 GAAP operating-income as the "AI-capex-substitutes-headcount" empirical test; whether MS/Salesforce/Oracle copy the *redirect-not-just-cut* move |
@@ -137,6 +142,8 @@ Last updated: **2026-05-21**
 |---|---|---|---|
 | **AI does net-new mathematics (OpenAI Erdős result)** | 🟡 | **2026-05-21:** an OpenAI **general-purpose** reasoning model disproved a central conjecture in the planar unit-distance problem (Erdős 1946) — infinite family of better constructions, proof via algebraic number theory; verified by Noga Alon + Thomas Bloom | **Reproducibility / generality** — can the same model do this across problems, or needle-in-haystack? Independent replication; whether other labs publish comparable "general model → novel proof" results; live-benchmark response (LemmaBench) |
 | **Live / contamination-resistant benchmarks (LemmaBench, RepoReason)** | 🟡 | **2026-05-21:** arXiv wave of continuously-refreshed, memorization-resistant evals (LemmaBench 2602.24173 live math; RepoReason 2601.03731 repo-level; PostTrainBench 2603.08640) | Adoption by labs / the EO pre-release review process; whether eval-as-a-service startups raise on it |
+| **Real-tool agent benchmarks (MCP-Atlas, Tool Decathlon)** | 🟡 NEW | **2026-05-22:** eval shifts from mocks to *real* tools — **MCP-Atlas** (Scale, arXiv 2602.00933; real MCP servers, agent must discover tools) + **Tool Decathlon/Toolathlon** (ICLR 2026, arXiv 2510.25726; 32 apps / 604 tools, execution-based eval) | Whether labs report MCP-Atlas/Toolathlon in release notes; eval-against-real-tools as a recurring-revenue startup wedge; whether these become standard FDE-interview vocabulary |
+| **Agentic Reasoning survey — 3-layer taxonomy** | 🟢 NEW | **2026-05-22:** arXiv 2601.12538 — foundational (plan/tool/search) → self-evolving (feedback/adaptation) → collective (multi-agent); the connective vocabulary under the week's benchmark + talent moves | Citation velocity; whether the taxonomy terms appear in job-post requirements / lab posts |
 | **Anthropic Dreaming** | 🟡 | Research preview May 7 | Generalization beyond coding/finance/legal |
 | **Agent Reliability framework (arXiv 2602.16666)** | 🟢 | v2 active; 12 metrics across 4 dimensions; reliability decoupling thesis | Replications; whether labs internally adopt the metrics |
 | **Outcome-Driven Constraint Violations benchmark (2512.20798)** | 🟢 | Published; complements Constraint Decay (capability vs alignment failure modes) | Independent benchmarks; vendor-by-vendor replication |

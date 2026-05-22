@@ -4,7 +4,7 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-21**
+Last updated: **2026-05-22**
 
 ---
 
@@ -44,8 +44,12 @@ Last updated: **2026-05-21**
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | 30-min Meta-alumni reply window | Fri | [2026-05-20/05 §1](./2026-05-20/05-career-and-startup.md#1-meta-outreach) |
-| ⚪ | **Ship the dual-model sanitiser safety project** (vulnerable vs. defended, both traces) — frame as "pre-deployment evaluation" per the EO lane | Fri night | [2026-05-20/05 §3](./2026-05-20/05-career-and-startup.md#3-safety-project) · [2026-05-21/05 §3](./2026-05-21/05-career-and-startup.md#3-eo-lane) |
+| ⚪ | 30-min Meta-alumni reply window (log replies in `apps/meta-alumni-tracker.md`, set 90-day follow-up) | Fri | [2026-05-22/05 §3](./2026-05-22/05-career-and-startup.md#3-meta-followup) |
+| ⚪ | **Ship the dual-model sanitiser project — REFRAMED:** Opus-planner/Sonnet-worker team + verify against **one real MCP server** (cite MCP-Atlas / Toolathlon) + **per-step token-by-model cost table** → answers orchestration + real-tool-verification + cost in one artifact | Fri night | [2026-05-22/03 §2](./2026-05-22/03-practical-skills-and-tools.md#2-artifact) · [2026-05-22/04 §1](./2026-05-22/04-research-progress.md#1-real-tool-benchmarks) |
+| ⚪ | Set up the **Opus-4.7 orchestrator + Sonnet-4.6 workers** agent team (~40% cheaper) + the plan→annotate→"address all notes, don't implement yet" loop | Fri/tonight | [2026-05-22/03 §1](./2026-05-22/03-practical-skills-and-tools.md#1-agent-team-cost) |
+| ⚪ | Apply to 1 Anthropic role **referencing the Karpathy pre-training-automation direction specifically** (artifacts attached) — before the Karpathy-effect applicant wave | This week | [2026-05-22/05 §1](./2026-05-22/05-career-and-startup.md#1-karpathy-signal) |
+| ⚪ | Add **agentic-SOC / AI security operations** (Exaforce + category) to apply/watch list — thin, two-tailwind lane (VC + EO cyber half) | This week | [2026-05-22/05 §4](./2026-05-22/05-career-and-startup.md#4-soc-lane) |
+| ⚪ | Read the **"Agentic Reasoning" survey** (arXiv 2601.12538) for the 3-layer taxonomy — highest ROI-per-hour interview prep | This week | [2026-05-22/04 §2](./2026-05-22/04-research-progress.md#2-agentic-reasoning-survey) |
 | ⚪ | (optional) Ship AIRS-Bench portfolio project | Fri | [2026-05-19/05 §3](./2026-05-19/05-career-and-startup.md#3-airs-bench-project) |
 
 ### Saturday May 23

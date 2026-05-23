@@ -4,7 +4,7 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-05-23**
 
 ---
 
@@ -56,10 +56,12 @@ Last updated: **2026-05-22**
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | **Ship the hook-guarded, MCP-wired mini-agent + per-step cost trace** (orchestration + guardrails + cost-awareness in one artifact) | Sat | [2026-05-21/03 §2](./2026-05-21/03-practical-skills-and-tools.md#2-artifact) |
-| ⚪ | **Ship WebMCP origin-trial demo** (or "what I'll build when Chrome 149 lands" post) | Sat | [2026-05-20/03 §2](./2026-05-20/03-practical-skills-and-tools.md#2-webmcp-demo) |
-| ⚪ | Workday × Anthropic Solopreneurship Accelerator application | Sat | [2026-05-19/05 §5](./2026-05-19/05-career-and-startup.md#5-workday-solopreneur) |
-| ⚪ | STARTUPS.md re-rank — agent-identity/WebMCP-tooling to top-fit | Sat | [STARTUPS.md](./STARTUPS.md) |
+| ⚪ | **Ship the queued project *as a publishable Claude Skill*** — `SKILL.md` (trigger, not summary) + cost-logger helper script (Opus-planner/Sonnet-worker token table) + `gotchas.md` (from a *real* MCP-server run) + 5-case eval (3 tool-use + 2 injection-refusal). One Skill = orchestration + real-tool verification + cost + reusability | Sat | [2026-05-23/03 §2](./2026-05-23/03-practical-skills-and-tools.md#2-artifact) · [2026-05-23/03 §1](./2026-05-23/03-practical-skills-and-tools.md#1-claude-skills) |
+| ⚪ | **File the Workday × Anthropic Solopreneurship Accelerator application** — attach the Skill above as the asset | Sat | [2026-05-19/05 §5](./2026-05-19/05-career-and-startup.md#5-workday-solopreneur) |
+| ⚪ | **Add 5 small / AI-native companies** to the apply list (founding-eng / first-AI-hire framing) — where the openings actually are (big-tech new-grad −50%) | Sat | [2026-05-23/05 §1](./2026-05-23/05-career-and-startup.md#1-labor-as-data) |
+| ⚪ | Apply to 1 Anthropic role referencing the **Karpathy pre-training-automation** direction specifically (carry from Fri) | Sat | [2026-05-22/05 §1](./2026-05-22/05-career-and-startup.md#1-karpathy-signal) |
+| ⚪ | **STARTUPS.md re-rank** — promote *consented expert-work-capture* (Meta-backlash wedge) + *AI-research verification* (math-milestone wedge) | Sat | [2026-05-23/05 §2](./2026-05-23/05-career-and-startup.md#2-weekend-execution) · [STARTUPS.md](./STARTUPS.md) |
+| ⚪ | (carry) Ship WebMCP origin-trial demo / "what I'll build when Chrome 149 lands" post | Sat | [2026-05-20/03 §2](./2026-05-20/03-practical-skills-and-tools.md#2-webmcp-demo) |
 
 ### Sunday May 24
 

@@ -4,7 +4,7 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-23**
+Last updated: **2026-05-24**
 
 ---
 
@@ -67,8 +67,22 @@ Last updated: **2026-05-23**
 
 | Status | Action | Due | Source |
 |---|---|---|---|
+| ⚪ | **Write the week's 3 moves** (ship migration Skill · apply to 2 FDE roles + 1 referral · audit Claude spend before June 15), then close the laptop | Sun (15 min) | [2026-05-24/05 §1](./2026-05-24/05-career-and-startup.md#1-week-setup) |
+| ⚪ | **Re-frame the Skill artifact around the SaaSpocalypse:** *"Replace N seats of [Salesforce/ServiceNow] with one governed agent workflow"* — README opens with the per-action vs per-seat cost table | Sun/this week | [2026-05-24/03 §2](./2026-05-24/03-practical-skills-and-tools.md#2-this-week) |
+| ⚪ | Re-title LinkedIn headline to the **migration job-to-be-done** (AI Integration / FDE — migrating teams off per-seat SaaS onto governed, cost-aware agent workflows) | Sun | [2026-05-24/05 §1](./2026-05-24/05-career-and-startup.md#1-week-setup) |
+| ⚪ | Re-confirm Anthropic Solutions/FDE applications are **live** — the $900B round = hiring window | Sun | [2026-05-24/01 §1](./2026-05-24/01-big-lab-moves.md#1-anthropic-round) |
 | ⚪ | Weekly review: write WEEK-2026-05-18.md rollup | Sun | (new convention this week) |
 | ⚪ | Cleanup ACTIONS.md (move open items to next week, archive 🟢 / 🔴) | Sun | (this file) |
+
+### Next week (May 26 – June 1)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Watch the Anthropic round *close*** (week of May 26) — log final structure + primary/secondary mix in WATCHLIST | Week of May 26 | [2026-05-24/01 §1](./2026-05-24/01-big-lab-moves.md#1-anthropic-round) |
+| ⚪ | Apply to **2 FDE/Integration roles** with the migration-Skill link + secure **≥1 referral** (referrals > cold apps); target the Anthropic window + 1 on-prem shop (post OpenAI×Dell) | This week | [2026-05-24/05 §1](./2026-05-24/05-career-and-startup.md#1-week-setup) · [2026-05-24/01 §3](./2026-05-24/01-big-lab-moves.md#3-openai-dell) |
+| ⚪ | **Audit Claude programmatic spend** (2-week trace) — also the Skill's headline cost number + June-15 mitigation | By June 15 | [2026-05-24/03 §1](./2026-05-24/03-practical-skills-and-tools.md#1-countdown) |
+| ⚪ | Read **memory-security survey** (arXiv 2604.16548) + post 1 LinkedIn takeaway tying it to the SaaSpocalypse | This week | [2026-05-24/04 §2](./2026-05-24/04-research-progress.md#2-read) |
+| ⚪ | Start an **"ex-Anthropic founders" watch list** as the round closes (network for wedge + job) | This week | [2026-05-24/05 §2](./2026-05-24/05-career-and-startup.md#2-equity) |
 
 ---
 

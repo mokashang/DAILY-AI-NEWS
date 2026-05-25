@@ -4,11 +4,28 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-24**
+Last updated: **2026-05-25**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (May 26 – May 31)
+
+### Monday May 25 (today)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Re-model agent spend before June 15 (T-21):** pull 30d programmatic usage × API rates; deploy caching → routing → context-budgeting; **confirm the Agent SDK credit toggle is ON** | Today | [2026-05-25/03 §1](./2026-05-25/03-practical-skills-and-tools.md#1-metering) |
+| ⚪ | File the week's **4 targeted applications:** Anthropic Solutions/FDE · OpenAI Deployment Co · Google Cloud Agent/Antigravity · **NEW: 1 AI-governance / trust-&-safety role** (lane the encyclical legitimized) | This week | [2026-05-25/05 §1](./2026-05-25/05-career-and-startup.md#1-week-ahead) |
+| ⚪ | Monday tracker hygiene: log apps in `APPLICATIONS.md`; add the "deployment + audit-trail compliance" wedge + "outcome-grounded eval" lens to `STARTUPS.md` | Today | [2026-05-25/05 §2](./2026-05-25/05-career-and-startup.md#2-trackers) |
+| ⚪ | Add **Gemini 3.5 Flash/Pro routing rule** to the 3-provider router (Flash for agentic/coding legs, escalate to reasoning tier) + per-step cost chart | This week | [2026-05-25/02 §1](./2026-05-25/02-new-emerging.md#1-gemini-pro) |
+| ⚪ | Learn **TerminalWorld / AI-Trader / HAL** by name; run the migration Skill against a couple of TerminalWorld-style tasks | This week | [2026-05-25/04 §1](./2026-05-25/04-research-progress.md#1-benchmarks) |
+| ⚪ | Pre-position for **Apple WWDC June 8:** pre-read the likely Extensions API shape; plan a first-week Extension demo | By June 8 | (WWDC June 8 keynote) |
+
+> **Watching (not actions):** Anthropic raise *signing* (track the term sheet, not the reporting); SpaceX SPCX ~June 12; Gemini 3.5 Pro June date; Pope encyclical → Article 51 framing.
+
+---
+
+## Last week (May 19 – May 25) — closing out
 
 ### Tuesday May 19 — I/O DAY (done)
 

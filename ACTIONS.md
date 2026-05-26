@@ -4,13 +4,23 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-25**
+Last updated: **2026-05-26**
 
 ---
 
 ## This week (May 26 – May 31)
 
-### Monday May 25 (today)
+### Tuesday May 26 (today) — execution day
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **File the 4 applications NOW — Anthropic first — before the round-close confirmation floods the queue** (reference Karpathy pre-training direction; attach cost re-model + architecture-cost diagram) | Today | [2026-05-26/05 §1](./2026-05-26/05-career-and-startup.md#1-bifurcation-data) · [2026-05-26/01 §1](./2026-05-26/01-big-lab-moves.md#1-anthropic-close) |
+| ⚪ | **Commit to ONE lane + rewrite resume/LinkedIn headline** → *"Forward-Deployed / AI Integration Engineer — production agents, cost-aware, verified against real tools"* | Today | [2026-05-26/05 §1](./2026-05-26/05-career-and-startup.md#1-bifurcation-data) |
+| ⚪ | **Learn the Skills vs MCP vs Subagents cost table** (Skill ~100 tok vs 5-server MCP ~55K always-on) + assemble the one-screen architecture-cost diagram for the portfolio README | Today (20 min) | [2026-05-26/03 §1](./2026-05-26/03-practical-skills-and-tools.md#1-skills-vs-mcp) · [§2](./2026-05-26/03-practical-skills-and-tools.md#2-artifact) |
+| ⚪ | **Watch for the Anthropic round-close confirmation** (anthropic.com + Bloomberg) — catch it same-day | This week | [2026-05-26/01 §1](./2026-05-26/01-big-lab-moves.md#1-anthropic-close) |
+| ⚪ | Re-score STARTUPS.md wedges toward **agentic retrieval + agent-code security** (the two hot seed themes) | This week | [2026-05-26/05 §2](./2026-05-26/05-career-and-startup.md#2-seed-premium) |
+
+### Monday May 25
 
 | Status | Action | Due | Source |
 |---|---|---|---|

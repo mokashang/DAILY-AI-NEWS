@@ -4,7 +4,7 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-25**
+Last updated: **2026-05-26**
 
 ---
 
@@ -12,7 +12,7 @@ Last updated: **2026-05-25**
 
 | Thread | Status | Last move | Watching for |
 |---|---|---|---|
-| **Anthropic $30B raise at $900B pre-money** | 🟢 TERMS AGREED | **2026-05-23:** terms agreed — **~$30B at $900B pre-money**, co-leads **Dragoneer / Greenoaks / Sequoia / Altimeter** (≥$2B each), Founders Fund + General Catalyst participating; **closing as soon as week of May 26** (Bloomberg/FT/The Information). At $900B+ **overtakes OpenAI (~$852B)** = #1 most valuable private AI co. | The *signed* close (week of May 26); final pre/post-money + **primary vs secondary mix**; whether it firms or defers the October IPO; ecosystem comp re-benchmarking |
+| **Anthropic $30B raise at $900B pre-money** | 🟡🔥 CLOSING | **2026-05-26:** still **"closing this week" but NOT yet officially signed** (watch-item of the week). **2026-05-23:** terms agreed — **~$30B at $900B pre-money**, co-leads **Dragoneer / Greenoaks / Sequoia / Altimeter** (≥$2B each), Founders Fund + General Catalyst participating. At $900B+ **overtakes OpenAI (~$852B)** = #1 most valuable private AI co. | **The *signed* close (watch anthropic.com + Bloomberg daily this week)**; final pre/post-money + **primary vs secondary mix**; whether it firms or defers the October IPO; ecosystem comp re-benchmarking |
 | **OpenAI ↔ Anthropic valuation flip** | 🟡 NEW | **2026-05-23:** Anthropic $900B pre-money > OpenAI ~$852B = first valuation crossover, following the May-14 Ramp *adoption* crossover (34.4% vs 32.3%) | Whether a *revenue* crossover follows valuation + adoption; whether OpenAI's IPO roadshow narrative responds; whether the lead holds through both IPOs |
 | **Anthropic ARR trajectory** | 🟡 | $44B disclosed in May 8 investor meeting | Monthly progression; first month of deceleration |
 | **Anthropic first profitable quarter** | 🟡 | **2026-05-21:** reporting projects Q2 2026 revenue ~$10.9B (>2×) and **~$559M operating profit — ~2 yrs ahead of internal plan**, despite $15B/yr Colossus bill | Whether profitability holds once the full $1.25B/mo compute cost ramps; impact on the $30–50B raise terms / IPO timing |
@@ -25,6 +25,7 @@ Last updated: **2026-05-25**
 | **Anthropic IPO path (October 2026 target)** | 🟡 | **2026-05-22:** reported targeting **October 2026** listing, on the back of projected first profitable quarter (Q2 ~$10.9B rev, ~$559M op profit) | Whether the October path firms up; S-1 filing; how the $1.25B/mo Colossus bill reads in a prospectus |
 | **The IPO wave as an asset-class shift (SpaceX + OpenAI + Anthropic)** | 🟡 | **2026-05-23:** now a sequenced **cohort** — SpaceX (June, public S-1) → OpenAI (Sept, confidential, ~$852B–$1T) → Anthropic (Oct, ~$900B, raise reportedly >$60B). SpaceX prices first = sets the multiple. **2026-05-22:** three frontier-adjacent giants potentially public inside ~12 mo = frontier AI becomes a **public-market asset class** | First prints; whether public markets underwrite frontier-AI economics; founder-recycling from liquidity events; whether SPCX's first-earnings arc helps/hurts the OpenAI+Anthropic multiples |
 | **SpaceX public S-1 / SPCX June 12 IPO ($1.75T)** | 🟡 NEW | **2026-05-23:** SpaceX **filed its public S-1 May 20**; Nasdaq target **June 12 (ticker SPCX)**, roadshow ~June 4, ~**$75B raise at ~$1.75T** (largest IPO ever by valuation); Musk keeps ~**85.1% voting control**; 2025 rev ~$18.67B / ~$4.9B net loss; Starlink >10M subs. **Anthropic's ~$45B / $1.25B-mo Colossus deal disclosed as an audited liability inside the filing** | June 4 roadshow + June 12 listing (date can slip on SEC requests / market conditions); first-day pop → first-earnings arc as the pricing precedent for OpenAI/Anthropic; whether index-demand risk materializes |
+| **Hark (Brett Adcock) — AI hardware — >$700M at $6B** | 🟡 NEW | **2026-05-21:** Series A led by Parkway; **NVIDIA + AMD Ventures + Intel Capital + Qualcomm Ventures + Brookfield + Salesforce Ventures** all in (Bloomberg) | What Hark builds; whether the all-chipmaker cap table signals a new hardware/robotics platform; hiring volume |
 | **OpenAI $25B ARR + IPO path** | 🟢 SUPERSEDED | Q1 2026 IPO chatter → now concrete (see confidential S-1 row above) | (folded into the OpenAI IPO-path row) |
 | **OpenAI ad revenue (ChatGPT Ads Manager)** | 🟡 | **2026-05-21:** self-serve Ads Manager (CPC, **no minimum spend**, agency + Adobe/Criteo partners) live; target **$2.5B this year → $100B/yr by 2030**; ads to Free/Go tiers — vs **Anthropic's ad-free pledge** | Whether ad revenue materializes at target; whether Anthropic holds ad-free; agent-mediated-commerce / attribution as an emerging wedge |
 | **Cognition (Devin) $25B raise** | 🟡 | Hundreds of millions pending; Founders Fund leading | Round close; final valuation; new enterprise logos |
@@ -67,7 +68,7 @@ Last updated: **2026-05-25**
 | **Nemotron 4 (NVIDIA open)** | ⚪ | Nemotron 3 Nano Omni shipped May | Whether NVIDIA goes annual on Nemotron |
 | **DeepSeek V5** | ⚪ | V4 still being discounted | Summer launch likely |
 | **Mistral open frontier release** | ⚪ | Quiet quarter | EU sovereignty narrative catalyst |
-| **Apple "Extensions" SDK** | 🟡 | iOS 27 reveal expected WWDC June 9 | Official SDK + featured Extensions list |
+| **Apple "Extensions" SDK + Gemini-powered Siri** | 🟡 | **2026-05-26:** Apple registered **`genai.apple.com`** ahead of **WWDC (Mon June 8, date corrected from June 9)**; multi-AI Siri Extensions (ChatGPT/Gemini/Claude picker) + rebuilt Siri reportedly on a **custom Gemini model** via Private Cloud Compute | June 8 keynote: official SDK + featured Extensions; whether Claude is a launch option; Gemini-Siri ship window |
 | **xAI voice stack (STT + TTS + Imagine Quality)** | 🟢 | Standalone APIs shipped GA week of May 11 | Mistral partnership formalization; speech latency benchmarks |
 | **Googlebook / Aluminium OS (Google desktop platform)** | 🟡 | Codename confirmed + rebranded "Googlebook" May 12–13; OEMs locked (Acer/Asus/Dell/HP/Lenovo); Gemini as OS layer | Developer SDK at I/O May 19; OEM hardware shipping dates; "Magic Pointer" agent surface |
 | **Claude Code share of GitHub commits** | 🟡 | SemiAnalysis: ~4% of all public commits (~135K/day), double the prior month | Whether the 20%-by-end-2026 projection tracks; reliability/outage complaints at scale |

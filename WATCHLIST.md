@@ -4,7 +4,7 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-05-27**
 
 ---
 
@@ -12,7 +12,7 @@ Last updated: **2026-05-22**
 
 | Thread | Status | Last move | Watching for |
 |---|---|---|---|
-| **Anthropic $30–50B raise at up to ~$950B post** | 🟡 | 2026-05-18: still no term sheet signed (per BuildFastWithAI Monday digest); 3rd consecutive week characterized as "imminent" — likely slipping to align with post-June-15 metering data; possible close timed to Code w/ Claude Tokyo (June 5–6) | Signed term sheet; final post-money; lock-up period; whether MGX / UK Sovereign / SoftBank Vision Fund 3 anchor |
+| **Anthropic $30B raise at $900B+ post (passes OpenAI's $852B)** | 🟢 | **2026-05-26/27: reported closing this week** — $30B+ at **$900B+**, co-leads **Sequoia/Dragoneer/Altimeter/Greenoaks (~$2B each)** + Founders Fund/General Catalyst returning; **most-valuable-AI-startup framing now live**; 2.4× step from Feb's ~$380B in ~3 mo. Driven by adoption (Ramp) + near-profitability + Karpathy | **Formal Anthropic announcement** confirming close + final post-money; whether $900B / the OpenAI flip holds; lock-up; October IPO path firming |
 | **Anthropic ARR trajectory** | 🟡 | $44B disclosed in May 8 investor meeting | Monthly progression; first month of deceleration |
 | **Anthropic first profitable quarter** | 🟡 | **2026-05-21:** reporting projects Q2 2026 revenue ~$10.9B (>2×) and **~$559M operating profit — ~2 yrs ahead of internal plan**, despite $15B/yr Colossus bill | Whether profitability holds once the full $1.25B/mo compute cost ramps; impact on the $30–50B raise terms / IPO timing |
 | **Anthropic > OpenAI on US business adoption** | 🟢 | 2026-05-14 Ramp AI Index: Anthropic 34.4% vs OpenAI 32.3% — first crossover ever | Revenue crossover (Anthropic leads seats, OpenAI leads dollars); whether the 2.1pt lead holds |
@@ -45,6 +45,11 @@ Last updated: **2026-05-22**
 | **Runware $50M Series A (total $66M)** | 🟢 | **2026-05-19:** "Sonic Inference Engine"; plans to deploy 2M+ Hugging Face models by EOY 2026 | Whether long-tail-open-weights infrastructure category gets a $200M+ follow-on round; competitive responses from Replicate / Together / Modal / Fireworks |
 | **Oboe $16M (personalized course generation)** | 🟢 | **2026-05-19:** Consumer EdTech-AI category | Whether the B2B-equivalent (auto-generated SMB onboarding / compliance) is funded next |
 | **OpenAI Deployment Company ($4B+ initial capital) + Tomoro acquisition (~150 FDEs)** | 🟢 NEW | **2026-05-19:** Launched May 11–12; majority-owned subsidiary; TPG lead + 19-investor consortium (Advent, Bain Capital, Brookfield co-leads); Tomoro acquisition closes "in coming months"; Tomoro brings ~150 FDEs + offices in London/Edinburgh/Manchester/Singapore/Sydney/Melbourne; customers Tesco/Virgin Atlantic/Supercell | Tomoro acquisition close date; first OpenAI Deployment Company customer logo announcements; comp-band setting for senior FDEs (likely $300–500K base, $700K+ TC at staff); whether Anthropic Solutions matches or differentiates |
+| **Hark $700M Series A at $6B (AI personal-assistant device)** | 🟢 NEW | **2026-05-26 (announced May 21):** models + hardware; led by Parkway VC with **all four chipmakers (Nvidia/AMD/Intel/Qualcomm)** + Salesforce/ARK/Brookfield/Greycroft — coordinated bet on AI-native hardware | Device form factor + ship date; whether an SDK/dev-program opens an app layer; OpenAI io / Apple responses |
+| **Unframe $50M Series B ($100M contracts in year 1)** | 🟢 NEW | **2026-05-26:** Highland Europe lead (Bessemer/Craft/TLV/Third Point); total $100M since 2024; contract-velocity > model-novelty | Whether contract-velocity rounds become the truer enterprise-AI signal; deployment/FDE hiring |
+| **Frontier-lab consolidation / acqui-hire wave** | 🟡 NEW | **2026-05-23:** "four labs, four acquisitions in five days" — Anthropic/Stainless ($300M+), Mistral/Emmi AI, Google DeepMind/Contextual AI team (~$80–90M license), Meta/Dreamer; mostly talent/license-structured to avoid antitrust | Next team-license deal; whether trackers undercount the (invisible) consolidation; acqui-hire as a job/exit path |
+| **OpenAI developer-lock-in M&A (open-source tooling)** | 🟡 NEW | **2026-05-25:** nearly as many 2026 deals as all last year; **8/17 open-source** — Astral (`uv`/`Ruff`/`Ty`)→Codex, Promptfoo (eval), Statsig (~$1B, analytics); embed-then-monetize vs Claude Code | Next open-source dev-tool buy; whether `uv`/Ruff/Promptfoo stay open; the workflow-lock-in vs Anthropic |
+| **Europe sovereign-AI (Germany €125M "Next Frontier AI" / SPRIND)** | 🟡 NEW | **2026-05-25:** SPRIND launches €125M competition to seed a European OpenAI/DeepSeek; joins UK Sovereign AI Fund + Mistral | Applicants; whether €125M anchors a real contender; more EU-member sovereign funds; data-sovereignty wedge demand |
 
 ---
 
@@ -156,7 +161,8 @@ Last updated: **2026-05-22**
 | **Mem0 / EverMemOS memory architectures** | 🟡 | First production deployments | When agent memory becomes standard |
 | **Externalization in LLM Agents (survey)** | 🟢 | Unified review of memory, skills, protocols, harness eng | Set the field's vocabulary; citation velocity |
 | **Calibration / abstention ("Answer, Refuse, or Guess?")** | 🟡 | Appier research published — LLMs miscalibrated in both directions on risk | Replications; whether abstention layers become standard in vertical agents |
-| **Agent memory maintenance (STALE / SAGE / survey 2603.07670)** | 🟡 | Memory-validity + graph-memory work trending May W19 | Whether staleness detection becomes a funded infra category vs Mem0/EverMemOS |
+| **Agent memory: curation/forgetting over capacity (survey 2603.07670 + AMA + MemMA + structure-eval)** | 🟡 | **2026-05-25/26/27:** survey 2603.07670 → **no system masters all 4 competencies; selective forgetting is the weak link**; **AMA** (2601.20352) ~80% token cut via multi-agent curated memory; **MemMA** (2603.18718) failures→repair-signals (in-situ self-evolution); **structure-eval** (2602.11243) — *how* memory is organized > how much | Whether selective-forgetting becomes a funded infra category vs Mem0/EverMemOS; labs adopting curate-and-repair; staleness/contradiction tooling |
+| **Agents that do research (PostTrainBench / InnovatorBench / test-time-scaling)** | 🟡 NEW | **2026-05-23/24:** benchmark cluster measuring "can an agent do ML/research work under a compute budget" — PostTrainBench (2603.08640), InnovatorBench (2510.27598), Test-Time Scaling of General Agents (2602.18998); the measurement layer under the Karpathy/Claude-trains-Claude hire | Labs reporting these in release notes; experiment-orchestration / compute-budget / eval substrate as the picks-and-shovels wedge |
 | **Neuro-symbolic efficiency (~100× energy, ICRA Vienna)** | ⚪ | Presented May 2026 — task-specific result | Replication outside robotics; whether it enables on-device agents |
 | **Attractor Models — fixed-point latent reasoning** | 🟡 | arXiv submission May 12 — frames latent refinement as fixed-point problem; memory-efficient | Replications outside the original lab; whether commercial APIs absorb the pattern |
 | **"Many Faces of On-Policy Distillation" (unified taxonomy)** | 🟡 | arXiv May 11 — capability-gap sweet spot, diversity scaffolding, reward-landscape shape | Whether labs cite this as the canonical OPD reference; production OPD pipelines that follow the prescription |

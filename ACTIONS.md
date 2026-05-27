@@ -4,11 +4,43 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-05-27**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (May 26 – June 1) — current
+
+### Priority (before June-15 metering, T-19)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship the FOUR-SKILL CAPSTONE** — wire orchestration (Opus/Sonnet) + eval (Promptfoo suite) + memory (summarize-and-prune) + cost (token trace) into one project; write the client-framed README + 3 numbers (eval pass-rate, cost/task, memory token-delta) + demo gif | This week | [2026-05-27/03 §1](./2026-05-27/03-practical-skills-and-tools.md#1-capstone) |
+| ⚪ | Add a **Promptfoo eval suite** (5 cases: benign tool use · injected-instruction refusal · tool discovery · cost ceiling · graceful failure) | Mon/Tue | [2026-05-25/03 §1](./2026-05-25/03-practical-skills-and-tools.md#1-promptfoo) |
+| ⚪ | Add a **memory layer** (summarize-and-prune + staleness tags + contradiction check) and log the token delta | Tue/Wed | [2026-05-26/03 §1](./2026-05-26/03-practical-skills-and-tools.md#1-memory-pattern) |
+| ⚪ | **Ship one Agent Skill** (`SKILL.md` for a repeated workflow — e.g. weekly-review or eval-run) | Weekend | [2026-05-23/03 §2](./2026-05-23/03-practical-skills-and-tools.md#2-skill-artifact) |
+
+### Apply / track
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Standing weekly **1 Anthropic Solutions/FDE/Integration** — apply *into* the $900B news cycle; reference the specific cadence (2.4× in 3 mo, on adoption + profitability), artifacts attached | This week | [2026-05-26/05 §2](./2026-05-26/05-career-and-startup.md#2-anthropic-bet) |
+| ⚪ | Add **AI-hardware / on-device-ML MLE** roles (Hark + chipmaker-portfolio cos) to watch list | This week | [2026-05-26/05 §1](./2026-05-26/05-career-and-startup.md#1-hardware-lane) |
+| ⚪ | Add **selective-forgetting memory** + **device app-layer** wedges to STARTUPS.md with fit + acqui-hire-ability scores | This week | [2026-05-27/05 §2](./2026-05-27/05-career-and-startup.md#2-wedges) |
+| ⚪ | Update resume: lead with **eval engineering** (Promptfoo) + list `uv`/`Ruff` toolchain | This week | [2026-05-25/05 §1](./2026-05-25/05-career-and-startup.md#1-skill-reprice) |
+| ⚪ | (EU-mobile?) Add **SPRIND-funded / European applied-AI** startups to watch list | This week | [2026-05-25/05 §2](./2026-05-25/05-career-and-startup.md#2-europe-lane) |
+
+### Read / review
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Read the **agent-memory survey** (2603.07670) — four competencies, selective forgetting | This week | [2026-05-25/04 §1](./2026-05-25/04-research-progress.md#1-memory-survey) |
+| ⚪ | Internalize the **research-arc table** (real-tools → research-agents → memory → efficiency) as your "where is the field going" interview answer | This week | [2026-05-27/04 §1](./2026-05-27/04-research-progress.md#1-memory-structure) |
+| ⚪ | **Month-end focusing checkpoint** (confirm Anthropic bet; reframe portfolio around the four skills) | Sun May 31 | [2026-05-27/05 §1](./2026-05-27/05-career-and-startup.md#1-checkpoint) |
+| ⚪ | Write `WEEK-2026-05-25.md` rollup + clean this file (archive 🟢/🔴, roll ⚪) | Sun May 31 | (weekly ritual) |
+
+---
+
+## Last week (May 19 – May 25)
 
 ### Tuesday May 19 — I/O DAY (done)
 

@@ -29,15 +29,19 @@ Personalization context so every daily edition can be written *to* this profile,
 - **Weekend:** ship one artifact
 
 ## Current focusing decision (re-evaluate monthly)
-- **Committed to the Anthropic agentic stack** for portfolio + skill investment. Multi-vendor as production discipline; Anthropic-first for depth.
-- Specialty lane to lead with: **AI Integration Engineer** (see [2026-05-16/05](./2026-05-16/05-career-and-startup.md#1-integration-engineer))
-- Active portfolio focus: **MCP servers + cost-aware agent design**
+- **Committed to the Anthropic agentic stack** for portfolio + skill investment. Multi-vendor as production discipline; Anthropic-first for depth. **Market-confirmed 2026-05-26/27:** Anthropic reported closing $30B at **$900B+ (past OpenAI's $852B)** — adoption (Ramp) + near-profitability + talent (Karpathy) all agree. ([2026-05-27/05 §1 checkpoint](./2026-05-27/05-career-and-startup.md#1-checkpoint))
+- Specialty lane to lead with: **AI Integration Engineer** (see [2026-05-16/05](./2026-05-16/05-career-and-startup.md#1-integration-engineer)); **lead skill phrase = eval engineering** (Promptfoo — the tool OpenAI bought, [2026-05-25/05 §1](./2026-05-25/05-career-and-startup.md#1-skill-reprice))
+- Active portfolio focus: **the four-skill agent stack — orchestration · eval · memory · cost** (the May 2026 reprice; see the capstone [2026-05-27/03 §1](./2026-05-27/03-practical-skills-and-tools.md#1-capstone))
+- Two fresh **acqui-hire-shaped wedges** opened this month: **selective-forgetting memory** + **device app-layer** ([2026-05-27/05 §2](./2026-05-27/05-career-and-startup.md#2-wedges))
 
 ## Active portfolio artifacts
+- [ ] **Four-skill capstone** (the priority): dual-model sanitiser demonstrating orchestration (Opus/Sonnet) + eval (Promptfoo suite) + memory (summarize-and-prune) + cost (token trace) — finish before June-15 metering ([2026-05-27/03 §1](./2026-05-27/03-practical-skills-and-tools.md#1-capstone))
 - [ ] Public MCP server (3 tools, 5-case eval, README, demo gif)
 - [ ] Personal Claude billing audit + writeup
 - [ ] One vertical-Claude-for-X workflow library
+- [ ] One Agent Skill (reusable workflow, e.g. weekly-review or eval-run) ([2026-05-23/03 §2](./2026-05-23/03-practical-skills-and-tools.md#2-skill-artifact))
 - [ ] One-page Gemini-vs-Claude-vs-OpenAI agent comparison (publish day after Google I/O)
+- [ ] (optional) One on-device / quantized-model latency+cost benchmark — signals the hardware crossover ([2026-05-26/05 §1](./2026-05-26/05-career-and-startup.md#1-hardware-lane))
 - [ ] 3 cold emails to frontier-lab engineers this week
 
 ## Job-search targeting (as of latest edition)

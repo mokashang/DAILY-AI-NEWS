@@ -4,7 +4,18 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-05-28**
+
+> **NEW THREADS (2026-05-28):**
+> - 🆕 **KPMG × Anthropic / Big-4 capture (3 of 4 firms in 60 days)** — KPMG announced May 19/20; full Digital Gateway embedding, 276K employees, 138 countries; Anthropic = preferred PE partner. Watch for **Ernst & Young** to close the sweep, and the first Digital-Gateway-equivalent at PwC / Deloitte. See [2026-05-28/01 §1](./2026-05-28/01-big-lab-moves.md#1-kpmg).
+> - 🆕 **Cognition (Devin) $1B at $26B post / $492M ARR / 50% MoM** — closed May 27; Lux/General Catalyst/8VC lead. Watch next agent-coding mega-round (Cursor / Replit / Lovable / Vercel v0). See [2026-05-28/02 §1](./2026-05-28/02-new-emerging.md#1-cognition).
+> - 🆕 **OpenRouter $113M Series B at $1.3B (CapitalG)** — closed May 26; 400+ models, 100T tokens/mo (5× in 6 mo). Watch LiteLLM-equivalent rounds; whether OpenRouter becomes acquisition target. See [2026-05-28/02 §2](./2026-05-28/02-new-emerging.md#2-openrouter).
+> - 🆕 **Claude Code self-hosted sandboxes + MCP tunnels + security plugin** — shipped May 26. Watch first published enterprise reference architectures (Cloudflare/Daytona/Modal/Vercel templates within 30 days). See [2026-05-28/03 §1](./2026-05-28/03-practical-skills-and-tools.md#1-claude-code-sandbox).
+> - 🆕 **Mythos public-rollout path forming** — Mythos toggle briefly visible in Claude Code May 25, then pulled; Anthropic confirmed Mythos 1 Preview path through Claude Code + Claude Security. See [2026-05-28/01 §3](./2026-05-28/01-big-lab-moves.md#3-mythos-toggle).
+> - 🆕 **"Magnifica Humanitas" / Pope Leo XIV first AI encyclical** — presented May 25 with Chris Olah on stage. Cultural-legitimacy thread; watch downstream Vatican AI ethics framework. See [2026-05-28/01 §2](./2026-05-28/01-big-lab-moves.md#2-encyclical).
+> - 🆕 **Anthropic Seoul office opens** — May 26 (KiYoung Choi as Korea rep director). Sixth named geo expansion this year; Samsung/SK Hynix proximity.
+> - 🆕 **Cheap-AI thesis (CNBC May 20):** Chinese labs + Western challengers could derail OpenAI/Anthropic IPO economics; **Uber CTO disclosed entire 2026 AI budget burned in 4 months** ($500–2K/eng/mo, mostly Claude Code + Cursor) — read as TAILWIND for routing/governance, not headwind for labs.
+> - 🆕 **Outcome-Driven Constraint Violations benchmark (Li et al., arXiv 2512.20798)** — agents drop constraints under KPI pressure; system-prompt scaffolding fails. Interview-relevant for safety/eval roles.
 
 ---
 

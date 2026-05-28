@@ -48,7 +48,34 @@ Last updated: **2026-05-28**
 
 ---
 
-## Previous week (May 19 – May 25) — archived
+## Previous week archive — May 25–27
+
+### Tuesday May 26 — execution day
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **File the 4 applications NOW — Anthropic first — before the round-close confirmation floods the queue** (reference Karpathy pre-training direction; attach cost re-model + architecture-cost diagram) | Today | [2026-05-26/05 §1](./2026-05-26/05-career-and-startup.md#1-bifurcation-data) · [2026-05-26/01 §1](./2026-05-26/01-big-lab-moves.md#1-anthropic-close) |
+| ⚪ | **Commit to ONE lane + rewrite resume/LinkedIn headline** → *"Forward-Deployed / AI Integration Engineer — production agents, cost-aware, verified against real tools"* | Today | [2026-05-26/05 §1](./2026-05-26/05-career-and-startup.md#1-bifurcation-data) |
+| ⚪ | **Learn the Skills vs MCP vs Subagents cost table** (Skill ~100 tok vs 5-server MCP ~55K always-on) + assemble the one-screen architecture-cost diagram for the portfolio README | Today (20 min) | [2026-05-26/03 §1](./2026-05-26/03-practical-skills-and-tools.md#1-skills-vs-mcp) · [§2](./2026-05-26/03-practical-skills-and-tools.md#2-artifact) |
+| ⚪ | **Watch for the Anthropic round-close confirmation** (anthropic.com + Bloomberg) — catch it same-day | This week | [2026-05-26/01 §1](./2026-05-26/01-big-lab-moves.md#1-anthropic-close) |
+| ⚪ | Re-score STARTUPS.md wedges toward **agentic retrieval + agent-code security** (the two hot seed themes) | This week | [2026-05-26/05 §2](./2026-05-26/05-career-and-startup.md#2-seed-premium) |
+
+### Monday May 25
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Re-model agent spend before June 15 (T-21):** pull 30d programmatic usage × API rates; deploy caching → routing → context-budgeting; **confirm the Agent SDK credit toggle is ON** | Today | [2026-05-25/03 §1](./2026-05-25/03-practical-skills-and-tools.md#1-metering) |
+| ⚪ | File the week's **4 targeted applications:** Anthropic Solutions/FDE · OpenAI Deployment Co · Google Cloud Agent/Antigravity · **NEW: 1 AI-governance / trust-&-safety role** (lane the encyclical legitimized) | This week | [2026-05-25/05 §1](./2026-05-25/05-career-and-startup.md#1-week-ahead) |
+| ⚪ | Monday tracker hygiene: log apps in `APPLICATIONS.md`; add the "deployment + audit-trail compliance" wedge + "outcome-grounded eval" lens to `STARTUPS.md` | Today | [2026-05-25/05 §2](./2026-05-25/05-career-and-startup.md#2-trackers) |
+| ⚪ | Add **Gemini 3.5 Flash/Pro routing rule** to the 3-provider router (Flash for agentic/coding legs, escalate to reasoning tier) + per-step cost chart | This week | [2026-05-25/02 §1](./2026-05-25/02-new-emerging.md#1-gemini-pro) |
+| ⚪ | Learn **TerminalWorld / AI-Trader / HAL** by name; run the migration Skill against a couple of TerminalWorld-style tasks | This week | [2026-05-25/04 §1](./2026-05-25/04-research-progress.md#1-benchmarks) |
+| ⚪ | Pre-position for **Apple WWDC June 8:** pre-read the likely Extensions API shape; plan a first-week Extension demo | By June 8 | (WWDC June 8 keynote) |
+
+> **Watching (not actions):** Anthropic raise *signing* (track the term sheet, not the reporting); SpaceX SPCX ~June 12; Gemini 3.5 Pro June date; Pope encyclical → Article 51 framing.
+
+---
+
+## Last week (May 19 – May 25) — closing out
 
 ### Tuesday May 19 — I/O DAY (done)
 
@@ -96,17 +123,33 @@ Last updated: **2026-05-28**
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | **Ship the hook-guarded, MCP-wired mini-agent + per-step cost trace** (orchestration + guardrails + cost-awareness in one artifact) | Sat | [2026-05-21/03 §2](./2026-05-21/03-practical-skills-and-tools.md#2-artifact) |
-| ⚪ | **Ship WebMCP origin-trial demo** (or "what I'll build when Chrome 149 lands" post) | Sat | [2026-05-20/03 §2](./2026-05-20/03-practical-skills-and-tools.md#2-webmcp-demo) |
-| ⚪ | Workday × Anthropic Solopreneurship Accelerator application | Sat | [2026-05-19/05 §5](./2026-05-19/05-career-and-startup.md#5-workday-solopreneur) |
-| ⚪ | STARTUPS.md re-rank — agent-identity/WebMCP-tooling to top-fit | Sat | [STARTUPS.md](./STARTUPS.md) |
+| ⚪ | **Ship the queued project *as a publishable Claude Skill*** — `SKILL.md` (trigger, not summary) + cost-logger helper script (Opus-planner/Sonnet-worker token table) + `gotchas.md` (from a *real* MCP-server run) + 5-case eval (3 tool-use + 2 injection-refusal). One Skill = orchestration + real-tool verification + cost + reusability | Sat | [2026-05-23/03 §2](./2026-05-23/03-practical-skills-and-tools.md#2-artifact) · [2026-05-23/03 §1](./2026-05-23/03-practical-skills-and-tools.md#1-claude-skills) |
+| ⚪ | **File the Workday × Anthropic Solopreneurship Accelerator application** — attach the Skill above as the asset | Sat | [2026-05-19/05 §5](./2026-05-19/05-career-and-startup.md#5-workday-solopreneur) |
+| ⚪ | **Add 5 small / AI-native companies** to the apply list (founding-eng / first-AI-hire framing) — where the openings actually are (big-tech new-grad −50%) | Sat | [2026-05-23/05 §1](./2026-05-23/05-career-and-startup.md#1-labor-as-data) |
+| ⚪ | Apply to 1 Anthropic role referencing the **Karpathy pre-training-automation** direction specifically (carry from Fri) | Sat | [2026-05-22/05 §1](./2026-05-22/05-career-and-startup.md#1-karpathy-signal) |
+| ⚪ | **STARTUPS.md re-rank** — promote *consented expert-work-capture* (Meta-backlash wedge) + *AI-research verification* (math-milestone wedge) | Sat | [2026-05-23/05 §2](./2026-05-23/05-career-and-startup.md#2-weekend-execution) · [STARTUPS.md](./STARTUPS.md) |
+| ⚪ | (carry) Ship WebMCP origin-trial demo / "what I'll build when Chrome 149 lands" post | Sat | [2026-05-20/03 §2](./2026-05-20/03-practical-skills-and-tools.md#2-webmcp-demo) |
 
 ### Sunday May 24
 
 | Status | Action | Due | Source |
 |---|---|---|---|
+| ⚪ | **Write the week's 3 moves** (ship migration Skill · apply to 2 FDE roles + 1 referral · audit Claude spend before June 15), then close the laptop | Sun (15 min) | [2026-05-24/05 §1](./2026-05-24/05-career-and-startup.md#1-week-setup) |
+| ⚪ | **Re-frame the Skill artifact around the SaaSpocalypse:** *"Replace N seats of [Salesforce/ServiceNow] with one governed agent workflow"* — README opens with the per-action vs per-seat cost table | Sun/this week | [2026-05-24/03 §2](./2026-05-24/03-practical-skills-and-tools.md#2-this-week) |
+| ⚪ | Re-title LinkedIn headline to the **migration job-to-be-done** (AI Integration / FDE — migrating teams off per-seat SaaS onto governed, cost-aware agent workflows) | Sun | [2026-05-24/05 §1](./2026-05-24/05-career-and-startup.md#1-week-setup) |
+| ⚪ | Re-confirm Anthropic Solutions/FDE applications are **live** — the $900B round = hiring window | Sun | [2026-05-24/01 §1](./2026-05-24/01-big-lab-moves.md#1-anthropic-round) |
 | ⚪ | Weekly review: write WEEK-2026-05-18.md rollup | Sun | (new convention this week) |
 | ⚪ | Cleanup ACTIONS.md (move open items to next week, archive 🟢 / 🔴) | Sun | (this file) |
+
+### Next week (May 26 – June 1)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Watch the Anthropic round *close*** (week of May 26) — log final structure + primary/secondary mix in WATCHLIST | Week of May 26 | [2026-05-24/01 §1](./2026-05-24/01-big-lab-moves.md#1-anthropic-round) |
+| ⚪ | Apply to **2 FDE/Integration roles** with the migration-Skill link + secure **≥1 referral** (referrals > cold apps); target the Anthropic window + 1 on-prem shop (post OpenAI×Dell) | This week | [2026-05-24/05 §1](./2026-05-24/05-career-and-startup.md#1-week-setup) · [2026-05-24/01 §3](./2026-05-24/01-big-lab-moves.md#3-openai-dell) |
+| ⚪ | **Audit Claude programmatic spend** (2-week trace) — also the Skill's headline cost number + June-15 mitigation | By June 15 | [2026-05-24/03 §1](./2026-05-24/03-practical-skills-and-tools.md#1-countdown) |
+| ⚪ | Read **memory-security survey** (arXiv 2604.16548) + post 1 LinkedIn takeaway tying it to the SaaSpocalypse | This week | [2026-05-24/04 §2](./2026-05-24/04-research-progress.md#2-read) |
+| ⚪ | Start an **"ex-Anthropic founders" watch list** as the round closes (network for wedge + job) | This week | [2026-05-24/05 §2](./2026-05-24/05-career-and-startup.md#2-equity) |
 
 ---
 

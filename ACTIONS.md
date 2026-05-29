@@ -4,11 +4,43 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-05-29**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (May 26 – June 1)
+
+### Friday May 29 — Anthropic Series H + Opus 4.8 week
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply to 1 Anthropic FDE / Solutions role** (any geo) — Karpathy + Series H + Opus 4.8 are your one-sentence cover-letter opener | Fri / Sat | [2026-05-29/05 §4](./2026-05-29/05-career-and-startup.md#4-actions) |
+| ⚪ | **Apply to 1 Anthropic EMEA Solutions / FDE** (Milan / Munich / Paris / London / Dublin) — small applicant pool, real EU enterprise work | Sat | [2026-05-29/05 §2](./2026-05-29/05-career-and-startup.md#2-intl-hiring) |
+| ⚪ | **Apply to 1 OpenAI DeployCo FDE / Solutions** — cite the Frontier Governance Framework | Sat | [2026-05-29/05 §4](./2026-05-29/05-career-and-startup.md#4-actions) |
+| ⚪ | **Update LinkedIn keywords**: add "Dynamic Workflows", "MCP", "mid-conversation system prompts", "Frontier Governance / pre-deployment evaluation", "sovereign AI deployment" | Today | [2026-05-29/05 §4](./2026-05-29/05-career-and-startup.md#4-actions) |
+| ⚪ | **Skim the OpenAI Frontier Governance Framework** end-to-end (25 min reading, 12 months of vocabulary) | Today | [2026-05-29/01 §3](./2026-05-29/01-big-lab-moves.md#3-openai-frontier-governance) |
+
+### Weekend May 30–31 — Ship a Dynamic-Workflows artifact
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Pick a repo, define a migration task, ship a Dynamic-Workflows demo** with per-step token + cost log (bounded at 8 concurrent / 100 total subagents) | Sat | [2026-05-29/03 §1](./2026-05-29/03-practical-skills-and-tools.md#1-dynamic-workflows) |
+| ⚪ | **15-min Claude bill re-audit** (Fast Mode is now 3× cheaper) — screenshot the before/after | Fri/Sat | [2026-05-29/03 §4](./2026-05-29/03-practical-skills-and-tools.md#4-bill-audit) |
+| ⚪ | **Try mid-conversation system messages** on one existing agent loop; verify cache_read_input_tokens stays >0 | Sun | [2026-05-29/03 §2](./2026-05-29/03-practical-skills-and-tools.md#2-mid-convo-system-messages) |
+| ⚪ | **Cold email 1 person at Anthropic Milan / Munich** (one paragraph: focusing decision + weekend artifact + 15-min ask) | Sat/Sun | [2026-05-29/05 §4](./2026-05-29/05-career-and-startup.md#4-actions) |
+| ⚪ | **Add 3 new WATCHLIST entries**: Anthropic IPO timing, Dynamic Workflows GA window, Mythos-class GA window | Sun | [2026-05-29/05 §4](./2026-05-29/05-career-and-startup.md#4-actions) |
+
+### Sunday June 1 — Weekly review
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Weekly review: write WEEK-2026-05-25.md rollup | Sun | (new convention) |
+| ⚪ | Cleanup ACTIONS.md (move open items to next week, archive 🟢 / 🔴) | Sun | (this file) |
+| ⚪ | **Consider a memory-eval portfolio project** based on GroupMemBench (multi-user agent memory) — under-staffed lane | Sun (decide) | [2026-05-29/04 §1](./2026-05-29/04-research-progress.md#1-groupmembench) |
+
+---
+
+## Last week (May 19 – May 25) — archived to keep visibility
 
 ### Tuesday May 19 — I/O DAY (done)
 

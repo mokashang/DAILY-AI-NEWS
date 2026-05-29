@@ -4,7 +4,15 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-28**
+Last updated: **2026-05-29**
+
+> **NEW THREADS / RESOLUTIONS (2026-05-29):**
+> - ✅ **Anthropic raise — RESOLVED, BIGGER**: closed **Series H $65B at $965B post-money** Thu May 28 (Altimeter/Dragoneer/Greenoaks/Sequoia co-leads + Capital Group/Coatue/D1/GIC/ICONIQ/XN + strategic Samsung/SK Hynix/Micron; $15B is previously-committed hyperscaler money). **~2× the rumored $30B at the same valuation premium**. Above OpenAI; **likely last private round before IPO**. See [2026-05-29/01 §1](./2026-05-29/01-big-lab-moves.md#1-anthropic-series-h).
+> - 🆕 **Claude Opus 4.8 (shipped Thu May 28, 41 days after 4.7)** — same pricing, Fast Mode 3× cheaper / 2.5× faster, agentic coding 64.3→69.2%, knowledge work 1753→1890, ~4× less likely to leave own flaws unflagged; **mid-conversation system messages** (cache-preserving steering); **effort selector** low/medium/high. Teases "**Mythos-class for all customers** next." See [2026-05-29/01 §2](./2026-05-29/01-big-lab-moves.md#2-opus-48).
+> - 🆕 **Dynamic Workflows (research preview)** — Claude writes a **JS orchestration script** for sub-agent trees; cap **1,000 agents / 16 concurrent**; canonical demo = end-to-end codebase migration vs. test suite. See [2026-05-29/03 §1](./2026-05-29/03-practical-skills-and-tools.md#1-dynamic-workflows).
+> - 🆕 **OpenAI Frontier Governance Framework (Fri May 29)** — public projection of internal Preparedness Framework onto **CA SB 53 + EU AI Act GPAI CoP**; with federal EO postponed = de-facto pre-deployment-eval reading list. See [2026-05-29/01 §3](./2026-05-29/01-big-lab-moves.md#3-openai-frontier-governance).
+> - 🆕 **Anthropic Milan office opens (Thu May 28; 6th in Europe)** — Italy after France/Germany; Anthropic plans to **triple international workforce**; Seoul opening with KiYoung Choi as Korea Rep Director. Korean usage 3.5× expected per-capita. See [2026-05-29/01 §4](./2026-05-29/01-big-lab-moves.md#4-anthropic-intl).
+> - 🆕 **GroupMemBench — multi-party-conversation memory benchmark (arXiv 2605.14498)** — best system reaches only 46.0% avg accuracy. Eval frontier extends from real tools to real users. See [2026-05-29/04 §1](./2026-05-29/04-research-progress.md#1-groupmembench).
 
 > **NEW THREADS (2026-05-28):**
 > - 🆕 **KPMG × Anthropic / Big-4 capture (3 of 4 firms in 60 days)** — KPMG announced May 19/20; full Digital Gateway embedding, 276K employees, 138 countries; Anthropic = preferred PE partner. Watch for **Ernst & Young** to close the sweep, and the first Digital-Gateway-equivalent at PwC / Deloitte. See [2026-05-28/01 §1](./2026-05-28/01-big-lab-moves.md#1-kpmg).

@@ -4,7 +4,24 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-06-01** (resumes after a 9-day gap; May 23 → May 31 not individually backfilled — see [`2026-06-01/00-tldr.md`](./2026-06-01/00-tldr.md#note-on-the-9-day-gap-may-23--may-31) for the gap note)
+
+---
+
+## Top — what shifted in the gap (May 23 → May 31)
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Anthropic Series H — $65B at $965B post-money — most valuable AI startup** | 🟢 NEW | **2026-05-28 closed** — Altimeter/Dragoneer/Greenoaks/Sequoia/Capital Group/Coatue/D1 co-lead; Baillie Gifford/Blackstone/Brookfield/DST/Fidelity participate; Samsung/SK Hynix/Micron strategic; $15B = previously-committed hyperscaler money incl. **$5B Amazon**; **$47B run-rate** (up from $30B earlier this year, $10B last year) | The S-1 filing; whether the October listing window holds; whether $47B run-rate grows into Q3; how Microsoft/Google respond on compute terms |
+| **Claude Opus 4.8 release (top-of-leaderboard agentic + lower deception)** | 🟢 NEW | **2026-05-28** ships same day as Series H — Anthropic claims tops GPT-5.5 and Gemini 3.1 Pro on **agentic coding, financial analysis, computer use**; lower deception/misuse-cooperation | Independent eval verification (Artificial Analysis, OpenRouter); Cursor / Replit / GitHub partner-surface availability dates; whether Sonnet 4.6 gets a parallel bump |
+| **Mythos GA "in the coming weeks"** | 🟢 NEW | **2026-05-28–29 announced**: cyber-capable model goes from restricted to wide release across all customers | Exact GA date; whether the [NSA-in-the-loop EO](#policy-regulation--standards) is signed before or after; enterprise procurement response |
+| **xAI-SpaceX merged-co IPO ($1.75T target, June 8 roadshow)** | 🟡 NEW | Roadshow targeted **June 8, 2026** at ~$1.75T — first of the three trillion-dollar listings | Roadshow start; first-day pop; whether the print drags or lifts the OpenAI/Anthropic S-1 narratives |
+| **Grok 5 mid-June release** | 🟡 NEW | Reported **~6T-parameter MoE**, 1.5M ctx, native multimodal, **$30/mo SuperGrok / $300/mo Heavy** — but Manifold gives **~33% probability of June-30 shipment** | Actual ship date; independent benchmark numbers vs. Opus 4.8 / GPT-5.5 / Gemini 3.1 Pro; whether the IPO and the model launch coincide |
+| **AI executive order returns with NSA-in-the-loop** | 🟡 RESUMED | **Week of May 25** — Nextgov reports new draft gives NSA a role in voluntary classified pre-deployment testing of frontier models | Signing window; whether NSA-classified-testing arm survives the lab lobby push (labs want 14 days, draft now structured around NSA); whether cleared-evaluator hiring lanes formalize at NIST AISI / contractors |
+| **DeepMind ← Contextual AI ($80–90M / ~20 researchers; Douwe Kiela)** | 🟢 NEW | Acqui-hire-via-licensing template; RAG-inventor Kiela joins DeepMind | What the team ships first (Vertex AI Search v2? Gemini grounding upgrade?); whether OpenAI / Anthropic respond with their own RAG-team hires |
+| **Anthropic Agent SDK metering (June 15)** | 🟡 | **T-14 days** as of 2026-06-01 — still on schedule; Sonnet 4 + Opus 4 API retirement same day | Whether the Agent SDK credit auto-activate ever ships; spend audits by Anthropic-customer companies |
+| **OpenAI Codex CLI persistent-agent runtime maturation** | 🟢 NEW | **v0.134.0 May 26** added /history search, --profile, per-server MCP env, **OAuth for streamable HTTP MCP** | Whether Codex CLI hits Claude-Code-level adoption inside OpenAI customers; GPT-5.6 launch window (May 2026 had a brief canary leak) |
+| **Cursor Composer 2.5 ($0.50/M in, $2.50/M out — matches Opus 4.7 on code)** | 🟢 NEW | Composer 2.5 + Build in Parallel + Design Mode (3.0) shipped **May 18** | Composer 2.6 / 3.0; in-house training cadence; whether $50B raise (Apr CNBC) closes |
 
 ---
 

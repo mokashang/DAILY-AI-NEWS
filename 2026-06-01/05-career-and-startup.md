@@ -1,6 +1,6 @@
 # Career & Startup — 2026-06-01
 
-The fundamentals from [`ME.md`](../ME.md) didn't change in the gap — but four pieces of *evidence* did. **One**, AI-engineer + FDE compensation got *another* upward refresh: average AI engineer ~$206K, **FDE postings +800% YoY**, median $135K base but top-tier $450K+ and outliers to $1.2M TC. **Two**, the **[`ME.md`](../ME.md#current-focusing-decision-re-evaluate-monthly) Anthropic-stack focusing decision** received the single strongest possible private-market endorsement (Series H at $965B + Opus 4.8 + Mythos GA, all May 28). **Three**, the **eval / verification / cost-control discipline** keeps appreciating relative to "I can prompt a model" — the research-progress thread ([`04`](./04-research-progress.md)) and the practical thread ([`03`](./03-practical-skills-and-tools.md)) converged on the same lesson. **Four**, **Mythos GA + NSA-in-EO** created a brand-new *cleared-evaluator* hiring lane that didn't exist nine days ago. **Net: this is a strong week to apply.**
+Monday work-week setup. The fundamentals from [`ME.md`](../ME.md) carry forward from [last week's career arc](../2026-05-31/05-career-and-startup.md) — but four pieces of *evidence* now shape the apply-this-week calculus. **One**, AI-engineer + FDE compensation got *another* upward refresh: average AI engineer ~$206K, **FDE postings +800% YoY** (the same direction as the [+729% number filed on 2026-05-31](../2026-05-31/05-career-and-startup.md)), median $135K base but top-tier $450K+ and outliers to $1.2M TC. **Two**, the **[`ME.md`](../ME.md#current-focusing-decision-re-evaluate-monthly) Anthropic-stack focusing decision** received the single strongest possible private-market endorsement (Series H at $965B + Opus 4.8 + Mythos GA, all May 28 — full validation framing in [2026-05-31/05](../2026-05-31/05-career-and-startup.md)). **Three**, the **eval / verification / cost-control discipline** keeps appreciating relative to "I can prompt a model" — the research-progress thread ([`04`](./04-research-progress.md)) and the practical thread ([`03`](./03-practical-skills-and-tools.md)) converged on the same lesson. **Four**, **Mythos GA + NSA-in-EO** created a brand-new *cleared-evaluator* hiring lane that didn't exist on 2026-05-22. **Net: this is a strong week to apply.**
 
 Tags: `#jobs #fde #comp #anthropic #startups #playbook #careers #cleared`
 
@@ -59,7 +59,7 @@ What changes (and what doesn't):
 
 - **Doesn't change**: the focusing decision itself, the multi-vendor production discipline, the [`ME.md` portfolio targets](../ME.md#active-portfolio-artifacts).
 - **Sharpens**: the **specific Anthropic-stack skills to lead with** — **Agent SDK + MCP + Claude Code subagents + cost-aware routing across Opus 4.8 / Sonnet 4.6 / Haiku 4.5** — and the **specific Anthropic-customer companies to target** (PwC, Deloitte, EY, Cursor, Replit, Sierra).
-- **Adds**: a **Mythos-adjacent lane** ([`§4`](#4-mythos-cyber-lane)) that didn't exist on May 22.
+- **Adds**: a **Mythos-adjacent lane** ([`§4`](#4-mythos-cyber-lane)) that didn't exist on 2026-05-22.
 
 ### Why it matters to you
 
@@ -73,7 +73,7 @@ What changes (and what doesn't):
 
 ## 3. The skill that keeps appreciating: eval / verification / cost-control discipline {#3-eval-as-discipline}
 
-**The convergent evidence from the gap:**
+**The convergent evidence from the May-29/30/31 arc + today:**
 
 - [`04` §1 Efficient Benchmarking](./04-research-progress.md#1-efficient-benchmarking): agent rankings preserved at **44–70% lower eval cost** by targeting the 30–70% pass-rate band.
 - [`04` §2 AstaBench / AutoResearchBench](./04-research-progress.md#2-astabench-autoresearch): rigorous real-environment benchmarks are now the eval *standard*.
@@ -81,7 +81,7 @@ What changes (and what doesn't):
 - [`03` §1 Opus 4.8 routing + cost log](./03-practical-skills-and-tools.md#1-opus-48-routing): cost-per-successful-task is the metric that decides production agent design.
 - [`02` §4 Cursor Composer 2.5](./02-new-emerging.md#4-cursor-composer): Cursor proved **a fine-tuned in-house model can match Opus 4.7 on coding at ~6× lower cost** — which is *also* an eval/routing-discipline win, not just a training win.
 
-**The pattern:** every major story from the gap, on every category file, **routes back to "the eval/verification/cost-control layer is the durable skill."** This is the third consecutive week the archive has surfaced this — at this point it's not a *trend*, it's a *career thesis*.
+**The pattern:** every major story from the May-29/30/31 arc, on every category file, **routes back to "the eval/verification/cost-control layer is the durable skill."** This is the third consecutive week the archive has surfaced this — at this point it's not a *trend*, it's a *career thesis*.
 
 ### Why it matters to you
 
@@ -95,7 +95,7 @@ What changes (and what doesn't):
 
 ## 4. The brand-new lane: Mythos-adjacent / cleared-evaluator / agentic-SOC {#4-mythos-cyber-lane}
 
-**The lane that didn't exist on May 22:** With **Mythos going GA in coming weeks** ([`01` §3](./01-big-lab-moves.md#3-mythos-ga)) and the **AI EO returning with NSA-in-the-loop for classified pre-deployment testing** ([`01` §4](./01-big-lab-moves.md#4-eo-nsa)), three adjacent hiring lanes lit up simultaneously:
+**The lane that didn't exist on 2026-05-22:** With **Mythos going GA in coming weeks** ([`01` §3](./01-big-lab-moves.md#3-mythos-ga)) and the **AI EO returning with NSA-in-the-loop for classified pre-deployment testing** ([`01` §4](./01-big-lab-moves.md#4-eo-nsa)), three adjacent hiring lanes lit up simultaneously:
 
 1. **Cleared AI evaluators** (NSA / NIST AISI / cleared contractors — Booz Allen, Leidos, SAIC, MITRE, RAND). If you have *any* path to clearance, this is the *thinnest* AI hiring lane in 2026 by applicant volume — most AI engineers wash out at clearance.
 2. **Lab-internal AI red-team / model-eval** (Anthropic, OpenAI, Google DeepMind, xAI all hire here). Doesn't require clearance, requires *the skill set that produces public capability writeups*. Build one as a portfolio piece.

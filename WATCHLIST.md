@@ -4,6 +4,25 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
+Last updated: **2026-06-01**
+
+> **MONDAY-AFTER-THE-HISTORIC-WEEK SORT (2026-06-01):**
+> - ➡️ All Series-H / Opus-4.8 / Mythos / Dynamic-Workflows / Frontier-Governance threads from the May-29/30/31 sort below remain live; 2026-06-01 carries them forward without new resolution.
+> - 🆕 **xAI-SpaceX merged-co IPO ($1.75T target, June 8 roadshow)** — first of the three trillion-dollar listings (xAI June, OpenAI Sept, Anthropic Oct). Watch: roadshow start, first-day pop, whether the print drags or lifts OpenAI/Anthropic S-1 narratives. See [2026-06-01/02 §1](./2026-06-01/02-new-emerging.md#1-xai-spacex-ipo).
+> - 🆕 **Grok 5 mid-June release watch** — claimed ~6T-parameter MoE, 1.5M ctx, native multimodal, $30/$300 access tiers; Manifold gives ~33% June-30 ship probability. See [2026-06-01/02 §2](./2026-06-01/02-new-emerging.md#2-grok-5).
+> - 🟡 RESUMED — **AI executive order returns with NSA-in-the-loop** (week of May 25 per Nextgov). NSA would handle classified pre-deployment testing of frontier models that labs voluntarily submit. Postponement from [2026-05-22/01 §1](./2026-05-22/01-big-lab-moves.md#1-eo-postponed) is reversing. See [2026-06-01/01 §4](./2026-06-01/01-big-lab-moves.md#4-eo-nsa).
+> - 🆕 **DeepMind ← Contextual AI ($80–90M / ~20 researchers; Douwe Kiela)** — RAG-side counterweight to [Karpathy → Anthropic](./2026-05-22/01-big-lab-moves.md#3-karpathy). See [2026-06-01/01 §5](./2026-06-01/01-big-lab-moves.md#5-deepmind-contextual).
+> - ➡️ **Anthropic Agent SDK metering (June 15) — T-14 days.** Last full work-week before the subsidy disappears; Sonnet 4 + Opus 4 API retirement same day. Audit checklist in [2026-06-01/03 §2](./2026-06-01/03-practical-skills-and-tools.md#2-june-15-audit).
+> - 🆕 **OpenAI Codex CLI v0.134.0 (May 26)** — adds /history search + per-server MCP env + OAuth for streamable HTTP MCP. Closes the auth gap that blocked enterprise MCP-server sales. See [2026-06-01/02 §3](./2026-06-01/02-new-emerging.md#3-codex-cli).
+> - 🆕 **Cursor Composer 2.5 ($0.50/M in, $2.50/M out matches Opus 4.7 on code; Build in Parallel)** — shipped May 18; the unit-economics implication is that ≥$50M-ARR app-companies should plan to in-house a model. See [2026-06-01/02 §4](./2026-06-01/02-new-emerging.md#4-cursor-composer).
+> - 🆕 **arXiv reading list refresh** — *Efficient Benchmarking of AI Agents* (preserve rankings at 44–70% lower eval cost), *AstaBench / AutoResearchBench* (real-environment science-agent), *Rethinking RL for LLM Reasoning* (sparse / predictable / low-dimensional), *Thinking Mode vs. Instant on five frontier models*. See [2026-06-01/04](./2026-06-01/04-research-progress.md).
+> - 🆕 **Comp refresh** — AI Engineer US avg $206K; **FDE postings +800% YoY**, median $135K base, top tier $450K+, outliers to $1.2M TC; AI-skill wage premium **56% (from 25% last year)**. See [2026-06-01/05 §1](./2026-06-01/05-career-and-startup.md#1-comp-refresh).
+> - 🆕 **Mythos-adjacent / cleared-AI-evaluator / agentic-SOC lane** — opens once NSA-in-the-loop EO formalizes; pairs with Anthropic's Mythos GA. See [2026-06-01/05 §4](./2026-06-01/05-career-and-startup.md#4-mythos-cyber-lane).
+
+---
+
+## Earlier sort — 2026-05-31 wrap (kept verbatim from prior watchlist update)
+
 Last updated: **2026-05-31**
 
 > **WEEKLY SORT (2026-05-31, Sunday wrap):**

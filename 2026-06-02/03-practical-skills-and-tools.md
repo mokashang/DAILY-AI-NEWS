@@ -1,6 +1,6 @@
 # Practical Skills & Tools — 2026-06-02
 
-Act-on-it-today. **T-13 days to June-15 Agent SDK metering.** Last week's high-leverage move was the **Opus-orchestrator / Sonnet-worker** routing table ([2026-05-22/03 §1](../2026-05-22/03-practical-skills-and-tools.md#1-agent-team-cost)) — that table is now **partially obsolete** because **Claude Opus 4.8 fast mode (May 28) is 3× cheaper than 4.7's fast mode and stronger on browser/computer-use** ([`02` §1](./02-new-emerging.md#1-opus-48)). The single highest-leverage move tonight is to **re-run the routing exercise with 4.8** and capture the new cost/quality table as a portfolio artifact.
+Act-on-it-today. **T-13 days to June-15 Agent SDK metering.** Yesterday's edition ([2026-06-01/03](../2026-06-01/03-practical-skills-and-tools.md)) set up the work-week execution stack with Opus 4.8 + Sonnet 4.6 routing + a T-14 billing audit; today's job is to **commit the routing table as a portfolio artifact**, not just run it. The base table from [2026-05-22/03 §1](../2026-05-22/03-practical-skills-and-tools.md#1-agent-team-cost) (Opus-orchestrator / Sonnet-worker) is **partially obsolete** because **Claude Opus 4.8 fast mode (May 28) is 3× cheaper than 4.7's fast mode and stronger on browser/computer-use** ([`02` §1](./02-new-emerging.md#1-opus-48)). The single highest-leverage move tonight is to **commit the re-costed table with today's timestamp** as artifact 1 of the post-S-1 application package.
 
 Tags: `#claude-code #cost #orchestration #opus #routing #playbook #portfolio #mcp`
 

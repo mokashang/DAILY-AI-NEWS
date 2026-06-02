@@ -8,9 +8,9 @@ Tags: `#labs #anthropic #openai #ipo #public-markets #policy #regulation #eo`
 
 ## 1. Anthropic confidentially files draft S-1 — beats OpenAI to the SEC {#1-anthropic-s1}
 
-**What happened:** On **Monday, June 1, 2026**, Anthropic confirmed it **confidentially submitted a draft registration statement on Form S-1 to the SEC** for a proposed IPO of its common stock.
+**What happened:** On **Monday, June 1, 2026**, Anthropic confirmed it **confidentially submitted a draft registration statement on Form S-1 to the SEC** for a proposed IPO of its common stock — covered live in yesterday's edition ([2026-06-01](../2026-06-01/01-big-lab-moves.md)); today's coverage focuses on what the filing *means now that it's confirmed*.
 
-- **Valuation: ~$965B post-money** — surpassing the **$852B** OpenAI mark reported on [2026-05-22](../2026-05-22/01-big-lab-moves.md#2-openai-s1). Anthropic is now the **most valuable private AI company**.
+- **Valuation: ~$965B post-money** — surpassing the **$852B** OpenAI mark reported on [2026-05-22](../2026-05-22/01-big-lab-moves.md#2-openai-s1). Anthropic is now the **most valuable private AI company** — the $1T line was first crossed on [2026-05-31](../2026-05-31/), and the formal Series H is documented in [2026-05-29](../2026-05-29/).
 - **Funding that primed it:** **$65B Series H closed May 28**, led by **Altimeter Capital, Dragoneer, Greenoaks, Sequoia**, co-led by **Capital Group, Coatue, D1, GIC, ICONIQ, XN**. Valuation more than **doubled from $380B in February** (after the Feb $30B raise).
 - **Annualized revenue run-rate: ~$47B** (vs ~$44B disclosed on [2026-05-11](../2026-05-11/00-tldr.md) — meaning ~$3B added in three weeks, the steepest single month on record).
 - **Targeted listing window: October 2026.** Beating OpenAI in to the SEC is the headline; beating them out as a *public* company is the actual race.
@@ -38,7 +38,7 @@ Tags: `#labs #anthropic #openai #ipo #public-markets #policy #regulation #eo`
 
 ## 2. Trump signs the AI executive order — "Promoting Advanced AI Innovation and Security" — innovation-first, regulation-light {#2-trump-eo-signed}
 
-**What happened:** Today, **President Trump signed** the executive order **"Promoting Advanced Artificial Intelligence Innovation and Security"** — the same EO that was **postponed on 2026-05-21** ([archived here](../2026-05-22/01-big-lab-moves.md#1-eo-postponed)).
+**What happened:** Today, **President Trump signed** the executive order **"Promoting Advanced Artificial Intelligence Innovation and Security"** — the same EO that was **postponed on 2026-05-21** ([archived here](../2026-05-22/01-big-lab-moves.md#1-eo-postponed)) and **re-staged on 2026-06-01 with NSA-in-the-loop framing** ([see yesterday's coverage](../2026-06-01/01-big-lab-moves.md)).
 
 - **Doctrine in the EO text:** "The United States continues to lead the world in AI because of [its] industry talent and innovation, and because the administration refuses to stifle innovation with overly burdensome regulation." That's the May 22 *"I hate regulation"* line, now codified.
 - **What survived from the May 21 draft (per reporting):** the **cybersecurity-clearinghouse half** (Treasury-led; agency + AI-company collaboration to find/fix vulns in pre-release frontier models) — this was always the most durable piece, as we predicted on [2026-05-22/01 §1](../2026-05-22/01-big-lab-moves.md#1-eo-postponed) ("the cyber half is the part everyone agrees on").

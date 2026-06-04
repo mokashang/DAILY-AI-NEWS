@@ -4,7 +4,25 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-06-04**
+
+---
+
+## 2026-06-04 — New / moved threads
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Anthropic confidential S-1 filed (Mon June 1, $965B)** | 🟢 NEW | Filed June 1 — $65B Series H closed prior week; $47B ARR; Q2 ~$10.9B projected; **beat OpenAI to the SEC by 9 days** | Public S-1 disclosure window (~15d pre-roadshow); revenue mix by segment; whether October listing target holds; OpenAI's response to losing the order |
+| **Claude Partner Network Services Track + Hub (June 3)** | 🟢 NEW | Three tiers published (Select 10/2/1 → Preferred 100/15/3 → Global Premier 1K/100-cust/15+JBP); 40K applications; 10K certified | Which 5 firms hit Preferred first; first Global Premier launch partner (likely KPMG or PwC); Anthropic Partner Academy enrollment cap |
+| **KPMG × Anthropic alliance (276K seats, 138 countries)** | 🟢 NEW | Announced June 3 alongside Partner Network | Deloitte and EY responses inside 60 days; KPMG Clara/Claude integration milestones |
+| **Claude Opus 4.8 (shipped May 28)** | 🟢 RESOLVED | SWE-Pro 69.2%, dynamic workflows, Fast mode 3× cheaper, alignment ~4× better | Opus 4.9 leaks; first dynamic-workflow case studies from Code w/ Claude Tokyo (June 5–6) |
+| **$36B Apollo/Blackstone chip-financing (Anthropic TPUs, Broadcom-backed)** | 🟢 NEW | Largest chip-financing deal in history; private credit for AI infra | Comparable OpenAI/Microsoft structure; first securitization (CMBS-equivalent for GPU clusters) |
+| **GPT-5.5 GA Microsoft Foundry + Claude in Foundry (June 3)** | 🟢 NEW | $5/$30 std, $30/$180 Pro; Sonnet 4.5 + Haiku 4.5 + Opus 4.1/4.8 in Foundry public preview | Azure-Anthropic ARR contribution; whether Microsoft formalizes a non-exclusive Claude reseller agreement |
+| **Project Glasswing expansion (June 2, 150 orgs / 15+ countries)** | 🟢 NEW | Critical infra (power, water, healthcare, communications); Claude Security added | Country-by-country rollout; first major incident attributed to a Glasswing-cleared deployment |
+| **Claude outage (June 2, ~2:10am ET)** | 🟢 | Resolved same day; postmortem pending | Public postmortem; whether outage frequency increases ahead of IPO (capacity vs reliability tension) |
+| **AI FinOps / inference-cost engineering as job category** | 🟡 NEW | Macro signal: $36B chip-financing + June 15 Agent SDK metering + cost-aware orchestration research | First published "Head of AI FinOps" job title at a $50M+ ARR AI company |
+
+---
 
 ---
 

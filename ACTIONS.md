@@ -4,11 +4,64 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-06-04**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (June 1 – June 7)
+
+### Thursday June 4 — Anthropic S-1 + Partner Network week (TODAY)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Tonight: start Anthropic Claude Implementation Fundamentals certification** (45 min: account + first module) | Tonight | [2026-06-04/05 §2](./2026-06-04/05-career-and-startup.md#2-certification-action) |
+| ⚪ | Update LinkedIn headline to *"AI Integration Engineer — Anthropic Certified Implementation Specialist (in progress)"* | Tonight | [2026-06-04/05 §2](./2026-06-04/05-career-and-startup.md#2-certification-action) |
+| ⚪ | Pre-write the Opus 4.8 vs Gemini 3.5 Pro vs GPT-5.5 Pro comparison post (publish on Gemini 3.5 Pro GA day) | Thu | [2026-06-04/02 §5](./2026-06-04/02-new-emerging.md#5-gemini-pro) |
+| ⚪ | Apply to 1 Anthropic Solutions / FDE / Integration role referencing the S-1 / Partner Network context | Thu | [2026-06-04/05 §3](./2026-06-04/05-career-and-startup.md#3-june-hiring-window) |
+| ⚪ | Apply to 1 Deloitte AI & Data or EY.ai Integration Engineer role **before** their hire-sprint formalizes | Thu | [2026-06-04/01 §3](./2026-06-04/01-big-lab-moves.md#3-kpmg) |
+
+### Friday June 5 — Code w/ Claude Tokyo Day 1
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Watch ~30 min Code w/ Claude Tokyo highlights; note any production dynamic-workflows case studies | Fri | [2026-06-04/01 §4](./2026-06-04/01-big-lab-moves.md#4-opus-48) |
+| ⚪ | Try Claude Code **dynamic workflows** on real repo + log spawned-agent per-call token cost to CSV | Fri night | [2026-06-04/03 §1](./2026-06-04/03-practical-skills-and-tools.md#1-dynamic-workflows) |
+
+### Saturday June 6
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Certification modules 1–4 (3–4 hrs) | Sat AM | [2026-06-04/05 §2](./2026-06-04/05-career-and-startup.md#2-certification-action) |
+| ⚪ | Ship the **100-line multi-vendor fallback router** (anthropic → openai → google) with JSONL cost log | Sat PM | [2026-06-04/03 §3](./2026-06-04/03-practical-skills-and-tools.md#3-fallback-router) |
+| ⚪ | Push the **dynamic-workflows artifact + README** to GitHub | Sat | [2026-06-04/03 §1](./2026-06-04/03-practical-skills-and-tools.md#1-dynamic-workflows) |
+
+### Sunday June 7
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Certification modules 5–6 + practice assessment | Sun PM | [2026-06-04/05 §2](./2026-06-04/05-career-and-startup.md#2-certification-action) |
+| ⚪ | Re-price the **routing matrix** with GA pricing reset; commit table to repo | Sun | [2026-06-04/03 §2](./2026-06-04/03-practical-skills-and-tools.md#2-routing-matrix) |
+| ⚪ | Weekly review: write `WEEK-2026-06-01.md` rollup; cleanup ACTIONS | Sun | (convention) |
+| ⚪ | Send 10 cold emails to YC W26 agent-startup founding-engineer roles | Sun PM | [2026-06-04/05 §3](./2026-06-04/05-career-and-startup.md#3-june-hiring-window) |
+
+### Tuesday June 9 — certification deadline
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Pass Anthropic Claude Implementation Fundamentals certification exam** | Tue | [2026-06-04/05 §2](./2026-06-04/05-career-and-startup.md#2-certification-action) |
+| ⚪ | Apply to 3 Select-tier firms from the Partner Hub directory | Wed/Thu | [2026-06-04/05 §2](./2026-06-04/05-career-and-startup.md#2-certification-action) |
+
+---
+
+## Archive — Previous week's actions
+
+### Friday May 22
+
+(Items rolled forward — see this week's actions above for active items; below for original log.)
+
+---
+
+## This week (May 19 – May 25) — archived
 
 ### Tuesday May 19 — I/O DAY (done)
 

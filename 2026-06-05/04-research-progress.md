@@ -1,6 +1,6 @@
 # Research Progress — 2026-06-05
 
-The single sharpest research signal of the gap window: **MCP-eval professionalized in 14 days.** Three new benchmarks — **MCPAgentBench, ETOM, MSB** — replaced the era of mock-tool agent evals. Plus a unified **test-time scaling framework** for general LLM agents that adopts MCP as its backbone. *The eval bar moved.*
+Today's research-side read complements the MCP-benchmark wave from [2026-06-04 §4](../2026-06-04/04-research-progress.md): a **second triple of MCP-eval papers** (**MCPAgentBench, ETOM, MSB**) extends the eval bar with **20K+ real MCP tools, multi-level orchestration grading, and dedicated attack benchmarks**. Plus a unified **test-time scaling framework** for general LLM agents that adopts MCP as its backbone. *The eval bar moved — twice in two weeks.*
 
 Tags: `#arxiv #research #benchmarks #mcp #agents #eval #ttscaling`
 

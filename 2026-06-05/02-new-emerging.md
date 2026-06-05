@@ -1,6 +1,6 @@
 # New & Emerging — 2026-06-05
 
-The 14-day gap delivered **the first $100M+ rounds in robotics foundation models** (two of them, same week), **a new vertical frontier lab focused on the brain**, **a European frontier-lab consolidation move from SAP**, and **AWS taking the third seat in the agent-runtime race**. The pattern across all of them: **labs and capital are now sorting by *vertical*, not by "general intelligence."** Pick a vertical, pick a stack, pick a side of the cost curve.
+This week brought **the first $100M+ rounds in robotics foundation models** (two of them, same week), **a new vertical frontier lab focused on the brain**, **a European frontier-lab consolidation move from SAP**, and **AWS taking the third seat in the agent-runtime race**. The pattern across all of them: **labs and capital are now sorting by *vertical*, not by "general intelligence."** Pick a vertical, pick a stack, pick a side of the cost curve.
 
 Tags: `#funding #robotics #biology #verticals #infra #aws #europe #emerging`
 

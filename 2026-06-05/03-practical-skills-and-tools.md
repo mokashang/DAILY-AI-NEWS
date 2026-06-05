@@ -1,6 +1,6 @@
 # Practical Skills & Tools — 2026-06-05
 
-The 14-day gap delivered a *single* practical lever that dwarfs everything else: **Claude Opus 4.8 dynamic workflows**. Plus the **T-10 reminder** for the June 15 Agent SDK metering split, and an updated **4-provider cost-routing** stack now that **MAI** is real and **Gemini 3.5 Flash** is the new cheap-frontier baseline.
+The single biggest practical lever currently shipping is **Claude Opus 4.8 dynamic workflows** (GA May 28, deep playbook below). Plus the **T-10 reminder** for the June 15 Agent SDK metering split, and an updated **5-provider cost-routing** stack now that **Microsoft MAI** is real (joining Anthropic + OpenAI + Google + open-weights as the fifth provider).
 
 Tags: `#claude-code #claude #anthropic #agents #cost #routing #mcp #practical`
 

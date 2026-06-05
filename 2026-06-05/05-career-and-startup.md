@@ -1,12 +1,12 @@
 # Career & Startup — 2026-06-05
 
-The 14-day gap window delivered a hard data point and a soft data point that point the same direction: **AI engineering is *the* career on offer in tech right now**, and the gap between AI roles and everything else is widening, not narrowing. Plus: **the Karpathy team is now staffed under Nick Joseph**, **two new robotics labs hiring at the founding-engineer level**, **the IPO calendar just compressed the equity-decision window**, and **Microsoft MAI is a new full hiring stack you should have on your apply list by Monday**.
+The Friday read on the week: **AI engineering is *the* career on offer in tech right now**, and the gap between AI roles and everything else widens further with each refresh. Today's career-relevant news: **two new robotics labs hiring at the founding-engineer level (Rhoda + Genesis)**, **Microsoft MAI is a new full hiring stack you should have on your apply list by Monday**, **Verge Labs is the second vertical-bio lab open for infra-eng applications**, and **the post-Anthropic-S-1 hiring-clock window** (from [2026-06-02](../2026-06-02/)) is still inside 14 days — apply this weekend.
 
 Tags: `#jobs #career #fde #mle #anthropic #microsoft #robotics #ipo #equity #startup`
 
 ---
 
-## 1. The AI-vs-rest tech-job bifurcation hardened in the gap window {#1-job-market}
+## 1. The AI-vs-rest tech-job bifurcation continues to harden {#1-job-market}
 
 **The numbers** (verified across multiple labor-market sources):
 

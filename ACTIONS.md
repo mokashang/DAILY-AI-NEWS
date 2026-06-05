@@ -4,11 +4,54 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-29**
+Last updated: **2026-06-05**
 
 ---
 
-## This week (May 26 – Jun 1)
+## This week (June 1 – June 7)
+
+### Today — Friday June 5 (post-historic-week Friday)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Toggle Agent SDK credit setting tonight** (if not done since [2026-05-18](./2026-05-18/03-practical-skills-and-tools.md)); enable usage-credits overflow for CI runs | Tonight | [2026-06-05/03 §2](./2026-06-05/03-practical-skills-and-tools.md#2-june-15-checklist) |
+| ⚪ | **Ship the Opus 4.8 dynamic-workflow demo** — tightly-scoped task (200-LOC dead-code sweep OR per-route security audit), run twice (`/effort ultracode` vs standard), log per-step token cost + wall-clock + reviewer-edit-rate; cite MCPAgentBench in README | Fri night | [2026-06-05/03 §1](./2026-06-05/03-practical-skills-and-tools.md#1-dynamic-workflows) |
+| ⚪ | **Update LinkedIn skills row** to: *"Claude Opus 4.8 dynamic workflows / `/effort ultracode` / MCP-Atlas verification / 5-provider cost routing (Anthropic + OpenAI + Gemini + MSFT MAI + open-weights)"* — exact phrases recruiters search | Today | [2026-06-05/05 §3](./2026-06-05/05-career-and-startup.md#3-skill-repricing) |
+| ⚪ | **Update resume headline** to *AI / ML Engineer — Anthropic stack focus* (not "SWE with AI experience") | Today | [2026-06-05/05 §1](./2026-06-05/05-career-and-startup.md#1-job-market) |
+
+### Saturday June 6 — robotics + bio lab + MAI applications
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply to Genesis AI** (Khosla-backed, $105M seed) — founding-engineer / first-10 ML eng level; reference GENE-26.5 specifically in cover letter | Sat | [2026-06-05/02 §1](./2026-06-05/02-new-emerging.md#1-robotics-foundation-models) |
+| ⚪ | **Apply to Rhoda AI** (FutureVision, $450M Series A) — founding-engineer / first-20 ML eng on video-predictive control | Sat | [2026-06-05/02 §1](./2026-06-05/02-new-emerging.md#1-robotics-foundation-models) |
+| ⚪ | **Apply to Verge Labs** (frontier disease biology lab; 12K+ CNS samples) — bio-foundation-model infra eng / data eng | Sat | [2026-06-05/02 §3](./2026-06-05/02-new-emerging.md#3-verge-labs) |
+| ⚪ | **Apply to 1 Anthropic Solutions / FDE / Integration role** — explicitly reference the Opus 4.8 dynamic-workflow demo + the post-S-1 hiring-clock window (T-3 days from confidential-filing-confirmation) | Sat | [2026-06-02/01 §1](./2026-06-02/01-big-lab-moves.md) |
+| ⚪ | **Read MCPAgentBench (arXiv 2512.24565) end-to-end** + post LinkedIn paragraph on what it changes for agent eval | Sat | [2026-06-05/04 §1](./2026-06-05/04-research-progress.md#1-mcpagentbench) |
+| ⚪ | **Add Genesis AI / Rhoda AI / Verge Labs / Microsoft MAI / Meta MSL to APPLICATIONS.md** with target-role rows | Sat | [2026-06-05/05 §2](./2026-06-05/05-career-and-startup.md#2-target-list) |
+
+### Sunday June 7 — weekly review + 5-provider cost-router
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Build 5-provider router** (Anthropic Opus 4.8 + Anthropic Sonnet 4.6 + Gemini 3.5 Flash + Microsoft MAI-Code-1-Flash + an open-weights leg) — push to GitHub with per-request `{provider, task_id, tokens_in, tokens_out, latency_ms, cost_usd}` logging schema | Sun | [2026-06-05/03 §3](./2026-06-05/03-practical-skills-and-tools.md#3-cost-routing) |
+| ⚪ | **Weekly review:** write WEEK-2026-06-01.md rollup — Anthropic S-1 → Trump EO signed → MSFT MAI → robotics-AI rounds → MCP-eval triple → all in one week | Sun | (weekly rollup convention) |
+| ⚪ | **Cleanup ACTIONS.md** (move open items to next week, archive 🟢 / 🔴) | Sun | (this file) |
+| ⚪ | **STARTUPS.md re-rank** — robotics-AI eval/cost adjacents to top-fit; dynamic-workflow library to top-fit; MAI-aware multi-provider routing to top-fit | Sun | [STARTUPS.md](./STARTUPS.md) |
+
+### Mon-Wed June 8–10 — WWDC + Microsoft MAI post-Build window
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **WWDC 2026 (Mon Jun 8, 10 AM PT)** — live-monitor for Siri 2.0 + Extensions + Apple × Google Gemini partnership; publish 1-pager analysis by EOD | Mon | [2026-06-05/01 §3](./2026-06-05/01-big-lab-moves.md#3-wwdc) |
+| ⚪ | **Add Microsoft MAI / Azure AI Foundry roles to apply list** — titles to grep: *AI Engineer (Foundry), Applied Scientist (MAI), Solution Architect — Foundry/MAI* | Mon | [2026-06-05/01 §1](./2026-06-05/01-big-lab-moves.md#1-microsoft-mai) |
+| ⚪ | **Send 3 cold emails to MAI engineers on LinkedIn** (post-Build is the window — 5-day attention spike) | Mon-Tue | [2026-06-05/05 §2](./2026-06-05/05-career-and-startup.md#2-target-list) |
+| ⚪ | **Apply to Meta MSL (Superintelligence Labs) — infra/eng**, NOT legacy FAIR (Wang's actively hiring; FAIR shrinking) | Tue | [2026-06-05/01 §5](./2026-06-05/01-big-lab-moves.md#5-meta-600) |
+| ⚪ | **Run gap-window Meta-alumni outreach refresh** — last 14 days produced new pool (a) legacy FAIR exits, (b) post-MSL-restructure veterans considering moves. 10 targeted DMs. | Tue/Wed | [2026-06-05/01 §5](./2026-06-05/01-big-lab-moves.md#5-meta-600) |
+
+---
+
+## Previous this-week reference (May 26 – Jun 1)
 
 ### Today — Friday May 29 (Anthropic Series H + Opus 4.8 + Frontier Governance day)
 

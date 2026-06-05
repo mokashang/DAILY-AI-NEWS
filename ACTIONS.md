@@ -4,11 +4,86 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-06-05**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (June 5 – June 11) — T-10 to June 15 metering, WWDC Mon June 9
+
+### Friday June 5 (today)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply: 1 Anthropic Solutions/FDE referencing Institute / pause-verification angle in cover letter** | Tonight | [2026-06-05/05 §1](./2026-06-05/05-career-and-startup.md#1-anthropic-three-lanes) |
+| ⚪ | **TOGGLE Agent SDK credit pool in account settings** (5-min fix, silent fail June 15 if skipped) | Tonight | [2026-06-05/03 §1](./2026-06-05/03-practical-skills-and-tools.md#1-june-15-final) |
+| ⚪ | **SWITCH orchestrator leg to Opus 4.8 fast mode ($10/$50/MTok)** + enable prompt caching | Tonight | [2026-06-05/03 §1](./2026-06-05/03-practical-skills-and-tools.md#1-june-15-final) |
+| ⚪ | Update LinkedIn skills: **Opus 4.8 · SWE-bench Pro 69.2% · MCP-Atlas · Agent 365 · ultracode** | Tonight | [2026-06-05/01 §3](./2026-06-05/01-big-lab-moves.md#3-opus-48) |
+
+### Saturday June 6
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply: 1 Microsoft Agent 365 / GitHub Copilot Solutions role** (low applicant volume; comp parity) | Sat | [2026-06-05/05 §3](./2026-06-05/05-career-and-startup.md#3-microsoft-ai-engineer) |
+| ⚪ | **INSTRUMENT per-step cost logging** on dual-model sanitiser; capture pre-June-15 baseline | Sat | [2026-06-05/03 §1](./2026-06-05/03-practical-skills-and-tools.md#1-june-15-final) |
+| ⚪ | **Install Agent 365 SDK + GitHub Copilot desktop preview**; 30-min compare to Claude Code | Sat | [2026-06-05/03 §3](./2026-06-05/03-practical-skills-and-tools.md#3-microsoft-stack) |
+| ⚪ | Read BAGEN abstract + Embodied AI Agents survey (1 hr) | Sat | [2026-06-05/04 §1](./2026-06-05/04-research-progress.md#1-bagen) |
+
+### Sunday June 7
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Implement BAGEN-style budget intervals** on dual-model sanitiser + publish calibration chart (~2 hrs) — **the weekend artifact** | Sun | [2026-06-05/03 §2](./2026-06-05/03-practical-skills-and-tools.md#2-bagen-instrumentation) |
+| ⚪ | **Apply: 1 Palantir / OpenAI / Databricks FDE** (the weekly cadence) | Sun | [2026-06-05/05 §2](./2026-06-05/05-career-and-startup.md#2-fde-count) |
+| ⚪ | Update [STARTUPS.md](./STARTUPS.md) wedge cards with Microsoft 4-axis defensibility test | Sun | [2026-06-05/02 §2](./2026-06-05/02-new-emerging.md#2-microsoft-pressure) |
+| ⚪ | Add **Broadcom** to APPLICATIONS.md (AI infra adjacent) | Sun | [2026-06-05/01 §4](./2026-06-05/01-big-lab-moves.md#4-google-broadcom) |
+| ⚪ | Add **Shield AI / Scout AI / Anduril** to APPLICATIONS.md (defense lane) if clearance-eligible | Sun | [2026-06-05/05 §4](./2026-06-05/05-career-and-startup.md#4-defense-ai) |
+
+### Monday June 8 — Apple WWDC T-1
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Pre-stage WWDC live-monitoring (iOS 27 Extensions reveal expected June 9) | Mon AM | [WATCHLIST](./WATCHLIST.md) |
+
+### Tuesday June 9 — Apple WWDC keynote (10 AM PT)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Live-monitor WWDC keynote — Apple Intelligence + Extensions SDK (Claude/Gemini/GPT picker) | Tue 10 AM PT | [WATCHLIST — Apple Extensions](./WATCHLIST.md) |
+| ⚪ | Post 1-page WWDC reaction by 12:30 PM PT | Tue | (new) |
+
+### Wednesday June 10 — Code w/ Claude Tokyo
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Watch Code w/ Claude Tokyo livestream slice (12 min) | Wed | [WATCHLIST — CwC Tokyo](./WATCHLIST.md) |
+
+### Thursday June 11
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | 30-min reply window for any inbound from this week's applications | Thu | (carryover) |
+
+### Friday June 12
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **June 15 final-audit:** verify Agent SDK toggle landed, cost logging is collecting, before/after chart staged | Fri | [2026-06-05/03 §1](./2026-06-05/03-practical-skills-and-tools.md#1-june-15-final) |
+
+---
+
+## Carry-over from previous weeks (still open as of 2026-06-05)
+
+| Status | Action | Carried from | Notes |
+|---|---|---|---|
+| ⚪ | Apply to Anthropic role referencing the Karpathy pre-training-automation direction | [2026-05-22/05 §1](./2026-05-22/05-career-and-startup.md#1-karpathy-signal) | Roll into the [§1 three-lane application](./2026-06-05/05-career-and-startup.md#1-anthropic-three-lanes) — the Institute angle is now stronger |
+| ⚪ | Add **agentic-SOC** (Exaforce + MDASH) to apply/watch list | [2026-05-22/05 §4](./2026-05-22/05-career-and-startup.md#4-soc-lane) + [2026-06-05/01 §5](./2026-06-05/01-big-lab-moves.md#5-build-2026) | Now a thicker lane with Microsoft MDASH validating the category |
+| ⚪ | Read "Agentic Reasoning" survey (arXiv 2601.12538) for 3-layer taxonomy | [2026-05-22/04 §2](./2026-05-22/04-research-progress.md#2-agentic-reasoning-survey) | Pair with new Embodied-AI survey [2026-06-05/04 §3](./2026-06-05/04-research-progress.md#3-other-research) |
+
+---
+
+## Archived (prior week — May 19 – May 25)
+
+Previous week's tracker preserved below for grep/history.
 
 ### Tuesday May 19 — I/O DAY (done)
 

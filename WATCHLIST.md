@@ -4,7 +4,25 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-06-05**
+
+---
+
+## Status changes since 2026-05-22 (skim me first)
+
+- 🟢 **Anthropic $30–50B raise** → **CLOSED at $965B post (Series H).** Becomes most valuable private AI company, surpassing OpenAI's $852B. ARR ~$47B run-rate, >1,000 $1M+/yr customers (doubled in 8 wks). See [2026-06-05/01 §2](./2026-06-05/01-big-lab-moves.md#2-anthropic-965b).
+- 🟢 **Claude Opus 4.7 → Opus 4.8** — shipped 2026-05-28. SWE-bench Pro 69.2% (+4.9pt over 4.7), MCP-Atlas 82.2%, Terminal-Bench 2.1 74.6%, GDPval-AA Elo 1890. Fast mode $10/$50/MTok = ~3× cheaper. See [2026-06-05/01 §3](./2026-06-05/01-big-lab-moves.md#3-opus-48).
+- 🆕 **Anthropic-pause coordination + Anthropic Institute** — Anthropic published global pause call today (2026-06-05). Watch which labs co-sign + first Institute job postings. See [2026-06-05/01 §1](./2026-06-05/01-big-lab-moves.md#1-anthropic-pause).
+- 🆕 **Anthropic × Google × Broadcom multi-GW compute** — Broadcom now a third-party custom-silicon partner. See [2026-06-05/01 §4](./2026-06-05/01-big-lab-moves.md#4-google-broadcom).
+- 🆕 **Microsoft Build 2026 / Windows as agent OS** — Agent 365 SDK GA, GitHub Copilot desktop preview, MDASH, Rayfin, Aion 1.0. See [2026-06-05/01 §5](./2026-06-05/01-big-lab-moves.md#5-build-2026).
+- 🆕 **Shield AI $1.5B Series G at $12.7B (+140% YoY)** — anchors defense-AI mega-round category. See [2026-06-05/02 §1](./2026-06-05/02-new-emerging.md#1-shield-legora).
+- 🆕 **Legora $550M Series D at $5.55B / $100M ARR Q1** — first non-US legal-AI to materially threaten Harvey. See [2026-06-05/02 §1](./2026-06-05/02-new-emerging.md#1-shield-legora).
+- 🆕 **BAGEN (Northwestern, arXiv 2606.00198)** — frontier agents over-optimistic on remaining budget; capability vs budget-awareness r=0.35. The cost-aware-engineering lane gets its first cited paper. See [2026-06-05/04 §1](./2026-06-05/04-research-progress.md#1-bagen).
+- ⬇️ **June 15 Agent SDK metering** — T-10. Final audit window.
+- ⬇️ **Apple WWDC 2026 — T-4 (June 9 Monday).** iOS 27 Extensions (Claude/Gemini/GPT picker) reveal expected.
+- ⬇️ **Code w/ Claude Tokyo — T-5 (June 10 Wednesday).**
+
+> Gap note: 2026-05-23 → 2026-06-04 had no daily editions. Per-thread carry-over preserved below; status was updated on resume.
 
 ---
 

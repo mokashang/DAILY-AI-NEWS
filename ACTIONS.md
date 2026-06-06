@@ -4,11 +4,50 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-06-06**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (June 1 – June 7)
+
+### Saturday June 6 — IPO race goes public + outage = ship the router
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **SHIP the 3-provider failover router + per-request cost log** (Claude→Gemini 3.5 Flash→GPT-5.5 Instant; log `{provider,model,latency_ms,input_tok,output_tok,cost_usd,success}`). One repo, one README, one demo gif. README answers outage-handling + cost-control + routing-decision in 3 paragraphs. | Sat | [2026-06-06/03 §1](./2026-06-06/03-practical-skills-and-tools.md#1-failover-router) |
+| ⚪ | **Re-benchmark one prod chain** on Sonnet 4.6 / Opus 4.7 / **Fast Opus 4.8 ($10/$50, 2.5×)** — 15-min job; commit the table to the router README. | Sat night | [2026-06-06/03 §2](./2026-06-06/03-practical-skills-and-tools.md#2-fast-mode-opus) |
+| ⚪ | **Apply to 1 Anthropic role** (Solutions / Customer Engineering / Glasswing Mission / Applied AI Mission Programs) with the failover-router artifact attached — *before* the post-S-1 applicant flood. | Sat/Sun | [2026-06-06/05 §1](./2026-06-06/05-career-and-startup.md#1-anthropic-hiring) |
+| ⚪ | **Pre-stage WWDC monitoring folder** (`notes.md` / `claims.md` / `post.md`) + write down the 8-hypothesis pre-keynote grid (Extensions SDK, multi-vendor Setup picker, Siri 2.0, billing model, on-device-vs-cloud API, Image Playground 3rd-party, Apple-silicon ML runtime, agents-on-other-apps gating). | Sat night (10 min) | [2026-06-06/03 §3](./2026-06-06/03-practical-skills-and-tools.md#3-wwdc-discipline) |
+
+### Sunday June 7 — reading + filter
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Read Agent² RL-Bench end-to-end** (arXiv 2604.10547) + post 1-paragraph LinkedIn takeaway pairing it with [Karpathy → Anthropic pre-training-automation team](./2026-05-22/01-big-lab-moves.md#3-karpathy). | Sun morning | [2026-06-06/04 §1](./2026-06-06/04-research-progress.md#1-agent2-rl-bench) |
+| ⚪ | **Filter [Glasswing partner roster](./2026-06-06/01-big-lab-moves.md#2-glasswing-self-coding)** for AI Security Engineer / Mythos Integration / Patch-Pipeline / AI Security Solutions roles. Add a column to APPLICATIONS.md. Priority: **JPMorgan → CrowdStrike → Palo Alto → Cisco/Linux Foundation → hyperscalers → Cohesity.** | Sun (15 min) | [2026-06-06/05 §2](./2026-06-06/05-career-and-startup.md#2-glasswing-apply-list) |
+| ⚪ | **Add Hark to STARTUPS.md + WATCHLIST** ("personal-AI-hardware companion software" wedge); decide apply-vs-track (apply only if ≥2 of: embedded/on-device experience + multimodal project + relocation OK). | Sun (10 min) | [2026-06-06/05 §3](./2026-06-06/05-career-and-startup.md#3-hark-lane) |
+| ⚪ | **Skim Externalization 4-axis survey** (arXiv 2604.08224) — pick which of memory / skills / protocols / harness you'd lead an interview answer with. | Sun | [2026-06-06/04 §3](./2026-06-06/04-research-progress.md#3-externalization-survey) |
+| ⚪ | Weekly review: write WEEK-2026-06-01.md rollup (S-1 + Glasswing + Hark + WWDC-T-2). | Sun | (new convention) |
+| ⚪ | Cleanup ACTIONS.md (archive 🟢 / 🔴 from prior week). | Sun | (this file) |
+
+### Monday June 8 — WWDC DAY (10 AM PT)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **15-min-block live-monitoring** during keynote (same discipline as I/O — [2026-05-19/03 §1](./2026-05-19/03-practical-skills-and-tools.md#1-io-live-discipline)). Grade your 8-hypothesis grid in real time. | Mon 10 AM–12 PT | [2026-06-06/03 §3](./2026-06-06/03-practical-skills-and-tools.md#3-wwdc-discipline) |
+| ⚪ | **Update LinkedIn skills** with the *real* on-stage SDK terms by Tuesday 9 AM PT — wait for the keynote, don't pre-fabricate (avoid the "Vertex AI Agent Platform" mistake — [2026-05-20/01 §1](./2026-05-20/01-big-lab-moves.md#1-io-scorecard)). | Tue AM | [2026-06-06/05 §4](./2026-06-06/05-career-and-startup.md#4-extensions-lane) |
+| ⚪ | **Publish Tuesday-morning post**: graded WWDC scorecard + one-line "what I'll ship on the Extensions SDK first beta." | Tue 9 AM PT | [2026-06-06/03 §3](./2026-06-06/03-practical-skills-and-tools.md#3-wwdc-discipline) |
+| ⚪ | **Apply to 1 Anthropic / OpenAI / Google role referencing the iOS 27 Extension integration angle** by Tuesday EOD — before the post-WWDC application wave. | Tue EOD | [2026-06-06/05 §4](./2026-06-06/05-career-and-startup.md#4-extensions-lane) |
+
+### Friday June 12 — Code w/ Claude Tokyo Extended ends + Agent SDK metering T-3
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Verify the Agent SDK credit toggle is still active in account settings** (manual toggle — [2026-05-18/03](./2026-05-18/03-practical-skills-and-tools.md)); confirm cost log is collecting baseline data for the June-15 metering switch. | Fri | [WATCHLIST — Agent SDK metering](./WATCHLIST.md) |
+
+---
+
+## Last week (May 19 – May 25) — archive
 
 ### Tuesday May 19 — I/O DAY (done)
 

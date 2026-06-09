@@ -4,7 +4,14 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-06-06**
+Last updated: **2026-06-09**
+
+> **TUESDAY DELTAS (2026-06-09 — morning after WWDC):**
+> - 🟢 **Apple "Extensions" SDK — CONFIRMED ON STAGE** (was 🟡 from 2026-06-06 SATURDAY SORT and pre-keynote in 2026-06-08). WWDC graded ~6/8: Gemini-default-Siri + system-level Claude/Gemini/ChatGPT picker; iOS 27 (30% faster app launches); macOS Golden Gate drops Intel. **Still open:** revenue-share %, day-1 partner labs (Anthropic/OpenAI Extensions confirmation expected within 48h), dev SDK access date. See [2026-06-09/01 §1](./2026-06-09/01-big-lab-moves.md#1-wwdc-graded).
+> - 🆕 **AWS MCP Server GA (2026-06-09)** — day-1 plugins for Claude Code / Cursor / Codex; **IAM-scoped agent permissions** (the agent-RBAC primitive); CloudWatch per-call observability. **MCP is now ratified across all 3 platform layers in 4 weeks**: WebMCP origin trial in Chrome 149 (consumer browser) + AWS MCP Server (enterprise cloud) + Apple Extensions intent grammar (OS picker). Watch Azure/GCP equivalents (90d window); first $50M+ raise in MCP-server-managed-service category; whether OpenAI joins MCP standard formally. See [2026-06-09/02 §1](./2026-06-09/02-new-emerging.md#1-aws-mcp-ga).
+> - 🆕 **Anthropic Claude Partner Network — Services Track + Partner Hub (announced Jun 3)** — channel-side complement to OpenAI Deployment Co + Tomoro M&A. PwC the anchor; Deloitte/Accenture/EY counter-commitments expected in 90 days. **New high-volume FDE hiring lane** — apply this week before public S-1 wires applicant volume up 5×. See [2026-06-09/02 §2](./2026-06-09/02-new-emerging.md#2-partner-network).
+> - ➡️ **96-hour stack:** Code w/ Claude Tokyo Wed Jun 10 (T-1) · SpaceX IPO pricing Thu Jun 11 (T-2; NASDAQ "SPCX" ~$1.75T = precedent print) · Anthropic Agent SDK metering Sun Jun 15 (T-6). Three interview-question generators in 96 hours. See [2026-06-09/01 §2](./2026-06-09/01-big-lab-moves.md#2-tokyo-and-ipo).
+> - 🆕 **Sources updated in [SOURCES.md](./SOURCES.md):** llm-stats.com/llm-updates (daily model-release tracker) + artificialanalysis.ai (Intelligence Index, now canonical) + lmcouncil.ai/benchmarks (independent aggregation).
 
 > **SATURDAY SORT (2026-06-06):**
 > - 🟡 **Anthropic Rule 135 announcement (Jun 1)** — first frontier lab to *publicly announce* its confidential S-1 filing (vs OpenAI's still-silent May-22 filing); ~$965B post-money / ~$47B ARR confirmed in the announcement context. The *public* S-1 (~15d pre-roadshow) is the segment-level revenue-mix document to watch for. See [2026-06-06/01 §1](./2026-06-06/01-big-lab-moves.md#1-anthropic-s1).

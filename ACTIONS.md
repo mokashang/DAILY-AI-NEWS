@@ -4,11 +4,69 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-06-06**
+Last updated: **2026-06-09**
 
 ---
 
-## This week (June 1 – June 7)
+## This week (June 8 – June 14) — post-WWDC + 96-hour stack
+
+### Tuesday June 9 — morning after WWDC + AWS MCP GA
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship the Tuesday-morning WWDC scorecard post** (queued from yesterday) — graded ~6/8 grid + one-line "what I'll build on Apple Intelligence Extensions first beta" | Tue 9 AM PT | [2026-06-09/00 TLDR](./2026-06-09/00-tldr.md) · [2026-06-08/03 §3](./2026-06-08/03-practical-skills-and-tools.md#3-wwdc-discipline) |
+| ⚪ | **Install the AWS MCP Server** in highest-volume Claude Code project + lock 4–6 MCP server set | Tue tonight | [2026-06-09/03 §1](./2026-06-09/03-practical-skills-and-tools.md#1-aws-mcp-setup) |
+| ⚪ | **Ship the SECOND LinkedIn post by 5 PM PT:** *"AWS MCP Server went GA today — installed it in Claude Code, IAM-scoped agent permissions + CloudWatch per-call observability"* | Tue 5 PM PT | [2026-06-09/03 §1](./2026-06-09/03-practical-skills-and-tools.md#1-aws-mcp-setup) |
+| ⚪ | **Update LinkedIn skills with EXACT terms:** *"Apple Intelligence Extensions"* / *"AWS MCP Server"* / *"Anthropic Claude Partner Network"* — keyword precision lesson from [2026-05-20/01 §1](./2026-05-20/01-big-lab-moves.md#1-io-scorecard) | Tue AM | [2026-06-09/05 §1](./2026-06-09/05-career-and-startup.md#1-partner-network) |
+| ⚪ | **Pre-stage the Apple Intelligence Extensions dev env** (Xcode WWDC beta + bookmark docs + sketch first Extension) — 10 min | Tue night | [2026-06-09/03 §2](./2026-06-09/03-practical-skills-and-tools.md#2-extensions-prestage) |
+| ⚪ | **Apply to 1 Anthropic Solutions / Customer Engineering / FDE role** with AWS-MCP install demo attached — before public S-1 wires | Tue EOD | [2026-06-09/05 §1](./2026-06-09/05-career-and-startup.md#1-partner-network) |
+| ⚪ | **Apply to 1 OpenAI FDE (NYC or SF)** referencing yesterday's FDE comp report as seniority floor | Tue EOD | [2026-06-09/05 §1](./2026-06-09/05-career-and-startup.md#1-partner-network) · [2026-06-08/05 §1](./2026-06-08/05-career-and-startup.md#1-fde-comp) |
+
+### Wednesday June 10 — Code w/ Claude Tokyo (T-0); Big-4 applications
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Watch Code w/ Claude Tokyo livestream** (Day-1 keynote, 10 AM JST) — track post-WWDC Apple Extensions surface-area mention; APAC customer announcements | Wed | [2026-06-09/01 §2](./2026-06-09/01-big-lab-moves.md#2-tokyo-and-ipo) |
+| ⚪ | **Apply to 2 Big-4 AI-engineering practice roles** (PwC + Deloitte preferred — both Anthropic-aligned per Partner Network) | Wed | [2026-06-09/05 §1](./2026-06-09/05-career-and-startup.md#1-partner-network) |
+| ⚪ | **Apply to 1 Palantir FDE** (51 open roles per [2026-06-08/05 §1](./2026-06-08/05-career-and-startup.md#1-fde-comp)) — highest-volume interview-rep target | Wed | [2026-06-09/05 §1](./2026-06-09/05-career-and-startup.md#1-partner-network) |
+| ⚪ | **Install Playwright MCP** + write the `CLAUDE.md` autonomous-UI-verification pattern (5 min install) | Wed | [2026-06-09/03 §1](./2026-06-09/03-practical-skills-and-tools.md#1-aws-mcp-setup) (Playwright slot) |
+
+### Thursday June 11 — SpaceX IPO pricing (T-0)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Track SPCX IPO pricing window** — first-day-pop watch Friday; price the multiple it sets for Anthropic / OpenAI roadshow | Thu | [2026-06-09/01 §2](./2026-06-09/01-big-lab-moves.md#2-tokyo-and-ipo) |
+| ⚪ | **5 cold DMs to engineers at 2–3 Anthropic-specialist boutiques** (find via [Anthropic Partner Hub](https://www.anthropic.com)) | Thu | [2026-06-09/05 §1](./2026-06-09/05-career-and-startup.md#1-partner-network) |
+
+### Friday June 12 — SPCX trades + Agent SDK metering T-3
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Verify Agent SDK credit toggle is still active** in account settings (manual; silent fail on Sun if missed) | Fri | [2026-05-18/03](./2026-05-18/03-practical-skills-and-tools.md) |
+| ⚪ | **Confirm cost-router baseline data** is collecting before Sunday's metering switch | Fri | [2026-06-08/03 §1](./2026-06-08/03-practical-skills-and-tools.md#1-opus-48-baseline) |
+
+### Saturday June 13 — read + ship artifacts
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Read Externalization survey** ([arXiv 2604.08224](https://arxiv.org/pdf/2604.08224)) end-to-end — 90 min; skim §1–2, deep-read §3 (memory) + §5 (harness) + §7 (open problems) | Sat | [2026-06-09/04 §2](./2026-06-09/04-research-progress.md#2-externalization) |
+| ⚪ | **Read "End of Software Engineering"** ([arXiv 2606.05608](https://arxiv.org/pdf/2606.05608)) end-to-end — pull two concrete predictions for interview prep | Sat | [2026-06-09/04 §1](./2026-06-09/04-research-progress.md#1-end-of-swe) |
+| ⚪ | **Ship the MCP install + Playwright loop writeup** as a longer-form LinkedIn / blog post; tag Anthropic + AWS + relevant partner employees | Sat | [2026-06-09/05 §1](./2026-06-09/05-career-and-startup.md#1-partner-network) |
+| ⚪ | **Update [STARTUPS.md](./STARTUPS.md)** — add 3 new wedges (MCP-managed-service, agent-RBAC dashboard, Apple-Extensions-vertical); mark CX-agent + multi-vendor-router as saturated | Sat | [2026-06-09/05 §4](./2026-06-09/05-career-and-startup.md#4-startup-map) |
+
+### Sunday June 14 — weekly review + Agent SDK metering T-1
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Weekly review:** write WEEK-2026-06-08.md rollup — WWDC + AWS MCP GA + Partner Network + Tokyo + SPCX + metering T-1 | Sun | (weekly rollup convention) |
+| ⚪ | **Cleanup ACTIONS.md** — archive 🟢 / 🔴 from prior week | Sun | (this file) |
+| ⚪ | **Final Agent SDK toggle verification** (T-1 to Sunday metering switch) | Sun PM | [2026-05-18/03](./2026-05-18/03-practical-skills-and-tools.md) |
+
+---
+
+## Previous week (June 1 – June 7) — archived
+
+### Friday June 5 (closing out)
 
 ### Friday June 5 (closing out)
 

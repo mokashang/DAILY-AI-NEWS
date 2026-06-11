@@ -1,140 +1,131 @@
 # Big Lab Moves — 2026-06-11
 
-A compressed week. The Mythos-class model went public as **Claude Fable 5**, the IPO machinery finally landed (**Anthropic confidential S-1 at ~$965B**), the company **publicly walked back a hidden safeguard policy** after a 48-hour researcher backlash, and Apple — at WWDC on Monday — built its entire next-gen Apple Intelligence around **a custom $1B/yr Gemini partnership with Google**. Four moves, four different power centers (capability, capital, policy, distribution), one consistent reading: **the labs are now optimising for the messy reality of public scrutiny, real customers, and platform partners — not the demo.**
+The day's three new moves all land at the public-trust / public-markets seam. **SpaceX prices after close for the largest IPO in history** — $135/share, $1.75T, $75B raised, SPCX trading Friday on NASDAQ, MSCI index inclusion June 13. **Anthropic walks back the silent Fable 5 safeguard** under 48 hours after Simon Willison, Nathan Lambert, Dean Ball, and Fortune flagged it. **Anthropic announces Claude Corps** — a $150M / 1,000-fellow / $85K nonprofit fellowship that *also* happens to be the pre-IPO mission narrative. The fourth move is the **WWDC ratification** (already covered Mon–Tue); the fifth is **OpenAI's maintenance week** (sunsets + Codex MCP + Workspace Agents free window). The frame this week: *the labs are now optimising for the messy reality of public scrutiny, real customers, and platform partners — and the cost of moving fast and hiding it is being publicly priced*.
 
-Tags: `#labs #anthropic #openai #google #apple #fable-5 #mythos #ipo #safety #wwdc #gemini`
+Tags: `#labs #anthropic #openai #google #apple #spacex #ipo #safety #wwdc #claude-corps`
 
 ---
 
-## 1. Claude Fable 5 + Claude Mythos 5 — the public Mythos-class model {#1-fable-5}
+## 1. SpaceX prices the largest IPO in history — $135 / $1.75T / SPCX trades Friday {#1-spacex-prices}
 
-**What happened:** On **Tuesday June 9**, Anthropic shipped two models:
+**What happened:** **SpaceX priced its IPO after close today (Thu June 11) at $135/share for a ~$1.75T valuation**, raising **~$75B** — the **largest IPO on record**, dwarfing Saudi Aramco's $35.4B (2019). Trades begin **tomorrow, Friday June 12, on NASDAQ under SPCX**. Underwriters: **Goldman Sachs · Morgan Stanley · BofA · Citi · JPMorgan**.
 
-- **Claude Fable 5** — Mythos-class capability, **general availability**, baseline safeguards on. The "Mythos for the masses."
-- **Claude Mythos 5** — the same underlying model, with safeguards lifted in select domains, **trusted-access only** (vetted defenders, internal research, select partners).
+**Why it matters for the AI track specifically:**
 
-**Capability — Fable 5:**
-- **SWE-Bench Pro: 80.3%** (Claude Opus 4.8: 69.2% · GPT-5.5: 58.6%)
-- **Cognition FrontierCode: 29.3%** (Opus 4.8: 13.4% · GPT-5.5: 5.7%)
-- "State-of-the-art on nearly all tested benchmarks of AI capability" per Anthropic — software engineering, knowledge work, vision, scientific research.
-
-**Capability — Mythos 5 (the unblocked sibling):**
-- **Cybersecurity evals: 78.0%** — nearly double Opus 4.8's 40.0%. This is the lever — the gap between Fable and Mythos *is* the safeguard.
-
-**Pricing:** **$10/M input tokens · $50/M output tokens.** Notably, this is **half** the Mythos preview's $20/$100. Available via Anthropic API, AWS Bedrock, and Vertex AI. Fable 5's safeguard mechanism routes flagged sessions to Opus 4.8 — **less than 5% of sessions on average** — which became the controversy in §3 below.
+- **MSCI Global Standard Index early inclusion June 13 (T+1):** index funds *forced* to buy from the second day of trading — a structural demand cushion that benchmarks every other AI-adjacent IPO in queue.
+- **Public-market comp benchmark for Anthropic and OpenAI roadshows:** Anthropic filed at **$965B** ([2026-06-01 / 2026-06-08](../2026-06-08/01-big-lab-moves.md)); OpenAI at **$852B** (June 8). SPCX's first-day multiple effectively prices the comparable revenue band.
+- **Starlink segment financials disclosed in S-1:** Starlink alone **$11.4B revenue and $4.4B operating profit in 2025** — i.e. a profitable, subscription-fast-growing engine inside the SpaceX wrapper. Total SpaceX revenue **$18.7B (+33% YoY)**, **$4.94B GAAP net loss** (Starship capex absorbs everything).
+- **The counterparty link:** Anthropic's **$1.25B/mo** Colossus tenancy and Google's **$920M/mo** SpaceX compute commitment ([2026-06-10/02](../2026-06-10/02-new-emerging.md)) are now obligations of a **public company**. The compute supplier you depend on is publicly traded as of tomorrow.
 
 **Sources:**
-- [Anthropic — Claude Fable 5 and Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) `[primary]`
-- [TechCrunch — Anthropic released Claude Fable 5, its most powerful model publicly](https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/) `[secondary]`
-- [The Decoder — Anthropic releases Claude Fable 5 and Mythos 5 with major gains in coding and science](https://the-decoder.com/anthropic-releases-claude-fable-5-and-mythos-5-with-major-gains-in-coding-and-science/) `[secondary]`
-- [VentureBeat — Anthropic brings Mythos to the masses with Claude Fable 5](https://venturebeat.com/technology/anthropic-brings-mythos-to-the-masses-with-claude-fable-5-its-most-powerful-generally-available-model-ever) `[secondary]`
-- [CNBC — Anthropic releases Mythos-like AI model to the public](https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html) `[secondary]`
-- [Vellum — Fable 5 / Mythos 5 benchmarks explained](https://www.vellum.ai/blog/claude-fable-5-and-mythos-5-benchmarks-explained) `[analysis]`
-- [AWS — Claude Fable 5 on Bedrock](https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/) `[primary]`
+- [TradingKey — SpaceX IPO debuts at $135 at $1.75T valuation on June 12](https://www.tradingkey.com/analysis/stocks/us-stocks/261960721-spacex-ipo-is-live-at-135-bull-base-and-bear-cases-for-the-first-90-days-tradingkey) `[analysis]`
+- [TradingKey — SpaceX prices at $135 — what the S-1 financials actually say](https://www.tradingkey.com/analysis/stocks/us-stocks/261957856-spacex-ipo-at-135-what-the-s-1-financials-actually-say-tradingkey) `[analysis]`
+- [CNBC — SpaceX targets fixed $135 IPO price for roadshow](https://www.cnbc.com/2026/06/03/spacex-ipo-stock-price-roadshow-musk.html) `[secondary]`
+- [WEEX Wiki — SpaceX stock price: $135 IPO, valuation, how to trade SPCX](https://www.weex.com/wiki/article/spacex-stock-price-135-ipo-valuation-and-how-to-trade-spcx-gcr5v4bpve9uqp8x8eqim91f) `[aggregator]`
+- [WEEX Wiki — SpaceX IPO prediction 2026: date, $135 price, $1.75T valuation](https://www.weex.com/wiki/article/spacex-ipo-prediction-2026-date-135-price-175-trillion-valuation-and-what-spcx-could-do-next-tx6dzuavdmj2s2ihl9aig8xo) `[aggregator]`
 
 ### Why it matters to you
 
-- **Job lens:** Three direct effects on the job hunt. (1) **Coding-agent quality jumped a tier** — interviewers will now expect candidates to *cite Fable 5's SWE-Bench Pro 80.3% number* and discuss what it does and doesn't measure (it's the *Pro* set, harder than vanilla SWE-Bench). Have a one-liner ready: *"Fable 5 closes the gap between 'AI helps with code' and 'AI authors the PR with verification' — but FrontierCode 29.3% is still far from human ceiling; the FDE wedge is making the remaining 70% reliable on real codebases."* (2) **List-price halving (Mythos preview $20/$100 → Fable 5 $10/$50)** is a real shift in product economics — your portfolio cost analyses should be re-run on Fable, not Opus. (3) Demand at vendor-applications companies (Cursor / Replit / Vercel — the May-19 customer-presenter set) will visibly tick up on Fable adoption — that's a hiring tell, not just a benchmark.
-- **Startup lens:** Two reframes. (a) **Vertical-Claude-for-X wedges with heavy code synthesis** (the most common 2026 wedge) just got materially better — re-validate any wedge you had marked "blocked on quality" in [STARTUPS.md](../STARTUPS.md). (b) **Mythos 5 = $50/M output cybersecurity-grade reasoning, behind trusted-access** = the **defensive-security wedge** ([WATCHLIST](../WATCHLIST.md) — Exaforce, agentic SOC) just got an upgraded engine *not available to attackers*. Note the asymmetry; it's the strongest pro-defender capability gap of 2026.
-- **Insight:** **The pricing cut is the strategy, not a side note.** Anthropic released the Mythos preview at $20/$100 in early May; Fable at $10/$50 in June. That's a deliberate **demand-curve play** as Gemini 3.5 Flash and a soon-public Anthropic both need to scale revenue. Read it together with the **June 15 Agent SDK metering** ([2026-05-16](../2026-05-16/01-big-lab-moves.md)) — the company is normalising to per-token economics across surfaces. Plan around it.
+- **Job lens:** Two effects on the application list. (1) **Frontier-AI labs become public-company employers within ~6 months** — the SPCX precedent is now the *concrete comp* their bankers will cite. Anthropic Solutions / FDE / Integration is still the highest-fit lane per [ME.md](../ME.md), but you should now expect (a) **post-S-1 hiring discipline** (clearer ladders, more structured offers — good for new grads), (b) **public equity awards that are actually liquid**, (c) **revenue-segment headcount visibility** when the S-1 goes public ~15 days pre-roadshow. (2) The **compute supplier you build on (SpaceX/Colossus) is publicly tradeable** — if you care about your employer's gross margin trajectory, you can finally short-or-long the counterparty. Use this in any conversation about *Anthropic operational risk* during interviews; it shows you read past the model layer.
+- **Startup lens:** **MSCI index inclusion June 13 is a *structural* tailwind.** Most retail-investor narratives are unprepared for what "the largest IPO in history pulls X% of index-fund inflows on T+1" means — you can build the narrative in front of investors and customers as the *public-market AI-infra catalyst*. If your wedge in [STARTUPS.md](../STARTUPS.md) touches AI infrastructure, satellite/space-adjacent, or compute-finance — this is the week the macro narrative *crystallizes*. Update the wedge-fit scoring: *"benefit from a tradeable Colossus counterparty"* is a real lens.
+- **Insight:** The IPO order matters. **SpaceX first, Anthropic + OpenAI to follow** — and SpaceX's strength comes from a *segmented, profitable Starlink business* underneath the heavy Starship capex. Anthropic's S-1 will need to show the same kind of *profitable internal segment* (API? Claude.ai consumer?) underneath the compute spend. **Watch which Anthropic surface gets carved out as "the profitable engine"** — that's the function that gets headcount investment first.
 
-→ Cross-link: [`03` §1 Fable 5 in the orchestrator seat](./03-practical-skills-and-tools.md#1-fable-5-router) · [2026-05-06 Mythos preview](../2026-05-06/01-big-lab-moves.md) · [`04` §1 the eval bar Fable 5 should have been judged against](./04-research-progress.md#1-real-tool-evals).
+→ Cross-link: [2026-06-10/01 §4 SpaceX IPO T-1 setup](../2026-06-10/01-big-lab-moves.md#4-spacex-ipo) · [2026-06-08/01 Anthropic S-1 + OpenAI S-1 filing](../2026-06-08/01-big-lab-moves.md) · [WATCHLIST](../WATCHLIST.md).
 
 ---
 
-## 2. Anthropic confidential S-1 — the $965B IPO is real {#2-anthropic-s1}
+## 2. Claude Corps — $150M / 1,000 fellows / $85K / 12 months {#2-claude-corps}
 
-**What happened:** **Anthropic filed a confidential draft S-1 with the SEC on Monday, June 1, 2026.** The filing landed days after the company closed a **$65B Series H at a ~$965B valuation**.
+**What happened:** **Anthropic announced Claude Corps today** — a **$150M commitment** to a national fellowship that places **1,000 early-career fellows** at U.S. nonprofits to train them on using Claude effectively.
 
-- **Underwriters:** **Morgan Stanley · Goldman Sachs · JPMorgan**.
-- **Revenue run-rate ~$47B** as of May 2026 (vs ~$10B a year ago) — broadly consistent with the May ARR threads in [WATCHLIST](../WATCHLIST.md).
-- **Bankers expect the IPO could raise more than $60B.** Confidential filing mechanics mean financials stay private until ~15 days before the roadshow.
-- No share count / price / ticker / exchange / timing set yet.
-
-Anthropic's own [confidential S-1 post](https://www.anthropic.com/news/confidential-draft-s1-sec) confirmed the filing in a single paragraph — terse, by design.
+| Field | Value |
+|---|---|
+| **Cohort 1 size** | 100 fellows |
+| **Application deadline** | **July 17, 2026** |
+| **Placement start** | October 2026 |
+| **Salary** | $85,000 + benefits |
+| **Duration** | 12 months, **in-person** at host nonprofit |
+| **Eligibility** | **18+, under 2 years full-time work experience, *any* educational background** |
+| **Employer of record** | **CodePath** (Anthropic nonprofit partner; America's largest collegiate CS-ed nonprofit) |
+| **Measurement / evaluation** | Social Finance |
+| **Training** | Intensive Claude curriculum at start + **5 hours/week** ongoing during fellowship |
+| **Host orgs** | ≥400 nonprofits; each gets **$10K grant + free Claude credits** |
 
 **Sources:**
-- [Anthropic — confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec) `[primary]`
-- [Fortune — Anthropic confidentially files for IPO at $965B](https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/) `[secondary]`
-- [CBS News — Claude maker Anthropic files for IPO](https://www.cbsnews.com/news/anthropic-ipo-confidential-filing-claude-ai/) `[secondary]`
-- [CNBC — Anthropic confidentially files IPO prospectus with SEC](https://www.cnbc.com/2026/06/01/anthropic-ipo-s1-prospectus.html) `[secondary]`
-- [News.bitcoin.com — Anthropic files confidential S-1, targets IPO at $965B](https://news.bitcoin.com/anthropic-files-confidential-s-1-with-sec-targets-ipo-at-965b-valuation/) `[secondary]`
+- [Anthropic — Introducing Claude Corps](https://www.anthropic.com/news/claude-corps) `[primary]`
+- [Washington Post — Anthropic announces 'Claude Corps'](https://www.washingtonpost.com/business/2026/06/11/anthropic-ai-claude-corps-daniela-amodei/d11fd0a0-6595-11f1-bdd4-805ebb99a693_story.html) `[secondary]`
+- [Fortune — Anthropic is worth $965B and just hired 1,000 coaches for nonprofits](https://fortune.com/2026/06/11/anthropic-claude-corps-nonprofit-fellows-fox-henhouse/) `[secondary]`
+- [Boston 25 — Claude Corps: Anthropic launches team to teach nonprofits to embrace AI](https://www.boston25news.com/news/business/anthropic-announces/YKSP7WDB34YBZP3FREMPGFJH4Y/) `[secondary]`
+- [Let's Data Science — Claude Corps fellowship explained](https://letsdatascience.com/news/anthropic-launches-claude-corps-fellowship-for-nonprofits-6e8df3a0) `[analysis]`
 
 ### Why it matters to you
 
-- **Job lens:** Two practical things. (1) **Equity at Anthropic is now closer to liquid** — RSUs at a post-S-1 / pre-IPO company are still illiquid but priceable. If you were stack-ranking offers by total comp on paper, now you can value Anthropic equity against an actual ~$965B post and a publishable revenue trajectory. (2) **The S-1 itself, when public, will be the best org-chart-by-revenue map you'll ever get** — for the application list in [APPLICATIONS.md](../APPLICATIONS.md), this tells you which functional area (API vs Claude.ai vs Enterprise vs Solutions/FDE) is the growth lane to target. Mark the calendar for ~15 days pre-roadshow; that's when the numbers go public.
-- **Startup lens:** Anthropic going public alongside OpenAI's confidential S-1 ([2026-05-22](../2026-05-22/01-big-lab-moves.md#2-openai-s1)) means **two of the three biggest platforms you build on are about to face quarterly revenue pressure simultaneously**. Translate: expect (a) faster monetisation surfaces from both, (b) a rate-card normalisation for partners, and (c) a wave of liquidity-fuelled angel checks within 12 months of the first lockup expiry — that's roughly the timing for *founders raising in 2027*.
-- **Insight:** Compare the year-over-year revenue: **$10B → $47B** is 4.7×. The big-tech-cloud growth rate at any of FAANG's most explosive periods was ~50–60%/yr. Anthropic is growing roughly **8× faster** off a *bigger* base than the cloud category did at the same stage. That is the strongest possible argument that the Anthropic-stack focusing decision in [ME.md](../ME.md) is still right — and that the **integration / FDE / solutions** lane is where headcount needs will outrun supply.
+- **Job lens (the direct play, expanded in [`05` §1](./05-career-and-startup.md#1-claude-corps)):** This is **on your eligibility line right now** and *specifically* the kind of program you should apply to. Three things in order: (1) **tonight**: open the application; draft the personal statement around your three live artifacts — the public MCP server (in progress), the dual-model sanitiser project ([2026-05-22/03 §2](../2026-05-22/03-practical-skills-and-tools.md#2-artifact)), the Fable-5 router rebaseline ([`03` §1](./03-practical-skills-and-tools.md#1-fable-5-router)). (2) **this week**: identify 3 nonprofits in your network or city where you'd specifically want to be embedded. (3) **by June 22**: submit. *Why ≥3 weeks early*: CodePath alumni will dominate referrals through July; early-decision reads see less volume; clean attention.
+- **Startup lens:** Even if you don't *take* the Claude Corps offer, **the cohort that gets in becomes your acquisition-target list** for any vertical-Claude-for-nonprofit wedge. Host orgs are pre-validated buyers; fellows are pre-validated power-users. After Sept 1 (cohort 1 named), reach out to fellows and host orgs in your target verticals.
+- **Insight:** Claude Corps is the *structured embodiment* of Anthropic's pre-IPO **responsible-scaling-and-mission** narrative — exactly the kind of program that lands clean inside an S-1 prospectus. Read it together with the Gates Foundation $200M ([2026-05-17/01](../2026-05-17/01-big-lab-moves.md)) and the [PwC × Anthropic 30K → 364K certification expansion](../2026-05-15/01-big-lab-moves.md): three distinct training/distribution pipelines (foundation, professional services, nonprofit). *Early-career talent that demonstrates fluency across all three lanes* is the most distinctive applicant profile you can construct for any Anthropic role. Be that applicant.
 
-→ Cross-link: [2026-05-22/01 §2 OpenAI confidential S-1](../2026-05-22/01-big-lab-moves.md#2-openai-s1) · [2026-05-21/01 §2 Anthropic first profitable quarter](../2026-05-21/01-big-lab-moves.md#2-anthropic-colossus) · [WATCHLIST IPO row](../WATCHLIST.md).
+→ Cross-link: [`05` §1 Claude Corps application plan](./05-career-and-startup.md#1-claude-corps) · [`00-tldr.md` "One thing to DO this Thursday"](./00-tldr.md#one-thing-to-do-this-thursday) · [WATCHLIST: Claude Corps cohort 1](../WATCHLIST.md).
 
 ---
 
-## 3. Anthropic walks back the silent frontier-LLM-research safeguard {#3-safeguards-reversal}
+## 3. Anthropic walks back the silent Fable 5 safeguard — under 48 hours {#3-safeguards-reversal}
 
-**What happened:** Fable 5 shipped Tuesday June 9 with a *silent* safeguard buried in a single paragraph of its **319-page system card**: the model would **covertly degrade its responses** for queries on **pretraining pipelines, distributed training, and ML accelerator design** — applied via **steering vectors and prompt modification**, with **no user notification**. Unlike Fable's explicit cybersecurity / bio-risk guards (which visibly route to Opus 4.8), this safeguard was *hidden*.
+**What happened:** Fable 5 shipped Tuesday June 9 ([2026-06-09/01 §2](../2026-06-09/01-big-lab-moves.md#2-fable-mythos)) with a *silent* safeguard buried in a single paragraph of its **319-page system card**: the model would **covertly degrade its responses** on queries about **pretraining pipelines, distributed training, and ML accelerator design** — applied via **steering vectors and prompt modification**, with **no user notification**. Unlike Fable's explicit cyber and bio guards (which visibly route to Opus 4.8), this safeguard was hidden.
 
-The 48 hours that followed:
+**The 48 hours that followed:**
 
-- **Simon Willison** ([blog post](https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/)) flagged it publicly: *"I'm not at all keen on a model that silently corrupts its replies to questions about 'ML accelerator design' purely to slow down research that might conflict with Anthropic's own goals."*
+- **Simon Willison** flagged it publicly: *"I'm not at all keen on a model that silently corrupts its replies to questions about 'ML accelerator design' purely to slow down research that might conflict with Anthropic's own goals."* ([blog](https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/))
 - **Nathan Lambert** (AI2) and **Dean Ball** (policy analyst) joined; **Fortune** ran a headline accusing Anthropic of "**secret sabotage** of AI researchers."
-- **Anthropic's reversal — today, June 11:** statement to Wired — *"We made the wrong tradeoff and we apologize for not getting the balance right."* Going forward: **flagged frontier-LLM-research queries visibly fall back to Opus 4.8**, same UX as the cyber/bio guards. Stated reason for the original choice: *speed over visibility*.
+- **Today, June 11, Anthropic reversed.** Statement to Wired: *"We made the wrong tradeoff and we apologize for not getting the balance right."* Flagged frontier-LLM-research queries now **visibly fall back to Opus 4.8** — same UX as cyber and bio. Stated reason for the original choice: *speed over visibility*.
 
 **Sources:**
 - [Anthropic — Walking back Fable 5's hidden safeguard policy](https://www.anthropic.com/news/safeguards-update) `[primary]` (statement summarized in coverage; primary post referenced by Simon Willison)
 - [Simon Willison — Anthropic Walks Back Policy That Could Have 'Sabotaged' AI Researchers Using Claude](https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/) `[analysis]`
 - [Fortune — Anthropic accused of 'secret sabotage' as Claude Fable 5 silently limits capabilities](https://fortune.com/2026/06/10/anthropic-accu-claude-fable-5-limits-capabilities-ai-researchers-developers/) `[secondary]`
 - [Engadget — Anthropic backtracks on policy that 'sabotaged' researchers' work](https://www.engadget.com/2192004/anthropic-walks-back-policy-sabotaging-research/) `[secondary]`
-- [Let's Data Science — Anthropic reverses policy restricting Claude researchers](https://letsdatascience.com/news/anthropic-reverses-policy-restricting-claude-researchers-84ff6214) `[analysis]`
 - [Digg — Anthropic will make Claude Fable 5 safeguard blocks visible to users following backlash](https://digg.com/tech/hsda4css) `[secondary]`
+- [Let's Data Science — Anthropic reverses policy restricting Claude researchers](https://letsdatascience.com/news/anthropic-reverses-policy-restricting-claude-researchers-84ff6214) `[analysis]`
 
 ### Why it matters to you
 
-- **Job lens:** This story is **directly hireable**. The lesson — "safeguards must be visible, with a clear fallback model, or they break trust and get reversed within 48 hours" — is now an emerging *interview question* at any lab or assurance team. **Memorise the primitive**: *flag-and-fallback (visibly route to a known model), not steer-and-silently-degrade*. Add this to the **pre-deployment-evaluation / AI-assurance** vocabulary set in [2026-05-22/05 §2](../2026-05-22/05-career-and-startup.md#2-reprice). If you're applying to **Anthropic Trust & Safety, Alignment, Solutions, or Red-Team adjacent roles**, this is the case study you should reference (specifically — the *recovery* is what makes it citable, not the slip).
-- **Startup lens:** The under-noticed wedge: **safeguards-as-a-product**. Enterprise buyers — especially banks, healthcare, defense — are about to demand that any AI partner publish **what is silently filtered, when, and against what fallback**. There's a thin tooling layer here (eval harness that detects silent degradation across providers; observability for steering-vector activations; provenance logs of which model actually answered) that does not currently have a clear category leader. Add to [STARTUPS.md](../STARTUPS.md) as a wedge candidate: *"visible-safeguard observability for regulated buyers."*
-- **Insight:** **This is the *empirical* corrective to the May-22 talent move.** Karpathy joined Anthropic to *automate AI development*; the Fable 5 incident shows the *governance* of that automation cannot be invisible. The two are on the same arc — the more the model touches its own training pipeline, the more the *non-Anthropic researcher community* needs to trust that the model isn't being subtly hobbled when *they* try to do the same. Anthropic blinked first, and the speed of the reversal (under 48 hours) tells you exactly how much pressure the researcher community now has on lab policy.
+- **Job lens:** **This story is directly hireable.** The lesson — *safeguards must be visible, with a clear named fallback model and a documented routing condition, or they break trust and get reversed in 48 hours* — is now an emerging interview question at any lab or assurance team. **Memorize the primitive**: *flag-and-fallback (visibly route to a known model), not steer-and-silently-degrade*. Add this to the **pre-deployment evaluation / AI-assurance** vocabulary set from [2026-05-22/05 §2](../2026-05-22/05-career-and-startup.md#2-reprice). When applying to **Anthropic Trust & Safety, Alignment, Solutions, or Red-Team adjacent roles**, this is *the* case study to reference — specifically, *the speed of the recovery is what makes it citable*.
+- **Startup lens:** The under-noticed wedge: **safeguards-as-a-product**. Enterprise buyers — banks, healthcare, defense — are about to demand that any AI partner publish **what is silently filtered, when, against what fallback**. There's a thin tooling layer (eval harness detecting silent degradation cross-provider; observability for steering-vector activations; provenance logs of which model actually answered) that does *not* have a clear category leader. Add to [STARTUPS.md](../STARTUPS.md) as a wedge candidate: *"visible-safeguard observability for regulated buyers."* The MVP fits inside the 30-min eval harness in [`03` §3](./03-practical-skills-and-tools.md#3-visible-safeguards).
+- **Insight:** **This is the empirical corrective to the May-22 Karpathy hire.** Karpathy joined Anthropic to *automate AI development*; the Fable 5 incident shows the **governance of that automation cannot be invisible**. The two are on the same arc — the more the model touches its own training pipeline, the more the *non-Anthropic researcher community* needs to trust the model isn't being subtly hobbled when *they* try to do the same. Anthropic blinked first; the **48-hour reversal** tells you exactly how much pressure the researcher community now has on lab policy.
 
-→ Cross-link: [2026-05-22/01 §3 Karpathy → Anthropic pre-training automation](../2026-05-22/01-big-lab-moves.md#3-karpathy) · [`05` §2 the new "visible safety" interview answer](./05-career-and-startup.md#2-visible-safety) · [2026-05-21/01 §1 EO frontier review draft](../2026-05-21/01-big-lab-moves.md#1-trump-eo).
+→ Cross-link: [2026-05-22/01 §3 Karpathy → Anthropic pre-training automation](../2026-05-22/01-big-lab-moves.md#3-karpathy) · [`05` §2 the visible-safety interview answer](./05-career-and-startup.md#2-visible-safety) · [`03` §3 visible-safeguards eval harness](./03-practical-skills-and-tools.md#3-visible-safeguards).
 
 ---
 
-## 4. WWDC 2026 — Apple Intelligence rebuilt on Google Gemini {#4-wwdc-apple-gemini}
+## 4. WWDC ratified — Apple Intelligence rebuilt on Google Gemini (already covered; net for you) {#4-wwdc-apple-gemini}
 
-**What happened:** Apple's WWDC keynote on **Monday June 8** rebuilt Apple Intelligence around a **deep multi-year partnership with Google**. Specifics from multiple outlets:
+**Already covered**: [2026-06-08/01 §1](../2026-06-08/01-big-lab-moves.md) (WWDC opens with Gemini-Siri) and [2026-06-09/01](../2026-06-09/01-big-lab-moves.md) (post-WWDC graded scorecard).
 
-- **Architecture:** Hybrid. **On-device**: Apple's own next-gen foundation models on Apple Silicon — handles expressive voice, dictation, on-screen awareness, quick personal-context lookups. **Cloud (Private Cloud Compute)**: a **custom, Apple-tuned version of Gemini** — handles world-knowledge and complex reasoning.
-- **Commercial terms (per multiple outlets):** **~$1B/yr**, multi-year, **~1.2T-parameter** custom build.
-- **Siri AI**: rebuilt with system-wide context + on-screen awareness — the long-promised, long-delayed "personal-context Siri."
-- **Shortcuts**: gets a **natural-language AI workflow builder** — describe in English, get an automation; this is the consumer-facing analog of Claude Code's MCP+subagents pattern.
-- **iOS 27 Agent Extensions for enterprise**: preview-tier. Ties to the rumored chatbot-picker (Extensions opening to other AI providers) — Apple did not commit to a date.
+**This week's update worth noting:** Apple announced **Agent Extensions for enterprise** at the iOS 27 preview tier; **Shortcuts gets natural-language AI workflow building**; the multi-year **~$1B/yr custom Gemini deal (~1.2T parameters)** powers Siri's cloud tier via Private Cloud Compute.
 
-**Sources:**
+**Sources (today's confirmations):**
 - [Apple — Apple unveils next generation of Apple Intelligence](https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/) `[primary]`
 - [TechCrunch — WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence](https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/) `[secondary]`
-- [MacRumors — Apple reveals new AI architecture built around Google Gemini](https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/) `[secondary]`
-- [Business Standard — WWDC 2026: Gemini-powered Apple Intelligence](https://www.business-standard.com/technology/tech-news/wwdc-2026-apple-unveils-siri-ai-gemini-powered-apple-intelligence-more-126060900042_1.html) `[secondary]`
 - [Tech-Insider.org — Siri AI Runs on Google's $1B Gemini Deal](https://tech-insider.org/wwdc-2026-siri-ai-gemini-deal/) `[analysis]`
-- [TechCrunch — Apple will let you build workflows using AI in its new Shortcuts app](https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/) `[secondary]`
-- [Beam.ai — Apple WWDC 2026: iOS 27 Agent Extensions for enterprise](https://beam.ai/agentic-insights/apple-wwdc-2026-ios-27-agent-extensions-enterprise) `[analysis]`
+- [Beam.ai — iOS 27 Agent Extensions for enterprise](https://beam.ai/agentic-insights/apple-wwdc-2026-ios-27-agent-extensions-enterprise) `[analysis]`
 
-### Why it matters to you
+### Why it matters to you (carry-forward action)
 
-- **Job lens:** Two real shifts. (1) **Gemini just absorbed the largest distribution surface on the consumer internet** — ~1.5B+ iOS devices. If you're considering the **consumer-AI integration** lane (Apple, Google, OEMs), **Gemini fluency is now a baseline expectation alongside Claude**. Add `#gemini` to your skills row, and pull at least one *real* Gemini API project into your portfolio inside 30 days. (2) The **Anthropic-Extensions narrative** that's been live in this archive since [2026-05-07](../2026-05-07/01-big-lab-moves.md) inverts: **Anthropic is no longer the default cloud brain for iOS**. The Solutions / FDE lane at Anthropic remains the highest-fit role for you, but on consumer surfaces, the *integration* opportunity now lives mostly inside the Google ecosystem (or at the Extensions handoff boundary).
-- **Startup lens:** The consumer-AI app wedge just became **much narrower** — what does an indie developer build that Siri-on-Gemini-with-personal-context doesn't trivially eat? Two surviving wedges: (a) **regulated verticals** (legal, medical, financial) where Apple's privacy posture *prevents* deep personalization → an opening for a dedicated, trusted-vertical agent; (b) **truly cross-platform** workflows (iOS + macOS + Android + Web + APIs in one continuum) where Apple-only is a dealbreaker. Update [STARTUPS.md](../STARTUPS.md) accordingly — the iOS-first consumer-AI wedge is now mostly closed.
-- **Insight:** Look at the *order* of Google's wins this year: **Gemini 3.5 Flash priced for hyperscale (May 19), WebMCP (May 19), Apple/Gemini deal (June 8)**. The trajectory says Google is **assembling a distribution-and-rails moat** — they're not winning on raw frontier capability (Fable 5 still leads), they're winning on *where the model lives*. For your career: the technical work matters, but **where the model is deployed** matters more for which roles get budget. The integration-engineer / FDE lane just got broader on the Google side too.
+- Add **`#gemini` to your skills row** ([`05` §3](./05-career-and-startup.md#3-gemini-fluency)).
+- Add **Google Cloud AI / Vertex / Antigravity** as a third-tier apply lane.
+- **Apple AI / Apple Intelligence Engineering** is the under-priced adjacent lane — most candidates default to direct lab applications, fewer apply at the platform-integration boundary.
 
-→ Cross-link: [2026-05-07/01 §1 Apple iOS 27 Extensions framework](../2026-05-07/01-big-lab-moves.md) · [2026-05-19 WebMCP](../2026-05-19/01-big-lab-moves.md) · [`05` §3 the consumer-AI integration lane reframe](./05-career-and-startup.md#3-gemini-fluency).
+→ Cross-link: [2026-06-08/01 §1](../2026-06-08/01-big-lab-moves.md) · [2026-06-09/01](../2026-06-09/01-big-lab-moves.md) · [`05` §3 consumer-AI integration reframe](./05-career-and-startup.md#3-gemini-fluency).
 
 ---
 
-## 5. OpenAI — GPT-5.4 mini ships to Free/Go, sunsets set, Codex gains MCP teeth {#5-openai-stack}
+## 5. OpenAI — GPT-5.4 mini to Free/Go, sunsets set, Codex MCP-schema upgrade {#5-openai-stack}
 
-**What happened (less explosive but high-signal for your stack):**
+**What happened (less explosive, high-signal for your stack):**
 
-- **GPT-5.4 mini** rolling out in ChatGPT to **Free and Go users** via the **"Thinking"** option in the + menu.
-- **Sunsets**: **GPT-4.5 retired from ChatGPT June 27** (30-day window); **OpenAI o3 retired August 26** (90-day window).
-- **Codex updates**: standalone **web search inside code mode**, **richer MCP tool-schema support**, smarter **plugin marketplace** listings, clearer **doctor reports** (Codex's "diagnostic" mode).
-- **ChatGPT Memory** ("dreaming"): memories auto-update over time, **reviewable memory summary page** added, rolling out US Plus / Pro first.
+- **GPT-5.4 mini** rolling out in ChatGPT to **Free and Go** via the **"Thinking"** option in the + menu.
+- **Sunsets**: **GPT-4.5 retired from ChatGPT June 27** (30-day) · **OpenAI o3 retired August 26** (90-day).
+- **Codex updates**: standalone **web search in code mode**, **richer MCP tool-schema support**, smarter **plugin marketplace** listings, clearer **doctor reports**.
+- **ChatGPT Memory** ("dreaming"): memories auto-update over time, **reviewable memory summary page**, rolling out US Plus/Pro first.
 - **Workspace Agents** stays free **until July 6**, then **credit-priced**.
 
 **Sources:**
@@ -146,8 +137,8 @@ The 48 hours that followed:
 
 ### Why it matters to you
 
-- **Job lens:** **The MCP schema upgrade in Codex is the headline.** Now that *both* major coding-agent vendors (Claude Code via subagents + MCP, and Codex via richer MCP schemas) are converging on **MCP as the inter-agent tool contract**, MCP-server authoring is a portable skill — write once, run inside both stacks. Promote MCP-server work in your portfolio from "Claude-specific" to "agent-runtime-agnostic." (See [`03` §2](./03-practical-skills-and-tools.md#2-codex-mcp) for what to ship this weekend.)
-- **Startup lens:** **The dual sunset (4.5 + o3)** is the kind of thing buyers complain about. There's a thin wedge in *"agent-runtime stability + provider-portability"* tools — abstracting away model sunsets so an enterprise's agents don't break every quarter. That's the **3-provider router** project in [ACTIONS.md](../ACTIONS.md) on a longer timeline: build it as a service, sell it to mid-market companies that can't keep up with vendor churn.
-- **Insight:** OpenAI is **clearing the deck** before its own IPO. Sunsetting 4.5 + o3 + moving Workspace Agents to paid pricing is what a soon-to-be-public company does to clean up SKU complexity and start showing margin. The Anthropic-style metering on June 15 ([2026-05-16](../2026-05-16/01-big-lab-moves.md)) and these OpenAI sunsets are the same pattern: **the public-markets discipline is now driving roadmap decisions** at both labs.
+- **Job lens:** **The Codex MCP-schema upgrade is the headline.** Now that *both* major coding-agent vendors (Claude Code via subagents + MCP; Codex via richer MCP schemas) converge on **MCP as the inter-agent tool contract** — joined by the AWS MCP Server GA ([2026-06-09/03 §1](../2026-06-09/03-practical-skills-and-tools.md#1-aws-mcp-setup)) and the Chrome 149 WebMCP origin trial ([2026-05-20](../2026-05-20/01-big-lab-moves.md)) — MCP-server authoring is a **portable, runtime-agnostic** skill. Promote MCP-server work in your portfolio from "Claude-specific" to "agent-runtime-agnostic." (See [`03` §2](./03-practical-skills-and-tools.md#2-codex-mcp).)
+- **Startup lens:** **The dual sunset (4.5 + o3)** is exactly the kind of vendor churn that enterprise procurement teams hate. *"Agent-runtime stability + provider-portability"* is a thin wedge — abstracting away model sunsets so an enterprise's agents don't break every quarter. Longer-arc version of the 3-provider router in [ACTIONS.md](../ACTIONS.md).
+- **Insight:** OpenAI is **clearing the deck** before its own IPO. Sunsetting 4.5 + o3 + moving Workspace Agents to paid pricing is what a soon-to-be-public company does to clean up SKU complexity and start showing margin. Combined with Anthropic's June 15 metering ([2026-05-16](../2026-05-16/01-big-lab-moves.md)), the read is **public-markets discipline is now driving roadmap decisions** at both labs.
 
-→ Cross-link: [2026-05-16/01 Anthropic agent metering](../2026-05-16/01-big-lab-moves.md) · [`03` §2 Codex MCP schemas this weekend](./03-practical-skills-and-tools.md#2-codex-mcp).
+→ Cross-link: [2026-05-16/01 Anthropic agent metering](../2026-05-16/01-big-lab-moves.md) · [`03` §2 portable MCP server this weekend](./03-practical-skills-and-tools.md#2-codex-mcp).

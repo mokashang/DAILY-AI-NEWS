@@ -4,7 +4,7 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-06-09**
+Last updated: **2026-06-11**
 
 ---
 
@@ -31,12 +31,29 @@ Last updated: **2026-06-09**
 | ⚪ | **Apply to 1 Palantir FDE** (51 open roles per [2026-06-08/05 §1](./2026-06-08/05-career-and-startup.md#1-fde-comp)) — highest-volume interview-rep target | Wed | [2026-06-09/05 §1](./2026-06-09/05-career-and-startup.md#1-partner-network) |
 | ⚪ | **Install Playwright MCP** + write the `CLAUDE.md` autonomous-UI-verification pattern (5 min install) | Wed | [2026-06-09/03 §1](./2026-06-09/03-practical-skills-and-tools.md#1-aws-mcp-setup) (Playwright slot) |
 
-### Thursday June 11 — SpaceX IPO pricing (T-0)
+### Thursday June 11 — SpaceX IPO priced (T-0); Claude Corps opens; safeguards reversal lands
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | **Track SPCX IPO pricing window** — first-day-pop watch Friday; price the multiple it sets for Anthropic / OpenAI roadshow | Thu | [2026-06-09/01 §2](./2026-06-09/01-big-lab-moves.md#2-tokyo-and-ipo) |
+| ⚪ | **SPCX priced at $135 after close → first-day-pop watch Friday Jun 12 on NASDAQ** + MSCI Global Standard Index inclusion Jun 13 (T+1 = forced index demand); price the comp it sets for Anthropic ($965B) / OpenAI ($852B) S-1s | Thu/Fri | [2026-06-11/01 §1](./2026-06-11/01-big-lab-moves.md#1-spacex-prices) |
+| ⚪ | **Start Claude Corps application TONIGHT (60 min)** — apps close **July 17**; submit by **June 22** to clear early-decision read window; draft personal statement around 3 portfolio artifacts (MCP server + dual-model sanitiser + Fable-5 router) anchored on *"applying Claude inside a low-resource, mission-driven org where each hour of operational leverage matters more"* | Tonight | [2026-06-11/05 §1](./2026-06-11/05-career-and-startup.md#1-claude-corps) |
+| ⚪ | **Identify 3 nonprofits** in your network/city where you'd specifically want to be embedded for Claude Corps placement | Thu/Fri | [2026-06-11/05 §1](./2026-06-11/05-career-and-startup.md#1-claude-corps) |
+| ⚪ | **Submit Claude Corps application ≥3 weeks early** (avoid CodePath alumni surge through July) | **By June 22** | [2026-06-11/05 §1](./2026-06-11/05-career-and-startup.md#1-claude-corps) |
+| ⚪ | **Ship 30-min visible-safeguards eval harness** — probe Fable 5 on flagged domains (pretraining / distributed-training / accelerator-design), compare against Opus 4.8 fallback, flag any silent delta. 50 lines of code; portfolio item with the line *"I built the eval that would have caught the Fable 5 silent-safeguard issue Anthropic admitted to today"* | Tonight | [2026-06-11/03 §3](./2026-06-11/03-practical-skills-and-tools.md#3-visible-safeguards) |
+| ⚪ | **Install the visible-safeguards interview answer** (memorize the *flag-and-fallback, not steer-and-silently-degrade* primitive) + add to interview prep doc | This week | [2026-06-11/05 §2](./2026-06-11/05-career-and-startup.md#2-visible-safety) |
+| ⚪ | **Rebaseline 3-provider router with Fable 5 in the orchestrator seat** + `cost.md` per project (Fable 5 plan → Sonnet 4.6 workers → Haiku 4.5 verifier → Opus 4.8 visible-safeguard fallback); log tokens-in/out per model per step + $-per-task. **Cost log is the artifact**. | This weekend (pre-Jun 15) | [2026-06-11/03 §1](./2026-06-11/03-practical-skills-and-tools.md#1-fable-5-router) |
+| ⚪ | **Ship portable MCP server** verified in **Claude Code + Codex (richer MCP schemas this week) + AWS MCP Server** with per-step cost log | This weekend | [2026-06-11/03 §2](./2026-06-11/03-practical-skills-and-tools.md#2-codex-mcp) |
+| ⚪ | **Evaluate OpenAI Workspace Agents** vs Claude Code (5-case eval, cross-vendor) before paid switch on **July 6** | By **July 5** | [2026-06-11/03 §4](./2026-06-11/03-practical-skills-and-tools.md#4-workspace-agents) |
+| ⚪ | **Add `#gemini` to skills row**; add **Google Cloud AI (Vertex / Antigravity)** as 3rd-tier apply lane; add **Apple AI / Apple Intelligence Engineering** as adjacent (under-priced integration-engineering lane) | This week | [2026-06-11/05 §3](./2026-06-11/05-career-and-startup.md#3-gemini-fluency) |
+| ⚪ | **One real Gemini API project** before end of June (uses distinctive Gemini strength: long-context, live API, or multimodal-in) | **June 30** | [2026-06-11/05 §3](./2026-06-11/05-career-and-startup.md#3-gemini-fluency) |
+| ⚪ | Read **ToolMisuseBench** ([arXiv 2604.01508](https://arxiv.org/pdf/2604.01508)) — cite in portfolio README to signal you understand misuse-and-recovery scoring (the new eval frontier beyond pure accuracy) | This week | [2026-06-11/04 §1](./2026-06-11/04-research-progress.md#1-real-tool-evals) |
 | ⚪ | **5 cold DMs to engineers at 2–3 Anthropic-specialist boutiques** (find via [Anthropic Partner Hub](https://www.anthropic.com)) | Thu | [2026-06-09/05 §1](./2026-06-09/05-career-and-startup.md#1-partner-network) |
+| ⚪ | Apply to 1 **Anthropic Solutions / FDE** role referencing **the Fable 5 reversal as visible-safeguards exemplar** + the visible-safeguards eval harness as artifact | This week | [2026-06-11/05 §2](./2026-06-11/05-career-and-startup.md#2-visible-safety) |
+| ⚪ | Identify 3 **PhysicsX-shaped industrial-AI** roles (less-crowded interview wedge, $300M C @ $2.4B Temasek) + apply to 1 | This week | [2026-06-11/02 §2](./2026-06-11/02-new-emerging.md#2-growth-wave) |
+| ⚪ | Add **Supabase** (Postgres + Vector + AI-app-builder fit; $500M @ $10.5B) to applications list | This week | [2026-06-11/02 §2](./2026-06-11/02-new-emerging.md#2-growth-wave) |
+| ⚪ | Add **TensorWave + AMD AI software org** (ROCm/MI300X) to watch list — less-crowded lane vs Nvidia-stack saturation | This week | [2026-06-11/02 §1](./2026-06-11/02-new-emerging.md#1-tensorwave) |
+| ⚪ | Re-validate any [STARTUPS.md](./STARTUPS.md) wedge marked "blocked on code-synthesis quality" — **Fable 5 changed the math** (SWE-Bench Pro 80.3% vs Opus 4.8 69.2%) | This week | [2026-06-11/01 §1 cross-link](./2026-06-11/01-big-lab-moves.md) |
+| ⚪ | Add **visible-safeguard observability** wedge + **memory-portability** wedge to [STARTUPS.md](./STARTUPS.md) | This week | [2026-06-11/05 §2](./2026-06-11/05-career-and-startup.md#2-visible-safety) · [2026-06-11/02 §3](./2026-06-11/02-new-emerging.md#3-msft-memory) |
 
 ### Friday June 12 — SPCX trades + Agent SDK metering T-3
 

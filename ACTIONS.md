@@ -4,11 +4,38 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-06-11**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (June 8 – June 14) — Fable 5, S-1, Claude Corps, WWDC
+
+### Thursday June 11 — Claude Corps opens; safeguards reversal lands
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Start Claude Corps application** — draft personal statement around 3 portfolio artifacts (MCP server, dual-model sanitiser, Fable-5 router) | Tonight | [2026-06-11/05 §1](./2026-06-11/05-career-and-startup.md#1-claude-corps) |
+| ⚪ | **Submit Claude Corps application** ≥3 weeks early (avoid CodePath alumni surge) | **By June 22** | [2026-06-11/05 §1](./2026-06-11/05-career-and-startup.md#1-claude-corps) |
+| ⚪ | **Rebaseline 3-provider router with Fable 5 in the orchestrator seat** + `cost.md` per project (log tokens-in/out per model per step + $-per-task) | This weekend (pre-June 15) | [2026-06-11/03 §1](./2026-06-11/03-practical-skills-and-tools.md#1-fable-5-router) |
+| ⚪ | **Add 30-min visible-safeguards eval harness** to dual-model sanitiser project (Fable vs Opus delta detection) | Tonight | [2026-06-11/03 §3](./2026-06-11/03-practical-skills-and-tools.md#3-visible-safeguards) |
+| ⚪ | **Ship portable MCP server** verified in **Claude Code + Codex** with per-step cost log | This weekend | [2026-06-11/03 §2](./2026-06-11/03-practical-skills-and-tools.md#2-codex-mcp) |
+| ⚪ | **Evaluate OpenAI Workspace Agents** vs Claude Code (cross-vendor 5-case run) before paid switch | By **July 5** | [2026-06-11/03 §4](./2026-06-11/03-practical-skills-and-tools.md#4-workspace-agents) |
+| ⚪ | **Add `#gemini` to skills row**; add Google Cloud AI as 3rd-tier apply lane; add Apple AI Engineering as adjacent | This week | [2026-06-11/05 §3](./2026-06-11/05-career-and-startup.md#3-gemini-fluency) |
+| ⚪ | **Install visible-safeguards interview answer** (memorise; add to interview prep doc; pair with the eval harness as artifact+answer combo) | This week | [2026-06-11/05 §2](./2026-06-11/05-career-and-startup.md#2-visible-safety) |
+| ⚪ | **One real Gemini API project** before end of June (long-context, live API, or multimodal-in — pick distinctive Gemini strength) | **June 30** | [2026-06-11/05 §3](./2026-06-11/05-career-and-startup.md#3-gemini-fluency) |
+| ⚪ | Read **Externalization survey** ([arXiv 2604.08224](https://arxiv.org/pdf/2604.08224)) + build 5-bullet taxonomy card for portfolio README | Saturday | [2026-06-11/04 §3](./2026-06-11/04-research-progress.md#3-externalization-survey) |
+| ⚪ | Read **ToolMisuseBench** ([arXiv 2604.01508](https://arxiv.org/pdf/2604.01508)) — cite in portfolio README to signal you understand misuse-and-recovery scoring | This week | [2026-06-11/04 §1](./2026-06-11/04-research-progress.md#1-real-tool-evals) |
+| ⚪ | Identify 3 **PhysicsX-shaped industrial-AI** roles + apply to 1 (uncrowded interview wedge) | This week | [2026-06-11/02 §2](./2026-06-11/02-new-emerging.md#2-growth-wave) |
+| ⚪ | Add **Supabase** (postgres + vector + AI-app-builder fit) to applications list | This week | [2026-06-11/02 §2](./2026-06-11/02-new-emerging.md#2-growth-wave) |
+| ⚪ | Add **TensorWave** + **AMD AI software org** to watch list — less-crowded ROCm/MI300X lane | This week | [2026-06-11/02 §1](./2026-06-11/02-new-emerging.md#1-tensorwave) |
+| ⚪ | Re-validate any [STARTUPS.md](./STARTUPS.md) wedge marked "blocked on code-synthesis quality" — Fable 5 changed the math | This week | [2026-06-11/01 §1](./2026-06-11/01-big-lab-moves.md#1-fable-5) |
+| ⚪ | Add **visible-safeguard observability** wedge to [STARTUPS.md](./STARTUPS.md); add **memory-portability** wedge | This week | [2026-06-11/05 §2](./2026-06-11/05-career-and-startup.md#2-visible-safety) · [2026-06-11/02 §3](./2026-06-11/02-new-emerging.md#3-msft-memory) |
+| ⚪ | Apply to 1 **Anthropic Solutions / FDE** role referencing **the Fable 5 reversal as visible-safeguards exemplar** (artifacts attached) | This week | [2026-06-11/05 §2](./2026-06-11/05-career-and-startup.md#2-visible-safety) |
+| ⚪ | **Toggle Agent SDK credit setting in Claude account** (silent fail at June 15 if skipped) | **By June 14 (T-1)** | [2026-05-18/03 §1](./2026-05-18/03-practical-skills-and-tools.md) |
+
+---
+
+## Previous week (May 19 – May 25) — kept for archive
 
 ### Tuesday May 19 — I/O DAY (done)
 

@@ -4,11 +4,52 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-06-12**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (June 8 – June 14)
+
+### Friday June 12 — Agent SDK T-3, the Friday edition
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Toggle Agent SDK credit setting** in Claude account (5 min, silent failure Monday otherwise) | Tonight | [2026-06-12/03 §1](./2026-06-12/03-practical-skills-and-tools.md#1-agent-sdk-t-3) |
+| ⚪ | LinkedIn skills update — **delete "prompt engineering"; add "eval-harness design", "cost-aware orchestration", "Tool-DC/MCP-Atlas methodology"** | Sat | [2026-06-12/05 §2](./2026-06-12/05-career-and-startup.md#2-reprice) |
+| ⚪ | Add **GitHub Copilot Desktop + MAI-Code-1** to stack vocabulary; install Copilot Desktop preview as the model-picker reference rig (don't switch IDEs) | Sat | [2026-06-12/03 §3](./2026-06-12/03-practical-skills-and-tools.md#3-coding-agent-decision) |
+| ⚪ | Read the **Tool-DC** paper end-to-end + cite in weekend artifact | Sat | [2026-06-12/04 §1](./2026-06-12/04-research-progress.md#1-tool-dc) |
+
+### Saturday June 13 — Weekend artifact + apply batch
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Reframed sanitiser project** — Tool-DC methodology + MAI-Code-1-Flash / Sonnet 4.6 / GPT-5.5-Codex head-to-head + per-step cost; push to GitHub | Sat night | [2026-06-12/03 §2](./2026-06-12/03-practical-skills-and-tools.md#2-weekend-project) |
+| ⚪ | Apply to 1 **Anthropic Solutions / FDE / Integration** role referencing the new artifact | Sat | [2026-06-12/05 §4](./2026-06-12/05-career-and-startup.md#4-programs) |
+| ⚪ | Apply to 1 **OpenAI Deployment Engineer / FDE** role | Sat | [2026-06-12/05 §4](./2026-06-12/05-career-and-startup.md#4-programs) |
+| ⚪ | Apply to 1 **TPU-native infra** role (Broadcom OR Google Cloud TPU OR Marvell) — non-overlapping lane | Sat | [2026-06-12/05 §3](./2026-06-12/05-career-and-startup.md#3-tpu-lane) |
+| ⚪ | Skim Google Cloud TPU architecture + 1 JAX/TPU tutorial (60–90 min — interview gate for §3 lane) | Sat | [2026-06-12/05 §3](./2026-06-12/05-career-and-startup.md#3-tpu-lane) |
+| ⚪ | `CLAUDE.md` sweep — drop the Karpathy template into every active repo root (cuts token use 20–40% under the new metering regime) | Sat | [2026-06-12/03 §5](./2026-06-12/03-practical-skills-and-tools.md#5-claude-md) |
+
+### Sunday June 14 — G7 prep + weekly rollup
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Read the published G7 attendee agenda (released by French presidency Sun/Mon) | Sun | [2026-06-12/01 §1](./2026-06-12/01-big-lab-moves.md#1-g7-summit) |
+| ⚪ | Write `weeks/WEEK-2026-06-08.md` — first weekly rollup under the new convention | Sun | [weeks/README.md](./weeks/README.md) |
+| ⚪ | Update [STARTUPS.md](./STARTUPS.md) — add Industrial/Physical-AI software layer, CAD-to-LLM, agent-to-agent commerce; lower urgency on cost-aware router; re-activate pre-deployment-eval wedge | Sun | [2026-06-12/05 §5](./2026-06-12/05-career-and-startup.md#5-founder-lens) |
+| ⚪ | Cleanup ACTIONS.md (move open items to next week, archive 🟢 / 🔴) | Sun | (this file) |
+
+### Monday June 15 — Agent SDK metering live + G7 day 1 + Anthropic ARR live read
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Re-confirm Agent SDK credit shows in dashboard at 9 AM Pacific (sanity check Friday's toggle) | Mon AM | [2026-06-12/03 §1](./2026-06-12/03-practical-skills-and-tools.md#1-agent-sdk-t-3) |
+| ⚪ | Verify `cache_read_input_tokens > 0` in one production run (prompt caching is now the direct dollar lever) | Mon | [2026-06-12/03 §4](./2026-06-12/03-practical-skills-and-tools.md#4-prompt-caching) |
+| ⚪ | Track G7 communiqué language on pre-deployment review + frontier audits (Wed afternoon) → re-rank STARTUPS.md pre-deployment-eval wedge if concrete | Wed | [2026-06-12/01 §1](./2026-06-12/01-big-lab-moves.md#1-g7-summit) |
+
+---
+
+## ~~This week (May 19 – May 25) — closed/archived~~
 
 ### Tuesday May 19 — I/O DAY (done)
 

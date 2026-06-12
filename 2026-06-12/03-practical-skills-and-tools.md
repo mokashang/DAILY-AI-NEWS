@@ -131,6 +131,6 @@ If you haven't already (per the still-open thread in [ACTIONS.md](../ACTIONS.md)
 
 ## Cross-links
 
-- **Cost arithmetic:** [`01` §3](./01-big-lab-moves.md#3-anthropic-revenue) explains *why* Anthropic is metering now.
+- **Cost arithmetic:** [`01` §3](./01-big-lab-moves.md#4-anthropic-revenue) explains *why* Anthropic is metering now.
 - **Research that anchors the verifier framing:** [`04` §1](./04-research-progress.md#1-tool-dc)
 - **Career angle of cost-awareness:** [`05` §2](./05-career-and-startup.md#2-reprice)

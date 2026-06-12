@@ -36,13 +36,13 @@
 **The shift you should bet on.** Three of this week's deepest signals converge:
 1. **Tool-DC's +25.10% training-free gain** ([04 §1](./04-research-progress.md#1-tool-dc)) — **runtime structure** (divide-and-conquer) outperforms more training compute.
 2. **`ml-intern` open release** ([04 §3](./04-research-progress.md#3-ml-intern)) — post-training is becoming an **agent-orchestrated process**, not a hand-tuned one.
-3. **Microsoft MAI-Code-1-Flash priced under Haiku 4.5** ([01 §5](./01-big-lab-moves.md#5-microsoft-mai-code-1)) — raw model quality is being **commoditized at the price floor**.
+3. **Microsoft MAI-Code-1-Flash priced under Haiku 4.5** ([01 §5](./01-big-lab-moves.md#6-microsoft-mai-code-1)) — raw model quality is being **commoditized at the price floor**.
 
 **Translation for the resume.** Skills that *appreciated* this week:
 - Eval-harness design (Tool-DC / MCP-Atlas / per-claim evals)
 - Cost-aware routing (Opus-orchestrator / Sonnet-worker / MAI-cheap-leg)
 - Verifier architecture (Haiku-verifier + Opus-agent ratio from [2026-05-19/04 §3](../2026-05-19/04-research-progress.md#3-trajad))
-- TPU + GPU fluency (cf. [01 §2](./01-big-lab-moves.md#2-anthropic-broadcom))
+- TPU + GPU fluency (cf. [01 §2](./01-big-lab-moves.md#3-anthropic-broadcom))
 
 **Skills that *depreciated*.**
 - "Prompt engineering" as a standalone skill (commoditized; assume the recruiter assumes you can)
@@ -60,7 +60,7 @@
 
 ## 3. New career lane: TPU-native infra (Broadcom, Marvell, Google Cloud TPU). {#3-tpu-lane}
 
-**Why it just opened.** [01 §2](./01-big-lab-moves.md#2-anthropic-broadcom) — Anthropic's 3.5 GW TPU deal means Broadcom + Marvell are now structurally NVIDIA's secondary competitors at the AI-accelerator layer. **Mizuho models $42B Broadcom AI revenue from Anthropic alone in 2027.** The hiring follows the dollars.
+**Why it just opened.** [01 §2](./01-big-lab-moves.md#3-anthropic-broadcom) — Anthropic's 3.5 GW TPU deal means Broadcom + Marvell are now structurally NVIDIA's secondary competitors at the AI-accelerator layer. **Mizuho models $42B Broadcom AI revenue from Anthropic alone in 2027.** The hiring follows the dollars.
 
 **Concrete roles to file in [APPLICATIONS.md](../APPLICATIONS.md).**
 
@@ -100,6 +100,7 @@ Update [APPLICATIONS.md](../APPLICATIONS.md) with the following deadlines (cross
 | Anthropic AI Safety Fellowship | ⚪ open | TBD — confirm via [anthropic.com/careers](https://www.anthropic.com/careers) | Submit this month |
 | Google DeepMind Early Career | ⚪ open | TBD — confirm | Submit this month |
 | Workday × Anthropic Solopreneurship Accelerator | ⚪ open | Per [2026-05-19/05 §5](../2026-05-19/05-career-and-startup.md#5-workday-solopreneur) — 15 slots | Apply by next Sunday |
+| **Claude Corps (Anthropic + CodePath + Social Finance)** | ⚪ open — **highest-priority this month** | **Apps close July 17** — submit by **June 22** to clear early-decision read | **$150M / 1,000 fellows / $85K / 12-mo / nonprofit placement.** Eligibility 18+ with <2 yrs FT, any educational background. **Directly on your eligibility line.** [Source — 2026-06-11/05 §1](../2026-06-11/05-career-and-startup.md#1-claude-corps) |
 | **(NEW)** OpenAI Deployment Engineer (FDE) | ⚪ open | Rolling | Apply alongside Anthropic Solutions weekly |
 | **(NEW)** Broadcom AI Compiler Engineer | ⚪ open | Rolling | First non-frontier-lab app this month |
 
@@ -116,8 +117,8 @@ After today's [02 §1–2](./02-new-emerging.md#1-prometheus), file these wedge 
 | Industrial / Physical-AI software layer | Add at fit-score 3 | Prometheus + NEURA create a market for upstream tooling |
 | CAD-to-LLM tokenization | Add at fit-score 3 | Adjacent to Prometheus; not a competitor |
 | Agent-to-agent commerce infra | Promote to fit-score 4 | AgenticPay paper ([04 §4](./04-research-progress.md#4-arxiv-quick-hits)) + Decagon/Sierra-style buyers |
-| Cost-aware multi-provider router | Lower urgency (window narrowed) | Microsoft Copilot Desktop entered the same surface ([01 §5](./01-big-lab-moves.md#5-microsoft-mai-code-1)) |
-| Pre-deployment eval-as-a-service | Re-activate (was dropped on May 22) | G7 summit ([01 §1](./01-big-lab-moves.md#1-g7-summit)) could re-create the buyer |
+| Cost-aware multi-provider router | Lower urgency (window narrowed) | Microsoft Copilot Desktop entered the same surface ([01 §5](./01-big-lab-moves.md#6-microsoft-mai-code-1)) |
+| Pre-deployment eval-as-a-service | Re-activate (was dropped on May 22) | G7 summit ([01 §1](./01-big-lab-moves.md#2-g7-summit)) could re-create the buyer |
 
 `#startups #wedges #wedge-map #physical-ai`
 
@@ -138,7 +139,7 @@ After today's [02 §1–2](./02-new-emerging.md#1-prometheus), file these wedge 
 ## Cross-links
 
 - **TLDR:** [`00`](./00-tldr.md)
-- **Compute lane (TPU):** [`01` §2](./01-big-lab-moves.md#2-anthropic-broadcom)
+- **Compute lane (TPU):** [`01` §2](./01-big-lab-moves.md#3-anthropic-broadcom)
 - **Microsoft entry (decision tree):** [`03` §3](./03-practical-skills-and-tools.md#3-coding-agent-decision)
 - **Skill anchor (Tool-DC):** [`04` §1](./04-research-progress.md#1-tool-dc)
 - **Startup wedges:** [STARTUPS.md](../STARTUPS.md)

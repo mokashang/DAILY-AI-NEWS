@@ -86,12 +86,12 @@ Pulled from the past two weeks' aggregator feeds (cross-confirm before quoting).
 | **CAD-to-LLM tokenization / verification** | NEW — file at fit-score 3, as a *services-on-top-of-Prometheus* wedge |
 | **EU-sovereignty AI vertical** | Watch — trigger Mistral round >$5B |
 | **Crypto-native AI infra payments** | NEW — file at fit-score 2 (Tether's lead in NEURA is the unlock signal) |
-| **Cost-aware multi-provider model router** | Existing — narrowed window after Microsoft Copilot Desktop launch ([01 §5](./01-big-lab-moves.md#5-microsoft-mai-code-1)) |
+| **Cost-aware multi-provider model router** | Existing — narrowed window after Microsoft Copilot Desktop launch ([01 §5](./01-big-lab-moves.md#6-microsoft-mai-code-1)) |
 
 ---
 
 ## Cross-links
 
-- **Anthropic / OpenAI as funded mothership:** [`01` §3–4](./01-big-lab-moves.md#3-anthropic-revenue)
-- **Microsoft as new coding-agent competitor:** [`01` §5](./01-big-lab-moves.md#5-microsoft-mai-code-1)
+- **Anthropic / OpenAI as funded mothership:** [`01` §3–4](./01-big-lab-moves.md#4-anthropic-revenue)
+- **Microsoft as new coding-agent competitor:** [`01` §5](./01-big-lab-moves.md#6-microsoft-mai-code-1)
 - **Career applications driven by this:** [`05` §1–3](./05-career-and-startup.md)

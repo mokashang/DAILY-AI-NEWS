@@ -8,7 +8,7 @@ This file is auto-updated every edition so a one-click read of the latest TL;DR 
 
 ## Today's headline
 
-**Three weeks of catch-up land in one day.** G7 summit with Altman/Hassabis/Amodei (Mon Jun 15–17 in Évian) · Anthropic × Google × Broadcom 3.5 GW TPU deal · Anthropic >$30B run-rate, $965B Series H, now the most valuable AI startup · OpenAI confidential S-1 confirmed, ~$1T Sept-listing window · Bezos's Prometheus $12B Series B at $41B (industrial "general engineer") · Microsoft MAI-Code-1 + Copilot Desktop ship · Claude Agent SDK metering T-3 (Mon Jun 15) — **toggle credit tonight**.
+**Friday-after-SPCX — the public-market comp prints, the G7 weekend opens, the TPU supply chain hardens.** SPCX opened +11% at $150 on NASDAQ today (biggest IPO ever, ~$250B demand) · G7 Évian Mon–Wed with Altman/Hassabis/Amodei · Anthropic × Google × Broadcom 3.5GW TPU deal announced · Anthropic >$30B run-rate, $965B (carries from May 29 Series H close) · Prometheus (Bezos) $12B Series B at $41B (Jun 11) · Claude Agent SDK metering T-3 (Sun Jun 15) — **toggle credit tonight** · Tool-DC +25.10% on BFCL/ACEBench.
 
 Full edition → [`2026-06-12/`](./2026-06-12/)
 
@@ -16,4 +16,6 @@ Full edition → [`2026-06-12/`](./2026-06-12/)
 
 ## One-thing-to-do (Friday)
 
-→ **(5 minutes, tonight)** Toggle the Agent SDK credit setting in your Claude account before Monday. Silent failure mode if skipped. [Source](./2026-06-12/03-practical-skills-and-tools.md#1-agent-sdk-t-3)
+→ **(5 minutes, tonight)** Toggle the Agent SDK credit setting in your Claude account before Sunday. Silent failure mode if skipped. [Source](./2026-06-12/03-practical-skills-and-tools.md#1-agent-sdk-t-3)
+
+→ **(60 minutes, tonight)** Continue yesterday's [Claude Corps application](./2026-06-11/05-career-and-startup.md#1-claude-corps) — submit by **June 22**.

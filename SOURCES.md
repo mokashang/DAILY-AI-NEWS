@@ -67,7 +67,9 @@ Dedicated AI coverage, usually fast and reliable.
 - [The Rundown AI](https://www.therundown.ai/) — daily newsletter, accessible summaries
 - [The Decoder](https://the-decoder.com/) — reliable reporting on lab strategy and products
 - [LLM Stats — AI News](https://llm-stats.com/ai-news) — model releases tracker
-- [Artificial Analysis](https://artificialanalysis.ai/) — benchmarks, pricing comparisons, coding agent evals
+- [LLM Stats — LLM Updates (daily)](https://llm-stats.com/llm-updates) — daily model-release feed; fastest-to-print for new model launches **(added 2026-06-09)**
+- [Artificial Analysis](https://artificialanalysis.ai/) — benchmarks, pricing comparisons, coding agent evals; **Intelligence Index** is now the canonical mainstream model-ranking citation in 2026 **(elevated 2026-06-09)**
+- [LM Council — Benchmarks](https://lmcouncil.ai/benchmarks) — independent benchmark aggregation; cross-reference for Artificial Analysis claims **(added 2026-06-09)**
 - [Crescendo AI News](https://www.crescendo.ai/news/latest-ai-news-and-updates) — agentic AI coverage + VC deals
 - [AI and News](https://www.aiandnews.com/) — breakthroughs and emerging trends
 - [Smol AI — AI News](https://news.smol.ai/) — daily aggregator from swyx + team; high signal

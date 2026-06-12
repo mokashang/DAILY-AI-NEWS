@@ -106,4 +106,4 @@ One-line each; deeper writeups follow if they prove durable.
 
 - **Weekend artifact:** [`03` §2](./03-practical-skills-and-tools.md#2-weekend-project) — Tool-DC is the methodology cite.
 - **Career angle:** [`05` §2](./05-career-and-startup.md#2-reprice) — runtime-structure-over-scale is the skill re-price.
-- **Compute that enables this:** [`01` §2](./01-big-lab-moves.md#2-anthropic-broadcom) — 3.5GW TPU underwrites the closed post-training experiments.
+- **Compute that enables this:** [`01` §2](./01-big-lab-moves.md#3-anthropic-broadcom) — 3.5GW TPU underwrites the closed post-training experiments.

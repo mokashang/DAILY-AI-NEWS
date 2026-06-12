@@ -4,7 +4,7 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-06-11**
+Last updated: **2026-06-12**
 
 ---
 
@@ -61,8 +61,13 @@ Last updated: **2026-06-11**
 |---|---|---|---|
 | ⚪ | **Verify Agent SDK credit toggle is still active** in account settings (manual; silent fail on Sun if missed) | Fri | [2026-05-18/03](./2026-05-18/03-practical-skills-and-tools.md) |
 | ⚪ | **Confirm cost-router baseline data** is collecting before Sunday's metering switch | Fri | [2026-06-08/03 §1](./2026-06-08/03-practical-skills-and-tools.md#1-opus-48-baseline) |
+| ⚪ | **Watch SPCX day-1 close on NASDAQ + record the 4 PM ET print** — first live read-through to Anthropic ($965B) / OpenAI ($852B) S-1 pricing | Fri 4 PM ET | [2026-06-12/01 §1](./2026-06-12/01-big-lab-moves.md#1-spacex-first-day) |
+| ⚪ | **LinkedIn skills update** — delete "prompt engineering"; add "eval-harness design", "cost-aware orchestration", "Tool-DC/MCP-Atlas methodology" | Fri/Sat | [2026-06-12/05 §2](./2026-06-12/05-career-and-startup.md#2-reprice) |
+| ⚪ | Read the **Tool-DC** paper end-to-end + cite in weekend artifact (training-free +25.10% on BFCL/ACEBench) | Fri/Sat | [2026-06-12/04 §1](./2026-06-12/04-research-progress.md#1-tool-dc) |
+| ⚪ | Install **GitHub Copilot Desktop preview** as the model-picker reference rig (don't switch IDEs; stay Claude-Code primary) | Fri/Sat | [2026-06-12/03 §3](./2026-06-12/03-practical-skills-and-tools.md#3-coding-agent-decision) |
+| ⚪ | (Optional) Track **G7 Évian Sunday-night Macron presser** for AI-policy preview before Monday's working lunch | Fri/Sun | [2026-06-12/01 §1](./2026-06-12/01-big-lab-moves.md#1-g7-summit) |
 
-### Saturday June 13 — read + ship artifacts
+### Saturday June 13 — read + ship artifacts + apply batch
 
 | Status | Action | Due | Source |
 |---|---|---|---|
@@ -70,14 +75,31 @@ Last updated: **2026-06-11**
 | ⚪ | **Read "End of Software Engineering"** ([arXiv 2606.05608](https://arxiv.org/pdf/2606.05608)) end-to-end — pull two concrete predictions for interview prep | Sat | [2026-06-09/04 §1](./2026-06-09/04-research-progress.md#1-end-of-swe) |
 | ⚪ | **Ship the MCP install + Playwright loop writeup** as a longer-form LinkedIn / blog post; tag Anthropic + AWS + relevant partner employees | Sat | [2026-06-09/05 §1](./2026-06-09/05-career-and-startup.md#1-partner-network) |
 | ⚪ | **Update [STARTUPS.md](./STARTUPS.md)** — add 3 new wedges (MCP-managed-service, agent-RBAC dashboard, Apple-Extensions-vertical); mark CX-agent + multi-vendor-router as saturated | Sat | [2026-06-09/05 §4](./2026-06-09/05-career-and-startup.md#4-startup-map) |
+| ⚪ | **Ship the reframed sanitiser project** — Tool-DC methodology + MAI-Code-1-Flash / Sonnet 4.6 / GPT-5.5-Codex head-to-head + per-step cost; push to GitHub | Sat night | [2026-06-12/03 §2](./2026-06-12/03-practical-skills-and-tools.md#2-weekend-project) |
+| ⚪ | Apply to 1 **Anthropic Solutions / FDE / Integration** role referencing the new artifact | Sat | [2026-06-12/05 §4](./2026-06-12/05-career-and-startup.md#4-programs) |
+| ⚪ | Apply to 1 **OpenAI Deployment Engineer / FDE** role | Sat | [2026-06-12/05 §4](./2026-06-12/05-career-and-startup.md#4-programs) |
+| ⚪ | Apply to 1 **TPU-native infra** role (Broadcom / Google Cloud TPU / Marvell) — **NEW non-overlapping lane** opened by today's Anthropic × Google × Broadcom 3.5GW deal | Sat | [2026-06-12/05 §3](./2026-06-12/05-career-and-startup.md#3-tpu-lane) |
+| ⚪ | Skim Google Cloud TPU architecture + 1 JAX/TPU tutorial (60–90 min — interview gate for the §3 lane) | Sat | [2026-06-12/05 §3](./2026-06-12/05-career-and-startup.md#3-tpu-lane) |
+| ⚪ | `CLAUDE.md` sweep — drop the Karpathy template into every active repo root (cuts token use 20–40% under the new metering regime) | Sat | [2026-06-12/03 §5](./2026-06-12/03-practical-skills-and-tools.md#5-claude-md) |
+| ⚪ | **Continue Claude Corps personal statement** (submit by June 22 — early-decision window per [2026-06-11/05 §1](./2026-06-11/05-career-and-startup.md#1-claude-corps)) | Sat | [2026-06-11/05 §1](./2026-06-11/05-career-and-startup.md#1-claude-corps) |
 
-### Sunday June 14 — weekly review + Agent SDK metering T-1
+### Sunday June 14 — weekly review + Agent SDK metering T-1 + G7 day-zero
 
 | Status | Action | Due | Source |
 |---|---|---|---|
 | ⚪ | **Weekly review:** write WEEK-2026-06-08.md rollup — WWDC + AWS MCP GA + Partner Network + Tokyo + SPCX + metering T-1 | Sun | (weekly rollup convention) |
 | ⚪ | **Cleanup ACTIONS.md** — archive 🟢 / 🔴 from prior week | Sun | (this file) |
 | ⚪ | **Final Agent SDK toggle verification** (T-1 to Sunday metering switch) | Sun PM | [2026-05-18/03](./2026-05-18/03-practical-skills-and-tools.md) |
+| ⚪ | Read the published G7 attendee agenda + Sunday-night Macron presser | Sun PM | [2026-06-12/01 §1](./2026-06-12/01-big-lab-moves.md#1-g7-summit) |
+| ⚪ | Update [STARTUPS.md](./STARTUPS.md) — add **Industrial/Physical-AI software layer**, **CAD-to-LLM tokenization**, **agent-to-agent commerce** wedges; lower urgency on cost-aware router; re-activate **pre-deployment-eval** wedge (G7 communiqué watch) | Sun | [2026-06-12/05 §5](./2026-06-12/05-career-and-startup.md#5-founder-lens) |
+
+### Monday June 15 — Agent SDK metering goes live + G7 day 1
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Re-confirm Agent SDK credit shows in dashboard at 9 AM Pacific (sanity check Friday's toggle) | Mon AM | [2026-06-12/03 §1](./2026-06-12/03-practical-skills-and-tools.md#1-agent-sdk-t-3) |
+| ⚪ | Verify `cache_read_input_tokens > 0` in one production run (prompt caching is now the direct dollar lever) | Mon | [2026-06-12/03 §4](./2026-06-12/03-practical-skills-and-tools.md#4-prompt-caching) |
+| ⚪ | Track G7 communiqué language on pre-deployment review + frontier audits (Wed afternoon read) → re-rank STARTUPS.md pre-deployment-eval wedge if concrete | Wed | [2026-06-12/01 §1](./2026-06-12/01-big-lab-moves.md#1-g7-summit) |
 
 ---
 
@@ -270,8 +292,6 @@ Last updated: **2026-06-11**
 | ⚪ | Pre-position for **Apple WWDC June 8:** pre-read the likely Extensions API shape; plan a first-week Extension demo | By June 8 | (WWDC June 8 keynote) |
 
 > **Watching (not actions):** Anthropic raise *signing* (track the term sheet, not the reporting); SpaceX SPCX ~June 12; Gemini 3.5 Pro June date; Pope encyclical → Article 51 framing.
-
----
 
 ## Older archive (May 19 – May 25)
 

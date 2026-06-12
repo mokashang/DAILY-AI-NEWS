@@ -19,6 +19,19 @@ These are first-party — no middleman, no spin. Always check these before readi
 - [xAI Blog](https://x.ai/blog) — Grok updates
 - [Mistral Blog](https://mistral.ai/news/) — open and enterprise models
 - [Hugging Face Blog](https://huggingface.co/blog) — open-source ecosystem, papers, tools
+- [DeepSeek](https://www.deepseek.com/) — Chinese frontier; DeepSeek V4 / V4.1 release notes
+- [Moonshot AI / Kimi](https://www.moonshot.cn/) — Chinese frontier; Kimi K-series releases
+- [Qwen / Tongyi](https://qwenlm.github.io/) — Alibaba's frontier line; Qwen 3.7 + Coder
+- [Zhipu AI / GLM](https://www.zhipuai.cn/) — GLM-6 + Cogview line
+- [Cohere Blog](https://cohere.com/blog) — Command line, enterprise-grade LLMs
+
+### Lab Careers (Tier-1 — see roles before recruiters do)
+- [Anthropic Careers](https://www.anthropic.com/careers)
+- [OpenAI Careers](https://openai.com/careers)
+- [Google DeepMind Careers](https://deepmind.google/about/careers/)
+- [xAI Careers](https://x.ai/careers)
+- [Meta AI Careers](https://www.metacareers.com/areas-of-work/ai/)
+- [Mistral Careers](https://mistral.ai/careers)
 
 ### Financial Filings & Revenue Data
 - [Sacra — OpenAI](https://sacra.com/c/openai/) — revenue estimates, valuation, financials
@@ -39,6 +52,8 @@ Where breakthroughs land before anywhere else — often before peer review.
 - [alphaXiv](https://www.alphaxiv.org/) — arXiv + community discussion and annotation
 - [Papers With Code](https://paperswithcode.com/) — papers + benchmarks + code repos
 - [Semantic Scholar](https://www.semanticscholar.org/) — citation graphs and related work
+- [aideadlin.es](https://aideadlin.es/) — AI / ML conference deadline tracker (NeurIPS, ICML, ICLR, ACL, etc.)
+- [VoltAgent — awesome-ai-agent-papers](https://github.com/VoltAgent/awesome-ai-agent-papers) — curated 2026 agent-papers list, updated weekly
 
 ---
 
@@ -57,6 +72,11 @@ Dedicated AI coverage, usually fast and reliable.
 - [LM Council — Benchmarks](https://lmcouncil.ai/benchmarks) — independent benchmark aggregation; cross-reference for Artificial Analysis claims **(added 2026-06-09)**
 - [Crescendo AI News](https://www.crescendo.ai/news/latest-ai-news-and-updates) — agentic AI coverage + VC deals
 - [AI and News](https://www.aiandnews.com/) — breakthroughs and emerging trends
+- [Smol AI — AI News](https://news.smol.ai/) — daily aggregator from swyx + team; high signal
+- [Last Week in AI (podcast + newsletter)](https://lastweekin.ai/) — best week-in-review
+- [The Neuron Daily](https://www.theneurondaily.com/) — daily roundup with practitioner framing
+- [Buildfastwithai — AI News Today](https://www.buildfastwithai.com/blogs) — daily news + roadmap explainer
+- [AI Weekly — AI News Tracker](https://aiweekly.co/ai-news-today) — per-lab news tracker
 
 ---
 
@@ -152,3 +172,6 @@ Checked weekly for market signal.
 - [Indeed MLE new grad](https://www.indeed.com/q-machine-learning-engineer-new-grad-jobs.html)
 - [startup.jobs ML](https://startup.jobs/machine-learning-jobs)
 - [YC AI Companies hiring](https://www.ycombinator.com/companies/industry/ai)
+- [Levels.fyi — AI Engineer comp data](https://www.levels.fyi/t/software-engineer/focus/ai-ml)
+- [Otta — AI/ML filter](https://app.otta.com/) — curated filtered jobs
+- [Pragmatic Engineer — Job Market State (annual)](https://newsletter.pragmaticengineer.com/) — best industry-state writeups

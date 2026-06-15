@@ -76,6 +76,40 @@ The shape — slow start, July 1 inflection — reads as "the directive is treat
 
 ---
 
+## 3. G7 Évian Day 1 — Altman, Amodei, and Hassabis in the room together for the first time {#3-g7-day1}
+
+**What's happening.** The **52nd G7 summit opens today in Évian-les-Bains, France** and runs **June 15–17**. For the first time at a G7, the CEOs of **all three frontier US labs are attending together**: **Sam Altman (OpenAI)**, **Dario Amodei (Anthropic)**, and **Demis Hassabis (Google DeepMind)**. **President Macron personally invited Altman** — Altman's first G7 appearance. The set-piece is a **Wednesday (Jun 17) working lunch** that puts political leaders in the same room as the lab CEOs to discuss **AI infrastructure, networks, and regulation.** `[secondary]`
+
+**Who else is in the AI delegation.** The lineup goes wider than the big three: **Arthur Mensch (Mistral)**, **Aidan Gomez (Cohere)**, **Robin Rombach (Black Forest Labs)**, **Pratyush Kumar (Sarvam AI)**, **Victor Riparbelli (Synthesia)**, **Alex Wang (Meta)**, **Marc Benioff (Salesforce)**, **Ren Ito (Sakana AI)**. Read the list as the **operational definition of "frontier-adjacent + EU + India + Japan"** the G7 host wanted in the room — Mistral and Sakana inside, no Chinese labs, deliberate sovereign-AI framing. `[secondary]`
+
+**The substance, not just the optics.** The three US CEOs **co-signed a recent letter to Congress on synthetic-DNA + AI biological threats** — that's the *specific* policy item they showed up aligned on, and it's likely to anchor the working-lunch conversation. Read this as the **bio-safety carveout that fits inside a release-velocity-first administration** ([the EO arc from 2026-05-22](../2026-05-22/01-big-lab-moves.md#1-eo-postponed)): rivals agreeing that *some* federal authority is desirable, framed where the political consensus is widest (bioweapons), not where it's thinnest (frontier-model review). The Fable 5 export-control directive (§1) will shadow every conversation Amodei has on the floor.
+
+**Why the timing is unusually loaded.** Three things compound on Day 1:
+1. **Amodei walks in with Fable 5 offline** — the directive is itself a US-only export-control action, and Amodei now gets to discuss it in front of allied heads of state for the first time.
+2. **Two confidential S-1s are mid-comment** (§2) — Altman and Amodei are constrained on what they can say publicly; the G7 is a venue where "off-the-record framing" actually lands.
+3. **Macron has a 2027 election arc** — the French AI-sovereignty pitch (Mistral, the EU AI Act, sovereign-compute initiatives) gets a high-profile showcase, and Mistral's presence at the table is a tell.
+
+**Sources.**
+- `[secondary]` [Bloomberg — Anthropic, OpenAI, Google Executives to Join G7 Summit in France](https://www.bloomberg.com/news/articles/2026-06-12/anthropic-openai-google-executives-plan-to-attend-g7-summit)
+- `[secondary]` [Yahoo News — Sam Altman, Demis Hassabis, Dario Amodei to attend G7 France](https://www.yahoo.com/news/politics/articles/sam-altman-demis-hassabis-dario-115705986.html)
+- `[secondary]` [TheNextWeb — AI rivals Altman, Amodei, Hassabis head to G7 summit](https://thenextweb.com/news/g7-ai-summit-altman-amodei-hassabis)
+- `[secondary]` [Euronews — Wars, tariffs and AI: What to expect from the G7 summit in Évian](https://www.euronews.com/my-europe/2026/06/14/wars-tariffs-and-ai-what-to-expect-from-the-g7-summit-in-evian)
+- `[secondary]` [Quartz — Altman, Hassabis, Amodei heading to G7 summit in France](https://qz.com/openai-google-deepmind-anthropic-ceos-g7-france-061226)
+- `[aggregator]` [Dataconomy — AI Leaders From OpenAI, Google DeepMind, And Anthropic To Join G7 Summit](https://dataconomy.com/2026/06/12/ai-leaders-openai-google-deepmind-anthropic-g7-summit/)
+- `[primary]` [Wikipedia — 52nd G7 summit (logistics + agenda)](https://en.wikipedia.org/wiki/52nd_G7_summit)
+
+**Why it matters to you.**
+
+- **Job ·** Watch the **post-summit hiring signals** in two specific lanes: **(a) frontier-lab policy / government-affairs** (Anthropic + OpenAI both expand these teams in the 90 days after every major political appearance — postings show up in DC, Brussels, and Tokyo); **(b) bio-safety / AI biosecurity evaluation** (the synthetic-DNA letter is the cleanest signal yet that this lane is funded). Both are thin queues with high signal-to-noise — apply *this* week, not after the Wednesday lunch is in the press.
+- **Startup ·** The set-piece for *sovereign-AI* infrastructure is being constructed in front of you. If your wedge touches **on-prem inference, EU-resident agent runtimes, or government-AI deployment**, the next 8 weeks will produce **named, fundable buyer signals** as G7 readouts land. Pre-stage a 1-pager that maps your wedge to "sovereign deployment" language before the Wednesday communiqué drops.
+- **Insight ·** The hardest-to-fake signal of the day: **rivals show up aligned on the *narrow* policy ask (bio-safety) and silent on the *broad* one (frontier-model review).** That tells you exactly where US AI governance will move first and where it will keep stalling. Bet your skill investment on the narrow lane — it's the one that will have hiring, not the one that will have hearings.
+
+→ Cross-link: [§1 Fable 5 directive (the elephant in Amodei's bilateral schedule)](#1-fable-day4) · [§2 SEC quiet window (constrains what either CEO can say)](#2-quiet-window) · [2026-05-22/01 §1 the postponed EO](../2026-05-22/01-big-lab-moves.md#1-eo-postponed) (the US-policy backdrop).
+
+`#g7 #policy #anthropic #openai #deepmind #mistral #sovereign-ai #biosecurity`
+
+---
+
 ## Cross-page
 
 - See [`03` §1–2](./03-practical-skills-and-tools.md) for the live metering setup and the June 22 cliff math.

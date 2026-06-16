@@ -1,37 +1,12 @@
 # New & Emerging — 2026-06-16
 
-The emerging-news lens this week is about the **picks-and-shovels under the IPO wave**. Both Anthropic and OpenAI are now S-1-confidential ([`01` §2](./01-big-lab-moves.md#2-both-s1)), which means the **rest of the agent stack is being repriced** — yesterday alone, two pure-play infrastructure rounds priced two distinct lanes (agent-identity, GPU-marketplace). And **distribution itself is the new emerging surface**: iOS 27 Extensions ([`01` §4](./01-big-lab-moves.md#4-apple-extensions)) and Fable 5's day-one tri-cloud GA ([`01` §3](./01-big-lab-moves.md#3-fable-5)) are the same story told from two ends.
+The emerging-news lens this week is about the **picks-and-shovels under the IPO wave**. Both Anthropic and OpenAI are now S-1-confidential ([2026-06-15/01 §2](../2026-06-15/01-big-lab-moves.md#2-quiet-window)), which means the **rest of the agent stack is being repriced** — yesterday alone, two pure-play infrastructure rounds priced two distinct lanes (**agent-identity** and **decentralized GPU marketplace**) for a combined **$166M of fresh capital**. And the Fable 5 export-control event ([`01` §3](./01-big-lab-moves.md#3-fable-day5)) reframed **distribution itself** as the new emerging surface — multi-hyperscaler day-one GA no longer hedges against single-government action.
 
 Tags: `#emerging #funding #identity #gpu #infra #ipo #distribution #agents #cyber`
 
 ---
 
-## 1. Fable 5 day-one tri-cloud GA reframes the model-distribution map {#1-fable-5-distribution}
-
-**What happened:** Anthropic shipped Fable 5 **simultaneously on Claude API + Claude Platform + Claude Code + Enterprise consumption plans + AWS Bedrock + Google Cloud Vertex AI + Microsoft Foundry** on June 9. GitHub Copilot pushed Fable 5 to GA the same day. The lateral spread is the story.
-
-- **First Anthropic model to ship cloud-tri-GA day-zero.** Prior Anthropic launches saw AWS in T-0, with Vertex/Foundry trailing by days-to-weeks. The June 9 sweep is a deliberate pre-IPO posture move: **show the public market three hyperscaler distribution channels on day one.**
-- **Microsoft Foundry detail:** Foundry's June posture finalized an **11,000-model catalog** with Claude Opus 4.8 and Fable 5 both inside ([per BuildFastWithAI June 8 digest](https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026)). Microsoft is hedging its OpenAI exclusivity in public.
-- **GitHub Copilot day-one Fable 5 GA** is the **clearest single signal** of model-platform commoditization to date — Microsoft-owned GitHub now ships Anthropic-flagship into the world's most-used dev environment on the same day Anthropic launches it.
-
-**Sources:**
-- [Anthropic News — Claude Fable 5 and Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) `[primary]`
-- [GitHub Changelog — Claude Fable 5 GA for GitHub Copilot](https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot/) `[primary]`
-- [BuildFastWithAI — AI News Today June 8, 2026 (Foundry 11K-model catalog with Claude inside)](https://www.buildfastwithai.com/blogs/ai-news-today-june-8-2026) `[aggregator]`
-- [WaveSpeed — June 2026 AI Launch Wave: A Builder's Decision Map](https://wavespeed.ai/blog/posts/june-2026-ai-launch-wave/) `[analysis]`
-- [CNBC — Microsoft and Google take on Anthropic and OpenAI in AI coding models](https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html) `[secondary]`
-
-### Why it matters to you
-
-- **Job lens:** Three new applicable lanes opened in 48 hours: **AWS Bedrock Solutions Architect (Claude)**, **Vertex AI Customer Engineer (Claude)**, **Microsoft Foundry Partner Engineer (Claude)**. All three are hyperscaler-employer roles where the *product* you'd own is Anthropic-stack integration — i.e., Anthropic-stack skill investment cashes out **three different employers**. Add all three role categories to APPLICATIONS.md.
-- **Startup lens:** Day-zero tri-cloud GA means **vendor lock-in is no longer a defensible startup wedge** for anyone in the Claude integration layer — your customer can swap the cloud, not the model. Wedge accordingly: build on **portable abstractions** (MCP, Agent SDK), make **the cost router** the artifact ([`03` §1](./03-practical-skills-and-tools.md#1-meter-aware-starter)), and avoid any wedge whose moat is "we're easier on AWS than on Vertex."
-- **Insight:** This is **what a pre-IPO distribution posture looks like in practice**. Anthropic is showing the SEC: *we own no one channel, every hyperscaler ships us day-one, we are the model layer.* The implication for your skill investment: **the hyperscaler is becoming a logistics layer for the model lab, not the other way around.** This rhymes with iOS 27 Extensions ([`01` §4](./01-big-lab-moves.md#4-apple-extensions)) and with WebMCP ([2026-05-19](../2026-05-19/01-big-lab-moves.md)) — distribution is unbundling from the model.
-
-→ Cross-link: [`01` §3 Fable 5 model details](./01-big-lab-moves.md#3-fable-5) · [`05` §2 the three new hyperscaler-Claude roles](./05-career-and-startup.md#2-three-roles).
-
----
-
-## 2. Yesterday's two funding rounds — agent-identity and GPU-marketplace, both fundamental {#2-identity-and-compute}
+## 1. Yesterday's two funding rounds — agent-identity and GPU-marketplace, both fundamental {#1-identity-and-compute}
 
 **What happened:** Two **June 15** funding rounds, both pure infrastructure plays for the agentic economy, priced two distinct emerging categories on the same day.
 
@@ -56,7 +31,7 @@ Tags: `#emerging #funding #identity #gpu #infra #ipo #distribution #agents #cybe
 - **Lead:** Kindred Ventures. **NVIDIA strategic invest**, ARK Invest, SPLY Capital, Era Funds (Jasper Lau), Comcast Ventures, Magnetar, PEAK6 — plus follow-on from Founders Fund, 10x Founders, Sterling Road, Flume Ventures.
 - **HQ:** Boulder, Colorado.
 - **Product:** **GPU marketplace + Brokkr AI Factory OS** spanning **50+ data centers** across Americas / APAC / EMEA — pools idle/underutilized GPU capacity from independent operators into a single enterprise-grade procurement surface.
-- **Thesis:** the **"long-tail data center"** thesis — small/mid DCs around the world have under-monetized GPU capacity; Brokkr is the OS that lets enterprises buy from them as if they were a single hyperscaler region.
+- **Thesis:** the **"long-tail data center"** thesis — small/mid DCs around the world have under-monetized GPU capacity; Brokkr is the OS that lets enterprises buy from them as if they were a single hyperscaler region. **NVIDIA's strategic check is the headline** — NVIDIA is explicitly backing a marketplace that arbitrages against its own hyperscaler customer concentration.
 
 **Sources:**
 - [SiliconANGLE — GPU infrastructure management startup Hydra Host raises $100M](https://siliconangle.com/2026/06/15/gpu-infrastructure-management-startup-hydra-host-raises-100m/) `[secondary]`
@@ -67,21 +42,21 @@ Tags: `#emerging #funding #identity #gpu #infra #ipo #distribution #agents #cybe
 
 ### Why it matters to you
 
-- **Job lens:** Two thin, well-paid hiring lanes priced in one day. **NewCore** has a TC-aggressive Tel Aviv + remote-US hiring story (ex-IDF founders typically pay top of band to bridge the talent draw to a US-listed comp pool); **Hydra Host** needs **GPU systems engineers + AI factory deployment specialists** — Boulder + remote. Add both to APPLICATIONS.md as Reach Lane targets — and notice that **both rounds priced the day Apple iPhone 17 pre-orders open windowing approached + the metering deadline hit** — these are **not coincidences**; investors timed announcements to the macro attention.
+- **Job lens:** Two thin, well-paid hiring lanes priced in one day. **NewCore** has a TC-aggressive Tel Aviv + remote-US hiring story (ex-IDF founders typically pay top of band to bridge the talent draw to a US-listed comp pool); **Hydra Host** needs **GPU systems engineers + AI factory deployment specialists** — Boulder + remote. Add both to APPLICATIONS.md as Reach Lane targets — and notice **both rounds priced on the same day the metering deadline hit**, which is not coincidence: investors timed announcements to the macro attention.
 - **Startup lens:** NewCore + Hydra Host together **price both unfair-advantage layers of the agentic stack**: (1) **agent identity** (who is allowed to do what, with what credential), (2) **agent compute** (where the GPU comes from at what price). Any wedge that *abstracts* either layer for an enterprise customer is now positioned to be acquired by one of these companies. The most defensible founder bet is **the thin SaaS layer that uses BOTH** — i.e., a compliance-and-budget envelope that says *"these agents are allowed to spend $X on these GPUs per the NewCore policy."* That's a wedge.
 - **Insight:** Both rounds are seed/Series-A-shaped checks ($66M and $100M) at startup pre-revenue stage — meaning VCs are **pricing the picks-and-shovels at frontier-lab seed multiples**. Read this as **the IPO wave is already pulling capital "down" the stack**: anyone funding NewCore today is implicitly betting Anthropic/OpenAI list above $1T. **The picks-and-shovels economy will not look "early stage" again.** Plan your next 12 months accordingly.
 
-→ Cross-link: [`01` §1 metering as the demand catalyst for cost-routing + identity](./01-big-lab-moves.md#1-metering-day-1) · [`05` §4 the two lanes added to apply list](./05-career-and-startup.md#4-soc-and-gpu-lanes) · [WATCHLIST.md](../WATCHLIST.md) — new rows for both.
+→ Cross-link: [`01` §1 metering as the demand catalyst](./01-big-lab-moves.md#1-metering-day-2) · [`05` §4 the two lanes added to apply list](./05-career-and-startup.md#4-soc-and-gpu-lanes).
 
 ---
 
-## 3. The IPO wave as an asset-class shift, viewed from June 16 {#1-asset-class}
+## 2. The IPO wave as an asset-class shift — viewed from Day 8 of the SEC quiet window {#2-asset-class}
 
-**What happened:** As of June 16, **three frontier-AI-adjacent giants are S-1-confidential simultaneously**: SpaceX, OpenAI, Anthropic. Combined potential float **>$3T**.
+**What happened:** As of June 16, **three frontier-AI-adjacent giants are S-1-confidential simultaneously**: SpaceX, OpenAI, Anthropic. Combined potential float **>$3T**. Both lab S-1s are now in their SEC comment windows ([`01` §4](./01-big-lab-moves.md#4-quiet-window)), which means we're at the **start of the most consequential 6–8 weeks of frontier-AI public-market history.**
 
-- **Anthropic ($1.75–1.8T target, June 1)**, **OpenAI ($1T+ Sept window, June 8)**, **SpaceX (Starlink + xAI tenancy: the Investing.com "trillion-dollar IPO test"** read frames it as the broader public-market AI test).
+- **Anthropic ($1.75–1.8T target, June 1)**, **OpenAI ($1T+ Sept window, June 8)**, **SpaceX SPCX trading since June 12** (per [2026-06-13](../2026-06-13/00-tldr.md) coverage; "trillion-dollar IPO test" already framed by Investing.com).
 - **First time three +$1T-target AI-adjacent listings have been S-1-active simultaneously.**
-- **Implied: ~$3T+ of new AI-equity supply in 12 months**, much of it employee-owned, will mark to a public price and become tradeable.
+- **Implied:** ~$3T+ of new AI-equity supply in 12 months, much of it employee-owned, will mark to a public price and become tradeable.
 
 **Sources:**
 - [Investing.com — The Trillion-Dollar IPO Test: SpaceX and OpenAI Face Public Markets](https://www.investing.com/analysis/the-trilliondollar-ipo-test-spacex-and-openai-face-public-markets-200680688) `[analysis]`
@@ -92,7 +67,31 @@ Tags: `#emerging #funding #identity #gpu #infra #ipo #distribution #agents #cybe
 ### Why it matters to you
 
 - **Job lens:** Re-read the employer-stability calculation. **Pre-IPO joiner** = grants reset, lower base, larger upside but illiquid. **Post-IPO joiner** = competitive base, RSUs at a known price, less upside but more predictability. Three labs going public inside 12 months means **the post-IPO comp band becomes legible**. Don't accept an opaque equity figure during this window — if a recruiter mentions equity without specifying RSU vs option vs grant-vs-strike, **insist on the public-market reference price** as the discussion baseline.
-- **Startup lens:** Public market AI valuations set the *multiple* the next private round prices off. If Anthropic lists at $1.5T on ~$50–80B revenue, that prints a public multiple of ~20–25× revenue for frontier infra. **Every Series A you'd raise in the next 12 months prices off that comp.** This is the **best founder-friendly multiple environment since 2021** — but it's also the **most exposed-to-public-market-correction** environment in five years. Raise sooner-not-later; build operationally to survive a multiple compression.
+- **Startup lens:** Public-market AI valuations set the *multiple* the next private round prices off. If Anthropic lists at $1.5T on ~$50–80B revenue, that prints a public multiple of ~20–25× revenue for frontier infra. **Every Series A you'd raise in the next 12 months prices off that comp.** Raise sooner-not-later; build operationally to survive a multiple compression.
 - **Insight:** Read this as the moment the **AI sector becomes investable index exposure**. Three S-1s give the major index providers (S&P, Russell) enough float to add an **"AI sector"** allocation. Within 18 months you should expect AI-specific ETFs targeting these three names + adjacencies, which then re-rates the *whole* stack again. **Don't treat the AI cycle as cyclical anymore — treat it as a sector classification.** Plan personal portfolio, savings, and option exercise around that re-classification.
 
-→ Cross-link: [`01` §2 both labs' S-1 timing](./01-big-lab-moves.md#2-both-s1) · [`05` §1 FDE comp band in the public-market era](./05-career-and-startup.md#1-fde-tc).
+→ Cross-link: [2026-06-15/01 §2 SEC quiet-window framing](../2026-06-15/01-big-lab-moves.md#2-quiet-window) · [`05` §1 FDE comp band in the public-market era](./05-career-and-startup.md#1-fde-tc).
+
+---
+
+## 3. Distribution-layer event of the cycle — multi-hyperscaler is no longer a sovereign hedge {#3-distribution}
+
+**What happened:** Fable 5's tri-cloud day-one GA on **June 9** ([2026-06-11](../2026-06-11/01-big-lab-moves.md), [2026-06-13/01 §3](../2026-06-13/01-big-lab-moves.md)) and its retroactive suspension on **June 12** by US Commerce Department directive ([`01` §3](./01-big-lab-moves.md#3-fable-day5)) happened in the **same week** — meaning the export-control regime can now reach into a model **after** it has shipped to AWS Bedrock, Vertex AI, and Microsoft Foundry simultaneously.
+
+- **The implication for distribution strategy is severe:** "multi-hyperscaler day-one GA" is no longer a sufficient hedge against single-government action. **All three US hyperscalers respect the same US Commerce Department export-control directive simultaneously.**
+- **The next-generation hedge is multi-jurisdiction lab availability** — i.e., the EU and APAC lab roles become *more* strategic as a result of this event. Mistral, Sakana AI, Cohere (Canada), Black Forest Labs (Germany) all gain relative defensive weight.
+- **The Apple iOS 27 Extensions framework** (revealed at WWDC June 9 — see [2026-06-11/02 §1](../2026-06-11/02-new-emerging.md) and Tom's Guide coverage below) becomes a **fourth distribution vector** *if* the Extension's API access can be gated separately from the underlying model — an open question for the next 90 days.
+
+**Sources:**
+- [AI Weekly — Apple iOS 27 Extensions Opens Third-Party AI Marketplace at WWDC 2026](https://aiweekly.co/node/2611) `[aggregator]`
+- [Tom's Guide — Apple WWDC 2026 recap: Siri AI, iOS 27, Apple Intelligence](https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates) `[secondary]`
+- [Tom's Guide — WWDC 2026 was Apple's AI renaissance — but there's one feature still missing](https://www.tomsguide.com/phones/iphones/wwdc-2026-was-apples-ai-renaissance-but-theres-one-very-important-feature-still-missing-from-ios-27) `[analysis]`
+- [TheNextWeb — Why Apple built a third-party AI system for Siri and then refused to show it at WWDC](https://thenextweb.com/news/apple-siri-extensions-third-party-ai-missing-wwdc) `[analysis]`
+
+### Why it matters to you
+
+- **Job lens:** Three lanes opened or strengthened by the Fable 5 / Apple Extensions one-two punch: **(1) Apple Intelligence Extension integration engineer** at Anthropic/OpenAI/Google, **(2) EU sovereignty engineer** at Mistral / Cohere / Sakana AI (the "second-source frontier-model" story has just been validated), **(3) APAC lab partner engineer** at Sakana / Sarvam. Add all three to APPLICATIONS.md.
+- **Startup lens:** A *vertical* iOS Extension (Claude-for-Legal as solo-attorney Siri default, anchored to [2026-05-13/01](../2026-05-13/01-big-lab-moves.md)) becomes a wedge with a fully-priced distribution channel (Apple App Store marketplace, fall 2026). Constraint: **partner relationship with Anthropic + Apple developer entitlements** — both easier the earlier you start.
+- **Insight:** Read the **Tim Cook signal**. A CEO's final keynote is reserved for moves the CEO wants on their tape. Cook chose **opening Apple's AI distribution to competitors** — explicitly admitting Apple can't win the model layer alone. The takeaway: **the distribution layer (Apple, browser, OS) and the model layer (Anthropic/OpenAI/Google) just decoupled in public**. Distribution-side roles (Apple Intelligence Extension integration, Chrome WebMCP — [2026-05-19](../2026-05-19/01-big-lab-moves.md)) are now *durable*, not transitional.
+
+→ Cross-link: [`01` §3 Fable 5 standoff context](./01-big-lab-moves.md#3-fable-day5) · [`05` §3 iOS 27 Extension as portfolio shovel](./05-career-and-startup.md#3-portfolio).

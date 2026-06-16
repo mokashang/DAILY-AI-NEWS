@@ -1,6 +1,6 @@
 # Career & Startup — 2026-06-16
 
-This file is where the last 25 days of compounding signal converges into specific moves you make *this week*. The two anchors: (1) **FDE total compensation at frontier labs is now published in the $665K–$750K band**, the highest-paid IC ladder in tech and growing; (2) **three new hyperscaler-Claude roles opened in 48 hours** (AWS Bedrock SA / Vertex Customer Engineer / Foundry Partner Engineer) on the back of Fable 5's tri-cloud day-one GA. Your Anthropic-stack focusing decision now monetizes through **at least five distinct employer paths**, which is the rare position where ME.md's commitment is *increasing* in optionality, not narrowing it.
+This file is where the last 30 days of compounding signal converges into specific moves you make *this week*. The two anchors: (1) **FDE total compensation at frontier labs is now published in the $665K–$750K band**, the highest-paid IC ladder in tech and growing; (2) **three new hyperscaler-Claude roles** persist (AWS Bedrock SA / Vertex Customer Engineer / Foundry Partner Engineer) on the back of Fable 5's tri-cloud GA — *even with Fable 5 currently suspended*, these roles are absorbing Opus 4.8 + Sonnet 4.6 workloads and the hiring urgency is unchanged. Your Anthropic-stack focusing decision now monetizes through **at least five distinct employer paths**, which is the rare position where ME.md's commitment is *increasing* in optionality, not narrowing it.
 
 Tags: `#careers #fde #integration-engineer #anthropic #openai #hyperscalers #startups #wedges`
 

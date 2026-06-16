@@ -1,6 +1,6 @@
 # Practical Skills & Tools — 2026-06-16
 
-This file is the operational baseline for **the metered-Claude regime**. As of yesterday ([`01` §1](./01-big-lab-moves.md#1-metering-day-1)) every programmatic Claude workload is on a separate credit pool at full API list rates with no rollover, and the original Claude 4 model IDs are gone from the API. The first section is the **meter-aware starter kit** you should deploy *today*, not Friday. Then: the **OpenAI Codex-in-ChatGPT** integration that quietly shipped while everyone watched the Anthropic deadline (June 2). Then the practical reads of **iOS 27 Extensions** and **Fable 5** that translate into "what do I do tonight."
+This file is the operational baseline for **the metered-Claude regime, Day 2**. As of 00:01 PT yesterday ([`01` §1](./01-big-lab-moves.md#1-metering-day-2)) every programmatic Claude workload is on a separate credit pool at full API list rates with no rollover, and the original Claude 4 model IDs are gone from the API. With **Fable 5 + Mythos 5 still globally suspended** ([`01` §3](./01-big-lab-moves.md#3-fable-day5)), the **Opus 4.8 + Sonnet 4.6 fallback stack** is the only path to ship today — and **the June 22 cliff** lands in 6 days regardless of Fable 5's restoration. The first section is the **meter-aware starter kit** for the post-suspension, post-Day-1 reality. Then: the **OpenAI Codex-in-ChatGPT** integration that shipped while everyone watched the Anthropic side (June 2). Then **iOS 27 Extensions** as the weekend portfolio shovel.
 
 Tags: `#claude-code #cost #subagents #cache #codex #chatgpt #ios27 #fable-5 #orchestration`
 
@@ -30,9 +30,9 @@ From [2026-05-17/03](../2026-05-17/03-practical-skills-and-tools.md): set `cache
 
 ### 1.4 Deploy the Opus-orchestrator / Sonnet-worker split
 
-From [2026-05-22/03 §1](../2026-05-22/03-practical-skills-and-tools.md#1-agent-team-cost): **Opus runs the planner**, Sonnet workers run the executions. Empirically ~40% cheaper than all-Opus, with the plan→annotate→"address all notes, don't implement yet" reliability loop. Under the new metering economics this stops being "a clever trick" and becomes the *baseline pattern* — anyone running all-Opus through the SDK is overpaying by ~40% as of yesterday.
+From [2026-05-22/03 §1](../2026-05-22/03-practical-skills-and-tools.md#1-agent-team-cost) and re-priced for metering in [2026-06-15/03 §1](../2026-06-15/03-practical-skills-and-tools.md#1-metering-live): **Opus 4.8 runs the planner**, **Sonnet 4.6 workers** run the executions. Empirically **~50–65% cheaper** than all-Opus under the new metering economics, with the plan→annotate→"address all notes, don't implement yet" reliability loop. Anyone running all-Opus through the SDK is overpaying by that delta as of yesterday.
 
-Add Fable 5 to the orchestrator slot for any project that *needs* the gap-widens-on-long-tasks property ([`01` §3](./01-big-lab-moves.md#3-fable-5)); keep Opus 4.8 / Sonnet 4.7 for shorter-task projects where Fable 5's premium isn't justified.
+**Note:** with Fable 5 + Mythos 5 still suspended ([`01` §3](./01-big-lab-moves.md#3-fable-day5)), do NOT pin Fable 5 in the orchestrator slot — **Opus 4.8 is your highest tier today**. When Fable 5 returns (prediction-market median ~July 1), revisit; but remember the **June 23 bundled-pricing cliff** will then move Fable 5 to $10/$50 per 1M tokens, so the orchestrator-cost math gets re-priced *again*.
 
 ### 1.5 Add per-step cost trace as a first-class artifact
 

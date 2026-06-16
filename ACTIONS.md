@@ -4,11 +4,78 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-06-12**
+Last updated: **2026-06-16**
 
 ---
 
-## This week (June 8 – June 14) — post-WWDC + 96-hour stack
+## This week (June 16 – June 22) — Day 2 of metering · Fable 5 Day 5 dark · G7 Évian Day 2
+
+### Tuesday June 16 (today) — the 5-minute verify + the LinkedIn post
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Verify Agent SDK credit pool activated** (`claude api cost --since=24h` or account-settings panel); if `credit_pool_not_claimed` → [2026-06-14/03 §1](./2026-06-14/03-practical-skills-and-tools.md#1-jun15-setup) step 1 | Today, 5 min | [2026-06-16/00 One Thing](./2026-06-16/00-tldr.md) |
+| ⚪ | **Publish LinkedIn post: "What I changed June 15 — the 3 settings I flipped"** — date-stamps everything else this week; qualifies you for recruiter searches on "Claude metering" | Today | [2026-06-16/00 One Thing](./2026-06-16/00-tldr.md) · [2026-06-16/05 §5](./2026-06-16/05-career-and-startup.md#5-this-week) |
+| ⚪ | **Audit prod for `claude-sonnet-4-20250514` / `claude-opus-4-20250514` pinned IDs** — those retired yesterday; pinned prod silently broke | Today | [2026-06-16/03 §1.1](./2026-06-16/03-practical-skills-and-tools.md#1-meter-aware-starter) |
+| ⚪ | **Update LinkedIn skills to FDE JD vocabulary**: LangGraph, LangChain, CrewAI, DSPy, multi-step tool-use chains, evaluation frameworks at deployment scale | Today | [2026-06-16/05 §1](./2026-06-16/05-career-and-startup.md#1-fde-tc) |
+| ⚪ | **Verify your IDE plugin** (Zed / Cursor / Cline / Aider) has the Day-1 metering patch applied | Today | [2026-06-16/01 §1](./2026-06-16/01-big-lab-moves.md#1-metering-day-2) |
+
+### Wednesday June 17 — G7 working-lunch day + 3 hyperscaler apps + 1 Anthropic
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Track G7 Évian Wednesday working lunch readout** (3–4 hours after start) + watch for any post-summit communiqué AI section / bio-safety policy language | Wed afternoon | [2026-06-16/01 §2](./2026-06-16/01-big-lab-moves.md#2-g7-day2) |
+| ⚪ | **Apply: AWS Bedrock Solutions Architect — Claude** (same artifacts across all 3) | Wed | [2026-06-16/05 §2](./2026-06-16/05-career-and-startup.md#2-three-roles) |
+| ⚪ | **Apply: Google Vertex AI Customer Engineer — Claude** | Wed | [2026-06-16/05 §2](./2026-06-16/05-career-and-startup.md#2-three-roles) |
+| ⚪ | **Apply: Microsoft Foundry Partner Engineer — Claude** | Wed | [2026-06-16/05 §2](./2026-06-16/05-career-and-startup.md#2-three-roles) |
+| ⚪ | **Apply: 1 Anthropic Solutions / FDE / Integration role** — reference the meter-aware starter kit + "I shipped through the Fable 5 suspension on Opus 4.8 + Sonnet 4.6" explicitly | Wed | [2026-06-16/05 §1](./2026-06-16/05-career-and-startup.md#1-fde-tc) |
+| ⚪ | Deploy **Opus 4.8 orchestrator / Sonnet 4.6 worker** split on highest-volume project (~50–65% cheaper under metering) | Wed | [2026-06-16/03 §1.4](./2026-06-16/03-practical-skills-and-tools.md#1-meter-aware-starter) |
+| ⚪ | **Pre-stage 1-pager** mapping your wedge to "sovereign-AI deployment" language *before* the Wednesday communiqué lands | Wed | [2026-06-16/01 §2](./2026-06-16/01-big-lab-moves.md#2-g7-day2) |
+
+### Thursday June 18 — research reading day + post-G7 comms scan
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Scan post-G7 communiqué AI section + bio-safety / synthetic-DNA policy language** for "covered frontier model" or "release-review" terminology | Thu | [2026-06-16/01 §2](./2026-06-16/01-big-lab-moves.md#2-g7-day2) |
+| ⚪ | **Read "A Survey on Evaluation of LLM-based Agents" (arXiv 2503.16416)** end-to-end — trace-eval framing for FDE interviews | Thu | [2026-06-16/04 §1](./2026-06-16/04-research-progress.md#1-trace-eval) |
+| ⚪ | **Read the Agentic Reasoning survey + curated list** — 3-layer taxonomy (foundational/self-evolving/collective) | Thu | [2026-06-16/04 §2](./2026-06-16/04-research-progress.md#2-agentic-reasoning) |
+| ⚪ | Read AgentLAB (arXiv 2602.16901) for long-horizon-adversarial primitive | Thu | [2026-06-16/04 §1](./2026-06-16/04-research-progress.md#1-trace-eval) |
+
+### Friday June 19 — under-applied lanes day
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply: NewCore (agent-identity, Tel Aviv + remote US)** — Reach Lane | Fri | [2026-06-16/05 §4](./2026-06-16/05-career-and-startup.md#4-soc-and-gpu-lanes) |
+| ⚪ | **Apply: Hydra Host (GPU marketplace, Boulder + remote)** — Reach Lane | Fri | [2026-06-16/05 §4](./2026-06-16/05-career-and-startup.md#4-soc-and-gpu-lanes) |
+| ⚪ | Subscribe to **AI Funding Tracker daily digest** + add weekly review block | Fri | [2026-06-16/05 §4](./2026-06-16/05-career-and-startup.md#4-soc-and-gpu-lanes) |
+| ⚪ | **Ship `agent-trace-judge` GitHub repo** — small Sonnet/Flash-tier model that scores Opus-4.8 traces step-by-step | Fri | [2026-06-16/04 §1](./2026-06-16/04-research-progress.md#1-trace-eval) |
+
+### Saturday June 20 — the portfolio shovel weekend
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Build Claude-as-Siri-default iOS 27 Extension demo** (Siri intent → Apple Extension → Claude Agent SDK → mail draft preview, w/ per-step cost trace; use Opus 4.8 + Sonnet 4.6) | Sat | [2026-06-16/03 §3](./2026-06-16/03-practical-skills-and-tools.md#3-ios-extension-weekend) · [2026-06-16/05 §3](./2026-06-16/05-career-and-startup.md#3-portfolio) |
+| ⚪ | Record 15–30 sec screen capture; push repo to GitHub | Sat | [2026-06-16/05 §3](./2026-06-16/05-career-and-startup.md#3-portfolio) |
+
+### Sunday June 21 — distribution day + June 22 cliff prep
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Post iOS Extension write-up** (LinkedIn + Hacker News + X) — title: *"I shipped a Claude Extension for iOS 27 the week of WWDC — here's the playbook"* | Sun | [2026-06-16/05 §3](./2026-06-16/05-career-and-startup.md#3-portfolio) |
+| ⚪ | **Warm-DM 3 vertical-SaaS founders** with the Extension demo: *"I built the technical shell; would you co-found the vertical?"* | Sun | [2026-06-16/05 §3](./2026-06-16/05-career-and-startup.md#3-portfolio) |
+| ⚪ | **Pre-stage cost forecast for June 22 cliff** — when Fable 5 returns (~July 1 per prediction markets), it leaves bundled plans on Jun 23 at $10/$50 per MTok; budget accordingly | Sun | [2026-06-15/03 §2](./2026-06-15/03-practical-skills-and-tools.md#2-jun22-cliff) · [2026-06-16/01 §3](./2026-06-16/01-big-lab-moves.md#3-fable-day5) |
+| ⚪ | Weekly review: write `WEEK-2026-06-15.md` rollup | Sun | [weeks/](./weeks/) |
+
+### Live this week (multi-day threads)
+
+| Status | Thread | Why now | Source |
+|---|---|---|---|
+| ⚪ | Watch Fable 5 restoration status; reminder set on **July 1** to publish 2-week multi-vendor router writeup | Prediction-market inflection | [2026-06-16/01 §3](./2026-06-16/01-big-lab-moves.md#3-fable-day5) |
+| ⚪ | Track post-G7 hiring keyword expansion: "frontier model release governance," "AI safety evaluation," "synthetic biology safety," "sovereign-AI integration" | 30-day window post-summit | [2026-06-16/01 §2](./2026-06-16/01-big-lab-moves.md#2-g7-day2) |
+
+---
+
+## This week (June 8 – June 14) — post-WWDC + 96-hour stack (ARCHIVED below for reference)
 
 ### Tuesday June 9 — morning after WWDC + AWS MCP GA
 

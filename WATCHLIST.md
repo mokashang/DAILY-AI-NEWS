@@ -4,7 +4,33 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-06-17**
+
+---
+
+## 26-day catch-up summary (2026-05-22 → 2026-06-17)
+
+Big moves the gap window resolved or opened. Detail rows updated below; **🟢 / 🆕 / 🔴** markers added.
+
+- 🟢 **CLOSED — Trump AI EO:** signed June 2 as **EO 14365 "Promoting Advanced AI Innovation and Security"** — voluntary, **30 days (not 90)**, AI cybersecurity clearinghouse (Treasury), AG enforcement of existing statutes against AI-cybercrime. Framework finalized by **Aug 1, 2026**.
+- 🟢 **CLOSED — OpenAI confidential S-1 / IPO path:** filed **June 8**; Anthropic moved **first on June 1** at **~$965B** post the **$65B Series H**, revenue **$10B → $47B** in 12 months. SpaceX roadshow June 4.
+- 🟢 **CLOSED — Karpathy → Anthropic:** validated — autoresearch loop 80K+ stars and spreading; pre-training group spinning up; Shopify-style usage documented by Simon Willison.
+- 🟢 **CLOSED — Anthropic Agent SDK metering:** **LIVE June 15** (T-0). Cost-router becomes a survival skill.
+- 🆕 **NEW — Claude Fable 5 / Mythos 5 launch + global suspension:** launched June 9 (95% SWE-bench Verified, 80.3% SWE-bench Pro, 11 pt margin, $10/$50, Mythos-class above Opus, GA Bedrock+Vertex+Foundry day 1); suspended by US export-control directive **June 12, 5:21 PM ET** — globally disabled because Anthropic cannot real-time-filter foreign nationals from US users. Opus 4.8 / Sonnet 4.6 / Haiku 4.5 unaffected. Anthropic argues capability widely available from other models including GPT-5.5.
+- 🆕 **NEW — Self-hosted sandboxes + MCP tunnels public beta:** orchestration on Anthropic, tool execution on your infra (own / Cloudflare / Daytona / Modal / Vercel). The production-grade enterprise primitive.
+- 🆕 **NEW — Ramp June AI Index:** Anthropic **41%** (up from 34.4% in May), OpenAI **flat** at ~32%. Anthropic is now the most-adopted AI model in US enterprise.
+- 🆕 **NEW — GPT-5.6 launch window:** imminent. Chief scientist: "meaningful leap." OpenAI now ships ~every 7 weeks.
+- 🆕 **NEW — MCP at production scale:** 9,652 servers · 28,959 versions · 15,926 GitHub repos · 41% of orgs in production. Spec 2026-07-28 RC adds stateless core, Apps (server-rendered UIs), Tasks, OAuth/OIDC.
+- 🆕 **NEW — Pre-deployment-eval career lane LIVE:** on 30-day clock per EO 14365. Window opens July; peak hiring July–September.
+- 🆕 **NEW — FDE market 10×/18mo:** $130–300K base / $400–500K TC senior. Big-4 consulting collectively largest FDE employer set; Anthropic + OpenAI + Databricks + YC cohort fastest-growing.
+- 🆕 **NEW — Hark $700M Series A at ~$6B post:** one of the largest A's on record. Mintlify $45M B; Runware $50M A.
+- 🆕 **NEW — Claude Opus 4.8 (May 28):** 1M context default, 128K out, Dynamic Workflows (parallel subagents), $5/$25, Fast mode $10/$50 — 2.5× faster, 3× cheaper than prior Opus Fast. **69.2% SWE-Bench Pro · 83.4% OSWorld-Verified · 96.7% USAMO 2026.**
+
+→ Full edition: [2026-06-17/](./2026-06-17/).
+
+---
+
+(Legacy state below, prior to 2026-06-17 — preserved for thread continuity.)
 
 ---
 

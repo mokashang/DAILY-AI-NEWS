@@ -4,7 +4,16 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-06-16**
+Last updated: **2026-06-17**
+
+> **WEDNESDAY DELTAS (2026-06-17 — Day-3 metering · Fable 5 Day 6 dark · G7 Évian Day 3 / working lunch today):**
+> - ➡️ **G7 Évian Day 3 — working lunch TODAY.** Altman / Amodei / Hassabis at the head-of-state table; 19-strong wider AI delegation (Mistral / Cohere / BFL / Sarvam / Synthesia / Sakana / Meta-Wang / Salesforce). Watch the post-lunch readout + Wednesday-evening communiqué AI section for export-control / sovereignty / synthetic-DNA language. See [2026-06-17/00 §1](./2026-06-17/00-tldr.md).
+> - ➡️ **Fable 5 / Mythos 5 export-control suspension:** Day 6. No change in restoration probability (~85% by July 1, ~5% by June 20). **June 22 cliff still lands regardless** (T-5 days). Opus 4.8 / Sonnet 4.6 / Haiku 4.5 unaffected. See [2026-06-17/01 §1](./2026-06-17/01-big-lab-moves.md#1-fable-suspension).
+> - ➡️ **Agent SDK metering Day 3:** first **public credit-pool depletion** reports surfacing; cost-router pattern is now load-bearing. See [2026-06-17/03 §2](./2026-06-17/03-practical-skills-and-tools.md#2-cost-router).
+> - 🆕 **Ramp June AI Index landed: Anthropic 41% · OpenAI flat (~32%).** Anthropic is now the most-adopted AI model in US enterprise, quadrupled in 12 months while OpenAI grew 0.3% — and this is being measured with Fable 5 *dark*, i.e. an Opus-4.8-only number. See [2026-06-17/05 §1](./2026-06-17/05-career-and-startup.md#1-ramp-validates).
+> - 🆕 **Self-hosted sandboxes + MCP tunnels public beta:** orchestration on Anthropic + tool execution on your infra (own host / Cloudflare / Daytona / Modal / Vercel); MCP tunnels in research preview. The production-grade enterprise primitive that makes the Fable 5 governance crisis solvable. See [2026-06-17/03 §1](./2026-06-17/03-practical-skills-and-tools.md#1-self-hosted-sandboxes).
+> - 🆕 **MCP ecosystem at production scale:** 9,652 servers · 28,959 versions · 15,926 GitHub repos · 41% of orgs in production. Spec 2026-07-28 RC ships stateless core + Apps + Tasks + OAuth/OIDC. See [2026-06-17/02 §1](./2026-06-17/02-new-emerging.md#1-mcp-ecosystem).
+> - 🆕 **arXiv 2604.08224 — Externalization in LLM Agents:** the 4-layer taxonomy (memory · skills · protocols · harness) — new interview-talking-point scaffold. Pair with 2604.27859 (Rethinking Agentic RL) + Astra-Bench. See [2026-06-17/04 §1](./2026-06-17/04-research-progress.md#1-externalization-survey).
 
 > **TUESDAY DELTAS (2026-06-16 — Day-2 metering · Fable 5 Day 5 dark · G7 Évian Day 2):**
 > - ➡️ **Anthropic Agent SDK metering (LIVE since 00:01 PT June 15):** Day 2. **~10–20% silent-failure rate** in first 24h from skipped credit-pool toggle (dev community reports). **Zed/Cursor/Cline/Aider patches rolling out** to read new credit-pool balance + route around exhaustion. Original Claude 4 (`-20250514`) silently 404'd at same UTC midnight. **Effective price ~12×–175×** by workload class per canonical reference. See [2026-06-16/01 §1](./2026-06-16/01-big-lab-moves.md#1-metering-day-2).

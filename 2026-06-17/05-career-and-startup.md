@@ -1,6 +1,6 @@
 # Career & Startup — 2026-06-17
 
-The 26-day arc resolved three of the four open career signals from [2026-05-22](../2026-05-22/05-career-and-startup.md), and opened one new one. **Anthropic-stack focus = validated by Ramp June (41% vs 32% OpenAI); the EO clearinghouse turned the pre-deployment-eval lane from "delayed" to "live, 30-day clock"; FDE market is up 10× in 18 months with the salary band wider than the May data showed.** Plus one *new* risk: the Fable 5 suspension means any startup whose core demo relied on a specific frontier model just had a global outage drilled into them in real time.
+Wednesday read on the career arc: three structural signals stacked. **Anthropic-stack focus = validated by Ramp June (41% vs ~32% OpenAI); the EO 14365 clearinghouse turned the pre-deployment-eval lane from "delayed" to "live, 30-day clock"; FDE market is up 10× in 18 months with the salary band wider than the May data showed** (the 2026-06-16 edition pegged the L4–L5 lab band at **$665K–$750K TC**). Plus one risk now drilled in real time: the Fable 5 suspension means any startup whose core demo relied on a specific frontier model just experienced a global outage live.
 
 Tags: `#careers #jobs #fde #ai-engineer #integration-engineer #anthropic #ramp #ipo #compensation #startups #wedges #eo14365`
 

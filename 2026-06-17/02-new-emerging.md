@@ -1,6 +1,6 @@
 # New & Emerging — 2026-06-17
 
-The 26-day catch-up frame: while the labs filed S-1s and the state signed an EO, **the *application layer* hit production scale.** MCP is no longer "promising standard" — it's measurable infrastructure (9,652 servers, 41% of orgs in production). Series A's at "AI-pure" startups are now sub-percentage of total funding, but the **bar is much higher** ($51.9M average Series A; 9-figure rounds normal). And **GPT-5.6 is imminent**, with its head-to-head against Fable 5 about to set the Q3 model picker for everyone.
+Wednesday read: while the labs sit in SEC quiet windows ([01 §2](./01-big-lab-moves.md#2-double-s1)) and Fable 5 sits dark, **the *application layer* hit production scale.** MCP is no longer "promising standard" — it's measurable infrastructure (9,652 servers, 41% of orgs in production). Series A's at "AI-pure" startups are now a small share of total funding, but the **bar is much higher** ($51.9M average Series A; 9-figure rounds normal). And **GPT-5.6 is imminent**, with its head-to-head against Fable 5 about to set the Q3 model picker for everyone — except Fable 5 is currently the model nobody can run.
 
 Tags: `#mcp #ecosystem #standards #funding #seed #series-a #series-b #gpt-56 #openai #anthropic #agents #infra`
 

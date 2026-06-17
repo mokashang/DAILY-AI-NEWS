@@ -1,6 +1,6 @@
 # Research Progress — 2026-06-17
 
-The frontier-research thread in the 26-day gap was *consolidation*: a major survey ("Externalization in LLM Agents") synthesizes the agent-tooling literature into one taxonomy; an "agentic RL" position paper reframes RLHF for agent loops; and the MCP-registry numbers (now in the four-digits) give the real-tool benchmark thread ([2026-05-22/04 §1](../2026-05-22/04-research-progress.md#1-real-tool-benchmarks)) the *production-scale denominator* it lacked. Read these together: **the research community is moving from "build the next benchmark" to "name the four parts of the agent and measure each."**
+The frontier-research thread of June: *consolidation*. A major survey ("Externalization in LLM Agents") synthesizes the agent-tooling literature into one taxonomy; an "agentic RL" position paper reframes RLHF for agent loops; and the MCP-registry numbers (now in the four-digits) give the real-tool benchmark thread ([2026-05-22/04 §1](../2026-05-22/04-research-progress.md#1-real-tool-benchmarks)) the *production-scale denominator* it lacked. Read these together: **the research community is moving from "build the next benchmark" to "name the four parts of the agent and measure each."**
 
 Tags: `#arxiv #benchmarks #agents #memory #harness #mcp #rl #protocols #ecosystem`
 

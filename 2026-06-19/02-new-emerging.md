@@ -1,78 +1,95 @@
 # New & Emerging — 2026-06-19
 
-Two threads matter most among "what's forming" right now. (1) **The frontier labs are going regional.** Anthropic announced Seoul (June 17) and Bengaluru offices in the same week; OpenAI's DeployCo + Tomoro integration is publicly operational. The map of where AI-application jobs *actually exist* just expanded outside SF/NYC. (2) **Claude Code crossed ~$1B ARR** — a single product line at that revenue scale this fast is the loudest "vertical-AI-coding tool wins" signal we've seen, and it's why every Claude-Code update is now a material business event, not just a developer-tools tweak. Underneath both: **compute is hardening into a top-of-the-economy line item** (Microsoft $190B 2026 capex; Amazon Trainium $20B ARR), which is the substrate the IPO valuations rest on.
+The week's "what's forming" stories converge on two threads. (1) **Anthropic Seoul Day 2** — yesterday's office-opening + MOU has already turned into a measurable enterprise-commitments cadence; NAVER's Claude Code rollout to its full engineering org is the loudest single APAC signal of the year. (2) **Agent SDK metering Day 5 — the bill shapes settle** — first-week realized-cost reports now in, with 12×–175× variance per workload class driven by whether subagents-spawn-subagents was throttled. Both threads are *operational continuations* of stories the archive has tracked since [2026-05-19](../2026-05-19/) (Seoul) and [2026-05-16](../2026-05-16/) (metering); today is the day they show up in *numbers*.
 
-Tags: `#emerging #anthropic #global #integration #claude-code #arr #compute #funding #deployco`
+Tags: `#emerging #anthropic #apac #seoul #metering #cost #integration #funding`
 
 ---
 
-## 1. Anthropic goes regional — Seoul (June 17) + Bengaluru announced + TCS/DXC partnerships {#1-anthropic-global}
+## 1. Anthropic Seoul Day 2 — enterprise commitments stack into a numeric picture {#1-seoul-day2}
 
-**What's emerging:** In a single mid-June stretch, Anthropic announced:
+**Continuation from [2026-06-18/01 §1](../2026-06-18/01-big-lab-moves.md#1-seoul).** The June 17 office-opening + MOU with the Korean Ministry of Science and ICT translated into a concrete commitments stack inside 48 hours:
 
-- **Seoul office (June 17)** with named partnerships across the Korean AI ecosystem (semiconductor, enterprise, public-sector).
-- **Bengaluru / first India office** to open in 2026 (per Reuters).
-- **TCS and DXC integration partnerships** — Claude embedded into the systems-integrator stack that delivers AI to **banks, airlines, and regulated industries** (the same buyer profile that produced Claude for Legal in May).
-- **Claude Partner Network: Services Track + Partner Hub launched** — formal program for consultancy + integrator partners (the structural counterpart to the Anthropic-PwC alliance from [2026-05-15](../2026-05-15/)).
+| Customer | Commitment | Scale |
+|---|---|---|
+| **NAVER** | Claude Code rollout to full engineering org | ~thousands of engineers |
+| **Samsung SDS** | Bedrock-in-region deployment | Enterprise IT integrator scale |
+| **LG CNS** | Bedrock-in-region deployment | Enterprise IT integrator scale |
+| **Nexon** | Claude across game-dev workflows | Major Korean publisher |
+| **Hanwha** | Private deployment | Conglomerate |
+| **Channel Corp** | Claude distribution to 230K Korean SMBs | SMB channel |
+| **NAIRL research access** | ~60 researchers across KAIST, Korea U, Yonsei, POSTECH | Academic / future-hires |
 
-Read together, this is the moment Anthropic stops being a "frontier lab" and starts being a **global enterprise-software company.** The geographic move is the more interesting half: APAC enterprise IT spending is *historically* under-served by frontier-AI tooling, and the labs that anchor there first own the next decade.
+Read this as the **APAC playbook** template that will likely run again in Tokyo, Singapore, and Bengaluru: (a) office + government MOU → (b) consortium of national champions deploys in same news cycle → (c) academic-research access deal → (d) SMB-channel partnership for distribution scale.
 
 **Sources:**
-- [Anthropic News — Anthropic opens Seoul office and Korean ecosystem partnerships](https://www.anthropic.com/news) `[primary]`
-- [Seeking Alpha — Anthropic to open first India office in 2026 as AI battle heats up (Reuters)](https://seekingalpha.com/news/4502538-anthropic-to-open-first-india-office-in-2026-as-ai-battle-heats-up-reuters) `[secondary]`
-- [AI Weekly — Anthropic AI News tracker (TCS, DXC partnerships, Services Track, Partner Hub)](https://aiweekly.co/ai-news-today/anthropic-news) `[aggregator]`
+- [Anthropic News — Seoul office + Korean ecosystem partnerships](https://www.anthropic.com/news) `[primary]`
+- [AI Weekly — Anthropic Seoul: NAVER, Samsung SDS, LG CNS, Nexon, Hanwha, Channel Corp commitments](https://aiweekly.co/ai-news-today/anthropic-news) `[aggregator]`
 - [Blog.mean.ceo — Anthropic Claude News: June 2026 (STARTUP EDITION)](https://blog.mean.ceo/anthropic-claude-news-june-2026/) `[analysis]`
 
 ### Why it matters to you
 
-- **Job lens:** Regional offices = **regional Integration / Solutions / FDE postings**, and those queues are *much thinner* than SF. If you have language fit for Korean, Japanese, Hindi, or relevant ASEAN markets, apply *now* — pre-headcount-flood. The TCS + DXC partnership track is the other thin queue: it's a structurally global hiring channel (systems integrators put people on client sites worldwide). Add **"Anthropic Partner Network – Services Track"** to your watch-list of role types — that's the formal channel to be an Integration Engineer *via* a consultancy partner if direct-Anthropic hiring is closed.
-- **Startup lens:** Two openings. (a) **Localization wedge** — every Anthropic launch in a new region creates demand for "Claude-for-X in $LOCAL_LANGUAGE / $LOCAL_REGULATION." Korean financial services and Indian banking are the two highest-LTV first targets. (b) **The integrator-partner template** — TCS/DXC are pre-existing relationships with thousands of enterprises; if you can build the *tooling layer* that integrators use to deliver Claude implementations, you have a 5-10× distribution multiplier vs going direct to enterprise. Read TCS's press-release language carefully for what tools they say they need.
-- **Insight:** Globalization of frontier labs is the **counterweight** to the export-control regime ([`01` §1](./01-big-lab-moves.md#1-fable-export-control)). The labs are de-risking US-policy concentration by establishing regional revenue and regional engineering. **Geographic optionality is now a strategic asset at the lab level** — and likely will become one at the *founder* level too. If you've been assuming "US-first" for your own startup plan, re-examine that this month.
+- **Job lens:** Set a saved search this weekend on **Anthropic Seoul Solutions Engineer / Field Engineer / Integration Engineer / Customer Engineering** *and* the same titles at NAVER, Samsung SDS, LG CNS, and Channel Corp. The customer-side roles will outnumber the Anthropic-side roles 10:1, and they're filtered by language + region — meaning the SF FDE applicant pool doesn't compete in this queue.
+- **Startup lens:** The **Channel Corp / 230K-SMBs distribution channel** is the most interesting line item in the table. It implies Anthropic is building a *productized small-business motion* in Korea using a partner's reach — similar to the [Claude for Small Business launch on 2026-05-16/01](../2026-05-16/01-big-lab-moves.md). If you have a *Claude-Code-for-SMB-in-X* wedge, study how Channel Corp is going to surface Claude inside its CRM as your distribution template.
+- **Insight:** The APAC enterprise stack is **moving in pre-formed clusters** (chaebol + integrator + research uni + SMB channel) instead of one customer at a time. Anthropic's playbook is replacing US-style direct sales with **regional-keiretsu deals**, and that's a sustainable competitive advantage if it works. Bet on more of these clusters in H2 2026, not fewer.
 
-→ Cross-link: [`05` §1 the passport-aware job-search strategy](./05-career-and-startup.md#1-passport-strategy) · [2026-05-15/01 — Anthropic + PwC 30K-trained alliance](../2026-05-15/01-big-lab-moves.md).
-
----
-
-## 2. Claude Code crosses ~$1B ARR · ~300K firms on Anthropic tools {#2-claude-code-arr}
-
-**What's emerging:** Reported June 2026: **Claude Code has reached nearly $1B in annualized revenue** since its earlier-this-year launch; **more than 300,000 firms** now use Claude tools (per the broader Anthropic platform telemetry). For context: that's product-led-growth at a rate that historically takes 3-5 years compressed into <12 months, on a *developer-facing* tool that competes with free OSS alternatives.
-
-This is the **commercial backbone** that the Anthropic IPO talk (Oct-2026 listing per [2026-05-22/01 §2](../2026-05-22/01-big-lab-moves.md#2-openai-s1)) rests on. It's also why the Claude Code June feature drop ([`03` §1](./03-practical-skills-and-tools.md#1-claude-code-june-drop)) is being shipped at this cadence — at ~$1B ARR, every released feature is a multi-million-dollar retention question.
-
-**Sources:**
-- [AI Weekly — More than 300,000 firms use Claude tools, Claude Code reached nearly $1B ARR](https://aiweekly.co/ai-news-today/anthropic-news) `[aggregator]`
-- [Releasebot — Claude Code Updates by Anthropic, June 2026](https://releasebot.io/updates/anthropic/claude-code) `[aggregator]`
-- [Anthropic News — Claude Partner Network Services Track + Partner Hub](https://www.anthropic.com/news) `[primary]`
-
-### Why it matters to you
-
-- **Job lens:** "Claude Code skills" stopped being a soft signal and became a hard credential. **Anthropic Solutions / Integration / FDE roles will explicitly screen for production Claude-Code workflow skills** — not "I tried it on a side project." Your portfolio needs to *show* an agent team you've shipped, a cost trace, and a `CLAUDE.md` you actually maintain. Move "build/maintain real Claude-Code agent setup" up your weekend-artifact list above all other portfolio work.
-- **Startup lens:** The single most valuable category of startup right now is **"the thing that sits on top of Claude Code for $WORKFLOW."** $1B ARR with that velocity means the *user base* is hungry for higher-altitude tools (templates, governance, cost dashboards, multi-tenant workflow library). Browse Claude Code's GitHub issues + Discord for the loudest "I wish there was…" requests — they're your wedge candidates.
-- **Insight:** The most underestimated business pattern of 2026 is **"a dev-tool that becomes the *deployment runtime*."** Claude Code started as a CLI; it's now the surface where Anthropic ships Artifacts, Workload Identity Federation, scheduled agents, and managed-agent semantics ([`03`](./03-practical-skills-and-tools.md)). The CLI is becoming the *agent OS*. Bet your skill investment on understanding that runtime end-to-end.
-
-→ Cross-link: [`03` §1 the June feature drop](./03-practical-skills-and-tools.md#1-claude-code-june-drop) · [2026-05-22/03 §1 the orchestration cost lever](../2026-05-22/03-practical-skills-and-tools.md#1-agent-team-cost).
+→ Cross-link: [`05` §1 the APAC lane fits the passport-aware strategy](./05-career-and-startup.md#1-week-summary) · [2026-06-18/01 §1 the original Seoul announcement](../2026-06-18/01-big-lab-moves.md#1-seoul).
 
 ---
 
-## 3. OpenAI DeployCo + Tomoro: now operational; Anthropic's MCP-Okta hook lands {#3-deployco-update}
+## 2. Agent SDK metering Day 5 — first-week realized cost shapes {#2-metering-day5}
 
-**What's emerging (closing two threads, opening a third):**
+**What's settled (this week's bill shape):**
 
-- **OpenAI Deployment Company (DeployCo)** — the $4B consulting subsidiary announced on [2026-05-19/05 §2](../2026-05-19/05-career-and-startup.md#2-openai-deployment-co) — is now **operationally live**. **150 Tomoro engineers** have been integrated; partner consortium of 19 firms (TPG, Bain Capital, Brookfield, others). The single biggest concentrated FDE/Integration hiring entity of 2026.
-- **Anthropic enterprise-managed MCP connectors (with Okta as the first IdP)** went live for Team/Enterprise plans — **centralized authorization across Claude chat, Claude Code, and Cowork.** This is the enterprise-IT-buyer's gating story made real (audit + Okta = procurement unblocked).
-- **Amazon Trainium business surpasses $20B annual run-rate** with **multi-year commitments from OpenAI, Anthropic, Meta, and Uber**; >100% YoY growth. The third-rail compute story that competes with NVIDIA / TPU narratives.
-- **Microsoft expected 2026 capex ~$190B** (~$25B of which is AI memory/storage component price inflation).
+The metering split went live at **00:01 PT, June 15** ([2026-06-15/01](../2026-06-15/01-big-lab-moves.md)). First-week realized-cost reports (from Cursor, Cline, Aider, Zed user surveys and the Claude Code Discord) have now converged:
+
+- **12×–175× effective price increases** per workload class compared to the pre-metering subscription cost.
+- The variance is **almost entirely explained by whether subagents-spawn-subagents was throttled.** Teams that capped recursion at depth 3 saw the low end of the range. Teams running the 5-level max with parallel workers saw the high end.
+- The **~10–20% silent-failure rate** from skipped credit-pool toggles (the issue tracked on [2026-06-16/00](../2026-06-16/00-tldr.md)) appears to have been resolved by vendor-side patches.
+- **Original Claude 4 (`-20250514`) silently 404s** — the deprecation prediction held.
+
+**The recipe that worked (synthesized from reports):**
+
+1. Cap subagent recursion at **depth 3** (not the 5-level max).
+2. Configure `fallbackModel` chain: Opus 4.8 → Sonnet 4.6 → Haiku 4.5.
+3. Route plan/verify steps to Opus; route worker steps to Sonnet; route always-on guards to Haiku.
+4. Add a *non-Anthropic leg* (GPT-5.5 or Gemini 3.5 Flash) for cost spikes and as a robustness leg in case of another Fable-5-shaped event.
 
 **Sources:**
-- [Reuters / Crunchbase — OpenAI Deployment Co. operational with Tomoro engineers integrated](https://news.crunchbase.com/venture/biggest-funding-rounds-ai-autonomy-biotech-anthropic/) `[secondary]`
-- [Anthropic — Enterprise-managed MCP connectors with Okta (centralized auth)](https://www.anthropic.com/news) `[primary]`
-- [AI Weekly — Amazon Trainium $20B ARR with multi-year OpenAI/Anthropic/Meta/Uber commitments](https://aiweekly.co/ai-news-today/anthropic-news) `[aggregator]`
-- [CNBC — Microsoft 2026 capex expectations](https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html) `[secondary]`
+- [2026-06-15/01 — metering went live](../2026-06-15/01-big-lab-moves.md) `[primary, archive]`
+- [2026-06-16/00 — credit-pool silent-failure rate Day 2](../2026-06-16/00-tldr.md) `[primary, archive]`
+- [2026-06-17/00 — 12×–175× cost variance Day 3](../2026-06-17/00-tldr.md) `[primary, archive]`
+- [Claude Code Docs — fallbackModel configuration](https://code.claude.com/docs/en/whats-new) `[primary]`
+- [Anthropic Status / Discord — first-week metering reports (community-collected)](https://status.anthropic.com) `[aggregator]`
 
 ### Why it matters to you
 
-- **Job lens:** DeployCo is hiring the FDE pattern at industrial scale. Your two-thirds-already-applied list (OpenAI FDE + Anthropic Solutions) should grow a third leg: **the 19 consortium firms** — TPG portfolio companies, Bain Capital portfolio companies, Brookfield infra arms — that are now formal OpenAI deployment partners. Their JD pages are where the *new* posting volume will come from. Add a saved search.
-- **Startup lens:** **Okta-as-the-first-IdP-for-managed-MCP** is the highest-signal enterprise-IT design choice of June. It means MCP is being treated as a **first-class enterprise auth surface**, not a developer toy. The startup wedge: **everything around enterprise MCP** — server marketplaces (governed), tool-access policy as code, MCP audit/observability. Two of the three SaaS layers that exist around Okta have analogs that don't yet exist around MCP. That's the gap.
-- **Insight:** Compute, talent, and identity are the three substrate stories of June. Trainium at $20B ARR proves the silicon market is **bifurcating away from monolithic NVIDIA dependence**; DeployCo proves the FDE *talent layer* is consolidating; Okta+MCP proves the *identity* layer is being claimed. Every fundable startup of H2 2026 will be answering: which of these substrates do I sit on, and which do I extend?
+- **Job lens:** The single most credible thing you can post on LinkedIn this weekend: **"What I changed in my Claude stack between June 15 and June 19"** with a before/after cost table. That's the FDE / Solutions Engineer screening line, validated against a now-public real cost event. Post Sunday evening so it's in the recruiter-feed Monday morning *with* the GPT-5.6-launch and Fable-5 status news.
+- **Startup lens:** Metering created a **demand surface for cost-control tooling that didn't fully exist 7 days ago**. The most fundable wedges crystallizing this week: (a) **token-budget enforcement at the agent level** — a "Datadog for agent spend" that alerts when a depth-3 cap was raised without approval; (b) **the multi-vendor routing layer** — same shape, productized, with real eval-driven routing decisions; (c) **the per-task cost predictor** — *before* you run an agent, estimate its bill within 20%. All three were "maybe interesting" on June 14; this week they're a buyer story.
+- **Insight:** The shape of the bill — **variance driven by *configuration*, not workload** — is the most underrated insight of the week. It means the **engineering skill of cost-aware agent design** is being priced *now*, in real dollars, on every team running Claude Code. Your portfolio cost-trace artifact is the cheapest credibility signal you can ship in H2 2026.
 
-→ Cross-link: [`05` §4 DeployCo + partner-network applications track](./05-career-and-startup.md#4-applications-this-week) · [2026-05-19/05 §2 the original DeployCo announcement](../2026-05-19/05-career-and-startup.md#2-openai-deployment-co).
+→ Cross-link: [`03` §1 the multi-vendor router shim](./03-practical-skills-and-tools.md#1-router-shim) · [2026-05-22/03 §1 the original cost-routing playbook](../2026-05-22/03-practical-skills-and-tools.md#1-agent-team-cost).
+
+---
+
+## 3. Funding-round watch (this week's notable AI rounds) {#3-funding-watch}
+
+A compact week-in-funding rollup (full Sunday rollup will land in [`weeks/`](../weeks/)):
+
+- **NewCore $66M out of stealth at $300M post** (Cyberstarts / Index / Evolution; Tel Aviv; ex-IDF Unit 8200 founders) — workforce identity for human + machine + AI agents w/ split-key + phishing-resistant MFA at platform layer. The **identity-for-agents wedge** is now funded. (Carries from [2026-06-16/02 §1](../2026-06-16/02-new-emerging.md).)
+- **Hydra Host $100M** (Kindred lead; **NVIDIA strategic investor**; ARK/Founders Fund/Comcast/PEAK6/Magnetar) — Brokkr AI Factory OS across 50+ DCs; "long-tail data center" marketplace. (Carries from [2026-06-16/02 §1](../2026-06-16/02-new-emerging.md).)
+- **Pi Security $35M / Poetic $50M Series A / Trustap $10M** — agentic-security compounds; the Series A bar is now "**proprietary multi-agent routing engine + security gate**" (carries from [2026-06-14/02](../2026-06-14/02-new-emerging.md)).
+- **Prometheus $12B Series B at $41B** (Bezos + Bajaj) for an "artificial general engineer" + **NEURA Robotics $1.4B Series C** (Tether / Qualcomm / Amazon / NVIDIA) — **physical AI is a fully funded category** (carries from [2026-06-12/02](../2026-06-12/02-new-emerging.md)).
+
+**Sources:**
+- Carried from the dated archive editions above; consolidated funding tracker in [`STARTUPS.md`](../STARTUPS.md).
+- [Crunchbase News — Week's biggest funding rounds (AI, autonomy, biotech)](https://news.crunchbase.com/venture/biggest-funding-rounds-ai-autonomy-biotech-anthropic/) `[secondary]`
+- [AI Funding Tracker — Top 50 AI Funded Startups (June 2026)](https://aifundingtracker.com/top-50-ai-startups/) `[aggregator]`
+
+### Why it matters to you
+
+- **Job lens:** Three thin, well-paid lanes get re-confirmed this week: **agent identity (NewCore), agentic security (Pi/Poetic/Trustap), physical AI (Prometheus/NEURA)**. None are crowded. Apply *into* the recently-funded company's first hiring wave — typically the 30–60 days after a round close.
+- **Startup lens:** All three lanes are stack-control plays (own a substrate, point agents at it). Re-score your wedges against the [2026-05-22/02 §2](../2026-05-22/02-new-emerging.md#2-exaforce) "real-time data substrate" filter and the [2026-06-16/02](../2026-06-16/02-new-emerging.md) "long-tail data center" filter.
+- **Insight:** The cluster shape — **identity + security + physical** all funded in the same fortnight — is consistent with the macro frame: **as agents touch more real systems, the substrate layers (who owns what, what's allowed, where it executes) become the durable winners.** That's where capital is going. Be on a substrate layer, build for one, or join a team that already won one.
+
+→ Cross-link: [`STARTUPS.md`](../STARTUPS.md) (running wedge scoring) · [`05` §3 the weekend artifact](./05-career-and-startup.md#3-weekend-sprint).

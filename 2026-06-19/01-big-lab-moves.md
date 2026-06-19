@@ -1,96 +1,112 @@
 # Big Lab Moves — 2026-06-19
 
-The headline frame for June: **the state finally landed punches the labs cannot ignore.** Two of them this month. (1) On **June 2**, Trump signed the AI executive order that this archive watched get postponed on [2026-05-22](../2026-05-22/01-big-lab-moves.md#1-eo-postponed) — voluntary 30-day pre-release access for "covered frontier models," framework live by Aug 1. (2) On **June 12**, the Commerce Department issued an **export-control directive** that forced Anthropic to **disable Fable 5 and Mythos 5 for every foreign national worldwide**, including its own foreign-national employees. The model came back on **June 18** after senior-staff negotiations. First time in history a publicly-deployed frontier model was switched off by a federal directive. Meanwhile the market continued its own discipline: **OpenAI publicly disclosed its S-1 on June 8**, validating the IPO trajectory we were watching on May 22.
+Friday closes the week with three threads still hot. (1) **Fable 5 / Mythos 5 remain dark — Day 8.** Prediction-market odds of restoration softened this week, and even if the models come back, the **June 22 pricing cliff lands regardless**. (2) **GPT-5.6 launch window opens** — OpenAI's chief scientist called it a "meaningful improvement"; Deployment Simulation (shipped Tuesday) is the launch-day safety harness; testing of GPT-5.6-Pro confirmed mid-week. Consensus: launch next week. (3) **The G7 Évian communiqué (signed Tuesday June 17)** is now public; the AI section is the international scaffolding under which the next 12 months of frontier-lab releases will happen.
 
-Tags: `#labs #policy #regulation #export-control #anthropic #openai #ipo #public-markets #national-security`
-
----
-
-## 1. The Fable 5 / Mythos 5 export-control shutdown — and restoration {#1-fable-export-control}
-
-**What happened:**
-
-- **June 12, 5:21 PM ET:** Anthropic received an **export-control directive from the US Department of Commerce** citing national-security authorities. The order required Anthropic to **suspend all access to Fable 5 and Mythos 5 by any foreign national, anywhere in the world** — including foreign-national Anthropic employees — *immediately*.
-- Anthropic disabled both models for all customers globally to comply. All other Claude models remained available.
-- The stated trigger (per follow-on reporting and Trump AI-advisor David Sacks's public statements): the government believed Fable 5 had been **jailbroken** via a multi-agent coordinated attack that extracted weapons-synthesis pathways. Anthropic's public position: it considered the jailbreak "not serious" and was working to restore access.
-- **June 18:** **Fable 5 came back online** after senior-staff-level talks between Anthropic and the White House; both sides agreed on remediation steps that satisfied Commerce. ~6-day window of total global suspension.
-
-**Why this is the story:**
-
-- **First-ever federal forced disablement of a deployed frontier model.** Not a recall, not a launch hold — a *live* model taken offline by directive. Whether you agree with the rationale or not, the **precedent** is the news: the government has now demonstrated it *can* do this, and how fast.
-- **The mechanism is export control, not safety regulation.** That's a critical detail — export-control law (administered by Commerce/BIS) has a much lower judicial-review bar than safety rule-making, and it bites *people* (foreign nationals) not just *products*. The "covered models" question from the EO ([§2](#2-trump-eo-signed)) and the foreign-national-access question from this episode are converging into a single regime.
-
-**Sources:**
-- [Anthropic on X (statement) — US export-control directive to suspend access to Fable 5 and Mythos 5](https://x.com/AnthropicAI/status/2065597531644743999) `[primary]`
-- [Simon Willison's Weblog — Statement on the US government directive to suspend access to Fable 5 and Mythos 5](https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/) `[analysis]`
-- [CNBC — Anthropic disables access to Fable 5 and Mythos 5 to comply with government directive](https://www.cnbc.com/2026/06/12/anthropic-disables-access-to-fable-5-and-mythos-5-to-comply-with-government-directive.html) `[secondary]`
-- [Fortune — Anthropic disables Fable and Mythos AI models following U.S. government export ban](https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/) `[secondary]`
-- [TechCrunch — The US government's Anthropic models ban was never about an AI jailbreak](https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/) `[secondary]`
-- [Tom's Hardware — Trump adviser David Sacks says Anthropic "refused" to fix Fable 5 jailbreak before US implemented export controls](https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-adviser-david-sacks-says-anthropic-refused-to-fix-fable-5-jailbreak-before-us-export-controls) `[secondary]`
-- [Cybersecurity Dive — Cybersecurity experts blast US government for restricting Anthropic's AI models](https://www.cybersecuritydive.com/news/anthropic-us-government-export-ban-mythos-fable/822909/) `[secondary]`
-
-### Why it matters to you
-
-- **Job lens:** This is the single most consequential development for **international students applying to frontier labs in 2026.** Export-control regimes operate at the *individual access* layer — they don't care that you're a great engineer; they ask "what passport." If you're a foreign national, expect every frontier-lab job description to now grow a *clearance-language clause* in the next 60 days. **Two practical moves**: (1) re-read the postings you've bookmarked and watch for new "US person required" language; (2) re-weight your apply list toward **AI-application companies, regulated-industry deployment teams (banks, healthcare, gov contractors), and vertical-Claude integrators** — those use frontier weights *through APIs*, not at the trained-model layer, so the export-control bite is much smaller. See [`05` §1](./05-career-and-startup.md#1-passport-strategy) for the full passport-strategy playbook.
-- **Startup lens:** Two opposite wedges open. (a) **Compliance-tech for labs:** the "prove who touched these weights when" stack — identity gating, audit logs, per-user gating of restricted model variants. The cleanest founder profile here is *ex-export-control attorney + senior infra engineer*; harder to fake than a generic AI tooling startup. (b) **The geographic wedge:** Anthropic's Seoul + Bengaluru announcements ([`02` §1](./02-new-emerging.md#1-anthropic-global)) and any Mistral / DeepSeek / Qwen-3-on-prem story you see in Q3 are going to look more attractive to ex-US enterprises *specifically because* the US export-control posture is now this aggressive. Pricing power follows.
-- **Insight:** The cyber-rationale half of the EO ([§2](#2-trump-eo-signed)) and the export-control regime are the **same policy lever from two ends.** The EO gives the government voluntary pre-release access; export controls give it post-release shutoff. Together they're a coherent "lift-and-shutoff" architecture. The *durable* read is that **US frontier AI now operates under a national-security regime, not a commerce regime** — and that means stability of access, the equity story, and the recruiting story are *all* now sensitive to a single non-market actor (the executive branch). Don't ignore this when modeling employer risk for the next 24 months.
-
-→ Cross-link: [`05` §1 passport-aware job-search strategy](./05-career-and-startup.md#1-passport-strategy) · [2026-05-22/01 §1 the postponed EO](../2026-05-22/01-big-lab-moves.md#1-eo-postponed).
+Tags: `#labs #anthropic #openai #fable5 #gpt-5-6 #g7 #policy #cliff #public-markets`
 
 ---
 
-## 2. Trump AI executive order — SIGNED (June 2) {#2-trump-eo-signed}
+## 1. Fable 5 / Mythos 5 — Day 8 dark; restoration odds soften; June 22 cliff still lands {#1-fable-day8}
 
-**What happened:** On **June 2, 2026**, President Trump signed *Promoting Advanced Artificial Intelligence Innovation and Security* — the executive order that this archive last saw **postponed** on [2026-05-22](../2026-05-22/01-big-lab-moves.md#1-eo-postponed). The signed text closely resembles the negotiated draft, with one major change for the labs.
+**Status:** Anthropic's Fable 5 and Mythos 5 remain **globally suspended for the 8th consecutive day** (since the Commerce Department export-control directive of June 12). Anthropic's public statement continues to characterize the directive as "a misunderstanding"; the company says it is "working to restore access as soon as possible." No restoration as of this writing.
 
-**Key features of the signed order:**
+**Prediction-market read (this week's movement):**
 
-- **Voluntary 30-day pre-release window** (not the originally drafted 90 days — the labs won that fight). Developers of "covered frontier models" can opt in to give the federal government early access for up to 30 days before broader release to "trusted partners."
-- **Classified "covered model" threshold.** NSA, CISA, and NIST will jointly build a **classified benchmark** that determines whether a model qualifies as "covered" — i.e., whether the 30-day review applies. Whether your model is in scope is itself classified.
-- **Explicit rejection of mandatory licensing.** Legal text says the policy should not be interpreted as authorizing compulsory licensing, preclearance, or permitting.
-- **Trusted-partners selection.** Once a developer opts in, the same agencies sit in the room to help choose which "trusted partners" get model access before public release.
-- **Implementation deadline:** Federal agencies must publish the voluntary framework by **August 1, 2026.**
-- **Cybersecurity half preserved:** Treasury-led clearinghouse for finding/fixing vulnerabilities in unreleased models survives intact — the [2026-05-22 prediction](../2026-05-22/01-big-lab-moves.md#1-eo-postponed) that "the cyber half is the most likely to survive" held.
+- **Polymarket — "Claude Fable 5 restored for US customers by July 1": ~75%** (down from ~85% earlier in the week).
+- **Polymarket — restoration by June 20 (tomorrow): ~5%.**
+- **Gate / Lines aggregator confirms** ~75% July-1 implied odds; multiple secondary venues cluster around the same number.
+
+**The piece most people are missing — the June 22 cliff lands regardless.** Per the access-pricing schedule that took effect when Fable 5 launched, the **free-on-subscription window for Fable 5 ends June 22**. From June 23, Fable 5 is **$10 input / $50 output per 1M tokens** — even for users whose prior Pro/Max subscription used to cover it. So:
+
+- If Fable 5 returns *before* June 22: brief free window, then cliff.
+- If Fable 5 returns *between* June 23 and July 1: returns *directly to the $10/$50 tier*.
+- If Fable 5 doesn't return by July 1: prediction markets settle, restoration narrative gets re-rated, but the $10/$50 tier remains the published price on Anthropic's docs.
 
 **Sources:**
-- [White House — Executive Order: Promoting Advanced Artificial Intelligence Innovation and Security](https://www.aoshearman.com/en/insights/trump-administration-issues-executive-order-on-ai-and-cybersecurity) `[primary]`
-- [Latham & Watkins — President Trump Signs Executive Order Establishing AI Cybersecurity and Frontier Model Framework](https://www.lw.com/en/insights/president-trump-signs-executive-order-establishing-ai-cybersecurity-and-frontier-model-framework) `[primary]`
-- [Tom's Hardware — Trump signs AI executive order seeking 30-day government access to frontier models before release](https://www.tomshardware.com/tech-industry/artificial-intelligence/trump-signs-ai-executive-order-seeking-30-day-government-access-to-frontier-models-before-release) `[secondary]`
-- [The Register — Trump AI executive order sets 30-day frontier model review](https://www.theregister.com/ai-and-ml/2026/06/02/trump-ai-executive-order-sets-30-day-frontier-model-review/5250322) `[secondary]`
-- [Scientific American — Trump's new AI executive order drastically shifts the administration's stance on the tech](https://www.scientificamerican.com/article/trumps-new-ai-executive-order-drastically-shifts-the-administrations-stance-on-the-tech/) `[secondary]`
-- [TechTimes — Trump AI Order Creates Voluntary 30-Day Review Window for Frontier Models](https://www.techtimes.com/articles/317844/20260606/trump-ai-order-creates-voluntary-30-day-review-window-frontier-models.htm) `[secondary]`
-- [Let's Data Science — Trump's June 2026 AI Executive Order: 30-Day Frontier Model Access, Explained](https://letsdatascience.com/blog/trump-ai-executive-order-30-day-frontier-model-access) `[analysis]`
+- [Polymarket — Claude Fable 5 restored for US customers by …? (live odds)](https://polymarket.com/event/claude-fable-5-restored-for-us-customers-by-20260613193753196) `[aggregator]`
+- [Lines — Will Claude Fable 5 be restored for US customers by July 1?](https://www.lines.com/prediction-markets/tech/claude-fable-5-restored-for-us-customers-by-20260613193753196) `[aggregator]`
+- [Gate News — Claude Fable 5 faces export restrictions; Polymarket predicts ~75% chance of restoration in July](https://www.gate.com/news/detail/claude-fable-5-faces-export-controls-polymarket-predicts-a-75-chance-of-a-21855671) `[secondary]`
+- [Anthropic on X — statement on the US export-control directive](https://x.com/AnthropicAI/status/2065597531644743999) `[primary]`
+- [Developers Digest — Is Claude Fable 5 Down? Why It Is Unavailable (June 2026)](https://www.developersdigest.tech/blog/claude-fable-5-down) `[analysis]`
+- [Totalum — Claude Fable 5 Suspended in 2026: A Builder's Incident Response Guide](https://www.totalum.app/blog/claude-fable-5-suspended-2026) `[analysis]`
 
 ### Why it matters to you
 
-- **Job lens:** The pre-deployment-evaluation / AI-assurance hiring lane I called "delayed, not dead" on [2026-05-22/05 §2](../2026-05-22/05-career-and-startup.md#2-reprice) is **now real**. By Aug 1, every frontier lab (and a meaningful set of consultancies + bank model-risk teams) will be standing up the function the EO describes. The vocabulary to put in your LinkedIn this weekend: *"pre-deployment evaluation," "model-release governance," "AI assurance," "frontier-model review."* These are the exact terms that will get embedded in JD search filters in Q3 — be in the index when those filters run.
-- **Startup lens:** The most fundable single sentence in the EO is **"classified benchmark."** The government will need a *non-government* way to build, run, and update this benchmark; that means **third-party eval providers** (à la Scale, Judgment Labs, Apollo Research) just had their TAM step-changed. The wedge to study: an *open* eval harness that aligns conceptually with the classified threshold — labs and enterprises will want to run a *similar-shape* eval internally so they can predict whether their next checkpoint will be "covered." Start sketching what that looks like; the harness from [2026-05-22/04 §1](../2026-05-22/04-research-progress.md#1-real-tool-benchmarks) is the substrate.
-- **Insight:** The Aug-1 deadline is your real calendar marker. The labs will spend July hiring, writing internal pre-release-eval guides, and signing MOUs with the trusted-partners pool. *You* should use July to make yourself searchable on the EO's vocabulary and ship one artifact framed in it. Be hired *into* the function in August, not "trying to break in" by October.
+- **Job lens:** The Monday-morning narrative will almost certainly include a Fable-5 status update + GPT-5.6 launch + first-second-week-of-metering bill. **The thing you can prove this weekend is that your stack is *robust to all three* — Opus 4.8 + Sonnet 4.6 + Haiku 4.5 as primary, with GPT-5.5 and Gemini 3.5 Flash legs in the router.** That's the FDE interview answer in one diagram. See [`03` §1](./03-practical-skills-and-tools.md#1-router-shim).
+- **Startup lens:** The 8-day suspension is now a *named, dated case study* you can put into a pre-deployment-eval startup pitch. "Here's a real frontier-model outage of regulatory origin that lasted 8 days; here is the *enterprise revenue at risk*; here is what our harness would have done." That sentence has not been pitchable until June 12 happened.
+- **Insight:** Softening restoration odds = the market is starting to model **"this is not a one-week event."** The cleanest read is that the underlying jailbreak-fix is harder than initial Anthropic statements implied, *and/or* the Commerce/BIS side wants a written commitment that takes longer than a phone call to negotiate. Plan your June through mid-July around "Fable 5 effectively dark; Opus 4.8 carries the load."
 
-→ Cross-link: [`05` §2 the pre-deployment-eval lane goes from predicted → real](./05-career-and-startup.md#2-eo-lane-real) · [2026-05-22/01 §1 the postponed EO](../2026-05-22/01-big-lab-moves.md#1-eo-postponed).
+→ Cross-link: [`03` §1 the multi-vendor router shim](./03-practical-skills-and-tools.md#1-router-shim) · [2026-06-14/01 (Saturday) — the original shutdown writeup](../2026-06-14/01-big-lab-moves.md) · [2026-06-15/03 (Sunday) — the 3-line cost rule for the post-metering era](../2026-06-15/03-practical-skills-and-tools.md).
 
 ---
 
-## 3. OpenAI publicly discloses S-1 (June 8) — Anthropic reportedly filed a week earlier {#3-openai-s1-public}
+## 2. GPT-5.6 launch window opens — consensus "next week" {#2-gpt56-imminent}
 
-**What happened:** On **June 8**, OpenAI publicly disclosed that it had **submitted a confidential draft registration statement (Form S-1) to the SEC** — the confidential filing this archive flagged on [2026-05-22/01 §2](../2026-05-22/01-big-lab-moves.md#2-openai-s1). The underwriters confirmed: **Goldman Sachs, Morgan Stanley, JPMorgan.** Anthropic is reported to have filed its own S-1 *the week prior*.
+**What happened (this week):**
 
-- **Target:** public listing as early as **September 2026**, valuation expected to **exceed $1 trillion** — though OpenAI explicitly said no decision on timing yet and that "things are easier as a private company."
-- **Financials (now partially public via coverage of the filing):** **~$25B annualized revenue**, but OpenAI **lost ~$1.22 for every $1.00 earned in Q1 2026**, with a **full-year 2026 loss forecast around $14B** and **inference costs alone ~$14.1B.**
-- **Roadshow:** financials remain private until ~15 days before the roadshow.
+- **June 10–11:** OpenAI chief scientist Jakub Pachocki publicly called GPT-5.6 a **"meaningful improvement"** over GPT-5.5 (consistency: previous "meaningful leap" wording in chief-scientist statements precedes GA by 1–3 weeks).
+- **June 16:** OpenAI shipped **Deployment Simulation** ([2026-06-18/01 §2](../2026-06-18/01-big-lab-moves.md#2-deployment-sim)) — replay 1.3M de-identified ChatGPT conversations against a candidate model before release. This is **launch-day safety infrastructure**; GPT-5.6 is what it was built for.
+- **June 17–18:** Testing-Catalog and Crypto Briefing both confirmed **GPT-5.6-Pro variant testing** (longer processing times for harder reasoning tasks).
+- **June 18:** Geeky Gadgets, Tech Times, and Andrew.ooo all reported the **launch as "as early as next week"** (i.e., week of June 22).
+- **Polymarket:** ~83% probability of GPT-5.6 GA by **June 30**.
+
+**Likely release shape (from leaks + the GPT-5.5 release playbook):**
+
+- **GPT-5.6**, **GPT-5.6 Mini**, **GPT-5.6 Pro** family.
+- **Bidirectional voice ("GPT-Bidi-1")** as a parallel announcement — speak-and-listen simultaneously.
+- Improvements in **reasoning + agentic workflows** (Pachocki's framing).
+- **GitHub Copilot integration same-day** (per the Gemini 3.5 Flash playbook in [2026-05-20/01](../2026-05-20/01-big-lab-moves.md)).
+
+**Benchmarks to watch Monday AM PT:**
+
+| Benchmark | GPT-5.5 reference (per 2026-06-17) | What to look for |
+|---|---|---|
+| **SWE-bench Verified** | Fable 5 set the 95.0% bar (now dark) | Does GPT-5.6 take the dark-Fable lead? |
+| **Terminal-Bench 2.0** | GPT-5.5 = 82.7% | Pro variant could push ~85%+ |
+| **FrontierMath T4** | GPT-5.5 = 35.4% | The bridge from "model" to "math tool" |
+| **Deep-research evals** | (DeepResearch Bench / AutoResearchBench, [`04`](./04-research-progress.md)) | Direct relevance to agent workflows; AutoResearchBench at 9.39% is the headroom |
 
 **Sources:**
-- [OpenAI — Confidential submission of draft S-1 to the SEC (official)](https://openai.com/index/openai-submits-confidential-s-1/) `[primary]`
-- [Memeburn — OpenAI Files for IPO — Most Anticipated Market Debut of 2026](https://memeburn.com/openai-files-for-ipo-and-its-already-the-most-anticipated-market-debut-of-2026/) `[secondary]`
-- [TradingKey — Key Information You Need to Know About the OpenAI IPO](https://www.tradingkey.com/analysis/stocks/us-stocks/261965855-openai-ipo-openai-chatgpt-mu-tradingkey) `[analysis]`
-- [TechJournal — OpenAI IPO 2026: Can You Buy the Stock Yet?](https://techjournal.org/openai-ipo-confidential-filing-2026) `[analysis]`
-- [Tech-Insider — OpenAI Files for IPO: $850B Tag, $25B Revenue (2026)](https://tech-insider.org/openai-ipo-850-billion-valuation-2026/) `[analysis]`
-- [Polymarket — OpenAI IPO by …? (live odds)](https://polymarket.com/event/openai-ipo-by) `[aggregator]`
+- [Geeky Gadgets — What to Expect from OpenAI's GPT-5.6 Release in June 2026](https://www.geeky-gadgets.com/gpt-5-6-june-2026-release/) `[secondary]`
+- [Crypto Briefing — OpenAI prepares for GPT-5.6 model release, testing Pro variant with longer processing times](https://cryptobriefing.com/openai-gpt-5-6-pro-release/) `[secondary]`
+- [Testing-Catalog — OpenAI prepares GPT-5.6 models for the upcoming release](https://www.testingcatalog.com/openai-prepares-gpt-5-6-models-for-the-upcoming-release/) `[secondary]`
+- [Tech Times — GPT-5.6: OpenAI Chief Scientist Calls It a Meaningful Leap, June Launch Nears](https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm) `[secondary]`
+- [andrew.ooo — What Is GPT-5.6? OpenAI's June 2026 Release Explained](https://andrew.ooo/answers/what-is-gpt-5-6-release-june-2026/) `[analysis]`
+- [Perplexity AI Magazine — GPT-5.6 Release Date 2026 OpenAI: Leaks, Codenames, What to Expect](https://perplexityaimagazine.com/ai-news/gpt-56-release-date-features-leaks-openai-2026/) `[analysis]`
 
 ### Why it matters to you
 
-- **Job lens:** Read the *loss ratio*, not the headline valuation. **$1.22 lost per dollar earned** = OpenAI's hiring is going to get **more revenue-disciplined**, not less, post-IPO. That means **FDE / Solutions / Deployment / Enterprise** (revenue-attributable roles) will keep hiring aggressively; pure-research seats and "moonshot" non-revenue orgs will get harder to land. Apply *into* the revenue side. Note this validates the DeployCo + Tomoro move from [2026-05-19/05 §2](../2026-05-19/05-career-and-startup.md#2-openai-deployment-co) (now operationally executing — see [`02` §3](./02-new-emerging.md#3-deployco-update)).
-- **Startup lens:** If both OpenAI and Anthropic IPO inside the next 6 months, **secondary liquidity opens** for everyone holding pre-IPO frontier-lab equity. That's *founder fuel* — the alumni-founder pattern from [2026-05-22/02 §1](../2026-05-22/02-new-emerging.md#1-ipo-wave) becomes a real, datable wave. If you've been DM-ing Meta/Anthropic/OpenAI engineers, **Q4 2026 is the window** for cofounder conversations with people whose RSUs just printed. Start logging "first IPO unlock" target dates in your contact tracker.
-- **Insight:** A trillion-dollar public OpenAI is the **first time the equity markets get to price frontier-AI economics directly.** The day-one-to-first-earnings arc is the macro event of 2026 H2 — every founder pitch deck, every comp negotiation, every "is this lab safe to bet on" decision will be benchmarked against the OpenAI stock chart through Q1 2027. Track the **revenue mix in the public S-1** as soon as it lands; that's the org-chart-by-revenue map I promised you on [2026-05-22/01 §2](../2026-05-22/01-big-lab-moves.md#2-openai-s1).
+- **Job lens:** "Published a refreshed Gemini-vs-Claude-vs-GPT comparison within 48 hours of GPT-5.6 GA" is one of the highest-velocity portfolio signals you can ship in 2026 H2 (the [2026-05-19/03 §1](../2026-05-19/03-practical-skills-and-tools.md#1-io-live-discipline) pattern repeats). Pre-stage the comparison-table doc this weekend so you can update + publish within 4 hours of launch news.
+- **Startup lens:** A GPT-5.6 GA on Monday + Fable 5 still dark = a **structural distribution opening for OpenAI** during the week of the cost cliff. If you're building on Claude, your cost story flips overnight; if you're building on OpenAI, you get a free wave of new attention. *Pre-write* the version of your one-line value-prop that fits each scenario.
+- **Insight:** The release cadence of GPT-5.5 → 5.6 inside 6 weeks is the **commercial expression of OpenAI's S-1 narrative** — public-prep discipline shows up as predictable, dated, monetization-attached releases. Watch every OpenAI launch through this lens until the IPO prices.
 
-→ Cross-link: [`02` §3 DeployCo / Tomoro integration update](./02-new-emerging.md#3-deployco-update) · [2026-05-22/01 §2 the confidential S-1 was just signal; this is the disclosure](../2026-05-22/01-big-lab-moves.md#2-openai-s1).
+→ Cross-link: [`03` §2 pre-stage the comparison table this weekend](./03-practical-skills-and-tools.md#2-pre-stage-comparison) · [2026-06-18/01 §2 Deployment Simulation as launch infra](../2026-06-18/01-big-lab-moves.md#2-deployment-sim).
+
+---
+
+## 3. G7 Évian AI communiqué (signed June 17) — what made it in {#3-g7-communique}
+
+**What happened:** The G7 Évian summit closed Tuesday June 17. The leaders' communiqué's AI section is the **first major international AI-governance update since the Hiroshima Process (2023)** and the first to acknowledge the Fable 5 export-control event in dated, post-hoc language.
+
+**Key points:**
+
+- **Re-affirmation of the Hiroshima Process** as the international scaffolding for AI governance among G7 members.
+- **Formal endorsement of voluntary frontier-model deployment codes** — concrete enough to align with the Trump EO's voluntary 30-day pre-release framework ([2026-06-02 signing](../2026-06-14/01-big-lab-moves.md)) and the UK / EU AI Act preparatory work.
+- **Two named priority risks:** **child safety** and **synthetic-DNA / biosecurity**. The latter was the **unified industry ask** from the working lunch (per the AI Governance Lead readout) — Altman + Amodei + Hassabis + the 16 other CEOs jointly asked Congress for synthetic-DNA-screening legislation.
+- **Notable omissions:** binding export-control language was *dodged* (the US side's preference); the communiqué leaves the export-control question to national authorities. Sovereign-AI funding language was watered down from earlier drafts.
+
+**Sources:**
+- [European Council — G7 summit, Évian, France, 15-17 June 2026](https://www.consilium.europa.eu/en/meetings/international-summit/2026/06/15-17/) `[primary]`
+- [Elysée — 2026 G7 Summit of Évian](https://www.elysee.fr/en/G7evian) `[primary]`
+- [Federal Department of Foreign Affairs (CH) — G7 summit in Évian](https://www.eda.admin.ch/en/g7-summit-in-evian) `[primary]`
+- [AI Governance Lead — AI Governance in Action: What the 2026 G7 Évian Meeting Really Delivered](https://aigovernancelead.substack.com/p/ai-governance-in-action-g7-evian-ai-ceos-potus) `[analysis]`
+- [G7 Research Group (U Toronto) — The Road to France's 2026 G7 Evian Summit](https://g7.utoronto.ca/summit/2026evian/road.html) `[analysis]`
+- [World Reporter — G7 Summit 2026 in Évian, France: AI Regulation, Critical Minerals, and Global Economic Reform on the Agenda](https://worldreporter.com/g7-summit-2026-evian-france-ai-critical-minerals-global-economy/) `[secondary]`
+
+### Why it matters to you
+
+- **Job lens:** The communiqué's **"voluntary deployment codes"** language is essentially the international counterpart to the Trump EO's pre-deployment review. This means the **pre-deployment-eval career lane is now G7-blessed**, not just US-domestic. That further extends the lane geographically — UK, France, Germany, Japan, Canada model-assurance functions are all about to align with this language. Add **"voluntary frontier-model deployment codes"** to the LinkedIn keywords list from [2026-06-17/05](../2026-06-17/05-career-and-startup.md).
+- **Startup lens:** The **synthetic-DNA / biosecurity** call-out is a *narrow but funded* wedge — biosecurity-AI eval tooling (red-team for bio-uplift risks specifically) just got a multi-government endorsement that includes a procurement implication (US/UK national-security stacks). If you have biology + AI background, this is a thin lane to apply or start in.
+- **Insight:** The G7 communiqué being *narrower* than expected (no binding export rules, no infra-financing windfall) is actually a useful signal: **frontier governance is going to keep moving via voluntary codes + national-level enforcement, not treaty.** That means the "national-security regimes don't reverse" thesis from [2026-06-14/01](../2026-06-14/01-big-lab-moves.md) holds — plan around the US export-control posture being permanent, with G7 partners following a similar voluntary-code shape but using their own national tools.
+
+→ Cross-link: [`05` §1 the lane vocabulary refresh](./05-career-and-startup.md#1-week-summary) · [2026-06-17/01 §2 G7 working-lunch preview](../2026-06-17/01-big-lab-moves.md#2-g7-day2).

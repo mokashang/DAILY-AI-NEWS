@@ -1,6 +1,6 @@
 # LATEST — pointer to the most recent edition
 
-> **2026-06-21** — see [`2026-06-21/00-tldr.md`](./2026-06-21/00-tldr.md)
+> **2026-06-23** — see [`2026-06-23/00-tldr.md`](./2026-06-23/00-tldr.md)
 
 This file is auto-updated every edition so a one-click read of the latest TL;DR is always at the repo root.
 
@@ -8,18 +8,18 @@ This file is auto-updated every edition so a one-click read of the latest TL;DR 
 
 ## Today's headline
 
-**Sunday — the talent map snapped back, the protocol surface hardened, and the policy cliff turned into an empty room.** **Noam Shazeer left Google for OpenAI as "Lead for Architecture Research" (June 18)** — co-author of *"Attention Is All You Need"* and Gemini co-lead; combined with Karpathy → Anthropic pre-training, the two largest talent flips of 2026 now point in opposite directions. **MCP `2026-07-28` Release Candidate dropped Thursday** — **Tasks** primitive, **MCP Apps**, stateless core, **OAuth 2.1 Resource Server** hardening; the `@modelcontextprotocol/sdk` npm package now does **35.5M weekly downloads — more than `openai` + `@anthropic-ai/sdk` combined.** MCP is the integration layer. **Fable 5 + Mythos 5 access restored June 18** after a ~6-day US-export-control suspension; in the same week, **Fable 5 took #1 on DeepSWE (70% pass@1)** and **Artificial Analysis re-weighted its Intelligence Index to 34% agents with Opus 4.8 on top (65.7)**. The Anthropic stack came out of a federal speed-bump measurably stronger.
+**Tuesday — the June 22 Anthropic cliff lands; OpenAI plants a Daybreak flag the same week.** **Anthropic Fable 5 leaves Pro / Max / Team / seat-Enterprise plan limits today** as scheduled since [2026-06-15](./2026-06-15/01-big-lab-moves.md) — bills at API list rates ($10/M in · $50/M out, **2× Opus 4.8**). **Sonnet 4.6 + Opus 4.8 + Haiku 4.5 unchanged** — the broader Agent SDK metering rollout remains *paused* per [2026-06-21 watchlist](./2026-06-21/00-tldr.md); today's change is Fable-5-specific. (Fable 5 + Mythos 5 access was already restored [June 18](./2026-06-21/01-big-lab-moves.md#2-fable-restored).) **OpenAI Daybreak expanded Mon June 22** — four pieces shipped together: **GPT-5.5-Cyber GA**, **Codex Security plugin update** that now *patches* not just scans (30M+ commits / 70K+ human-confirmed fixes since March), a **partner program**, and **"Patch the Planet"** OSS. Help Net framing: *"Daybreak wants to own the patch, not just the bug."* For you (Anthropic-stack, AI-Integration-Engineer-lane): **re-route Fable 5 from daily-driver → verifier-only**, and **apply to one AI-cyber role this week** — the lane was minted on Monday.
 
-Full edition → [`2026-06-21/`](./2026-06-21/)
+Full edition → [`2026-06-23/`](./2026-06-23/)
 
 ---
 
-## One-thing-to-do (Sunday)
+## One-thing-to-do (Tuesday)
 
-→ **Ship a public MCP server *to the `2026-07-28` RC spec*** — implement at least one **Task** (long-running, resumable), wire the **OAuth 2.1 Resource Server** auth profile, ship as a **`.mcpb` bundle**, include a 5-case eval citing MCP-Atlas methodology, and add a per-step `cost.md`. README headline: *"An MCP server built to the `2026-07-28` RC: Tasks + RS-auth + per-step cost trace."* See [`2026-06-21/03 §2`](./2026-06-21/03-practical-skills-and-tools.md#2-mcpb-bundles) for the 30-minute ship recipe.
+→ **Re-route your model defaults before your next agent run.** In Claude Code / Cursor / your CLI: drop default **Fable 5 → Sonnet 4.6** (or Opus 4.8 with a credits budget); explicitly tag Fable 5 as **verifier-only**. The 30-minute fix + cost-logging recipe is in [`2026-06-23/03 §1`](./2026-06-23/03-practical-skills-and-tools.md#1-reroute). Pair it with the orchestrator/worker baseline from [2026-05-22/03 §1](./2026-05-22/03-practical-skills-and-tools.md#1-agent-team-cost).
 
-→ **Post LinkedIn + Hacker News** with the artifact (45 min, end-of-day). LinkedIn skill row swap: add `MCP Tasks`, `MCP Apps`, `.mcpb packaging`, `OAuth Resource Server`. Zero-result keywords today; filterable terms in 30 days. See [`2026-06-21/05 §3`](./2026-06-21/05-career-and-startup.md#3-distribution).
+→ **Apply to one AI-cybersecurity role this week** — the lane was minted by Monday's Daybreak launch + the EO cyber-clearinghouse half. Target list in [`2026-06-23/05 §2`](./2026-06-23/05-career-and-startup.md#2-cyber-lane): Daybreak FDE at OpenAI · Solutions/Mythos-eng at Anthropic · Exaforce · CrowdStrike/Wiz/Snyk (likely partners) · JPM/GS/BofA AI Assurance.
 
-→ **Queue 3 cold emails for Monday 8 AM PT send:** Anthropic Solutions / FDE recruiter · OpenAI FDE recruiter · an engineer at NAVER / Samsung SDS / Channel Corp. One paragraph each, link the bundle, reference the relevant pattern (Seoul rollout / multi-protocol portability / in-region Bedrock data-controls).
+→ **Ship one Codex-Security-validated patch PR on an OSS repo** before the partner-program closes the free-tier window. Recipe in [`2026-06-23/03 §2`](./2026-06-23/03-practical-skills-and-tools.md#2-codex-security). This is a *single weekend artifact* that answers three interview questions (agent verification + real-tool eval + cost discipline) and pivots cleanly into the cyber-lane.
 
-→ **Upgrade Claude Code to 2.1.183** (10 min) — hardened auto-mode defaults + Azure Foundry prompt-cache fix; re-baseline your `cost.md` post-upgrade. See [`2026-06-21/03 §1`](./2026-06-21/03-practical-skills-and-tools.md#1-cc-2-1-183).
+→ **Read** [`2026-06-23/04 §1 StateGen`](./2026-06-23/04-research-progress.md#1-stategen) — state-grounded multi-agent synthetic data; the "backend-is-truth" pattern that eliminates tool-call hallucinations *by construction*. The most directly useful paper for an Integration-Engineer interview this month.

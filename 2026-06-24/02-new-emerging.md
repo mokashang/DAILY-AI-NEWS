@@ -1,86 +1,75 @@
 # New & Emerging — 2026-06-24
 
-Two stories define this section: **(1) the agentic-cybersecurity stack finished consolidating on Monday (06/22)** — OpenAI Patch the Planet + IBM Daybreak partnership announced in the same news cycle, on top of the EO clearinghouse and Exaforce's $125M B → this is the most concentrated VC + policy + Big-Blue tailwind on any single AI category in 2026. **(2) The IPO wave hit its first reality check** — Cerebras dropped 10% on its first earnings (margin compression) while SpaceX began the largest IPO ever (~$75B) and OpenAI/Anthropic queued behind it.
+Two release windows are *open today* — GPT-5.6 and Gemini 3.5 Pro. Both are inside their predicted launch corridors; both will reframe the cost / capability / latency table the moment they land. Get your benchmark + cost-router ready *now* so you can publish a 1-page comparison the same afternoon either ships. **Pre-staged content beats post-release content by ~24 hours of attention**, and on launch days that's the difference between *seen* and *missed*.
 
-Tags: `#cybersecurity #agents #openai #ibm #daybreak #soc #ipo #public-markets #spacex #cerebras #anthropic`
-
----
-
-## 1. OpenAI Patch the Planet + IBM Daybreak = the agentic-cyber stack consolidated (06/22) {#1-patch-planet-ibm-daybreak}
-
-**What happened:** Two announcements in the same 24-hour window stacked on top of each other:
-
-**OpenAI — Patch the Planet** (06/22)
-- A **Daybreak initiative** built with **Trail of Bits** to harden critical open-source software.
-- **Tech stack:** **GPT-5.5-Cyber** (OpenAI's most cyber-capable model) + expert human review by Trail of Bits security engineers.
-- **First results across 19 projects (cURL, Python, the Go project, aiohttp, Sigstore, pyca/cryptography, NATS Server, freenginx, etc.):** **hundreds of discovered bugs, 64 pull requests, 51 issues filed.**
-- **Maintainer support:** ChatGPT Pro access + conditional Codex Security access + API credits for OSS maintainer workflows.
-
-**IBM — joins OpenAI Daybreak Cyber Partner Program** (06/22)
-- IBM launched a new **application security service** (GA same day) using OpenAI cyber models for vulnerability identification + validation.
-- **Project Lightwell:** an **enterprise security clearinghouse + global force of engineers** to patch/validate/manage open-source code across the software supply chain — supported by **a $5B IBM + Red Hat commitment**.
-- IBM's pitch: defenders need machine-speed parity against AI-augmented attackers.
-
-**Sources:**
-- [OpenAI — Patch the Planet: a Daybreak initiative to support open source maintainers](https://openai.com/index/patch-the-planet/) `[primary]`
-- [Trail of Bits Blog — Introducing Patch the Planet](https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/) `[primary]`
-- [TechCrunch — OpenAI launches new initiative to help find and patch open source bugs](https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/) `[secondary]`
-- [SiliconANGLE — OpenAI expands Daybreak with Patch the Planet and full GPT-5.5-Cyber release](https://siliconangle.com/2026/06/22/openai-expands-daybreak-patch-planet-full-gpt-5-5-cyber-release/) `[secondary]`
-- [OpenAI — Daybreak (cybersecurity homepage)](https://openai.com/daybreak/) `[primary]`
-- [IBM Newsroom — IBM and OpenAI Bring Frontier AI to Cyber Defense](https://newsroom.ibm.com/2026-06-22-ibm-and-openai-bring-frontier-ai-to-cyber-defense-helping-enterprises-keep-pace-with-machine-speed-threats) `[primary]`
-- [eWeek — IBM Taps OpenAI Models to Help Enterprises Find Exploitable Software Flaws](https://www.eweek.com/news/ibm-openai-daybreak-cyber-enterprise-security/) `[secondary]`
-- [TechWire Asia — IBM joins OpenAI cyber program for vulnerability detection](https://techwireasia.com/2026/06/ibm-openai-cyber-program-vulnerability-detection/) `[secondary]`
-
-### Why it matters to you
-
-- **Job lens:** **Three independent tailwinds now stack on the agentic-SOC lane**: (a) VC — Exaforce $125M closed [05/22](../2026-05-22/02-new-emerging.md#2-exaforce); (b) policy — EO Cybersecurity Clearinghouse [06/02](./01-big-lab-moves.md#1-trump-eo-signed); (c) Big-Blue distribution — IBM/Red Hat $5B commit. The **applicant queue is still thin** because security-domain knowledge filters most candidates. If you have any data-infra / graph / Python-security background, this is your highest-conviction apply this quarter. Specific roles: **IBM Security FDE, Trail of Bits "AI Security Engineer," Exaforce engineer, any Daybreak partner-track posting**.
-- **Startup lens:** The OSS-maintainer-tooling layer is now *partially* a giant-funded category, but **the middle layer between a lab's AI red-team output and a maintainer's PR-ready patch** is still empty. Think: a startup that wraps an OSS project, runs continuous Patch-the-Planet-style sweeps, files PRs, *and* signs the patches. The buyer pattern (maintainer organizations, OpenSSF, Linux Foundation) is mature; the tooling layer is not.
-- **Insight:** Note the **exact capability** the EO/Commerce cited as the Fable 5 jailbreak ([01 §3](./01-big-lab-moves.md#3-fable-mythos-recall)) — *"asking the model to read a specific codebase and fix software flaws"* — **is what Patch the Planet now ships as a product**. The state and OpenAI are simultaneously declaring this capability **dangerous (when used by Anthropic)** and **a safety win (when used by OpenAI's Trail of Bits partnership)**. That asymmetry is a **political read of which lab has the better government relations**, not a technical fact about the capability. File it and watch.
-
-→ Cross-link: [`01` §1 the EO clearinghouse](./01-big-lab-moves.md#1-trump-eo-signed) · [`01` §3 the Fable 5 recall on the same capability](./01-big-lab-moves.md#3-fable-mythos-recall) · [`05` §1 the SOC lane firing](./05-career-and-startup.md#1-soc-lane-firing) · [2026-05-22/02 §2 Exaforce $125M](../2026-05-22/02-new-emerging.md#2-exaforce).
+Tags: `#openai #gpt-56 #google #gemini #release-window #benchmark #pricing`
 
 ---
 
-## 2. The IPO wave — SpaceX live, Cerebras down 10% on first earnings (06/23) {#2-ipo-wave-reality-check}
+## 1. GPT-5.6 launch window open — T-2 to T-4 from today {#1-gpt-56-window}
 
-**What happened:** A simultaneous "biggest IPO ever in motion + first post-IPO reality check" pair:
+**Where the timeline is:**
+- **Polymarket** prices a **June 22–28** launch window at **~83%**. Today (06/24) is mid-window.
+- **May 13:** a researcher spotted a routing entry referencing `gpt-5.6` in OpenAI's Codex backend logs — surfaced briefly, then vanished. The classic signature of a **canary** (an experimental build handed a sliver of real production traffic).
+- **OpenAI's recent cadence:** sub-60-day model releases through 2025–2026. GPT-5.5 (April 2026) → GPT-5.6 (~late June) fits the pattern.
+- **Status as of 06/24:** still no openai.com announcement, no system card, no API model page, no published benchmarks.
 
-**SpaceX IPO roadshow live (~06/04–08)**
-- S-1 public; **Goldman Sachs leading a 21-bank syndicate**.
-- Filing intent: **555M shares × $135 ≈ $75B raise** — the **largest IPO ever**.
-- The roadshow proxies for the AI-IPO wave broadly: institutional appetite, valuation discipline, lockup terms.
-
-**OpenAI / Anthropic queued**
-- **OpenAI** now targeting **Q4 2026** listing (was Sept on 05/22 → has slipped one quarter — read it as a response to Apple's Google pick on 06/08, see [`01` §5](./01-big-lab-moves.md#5-apple-siri-gemini)).
-- **Anthropic** still targeting **October 2026** — and now has $65B fresh cash and a $965B private mark to anchor the offering.
-- **Combined demand:** estimates put the three offerings at **>$200B–$240B** of public-market intake.
-
-**Cerebras — first earnings, down 10% (06/23)**
-- IPO'd 05/14 at $185, +68% on day one, peaked at $95B market cap.
-- First post-IPO earnings: revenue **nearly doubled**, but the stock **fell 10%** on guidance for **shrinking gross margin**.
-- The first reality check on the "AI compute pure-play" thesis: revenue growth alone is not enough; the market wants margin durability.
+**Leaked / rumored specifications (treat as `[rumor]` until system card):**
+- **~1.5M-token context window** (vs ~400K on GPT-5.5; ~3.75× expansion).
+- **FrontierMath tier-4** improvements (expert-math reasoning).
+- Continued **agentic-workflow** capability gains (likely positioned against Fable 5's 70% DeepSWE pass@1 from [2026-06-21/04](../2026-06-21/04-research-progress.md#1-deepswe)).
 
 **Sources:**
-- [Saxo — Cerebras IPO: the dinner-plate chip testing Wall Street's AI appetite](https://www.home.saxo/content/articles/equities/cerebras-ipo-12052026) `[analysis]`
-- [Benzinga — Cerebras' 68% Rally Signals Demand Beyond Magnificent 7 AI Plays](https://www.benzinga.com/markets/ipos/26/05/52599508/cerebras-68-rally-signals-demand-beyond-magnificent-7-ai-plays) `[secondary]`
-- [CNBC — Cerebras falls 10% after chipmaker forecasts shrinking margin in first earnings report since IPO](https://www.cnbc.com/2026/06/23/cerebras-cbrs-q1-earnings-report-2026.html) `[secondary]`
-- [TradingKey — SpaceX Roadshow as Early as June, OpenAI and Anthropic IPOs in Second Half](https://www.tradingkey.com/analysis/stocks/us-stocks/261764312-spacex-openai-anthropic-ipo-musk-ai-valuation-retail-investors-tradingkey) `[analysis]`
-- [Northeastern University — The Reality Behind Anthropic, OpenAI and SpaceX IPOs](https://news.northeastern.edu/2026/06/08/anthropic-openai-spacex-ipo-race/) `[secondary]`
-- [AI Funding Tracker — AI IPO Tracker 2026](https://aifundingtracker.com/ai-ipo-tracker/) `[aggregator]`
+- [Geeky Gadgets — What to Expect from OpenAI's GPT-5.6 Release in June 2026](https://www.geeky-gadgets.com/gpt-5-6-june-2026-release/) `[analysis]`
+- [QCode — GPT-5.6 Release Tracker — Date, Expected Features & Leaks Explained (June 2026)](https://qcode.cc/en/gpt-5-6-guide) `[aggregator]`
+- [explainx.ai — GPT-5.6 Release Date, Features & Claude Fable 5 Comparison (2026)](https://www.explainx.ai/blog/gpt-5-6-release-date-features-benchmarks-2026) `[analysis]`
+- [TechTimes — GPT-5.6: OpenAI Chief Scientist Calls It a Meaningful Leap, June Launch Nears](https://www.techtimes.com/articles/318492/20260616/gpt-56-openai-chief-scientist-calls-it-meaningful-leap-june-launch-nears.htm) `[secondary]`
+- [BitsMinds — GPT-5.6: Everything We Know So Far — Rumors, Leaks, and Where It Stands in Testing](https://www.bitsminds.com/news/gpt-5-6-everything-we-know-rumors-testing-2026) `[analysis]`
+- [OpenAI Model Release Notes (live)](https://help.openai.com/en/articles/9624314-model-release-notes) `[primary]` — watch for the GPT-5.6 entry
 
 ### Why it matters to you
 
-- **Job lens:** Public-market discipline + visible margin pressure (Cerebras) = **headcount-planned, structured hiring** at the labs preparing for IPO. Anthropic & OpenAI will both want to show **revenue-per-employee** trending up, which means **revenue-aligned roles** (Solutions, FDE, Customer Engineering) get *more* hiring weight than research roles in the next two quarters. Stay on the FDE/Solutions track.
-- **Startup lens:** Three things become true when SpaceX prices: **(a) secondary liquidity for SpaceX employees recycles into seed-stage AI funds**; **(b) the alumni-founder pattern that turbocharged Stripe/Palantir alumni from past IPOs now hits frontier-AI alumni**; **(c) the public-market comp for "AI compute infrastructure" gets a *Cerebras-shaped* discount**, which makes future GPU/cluster startups harder to fund but **vertical-AI software with margin durability** easier. Reweight your wedge thesis accordingly.
-- **Insight:** Margin is the new growth. Cerebras delivered revenue growth and got punished. Plan for a 12-month period where every public AI company's earnings call is dominated by gross-margin and unit-economics questions, and where **labs avoid IPO until they can show the margin curve**. This is why Anthropic's [Q2 profitability ([2026-05-21/01 §2](../2026-05-21/01-big-lab-moves.md#2-anthropic-colossus))] is suddenly the most important data point in the wave.
+- **Job lens:** The first 24 hours after a frontier model lands are the **single best time to publish a public comparison post** in 2026 — recruiter attention compounds with hashtag attention. Pre-stage a **GPT-5.6 vs Fable 5 vs Gemini 3.5 Pro** scaffold (table with columns: SWE-bench / DeepSWE / FrontierMath / context / input $ / output $ / latency on a 10K-token task) so you can fill the numbers in within hours of the system card landing.
+- **Startup lens:** If your product has a **model-routing layer**, you should *already* have GPT-5.6 stubbed in your model registry as a placeholder. The startups that update routing within 24 hours of a new flagship will eat lunch from the ones that take a week. (This is exactly the routing/cost-control category I called out in [2026-06-23/01 §1's startup lens](../2026-06-23/01-big-lab-moves.md#1-fable-5-plan-removal).)
+- **Insight:** **Launch-day attention is a contest with a fixed total pool**, and pre-staging is how individual builders win attention against $10M marketing budgets. The asymmetry is real: a clear 1-page benchmark from a credible builder gets re-shared by the same VCs and engineers who will not re-share the official launch blog.
 
-→ Cross-link: [`01` §2 Anthropic's $65B/$965B mark](./01-big-lab-moves.md#2-anthropic-series-h) · [`01` §5 Apple-Gemini as the Q4 OpenAI driver](./01-big-lab-moves.md#5-apple-siri-gemini).
+→ Cross-link: [`03` §3 the launch-day publication checklist](./03-practical-skills-and-tools.md#3-launch-day-checklist).
+
+---
+
+## 2. Gemini 3.5 Pro GA window — Day 2 of 7 {#2-gemini-pro-window}
+
+**Where the timeline is:**
+- **Sundar's "give us until next month" deadline** at I/O sets a hard inside bound: **GA by June 30**.
+- As of **06/23**, Gemini 3.5 Pro is still in **limited Vertex enterprise preview**; **no public GA announcement**.
+- **Prediction-market consensus:** **50–55% odds** of GA by month-end.
+- **Confirmed specifications when it ships:**
+  - **2-million-token context window** — the largest in any production frontier model (double Gemini 3.5 Flash's 1M).
+  - **Deep Think reasoning mode** — gated to the **$250/month Ultra** subscription tier.
+  - Multimodal: text + image (video / audio expected at GA based on the Flash precedent).
+
+**What to watch this week:**
+- **Vertex AI release notes** between 9–11am PT (the typical window for Google Cloud product GA announcements).
+- **Google AI Blog + Sundar's X feed** for the consumer-tier rollout.
+- **The pricing**, especially the 1M→2M context multiplier — that line is the most consequential single number for any agent / long-context builder this year.
+
+**Sources:**
+- [llm-stats — AI Updates Today (June 2026)](https://llm-stats.com/llm-updates) `[aggregator]`
+- [Google Cloud Blog — Innovations from Google I/O 26 on Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/innovations-from-google-io-26-on-google-cloud) `[primary]`
+- [Google AI for Developers — Gemini API Release Notes](https://ai.google.dev/gemini-api/docs/changelog) `[primary]`
+
+### Why it matters to you
+
+- **Job lens:** A 2M-token context window changes the **shape of long-doc workflows** — for any role description that mentions "long-context," "retrieval-replacement," or "document-grounded agents," **read it as a Gemini 3.5 Pro-shaped job** until proven otherwise. Drop "2M-token context window orchestration" into your skills section after GA lands; it's a vocabulary upgrade no one else will have on launch day.
+- **Startup lens:** Long-context-driven products that were marginal at 1M (legal-pack analysis, multi-codebase refactors, full-financial-statement diligence) become *interesting* at 2M. If you have a wedge thesis in any of those, **the cost-per-call delta between 1M and 2M is the only number that decides whether your unit economics close.** Watch the pricing announcement specifically.
+- **Insight:** Google's pattern in 2026 has been **double context per generation while preserving price-per-token** within a tier. If Gemini 3.5 Pro holds Flash's input-token economics into the larger window, **Google has structurally outflanked OpenAI and Anthropic on $/(token × use-case)** for any task that benefits from giant context. The release this week may be the most important pricing event of the quarter — bigger than GPT-5.6's capability bump.
+
+→ Cross-link: [`03` §3 launch-day publication checklist](./03-practical-skills-and-tools.md#3-launch-day-checklist).
 
 ---
 
 ## 3. Smaller emerging items worth one line each {#3-other-emerging}
 
-- **Apple Siri AI on Gemini (06/08).** Logged in [`01` §5](./01-big-lab-moves.md#5-apple-siri-gemini); the most consequential consumer-AI distribution event of 2026.
-- **Gemini 3.5 Pro GA window opens 06/23–06/30.** 2M-token context (largest in any production frontier model), Deep Think gated to $250/mo Ultra. As of 06/23 still in Vertex AI enterprise preview; no public GA announcement yet. [llm-stats — AI Updates Today (June 2026)](https://llm-stats.com/llm-updates) `[aggregator]`
-- **OpenAI ChatGPT Enterprise/EDU added Slack connector actions** (this week) — joining channels, creating reminders, file uploads, profile updates inside ChatGPT. Connector-as-product is now a category. `#openai #slack #connectors`
-- **GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery** — today's (06/24) OpenAI press story; counter-programming the Fable 5 recall ("look what frontier models do *for* science"). [OpenAI News (live)](https://openai.com/news/) `[primary]`
+- **Cerebras' first post-IPO earnings dropped the stock 10% on 06/23** — revenue nearly doubled, but shrinking-margin guidance triggered the sell-off. **First reality check on the AI-compute-pure-play thesis**. Pair with the broader IPO-wave context: SpaceX roadshow (~06/04–08), OpenAI confidential S-1 (06/08), Anthropic confidential S-1 (06/01). [CNBC — Cerebras earnings](https://www.cnbc.com/2026/06/23/cerebras-cbrs-q1-earnings-report-2026.html) `[secondary]`
+- **ChatGPT Enterprise/EDU now ships Slack connector actions** (this week) — joining channels, creating reminders, file uploads, profile updates *inside ChatGPT*. The connector-as-product category is hardening. [help.openai.com release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) `[primary]`
+- **Notable Series A: AI Engineer job market data confirms thin-supply story** — 8,931 open positions across 532 companies, **~$228K average salary**, senior IC band $200K–$312K, **163% YoY growth** in postings (carried from [2026-06-23/05 §1](../2026-06-23/05-career-and-startup.md#1-ai-engineer-market)). Status: same number, no compression yet.

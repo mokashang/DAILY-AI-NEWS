@@ -4,7 +4,19 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-06-24** (resumed after 33-day pause; today's edition has the per-thread deltas — full watchlist re-sync pending)
+
+> **2026-06-24 quick deltas** (see [2026-06-24/00-tldr.md](./2026-06-24/00-tldr.md#watchlist-deltas) for full notes):
+> - 🟢 **Trump AI EO** → **SIGNED 06/02** (voluntary, 30-day, AI Cybersecurity Clearinghouse formalized). Closes 05/22 postponement thread.
+> - 🟢 **Anthropic Series H** → **CLOSED 05/28** at **$65B / $965B post**; run-rate $47B; likely last private round before Oct IPO.
+> - 🆕 **Fable 5 / Mythos 5 export-control recall (06/12)** — first-ever post-deployment recall of a commercial frontier model. Anthropic publicly disagreed.
+> - 🆕 **OpenAI Patch the Planet + IBM Daybreak partnership (06/22)** — agentic-cybersecurity stack consolidated; three-tailwind lane firing.
+> - 🆕 **Appia Foundation (06/24)** — OpenAI-led multi-lab AI standards body.
+> - 🆕 **Apple Siri AI on Gemini (06/08)** — most consequential consumer-AI distribution event of 2026.
+> - 🟡 **SpaceX IPO roadshow live** (~06/04–08, 555M × $135 ≈ $75B); **OpenAI Q4** / **Anthropic Oct** queued.
+> - 🟡 **Cerebras** — down 10% on first earnings (06/23) — first AI-IPO reality check (margin guidance).
+
+Last updated (prior baseline): **2026-05-22**
 
 ---
 

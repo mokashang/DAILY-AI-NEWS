@@ -4,7 +4,7 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-06-17**
+Last updated: **2026-06-27**
 
 > **WEDNESDAY DELTAS (2026-06-17 — Day-3 metering · Fable 5 Day 6 dark · G7 Évian Day 3 / working lunch today):**
 > - ➡️ **G7 Évian Day 3 — working lunch TODAY.** Altman / Amodei / Hassabis at the head-of-state table; 19-strong wider AI delegation (Mistral / Cohere / BFL / Sarvam / Synthesia / Sakana / Meta-Wang / Salesforce). Watch the post-lunch readout + Wednesday-evening communiqué AI section for export-control / sovereignty / synthetic-DNA language. See [2026-06-17/00 §1](./2026-06-17/00-tldr.md).

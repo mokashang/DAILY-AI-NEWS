@@ -1,6 +1,6 @@
 # LATEST — pointer to the most recent edition
 
-> **2026-06-28** — see [`2026-06-28/00-tldr.md`](./2026-06-28/00-tldr.md)
+> **2026-06-29** — see [`2026-06-29/00-tldr.md`](./2026-06-29/00-tldr.md)
 
 This file is auto-updated every edition so a one-click read of the latest TL;DR is always at the repo root.
 
@@ -8,18 +8,18 @@ This file is auto-updated every edition so a one-click read of the latest TL;DR 
 
 ## Today's headline
 
-**Sunday — the weekend the talent barrier fell and China started copying the output.** Same 48-hour window on Wed Jun 24: **Bloomberg confirmed Jonas Adler + Alexander Pritzel** (both internally rated key Gemini contributors, both ex-AlphaFold collaborators of John Jumper) **are leaving Google for Anthropic** = **4 senior DeepMind departures in 6 days** (Jumper + Adler + Pritzel → Anthropic; Shazeer → OpenAI). Same window: **Anthropic disclosed to the US Senate Banking Committee that Alibaba ran 28.8M distillation exchanges via ~25K fraudulent accounts** (Apr 22 – Jun 5) — *"largest known distillation attack on Anthropic to date,"* Alibaba shares fell >4%. Financial gravity: **Anthropic ARR >$30B, >1,000 customers >$1M annualized (doubled in <2 months), 3.5 GW Broadcom/Google TPU from 2027**. Emerging: **"Agentjacking"** new attack class — markdown injection in fake Sentry errors → 85% exploit rate across 2,388 orgs — and **API-abuse-detection / output-provenance** as a fundable category. Research: **SciAgentArena (arXiv 2606.12736)** — 200 real scientific tasks, *agents are uneven*. For you: the **coding × pre-training × AI-for-science** staffing pillars are public; the **distillation-detection / agent-input-governance** sub-lane is newly named; the **September–October pre-IPO window** gives an exogenous 60-day calendar.
+**Monday — the week Anthropic sued the federal government, and Colorado's AI Act goes live tomorrow.** Over the weekend the **DOD demanded Anthropic make Claude available for "all lawful purposes," including lethal autonomous weapons and mass domestic surveillance**; **Anthropic filed *two* federal lawsuits (Northern District of CA + DC)** alleging unconstitutional First-Amendment retaliation and that Trump exceeded statutory authority — the most consequential lab-vs-government legal confrontation to date. Same window: the US government **partially lifted the Mythos 5 export-control ban** for ~100 cleared "critical infrastructure defenders" (no Fable 5 relift yet) — the "federal whitelist" release paradigm from [2026-06-27](./2026-06-27/01-big-lab-moves.md#2-mythos5) is now the *default* mode for capability-restricted models. Tomorrow (**Tue Jun 30**) the **Colorado AI Act** becomes the **first comprehensive US state AI law to actually go live** — high-risk AI in employment, education, housing, healthcare, financial services, government, insurance, legal. The pre-IPO 60-day calendar from [2026-06-28/05 §3](./2026-06-28/05-career-and-startup.md#3-ipo-window-plan) just acquired a *Colorado compliance* lane that didn't exist 72 hours ago.
 
-Full edition → [`2026-06-28/`](./2026-06-28/)
+Full edition → [`2026-06-29/`](./2026-06-29/)
 
 ---
 
-## One-thing-to-do (Sunday)
+## One-thing-to-do (Monday)
 
-→ **Ship two artifacts before bed.** **(a)** [Trusted-channel proxy](./2026-06-28/03-practical-skills-and-tools.md#1-trusted-channel-proxy) — 90 min, ~50 LOC, mitigates agentjacking; **(b)** [Claude Code discipline reset](./2026-06-28/03-practical-skills-and-tools.md#2-discipline-reset) against the June 26 official best-practices doc — scoped CLAUDE.md / skills-vs-subagents split / `/usage` per-agent cost attribution / Opus-orchestrator + Sonnet-worker routing. Then a 1-paragraph LinkedIn post: *"What I shipped the weekend agentjacking was disclosed."* Two artifacts + one post = the most efficient set of items to put in front of an Anthropic / OpenAI / Cohere T&S recruiter Monday morning.
+→ **Ship the [Colorado AI Act compliance memo](./2026-06-29/03-practical-skills-and-tools.md#1-colorado-compliance) before bed.** 1 page, 90 min, new GitHub repo. The Act goes live tomorrow; this artifact didn't exist as a hiring keyword three days ago. First-mover advantage on a *real* keyword that recruiters will start grep'ing this week. Pair it with yesterday's [trusted-channel proxy + Claude Code discipline reset](./2026-06-28/03-practical-skills-and-tools.md#1-trusted-channel-proxy) bundle.
 
-→ **Open the IPO-window 60-day calendar.** [`2026-06-28/05 §3`](./2026-06-28/05-career-and-startup.md#3-ipo-window-plan) — apply Anthropic (3 roles) + Google (3 new-grad-friendly Claude/Gemini roles) + OpenAI (2 roles) this week; cover-letter vocabulary lifts verbatim from the Jumper / Adler / Pritzel staffing pillars (*coding × pre-training × AI-for-science*).
+→ **Send the two FDE applications by Wednesday night.** [`2026-06-29/05 §2`](./2026-06-29/05-career-and-startup.md#2-fde-apps-this-week) — Anthropic Forward Deployed Engineer (Applied AI) + one of OpenAI Solutions / Google Cloud FDE / Salesforce FDE. The DeepMind → Anthropic talent flow has the 5th–6th name + Google's retention announcement implicitly due in the next 14 days; recruiter queues will spike either way.
 
-→ **Add the named sub-lane to your LinkedIn skills today.** [`2026-06-28/05 §2`](./2026-06-28/05-career-and-startup.md#2-distillation-detection-lane) — *adversarial-query detection, agent-RBAC, telemetry-channel sanitization, distillation-attack classification, output provenance / watermarking.* These are the keywords frontier T&S recruiters will search this week.
+→ **Add 3–5 assurance-keyword-tree terms to LinkedIn today.** [`2026-06-29/05 §3`](./2026-06-29/05-career-and-startup.md#3-assurance-lane) — *AI compliance engineering, model-release governance, pre-deployment evaluation, output provenance, agent-RBAC.* The three new sub-lanes from this week (policy engineering / federal access-control engineering / state compliance engineering) all index on these terms.
 
-→ **Read SciAgentArena end-to-end.** [`2026-06-28/04 §1`](./2026-06-28/04-research-progress.md#1-sciagentarena) — it is the eval substrate for the Jumper/Adler/Pritzel AI-for-science team; cite it verbatim in any Anthropic, DeepMind, or Isomorphic interview this fall.
+→ **Read the [Anthropic vs DOD §1](./2026-06-29/01-big-lab-moves.md#1-anthropic-dod) + [Colorado AI Act §3](./2026-06-29/01-big-lab-moves.md#3-colorado-ai-act).** Two 5-minute reads; together they are the most-cited AI-policy events of Q3 2026 in the making.

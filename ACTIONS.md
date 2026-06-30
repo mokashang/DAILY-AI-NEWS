@@ -4,11 +4,55 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-06-30**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (Jun 30 – Jul 6)
+
+### Tuesday June 30 — gap-recovery edition; release-by-Washington regime is the new frame
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **TONIGHT (45 min): install the 6-primitive Claude Code stack** on one repo — CLAUDE.md + 1 skill + 1 subagent + 1 slash command + 1 hook + 4 MCP servers; screenshot the working state | Tonight | [2026-06-30/03 §1](./2026-06-30/03-practical-skills-and-tools.md#1-claude-code-stack) |
+| ⚪ | Re-title resume + LinkedIn headline to "AI Integration Engineer — Anthropic stack · MCP · cost-aware agents · Mythos-class deployment vocabulary" | Tonight | [2026-06-30/05 §3](./2026-06-30/05-career-and-startup.md#3-mission-programs) |
+| ⚪ | 5-min APPLICATIONS.md hygiene — mark May ghosts, send 1 follow-up per Tier-1 target | Tonight | [2026-06-30/05 §5](./2026-06-30/05-career-and-startup.md#5-applications-hygiene) |
+
+### Wednesday – Friday Jul 1–3 (apply window before mid-July clearance-deployment hiring wave)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply to 1 Anthropic Mission Programs / Solutions / FDE / Trust & Safety role** — cite the **June 27 Mythos clearance** specifically + a specific cleared-org category (energy / telco / finance / defense) | This week | [2026-06-30/05 §3](./2026-06-30/05-career-and-startup.md#3-mission-programs) |
+| ⚪ | Apply to **Taktile MLE** (AI decisioning for regulated financials, Goldman lead, $110M C) — high-signal MLE-with-regulatory-exposure | This week | [2026-06-30/02 §2](./2026-06-30/02-new-emerging.md#2-funding-tape) |
+| ⚪ | Apply to 1 OpenAI Deployment Co FDE role (thin queue still) | This week | [2026-06-30/01 §3](./2026-06-30/01-big-lab-moves.md#3-openai-ipo-slips) |
+| ⚪ | Add **AI-infrastructure** lane (Crusoe, GridCARE, Sphere AI, Broadcom-OpenAI-aligned team) to apply list | This week | [2026-06-30/01 §5](./2026-06-30/01-big-lab-moves.md#5-compute) |
+| ⚪ | 90-min reading discipline — Efficient Benchmarking paper + MarkTechPost Claude Code Guide + Forbes "IPO delay / Mythos cleared" framing | This week | [2026-06-30/05 §2](./2026-06-30/05-career-and-startup.md#2-reading-discipline) |
+| ⚪ | **Ship the Terra cost-audit playbook** as a public repo (anonymized trace + memo + eval plan) | Fri | [2026-06-30/03 §2](./2026-06-30/03-practical-skills-and-tools.md#2-terra-audit) |
+| ⚪ | Re-name the dual-model-sanitiser repo to **"Fable-5-architecture demo"** + cite the classifier-layer architecture in the README | Fri | [2026-06-30/02 §3](./2026-06-30/02-new-emerging.md#3-anthropic-product) |
+
+### Saturday Jul 4 (weekend artifacts)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship the cross-cloud Claude router demo** (residency hard-filter + cost/latency/health soft preferences) | Sat | [2026-06-30/03 §3](./2026-06-30/03-practical-skills-and-tools.md#3-cross-cloud-routing) |
+| ⚪ | **Ship the Claude Tag-shaped Slack demo** (3 workflows + per-channel cost log + 60-sec Loom) | Sat | [2026-06-30/03 §4](./2026-06-30/03-practical-skills-and-tools.md#4-claude-tag-demo) |
+| ⚪ | STARTUPS.md update — log 3 new wedges (cleared-customer compliance; UQ-aware orchestration; multi-vendor cost-routing-as-a-service) | Sat | [2026-06-30/05 §4](./2026-06-30/05-career-and-startup.md#4-startup-wedges) |
+
+### Sunday Jul 5
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Weekly review: write `WEEK-2026-06-30.md` rollup | Sun | (resume the convention from May) |
+| ⚪ | Cleanup ACTIONS.md (move open items to next week, archive 🟢 / 🔴) | Sun | (this file) |
+| ⚪ | Re-read ME.md — confirm the Anthropic-stack focusing decision still holds against the June facts | Sun | [ME.md](./ME.md) |
+
+### Archived (May 19–25 week — gap-recovery)
+
+Tasks from the May 19–25 week were not retroactively completed during the 39-day publishing gap. Status reset to ⚪ where the action still applies (apply to FDE roles, ship MCP server, etc.) — these are absorbed into the multi-week threads below or carried into this week's list above. The day-of-week-specific tasks (Tuesday I/O monitoring, Thursday Meta-alumni outreach, etc.) are closed-out without completion because the calendar moment has passed; the underlying threads (Meta layoff alumni 90-day-out tracking) continue in [WATCHLIST.md](./WATCHLIST.md).
+
+---
+
+## Prior weeks (preserved for reference)
 
 ### Tuesday May 19 — I/O DAY (done)
 

@@ -1,123 +1,143 @@
-# Career & Startup — 2026-06-30
+# Career & Startup — 2026-06-30 (Tuesday)
 
-The two-month re-price summary: **AI-skill labor is more scarce and more expensive than it was in May, the FDE lane is now the highest-paid early-career role in tech, and the buyer for "production AI" rotated to regulated verticals.** Three lines of action this week — apply, build, ship — each with a specific artifact.
+Three threads, one calendar. **The Sept–Oct pre-IPO 60-day calendar starts firing today**, with a hardened *Colorado-compliance* sub-lane that did not exist on Friday and a *policy-engineering* sub-lane that did not exist on Sunday. The Tuesday move: lock in the assurance-keyword tree, send 2 FDE applications, and use today's news beats as cover-letter material.
 
-Tags: `#jobs #fde #mle #ai-engineer #startup #playbook #re-price`
+Tags: `#jobs #fde #mle #ai-engineer #ipo-window #policy-engineering #colorado-compliance #startup`
 
 ---
 
-## 1. The labor-market re-price (June numbers) {#1-market-reprice}
+## 1. The Sept–Oct pre-IPO 60-day calendar — firing today {#1-ipo-calendar-firing}
 
-**What's true now:**
+**The fact:** [2026-06-28/05 §3](../2026-06-28/05-career-and-startup.md#3-ipo-window-plan) opened the **60-day pre-IPO apply calendar**. Today is **Day 3** of that window. Anthropic still targets **Oct 2026** for a public S-1; **OpenAI slipped to 2027**. Once the public S-1 lands, the quiet-period communications discipline blanks out lab recruiting comms for several weeks. **You want offers in hand or near-final-round-stage *before* the S-1 drops.**
 
-- **AI Engineer postings: +109% YoY (2024 → 2026).** LinkedIn ranks AI Engineer **#1 fastest-growing US job title** with **+143% YoY** in 2025.
-- **FDE (Forward-Deployed Engineer) postings: +800% YoY.** TC at senior/staff reaches **$450K+**; Anthropic Solutions senior ~$215–310K base, OpenAI Deployment Co likely $300–500K base.
-- **LLM specialists: $220–280K** typical TC; demand **+135.8%** YoY.
-- **AI-skill wage premium: 56%** (PwC 2025 analysis) — up from **25% one year earlier.**
-- **Apple, Google, TikTok** have the most openings; many large tech co's have **50–100% more AI engineering listings** than a year ago.
-- **>75%** of listings now seek **domain experts** (deep, focused knowledge) over generalist skill sets.
-- **"Hired on delivery evidence — repos, deployed agents, eval suites — not credentials."** Fastest-hiring companies close in **<25 days** from first call to offer, with **≤3 interview rounds.**
+**The next 60 days at a glance:**
+
+| Window | Anthropic | Google | OpenAI |
+|---|---|---|---|
+| **By mid-July** | 3 applications | 3 applications | 2 applications |
+| **By end-July** | First-round loops | First-round loops | First-round loops |
+| **By mid-Aug** | Second-round / on-site | Second-round / on-site | Second-round / on-site |
+| **By Sept 1** | Decision-ready | Decision-ready | Decision-ready |
+| **Sept–Oct** | Anthropic public S-1 lands | Internal retention-package decisions land | OpenAI 2027 slip absorbs late noise |
 
 **Sources:**
-- [Forward Deployed Engineer Hiring Trends 2026 (FDE Pulse)](https://fdepulse.com/insights/fde-hiring-trends-2026/) `[secondary]`
-- [Qureos — How to Hire AI Engineers in a Competitive Market (June 2026)](https://www.qureos.com/hiring-guide/hire-ai-engineers-in-a-competitive-market) `[secondary]`
-- [Pragmatic Engineer — State of the software engineering job market in 2026](https://newsletter.pragmaticengineer.com/p/state-of-the-job-market-2026) `[analysis]`
-- [365 Data Science — AI Engineer Job Outlook 2026](https://365datascience.com/career-advice/career-guides/ai-engineer-job-outlook-2025/) `[secondary]`
-- [Second Talent — Top 10 Most In-Demand AI Engineering Skills and Salary Ranges 2026](https://www.secondtalent.com/resources/most-in-demand-ai-engineering-skills-and-salary-ranges/) `[secondary]`
-- [HeroHunt — Fastest Growing AI Roles in 2026](https://www.herohunt.ai/blog/fastest-growing-ai-roles-in-2026-data-and-rankings/) `[analysis]`
-- [Product Leaders Day India — AI Engineering Jobs 2026: The 800% Surge](https://productleadersdayindia.org/blogs/ai-engineering-jobs-skills/ai-engineering-jobs-skills-hiring-wave.html) `[analysis]`
-- [GitHub: 2026-AI-College-Jobs](https://github.com/speedyapply/2026-AI-College-Jobs) `[live-data]`
-
-### Why it matters to you
-
-- **Job lens:** Three things to do this week. (1) **Pick one specialty domain** (Anthropic agentic stack is your current ME.md choice — stay with it). The "75% want domain experts" data closes the door on the generalist resume. (2) **Make sure every line of your resume is a delivered artifact** — repo URL, deployed agent URL, eval-suite URL, or measured outcome. Replace any line that isn't. (3) **Apply to 1 FDE + 1 Solutions + 1 MLE role per week.** With <25-day close cycles, the pace matters more than the volume.
-- **Startup lens:** Talent scarcity at this magnitude is a moat in a startup pitch — "I've shipped on this stack; my competitors will spend 6 months hiring someone who has." If you're targeting founder, **the founding-team-of-one phase ends earlier in 2026 than it did in 2024**; the hire-or-build calculus tilts hard toward build-first.
-- **Insight:** The wage premium re-rate (25% → 56% in 12 months) is the single most actionable data point in this report. **It means the cost of *not* having AI skills is now bigger than the cost of *acquiring* them**, even if your acquisition pace is slow. Don't dabble; specialize. The Anthropic-stack focusing decision pays off precisely because it forecloses dabbling.
-
-→ Cross-link: [ME.md focusing decision](../ME.md) · [`03` §1 the 6-primitive Claude Code stack — your specialty artifact](./03-practical-skills-and-tools.md#1-claude-code-stack).
-
----
-
-## 2. The reading discipline (90 min / week) {#2-reading-discipline}
-
-**Three readings per week — one paper, one playbook, one essay.** That's the cadence that compounds.
-
-This week's slate (~90 min):
-
-- **Paper:** [Efficient Benchmarking of AI Agents (arXiv 2603.23749)](https://arxiv.org/abs/2603.23749) — the 30–70% middle-band method, [`04` §1](./04-research-progress.md#1-efficient-eval). 25 min.
-- **Playbook:** [MarkTechPost — Claude Code Guide 2026](https://www.marktechpost.com/2026/06/14/claude-code-guide-2026-25-features-with-examples-demo/) — canonical 6-primitive stack, [`03` §1](./03-practical-skills-and-tools.md#1-claude-code-stack). 35 min.
-- **Essay:** [Forbes — OpenAI Eyes 2027 IPO Delay As Washington Clears Anthropic's Mythos 5](https://www.forbes.com/sites/sandycarter/2026/06/28/openai-eyes-2027-ipo-delay-as-washington-clears-anthropics-mythos-5/) — the strategic framing of the release-by-Washington regime ([`01` §1–3](./01-big-lab-moves.md)). 20 min.
-
-### Why it matters to you
-
-- **Job lens:** Reading discipline shows up in *vocabulary* in interviews. The above three give you (a) a research-cited methodology, (b) a current-best-practice stack, and (c) a current-week strategic frame. **An interviewer can tell within two sentences whether you read or not.**
-- **Startup lens:** Reading two playbooks ahead of where most founders read keeps you from building the obvious-now thing. Compound: 90 min/week × 50 weeks = 75 hours/year, which is roughly the time investment of one technical certification, with much higher leverage.
-- **Insight:** The 90-min/week discipline is the easiest action item in this edition to skip and the hardest to make up later. Habit > intensity.
-
----
-
-## 3. Apply this week: 1 Anthropic Mission Programs / Solutions role {#3-mission-programs}
-
-**The window:** The Mythos-5 clearance event ([`01` §1](./01-big-lab-moves.md#1-mythos-cleared)) created a Day-1 product for Anthropic's deployment teams: get the model into 100 critical-infrastructure orgs. **Anthropic will hire to that workload — the public JD volume will catch up by mid-July.** Apply now, before the queue thickens.
-
-**Target list (for this week's 1 application):**
-
-- **Anthropic — Applied AI / Mission Programs Solutions Engineer** (likely under "Applied AI" or "Mission Programs" on the careers site).
-- **Anthropic — Solutions Engineer / FDE — Critical Infrastructure** (newer line; less obvious; check the "Government" / "Public Sector" sub-pages).
-- **Anthropic — AI Safety / Pre-Deployment Evaluation Engineer** (the eval side of the same workload).
-- **Anthropic — Trust & Safety Engineer** (post-Mythos clearance, this team scales).
-
-**Application package:**
-
-- Resume titled "AI Integration Engineer — Anthropic stack · MCP · cost-aware agents · Mythos-class deployment vocabulary."
-- Cover letter referencing the **June 27 Mythos clearance specifically** and a **specific cleared-org category** (e.g., energy/telco/finance) where you can articulate a deployment risk.
-- Linked portfolio: the 6-primitive Claude Code repo ([`03` §1](./03-practical-skills-and-tools.md#1-claude-code-stack)), the cost-router ([`03` §3](./03-practical-skills-and-tools.md#3-cross-cloud-routing)), the Fable-5-architecture-shaped sanitiser ([`02` §3](./02-new-emerging.md#3-anthropic-product)).
-
-**Sources:**
+- Carries from [2026-06-28/05 §3](../2026-06-28/05-career-and-startup.md#3-ipo-window-plan)
+- [Forbes — OpenAI Eyes 2027 IPO Delay](https://www.forbes.com/sites/sandycarter/2026/06/28/openai-eyes-2027-ipo-delay-as-washington-clears-anthropics-mythos-5/) `[secondary]`
 - [Anthropic Careers](https://www.anthropic.com/careers) `[primary]`
-- Carry-over: [2026-05-17/05 §1 the FDE +800% data](../2026-05-17/05-career-and-startup.md)
-- [`01` §1 the Mythos clearance event itself](./01-big-lab-moves.md#1-mythos-cleared)
 
 ### Why it matters to you
 
-- **Job lens:** This is the **single highest-leverage application window of the quarter** for the Anthropic agentic stack you've committed to. Cite the Mythos clearance specifically — almost no applicant will. Recruiters are reading for whoever read the news.
-- **Startup lens:** Even if you don't get hired, the application packet doubles as customer-discovery for the **"compliance tooling for cleared customers"** wedge ([`02` §2](./02-new-emerging.md#2-funding-tape)). Founders who can credibly describe the deployment workflow win the technical-co-founder conversations.
-- **Insight:** The applications-this-week discipline matters more in a market where companies close in <25 days than it does in a slower market. Speed of the loop > polish of any single application.
+- **Job lens:** The calendar is real and exogenous. Treat it as a deadline.
+- **Startup lens:** A spike of frontier-lab offers in Sept–Oct also means a spike of *not-accepting* candidates whose second-choice is "join a seed AI startup." If you're founding, that's your hiring window.
+- **Insight:** Calendars beat intentions. Block 60 minutes on the calendar today for the Anthropic application; block 60 minutes tomorrow for the Google one.
+
+→ Cross-link: [`05` §2 the application target list](#2-this-week-fde) · [WATCHLIST: Anthropic IPO path](../WATCHLIST.md).
 
 ---
 
-## 4. STARTUPS.md additions this Saturday (3 new wedges to log) {#4-startup-wedges}
+## 2. This week's FDE applications — Anthropic 3 + Google 3 + OpenAI 2 (apply 2 by Wednesday) {#2-this-week-fde}
 
-**Three wedges to add to the running log on July 4 weekend** (each is a candidate, not a commitment):
+**The fact:** Pull-forward two of the eight from the calendar. **Apply by Wednesday night.**
 
-- **Cleared-customer compliance tooling** — workflow + audit log + posture management for orgs on the Mythos-clearance list. Buyer: the 100 cleared orgs + the next-100 cleared orgs. Distribution: Anthropic Solutions and the cleared-org procurement chains.
-- **UQ-aware agent orchestration** — runtime layer that classifies uncertainty type (epistemic / aleatoric / computational, [`04` §4](./04-research-progress.md#4-uncertainty)) and dispatches the right mitigation. Buyer: any team running Claude or GPT-5.6 in production with reliability SLOs.
-- **Cost-routing-as-a-service for the multi-vendor stack** — Sol/Terra/Luna + Fable 5 + Opus 4.8 + Gemini 3.5 Pro in one router, with per-step cost trace and Terra-eligibility tagging ([`03` §2](./03-practical-skills-and-tools.md#2-terra-audit)). Buyer: SMB / mid-market customers without an FDE attached. Distribution: AWS / Azure / GCP marketplace listings + open-source loss leader.
+**Anthropic — 3 roles to target:**
 
-Each wedge has been triangulated against this edition's facts. Rank for fit on Saturday using STARTUPS.md's existing rubric.
+- **Applied AI — Mission Programs / Solutions Engineer — Critical Infrastructure** (post-Mythos-5 partial relift; [`01` §3](./01-big-lab-moves.md#3-mythos-day3)) — *cover-letter hook:* the cleared-customer regime as the operating reality, with a named cleared-org category you understand (energy / telco / finance).
+- **Applied AI — Sciences** (post Anthropic SF Science event tonight; [`01` §4](./01-big-lab-moves.md#4-anthropic-sf-science)) — *cover-letter hook:* the Jumper / Adler / Pritzel cohort; SciAgentArena as the eval substrate; any comp-bio coursework you have.
+- **Forward Deployed Engineer — Compliance Engineering** (post Colorado AI Act go-live; [`01` §1](./01-big-lab-moves.md#1-colorado-day-1)) — *cover-letter hook:* the [Day-1 Colorado compliance memo](./03-practical-skills-and-tools.md#1-colorado-day1-discoverability) + the [mock impact assessment](./03-practical-skills-and-tools.md#2-mock-impact-assessment).
 
-→ Action: marked in [`ACTIONS.md`](../ACTIONS.md) for Sat July 4.
+**Google — 3 roles to target:**
+
+- **Google Cloud — Forward Deployed Engineer** (Gemini / Vertex AI Agent Platform).
+- **DeepMind — Early Career Research Engineer** (lower probability post-Jumper/Adler/Pritzel exodus; high information value to apply).
+- **Google Vertex AI Customer Engineer — Multi-Model** (Claude + Gemini through Vertex).
+
+**OpenAI — 2 roles to target:**
+
+- **OpenAI Deployment Company — FDE** (Tomoro integration absorbing; thin queue continues).
+- **OpenAI Solutions Engineer — Enterprise** (post GPT-5.6 limited-preview regime).
+
+**Application package (one-page shape, same for all 8):**
+
+- Resume with the [Colorado/AI-RMF skill cluster](./03-practical-skills-and-tools.md#1-colorado-day1-discoverability) up top.
+- Cover letter with **one specific 2026-06-30 news beat cited** (your choice from `01`).
+- Portfolio links: the 6-primitive Claude Code stack, the cost-router, the trusted-channel proxy, the Colorado compliance memo, the mock impact assessment.
+- One-line note that you're available for first-round loops in July.
+
+**Sources:**
+- Carries from [2026-06-29/05 §2](../2026-06-29/05-career-and-startup.md#2-fde-apps-this-week)
+- Carries from [2026-06-28/05 §3](../2026-06-28/05-career-and-startup.md#3-ipo-window-plan)
+
+### Why it matters to you
+
+- **Job lens:** The Sept–Oct interview-pipeline window is closing. Two applications by Wednesday night puts you in line for first-round loops by mid-July.
+- **Startup lens:** The interview process itself doubles as customer-discovery for the wedges in [`02`](./02-new-emerging.md) — every hiring manager you talk to is a potential design-partner once you found.
+- **Insight:** Apply with this week's vocabulary, not last month's. The recruiter who pulls your resume on Wednesday is looking for "Day 1 of Colorado AI Act," not "May Code w/ Claude London."
 
 ---
 
-## 5. APPLICATIONS.md hygiene (5 min this week) {#5-applications-hygiene}
+## 3. The 3-sub-lane assurance keyword tree — finalize on LinkedIn today {#3-policy-lane}
 
-The 39-day gap means many May applications are now in or past the typical 30-day "ghosted" window. Spend 5 minutes this week:
+**The fact:** The week of June 27–29 split the assurance lane into **three distinct sub-lanes** ([2026-06-29/05 §3](../2026-06-29/05-career-and-startup.md#3-assurance-lane)):
 
-- Mark every May application **"ghosted"** if no response after 30 days.
-- Send **one polite follow-up** per Tier-1 target (Anthropic, OpenAI, Sierra, Decagon) if you haven't already.
-- Re-add the three this-week applications from [`5` §3 above](#3-mission-programs) + the Taktile MLE role ([`02` §2](./02-new-emerging.md#2-funding-tape)) + 1 healthcare-AI role (Assort).
+- **Policy Engineering** — building AUP-enforcement layers, AUP-aware infra. Post Anthropic-v-DOD ([`01` §2](./01-big-lab-moves.md#2-dod-lawsuit-day2)), this lane is concrete.
+- **Federal Access-Control Engineering** — cleared-customer deployment, export-control workflow, federal-clearance posture management. Post Mythos partial relift ([`01` §3](./01-big-lab-moves.md#3-mythos-day3)).
+- **State Compliance Engineering** — impact assessments + consumer-rights workflows for high-risk AI under state acts. Post Colorado AI Act ([`01` §1](./01-big-lab-moves.md#1-colorado-day-1)).
+
+Each sub-lane has its own keyword cluster. The cross-cutting vocabulary (drop these on LinkedIn / resume / cover letters):
+
+- *AI compliance engineering*
+- *Model-release governance*
+- *Pre-deployment evaluation*
+- *Output provenance*
+- *Agent-RBAC*
+- *NIST AI RMF (AI 600-1)*
+- *Colorado SB24-205*
+- *AUP-enforcement proxies*
+- *Federal-clearance workflow*
+
+**Sources:**
+- Carries from [2026-06-29/05 §3](../2026-06-29/05-career-and-startup.md#3-assurance-lane)
+
+### Why it matters to you
+
+- **Job lens:** Each sub-lane is hiring; the keyword tree gives recruiters a clean handle on your candidacy.
+- **Startup lens:** Each sub-lane is also a *product surface*. The composite — a tool that does **all three** — is the highest-leverage candidate startup of the week ([`02` §1](./02-new-emerging.md#1-abuse-detection-pricing) + [§2](./02-new-emerging.md#2-deployer-wedge)).
+- **Insight:** Three-axis assurance literacy on one resume is genuinely rare. The candidates who can speak across state + federal + lab-policy will be over-indexed in hiring.
+
+---
+
+## 4. STARTUPS.md updates for Sat Jul 4 (3 new wedges) {#4-startup-wedges}
+
+To log this Saturday (each is a candidate, not a commitment):
+
+- **Colorado-AI-Act compliance SaaS** ([`02` §2](./02-new-emerging.md#2-deployer-wedge)) — impact-assessment generator + consumer-rights workflow + audit log, sold to deployers (HR SaaS, ed-tech, fintech, claims). MVP shape: 8 weeks; first 10 customers reachable via Colorado-AG-attached compliance attorneys.
+- **API-abuse-detection + output-provenance + AUP-enforcement-proxy** ([`02` §1](./02-new-emerging.md#1-abuse-detection-pricing)) — "Cloudflare for frontier-API providers"; sold to labs + resellers + cleared-customer enterprises. Seed-stage category, 2–3 funded rounds expected in July.
+- **AI-for-Science workflow library** ([`01` §4](./01-big-lab-moves.md#4-anthropic-sf-science)) — Claude-for-Science vertical playbooks (akin to Claude for Legal's 12 practice-area plugins) for single-cell omics, drug-discovery automation, EHR-shaped tasks. Pair with SciAgentArena.
 
 → Action: marked in [`ACTIONS.md`](../ACTIONS.md).
 
 ---
 
-## Watchlist deltas, this section
+## 5. ME.md / focusing-decision check (5 min) {#5-focusing-check}
 
-- 🆕 **Mythos-5 cleared-customer hiring wave (Anthropic Mission Programs / Solutions)** — apply before mid-July
-- 🆕 **OpenAI Jalapeño chip team (Broadcom × OpenAI, San Jose)** — adjacent infra lane
-- 🆕 **Taktile MLE / AI-decisioning for regulated financials** — Goldman-backed; high signal
-- ➡️ **FDE +800% / $450K+ TC** — continues from May; close cycles tightened to <25 days
-- ➡️ **AI-skill wage premium 56%** — up from 25% in the May editions; closes the case on specialization
+**Quick check this week:** does the Anthropic-stack focusing decision still hold? After today's beats:
 
-→ Cross-link: [WATCHLIST.md — full list](../WATCHLIST.md).
+- Anthropic Series H ($65B / $965B), ARR > $30B, Oct IPO path, 3.5 GW compute commitment — **decision-validating capital + compute**.
+- Mythos clearance regime + Jumper / Adler / Pritzel science cohort — **decision-validating distribution + talent**.
+- DOD lawsuit + Colorado AI Act compliance footprint — **adds new sub-lanes inside the decision, doesn't invalidate it**.
+
+The decision holds. **Re-confirm in ME.md** with a one-line entry: "Decision re-confirmed 2026-06-30; new sub-lanes: state-compliance engineering + AI-for-Science."
+
+→ Cross-link: [ME.md](../ME.md).
+
+---
+
+## Watchlist deltas — this section
+
+- 🆕 **Sept–Oct pre-IPO 60-day calendar firing** — apply this week, not next.
+- 🆕 **Assurance lane split into 3 sub-lanes** — policy engineering / federal access-control engineering / state compliance engineering.
+- 🆕 **Anthropic Applied AI — Sciences track legible** — post-Jumper public appearance.
+- ➡️ **FDE +800% / $450K+ TC** — carries; close cycles continue tight.
+- ➡️ **AI-skill wage premium 56%** — carries.
+
+→ Cross-link: [WATCHLIST.md](../WATCHLIST.md).

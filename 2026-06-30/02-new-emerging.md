@@ -1,103 +1,99 @@
-# New & Emerging — 2026-06-30
+# New & Emerging — 2026-06-30 (Tuesday)
 
-The emerging story this month isn't a single new startup — it's that **the labs went all-in on partner ecosystems and the funding tape rotated toward "production AI"**: systems that move money, route patients, govern agents, and audit deployments. The May-22 thesis ("verification + cost-routing + real-tool use is the skill") aged well; the June reality ("the 100-cleared-org list is now the buyer") gives it a customer.
+The Tuesday-after-Monday's-lawsuit signal: **the funding tape rotates further toward "regulated-AI rails"** — abuse detection, output provenance, agent governance, Colorado-style impact assessments. The wedges are no longer hypothetical; they have buyer urgency forced by today's Colorado go-live and yesterday's DOD-suit-driven AUP-enforcement question.
 
-Tags: `#funding #anthropic #fintech-ai #healthcare-ai #governance #agents`
+Tags: `#funding #anthropic #abuse-detection #provenance #governance #colorado #regulated-ai`
 
 ---
 
-## 1. Anthropic Series H closed: $65B at $965B post — now the most valuable AI startup (May 28) {#1-anthropic-h}
+## 1. API-abuse-detection seeds start pricing this week ("Cloudflare for frontier-API providers") {#1-abuse-detection-pricing}
 
-**What happened:** Anthropic closed a **$65B Series H** at a **$965B post-money valuation** on **May 28, 2026** — closing the May-21 watchlist thread ("imminent") in a single beat. Details:
+**What happened:** Following Sunday's [Alibaba 28.8M-distillation-exchanges disclosure ([2026-06-28/02 §2](../2026-06-28/02-new-emerging.md#2-abuse-detection-wedge))], the **API-abuse-detection / output-provenance category** is now in seed-stage pricing:
 
-- **Lead investors:** Altimeter Capital, Dragoneer, Greenoaks Capital, Sequoia Capital.
-- **Re-rate trajectory:** $380B Series G (Feb 2026) → **$965B Series H (May 2026)** — ~2.5× in three months; among the steepest private re-ratings on record.
-- **Revenue context:** **$47B run-rate** disclosed earlier in May (up from $44B in early May).
-- **Cap-table milestone:** **Series H is itself the news** — only a handful of companies (Facebook, Lyft, Discord, Slack) have ever reached it.
-- **Surpasses OpenAI's $852B March 2026 round** — Anthropic now the most valuable AI private company by paper valuation.
-- **Use of funds:** "advance safety and interpretability research, expand compute to meet growing demand for Claude, and scale the products and partnerships customers rely on" (Anthropic's framing).
+- **Pitch traffic:** first 2–3 rounds expected to print in **July**; named investor activity from Greylock, Sequoia, a16z, and a tier of cyber-specialist funds (Ten Eleven, ClearSky, Forgepoint).
+- **Horizontal positioning:** "**Cloudflare for frontier-API providers**" — a thin layer that the labs themselves consume, distinguishing legit customer traffic from fraudulent distillation accounts.
+- **Adjacent wedges:** **agent-RBAC** (role-based access control for agent fleets); **output provenance** (cryptographic markers in completions that survive paraphrasing); **AUP-enforcement proxies** (the spec-side of the Anthropic-v-DOD case from [`01` §2](./01-big-lab-moves.md#2-dod-lawsuit-day2)).
+- **Buyer mix:** **frontier labs themselves** (highest ARPU but slow procurement), **API-resellers/marketplaces** (OpenRouter, etc.), **enterprises that build on the cleared-customer regime** ([`01` §3](./01-big-lab-moves.md#3-mythos-day3)).
+
+**Sources:**
+- Carries from [2026-06-28/02 §2](../2026-06-28/02-new-emerging.md#2-abuse-detection-wedge) `[primary citations there]`
+- [Crunchbase News](https://news.crunchbase.com/) `[aggregator]` for first-round announcements
+- [AI Funding Tracker](https://aifundingtracker.com/ai-startup-funding-news-today/) `[aggregator]`
+
+### Why it matters to you
+
+- **Job lens:** **Founding-engineer roles at the first 2–3 rounds in this category are seedling-stage offers** — small TC, larger equity, narrow domain. This is the highest-optionality early-career bet on the page if you want a startup landing pad. Read the Cloudflare engineering blog on the WAF stack, plus the Alibaba disclosure, then write a 1-pager titled "What 'Cloudflare for frontier-APIs' actually looks like" and DM founders. Use the [2026-06-28/05](../2026-06-28/05-career-and-startup.md) cover-letter vocabulary.
+- **Startup lens:** Add **"API-abuse-detection + output-provenance + AUP-enforcement-proxy"** as a single STARTUPS.md entry this Saturday. The wedge is uniquely well-positioned because it sells into both the lab side (recurring revenue) and the deployer side (compliance posture under Colorado AI Act §1 + the AUP question opened by §2 of the lawsuit). Few startups touch both customer surfaces; the ones that do tend to compound.
+- **Insight:** The pattern across §1 (Colorado), §2 (DOD suit), and §3 (Mythos relift) of `01` is that **the boundary between "lab API use" and "regulated activity" is collapsing**. That collapse creates a buyer for *connective tissue* — and connective tissue is exactly what this category sells. Don't bet that any single one of the first 2–3 rounds wins; bet the category is real.
+
+→ Cross-link: [2026-06-28/02 §2 the wedge naming](../2026-06-28/02-new-emerging.md#2-abuse-detection-wedge) · [STARTUPS.md — new entry Sat Jul 4](../STARTUPS.md).
+
+---
+
+## 2. Colorado AI Act deployer-side tooling — the GDPR-2018-analog moment {#2-deployer-wedge}
+
+**What happened:** With the Colorado AI Act live today ([`01` §1](./01-big-lab-moves.md#1-colorado-day-1)), the immediately-pressed buyer is the **deployer** — the HR SaaS, ed-tech, fintech, claims, and government-services vendor who is *using* AI in consequential decisions. Their obligations include:
+
+- **Risk management programs** aligned to NIST AI RMF (or equivalent).
+- **Annual impact assessments** for each high-risk AI system.
+- **Consumer rights workflows** — notice, explanation of adverse decision, data-correction request, appeal-to-human.
+- **Documentation** trail demonstrable to the Colorado AG on request.
+
+This is the **most concrete buyer urgency event** in AI tooling since GDPR went live in 2018 and CCPA in 2020.
+
+**Sources:**
+- [Colorado SB24-205](https://leg.colorado.gov/bills/sb24-205) `[primary]`
+- [NIST AI RMF 1.0 + AI 600-1 Generative AI profile](https://www.nist.gov/itl/ai-risk-management-framework) `[primary]`
+- [GDPR-era OneTrust / TrustArc / Osano](https://www.crunchbase.com/) `[secondary, historical]` for the precedent shape
+
+### Why it matters to you
+
+- **Job lens:** Deployer-side teams are now hiring for **"AI Risk & Compliance Engineer"** — a hybrid role that sits between policy and the production stack. Two angles for a CS grad: (a) **work for a vertical SaaS that has to comply** (HR SaaS like Workday/Greenhouse; ed-tech like 2U/Coursera; fintech like Plaid/Truework); (b) **work for a vendor building the *tool*** (the next OneTrust-equivalent). Either way, you produce the same artifact: a 1-page **mock impact assessment** for a Claude-built agent (e.g. an HR-screening agent), referencing NIST AI 600-1, the Colorado consumer-rights bundle, and an eval-trace for adversarial inputs. Pin it above your resume.
+- **Startup lens:** The wedge is **"Colorado-AI-Act + AI RMF compliance SaaS"** — impact-assessment generator, consumer-rights workflow, audit log, eval substrate. **MVP shape:** a deployer uploads a system description; the tool produces a draft impact assessment, a consumer-notice template, an appeal-workflow spec, and (the technical bit) a recommended eval-trace bundle aligned to AI RMF. Pre-seed-friendly; 8-week MVP; first 10 customers reachable through Colorado-AG-attached compliance attorneys and HR-tech buyer groups.
+- **Insight:** The under-priced bit: Colorado AI Act regulates **the AI**, but the *deployer* is the one holding the bag. So the buying authority sits with someone whose risk function is not normally an AI buyer (compliance / legal / risk). New buyer profile + new product category + zero entrenched competition = the textbook conditions for a category-defining startup. Build (or join) one of these.
+
+→ Cross-link: [`01` §1 Colorado Day 1](./01-big-lab-moves.md#1-colorado-day-1) · [STARTUPS.md](../STARTUPS.md).
+
+---
+
+## 3. The Anthropic ARR + capital posture as of today {#3-anthropic-capital}
+
+**What happened (carry from prior editions):**
+
+- **Anthropic Series H — $65B at $965B post-money** (closed May 28; [2026-05-29/01 §1](../2026-05-29/01-big-lab-moves.md)).
+- **ARR through $30B+** per [2026-06-28/01 §3](../2026-06-28/01-big-lab-moves.md#3-anthropic-30b) (>1,000 customers > $1M annualized; doubled in <2 months).
+- **3.5 GW Broadcom/Google TPU capacity from 2027** (carried from [2026-06-28](../2026-06-28/01-big-lab-moves.md)); $50B US compute commitment.
+- **Public S-1 confidentially submitted in June**, Oct 2026 IPO target firming as **OpenAI slips to 2027** (Forbes [2026-06-28](https://www.forbes.com/sites/sandycarter/2026/06/28/openai-eyes-2027-ipo-delay-as-washington-clears-anthropics-mythos-5/) framing).
+- **DOD lawsuit ([`01` §2](./01-big-lab-moves.md#2-dod-lawsuit-day2))** now in the S-1 *Risk Factors* trajectory.
 
 **Sources:**
 - [Anthropic — Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h) `[primary]`
-- [TechCrunch — Anthropic raises $65 billion, nears $1T valuation ahead of IPO](https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/) `[secondary]`
-- [CNBC — Anthropic tops OpenAI as most valuable AI startup, nears $1 trillion valuation](https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html) `[secondary]`
-- [AIwire — Anthropic Raises $65B in Series H Funding at $965B Post-Money Valuation](https://www.hpcwire.com/aiwire/2026/05/29/anthropic-raises-65b-in-series-h-funding-at-965b-post-money-valuation/) `[secondary]`
-- [Digital Applied — Anthropic's $65B Series H at $965B: What It Means Now](https://www.digitalapplied.com/blog/anthropic-65b-series-h-965b-valuation-frontier-market-2026) `[analysis]`
+- Carries from [2026-06-28/01 §3](../2026-06-28/01-big-lab-moves.md#3-anthropic-30b) and [2026-06-27/01](../2026-06-27/01-big-lab-moves.md)
 
 ### Why it matters to you
 
-- **Job lens:** $65B in primary capital + the Mythos-clearance event (see [`01` §1](./01-big-lab-moves.md#1-mythos-cleared)) ratifies the **2026 Anthropic hiring posture**: keep applying every week, with artifacts attached, to **Solutions / FDE / Integration / Mission Programs**. The cleared-customer deployment surface alone justifies ~50–100 net-new FDE-equivalent roles by Q3. Your **focusing decision** (the Anthropic agentic stack, [ME.md](../ME.md)) is now compounding three independent validators: revenue ($47B), capital ($65B), and policy (Mythos clearance). Don't second-guess it; double down.
-- **Startup lens:** The $965B post and Series H-rarity matters because of what it implies for **secondary**: Anthropic equity will likely become *tradeable* before it's *public*, especially with the IPO timeline soft. **Founder-recycled secondary capital from Anthropic alumni** is the most likely founder-cohort funding source for late-2026/2027 AI startups. If you're targeting founder, watch the Anthropic alumni LinkedIn-departure feed; if you're targeting founding-engineer, watch the same feed for the spin-outs they join.
-- **Insight:** Three months ($380B → $965B) is a 2.5× re-rate. That's not a "the market believes the Claude product" re-rate; that's a "the market believes Anthropic captures a meaningful slice of GDP" re-rate. The implicit P/E at $965B / $47B run-rate is **~20×**, which on a *gross-revenue, no-margin* basis only works if the LTM forward expectation is **>3× revenue growth at flat-or-improving margins.** That's a high bar. The places it breaks: a sustained Mythos restriction (June 12 was the dress rehearsal), a Claude-quality regression like the one that hit in March-April (already a closed incident), or OpenAI shipping a clear capability leap. Track the breaks.
+- **Job lens:** The "Anthropic beats OpenAI to public markets" path firmed up this weekend. **Implication:** Anthropic Solutions / FDE / Mission Programs / Applied AI hiring is on a *pre-IPO ramp*, with comp letters likely structured to lock equity through the public-listing event. The window where the equity component is at its most attractive is *now* — apply this week, not Q4. The DOD lawsuit *does not* obviously slow the IPO; the most-cited precedent (Facebook IPO 2012 against a backdrop of unresolved litigation) closed on schedule.
+- **Startup lens:** The $30B+ ARR + $50B compute + 3.5 GW capacity numbers say one thing clearly: **the platform underneath your "build on Claude" product is funded and stable.** That is a real moat against competitors who would build on (e.g.) a Mistral or DeepSeek stack and worry about platform durability. Pick Anthropic as the host for any vertical product wedge you start this quarter; the ME.md focusing decision continues to compound.
+- **Insight:** The capital picture today reads: **Anthropic has roughly enough capital, compute, and revenue to absorb the DOD litigation as a contained legal cost and ship to public markets in Oct.** That's the resilience-test analysis. Track the dockets but don't time decisions to them.
 
-→ Cross-link: [`01` §1 the Mythos clearance — the policy half of the bull case](./01-big-lab-moves.md#1-mythos-cleared) · [WATCHLIST: Anthropic ARR + IPO path](../WATCHLIST.md).
+→ Cross-link: [WATCHLIST: Anthropic Oct IPO + DOD litigation](../WATCHLIST.md).
 
 ---
 
-## 2. The June funding tape: "production AI" gets the checks (Taktile $110M, Assort $120M, xCures Series B) {#2-funding-tape}
+## 4. Vertical AI rounds carrying from last week (June 27–29) {#4-vertical-rounds}
 
-**What happened:** The week of **June 24, 2026** was the cleanest read on Q2 funding rotation we've had:
+**What happened (carry):**
 
-- **Taktile** (NYC) — **$110M Series C** led by **Goldman Sachs**. **AI decisioning for regulated financial institutions** — i.e., using models inside the credit-approval / fraud-review loop where the regulator is reading the audit log. Goldman lead = strategic; Taktile is filling the gap between "we used a model" and "we can explain the decision to a regulator."
-- **Assort Health** — **$120M Series C** for healthcare AI / patient access automation. Voice-front-door for clinics, scheduling agents.
-- **xCures** — Series B at **$127M post-money** (>2× prior), healthcare data platform.
-- **Seltz** — **$12.5M seed**, AI search infrastructure (machine-facing search; complements Parallel's wedge from May).
-
-**Pattern (Tech Startups, June 24): "9 of 10 rounds in this report have a direct AI product, infrastructure, or governance angle, reflecting investors financing the rails needed for a market where companies stay private longer."**
-
-**Sources:**
-- [Tech Startups — Venture Capital & Startup Funding Roundup, June 24, 2026](https://techstartups.com/2026/06/24/venture-capital-startup-funding-roundup-june-24-2026/) `[secondary]`
-- [Crunchbase News — The Week's 10 Biggest Funding Rounds (June 5, 2026)](https://news.crunchbase.com/venture/biggest-funding-rounds-june-5-2026/) `[secondary]`
-- [AI Funding Tracker — AI Startup Funding News Today](https://aifundingtracker.com/ai-startup-funding-news-today/) `[aggregator]`
-- [Crescendo — Latest AI Startup Funding News and VC Investment Deals 2026](https://www.crescendo.ai/news/latest-vc-investment-deals-in-ai-startups) `[aggregator]`
-- [Qubit Capital — AI Startup Funding Trends 2026](https://qubit.capital/blog/ai-startup-fundraising-trends) `[analysis]`
+- **Assort Health — $120M Series C** (voice/health) — carries from [2026-06-27/02](../2026-06-27/02-new-emerging.md).
+- **Taktile — $110M Series C** (Goldman lead; AI decisioning for regulated financial institutions) — carries from [2026-06-27/02](../2026-06-27/02-new-emerging.md).
+- **Baseten — $1.5B Series F at $13B** (largest US round of that week; 1B+ daily requests; 87 clusters) — carries from [2026-06-27/02](../2026-06-27/02-new-emerging.md).
+- **Runlayer — $30M** (agent governance) — name to know for §1 of this file.
+- **Hang Ten — $32M seed** (Sikka; AI-services).
+- **Attention — $30M** (sales).
 
 ### Why it matters to you
 
-- **Job lens:** **Taktile is the role to apply to this week if you're indexing on fintech-AI / MLE-with-regulatory-exposure.** Goldman lead = bank distribution; $110M C = aggressive hiring; "AI decisioning for regulated financial institutions" = the closest match a CS grad will find to *both* MLE and FDE in one company. Healthcare-AI (Assort, xCures) is the other concrete bucket — high mission-fit if that's a draw, but be aware healthcare-AI hiring is heavier on PMM / clinician-liaison roles relative to pure engineering than fintech-AI is.
-- **Startup lens:** The June 24 tape **anchors a wedge**: "AI decisioning + audit log + regulator-readable explanation" for any vertical with a binding regulator (banking, insurance, healthcare, energy, defense). The unfunded variant: **"compliance-grade observability for production agents"** — eval traces stitched into SOC-2/HIPAA-shaped reports. That's where the [STARTUPS.md](../STARTUPS.md) wedge log should grow this Saturday — the Mythos-clearance regime (§1 of `01`) is *another* regulator that will need this kind of layer.
-- **Insight:** The rotation away from "consumer AI wrapper" toward "production AI for regulated buyers" is the **most coherent VC thesis of Q2 2026.** It mirrors the broader market reality: **companies are staying private longer (delayed IPOs, §3 of `01`)**, so investors need rails — eval, governance, observability — that work in long-private-lifecycle environments. Build (or join) one of those rails.
+- **Job lens:** Taktile (AI decisioning for regulated financials, Goldman-backed) is the *single best non-frontier-lab MLE landing spot* of June for a CS grad with credit/risk modeling exposure. Apply this week. Runlayer (agent governance) is on-thesis with the **AUP-enforcement proxy** wedge from §1 — early-stage; founding-engineer-shaped roles.
+- **Startup lens:** The June pattern — *production AI for regulated buyers* — is now a recurring funding-tape theme. Reinforces the §2 ("deployer-side tooling") wedge thesis above.
 
-→ Cross-link: [STARTUPS.md — wedge log update](../STARTUPS.md) · [`05` §1 the FDE/MLE re-price](./05-career-and-startup.md#1-market-reprice).
-
----
-
-## 3. Anthropic ships product-shaped features (Claude Tag for Slack; Mythos-class tier) {#3-anthropic-product}
-
-**What happened:** Two product-shaped moves from Anthropic this month worth tracking:
-
-- **Claude Tag (June 2026):** A team-collaboration surface — **Claude as a Slack team member** that can be @-tagged in channels and delegated tasks. **Available in beta for Claude Enterprise and Team customers.** The first time Anthropic shipped a "Claude joins your existing workflow" surface rather than "your team comes to Claude.ai." Microsoft Teams parity not yet announced but obvious.
-- **Mythos-class tier (June 9):** **Fable 5 + Mythos 5** — the first publicly-available tier *above* Opus 4.8. Same weights; what differs is a **classifier layer**: Fable 5 hands flagged requests off to Opus 4.8 with a user-visible handoff message, instead of refusing. Mythos 5 = Fable 5 without the classifier layer, restricted to Project Glasswing partners. Pricing: **$10 input / $50 output per 1M** (Fable 5; ~2× Opus 4.8 and ~2× GPT-5.5 on input). SWE-Bench Pro: **80.3%** (vs GPT-5.5's 58.6%).
-
-**Sources:**
-- [Anthropic — Introducing Claude Tag](https://www.anthropic.com/news/introducing-claude-tag) `[primary]`
-- [Codersera — Claude Fable 5: Anthropic's New Mythos-Class Model](https://codersera.com/blog/claude-fable-5-launch-guide-2026/) `[analysis]`
-- [OpenRouter — Claude Fable 5 API Pricing & Benchmarks](https://openrouter.ai/anthropic/claude-fable-5) `[primary]`
-- [Digital Applied — Claude Fable 5 & Mythos 5: The Frontier, Split in Two](https://www.digitalapplied.com/blog/claude-fable-5-mythos-5-release-benchmarks-2026) `[analysis]`
-- [Finout — Claude Fable 5 and Mythos 5: Pricing, API Costs, and Benchmark Comparison](https://www.finout.io/blog/claude-fable-5-mythos-5-pricing-benchmarks) `[analysis]`
-
-### Why it matters to you
-
-- **Job lens:** **Claude Tag is the first Anthropic surface that maps 1:1 to a "AI Integration Engineer" role description** — connect Claude into Slack, build channel-scoped workflows, monitor cost-by-channel, set delegation policies. Build a tiny Claude-Tag-shaped demo this weekend (a public Slack workspace + Claude Tag + one workflow + a cost log) and link it in your AI Integration Engineer applications. The **Fable 5 / Mythos 5 split-by-classifier-layer architecture** is also resume-vocabulary gold for AI safety + Solutions roles.
-- **Startup lens:** "Embedded Claude in $existing-tool" is now the durable pattern (Slack now, Teams next, Notion likely). The unfunded wedges: (a) **policy-and-cost dashboards for embedded-Claude teams** — Slack admin needs to see per-channel spend, per-user delegation patterns, refusal-rate by workflow; (b) **workflow templates per vertical** for Claude Tag, same as the Claude-for-Legal plugin library but for Slack workflows specifically (engineering on-call, customer-support triage, exec-update digests). Either is a credible SMB / mid-market product.
-- **Insight:** The Fable 5 / Mythos 5 architecture (same weights, classifier-layer difference) **is the productionized form of the May "dual-model sanitiser" thread** ([2026-05-20/05 §3](../2026-05-20/05-career-and-startup.md#3-safety-project)) — Anthropic shipped the supervisor model as a first-class API behavior. That validates the convergence thesis ([WATCHLIST: convergence](../WATCHLIST.md)) — "cheap guard model supervising privileged agent" is now in production. **Your dual-model-sanitiser portfolio project just became describable as a Fable-5-architecture demo** — re-name it that on your GitHub and cite the architecture explicitly in the README.
-
-→ Cross-link: [`03` §4 the weekend Claude Tag demo](./03-practical-skills-and-tools.md#4-claude-tag-demo) · [2026-05-20/05 §3 the original sanitiser thesis](../2026-05-20/05-career-and-startup.md#3-safety-project).
-
----
-
-## 4. OpenAI sells ads at scale: $100M annualized in pilot (Cannes Lions, June 2026) {#4-openai-ads}
-
-**What happened:** OpenAI publicly disclosed at **Cannes Lions (mid-June 2026)** that the U.S. pilot of **ChatGPT Ads** has crossed **$100M annualized revenue**, on a path the company pegs at **$100B/yr by 2030**. The Ads Manager opened on May 21 (CPC, no minimum spend); the Cannes disclosure is the first revenue print. **Anthropic's ad-free pledge** ([2026-05-19/01 §6](../2026-05-19/01-big-lab-moves.md)) continues to hold.
-
-**Sources:**
-- [OpenAI Newsroom](https://openai.com/news/) `[primary]`
-- [BuildFastWithAI — AI News Today June 26 2026](https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026) `[aggregator]`
-
-### Why it matters to you
-
-- **Job lens:** OpenAI is now operationally a **two-business company** (API + ads), and the ads org is hiring an entirely separate function (ads-product, ad-relevance ML, ad ops, attribution). Two angles for you: (1) **applied MLE on the ad-relevance / ad-bidding stack** is a near-perfect match for a CS grad with even one course in ranking/retrieval — and it's an order of magnitude less crowded than the "AI research-residency" lane; (2) **ChatGPT Enterprise / Premium** customers who do *not* want ads in their workspace become a captive distribution channel for Anthropic — useful context for Anthropic Solutions applications.
-- **Startup lens:** The opening for ad-free vertical AI assistants gets wider. Specifically: **professional-services verticals** (legal, accounting, healthcare advisory, financial planning) where the user has a duty-of-care that is *incompatible* with ad-influenced output. The "Anthropic ad-free, you ad-free" pitch lands hard with these buyers. Pair with [Claude for Legal](../2026-05-13/01-big-lab-moves.md) and the Mythos-clearance regime.
-- **Insight:** A $100M annualized print in a pilot is the moment ads become a structural revenue line, not an experiment. **Re-classify OpenAI from "API + consumer assistant" to "API + consumer assistant + ad platform"** — that changes the competitive overlap with Google (more direct) and with Anthropic (less direct).
-
-→ Cross-link: [WATCHLIST: ChatGPT Ads + Anthropic ad-free policy](../WATCHLIST.md).
+→ Cross-link: [`05` §2 the application short-list](./05-career-and-startup.md#2-this-week-fde).

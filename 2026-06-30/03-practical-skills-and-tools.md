@@ -1,174 +1,168 @@
-# Practical Skills & Tools — 2026-06-30
+# Practical Skills & Tools — 2026-06-30 (Tuesday)
 
-The five tactical things you can act on this week. Each one is either (a) a tonight-install, or (b) a weekend artifact you can pin above your resume by Sunday. The frame for this edition: **the field standardized on the 6-primitive Claude Code stack in June** — if you don't have it set up by July, you're behind the median candidate.
+Four moves, each tractable in <90 min, each tied to today's news beats. The frame: **shipping under the new state-and-federal regime requires no new framework — just a small bundle of public artifacts that prove you read the news and can build to it.**
 
-Tags: `#claude-code #mcp #cost-routing #skills #weekend-project`
+Tags: `#claude-code #mcp #colorado #compliance #portfolio #cost-routing`
 
 ---
 
-## 1. Tonight (45 min): install the 6-primitive Claude Code stack on one repo {#1-claude-code-stack}
+## 1. The Colorado AI Act Day-1 discoverability move (30 min) {#1-colorado-day1-discoverability}
 
-**The fact:** The June community converged on **six primitives** as the canonical Claude Code surface: **CLAUDE.md, skills, subagents, slash commands, hooks, MCP.** The Marktechpost June-14 guide ("Claude Code Guide 2026: 25 Features with Examples + Demo") is the cleanest single reference; the SaaSCity / Clarista / TrueFoundry guides cover the MCP-specific pieces. **If you do exactly one Claude Code thing this month, do this tonight.**
+**The fact:** Yesterday's one-thing-to-do ([2026-06-29/03 §1](../2026-06-29/03-practical-skills-and-tools.md#1-colorado-compliance)) was to ship a 1-page Colorado AI Act compliance memo before bed. **Today's job: make that memo *find-able* on Day 1 of the Act being live.**
 
-**The 45-min install:**
+**The 30-min sequence:**
 
 ```
-1.  CLAUDE.md           # Karpathy 4-rule template (carried from 2026-05-17/03 §2)
-2.  .claude/skills/     # 1 skill: "code-review" — SKILL.md + scripts/run.sh
-3.  .claude/agents/     # 1 subagent: "lint-then-test" — parallel work, returns report
-4.  .claude/commands/   # 1 slash command: /review — invokes the skill
-5.  .claude/hooks/      # 1 pre-tool-use hook that blocks rm -rf and git push --force
-6.  ~/.claude.json      # 4 MCP servers: github (read-only PAT), filesystem (scoped path),
-                        #                postgres (read-only), playwright (browser)
+1.  README + screenshot.
+    ☐ Pin "Day 1 of Colorado AI Act (Jun 30 2026)" in the repo description.
+    ☐ Date-stamped screenshot of the memo open in a browser, committed to /assets.
+
+2.  LinkedIn discoverability (the 5-skill update).
+    ☐ Add five skills (verbatim) to your LinkedIn skills section:
+        • AI Compliance Engineer
+        • SB24-205 / Colorado AI Act
+        • NIST AI RMF (AI 600-1 generative profile)
+        • Pre-deployment evaluation
+        • Output provenance / model-release governance
+    ☐ Post one-line note: "Day 1 of the Colorado AI Act — here's a 1-page compliance
+      memo for a Claude-built agent: <repo link>"
+
+3.  Resume headline.
+    ☐ Re-title to: "AI Integration / Compliance Engineer — Anthropic stack ·
+      Colorado-AI-Act-ready · NIST AI RMF · cost-aware agent design"
+
+4.  Track inbound.
+    ☐ Note any recruiter views / DMs in APPLICATIONS.md; the keyword has
+      ~zero candidate competition for the next ~30 days.
 ```
 
-**Decision rules (June 2026 consensus):**
-
-- **Slash command vs Skill vs Subagent:** Slash command for a prompt template; Skill when there's domain logic / helper files / multi-step instructions; Subagent for **isolated, parallel work** (the subagent gets its own context window, returns a structured report). The June guides converge on this taxonomy.
-- **MCP transport:** **stdio** for local tools (filesystem, git, sqlite), **http** for remote services (GitHub, Linear, Notion). Verify with `claude mcp list` or the `/mcp` panel.
-- **Server count:** **4–8 servers** is the sweet spot. Tool Search (default on) keeps context cost low, but only connect what you actually use this month.
-- **Security:** Narrowest credential possible per server. Read-only GitHub PAT for `github-mcp`. Keep secrets in `--env`, not in committed config. Review project-scoped servers before approving — they're the most common supply-chain attack surface.
+**Why now:** the Act takes effect *today*. Hiring keywords spike on go-live dates; the Act's keyword cluster did not exist as a recruiter-search term 72 hours ago. **First-mover-in-the-keyword effect is real and short-lived.**
 
 **Sources:**
-- [MarkTechPost — Claude Code Guide 2026: 25 Features with Examples + Demo](https://www.marktechpost.com/2026/06/14/claude-code-guide-2026-25-features-with-examples-demo/) `[primary-guide]`
-- [Computing for Geeks — Claude Code Cheat Sheet 2026](https://computingforgeeks.com/claude-code-cheat-sheet/) `[secondary]`
-- [SaaSCity — Best MCP Servers for Claude Code in 2026 (+ Exact Setup Commands)](https://saascity.io/blog/best-mcp-servers-claude-code-2026) `[secondary]`
-- [Clarista — Claude Code MCP Servers & Plugins: The Complete 2026 Guide](https://www.clarista.io/blog/claude-code-mcp-plugins-guide) `[secondary]`
-- [TrueFoundry — MCP Authentication in Claude Code 2026 Guide](https://www.truefoundry.com/blog/mcp-authentication-in-claude-code) `[secondary]`
-- [CodeWithMukesh — Claude Code Tutorial for Beginners: Complete 2026 Guide](https://codewithmukesh.com/blog/claude-code-for-beginners/) `[secondary]`
-- [Codegen — Build Claude Code Agent: Step-by-Step Beginner Guide](https://codegen.com/guides/building-first-agent/) `[secondary]`
-- [Codegen — Claude Code MCP Servers: How to Connect External Tools](https://codegen.com/guides/connecting-mcp-servers/) `[secondary]`
+- [Colorado SB24-205](https://leg.colorado.gov/bills/sb24-205) `[primary]`
+- [NIST AI RMF 1.0 + AI 600-1](https://www.nist.gov/itl/ai-risk-management-framework) `[primary]`
+- Carries from [2026-06-29/03 §1](../2026-06-29/03-practical-skills-and-tools.md#1-colorado-compliance)
+- Carries the assurance-keyword tree from [2026-06-29/05 §3](../2026-06-29/05-career-and-startup.md#3-assurance-lane)
 
 ### Why it matters to you
 
-- **Job lens:** Every Anthropic Solutions / FDE / Integration JD in 2026 names some subset of these six primitives. Having a public repo where every primitive is wired and demonstrated (with a 60-second Loom) **answers the interview directly** — "show me a Claude Code workflow you've built" no longer requires hand-waving.
-- **Startup lens:** This is the surface you'd integrate with to ship "Claude inside a vertical." Knowing it cold = your founder/founding-engineer pitch becomes "I've already shipped on this stack" instead of "I'd need to learn it."
-- **Insight:** The convergence to six primitives is the **most important agent-engineering milestone of Q2 2026.** It means the surface is now stable enough to specialize on — you can build deep, not just wide. **Skill, hook, and MCP-server design are the three specializations that compound.** Slash commands and CLAUDE.md are tablestakes; subagents are the cost lever.
-
-→ Action: marked in [`ACTIONS.md`](../ACTIONS.md) for tonight (Tue June 30).
+- **Job lens:** Day-of-news-event keywords are the rare signal that lets a new-grad candidate look "first-mover" on a topic that an experienced candidate would have to back-fill. Use it.
+- **Startup lens:** The act of dating the memo is the act of standing up the customer-facing identity — *you* become someone the deployer-side wedge ([`02` §2](./02-new-emerging.md#2-deployer-wedge)) can find.
+- **Insight:** This is one of the few times "be early to the keyword" is a defensible career move and not a marketing tactic. Be early.
 
 ---
 
-## 2. The Terra cost-audit playbook (3-hour, billable shape) {#2-terra-audit}
+## 2. Build a 1-page mock impact assessment for a Claude-built agent (60 min) {#2-mock-impact-assessment}
 
-**The fact:** GPT-5.6 **Terra** ([`01` §2](./01-big-lab-moves.md#2-gpt56)) ships at **$2.50 input / $15 output per 1M** — ~2× cheaper than GPT-5.5 at the same capability tier. For any team running existing GPT-5.5 production volume, **a Terra re-route audit prints money** the day it ships.
+**The fact:** The Colorado AI Act's compliance posture is built around **annual impact assessments** for high-risk AI systems. **You can write a mock impact assessment in 60 minutes** — and almost no candidate at the new-grad level will have one.
 
-**The 3-hour playbook (a portfolio + paid-engagement shape):**
+**The 60-min outline (use as a template):**
 
 ```
-Hour 1 — Pull the trace.
-  ☐ Export last 30 days of GPT-5.5 API usage (or simulate from a hot path).
-  ☐ Bucket by prompt class (e.g. summarize-doc, classify-ticket,
-    code-review, agentic-research, voice).
-  ☐ Compute per-bucket: call count, p50/p95 latency, mean tokens in/out, $/call.
+1.  System summary.
+    ☐ Name + version of the Claude-built agent (e.g. "HR-screen-bot v0.1").
+    ☐ Decision class: employment (high-risk under SB24-205).
+    ☐ Deployer + developer responsibilities mapped to the Act's two-sided model.
 
-Hour 2 — Tag eligibility.
-  ☐ Tag each bucket: Terra-eligible (mid-difficulty, no hard-mode reasoning) /
-    Sol-required (hard reasoning, code-from-scratch, biology) /
-    Luna-eligible (cheap classification, voice glue, high-volume).
-  ☐ Conservatism rule: when in doubt, leave on Sol. Don't optimize into a regression.
+2.  Intended use, foreseeable risks.
+    ☐ Adverse impact analysis — protected-class disparity probes.
+    ☐ False-positive/-negative cost surface — labor-market consequence.
+    ☐ Out-of-scope behaviors — what the model is instructed NOT to do.
 
-Hour 3 — Simulate + write.
-  ☐ Re-cost each tagged bucket at the new tier's price.
-  ☐ Produce: monthly $ delta, % savings, expected p95-latency change,
-    and the eval suite needed to verify safety of the migration.
-  ☐ One-page memo with: assumption list, savings number, eval plan, rollback plan.
+3.  Risk management mapped to NIST AI RMF.
+    ☐ Govern: human-in-the-loop policy; appeal pathway; logging discipline.
+    ☐ Map: data lineage of training/eval data; system boundary diagram.
+    ☐ Measure: eval suite (adversarial probes + protected-class fairness).
+    ☐ Manage: rollback plan; incident-response shape.
+
+4.  Consumer-rights workflow.
+    ☐ Notice copy template (English + Spanish).
+    ☐ Explanation-of-adverse-decision copy template.
+    ☐ Right-to-correct and appeal-to-human flow diagram.
+
+5.  Eval evidence.
+    ☐ Per-prompt eval traces from a small open-source benchmark
+      (e.g., a HELM safety slice or HuggingFace eval-trace bundle).
+    ☐ Sampled adversarial probe transcripts.
+
+6.  Documentation footer.
+    ☐ Authoring date + review cadence (annual minimum per Act).
+    ☐ "This is a mock for portfolio use; not for production deployment."
 ```
 
-**For your portfolio:** anonymize the trace (mock if needed), publish the playbook as a public repo, link it on your AI Integration Engineer applications. The structure mirrors what a working FDE produces in the first week of an engagement.
-
-**For paid work:** an SMB with $5K+/mo of GPT-5.5 spend will pay $2K–$5K for this audit. That's a one-weekend contract that doubles as a portfolio piece and a customer-discovery conversation.
+**Output:** a public PDF + Markdown repo. Link from the README. **Pin above resume projects.**
 
 **Sources:**
-- [OpenAI — Previewing GPT-5.6 Sol (pricing table)](https://openai.com/index/previewing-gpt-5-6-sol/) `[primary]`
-- [DataCamp — GPT-5.6 Sol, Terra, and Luna (capability/cost positioning)](https://www.datacamp.com/blog/gpt-5-6-sol-luna-terra) `[secondary]`
-- [Artificial Analysis](https://artificialanalysis.ai/) `[primary-data]` — for benchmark + price-per-task cross-checks
-- Carry-over: [2026-05-20/03 §4 the cost-router pattern](../2026-05-20/03-practical-skills-and-tools.md#4-cost-routing)
+- [NIST AI RMF 1.0](https://www.nist.gov/itl/ai-risk-management-framework) `[primary]`
+- [NIST AI 600-1 Generative AI profile](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) `[primary]`
+- [HELM](https://crfm.stanford.edu/helm/) `[primary]` — for the eval-evidence layer
 
 ### Why it matters to you
 
-- **Job lens:** This is the single most credible artifact to produce in interview prep for **OpenAI Deployment Company FDE** or **Anthropic Solutions** roles — both companies' first-customer conversations are some shape of this audit. Walking in with a public playbook is rare.
-- **Startup lens:** "Cost-audit-as-a-service" is a genuine wedge in the cleared-customer regime — every customer running cleared models is doing a budget review against the Sol-vs-Terra-vs-Mythos cost surface. Two-customer engagement is enough to validate a productized version.
-- **Insight:** The Terra price is **not a price cut** — it's a **capability cut packaged as a new SKU**. The discipline this requires is the discipline that becomes the job: knowing which workloads can step down a tier without a regression. Cost-routing is *the* skill, not *a* skill.
+- **Job lens:** This artifact answers the *exact* interview prompt a deployer-side AI Risk & Compliance Engineer role asks ("walk me through how you'd structure an impact assessment under Colorado SB24-205"). 60 minutes to produce the answer that almost no candidate has.
+- **Startup lens:** The template generalizes — same structure works for NYC AEDT bias-audit law, EU AI Act high-risk system docs, and (soon) NY/CA AI bills. **A productized version of this template is the §2 wedge from `02`** — but even without productizing, having the template means you can produce real customer artifacts the day you start.
+- **Insight:** Impact assessment as a *technical document* (not a legal one) is an under-built skill. The candidates who own it become the bridge function on every regulated-AI deployment team.
 
 ---
 
-## 3. The cross-cloud Claude routing pattern (now that Foundry is GA) {#3-cross-cloud-routing}
+## 3. The pre-IPO 60-day Claude Code cost-router refresh (45 min) {#3-cost-router-refresh}
 
-**The fact:** With Claude now generally available in **Microsoft Foundry on Azure** ([`01` §4](./01-big-lab-moves.md#4-claude-foundry)) alongside **AWS Bedrock** and **Google Cloud Vertex**, you can build a **cross-cloud Claude router** that picks an endpoint by:
+**The fact:** The 60-day pre-IPO calendar from [2026-06-28/05 §3](../2026-06-28/05-career-and-startup.md#3-ipo-window-plan) puts your portfolio on a clock. **One cheap refresh that lifts every other artifact: re-run your cost-router benchmarks against the *current* model lineup.**
 
-- **Customer data-residency / sovereignty requirements** (US data-zone in Foundry vs EU residency in Bedrock vs Google sovereign-cloud).
-- **Latency** (per-region health).
-- **Burst-pricing arbitrage** when one cloud has spot capacity.
+The current lineup (as of June 30):
 
-**The 4-hour weekend build:**
+| Tier | Anthropic | OpenAI | Google |
+|---|---|---|---|
+| Flagship | Fable 5 ($10/$50 per M, restricted) / Opus 4.8 ($15/$75) | Sol ($5/$30, limited preview at U.S. gov request) | Gemini 3.5 Pro |
+| Mid | Sonnet 4.6 | Terra ($2.50/$15) | Gemini 3.5 Pro (cheaper tier) |
+| Budget | Haiku 4.5 ($1/$5) | Luna ($1/$6) | Gemini 3.5 Flash ($0.30/$2.50) |
+| Open | (—) | (—) | (—) |
+| Open / cheap | GLM-5.2 (MIT, 753B MoE, 1M ctx, 62.1 SWE-Bench Pro, $1.40/$4.40 per M) | (—) | (—) |
 
-```python
-# Router contract (toy version)
-class ClaudeRouter:
-    def route(self, request) -> Endpoint:
-        # 1. Residency hard-filter
-        eligible = [e for e in self.endpoints
-                    if e.region in request.allowed_regions]
-        # 2. Soft preferences (cost, latency, current health)
-        return min(eligible,
-                   key=lambda e: e.cost * 0.6
-                               + e.p95_latency_ms * 0.3
-                               + e.health_penalty * 0.1)
+**The 45-min update:**
+
+```
+1.  Re-tag your 3-provider router with the current model IDs.
+2.  Add GLM-5.2 as an open-source / cheap-Opus-fallback leg
+    (the SemiAnalysis-noted ⅙-of-Opus-cost lane).
+3.  Run a 50-prompt benchmark mix (1/3 summarize, 1/3 classify,
+    1/3 small code-edit), log per-step token + $$.
+4.  Publish a table to the README. One line per model:
+    p50 latency · cost per 50-prompt run · qualitative win-rate vs Opus 4.8.
+5.  Push to GitHub.
 ```
 
-**Pin in the public repo:** routing rules, the constraints they encode, and a per-cloud cost-and-latency dashboard. The README sells it as **"agnostic Claude deployment for compliance-constrained customers."**
+**Why now:** the cost-router skill is now table-stakes for FDE/Solutions; the differentiator is whether you've benchmarked against *this month's* lineup, not last month's.
 
 **Sources:**
-- [Anthropic Newsroom — Microsoft Foundry GA](https://www.anthropic.com/news) `[primary]`
-- [Releasebot — Anthropic Release Notes (June 2026)](https://releasebot.io/updates/anthropic) `[aggregator]`
+- [Artificial Analysis](https://artificialanalysis.ai/) `[primary-data]`
+- [OpenRouter rankings](https://openrouter.ai/rankings) `[primary-data]`
+- Carries from [2026-05-20/03 §4 cost-router pattern](../2026-05-20/03-practical-skills-and-tools.md#4-cost-routing)
+- Carries from [2026-06-27](../2026-06-27/03-practical-skills-and-tools.md) for the GLM-5.2 noting
 
 ### Why it matters to you
 
-- **Job lens:** Cross-cloud Claude routing is **rare-skill territory** at the new-grad level. Every major customer eventually hits a residency / sovereignty / regulator constraint; almost nobody at your level has built the pattern. One public router repo = a Tier-1 differentiator.
-- **Startup lens:** The router can wrap into a SaaS for mid-market customers who don't want to negotiate three separate cloud-marketplace contracts and three FedRAMP boundaries. The wedge is **compliance simplification**, not cost arbitrage.
-- **Insight:** The cross-cloud move is the **flip side of the release-by-Washington regime** ([`01` §1–2](./01-big-lab-moves.md)). The labs are constrained by Washington at release; the *clouds* are not. Microsoft selling Claude is the proof. Your skill stack should reflect the new shape of the industry — vendor-agnostic, region-aware, compliance-first.
+- **Job lens:** Hiring-manager interviews increasingly ask "walk me through your cost-routing thinking" — having a benchmark from *this week* makes you concrete instead of theoretical.
+- **Startup lens:** A current cost-router with GLM-5.2 included is genuinely useful for SMB customers without an FDE attached. Pair with the [Terra cost-audit playbook from May](../2026-05-20/03-practical-skills-and-tools.md#4-cost-routing).
+- **Insight:** Re-benchmarking is a 45-minute habit, not a project. Do it monthly the first of the month.
 
 ---
 
-## 4. Weekend project: a Claude Tag-shaped Slack demo {#4-claude-tag-demo}
+## 4. Build the trusted-channel proxy for one more input source today (30 min) {#4-trusted-channel-proxy-extend}
 
-**The fact:** Claude Tag ([`02` §3](./02-new-emerging.md#3-anthropic-product)) puts Claude into a Slack workspace as a tagged team member. **Building a public demo of this in a public Slack + linking the repo is the single most-credible "AI Integration Engineer" portfolio piece of June 2026.**
+**The fact:** Sunday's [trusted-channel proxy ([2026-06-28/03 §1](../2026-06-28/03-practical-skills-and-tools.md#1-trusted-channel-proxy))] sanitizes Sentry / GitHub / npm input streams before a Claude Code agent reads them — the 90-min, ~50-LOC mitigation for agentjacking ([2026-06-28/02 §1](../2026-06-28/02-new-emerging.md#1-agentjacking)). Today's extension:
 
-**The 4-hour build:**
+**Add one more input source — the one you actually use.** Likely candidates:
 
-```
-1. Public Slack workspace (free tier).
-2. Two channels: #engineering-ops, #customer-support.
-3. Claude Tag wired (Enterprise beta access; or a stand-in via the Bolt SDK
-   + Anthropic API if you don't have beta access).
-4. Three workflows:
-     - @claude triage  — summarize the channel's last hour, surface action items.
-     - @claude oncall  — answer technical questions from a CLAUDE.md context file.
-     - @claude digest  — daily 8 AM summary message.
-5. A cost log: per-channel spend, per-user delegation pattern, refusal rate.
-6. README + 60-second Loom + screenshots.
-```
+- **Linear / Jira ticket bodies** (markdown often injected by users).
+- **Slack channel content** (if you wire Claude Tag in).
+- **Email body** (if you wire Claude into an inbox).
+- **PR review comments** (richer than commit messages; high injection-surface).
 
-**Sources:**
-- [Anthropic — Introducing Claude Tag](https://www.anthropic.com/news/introducing-claude-tag) `[primary]`
-- [Slack Bolt SDK](https://slack.dev/bolt-python/) `[primary]` (for stand-in if no beta access)
+Same shape: parser strips/quarantines markdown image tags, fenced code with dangerous flags, and HTML; logs each sanitization to a sidecar file.
 
 ### Why it matters to you
 
-- **Job lens:** Identical-shape to the workflow an AI Integration Engineer ships on Day 5 of a new engagement. Pin above all other projects in your portfolio for AI Integration / Solutions roles.
-- **Startup lens:** The cost-log piece is the actual product — "Claude Tag spend & policy console for Slack admins." That's a $50/seat-month SaaS the moment Claude Tag goes GA. **Pre-build the customer side of the unfunded wedge from [`02` §3](./02-new-emerging.md#3-anthropic-product).**
-- **Insight:** The first products on top of any new Anthropic surface accumulate distribution before competitors get the brief. Claude Tag is two weeks old; you have a four-hour window to be early.
-
----
-
-## 5. One thing to read: the new June Claude Code best-practices stack {#5-reading}
-
-**Reading menu (~90 min total):**
-
-1. **[MarkTechPost — Claude Code Guide 2026 (25 features + demo)](https://www.marktechpost.com/2026/06/14/claude-code-guide-2026-25-features-with-examples-demo/)** — the canonical reference.
-2. **[BuildFastWithAI — June 26 AI News](https://www.buildfastwithai.com/blogs/ai-news-today-june-26-2026)** — the 15-story cross-check on the labs section.
-3. **[Latent Space — GPT-5.6 release writeup](https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna)** — for the swyx/Alessio framing on the limited-preview regime.
-4. **[Anthropic Series H announcement](https://www.anthropic.com/news/series-h)** — read primary-source framing once before any application this week.
-
-These four close the gap to the field's current best practices in under 90 minutes.
+- **Job lens:** Trusted-channel proxy is the most directly-citable "I built the standard mitigation for agentjacking" artifact. Two input sources covered > one — shows engineering breadth.
+- **Startup lens:** This generalizes into a **multi-source trusted-channel SDK** — sold to Linear/Jira/Slack/Sentry as a sanitizer endpoint. A weekend MVP.
+- **Insight:** The agentjacking class of attack will compound as agents become more autonomous. Earlier you wire the proxy into your stack, the lower the surface area when the next disclosure lands.

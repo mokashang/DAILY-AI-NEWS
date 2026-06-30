@@ -6,7 +6,7 @@ Status legend: 💡 noted · 🔍 researching · 🟡 prototyping · 🟢 active
 
 Fit score (1–5): 5 = your strengths + market wide-open; 1 = poor fit or market closed
 
-Last updated: **2026-05-19**
+Last updated: **2026-05-25**
 
 ---
 
@@ -16,6 +16,12 @@ Last updated: **2026-05-19**
 |---|---|---|---|---|---|---|
 | 💡 | **Claude + multi-jurisdiction 1099/contractor tax-classification** | Small accounting firms (5–25 staff) | $750/mo per advisor | None at SMB tier (Intuit too generic) | 5 | Workday Solopreneur Accelerator candidate. [2026-05-19/05 §5](./2026-05-19/05-career-and-startup.md#5-workday-solopreneur) |
 | 💡 | **Claude + small-firm M&A due-diligence checklists** | Boutique investment-bank associates | $1,500/mo per seat | iManage / NetDocuments (enterprise-only) | 5 | Workday Solopreneur Accelerator candidate. [2026-05-19/05 §5](./2026-05-19/05-career-and-startup.md#5-workday-solopreneur) |
+| 💡 | **SaaS → agent migration-as-a-service** (rip-and-replace a department off Salesforce/ServiceNow seats onto a governed Claude/OpenAI workflow) | Mid-market ops/IT leaders cutting SaaS spend | $15–60K/project + retainer | None vertical-specific (Big-4 too broad) | 5 | The SaaSpocalypse *is* the demand curve; the migration Skill doubles as the demo. [2026-05-24/02 §1](./2026-05-24/02-new-emerging.md#1-saaspocalypse) |
+| 💡 | **Per-action billing / attribution control plane** (the missing layer as enterprises move per-seat → per-action) | Companies replacing SaaS licenses with API credits | $0.0005/action or $500–5K/mo | New Relic/Datadog (none agent-billing-native) | 4 | Adjacent to migration wedge; the SaaSpocalypse's missing infra. [2026-05-24/02 §1](./2026-05-24/02-new-emerging.md#1-saaspocalypse) |
+| 💡 | **Verifiable / audit-grade / poison-resistant agent memory** (precondition for replacing a system of record) | Vertical-AI vendors + migration buyers | $500–5K/mo | Mem0 / EverMemOS / Cognee (not verification-first) | 4 | Build on PolarMem + 2604.16548 threat model. [2026-05-24/04 §1](./2026-05-24/04-research-progress.md#1-memory-synthesis) |
+| 💡 | **Tabular-FM analytics/forecasting agent** (TabPFN-powered, beats AutoML at a fraction of setup) | SMB/mid-market ops + finance teams | $300–3K/mo | SAP Joule (enterprise), classic AutoML | 3 | Non-LLM frontier just got €1B validation. [2026-05-24/02 §2](./2026-05-24/02-new-emerging.md#2-sap-prior-labs) |
+| 💡 | **Deployment + provable-oversight tooling** (agent deploy that bakes in a human-in-the-loop / "never crossed the line" audit trail) | Regulated enterprises (FS/health/legal) + AI-governance teams | $2–20K/mo | None deployment-native; GRC suites too broad | 4 | Two stacked tailwinds: Pope encyclical (moral) + EU Article 51 (regulatory). Sell deploy + compliance in one. [2026-05-25/01 §1](./2026-05-25/01-big-lab-moves.md#1-encyclical) |
+| 💡 | **Outcome-grounded agent eval harness** (success = unambiguous external result: ticket closed / txn reconciled / claim paid — not a model-judged rubric) | Vertical-AI vendors + regulated buyers | $500–5K/mo | Judgment Labs; most evals are rubric-based | 4 | AI-Trader's live-P&L design generalized; can't be reward-hacked. [2026-05-25/04 §1](./2026-05-25/04-research-progress.md#1-benchmarks) |
 | 💡 | **Vertical-CX agent for regulated FS / healthcare / legal** | Mid-market FS / healthcare / legal | $5–25K/mo | Sierra ($15B) — enterprise only | 4 | Vertical wedge under Sierra's price floor. [2026-05-19/02 §2](./2026-05-19/02-new-emerging.md#2-sierra) |
 | 💡 | **Agent identity / KYC / auth layer** | Agent-platform vendors | $0.001 per request | None — green-field | 4 | Adjacent to Parallel Web Systems. [2026-05-19/02 §3](./2026-05-19/02-new-emerging.md#3-parallel-web) |
 | 💡 | **Agent observability / per-agent endpoint analytics** | Production agent teams | $200–2000/mo | New Relic / Datadog (none agent-native) | 4 | Adjacent to Parallel Web + TrajAD research |

@@ -1,6 +1,6 @@
 # LATEST — pointer to the most recent edition
 
-> **2026-06-29** — see [`2026-06-29/00-tldr.md`](./2026-06-29/00-tldr.md)
+> **2026-06-30** — see [`2026-06-30/00-tldr.md`](./2026-06-30/00-tldr.md)
 
 This file is auto-updated every edition so a one-click read of the latest TL;DR is always at the repo root.
 
@@ -8,18 +8,18 @@ This file is auto-updated every edition so a one-click read of the latest TL;DR 
 
 ## Today's headline
 
-**Monday — the week Anthropic sued the federal government, and Colorado's AI Act goes live tomorrow.** Over the weekend the **DOD demanded Anthropic make Claude available for "all lawful purposes," including lethal autonomous weapons and mass domestic surveillance**; **Anthropic filed *two* federal lawsuits (Northern District of CA + DC)** alleging unconstitutional First-Amendment retaliation and that Trump exceeded statutory authority — the most consequential lab-vs-government legal confrontation to date. Same window: the US government **partially lifted the Mythos 5 export-control ban** for ~100 cleared "critical infrastructure defenders" (no Fable 5 relift yet) — the "federal whitelist" release paradigm from [2026-06-27](./2026-06-27/01-big-lab-moves.md#2-mythos5) is now the *default* mode for capability-restricted models. Tomorrow (**Tue Jun 30**) the **Colorado AI Act** becomes the **first comprehensive US state AI law to actually go live** — high-risk AI in employment, education, housing, healthcare, financial services, government, insurance, legal. The pre-IPO 60-day calendar from [2026-06-28/05 §3](./2026-06-28/05-career-and-startup.md#3-ipo-window-plan) just acquired a *Colorado compliance* lane that didn't exist 72 hours ago.
+**Tuesday — Colorado AI Act Day 1 · Anthropic v. DOD Day 2 · Mythos 5 partial relift Day 3 · Anthropic's AI-for-Science event in SF tonight (John Jumper's first public appearance as an Anthropic employee).** Yesterday's lead inverted into today's: the **Colorado AI Act** — the first comprehensive US state AI law to actually take effect — is *operative as of today*, regulating "high-risk AI" across employment, education, housing, healthcare, financial services, government services, insurance, and legal services; vendor + deployer obligations both apply (impact assessments, consumer rights, AG-enforced; NIST AI RMF is the affirmative-defense backbone). Same day, **Anthropic's two federal lawsuits against the DOD** (filed Mon NDCA + DC; [2026-06-29/01 §1](./2026-06-29/01-big-lab-moves.md#1-anthropic-dod)) hit Day-2 — the docket starts moving and the DOJ-response clock starts (~21d typical). And tonight in SF, **Anthropic's AI-for-Science event** (flagged in [2026-06-27/01](./2026-06-27/01-big-lab-moves.md)) is John Jumper's first public appearance as an Anthropic employee — the talent-war thread becomes a public-event thread. **Three policy/law beats and one talent beat — all in one Tuesday.**
 
-Full edition → [`2026-06-29/`](./2026-06-29/)
+Full edition → [`2026-06-30/`](./2026-06-30/)
 
 ---
 
-## One-thing-to-do (Monday)
+## One-thing-to-do (Tuesday)
 
-→ **Ship the [Colorado AI Act compliance memo](./2026-06-29/03-practical-skills-and-tools.md#1-colorado-compliance) before bed.** 1 page, 90 min, new GitHub repo. The Act goes live tomorrow; this artifact didn't exist as a hiring keyword three days ago. First-mover advantage on a *real* keyword that recruiters will start grep'ing this week. Pair it with yesterday's [trusted-channel proxy + Claude Code discipline reset](./2026-06-28/03-practical-skills-and-tools.md#1-trusted-channel-proxy) bundle.
+→ **Make yesterday's Colorado compliance memo discoverable TODAY** — [`2026-06-30/03 §1`](./2026-06-30/03-practical-skills-and-tools.md#1-colorado-day1-discoverability) — 30 minutes; LinkedIn keyword cluster (AI Compliance Engineer / SB24-205 / NIST AI RMF / pre-deployment evaluation / output provenance); resume headline; Day-1 screenshot. The Act takes effect *today* and the keyword has ~zero candidate competition for the next ~30 days.
 
-→ **Send the two FDE applications by Wednesday night.** [`2026-06-29/05 §2`](./2026-06-29/05-career-and-startup.md#2-fde-apps-this-week) — Anthropic Forward Deployed Engineer (Applied AI) + one of OpenAI Solutions / Google Cloud FDE / Salesforce FDE. The DeepMind → Anthropic talent flow has the 5th–6th name + Google's retention announcement implicitly due in the next 14 days; recruiter queues will spike either way.
+→ **Send 2 of this week's FDE applications by Wednesday night.** [`2026-06-30/05 §2`](./2026-06-30/05-career-and-startup.md#2-this-week-fde) — Anthropic Mission Programs (post-Mythos relift) + Anthropic Applied AI — Sciences (post-Jumper event tonight). Cover-letter hook = today's news beat.
 
-→ **Add 3–5 assurance-keyword-tree terms to LinkedIn today.** [`2026-06-29/05 §3`](./2026-06-29/05-career-and-startup.md#3-assurance-lane) — *AI compliance engineering, model-release governance, pre-deployment evaluation, output provenance, agent-RBAC.* The three new sub-lanes from this week (policy engineering / federal access-control engineering / state compliance engineering) all index on these terms.
+→ **Build a 1-page mock impact assessment for a Claude-built HR-screen agent (60 min).** [`2026-06-30/03 §2`](./2026-06-30/03-practical-skills-and-tools.md#2-mock-impact-assessment) — maps to NIST AI 600-1 + Colorado consumer-rights bundle. Tonight portfolio piece.
 
-→ **Read the [Anthropic vs DOD §1](./2026-06-29/01-big-lab-moves.md#1-anthropic-dod) + [Colorado AI Act §3](./2026-06-29/01-big-lab-moves.md#3-colorado-ai-act).** Two 5-minute reads; together they are the most-cited AI-policy events of Q3 2026 in the making.
+→ **Read [`01` §1 Colorado Day 1](./2026-06-30/01-big-lab-moves.md#1-colorado-day-1) + [`01` §4 the Anthropic SF science event](./2026-06-30/01-big-lab-moves.md#4-anthropic-sf-science).** 10 minutes; the two threads most likely to shape Q3 hiring vocabulary.

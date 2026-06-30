@@ -4,7 +4,61 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-06-16**
+Last updated: **2026-06-30**
+
+---
+
+## This week (June 30 – July 6) — Colorado AI Act DAY 1 · Anthropic v. DOD DAY 2 · Mythos 5 partial relift DAY 3 · Anthropic SF Science event TONIGHT
+
+### Tuesday June 30 (today) — Day-1 discoverability + tonight portfolio piece
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **30-min Day-1 discoverability move** — pin "Day 1 of Colorado AI Act" in compliance-memo README; add 5 LinkedIn skills (AI Compliance Engineer / SB24-205 / NIST AI RMF / pre-deployment evaluation / output provenance); re-title resume headline; post one-line LinkedIn note with repo link | Today | [2026-06-30/03 §1](./2026-06-30/03-practical-skills-and-tools.md#1-colorado-day1-discoverability) |
+| ⚪ | **60-min mock impact assessment** for a Claude-built HR-screen agent (NIST AI 600-1 mapped; consumer-rights workflow; eval evidence) — public repo, pinned above other portfolio | Tonight | [2026-06-30/03 §2](./2026-06-30/03-practical-skills-and-tools.md#2-mock-impact-assessment) |
+| ⚪ | Re-confirm ME.md focusing decision (1-line note: "decision re-confirmed 2026-06-30; new sub-lanes: state-compliance engineering + AI-for-Science") | Today | [2026-06-30/05 §5](./2026-06-30/05-career-and-startup.md#5-focusing-check) |
+| ⚪ | Attend or follow up on **Anthropic SF AI-for-Science event** tonight (livestream / X recap / public attendee notes) — take notes on any Claude-for-Science vertical/SDK announcement | Tonight | [2026-06-30/01 §4](./2026-06-30/01-big-lab-moves.md#4-anthropic-sf-science) |
+
+### Wednesday July 1 — FDE applications + cost-router refresh
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply: Anthropic — Applied AI / Mission Programs Solutions Engineer — Critical Infrastructure** (cover-letter hook: cleared-customer regime + a specific cleared-org category) | Wed | [2026-06-30/05 §2](./2026-06-30/05-career-and-startup.md#2-this-week-fde) |
+| ⚪ | **Apply: Anthropic — Applied AI — Sciences** (cover-letter hook: Jumper/Adler/Pritzel cohort + SciAgentArena + any comp-bio coursework) | Wed | [2026-06-30/05 §2](./2026-06-30/05-career-and-startup.md#2-this-week-fde) |
+| ⚪ | **45-min cost-router refresh** — re-tag with current model IDs; add GLM-5.2 as cheap-Opus-fallback; run 50-prompt benchmark; publish table | Wed | [2026-06-30/03 §3](./2026-06-30/03-practical-skills-and-tools.md#3-cost-router-refresh) |
+
+### Thursday July 2 — Google + OpenAI apply day
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply: Google Cloud — FDE (Gemini / Vertex AI Agent Platform)** | Thu | [2026-06-30/05 §2](./2026-06-30/05-career-and-startup.md#2-this-week-fde) |
+| ⚪ | **Apply: DeepMind — Early Career Research Engineer** (low-probability, high-information-value) | Thu | [2026-06-30/05 §2](./2026-06-30/05-career-and-startup.md#2-this-week-fde) |
+| ⚪ | **Apply: OpenAI Deployment Company — FDE** (thin queue continues) | Thu | [2026-06-30/05 §2](./2026-06-30/05-career-and-startup.md#2-this-week-fde) |
+
+### Friday July 3 — long weekend prep + reading
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply: Anthropic — FDE Compliance Engineering** (cover-letter hook: today's Colorado memo + tonight's mock impact assessment) | Fri | [2026-06-30/05 §2](./2026-06-30/05-career-and-startup.md#2-this-week-fde) |
+| ⚪ | **Apply: Google Vertex AI Customer Engineer — Multi-Model** | Fri | [2026-06-30/05 §2](./2026-06-30/05-career-and-startup.md#2-this-week-fde) |
+| ⚪ | **Apply: OpenAI Solutions Engineer — Enterprise** | Fri | [2026-06-30/05 §2](./2026-06-30/05-career-and-startup.md#2-this-week-fde) |
+| ⚪ | Read Efficient Benchmarking of AI Agents (arXiv 2603.23749) — 30 min for the 30–70% middle-band protocol | Fri | [2026-06-30/04 §1](./2026-06-30/04-research-progress.md#1-eval-stack) |
+| ⚪ | **Extend trusted-channel proxy** to Linear/Jira/Slack/PR-comments | Fri | [2026-06-30/03 §4](./2026-06-30/03-practical-skills-and-tools.md#4-trusted-channel-proxy-extend) |
+
+### Saturday July 4 — STARTUPS.md update
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **STARTUPS.md: log 3 new wedges** — Colorado-AI-Act compliance SaaS + API-abuse-detection horizontal + AI-for-Science workflow library; rank against the existing rubric | Sat | [2026-06-30/05 §4](./2026-06-30/05-career-and-startup.md#4-startup-wedges) |
+| ⚪ | Read Holistic Agent Leaderboard (arXiv 2510.11977) + UQ in LLM Agents (arXiv 2602.05073) abstracts | Sat | [2026-06-30/04 §1](./2026-06-30/04-research-progress.md#1-eval-stack) |
+
+### Sunday July 5 — weekly rollup
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Weekly review: write `weeks/WEEK-2026-06-30.md` rollup | Sun | (continue weeks/ convention) |
+| ⚪ | Cleanup ACTIONS.md (move open items to next week, archive 🟢 / 🔴) | Sun | (this file) |
+| ⚪ | Scan dockets for Anthropic v. DOD case updates (Day 7) | Sun | [2026-06-30/01 §2](./2026-06-30/01-big-lab-moves.md#2-dod-lawsuit-day2) |
 
 ---
 

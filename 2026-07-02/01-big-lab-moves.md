@@ -1,32 +1,29 @@
 # Big Lab Moves — 2026-07-02
 
-Six weeks after the last edition, three things reset the frame at once: **Anthropic restored Fable 5** under a new gated-redeployment posture, **Meta announced a Bedrock/CoreWeave-shaped cloud unit ("Meta Compute")**, and **OpenAI shipped GPT-5.6 into a ~20-partner preview coordinated with the U.S. government** — the *voluntary* pre-deployment-review order that stayed postponed is running in practice regardless. Underneath it: enterprise buyers stopped tolerating token pricing this week (Uber, Lindy, Karp), and Anthropic's science-vertical + credit-grant push kept pulling talent (Jumper, Karpathy, Boyd on the board of moves).
+Three fresh moves this Thursday: **Meta announced a Bedrock/CoreWeave-shaped cloud unit ("Meta Compute")** — the fourth hyperscaler is being born; **Palantir's Karp went on record July 1 calling the token-billing model "completely wrong"**, anchoring a week where Uber and Lindy already voted against it; and **xAI shipped the Grok Voice AI Agent Builder today** (no-code, <2 min). Yesterday's Fable-5 redeployment ([2026-07-01/01 §2](../2026-07-01/01-big-lab-moves.md#2-fable-return)) is Day 2 now — worth a note but not the headline. Underneath: Anthropic's Monday-night AI-for-Science event produced a $30K-credit-grant program with a **July 15 deadline** you can act on this week.
 
-Tags: `#labs #anthropic #meta #openai #xai #policy #pricing #talent`
+Tags: `#labs #meta #anthropic #xai #policy #pricing #talent`
 
 ---
 
-## 1. Claude Fable 5 redeployed globally with a new cybersecurity classifier + Opus 4.8 fallback {#1-fable5}
+## 1. Fable-5 redeploy — Day 2 dispatch (Anthropic-Opus-4.8-fallback watch) {#1-fable5}
 
-**What happened:** On **July 1, 2026** the U.S. Department of Commerce lifted export controls on **Claude Fable 5** (and its restricted sibling **Mythos 5**), which had been imposed on **June 12** after Amazon researchers demonstrated a jailbreak. Anthropic voluntarily suspended access at the time. Today (July 2) it restored Fable 5 across **Claude.ai, the Claude Platform, Claude Code, and Claude Cowork** with:
+**What happened:** Yesterday's edition ([2026-07-01/01 §2](../2026-07-01/01-big-lab-moves.md#2-fable-return)) covered the return of **Fable 5** and **Mythos 5** globally after the June-12 export controls lifted (June 30), with Anthropic's retrained cybersecurity classifier + automatic **Opus 4.8 fallback** on blocked prompts. **Day 2 status:**
 
-- A **retrained cybersecurity classifier** that blocks the specific bypass technique with >99% success on Anthropic's internal red-team set;
-- A trade-off: the classifier **flags more benign coding requests** than the previous one;
-- An automatic reroute: blocked prompts now **fall back to Claude Opus 4.8** with a user-visible notice.
+- **No new Anthropic communication** since yesterday's redeploy post; the story to track today is *usage-side*, not press-release-side.
+- **Watch:** (a) false-positive rate on legitimate red-team / coding-agent workflows (community forums + `#claude-code` threads are the leading indicator); (b) which cloud regions (Bedrock, Vertex) rolled back first; (c) whether the Opus-4.8-fallback-with-notice UX gets copied by OpenAI/Google on their next incident.
 
 **Sources:**
-- [Anthropic — Redeploying Fable 5](https://www.anthropic.com/news/redeploying-fable-5) `[primary]`
-- [MarkTechPost — Anthropic redeploys Fable 5 with cybersecurity classifier](https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier/) `[secondary]`
-- [9to5Google — Fable 5 returns to Claude](https://9to5google.com/2026/07/01/anthropic-fable-5-returns-to-claude/) `[secondary]`
-- [@AnthropicAI announcement post](https://x.com/AnthropicAI/status/2072163884430229756) `[primary]`
+- [Anthropic — Redeploying Fable 5 (yesterday's post)](https://www.anthropic.com/news/redeploying-fable-5) `[primary]`
+- [MarkTechPost — Fable 5 redeploy + cybersecurity classifier](https://www.marktechpost.com/2026/07/01/anthropic-redeploys-claude-fable-5-on-july-1-after-us-export-controls-lift-adds-new-cybersecurity-classifier/) `[secondary]`
 
 ### Why it matters to you
 
-- **Job lens:** Fable 5 is very likely the model you're building against for coding-agent and research-agent portfolio projects. Know the exact **false-positive shape** of the new classifier and the **Opus 4.8 fallback semantics** — this is the "I actually shipped on it" answer to FDE and Solutions interview questions right now.
-- **Startup lens:** The **gated-redeployment pattern** — voluntary suspension → export-control review → retrained classifier → silent fallback — is the shape of every future post-jailbreak episode across all labs. If you're building on Claude, plan a **model-fallback layer** now (Opus 4.8 ↔ Fable 5 ↔ open-source e.g. LongCat-2.0, see [`02` §1](./02-new-emerging.md#1-longcat)); model outages are an infra risk with a live playbook.
-- **Insight:** The interesting phrase is *"voluntarily suspended."* Export controls formally lifted, but the classifier ships anyway — the labs have **internalized pre-deployment gating** even without the postponed EO ([2026-05-22/01 §1](../2026-05-22/01-big-lab-moves.md#1-eo-postponed)). The regime is not "wait for the state" — it's **self-regulation in the shape the state would have imposed**, so the pre-deployment-eval career lane is *live now, informally staffed*.
+- **Job lens:** Fable 5 is very likely the model you're building against for coding-agent and research-agent portfolio projects. Know the exact **false-positive shape** of the new classifier and the **Opus 4.8 fallback semantics** — the "I actually shipped on it" answer to FDE and Solutions interview questions this week.
+- **Startup lens:** Plan a **model-fallback layer** now (Opus 4.8 ↔ Fable 5 ↔ open-source e.g. LongCat-2.0, see [`02` §1](./02-new-emerging.md#1-longcat)); model outages are an infra risk with a live playbook.
+- **Insight:** The **gated-redeployment pattern** — voluntary suspension → export-control review → retrained classifier → silent fallback — is now the industry template. Pair with the [industry jailbreak-severity framework from 2026-07-01/01 §6](../2026-07-01/01-big-lab-moves.md#5-jailbreak-framework); together they *are* the voluntary version of the postponed EO ([2026-05-22/01 §1](../2026-05-22/01-big-lab-moves.md#1-eo-postponed)).
 
-→ Cross-link: [`03` §3 hooks/skills as the mitigation for classifier false-positives](./03-practical-skills-and-tools.md#3-hooks) · [2026-05-22/01 §1 the postponed EO](../2026-05-22/01-big-lab-moves.md#1-eo-postponed).
+→ Cross-link: [`03` §3 hooks/skills as the mitigation for classifier false-positives](./03-practical-skills-and-tools.md#3-hooks) · [2026-07-01/01 §5 jailbreak-severity framework](../2026-07-01/01-big-lab-moves.md#5-jailbreak-framework).
 
 ---
 
@@ -54,28 +51,11 @@ Meta raised **2026 capex guidance to $125–145B** with a 1 GW Midwest data cent
 
 ---
 
-## 3. OpenAI previews GPT-5.6 (Sol / Terra / Luna) to ~20 partners under U.S. gov coordination {#3-gpt56}
+## 3. (GPT-5.6 preview — carried thread) {#3-gpt56}
 
-**What happened:** OpenAI **unveiled GPT-5.6 on June 26** as a three-tier family:
+Full coverage in [2026-07-01/01 §4 GPT-5.6 Sol/Terra/Luna preview](../2026-07-01/01-big-lab-moves.md#4-gpt-56) — three-tier lineup with **Sol $5/$30, Terra $2.50/$15, Luna $1/$6**, limited preview to trusted partners *coordinated with the U.S. government*. **No new material today**; watch (a) whether Terra/Luna list-prices actually undercut Haiku 4.5 / Gemini 3.5 Flash once GA, (b) the ~20-partner list leak. Deleted from today's headlines to avoid duplication — see the thread history in the [watchlist](../WATCHLIST.md).
 
-- **Sol** — flagship reasoning
-- **Terra** — mid-tier balanced
-- **Luna** — fast/cheap
-
-**Preview access is restricted to ~20 trusted organizations** after OpenAI shared release plans with the U.S. government. Access during preview is **API + Codex only** — no ChatGPT surface. **Cerebras** is separately serving **Sol at up to 750 tokens/second**. General availability is "in the coming weeks" with **no committed date**.
-
-**Sources:**
-- [OpenAI — Previewing GPT-5.6 Sol](https://openai.com/index/previewing-gpt-5-6-sol/) `[primary]`
-- [OpenAI Help — A preview of GPT-5.6 Sol, Terra, and Luna](https://help.openai.com/en/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna) `[primary]`
-- [VentureBeat — GPT-5.6 unveiled, limited-preview per gov coordination](https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov) `[secondary]`
-
-### Why it matters to you
-
-- **Job lens:** The **Sol / Terra / Luna** three-tier flagship-mid-fast pattern is converging across labs (Anthropic already ships this shape — Opus / Sonnet / Haiku). If you're designing any agent stack in a portfolio project or an interview, **assume tiered routing is table-stakes**; not knowing this pattern is now a red flag.
-- **Startup lens:** The **Cerebras 750 tok/s Sol** figure re-opens the "**latency as a wedge**" bet — for interactive-agent products (voice, coding-in-a-tab, live research), an alt-hardware serve of a frontier model can beat a bigger model on user perception. Watch the exclusive-serving deals; they're the OEM contracts of AI.
-- **Insight:** The frame that matters is **who gets in the ~20-partner list.** These are the customers that get to design against unreleased frontier capabilities *and* participate in the informal pre-deployment review. That's the actual privileged tier of the AI economy in 2026 — worth mapping your career target to companies that are (or plausibly will be) on those lists.
-
-→ Cross-link: [`03` §1 the routing/cache stack that assumes tiering](./03-practical-skills-and-tools.md#1-prompt-cache) · [`01` §1 Fable-5-with-Opus-4.8-fallback as the Anthropic version of the same pattern](#1-fable5).
+→ Cross-link: [`03` §1 routing/cache stack that assumes tiering](./03-practical-skills-and-tools.md#1-prompt-cache).
 
 ---
 
@@ -119,9 +99,13 @@ Meta raised **2026 capex guidance to $125–145B** with a 1 GW Midwest data cent
 
 ---
 
-## 6. Anthropic — "AI for Science" event + $30K credit grants (apply by July 15) + Jumper/Karpathy/Boyd talent flow {#6-anthropic-science}
+## 6. Anthropic AI-for-Science event aftermath — $30K credit grants, apply by July 15 {#6-anthropic-science}
 
-**What happened:** Anthropic held its **"The Briefing: AI for Science"** event on **June 30** — reportedly **John Jumper's first public appearance** since leaving Google DeepMind for Anthropic in June — with pharma partner showcases and Anthropic's new **VirBench** evaluation. In parallel, Anthropic opened a program funding **up to 50 AI-for-Science projects with up to $30,000 in credits each; applications close July 15, 2026.** The talent-flow context: Anthropic's 2026 hire list includes **Karpathy (Tue May 19)**, **Eric Boyd (ex-Microsoft Azure AI president)**, and **Jumper**; TechCrunch data shows **OpenAI → Anthropic engineer moves outnumber the reverse ~8:1**.
+**What happened:** Anthropic's **"The Briefing: AI for Science"** event was Monday night (June 30) in SF (flagged in [2026-06-27/01](../2026-06-27/01-big-lab-moves.md) and [2026-06-30/01 §4](../2026-06-30/01-big-lab-moves.md#4-anthropic-sf-science)) — **John Jumper's first public appearance** as an Anthropic employee. Today's actionable takeaways:
+
+- Anthropic opened a program funding **up to 50 AI-for-Science projects with up to $30,000 in Claude credits each**; **applications close July 15, 2026.**
+- New **VirBench** evaluation for biology + chem workflows referenced at the event.
+- Talent-flow context: **OpenAI → Anthropic engineer moves outnumber the reverse ~8:1** (TechCrunch data); Anthropic's 2026 hire list includes Karpathy, Eric Boyd (ex-MSFT Azure AI), and Jumper.
 
 **Sources:**
 - [AI Tools Recap — AI news June 30, 2026 (event coverage)](https://aitoolsrecap.com/Blog/ai-news-june-30-2026) `[aggregator]`

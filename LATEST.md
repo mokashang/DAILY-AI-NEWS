@@ -1,6 +1,6 @@
 # LATEST — pointer to the most recent edition
 
-> **2026-06-30** — see [`2026-06-30/00-tldr.md`](./2026-06-30/00-tldr.md)
+> **2026-07-02** — see [`2026-07-02/00-tldr.md`](./2026-07-02/00-tldr.md)
 
 This file is auto-updated every edition so a one-click read of the latest TL;DR is always at the repo root.
 
@@ -8,18 +8,18 @@ This file is auto-updated every edition so a one-click read of the latest TL;DR 
 
 ## Today's headline
 
-**Tuesday — Colorado AI Act Day 1 · Anthropic v. DOD Day 2 · Mythos 5 partial relift Day 3 · Anthropic's AI-for-Science event in SF tonight (John Jumper's first public appearance as an Anthropic employee).** Yesterday's lead inverted into today's: the **Colorado AI Act** — the first comprehensive US state AI law to actually take effect — is *operative as of today*, regulating "high-risk AI" across employment, education, housing, healthcare, financial services, government services, insurance, and legal services; vendor + deployer obligations both apply (impact assessments, consumer rights, AG-enforced; NIST AI RMF is the affirmative-defense backbone). Same day, **Anthropic's two federal lawsuits against the DOD** (filed Mon NDCA + DC; [2026-06-29/01 §1](./2026-06-29/01-big-lab-moves.md#1-anthropic-dod)) hit Day-2 — the docket starts moving and the DOJ-response clock starts (~21d typical). And tonight in SF, **Anthropic's AI-for-Science event** (flagged in [2026-06-27/01](./2026-06-27/01-big-lab-moves.md)) is John Jumper's first public appearance as an Anthropic employee — the talent-war thread becomes a public-event thread. **Three policy/law beats and one talent beat — all in one Tuesday.**
+**Thursday — Meta Compute stood up, the token bill is under audit, and Grok's voice layer just went no-code.** **Meta announces Meta Compute** (yesterday) — a Bedrock-style hosted-models service + a CoreWeave/Nebius-competing raw-compute business under Janardhan/Gross/Powell McCormick; 2026 capex raised to **$125–145B**; **META +10%** = fourth hyperscaler is being born. On the demand side, enterprise buyers stopped tolerating token pricing: **Uber blew its annual AI budget in four months**, **Lindy migrated 100% of traffic from Claude → DeepSeek**, and **Palantir's Karp (July 1) called the token model "completely wrong."** And **xAI ships the Grok Voice AI Agent Builder today** — no-code, <2 min setup, 25+ languages. Yesterday's [Fable-5 redeployment](./2026-07-01/01-big-lab-moves.md#2-fable-return) is Day 2; watch the false-positive-rate data. **For you: model-routing/caching/cheap-fallback moved from optional to baseline resume skill.**
 
-Full edition → [`2026-06-30/`](./2026-06-30/)
+Full edition → [`2026-07-02/`](./2026-07-02/)
 
 ---
 
-## One-thing-to-do (Tuesday)
+## One-thing-to-do (Thursday)
 
-→ **Make yesterday's Colorado compliance memo discoverable TODAY** — [`2026-06-30/03 §1`](./2026-06-30/03-practical-skills-and-tools.md#1-colorado-day1-discoverability) — 30 minutes; LinkedIn keyword cluster (AI Compliance Engineer / SB24-205 / NIST AI RMF / pre-deployment evaluation / output provenance); resume headline; Day-1 screenshot. The Act takes effect *today* and the keyword has ~zero candidate competition for the next ~30 days.
+→ **Ship the "cost-aware Claude Code config" gist tonight** — [`2026-07-02/03 §1`](./2026-07-02/03-practical-skills-and-tools.md#1-prompt-cache) + [`§3`](./2026-07-02/03-practical-skills-and-tools.md#3-hooks). 60 minutes: (a) `cache_control` with `ttl: "1h"` on system prompt + tool defs; (b) `PreToolUse` hook filtering pytest/go test/npm test output; (c) trimmed <200-line CLAUDE.md + one `.claude/skills/*/SKILL.md`. Log per-session cost before/after. One artifact answers three interview questions — the direct counter to the Karp/Lindy narrative.
 
-→ **Send 2 of this week's FDE applications by Wednesday night.** [`2026-06-30/05 §2`](./2026-06-30/05-career-and-startup.md#2-this-week-fde) — Anthropic Mission Programs (post-Mythos relift) + Anthropic Applied AI — Sciences (post-Jumper event tonight). Cover-letter hook = today's news beat.
+→ **Apply to Anthropic FDE Applied AI this week.** [`2026-07-02/05 §2`](./2026-07-02/05-career-and-startup.md#2-anthropic-fde) — attach the cost-aware config gist + a 1-page "Karp / Uber / Lindy → what I'd do about it" write-up. The FDE lane is where CS-grad polymath skills beat a pure-ML-PhD pedigree.
 
-→ **Build a 1-page mock impact assessment for a Claude-built HR-screen agent (60 min).** [`2026-06-30/03 §2`](./2026-06-30/03-practical-skills-and-tools.md#2-mock-impact-assessment) — maps to NIST AI 600-1 + Colorado consumer-rights bundle. Tonight portfolio piece.
+→ **Draft the Anthropic AI-for-Science credit-grant application by Saturday.** [`2026-07-02/01 §6`](./2026-07-02/01-big-lab-moves.md#6-anthropic-science) — deadline **July 15**. Frame around a stepwise-verifiable science-agent workflow (cite [SciAgentArena](./2026-06-28/04-research-progress.md)). ~13 days to ship.
 
-→ **Read [`01` §1 Colorado Day 1](./2026-06-30/01-big-lab-moves.md#1-colorado-day-1) + [`01` §4 the Anthropic SF science event](./2026-06-30/01-big-lab-moves.md#4-anthropic-sf-science).** 10 minutes; the two threads most likely to shape Q3 hiring vocabulary.
+→ **Read [`01` §2 Meta Compute](./2026-07-02/01-big-lab-moves.md#2-meta-compute) + [`01` §5 the token-billing revolt](./2026-07-02/01-big-lab-moves.md#5-token-attack).** 10 minutes; the two threads most likely to reprice the AI-application layer this quarter.

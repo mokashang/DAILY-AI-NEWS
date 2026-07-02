@@ -4,7 +4,42 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-06-30**
+Last updated: **2026-07-02**
+
+---
+
+## Added 2026-07-02 (Thursday) — cost-aware config + AI-for-Science app
+
+Rolls up alongside the existing week block below. All from [today's edition](./2026-07-02/).
+
+### Thursday July 2 — cost-aware Claude Code artifact tonight
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship "cost-aware Claude Code config" gist**: (a) 1h `cache_control` override on system prompt + tool defs, (b) `PreToolUse` hook filtering pytest/go-test/npm-test output to failing lines, (c) trimmed <200-line CLAUDE.md + one `.claude/skills/*/SKILL.md`. Log per-session cost before/after; commit + push to public gist | Tonight | [2026-07-02/03 §1](./2026-07-02/03-practical-skills-and-tools.md#1-prompt-cache) · [§3](./2026-07-02/03-practical-skills-and-tools.md#3-hooks) |
+| ⚪ | Install `ykdojo/claude-code-tips` + `dx` plugin; disable auto-compact; use `/handoff` on next context switch | Tonight | [2026-07-02/03 §4](./2026-07-02/03-practical-skills-and-tools.md#4-plugin) |
+| ⚪ | Verify Fable 5 vs Opus 4.8 fallback behavior on one coding-agent workflow; log false-positive rate | This week | [2026-07-02/01 §1](./2026-07-02/01-big-lab-moves.md#1-fable5) |
+
+### By Friday July 3 — apply + attach today's artifact
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply: Anthropic — FDE, Applied AI** — attach the cost-aware config gist + a 1-page "Karp / Uber / Lindy → what I'd do about it" write-up | Fri | [2026-07-02/05 §2](./2026-07-02/05-career-and-startup.md#2-anthropic-fde) |
+| ⚪ | **Apply: Baseten** — platform-eng / FDE (tripling headcount at $13B post) | Fri | [2026-07-02/05 §1](./2026-07-02/05-career-and-startup.md#1-baseten) |
+
+### By Saturday July 5 — Science credit-grant draft (deadline July 15)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Draft Anthropic AI-for-Science $30K credit-grant application** — stepwise-verifiable science-agent workflow, cite SciAgentArena as eval substrate | Sat | [2026-07-02/01 §6](./2026-07-02/01-big-lab-moves.md#6-anthropic-science) · [SciAgentArena](./2026-06-28/04-research-progress.md) |
+| ⚪ | Pick 2 YC S26 companies from launch page; cold-email as founding engineer | Sat | [2026-07-02/05 §3](./2026-07-02/05-career-and-startup.md#3-yc-s26) |
+
+### Weekend — portfolio
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Implement **initializer + coding-agent + `claude-progress.txt`** pattern on one portfolio project; run a nightly refactor agent | Weekend | [2026-07-02/03 §2](./2026-07-02/03-practical-skills-and-tools.md#2-long-running) |
+| ⚪ | Add **MoE routing / long-context eval / non-NVIDIA inference** to LinkedIn skills; cite LongCat-2.0 evidence | This week | [2026-07-02/02 §1](./2026-07-02/02-new-emerging.md#1-longcat) |
 
 ---
 

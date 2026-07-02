@@ -4,6 +4,32 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
+Last updated: **2026-07-02** *(archive resumed after ~6-week pause; new 2026-07-02 rows tagged NEW at top of each section)*
+
+---
+
+## NEW 2026-07-02 threads
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Claude Fable 5 gated redeployment** | 🟡 NEW | **2026-07-02:** Commerce lifted June-12 export controls; Anthropic redeployed globally with a retrained cybersecurity classifier + automatic Opus 4.8 fallback on blocked prompts (>99% block on original bypass; more false-positives on benign coding) | False-positive rate on legit red-team/coding workflows; whether OpenAI/Google copy the "voluntary suspension → retrained classifier → silent fallback" pattern on next incident |
+| **Meta Compute (4th hyperscaler)** | 🟡 NEW | **2026-07-01:** Meta announces cloud unit under Janardhan/Gross/Powell McCormick; Bedrock-style hosted models + CoreWeave/Nebius-competing raw compute; 2026 capex raised to $125–145B; 1 GW Midwest DC + 2,250-acre Louisiana "Hyperion"; META +10% | Pricing vs. Bedrock/CoreWeave/Nebius; whether Muse Spark ships GA there first; enterprise customer logos |
+| **GPT-5.6 (Sol / Terra / Luna) gov-coordinated preview** | 🟡 NEW | **2026-06-26:** OpenAI unveils three-tier family; ~20-partner preview; API + Codex only; Cerebras serving Sol at 750 tok/s; GA "in coming weeks" | The ~20-partner list; Cerebras Sol pricing; whether Terra/Luna undercut Haiku/Flash; GA date |
+| **Enterprise token-billing revolt** | 🟡 NEW | **2026-06-26 → 07-01:** CNBC — Uber added $1,500/mo AI tiers after burning annual budget in 4 months; Lindy migrated 100% traffic Claude → DeepSeek; Palantir Karp (July 1) publicly calls token model "completely wrong" | Whether Anthropic/OpenAI ship outcome-priced or bulk-inference tiers in Q3; more named enterprise pivots |
+| **Meituan LongCat-2.0** | 🟢 NEW | **2026-06-30:** open-sources 1.6T MoE (33–56B active), MIT license, 1M ctx; 59.5% SWE-Bench Pro (beats GPT-4.5 58.6), 70.8% Terminal-Bench; trained on 50K Chinese ASICs (no NVIDIA); ran as "Owl Alpha" on OpenRouter for ~2 months before reveal | Adoption vs. DeepSeek V4; whether inference cost undercuts Claude-Haiku for coding agents; US routing sheets flipping to it |
+| **Baseten $1.5B Series F at $13B** | 🟢 NEW | **2026-06-22:** Altimeter/Conviction/Spark; 160% val jump in 5 mo; ~20× YoY rev; 1B+ daily inference reqs / 87 clusters / 18 clouds; "tripling headcount this year" | Careers page volume; next inference-infra $1B+ round to anchor the category |
+| **Upscale AI $190M A-1 at $2B (NVIDIA joins)** | 🟢 NEW | **2026-06-22:** Premji Invest lead; NVIDIA + Salesforce Ventures + Temasek + Seligman join; open-standard AI networking fabric; $500M total | Whether NVIDIA doubles down on the Ethernet-side fabric ecosystem; Broadcom / Arista responses |
+| **NewCore $66M seed (agent IAM)** | 🟢 NEW | **2026-06-15:** Cyberstarts lead + Index + Evolution; ex-Unit 8200 + ex-T-Mobile CIO; ~10 customers + 10 design partners | First M&A rumor; whether Okta/Entra ship native agent-identity |
+| **Niteshift $7M seed (per-minute coding-agent runtime)** | 🟡 NEW | **2026-06-10:** Greylock (Jerry Chen) lead + Reid Hoffman + Datadog co-founders + Braintrust + Reflection AI angels; ex-Datadog founders; per-minute pricing (not tokens) | Whether per-minute pricing sticks as a category norm; Cursor/Cognition response |
+| **Equal AI $30M Series B (consumer voice)** | 🟢 NEW | **2026-06:** Prosus + Tomales Bay; 1M MAU / 350K DAU in 8 months since Oct-2025 launch | Retention curves in new verticals (fin services / concierge); voice-AI M&A wave |
+| **YC S26 batch ~60% AI** | 🟡 NEW | **2026-06:** Batch launched, 55+ cos, agent-infra RFS; $500K checks | Demo day; hiring surge from batch cos in months 3–6 |
+| **Anthropic AI for Science + $30K credit grants** | 🟡 NEW | **2026-06-30:** John Jumper's first public since joining Anthropic; VirBench eval; grants for up to 50 projects; **apply by July 15** | Grant recipients (would signal target verticals); Jumper team hiring; whether biology/chem verticals become a formal Anthropic pillar |
+| **OpenAI → Anthropic engineer flow ~8:1** | 🟡 NEW | **2026-06:** TechCrunch data shows OpenAI-to-Anthropic engineer moves outnumber the reverse ~8:1; hire list includes Karpathy (May), Boyd (ex-MSFT Azure AI), Jumper | Whether the ratio persists; new named senior hires; OpenAI counter-moves |
+| **Tech-layoffs bifurcation (AI teams exempt)** | 🟡 NEW | **2026-06-22:** Mid-2026 pace 1,115/day (2× 2025), 56% of events cite AI; MSFT/Google/Amazon new-grad tech hiring −40% vs 2024, but AI teams still growing | Whether the bifurcation gap widens through H2; when new-grad SDE stabilizes |
+| **New-grad AI-eng comp** | 🟡 NEW | **2026-06:** Robert Half: $134K–$193K base; ~$206K avg TC; OpenAI $300K retention (2-yr vest) since Aug 2025; frontier labs 10–20% above mainstream base + 1.5–2.5× equity | Anthropic public matching move; whether Google DeepMind ships an equivalent bonus |
+
+---
+
 Last updated: **2026-05-22**
 
 ---

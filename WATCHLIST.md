@@ -4,7 +4,24 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-07-02**
+Last updated: **2026-07-03**
+
+> **FRIDAY DELTAS (2026-07-03 — Anthropic Claude apps gateway ships · Claude Science live · Artifacts-in-Claude-Code · new constitution · SB Neo neocloud · Together AI $800M/$8.3B · Cloudflare Search/Agent/Training):**
+> - 🆕 **Claude apps gateway (Bedrock + Google Cloud)** — self-hosted control plane; SSO, per-user cost attribution, org/group/user spend caps, three-way failover; open protocol so Databricks/Snowflake/LiteLLM/Portkey can ship compatible implementations. **Direct counter to the [Karp/Uber/Lindy token-billing revolt](./2026-07-02/01-big-lab-moves.md#5-token-attack).** Watch (a) third-party gateway implementations, (b) Q3 outcome-priced SKUs on top of it, (c) attach at Fortune-1000 buyers that stalled in Q2. See [2026-07-03/01 §1](./2026-07-03/01-big-lab-moves.md#1-gateway).
+> - 🆕 **Claude Science** — macOS/Linux beta workbench for researchers (3D protein / genome / chemical structures rendered natively; every figure ships with code + env + message history). **$30K credit-grant program × up to 50 projects; deadline July 15 (T-12 days).** See [2026-07-03/01 §2](./2026-07-03/01-big-lab-moves.md#2-claude-science).
+> - 🆕 **Artifacts in Claude Code (Pro + Max)** — Claude Code can publish + update private live pages while it codes; enables long-running-agent status pages. Pairs with doubled 5-hr limits + 50%-higher weekly limits (through July 13). See [2026-07-03/01 §3](./2026-07-03/01-big-lab-moves.md#3-limits-artifacts).
+> - 🆕 **Anthropic's new "constitution"** — public values doc; three days before UN Global Dialogue on AI Governance opens Geneva July 6. Watch whether OpenAI/Google publish comparable docs before member-state discussions. See [2026-07-03/01 §4](./2026-07-03/01-big-lab-moves.md#4-constitution).
+> - 🆕 **SB Neo (SoftBank US neocloud, July 2)** — 10 GW target by ~2030; FY27 first-customer window; "Infrinia AI Cloud OS." **Second neocloud entrant in one week after Meta Compute.** Watch US infra-eng hiring page. See [2026-07-03/02 §1](./2026-07-03/02-new-emerging.md#1-sb-neo).
+> - 🆕 **Together AI $800M / $8.3B Series C (Aramco lead + NVIDIA/Vista/GC/S Ventures/Pegatron)** — bookings $1.15B; customers = Cursor/Cognition/Decagon; 500+ MW committed for ~50× capacity expansion over 5 yrs. Ratifies the open-model neocloud thesis. See [2026-07-03/02 §2](./2026-07-03/02-new-emerging.md#2-together).
+> - 🆕 **Cloudflare — Search / Agent / Training three-way AI-bot classification (July 1)** — Pay-Per-Crawl rails; **Sept 15 defaults will BLOCK Agent + Training on ad-monetized pages.** Repricing event for every browser-use-agent product and every open-model training corpus. See [2026-07-03/02 §3](./2026-07-03/02-new-emerging.md#3-cloudflare).
+> - 🆕 **TwelveLabs $100M Series B (NEA + Naver + Amazon)** — video-AI unicorn ratified. See [2026-07-03/02 §4](./2026-07-03/02-new-emerging.md#4-twelvelabs).
+> - 🆕 **ElevenLabs exploring ~$22B secondary** — voice-AI concentration continues alongside Grok Voice Builder Day 2. See [2026-07-03/02 §5](./2026-07-03/02-new-emerging.md#5-elevenlabs).
+> - 🆕 **AI-assisted vuln discovery signal** — 21 orgs disclosed ~1,500 high/critical CVEs in June alone. Security-eng-with-AI is a real hire lane and agentic-SOC wedges get fresh tailwind. See [2026-07-03/05 §5](./2026-07-03/05-career-and-startup.md#5-security-lane).
+> - 🆕 **Research eval frontier** — LLM-Agent benchmarks survey (arXiv 2507.21504, 44 benchmarks catalogued) + LiveResearchBench (QUEST synthetic→live transfer) + AutoResearchBench (3M+ arXiv corpus, multi-hop synthesis) + Efficient Benchmarking (2603.23749, 44–70% task-count cut, 30–70% pass-rate sweet spot). Field is moving to **live, realistic, cheap** evals. See [2026-07-03/04](./2026-07-03/04-research-progress.md).
+> - ➡️ **Meta Compute** — Day 3. Sell-side moving to "vs CoreWeave/Nebius/Together per-GPU-hour" framing. See [2026-07-03/01 §5](./2026-07-03/01-big-lab-moves.md#5-meta-compute-day3).
+> - ➡️ **Fable 5 / Mythos 5 return** — Day 3. False-positive-rate data still the leading signal.
+> - ➡️ **GPT-5.6 Sol/Terra/Luna preview** — no fresh material today. Watch Cerebras 750 t/s.
+> - ➡️ **Sonnet 5 promo pricing ($2/$10 through Aug 31)** — carried; T-59 days to standard $3/$15.
 
 > **THURSDAY DELTAS (2026-07-02 — Meta Compute stood up · token-billing revolt on record · Grok Voice no-code · Fable 5 Day 2 · Anthropic AI-for-Science aftermath):**
 > - 🆕 **Meta Compute — fourth hyperscaler**: Bedrock-style hosted-models + CoreWeave-competing raw compute under Janardhan/Gross/Powell McCormick; 2026 capex raised to $125–145B; 1 GW Midwest DC + 2,250-acre Louisiana "Hyperion"; META +10%. Watch pricing vs. Bedrock/CoreWeave/Nebius, whether Muse Spark ships GA there first, first enterprise customer logos. See [2026-07-02/01 §2](./2026-07-02/01-big-lab-moves.md#2-meta-compute).

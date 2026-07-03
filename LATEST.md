@@ -1,6 +1,6 @@
 # LATEST — pointer to the most recent edition
 
-> **2026-07-02** — see [`2026-07-02/00-tldr.md`](./2026-07-02/00-tldr.md)
+> **2026-07-03** — see [`2026-07-03/00-tldr.md`](./2026-07-03/00-tldr.md)
 
 This file is auto-updated every edition so a one-click read of the latest TL;DR is always at the repo root.
 
@@ -8,18 +8,18 @@ This file is auto-updated every edition so a one-click read of the latest TL;DR 
 
 ## Today's headline
 
-**Thursday — Meta Compute stood up, the token bill is under audit, and Grok's voice layer just went no-code.** **Meta announces Meta Compute** (yesterday) — a Bedrock-style hosted-models service + a CoreWeave/Nebius-competing raw-compute business under Janardhan/Gross/Powell McCormick; 2026 capex raised to **$125–145B**; **META +10%** = fourth hyperscaler is being born. On the demand side, enterprise buyers stopped tolerating token pricing: **Uber blew its annual AI budget in four months**, **Lindy migrated 100% of traffic from Claude → DeepSeek**, and **Palantir's Karp (July 1) called the token model "completely wrong."** And **xAI ships the Grok Voice AI Agent Builder today** — no-code, <2 min setup, 25+ languages. Yesterday's [Fable-5 redeployment](./2026-07-01/01-big-lab-moves.md#2-fable-return) is Day 2; watch the false-positive-rate data. **For you: model-routing/caching/cheap-fallback moved from optional to baseline resume skill.**
+**Friday — Anthropic answers the token-billing revolt with three shipped products in 48 hours; the compute floor adds a second neocloud; Cloudflare puts a paywall between agents and the web.** Anthropic ships the **[Claude apps gateway for Bedrock + Google Cloud](./2026-07-03/01-big-lab-moves.md#1-gateway)** — self-hosted control plane, SSO, spend caps, failover, published open protocol — plus **[Claude Science](./2026-07-03/01-big-lab-moves.md#2-claude-science)** (AI workbench for researchers; **$30K credit-grant deadline July 15**) plus **[Artifacts-in-Claude-Code](./2026-07-03/01-big-lab-moves.md#3-limits-artifacts)** + doubled rate limits plus a **[new public constitution](./2026-07-03/01-big-lab-moves.md#4-constitution)**. Meanwhile **[SoftBank stands up SB Neo](./2026-07-03/02-new-emerging.md#1-sb-neo)** (10 GW by 2030), **[Together AI closes $800M at $8.3B](./2026-07-03/02-new-emerging.md#2-together)**, and **[Cloudflare splits AI traffic into Search / Agent / Training](./2026-07-03/02-new-emerging.md#3-cloudflare)** with **Sept 15 defaults blocking Agent + Training on ad-monetized pages**. **For you: the gateway is the FDE demo of Q3, the neocloud lane is the second-strongest hire lane after FDE, and the $30K Claude Science grant is a real startup on-ramp with 12 days to the deadline.**
 
-Full edition → [`2026-07-02/`](./2026-07-02/)
+Full edition → [`2026-07-03/`](./2026-07-03/)
 
 ---
 
-## One-thing-to-do (Thursday)
+## One-thing-to-do (Weekend 07-04 → 07-06)
 
-→ **Ship the "cost-aware Claude Code config" gist tonight** — [`2026-07-02/03 §1`](./2026-07-02/03-practical-skills-and-tools.md#1-prompt-cache) + [`§3`](./2026-07-02/03-practical-skills-and-tools.md#3-hooks). 60 minutes: (a) `cache_control` with `ttl: "1h"` on system prompt + tool defs; (b) `PreToolUse` hook filtering pytest/go test/npm test output; (c) trimmed <200-line CLAUDE.md + one `.claude/skills/*/SKILL.md`. Log per-session cost before/after. One artifact answers three interview questions — the direct counter to the Karp/Lindy narrative.
+→ **Deploy the Claude apps gateway on a personal AWS or GCP account + one live-Artifact long-running agent, push to a public `personal-fde-lab` repo.** [`2026-07-03/03 §1`](./2026-07-03/03-practical-skills-and-tools.md#1-gateway-deploy). Sat morning: gateway build (Fargate + RDS or Cloud Run + Cloud SQL), wire SSO, cap spend at $10/day, run outage drill (revoke Bedrock IAM → observe Vertex failover). Sat afternoon: [Artifacts-in-Claude-Code recipe](./2026-07-03/03-practical-skills-and-tools.md#2-artifacts-recipe) — one long refactor with live status page. Sun: [rewrite routing config](./2026-07-03/03-practical-skills-and-tools.md#3-routing) — add Together AI, Meta Compute, Cloudflare `Agent` identifier. **One weekend = the strongest single artifact you can put in front of an FDE recruiter in Q3.**
 
-→ **Apply to Anthropic FDE Applied AI this week.** [`2026-07-02/05 §2`](./2026-07-02/05-career-and-startup.md#2-anthropic-fde) — attach the cost-aware config gist + a 1-page "Karp / Uber / Lindy → what I'd do about it" write-up. The FDE lane is where CS-grad polymath skills beat a pure-ML-PhD pedigree.
+→ **Apply Anthropic FDE Applied AI Monday** with the gateway repo attached + a 1-page "Karp / Uber / Lindy → gateway → what I'd do about it" writeup. [`2026-07-03/05 §1`](./2026-07-03/05-career-and-startup.md#1-fde-surge).
 
-→ **Draft the Anthropic AI-for-Science credit-grant application by Saturday.** [`2026-07-02/01 §6`](./2026-07-02/01-big-lab-moves.md#6-anthropic-science) — deadline **July 15**. Frame around a stepwise-verifiable science-agent workflow (cite [SciAgentArena](./2026-06-28/04-research-progress.md)). ~13 days to ship.
+→ **Draft the Claude Science credit-grant proposal by Thu July 9.** Deadline **Wed July 15** ($30K credits × up to 50 projects). Frame around a stepwise-verifiable science-agent workflow; cite [AutoResearchBench](./2026-07-03/04-research-progress.md#3-autoresearch) + [SciAgentArena](./2026-06-28/04-research-progress.md). [`2026-07-03/05 §3`](./2026-07-03/05-career-and-startup.md#3-grant-deadline).
 
-→ **Read [`01` §2 Meta Compute](./2026-07-02/01-big-lab-moves.md#2-meta-compute) + [`01` §5 the token-billing revolt](./2026-07-02/01-big-lab-moves.md#5-token-attack).** 10 minutes; the two threads most likely to reprice the AI-application layer this quarter.
+→ **Read [`01` §1 Claude apps gateway](./2026-07-03/01-big-lab-moves.md#1-gateway) + [`02` §3 Cloudflare Search/Agent/Training](./2026-07-03/02-new-emerging.md#3-cloudflare).** 10 minutes; the two threads most likely to reprice the AI-application layer in Q3 — the first *unblocks* enterprise Claude Code rollouts, the second *changes the economics* of every browser-use agent.

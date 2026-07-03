@@ -4,7 +4,45 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-07-02**
+Last updated: **2026-07-03**
+
+---
+
+## Added 2026-07-03 (Friday) — gateway deploy + AI-for-Science credit-grant sprint (T-12 days)
+
+Rolls up alongside the existing week block below. All from [today's edition](./2026-07-03/).
+
+### Weekend July 4–6 — the FDE demo of Q3
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Deploy the Claude apps gateway** on a personal AWS or GCP account (Fargate + RDS or Cloud Run + Cloud SQL). Wire Google Workspace SSO, cap spend at $10/day, run outage drill (revoke Bedrock IAM → observe Vertex failover), export collector CSV → mini Grafana dashboard. 1-page README + 90-sec Loom. Push to public `personal-fde-lab` repo | Sat AM | [2026-07-03/03 §1](./2026-07-03/03-practical-skills-and-tools.md#1-gateway-deploy) |
+| ⚪ | **Turn on Artifacts-in-Claude-Code**; add the `CLAUDE.md` line for live status Artifact; run one long refactor with the URL posted to yourself | Sat PM | [2026-07-03/03 §2](./2026-07-03/03-practical-skills-and-tools.md#2-artifacts-recipe) |
+| ⚪ | **Update routing config** — add Together AI (cheap-fallback), Cloudflare `Agent` UA identifier + `retry-after` handling, three-way failover priority in the gateway. Push to same repo | Sun | [2026-07-03/03 §3](./2026-07-03/03-practical-skills-and-tools.md#3-routing) |
+
+### Claude Science credit-grant sprint (deadline Wed July 15)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Find one lab partner** (professor, undergrad lab, or grad-lab data owner) willing to give data access for a stepwise-verifiable workflow (single-cell RNA-seq QC / retrosynthesis QC / protein-mutation triage) | Sat | [2026-07-03/05 §3](./2026-07-03/05-career-and-startup.md#3-grant-deadline) |
+| ⚪ | Draft workflow + eval design; cite AutoResearchBench + SciAgentArena baselines; name a delta target | Sun | [2026-07-03/04 §3](./2026-07-03/04-research-progress.md#3-autoresearch) · [SciAgentArena](./2026-06-28/04-research-progress.md) |
+| ⚪ | Write proposal (~5 pages); submit **early on Thu July 9** to catch format issues | Mon–Wed | [2026-07-03/01 §2](./2026-07-03/01-big-lab-moves.md#2-claude-science) |
+
+### Monday July 6 — apply with the gateway repo attached
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply: Anthropic — FDE, Applied AI** — attach the gateway `personal-fde-lab` repo + a 1-page "Karp / Uber / Lindy → gateway → what I'd do about it" writeup | Mon | [2026-07-03/05 §1](./2026-07-03/05-career-and-startup.md#1-fde-surge) · [2026-07-02/05 §2](./2026-07-02/05-career-and-startup.md#2-anthropic-fde) |
+| ⚪ | **Apply: Deloitte / Accenture / PwC / EY Anthropic-partner FDE** — same attachments | Mon | [2026-07-03/05 §1](./2026-07-03/05-career-and-startup.md#1-fde-surge) |
+| ⚪ | **Bookmark + check weekly**: Together AI careers, Baseten careers, SoftBank US careers (SB Neo pre-launch), Meta Superintelligence Labs — Meta Compute team | Weekly | [2026-07-03/05 §2](./2026-07-03/05-career-and-startup.md#2-neocloud-hiring) |
+
+### Reading (30 min blocks)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Read the LLM-Agent benchmarks survey (arXiv 2507.21504); pick 3 benchmarks per gap (reproducibility / cost / real-world) — cheat sheet for interviews | This week | [2026-07-03/04 §1](./2026-07-03/04-research-progress.md#1-agent-eval-survey) |
+| ⚪ | Read Anthropic's new constitution once (values doc, quotable in EO/UN-facing writeups) | This week | [2026-07-03/01 §4](./2026-07-03/01-big-lab-moves.md#4-constitution) |
+| ⚪ | Add **Sept 15** (Cloudflare Agent+Training block defaults on ad-monetized pages) to WATCHLIST as a hard deadline | Today | [2026-07-03/02 §3](./2026-07-03/02-new-emerging.md#3-cloudflare) |
 
 ---
 

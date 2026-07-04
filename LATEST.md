@@ -1,6 +1,6 @@
 # LATEST — pointer to the most recent edition
 
-> **2026-07-03** — see [`2026-07-03/00-tldr.md`](./2026-07-03/00-tldr.md)
+> **2026-07-04** — see [`2026-07-04/00-tldr.md`](./2026-07-04/00-tldr.md)
 
 This file is auto-updated every edition so a one-click read of the latest TL;DR is always at the repo root.
 
@@ -8,18 +8,24 @@ This file is auto-updated every edition so a one-click read of the latest TL;DR 
 
 ## Today's headline
 
-**Friday — Anthropic answers the token-billing revolt with three shipped products in 48 hours; the compute floor adds a second neocloud; Cloudflare puts a paywall between agents and the web.** Anthropic ships the **[Claude apps gateway for Bedrock + Google Cloud](./2026-07-03/01-big-lab-moves.md#1-gateway)** — self-hosted control plane, SSO, spend caps, failover, published open protocol — plus **[Claude Science](./2026-07-03/01-big-lab-moves.md#2-claude-science)** (AI workbench for researchers; **$30K credit-grant deadline July 15**) plus **[Artifacts-in-Claude-Code](./2026-07-03/01-big-lab-moves.md#3-limits-artifacts)** + doubled rate limits plus a **[new public constitution](./2026-07-03/01-big-lab-moves.md#4-constitution)**. Meanwhile **[SoftBank stands up SB Neo](./2026-07-03/02-new-emerging.md#1-sb-neo)** (10 GW by 2030), **[Together AI closes $800M at $8.3B](./2026-07-03/02-new-emerging.md#2-together)**, and **[Cloudflare splits AI traffic into Search / Agent / Training](./2026-07-03/02-new-emerging.md#3-cloudflare)** with **Sept 15 defaults blocking Agent + Training on ad-monetized pages**. **For you: the gateway is the FDE demo of Q3, the neocloud lane is the second-strongest hire lane after FDE, and the $30K Claude Science grant is a real startup on-ramp with 12 days to the deadline.**
+**Saturday (Independence Day) — the state, the protocol, and the escape valve all move inside 24 hours ahead of the UN Geneva Dialogue.** **[Anthropic closes the China transfer-station loopholes](./2026-07-04/01-big-lab-moves.md#1-china-loopholes)** (Ant Group Singapore-shell, ByteDance VPN reimbursements, Azure-hosted foreign shells — detected via time-zone + proxy + network-name signatures; steganography check in Claude Code removed July 2). **[Pentagon–Anthropic emails released July 2](./2026-07-04/01-big-lab-moves.md#2-pentagon-emails)** — Emil Michael to Amodei: **"just not workable"** on Anthropic's ban on autonomous weapons + domestic surveillance; the AUP-vs-procurement precedent. **[OpenAI floats a 5% US-government stake ("Public Wealth Fund")](./2026-07-04/01-big-lab-moves.md#3-openai-govt-stake)** — ~$42.6B at $852B pre-IPO, asks Anthropic / Google / xAI to cede the same, IPO timing may slip to 2027. **[MCP 2026-07-28 stateless RC is out — T-24 days to breaking changes](./2026-07-04/02-new-emerging.md#1-mcp-stateless)**: sessions removed, required routing headers, `ttlMs`/`cacheScope`, Tasks + Apps extensions, six OAuth 2.1 SEPs. **[Meituan open-sources LongCat-2.0](./2026-07-04/02-new-emerging.md#2-longcat)** — 1.6T MoE, MIT license, trained entirely on Chinese chips, leading OpenRouter usage. **[UN Global Dialogue on AI Governance — Geneva, July 6–7 (T-2 days)](./2026-07-04/01-big-lab-moves.md#4-geneva)** — first UN convening under Global Digital Compact.
 
-Full edition → [`2026-07-03/`](./2026-07-03/)
+**For you:** today is the July AI-spend audit (`ME.md` 4th-of-month rule), the MCP migration is Saturday's high-leverage build, and Geneva is the governance-lane inflection window.
+
+Full edition → [`2026-07-04/`](./2026-07-04/)
 
 ---
 
-## One-thing-to-do (Weekend 07-04 → 07-06)
+## One-thing-to-do (Saturday July 4 → Sunday July 5)
 
-→ **Deploy the Claude apps gateway on a personal AWS or GCP account + one live-Artifact long-running agent, push to a public `personal-fde-lab` repo.** [`2026-07-03/03 §1`](./2026-07-03/03-practical-skills-and-tools.md#1-gateway-deploy). Sat morning: gateway build (Fargate + RDS or Cloud Run + Cloud SQL), wire SSO, cap spend at $10/day, run outage drill (revoke Bedrock IAM → observe Vertex failover). Sat afternoon: [Artifacts-in-Claude-Code recipe](./2026-07-03/03-practical-skills-and-tools.md#2-artifacts-recipe) — one long refactor with live status page. Sun: [rewrite routing config](./2026-07-03/03-practical-skills-and-tools.md#3-routing) — add Together AI, Meta Compute, Cloudflare `Agent` identifier. **One weekend = the strongest single artifact you can put in front of an FDE recruiter in Q3.**
+→ **Migrate one MCP server to the 2026-07-28 stateless RC.** [`2026-07-04/03 §1`](./2026-07-04/03-practical-skills-and-tools.md#1-mcp-migration). 2–3 hours. Sessions removed, `Mcp-Method`/`Mcp-Name` headers, `ttlMs`/`cacheScope`, one long-running tool moved to the Tasks extension. Publish before/after wire trace + 3-min outage-drill Loom. **This is the FDE / integration-engineer artifact of Q3** — every production MCP server needs it before July 28.
 
-→ **Apply Anthropic FDE Applied AI Monday** with the gateway repo attached + a 1-page "Karp / Uber / Lindy → gateway → what I'd do about it" writeup. [`2026-07-03/05 §1`](./2026-07-03/05-career-and-startup.md#1-fde-surge).
+→ **Run the July AI-spend audit** (`ME.md` 4th-of-month personal rule). [`2026-07-04/03 §3`](./2026-07-04/03-practical-skills-and-tools.md#3-spend-audit). 30 min. Pull Anthropic Console + OpenAI Usage + Cursor + cloud tokens; write `SPEND-2026-07.md`; identify the 20% of usage = 80% of cost.
 
-→ **Draft the Claude Science credit-grant proposal by Thu July 9.** Deadline **Wed July 15** ($30K credits × up to 50 projects). Frame around a stepwise-verifiable science-agent workflow; cite [AutoResearchBench](./2026-07-03/04-research-progress.md#3-autoresearch) + [SciAgentArena](./2026-06-28/04-research-progress.md). [`2026-07-03/05 §3`](./2026-07-03/05-career-and-startup.md#3-grant-deadline).
+→ **Add LongCat-2.0 as a 5th routing slot.** [`2026-07-04/03 §2`](./2026-07-04/03-practical-skills-and-tools.md#2-longcat-routing). 20 min via Together AI or Baseten. Route bulk-refactor + test-generation workloads there; compare against Opus 4.7 on cost / time / pass-rate.
 
-→ **Read [`01` §1 Claude apps gateway](./2026-07-03/01-big-lab-moves.md#1-gateway) + [`02` §3 Cloudflare Search/Agent/Training](./2026-07-03/02-new-emerging.md#3-cloudflare).** 10 minutes; the two threads most likely to reprice the AI-application layer in Q3 — the first *unblocks* enterprise Claude Code rollouts, the second *changes the economics* of every browser-use agent.
+→ **Read the Anthropic constitution + one TechPolicy piece before Monday.** [`2026-07-04/03 §4`](./2026-07-04/03-practical-skills-and-tools.md#4-constitution-read). 20 min. Sets up your Geneva Dialogue coverage Mon–Tue and gives you a 1-page LinkedIn note for Tuesday.
+
+→ **Also live from 2026-07-03**: draft the Claude Science credit-grant proposal by Thu **July 9** (deadline Wed **July 15**, $30K × up to 50 projects). Carried from [`2026-07-03/05 §3`](./2026-07-03/05-career-and-startup.md#3-grant-deadline). Frame around a stepwise-verifiable science-agent workflow; cite [Self-Evolving Agents w/ Anytime-Valid Certificates](./2026-07-04/04-research-progress.md#2-long-horizon) + [AutoNumerics](./2026-07-04/04-research-progress.md#4-auto-research).
+
+→ **Monday: apply to Anthropic FDE / Applied AI + 1 governance-adjacent role** with the migration repo attached + a 1-page cover-letter one-liner ("shipped MCP-stateless-RC migration this weekend, T-24 to July 28 spec lock").

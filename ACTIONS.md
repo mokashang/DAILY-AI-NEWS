@@ -4,7 +4,47 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-07-03**
+Last updated: **2026-07-05**
+
+---
+
+## Added 2026-07-05 (Sunday) — T-1 to Geneva · publish weekend artifacts · Monday apply queue
+
+Rolls up alongside the existing week block below. All from [today's edition](./2026-07-05/).
+
+### Sunday July 5 — publish, don't start
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Publish the MCP-stateless migration "before/after" writeup** to public repo — two branches (`pre-` / `post-2026-07-28-rc`), 5 breaking-change bullets in README, 90-sec Loom, one tool wired to Tasks extension (server returns handle, client polls), one tool wired to Apps extension (sandboxed HTML). Attach to Monday's apply queue. | Sun night | [2026-07-05/03 §1](./2026-07-05/03-practical-skills-and-tools.md#1-mcp-sunday) |
+| ⚪ | **Send Claude Science lab-partner email today** — one professor / undergrad lab / grad-lab data owner willing to grant data access for a stepwise-verifiable workflow (single-cell RNA-seq QC / retrosynthesis QC / protein-mutation triage). Confirmation by Mon = grant on track. | Sun | [2026-07-05/05 §3](./2026-07-05/05-career-and-startup.md#3-science-grant) |
+| ⚪ | **Set up Monday Geneva monitoring** — 8-min blocks 08:00 PT + 12:00 PT Mon–Tue; X list of UN AI Advisory Body + ITU Sec-Gen + WSIS delegates + Anthropic/OpenAI policy accounts; bookmark [UN Global Dialogue](https://www.un.org/global-dialogue-ai-governance/en) + [Indico overview](https://indico.un.org/event/1023375/overview) + [ITU AI for Good](https://aiforgood.itu.int/). | Sun tonight | [2026-07-05/03 §3](./2026-07-05/03-practical-skills-and-tools.md#3-geneva-monitoring) |
+| ⚪ | **Spend-audit follow-up** — convert Saturday's 4th-of-month 80/20 finding into one concrete action for the coming week (model swap / cache extension / subagent-tier reshuffle). Log the target delta and July 20 checkpoint. | Sun | [2026-07-05/03 §4](./2026-07-05/03-practical-skills-and-tools.md#4-spend-followup) |
+
+### Monday July 6 — apply queue attaches yesterday's artifacts (by 09:00 PT)
+
+| Status | Role | Attach |
+|---|---|---|
+| ⚪ | **Anthropic — FDE, Applied AI** | MCP-migration repo + cost-router writeup + 1-page "Karp / Uber / Lindy → gateway → what I'd do" writeup |
+| ⚪ | **Anthropic — Solutions Engineer, Life Sciences (Claude Science vertical)** | In-progress grant application + lab-partner brief |
+| ⚪ | **OpenAI — FDE / Deployment Company** | MCP-migration repo + cost-router writeup |
+| ⚪ | **Big-4 (PwC / Deloitte / Accenture / EY) — Anthropic-partner FDE** | Same as Anthropic FDE attachments |
+| ⚪ | **One governance-lane role** (Anthropic Policy / OpenAI Policy / Google DeepMind Policy) | Four-policy-threads-at-Geneva synthesis paragraph |
+
+### Tue–Thu July 7–9 — Claude Science grant sprint
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Draft workflow + eval design; cite AutoResearchBench + SciAgentArena; name delta target (e.g., "cut QC false-positive rate 15pp on SciAgentArena RNA-seq subset") | Tue | [2026-07-05/05 §3](./2026-07-05/05-career-and-startup.md#3-science-grant) |
+| ⚪ | Full proposal (~5 pages) | Wed | [2026-07-05/05 §3](./2026-07-05/05-career-and-startup.md#3-science-grant) |
+| ⚪ | **Submit early Thu July 9** to catch format issues | Thu | [2026-07-05/05 §3](./2026-07-05/05-career-and-startup.md#3-science-grant) |
+
+### This week — governance-vocabulary + Geneva writeup
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Draft **"Geneva Day-1 debrief"** (personal notes Mon 21:00 PT; publishable version Tue AM) — vocabulary + red lines + coalitions | Mon–Tue | [2026-07-05/03 §3](./2026-07-05/03-practical-skills-and-tools.md#3-geneva-monitoring) |
+| ⚪ | Add Geneva-derived terms to LinkedIn skills row after side-event summaries land | Wed | [2026-07-05/05 §1](./2026-07-05/05-career-and-startup.md#1-governance-lane) |
 
 ---
 

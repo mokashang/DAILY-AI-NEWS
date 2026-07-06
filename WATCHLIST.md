@@ -4,7 +4,7 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-07-06** (note: 45-day gap since 2026-05-22 — see [`2026-07-06`](./2026-07-06/) for the resumption edition; the intervening weeks are covered by the July 6 file's watchlist deltas plus the resource links below)
 
 ---
 
@@ -256,3 +256,47 @@ Last updated: **2026-05-22**
 | **Read JADE paper + ship a tiny claim-decomposition demo (2-day project)** | ⚪ NEW | This week — see 2026-05-19/04 §2 |
 | **Update STARTUPS.md wedge log with at least 3 new wedges this Saturday** | ⚪ NEW | Sat May 23 — see STARTUPS.md |
 | **Start a personal `apps/meta-alumni-tracker.md` to log every Thursday DM + where they land 90 days out** | ⚪ NEW | Today / Thursday — see 2026-05-19/05 §1 |
+
+---
+
+## New threads from 2026-07-06 resumption edition
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Claude Fable 5 / Mythos 5 export-control saga** | 🟢 RESOLVED | **2026-07-01** Fable 5 globally redeployed after 18-day US Commerce export-control blackout (June 12 → June 30 lifted); Mythos 5 restored to select US orgs after June 26 govt approval, expanding via Glasswing program | Next borderline-model release template; whether the Cybersecurity Classifier + HackerOne bounty + severity framework become the industry template |
+| **AI Jailbreak Severity Framework (Anthropic draft)** | 🟡 NEW | **2026-07-01** shipped as a *draft* alongside Fable 5 redeployment | Whether OpenAI + Google adopt a compatible taxonomy; first cross-lab severity report; first HackerOne cyber-jailbreak $10K+ payout |
+| **HackerOne cyber-jailbreak bounty program** | 🟢 NEW | **2026-07-01** launched with Fable 5 return | Payout distribution; whether other labs launch parallel programs; first high-severity finding published |
+| **Claude Science + Anthropic in-house drug discovery** | 🟢 NEW | **2026-06-30** Claude Science shipped (60+ scientific tools, PKU launch demo); Anthropic simultaneously stood up own preclinical programs for neglected diseases | First Anthropic-authored preclinical paper; Novartis/Lilly/J&J integration announcements; first vertical-life-sciences FDE hire postings |
+| **Anthropic China-access enforcement** | 🟡 NEW | **2026-07-03** extended rules to close ownership-structure + transfer-station loopholes; detected ~25K fraudulent accounts / 28.8M exchanges Apr–Jun attributed to Alibaba entities as "largest distillation campaign in Anthropic's history"; steganography-in-Claude-Code detection removed July 2 after criticism | Ant Group / ByteDance public response; whether the crackdown affects Ant's Singapore ops; retaliatory access-limit on Anthropic dependencies |
+| **OpenAI GPT-5.6 (Sol / Terra / Luna) preview** | 🟡 NEW | **~2026-07-01–05** limited API + Codex preview to trusted partners; Sol claimed SOTA on Terminal-Bench 2.1 | GA date; public benchmark disclosures; ChatGPT model-picker rollout beyond Business |
+| **Anthropic confidential S-1 ($965B, June 1)** | 🟡 NEW | **2026-06-01** filed after $65B Series H at $965B post-money May 28; $47B ARR mid-May; projects $50B by end of July; positive FCF by 2027 | Public S-1 filing; roadshow window; first-day pop; revenue-mix disclosure (Claude Code, Solutions, Consumer, Enterprise) |
+| **OpenAI confidential S-1 (~$852B, ~June 8)** | 🟡 NEW | Confirmed by OpenAI ("we recently submitted a confidential S-1"); timing "still TBD" | Public S-1; MSFT terms; ad-revenue disclosure |
+| **Global H1 2026 VC = $510B record** | 🟢 | OpenAI + Anthropic = 43% of the pool; US-HQ'd = 88% of AI funding | Q3 2026 print; whether concentration ratio holds or falls |
+| **Together AI $800M Series C @ $8.3B (Aramco lead)** | 🟢 NEW | Closed early July | Follow-on rounds in open-source infra layer; Middle-East sovereign check counts as new AI capital pool |
+| **Shield AI $1.5B Series G ($2.25B package, $12.7B, +140% YoY)** | 🟢 NEW | Closed early July | Next $1B+ defense-AI round; hiring volume; whether Anduril raises |
+| **AI2 Robotics $735M / ~$3B (Shenzhen wheeled humanoids)** | 🟢 NEW | Closed early July | IPO timing; competitive prints for walking-humanoid startups (Figure/1X/Apptronik) |
+| **Venice $65M Series A / $1B (Dragonfly lead, privacy-first AI)** | 🟢 NEW | Closed early July | Anthropic + OpenAI privacy-defensibility response; crypto-native AI capital wave |
+| **Gemini 3.5 Flash GA + DeepMind Contextual-AI acqui-hire ($80–90M / 20+ researchers)** | 🟢 NEW | Flash GA + AI Ultra cut $250→$200/mo + Deep Research Max shipped; DeepMind licensing template continues | Next acqui-hire; Deep Research Max user adoption; Flash MCP-Atlas 83.6% adoption in agent stacks |
+| **Meta Compute (Meta as cloud provider)** | 🟡 NEW | Business line launched under Janardhan + Gross + Powell McCormick | First customer logo; whether compute-price war accelerates through Q3 |
+| **xAI Voice Agent Builder (beta) + Grok 5 delay** | 🟡 NEW | Voice Agent Builder shipped (telephony + MCP + voice cloning + observability); Grok 5 not Q3 (Polymarket 3%) | Voice Agent Builder GA; competitive response from Retell / Bland / Vapi; whether Grok 5 lands by year-end |
+| **Karpathy @ Anthropic pre-training team** | 🟡 | ~7 weeks in; no output yet | First paper or product; watch arXiv |
+| **Class-of-2026 hiring data** | 🟢 | +5.6% YoY; 77.2% grads land within 3 months; AI Engineer #1 fastest-growing (+143% YoY); 35% of entry-level roles require AI skills; 75%+ AI listings seek domain-specialists | Q3 2026 layoff/hiring data; whether the "specialists win" pattern holds |
+
+---
+
+## New action items — 2026-07-06 resumption
+
+| Action | Priority | Note |
+|---|---|---|
+| **Read Anthropic's Redeploying Fable 5 post** | 🟡 NEW — TODAY | https://www.anthropic.com/news/redeploying-fable-5 — primary-source vocabulary for interviews |
+| **Refactor project model-router around GPT-5.6 Terra + Gemini 3.5 Flash + Sonnet 5 promo** | 🟡 NEW — TONIGHT | See 2026-07-06/03 §2 |
+| **Use Fable 5 in Claude Code on real cyber-adjacent review** | 🟡 NEW — THIS WEEK | 50% weekly-limit window through July 7 |
+| **Publish "Claude Fable 5 return + Cybersecurity Classifier + severity" LinkedIn post** | 🟡 NEW — THIS WEEK | See 2026-07-06/03 §1 |
+| **Ship MCP-Bench-graded eval on 3 MCP servers you use** | 🟡 NEW — WEEKEND | See 2026-07-06/03 §3 — highest-ROI weekend project of Q3 |
+| **Apply to 2 pharma-AI / life-sciences FDE roles** | 🟡 NEW — THIS WEEK | See 2026-07-06/05 §3 — Claude Science just opened the lane |
+| **Apply to 1 Anthropic Solutions Engineer + 1 OpenAI FDE** | 🟡 NEW — THIS WEEK | Roadshow quiet-period narrows the Q3 window |
+| **Pilot xAI Voice Agent Builder + publish 90-sec Loom** | 🟡 NEW — WEEKEND | See 2026-07-06/03 §4 |
+| **Score three research agents on one known-answer question** | 🟡 NEW — WEEKEND | See 2026-07-06/03 §5 |
+| **Monthly AI-spend audit (4th of month)** | 🟡 NEW — MONDAY | 3 weeks of full-metering data now available for baseline; see 2026-07-06/05 §5 |
+| **Decide founder vertical from Claude-hasn't-done-yet list** | 🟡 NEW — WEEKEND | See 2026-07-06/05 §4 (education / cybersecurity ops / construction / logistics / insurance / veterinary / municipal government) |
+| **Read MCP-Bench + LiveMCP-101 abstracts + method sections (~45 min)** | 🟡 NEW — THIS WEEK | See 2026-07-06/04 §1 |

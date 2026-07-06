@@ -4,11 +4,45 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-07-06** (resumption after 45-day gap — see 2026-07-06 edition)
 
 ---
 
-## This week (May 19 – May 25)
+## This week (July 6 – July 12) — RESUMPTION
+
+### Today (Monday July 6) — Fable 5 return + model-router refresh
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Read Anthropic's [Redeploying Fable 5](https://www.anthropic.com/news/redeploying-fable-5) primary post** (10 min) | Today | [2026-07-06/03 §1](./2026-07-06/03-practical-skills-and-tools.md#1-fable-5-usage) |
+| ⚪ | **Refactor project model-router** to use GPT-5.6 Terra + Gemini 3.5 Flash + Sonnet 5 promo — commit | Tonight | [2026-07-06/03 §2](./2026-07-06/03-practical-skills-and-tools.md#2-model-routing) |
+| ⚪ | **Enable Fable 5 in Claude Code + Claude.ai**, do one real cyber-adjacent review while in the 50%-limit promo window | This week (through Jul 7) | [2026-07-06/03 §1](./2026-07-06/03-practical-skills-and-tools.md#1-fable-5-usage) |
+| ⚪ | **Add per-call cost logs** to the router — answer "what did this feature cost per user last week?" by Friday | This week | [2026-07-06/03 §2](./2026-07-06/03-practical-skills-and-tools.md#2-model-routing) |
+| ⚪ | **Monthly AI-spend audit (4th of month)** — 3 weeks of full-metering data available for baseline | Today | [2026-07-06/05 §5](./2026-07-06/05-career-and-startup.md#5-monday-action) |
+
+### This week (Tue July 7 – Fri July 10) — apply-list surge
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Draft + publish "Claude Fable 5 return + Cybersecurity Classifier + Severity Framework" LinkedIn post** | Wed/Thu | [2026-07-06/03 §1](./2026-07-06/03-practical-skills-and-tools.md#1-fable-5-usage) |
+| ⚪ | **Apply to 2 pharma-AI / life-sciences FDE roles** (Anthropic + one of Novartis/Lilly/J&J/Roche/consultancy) | Fri | [2026-07-06/05 §3](./2026-07-06/05-career-and-startup.md#3-pharma-ai-lane) |
+| ⚪ | **Apply to 1 Anthropic Solutions Engineer + 1 OpenAI FDE** (Q3 roadshow window narrows) | This week | [2026-07-06/05 §2](./2026-07-06/05-career-and-startup.md#2-ipo-employer-calculus) |
+| ⚪ | Add **"life-sciences AI integration"** + **"pre-deployment evaluation"** + **"AI jailbreak severity"** to LinkedIn skills row | This week | [2026-07-06/05 §3](./2026-07-06/05-career-and-startup.md#3-pharma-ai-lane) |
+| ⚪ | **Read MCP-Bench + LiveMCP-101 abstracts + method sections** (~45 min total) | This week | [2026-07-06/04 §1](./2026-07-06/04-research-progress.md#1-mcp-bench) |
+| ⚪ | Update WATCHLIST.md + ME.md focus decision (still Anthropic stack? still MCP + cost-aware agent design?) | Sun | monthly cadence |
+
+### Weekend (Sat July 11 – Sun July 12) — MCP eval + voice pilot
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship MCP-Bench-graded eval mini-project** on 3 MCP servers you use — 10 discovery tasks + 10 orchestration tasks × 3 models; publish repo | Sat | [2026-07-06/03 §3](./2026-07-06/03-practical-skills-and-tools.md#3-mcp-bench-eval) |
+| ⚪ | **Pilot xAI Voice Agent Builder** on one real use case + wire to one MCP server + publish 90-sec Loom | Sun | [2026-07-06/03 §4](./2026-07-06/03-practical-skills-and-tools.md#4-voice-agent-builder) |
+| ⚪ | **Score three research agents** (Claude Sonnet 5 + OpenAI Deep Research + Gemini Deep Research Max) on one known-answer question; publish comparison | Sun | [2026-07-06/03 §5](./2026-07-06/03-practical-skills-and-tools.md#5-deep-research-max) |
+| ⚪ | **Decide founder vertical** from Claude-hasn't-done-yet list (education / cybersecurity ops / construction / logistics / insurance / veterinary / municipal) → update STARTUPS.md | Sun | [2026-07-06/05 §4](./2026-07-06/05-career-and-startup.md#4-vertical-wedge) |
+
+---
+
+## Prior-week actions (archived — May 19-25)
 
 ### Tuesday May 19 — I/O DAY (done)
 

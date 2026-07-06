@@ -4,7 +4,43 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-07-05**
+Last updated: **2026-07-06**
+
+---
+
+## Added 2026-07-06 (Monday) — Geneva Day 1 · MCP-stateless T-22 · Claude Science grant T-9 · Fable 5 promo T-1
+
+Rolls up alongside the existing week block below. All from [today's edition](./2026-07-06/).
+
+### Monday July 6 — Geneva monitoring + Q3 apply window
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Set up 8-min-block Geneva monitoring cadence** — track co-chairs' opening statements + US-lab (Anthropic / OpenAI / Google / xAI) delegation position statements + side-event summaries; run through Tuesday close. | Today | [2026-07-06/03 §3](./2026-07-06/03-practical-skills-and-tools.md#3-geneva-monitoring) |
+| ⚪ | **Publish "Geneva Day 1: what US labs said vs what smaller-state delegations countered" 1-page post** by 5 PM local. Real-time-monitoring artifact recruiters at governance-adjacent orgs will value more than a résumé line. | Today 5 PM | [2026-07-06/01 §1](./2026-07-06/01-big-lab-moves.md#1-geneva-day-1) |
+| ⚪ | **Toggle Fable 5 in Claude Code + Claude.ai + do one real cyber-adjacent review** while in the 50%-weekly-limit promo window (through Tue Jul 7). | Tonight | [2026-07-06/03 §1](./2026-07-06/03-practical-skills-and-tools.md#1-fable-5-usage) |
+| ⚪ | **Refactor project model-router around GPT-5.6 Terra + Gemini 3.5 Flash + Sonnet 5 promo + Fable 5 (cyber-adjacent)** — commit. Add per-call cost logs so you can answer "what did this feature cost per user last week?" by Friday. | Tonight | [2026-07-06/03 §4](./2026-07-06/03-practical-skills-and-tools.md#4-model-routing) |
+| ⚪ | **Read [Anthropic's constitution](./2026-07-03/01-big-lab-moves.md#4-constitution) alongside Anthropic's Geneva opening statement** — the delta tells you what Anthropic wants from the room, which is what you should sound fluent in for interviews. | Tonight | [2026-07-06/01 §2](./2026-07-06/01-big-lab-moves.md#2-anthropic-stack-at-geneva) |
+| ⚪ | **Monthly AI-spend audit (4th-of-month personal rule)** — 3 weeks of full-metering data now available for baseline. Compare July MTD spend to June. Adjust router. | Today | [2026-07-06/05 §5](./2026-07-06/05-career-and-startup.md#5-monday-action) |
+
+### This week (Jul 7 – Jul 10) — Q3 apply window is narrow
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply to 2 pharma-AI / life-sciences FDE roles** — Anthropic Life Sciences Solutions Engineer + one of Novartis / Lilly / J&J / Roche / consultancy AI-for-Life-Sciences practice. Claude Science ([07-03](./2026-07-03/01-big-lab-moves.md)) just opened the lane. | Fri | [2026-07-06/05 §3](./2026-07-06/05-career-and-startup.md#3-pharma-ai-lane) |
+| ⚪ | **Apply to 1 Anthropic Solutions Engineer + 1 OpenAI FDE** — Q3 roadshow window narrows fast (labs open now, throttle in pre-listing quiet period). | This week | [2026-07-06/05 §2](./2026-07-06/05-career-and-startup.md#2-ipo-employer-calculus) |
+| ⚪ | **Draft + publish "Claude Fable 5 return + Cybersecurity Classifier + severity framework" LinkedIn post** — CVSS-for-AI-jailbreaks vocabulary. | Wed/Thu | [2026-07-06/03 §1](./2026-07-06/03-practical-skills-and-tools.md#1-fable-5-usage) |
+| ⚪ | Add **"life-sciences AI integration"** + **"pre-deployment evaluation"** + **"AI jailbreak severity"** + **"MCP-Bench"** to LinkedIn skills row. | This week | [2026-07-06/05 §3](./2026-07-06/05-career-and-startup.md#3-pharma-ai-lane) |
+| ⚪ | **Read MCP-Bench + LiveMCP-101 abstracts + method sections** (~45 min total). | This week | [2026-07-06/04 §1](./2026-07-06/04-research-progress.md#1-mcp-bench) |
+
+### Weekend (Sat Jul 11 – Sun Jul 12) — three artifacts, one weekend
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship MCP-Bench-graded eval mini-project** on 3 MCP servers you use — 10 discovery tasks + 10 multi-goal orchestration tasks × 3 models (Sonnet 5 + GPT-5.6 Terra + Gemini 3.5 Flash) × success/cost/latency/wrong-tool-called. Publish repo. | Sat | [2026-07-06/03 §2](./2026-07-06/03-practical-skills-and-tools.md#2-mcp-bench-eval) |
+| ⚪ | **Pilot xAI Voice Agent Builder** on one real use case + wire to one MCP server + publish 90-sec Loom. | Sun | [2026-07-06/03 §5](./2026-07-06/03-practical-skills-and-tools.md#4-voice-agent-builder) |
+| ⚪ | **Score three research agents** (Claude Sonnet 5 + OpenAI Deep Research + Gemini Deep Research Max) on one known-answer question; publish comparison. | Sun | [2026-07-06/03 §5](./2026-07-06/03-practical-skills-and-tools.md#5-deep-research-max) |
+| ⚪ | **Decide founder vertical** from Claude-hasn't-done-yet list (education / cybersecurity ops / construction / logistics / insurance underwriting / veterinary / municipal government) → update STARTUPS.md. | Sun | [2026-07-06/05 §4](./2026-07-06/05-career-and-startup.md#4-vertical-wedge) |
 
 ---
 

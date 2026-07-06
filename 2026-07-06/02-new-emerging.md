@@ -6,7 +6,7 @@ Tags: `#emerging #funding #ipo #open-source #defense #robotics #privacy #vertica
 
 ---
 
-## 1. The IPO wave as an asset-class shift — H1 2026 = $510B, top-2 = 43% {#1-ipo-wave-effects}
+## 1. H1 2026 global VC = record $510B; OpenAI + Anthropic captured 43% alone {#1-vc-concentration}
 
 **What happened:** H1 2026 venture data crossed:
 

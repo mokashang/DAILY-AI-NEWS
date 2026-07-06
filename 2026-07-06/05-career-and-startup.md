@@ -6,7 +6,29 @@ Tags: `#career #jobs #startup #ai-engineer #fde #pharma #ipo #vertical-wedge`
 
 ---
 
-## 1. Class-of-2026 hiring: +5.6% YoY, AI Engineer #1, but sentiment sours {#1-class-of-2026}
+## 1. Governance career lane opens at Geneva — the fresh vocabulary window {#1-governance-lane}
+
+**What's happening:** Geneva Day 1 opens today. The four Anthropic-adjacent policy artifacts ([constitution](../2026-07-03/01-big-lab-moves.md#4-constitution) + [Pentagon emails](../2026-07-04/01-big-lab-moves.md#2-pentagon-emails) + [OpenAI 5% Public Wealth Fund](../2026-07-04/01-big-lab-moves.md#3-openai-govt-stake) + [China transfer-station enforcement](../2026-07-04/01-big-lab-moves.md#1-china-loopholes)) all land on the same table today. The vocabulary that emerges from this room will set the compliance/assurance/policy hiring vocabulary at every US lab, Big 4, and enterprise buyer through Q4 and into 2027.
+
+### Target roles to add to your search this week
+
+- **Anthropic Policy / Public Affairs** — direct Geneva-facing hires; likely posted within a week.
+- **OpenAI Global Affairs / Government Relations** — parallel to Anthropic's; typically hires in cohorts around policy events.
+- **Google DeepMind Policy team** — smaller but pays well; long-tenure track.
+- **Big 4 AI Governance / AI Risk / AI Assurance practices** (PwC / Deloitte / EY / Accenture) — the volume hiring lane; consultancies scale these teams 5–10× in the 6 months after a major governance event.
+- **Cross-lab compliance startups** — for the CVSS-for-AI-jailbreaks + Anthropic severity framework + pre-deployment-eval space. Likely categories: model-release governance SaaS, AI-assurance-as-a-service, cross-lab compliance dashboards.
+
+### Why it matters to you
+
+- **Job lens:** Governance-lane hiring is a **less crowded** lane than AI Engineer / MLE, at similar (sometimes better) comp — especially at Big 4 practices. Requires: policy fluency + technical AI competence + writing ability. Most CS grads don't apply here; it's a real edge.
+- **Startup lens:** The tooling market for AI governance is nascent. See [`03` §1 the CVSS-for-AI-jailbreaks wedge](./03-practical-skills-and-tools.md#1-fable-5-usage). Whoever normalizes severity + provenance + audit-trail for the multi-lab environment owns the assurance category.
+- **Insight:** Governance work has a reputation for being slow and status-heavy. That's changing — the labs are hiring *builders* in policy roles now (constitution engineering, model-release governance, red-team-as-a-service). If you can code and write policy, you're in a rare, well-paid intersection.
+
+→ Cross-link: [`01` §1 Geneva Day 1](./01-big-lab-moves.md#1-geneva-day-1) · [`03` §3 monitoring cadence](./03-practical-skills-and-tools.md#3-geneva-monitoring).
+
+---
+
+## 2. Class-of-2026 hiring: +5.6% YoY, AI Engineer #1, but sentiment sours {#2-class-of-2026}
 
 **What happened:** Fresh mid-June hiring data:
 
@@ -39,7 +61,7 @@ Tags: `#career #jobs #startup #ai-engineer #fde #pharma #ipo #vertical-wedge`
 
 ---
 
-## 2. The IPO wave changes the "which employer" calculus {#2-ipo-employer-calculus}
+## 3. The IPO wave changes the "which employer" calculus {#3-ipo-employer-calculus}
 
 **What happened:** With **Anthropic (June 1, $965B S-1)** and **OpenAI (~June 8, $852B S-1)** both filing confidentially and both eyeing **fall 2026 listings** ([`01` §5](./01-big-lab-moves.md#5-ipo-wave)), the frontier labs are transitioning from private growth stories to publicly-priced equities. Practical implications on hiring + comp:
 
@@ -58,7 +80,7 @@ Tags: `#career #jobs #startup #ai-engineer #fde #pharma #ipo #vertical-wedge`
 
 ---
 
-## 3. Pharma-AI + life-sciences FDE — the new FDE lane opened by Claude Science {#3-pharma-ai-lane}
+## 4. Pharma-AI + life-sciences FDE — the new FDE lane opened by Claude Science {#4-pharma-ai-lane}
 
 **What happened:** Claude Science ([`01` §2](./01-big-lab-moves.md#2-claude-science)) launched with **60+ scientific databases + computation tools**, a launch-partner set (implicit: **Novartis, Lilly, J&J** given prior Isomorphic-Labs pattern), and an in-house Anthropic drug-discovery arm led by **Eric Kauderer-Abrams** (head of life sciences). Every prior Anthropic vertical launch was followed within 30 days by a hiring surge in the corresponding FDE / Solutions / Integration Engineer lane.
 
@@ -80,7 +102,7 @@ Tags: `#career #jobs #startup #ai-engineer #fde #pharma #ipo #vertical-wedge`
 
 ---
 
-## 4. The vertical-wedge founder template — Claude-for-X, applied {#4-vertical-wedge}
+## 5. The vertical-wedge founder template — Claude-for-X, applied {#5-vertical-wedge}
 
 **What happened:** With five verticals in eight weeks ([`02` §6](./02-new-emerging.md#6-vertical-template) — Legal, Small Business, Personal Finance, Finance, Science), Anthropic has published a repeatable founder template.
 
@@ -104,7 +126,7 @@ Tags: `#career #jobs #startup #ai-engineer #fde #pharma #ipo #vertical-wedge`
 
 ---
 
-## 5. Monday-week action plan {#5-monday-action}
+## 6. Monday-week action plan {#6-monday-action}
 
 **By end of Monday:**
 

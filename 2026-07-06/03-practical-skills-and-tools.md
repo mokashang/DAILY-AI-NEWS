@@ -63,7 +63,26 @@ Tags: `#practical #claude-code #model-routing #safety #voice-agents #deep-resear
 
 ---
 
-## 3. MCP-Bench as the new eval baseline — build one this weekend {#3-mcp-bench-eval}
+## 3. Geneva monitoring cadence — 8-minute blocks Mon/Tue {#3-geneva-monitoring}
+
+**What to do:** Geneva runs today + tomorrow. Set an 8-min-block monitoring loop through Tuesday close:
+
+1. **Follow-list** (build once, then just refresh): @AnthropicAI, @OpenAI, @GoogleDeepMind, @xAI (delegation Xs), @UN, @WSISprocess, @ITU_AIforGood, plus the co-chairs (Egriselda López, Rein Tammsaar) and 3–5 policy analysts you already trust.
+2. **What to watch for**: US-lab **opening statements** (verbatim quotes), small-state delegation **counter-frames**, side-event **summaries** (Tue morning is when yesterday's side-event writeups drop), and **any agreement text** that emerges from the plenary (rare but load-bearing).
+3. **What to *not* watch for**: real-time plenary streaming — the signal is dilute and you'll lose 4 hours. Read the recaps.
+4. **Publish**: by **5 PM local Mon**, a 1-page "Geneva Day 1: what US labs said + what smaller-state delegations countered" post. LinkedIn + a repo README. Repeat Tue with the Day-1-summary + Day-2-preview version.
+
+### Why it matters to you
+
+- **Job lens:** This is the single highest-leverage artifact of the week for **policy-lane** applications (Anthropic Policy / OpenAI Global Affairs / Google DeepMind Policy / consultancies' AI-Governance practices). Real-time monitoring proves you *track* the field, not just review it.
+- **Startup lens:** Same monitoring loop feeds the **AI-governance-side-events-tracker** wedge idea. If you built the loop right, you're 60% of the way to a product.
+- **Insight:** Media coverage of a UN summit is 90% policy pundits + 10% original reporting. The 10% is where the alpha is. Set alerts, not passive scroll.
+
+→ Cross-link: [`01` §1 Geneva Day 1 details](./01-big-lab-moves.md#1-geneva-day-1) · [`05` §1 governance career lane](./05-career-and-startup.md#1-governance-lane).
+
+---
+
+## 4. MCP-Bench as the new eval baseline — build one this weekend {#4-mcp-bench-eval}
 
 **What happened:** **MCP-Bench** ([ICLR 2026](https://openreview.net/pdf?id=fe8mzHwMxN)) landed as the standardized benchmark for **MCP-enabled agents on complex real-world tasks**. It follows **Tool Decathlon / Toolathlon (32 apps, 604 tools)** and pairs with **LiveMCP-101** for stress-testing. Combined, they set the eval bar: **your agent should be measured on real MCP servers, discovering tools, doing multi-goal orchestration** — not on canned single-tool tests.
 
@@ -86,7 +105,7 @@ Tags: `#practical #claude-code #model-routing #safety #voice-agents #deep-resear
 
 ---
 
-## 4. xAI Voice Agent Builder — pilot it this week {#4-voice-agent-builder}
+## 5. xAI Voice Agent Builder — pilot it this week {#5-voice-agent-builder}
 
 **What happened:** **xAI launched Voice Agent Builder in beta** — no-code platform for production voice agents on Grok Voice, bundling:
 
@@ -114,7 +133,7 @@ Tags: `#practical #claude-code #model-routing #safety #voice-agents #deep-resear
 
 ---
 
-## 5. Gemini Deep Research Max — the new autonomous-research primitive {#5-deep-research-max}
+## 6. Gemini Deep Research Max — the new autonomous-research primitive {#6-deep-research-max}
 
 **What happened:** Google shipped **Deep Research Max** ([blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/)) — a **step-change autonomous research agent** for long-horizon multi-source research. Positioned as their answer to Anthropic's Managed Agents / Dreaming primitives + OpenAI Deep Research.
 

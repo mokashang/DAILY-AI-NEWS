@@ -4,7 +4,56 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-07-06**
+Last updated: **2026-07-11**
+
+---
+
+## Added 2026-07-11 (Saturday) — Mobile super-app war live · Cowork iOS/Android · Anthropic wins July talent · IPO slip to 2027
+
+Rolls up alongside the existing Weekend Jul 11–12 block in the 2026-07-06 section below. Everything here derives from [today's edition](./2026-07-11/).
+
+### Saturday July 11 — The refresh weekend
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Install Claude Cowork on iOS / Android**, sign in, confirm push notifications on. Cowork mobile is the surface change of the week — one of only two mobile-first agentic surfaces alongside ChatGPT Work. | Sat AM | [2026-07-11/03 §2 step 1](./2026-07-11/03-practical-skills-and-tools.md#2-artifact) |
+| ⚪ | **Wire your first Routine on Claude Code on the web** — arXiv-scanner-for-your-subfield (or PR-babysitter / Monday-inbox-triage). Schedule trigger + 1 MCP tool + `SCHEMA_VERSION` tag. | Sat afternoon | [2026-07-11/03 §2 steps 2–3](./2026-07-11/03-practical-skills-and-tools.md#2-artifact) |
+| ⚪ | Screenshot the mobile push notification firing + `/usage` breakdown. | Sat evening | [2026-07-11/03 §2 steps 4–5](./2026-07-11/03-practical-skills-and-tools.md#2-artifact) |
+| ⚪ | **Rewrite the sanitiser-artifact README** with the four-question July frame: **orchestration + real-tool verification + cost + mobile operation**. | Sat evening | [2026-07-11/03 §2 step 6](./2026-07-11/03-practical-skills-and-tools.md#2-artifact) |
+| ⚪ | Add a **per-model routing table** to the README: Opus 4.7 planner + Sonnet 5 workers + Haiku 4.5 verifier + **Grok 4.5 cheap-fallback** with a confidence threshold (given the 54% hallucination rate). | Sat evening | [2026-07-11/05 §3 step 6](./2026-07-11/05-career-and-startup.md#3-weekend) |
+| ⚪ | Screenshot the token-cost trace **pre/post code-execution-with-MCP refactor** (~30–60% typical savings on tool-heavy runs). | Sat evening | [2026-07-11/03 §1](./2026-07-11/03-practical-skills-and-tools.md#1-code-exec-mcp) |
+| ⚪ | Migrate the artifact's orchestrator to the **federated topology** (thin ingress + per-domain sub-orchestrators). Refuse mismatched calls via `SCHEMA_VERSION`. | Sat evening | [2026-07-11/03 §1](./2026-07-11/03-practical-skills-and-tools.md#1-code-exec-mcp) |
+
+### Sunday July 12 — Publish + apply
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Push the artifact repo (README + routing table + screenshots + before/after trace). | Sun AM | [2026-07-11/05 §3 step 8](./2026-07-11/05-career-and-startup.md#3-weekend) |
+| ⚪ | **Publish a one-page LinkedIn post** — *"What I learned building a mobile-first Claude agent this weekend."* Include the routing table + token graph + phone screenshot + **one sentence on the Jumper hire as sector context**. | Sun PM | [2026-07-11/05 §3 step 9](./2026-07-11/05-career-and-startup.md#3-weekend) |
+| ⚪ | Apply to **1 Anthropic Solutions / FDE / Integration** — cover letter cites **the Jumper move specifically** (AlphaFold research thread → Anthropic; Claude Science is the launch). | Sun PM | [2026-07-11/05 §1](./2026-07-11/05-career-and-startup.md#1-anthropic-destination) |
+| ⚪ | Apply to **1 OpenAI Solutions / FDE** — cover letter references the super-app launch + GPT-5.6 Sol/Terra/Luna tiering. | Sun PM | [2026-07-11/01 §1](./2026-07-11/01-big-lab-moves.md#1-openai-superapp) |
+| ⚪ | Apply to **1 Norm AI or Taktile Solutions Engineer** — both funded this week; both need domain-native FDE-shaped hires. | Sun PM | [2026-07-11/02 §4](./2026-07-11/02-new-emerging.md#4-vc-record) |
+
+### Monday July 13 — Outreach + skills-row refresh
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Send **3 cold emails to frontier-lab engineers** referencing the LinkedIn post + one specific technical question. | Mon | [2026-07-11/05 §3 step 11](./2026-07-11/05-career-and-startup.md#3-weekend) |
+| ⚪ | Add **Claude Science / drug-discovery / biology-adjacent MCP + code-execution-with-MCP + federated orchestration + A2A** to LinkedIn skills row. | Mon | [2026-07-11/02 §1](./2026-07-11/02-new-emerging.md#1-claude-science) |
+| ⚪ | Add **Together AI + Norm AI + Taktile + TwelveLabs + Prime Intellect + Ollama** to `APPLICATIONS.md` watch column (first quarter after funding = peak hire cadence). | Mon | [2026-07-11/05 §4](./2026-07-11/05-career-and-startup.md#4-micro-signals) |
+| ⚪ | Watch: **Gemini 3.5 Pro launch July 17 (T-6 days)** — day-one benchmarks + pricing table. Use to decide whether to rebalance multi-vendor router. | Jul 17 | [2026-07-11/01 §5](./2026-07-11/01-big-lab-moves.md#5-gemini-delay) |
+
+### This week — recurring micro-setups + reads
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Turn on `xhigh` effort in Claude Code for one hard debugging session; audit `/usage` after. | This week | [2026-07-11/03 §3](./2026-07-11/03-practical-skills-and-tools.md#3-microtips) |
+| ⚪ | Move personal CLI use to Claude Code **native binary**. | This week | [2026-07-11/03 §3](./2026-07-11/03-practical-skills-and-tools.md#3-microtips) |
+| ⚪ | Set **90-day rolling API-key expirations** on all personal keys (cut tail risk from repo-history rewrites). | This week | [2026-07-11/03 §3](./2026-07-11/03-practical-skills-and-tools.md#3-microtips) |
+| ⚪ | Turn on **Anthropic reflection dashboard** for a week; top-3 repeated prompts become next 3 Routine candidates. | This week | [2026-07-11/03 §3](./2026-07-11/03-practical-skills-and-tools.md#3-microtips) |
+| ⚪ | Read **Self-GC (arXiv:2607.00871)** + **Anytime-Valid Certificates (arXiv:2607.00913)** — highest ROI-per-hour interview prep of the week. | This week | [2026-07-11/04 §1](./2026-07-11/04-research-progress.md#1-self-gc) |
+| ⚪ | Renegotiate mental-model of comp against **OpenAI 2027 IPO horizon** — base + signing > equity on OpenAI offers this cycle. **Sonnet 5 introductory pricing ($2/$10) is a time-limited arbitrage through Aug 31** — batch MVP builds now. | Ongoing | [2026-07-11/05 §2](./2026-07-11/05-career-and-startup.md#2-offer-math) |
+| ⚪ | Watch **China anthropomorphic-AI rules effective 2026-07-15 (T-4 days)** — first-30-day enforcement + whether US/EU mirror. | Jul 15 | [2026-07-11/02 §5](./2026-07-11/02-new-emerging.md#5-china-rules) |
 
 ---
 

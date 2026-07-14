@@ -1,6 +1,6 @@
 # LATEST — pointer to the most recent edition
 
-> **2026-07-13** — see [`2026-07-13/00-tldr.md`](./2026-07-13/00-tldr.md)
+> **2026-07-14** — see [`2026-07-14/00-tldr.md`](./2026-07-14/00-tldr.md)
 
 This file is auto-updated every edition so a one-click read of the latest TL;DR is always at the repo root.
 
@@ -8,20 +8,20 @@ This file is auto-updated every edition so a one-click read of the latest TL;DR 
 
 ## Today's headline
 
-**Monday — GPT-5.6 goes fully public, Meta ships Muse Spark 1.1, Anthropic's J-lens finds a "workspace" inside Claude, Anthropic × Google × Broadcom lock 3.5 GW of TPU — and today's action shrinks to two clocks.** **[Apple v. OpenAI + io Products](./2026-07-13/01-big-lab-moves.md#1-apple-openai)** — 41-page trade-secret suit filed Fri Jul 10 in NDCA names CHO Tang Yew Tan + former Apple engineer Chang Liu; 400+ ex-Apple employees at OpenAI; "show-and-tell" hardware sessions; injunction + product-redesign requested. **[GPT-5.6 fully public](./2026-07-13/01-big-lab-moves.md#2-gpt-56)** — Sol / Terra / Luna ($5/$30 · $2.50/$15 · $1/$6 per M) after Commerce-Dept pre-review; Sol ~54% more token-efficient on coding; **GPT-Live-1** ships full-duplex voice with 9 remastered voices. **[Muse Spark 1.1](./2026-07-13/02-new-emerging.md#1-muse-spark)** — Meta's first paid API ($1.25/$4.25 per M), 1M-ctx, main-or-subagent, native tool + computer use; **MCP-Atlas 88.1 · JobBench 54.7 (Opus 4.8: 48.4 · GPT-5.5: 38.3) · HLE-with-tools 62.1**. **[J-lens / J-space](./2026-07-13/04-research-progress.md#1-jspace)** — open-sourced interpretability lens; ~25-concept subspace inside Claude behaves like the global workspace of consciousness theory; live demo at **neuronpedia.org/jlens**. **[Anthropic × Google × Broadcom 3.5 GW](./2026-07-13/01-big-lab-moves.md#4-anthropic-compute)** — multi-year TPU capacity starting 2027; Anthropic run-rate **$30B** (up from ~$9B end-2025).
+**Tuesday — the FDE quartet completes and Anthropic quietly becomes the industry's biggest employer.** **[Microsoft Frontier Company](./2026-07-14/02-new-emerging.md#1-msft-frontier)** launched July 2–3 with **$2.5B and ~6,000 embedded engineers** under Rodrigo Kede Lima, completing an ~$9B / ~10K-embedded-role quartet (Anthropic $1.5B · OpenAI $4B · AWS $1B · Microsoft $2.5B) inside 60 days — an industry-wide correction to MIT NANDA's 95%-of-pilots-fail number. **[Anthropic × Samsung 2nm chip talks](./2026-07-14/01-big-lab-moves.md#1-anthropic-samsung)** — preliminary; SF2 / GAA / advanced packaging; **Clive Chan (ex-OpenAI chip design) hired**. **[Anthropic IPO filed at ~$965B on ~$47B ARR](./2026-07-14/01-big-lab-moves.md#2-anthropic-ipo)** — passes OpenAI on both dimensions. **[Google DeepMind opens APAC "AI for the Planet"](./2026-07-14/02-new-emerging.md#2-deepmind-apac)** — 10–15 orgs, 3-month program, **deadline July 26**. **[Agent-funding categories harden](./2026-07-14/02-new-emerging.md#3-agent-funding)** — Bespoke Labs $40M (training environments) · Patronus AI $50M (stress-test agents) · Taktile $110M Series C · LinqAlpha $22M · EquiLibre $500M+ · **Lyzr's own agent ran its $100M raise** across 130+ investor calls. **[Research: ROMA + MAS-Orchestra + Terminal-bench + HAS-Bench + 44-benchmark survey](./2026-07-14/04-research-progress.md)** — multi-agent orchestration goes trainable + the eval bar keeps re-pricing.
 
-**For you:** the frontier converged on **three-tier agentic model families** (Luna/Terra/Sol · Sonnet/Opus/Fable · Muse-worker/orchestrator · Gemini 3.5 Flash/Pro), the FDE lane went from lab-side novelty to **global consulting hiring pattern** (TCS 5,900–8,900 unit), and **the US–China regulatory equilibrium is now visible from both sides** (US EO postponed, China MOFCOM in export-control talks). Bet on portable orchestration, not any single lab.
+**For you:** the FDE lane you've been positioning for **quintupled in one month** — the applicant flood is 2–4 weeks out; the artifact you already have plus the [Sonnet 5 worker swap](./2026-07-14/03-practical-skills-and-tools.md#1-model-routing) is the one-sentence FDE interview answer. Apply *this week*.
 
-Full edition → [`2026-07-13/`](./2026-07-13/)
+Full edition → [`2026-07-14/`](./2026-07-14/)
 
 ---
 
-## One-thing-to-do (Monday July 13)
+## One-thing-to-do (Tuesday July 14)
 
-→ **Submit Claude Corps application by Thursday.** [`2026-07-13/05 §1`](./2026-07-13/05-career-and-startup.md#1-claude-corps). **T-minus 4 days** to close of Cohort 1 (Fri Jul 17). $85K, 100 slots, in-person US nonprofit placement, no degree gate. Draft essays this evening around a specific Claude-Code + MCP workflow for a chosen nonprofit vertical.
+→ **Apply to Microsoft Frontier Company + Anthropic Solutions/FDE + OpenAI Deployment Company + AWS AI implementation in that order — before Friday.** [`2026-07-14/05 §1`](./2026-07-14/05-career-and-startup.md#1-fde-quintupled). The July 2 launch means req postings are hitting the market *right now*; the applicant flood is 2–4 weeks out. Rewrite resume top-line as *"AI Integration / Forward-Deployed Engineer"* and lead with the dual-model artifact framed as *"embed AI in a client environment, verify against real tools, keep the bill predictable."*
 
-→ **Migrate DeepSeek calls before Jul 24, 15:59 UTC.** [`2026-07-13/03 §4`](./2026-07-13/03-practical-skills-and-tools.md#4-deepseek). T-minus 11 days. **`deepseek-reasoner` → `deepseek-v4-flash` (thinking), NOT `deepseek-v4-pro`** — the default alias silently downgrades heavy-reasoning workloads. `grep -r "deepseek-chat\|deepseek-reasoner" .` and remap explicitly.
+→ **Swap Sonnet 4.6 → Sonnet 5 in every worker seat tonight** (June 30 release: *"cheaper way to run agents"*). Keep Opus 4.7 orchestrator + Haiku 4.5 guard. Log before/after (quality, tokens, wall-clock, cost). [`2026-07-14/03 §1`](./2026-07-14/03-practical-skills-and-tools.md#1-model-routing).
 
-→ **Publish a `ROUTING.md`** in your public agent repo showing per-role model choice + cost with the new July field (Luna/Terra/Sol · Sonnet/Opus · Muse-Spark 1.1 · Gemini 3.5 Flash/Pro-target). [`2026-07-13/03 §2`](./2026-07-13/03-practical-skills-and-tools.md#2-routing). Add a **geo-fallback line** for Chinese-open-weight models. [`2026-07-13/03 §5`](./2026-07-13/03-practical-skills-and-tools.md#5-routing-geo).
+→ **Turn on OpenAI explicit prompt-cache breakpoints + standardize the same cacheable prefix across Anthropic and OpenAI** (GPT-5.6 shipped this July 9). Cross-provider cost engineering is now symmetric. [`2026-07-14/03 §1`](./2026-07-14/03-practical-skills-and-tools.md#1-model-routing).
 
-→ **Cap Claude Code at 3–6 MCP servers + enable `ENABLE_TOOL_SEARCH=true`.** [`2026-07-13/03 §1`](./2026-07-13/03-practical-skills-and-tools.md#1-mcp-hygiene). The single highest-ROI evening of infrastructure hygiene — cuts context bloat, latency, permission-prompt friction; ships a portfolio-legible `.claude/` profile.
+→ **Submit a spec application to Google DeepMind's "AI for the Planet" APAC accelerator by Sunday** (deadline July 26; submit early). Even a rejected application puts your name in the DeepMind pipeline. [`2026-07-14/05 §2`](./2026-07-14/05-career-and-startup.md#2-ai-for-planet).

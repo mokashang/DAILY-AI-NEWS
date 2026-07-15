@@ -1,6 +1,6 @@
 # LATEST — pointer to the most recent edition
 
-> **2026-07-14** — see [`2026-07-14/00-tldr.md`](./2026-07-14/00-tldr.md)
+> **2026-07-15** — see [`2026-07-15/00-tldr.md`](./2026-07-15/00-tldr.md)
 
 This file is auto-updated every edition so a one-click read of the latest TL;DR is always at the repo root.
 
@@ -8,20 +8,20 @@ This file is auto-updated every edition so a one-click read of the latest TL;DR 
 
 ## Today's headline
 
-**Tuesday — the FDE quartet completes and Anthropic quietly becomes the industry's biggest employer.** **[Microsoft Frontier Company](./2026-07-14/02-new-emerging.md#1-msft-frontier)** launched July 2–3 with **$2.5B and ~6,000 embedded engineers** under Rodrigo Kede Lima, completing an ~$9B / ~10K-embedded-role quartet (Anthropic $1.5B · OpenAI $4B · AWS $1B · Microsoft $2.5B) inside 60 days — an industry-wide correction to MIT NANDA's 95%-of-pilots-fail number. **[Anthropic × Samsung 2nm chip talks](./2026-07-14/01-big-lab-moves.md#1-anthropic-samsung)** — preliminary; SF2 / GAA / advanced packaging; **Clive Chan (ex-OpenAI chip design) hired**. **[Anthropic IPO filed at ~$965B on ~$47B ARR](./2026-07-14/01-big-lab-moves.md#2-anthropic-ipo)** — passes OpenAI on both dimensions. **[Google DeepMind opens APAC "AI for the Planet"](./2026-07-14/02-new-emerging.md#2-deepmind-apac)** — 10–15 orgs, 3-month program, **deadline July 26**. **[Agent-funding categories harden](./2026-07-14/02-new-emerging.md#3-agent-funding)** — Bespoke Labs $40M (training environments) · Patronus AI $50M (stress-test agents) · Taktile $110M Series C · LinqAlpha $22M · EquiLibre $500M+ · **Lyzr's own agent ran its $100M raise** across 130+ investor calls. **[Research: ROMA + MAS-Orchestra + Terminal-bench + HAS-Bench + 44-benchmark survey](./2026-07-14/04-research-progress.md)** — multi-agent orchestration goes trainable + the eval bar keeps re-pricing.
+**Wednesday — the physical layer, the policy layer, and the education layer all move on the same day.** **[TSMC's Q2 preview](./2026-07-15/01-big-lab-moves.md#1-tsmc-q2)** posted a record June (+68% YoY) and **AI = 61% of $39.62B Q2 revenue**, N3 sold out through year-end, 2026 capex raised to $52–56B, full-year revenue guide raised to **>30%** — the compute buildout is now ratified in earnings, not projections. **[Beijing's anthropomorphic-AI rules take effect today](./2026-07-15/01-big-lab-moves.md#2-china-anthropomorphic)** — ByteDance's **Doubao (345M MAU)** and Alibaba's **Qwen** disable agent features that US labs face zero equivalent restrictions on. **[Anthropic launched Claude for Teachers yesterday](./2026-07-15/01-big-lab-moves.md#3-claude-for-teachers)** — free premium for US K-12 educators, FERPA + AFT + Detroit Public Schools pilot + open-source skills repo — the **sixth vertical pod** in ~10 weeks. **[Chai Discovery $400M Series C at $3.8B](./2026-07-15/02-new-emerging.md#1-chai)** (Index / Kleiner / Sequoia / Dimension) + **[Helsing $1.8B Series E at $18B](./2026-07-15/02-new-emerging.md#2-helsing)** (Europe's biggest defense round ever, JPMorgan Chase lead). **[OpenAI Codex Micro](./2026-07-15/02-new-emerging.md#3-codex-micro)** — OpenAI's first-ever hardware — ships today.
 
-**For you:** the FDE lane you've been positioning for **quintupled in one month** — the applicant flood is 2–4 weeks out; the artifact you already have plus the [Sonnet 5 worker swap](./2026-07-14/03-practical-skills-and-tools.md#1-model-routing) is the one-sentence FDE interview answer. Apply *this week*.
+**For you:** the **Claude Science $30K grant deadline is TODAY**; the **Anthropic Applied — Education + Applied — Science** pods just opened and applicant pools haven't formed yet; **cross-provider prompt-cache** is now symmetric — one refactor, ~10× cheaper input on both Claude + GPT.
 
-Full edition → [`2026-07-14/`](./2026-07-14/)
+Full edition → [`2026-07-15/`](./2026-07-15/)
 
 ---
 
-## One-thing-to-do (Tuesday July 14)
+## One-thing-to-do (Wednesday July 15)
 
-→ **Apply to Microsoft Frontier Company + Anthropic Solutions/FDE + OpenAI Deployment Company + AWS AI implementation in that order — before Friday.** [`2026-07-14/05 §1`](./2026-07-14/05-career-and-startup.md#1-fde-quintupled). The July 2 launch means req postings are hitting the market *right now*; the applicant flood is 2–4 weeks out. Rewrite resume top-line as *"AI Integration / Forward-Deployed Engineer"* and lead with the dual-model artifact framed as *"embed AI in a client environment, verify against real tools, keep the bill predictable."*
+→ **SHIP the Claude Science grant application before 11:59 PM tonight** ([`2026-07-15/03 §1`](./2026-07-15/03-practical-skills-and-tools.md#1-claude-science-grant)). $30K in Claude credits + up to $2K Modal compute for ~50 projects. Open the application with your **novelty claim in the first two sentences** — the specific scientific artifact that becomes possible with $30K of Claude credits. Even a rejected application drops your name in the pipeline and produces a durable line on your resume.
 
-→ **Swap Sonnet 4.6 → Sonnet 5 in every worker seat tonight** (June 30 release: *"cheaper way to run agents"*). Keep Opus 4.7 orchestrator + Haiku 4.5 guard. Log before/after (quality, tokens, wall-clock, cost). [`2026-07-14/03 §1`](./2026-07-14/03-practical-skills-and-tools.md#1-model-routing).
+→ **Apply to Anthropic Applied — Education + Applied — Science before Friday** ([`2026-07-15/05 §1`](./2026-07-15/05-career-and-startup.md#1-anthropic-verticals)). Both pods are days old — applicant pools haven't formed yet. A cover letter that opens with "yesterday's Claude for Teachers launch" or "today's Claude Science grant deadline" is signal density no template can match.
 
-→ **Turn on OpenAI explicit prompt-cache breakpoints + standardize the same cacheable prefix across Anthropic and OpenAI** (GPT-5.6 shipped this July 9). Cross-provider cost engineering is now symmetric. [`2026-07-14/03 §1`](./2026-07-14/03-practical-skills-and-tools.md#1-model-routing).
+→ **Refactor one agent's prompt for cross-provider cache** ([`2026-07-15/03 §2`](./2026-07-15/03-practical-skills-and-tools.md#2-cache-lever)). Move timestamps / user-ids out of the prefix, order retrieved context oldest→newest, add explicit breakpoints on both Claude and GPT-5.6, log before/after in your artifact README.
 
-→ **Submit a spec application to Google DeepMind's "AI for the Planet" APAC accelerator by Sunday** (deadline July 26; submit early). Even a rejected application puts your name in the DeepMind pipeline. [`2026-07-14/05 §2`](./2026-07-14/05-career-and-startup.md#2-ai-for-planet).
+→ **Bookmark TSMC Q2 full earnings tomorrow (Thu July 16)** — CoWoS capacity signals + Q3 outlook are the leading indicators for hyperscaler capex-linked hiring waves.

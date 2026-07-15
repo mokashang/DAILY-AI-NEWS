@@ -4,7 +4,47 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-07-11**
+Last updated: **2026-07-15**
+
+---
+
+## Added 2026-07-15 (Wednesday) — TSMC Q2 · China anthropomorphic rules LIVE · Claude for Teachers · Chai $400M · Helsing $1.8B · Codex Micro · Claude Science grant DUE TODAY
+
+Everything here derives from [today's edition](./2026-07-15/).
+
+### Wednesday July 15 — Ship the grant, apply to the new pods, cache-refactor tonight
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **SHIP the Claude Science $30K grant application** — novelty claim in first two sentences (the specific scientific artifact that becomes possible with $30K of Claude credits + the workbench). Cite Sonnet 5 workers + Opus 4.7 orchestrator + Haiku 4.5 verifier in budget. Submit before 8 PM to avoid last-hour crawl. | **Tonight 11:59 PM** | [2026-07-15/03 §1](./2026-07-15/03-practical-skills-and-tools.md#1-claude-science-grant) |
+| ⚪ | **Refactor one active agent's prompt for cross-provider cache.** Move timestamps/user-ids to suffix, order retrieved context oldest→newest, add explicit breakpoints on both Anthropic + GPT-5.6. Log before/after `input_tokens` vs `cached_input_tokens`. Add screenshot to artifact README. | Wed evening | [2026-07-15/03 §2](./2026-07-15/03-practical-skills-and-tools.md#2-cache-lever) |
+| ⚪ | **Star the Anthropic Claude for Teachers skills GitHub repo** — the cleanest public example of Anthropic's "skill" primitive shipped in production. Skim 2–3 skills to internalize the shape. | Wed | [2026-07-15/03 Micro-tips](./2026-07-15/03-practical-skills-and-tools.md#micro-tips) |
+
+### Thursday July 16 — TSMC full earnings + read the survey
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Read TSMC Q2 full earnings transcript** — focus on CoWoS capacity signals, Q3 outlook, 2026 capex final number. Leading indicator for hyperscaler infra hiring. | Thu | [2026-07-15/01 §1](./2026-07-15/01-big-lab-moves.md#1-tsmc-q2) |
+| ⚪ | **Read arXiv 2507.21504 Table 2** — 4-family agent-benchmark taxonomy + fifth axis (cost-per-successful-completion). Memorize: SWE-Bench + MCP-Atlas + LongJudgeBench + AgenticPay as the defensible interview quartet. | Thu | [2026-07-15/04 §2](./2026-07-15/04-research-progress.md#2-eval-survey) |
+| ⚪ | **20-min mobile-first agent setup**: Cowork on phone → Routine on Claude Code web → approve-required checkpoint → screenshot phone push + `/usage`. Add mobile-frame to artifact README. | Thu | [2026-07-15/03 §3](./2026-07-15/03-practical-skills-and-tools.md#3-mobile-tips) |
+
+### Friday July 17 — Apply days + Gemini 3.5 Pro launch
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply to Anthropic Applied — Education** (pod launched Tue Jul 14). Cover letter opens with "yesterday's / this week's Claude for Teachers launch + the AFT partnership + Detroit pilot." | Fri | [2026-07-15/05 §1](./2026-07-15/05-career-and-startup.md#1-anthropic-verticals) |
+| ⚪ | **Apply to Anthropic Applied — Science / Solutions — Life Sciences** (grant deadline today = ideal hook). Cover letter cites the grant submission + Chai Series C + Jumper pod convergence. | Fri | [2026-07-15/05 §1](./2026-07-15/05-career-and-startup.md#1-anthropic-verticals) |
+| ⚪ | **Apply to Microsoft Frontier Company** (6K-seat wave still absorbing applicants). Lead with dual-model sanitiser artifact framed as "embed AI in a client environment, verify against real tools, keep the bill predictable." | Fri | [2026-07-15/05 §1](./2026-07-15/05-career-and-startup.md#1-anthropic-verticals) |
+| ⚪ | **Watch Gemini 3.5 Pro launch (T-2, targeted Fri Jul 17)**. If it lands, run 5-prompt regression against current router (Opus 4.7 + Sonnet 5 + Haiku 4.5 + optional Grok 4.5 / GLM-5.2 / LongCat-2.0). Update routing table within 60 min. | Fri | [2026-07-15/03 Micro-tips](./2026-07-15/03-practical-skills-and-tools.md#micro-tips) |
+
+### This week — recurring reads + micro-setups
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Apply to **1 OpenAI Deployment Company FDE + 1 AWS AI Implementation role** — round out the FDE quartet coverage. | This week | [2026-07-15/05 §1](./2026-07-15/05-career-and-startup.md#1-anthropic-verticals) |
+| ⚪ | Add **"Consumer-AI compliance / regional-AUP engineering"** as the 4th sublane to the assurance-lane keyword tree on LinkedIn skills row. | This week | [2026-07-15/05 §3](./2026-07-15/05-career-and-startup.md#3-consumer-compliance) |
+| ⚪ | Add **Chai Discovery + Helsing + Anthropic Applied — Education + Applied — Science** to `APPLICATIONS.md` watch column. | This week | [2026-07-15/05 §1–2](./2026-07-15/05-career-and-startup.md#1-anthropic-verticals) |
+| ⚪ | **Pre-position a speculative vertical application** — target one Anthropic vertical Anthropic hasn't launched yet (cybersecurity / municipal / insurance / veterinary / construction). Frame: "when you launch Claude for X, I'd like to be your first Solutions hire." | This week | [2026-07-15/05 §1](./2026-07-15/05-career-and-startup.md#1-anthropic-verticals) |
 
 ---
 

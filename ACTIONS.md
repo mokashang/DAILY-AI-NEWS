@@ -4,7 +4,44 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-07-15**
+Last updated: **2026-07-17**
+
+---
+
+## Added 2026-07-17 (Friday) — ODE WITH ANTHROPIC LAUNCHES ($1.5B) · Gemini 3.5 Pro T-0 · EU DMA drops on Google · WAIC + Xi keynote · $2.5B agent-stack week
+
+Everything here derives from [today's edition](./2026-07-17/).
+
+### Friday July 17 — Apply to Ode; cache-hit audit tonight
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **APPLY TO ODE WITH ANTHROPIC** — cover letter references the Jul 15 press release (Chris Taylor CEO, Fractional AI base, PE-portfolio mandate) + 1 of 5 sector verticals; attach cache-hit audit OR Ring-1T weekend project as artifact | **TODAY** | [2026-07-17/05 §1](./2026-07-17/05-career-and-startup.md#1-ode-fde) |
+| ⚪ | Apply to 1 Anthropic Solutions / FDE role (parallel; same artifact) | **TODAY** | [2026-07-17/05 §1](./2026-07-17/05-career-and-startup.md#1-ode-fde) |
+| ⚪ | Apply to 1 OpenAI Deployment Company / FDE role (comp benchmark + backup) | **TODAY** | [2026-07-17/05 §1](./2026-07-17/05-career-and-startup.md#1-ode-fde) |
+| ⚪ | Add Ode with Anthropic to APPLICATIONS.md | **TODAY** | [APPLICATIONS.md](./APPLICATIONS.md) |
+| ⚪ | Update LinkedIn headline to include "AI Integration Engineer / FDE — Anthropic-stack" if not already | **TODAY** | [2026-07-17/05 §1](./2026-07-17/05-career-and-startup.md#1-ode-fde) |
+| ⚪ | Set 8 AM PT Fri alert for Gemini 3.5 Pro ship-or-slip; if ships, capture pricing + benchmarks for the routing table | **TODAY** | [2026-07-17/01 §2](./2026-07-17/01-big-lab-moves.md#2-gemini-3-5-pro) |
+| ⚪ | **CACHE-HIT AUDIT tonight** — 30-min play, log `cache_creation_input_tokens` vs `cache_read_input_tokens`, reorder blocks; ProjectDiscovery 7% → 84% pattern (target ≥60%) → likely halves your Claude bill by Sat | **Tonight** | [2026-07-17/03 §4](./2026-07-17/03-practical-skills-and-tools.md#4-cache-hit) |
+
+### Saturday July 18 — Ring-1T weekend + shot-scraper video
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ring-1T weekend project** — pull `inclusionAI/Ring-1T` from HF, run a small ablation (test one of the five emergent behaviors — "context anxiety" is most novel), write it up (Karpathy-adjacent portfolio artifact) | Sat/Sun | [2026-07-17/04 §1](./2026-07-17/04-research-progress.md#1-ring-zero) |
+| ⚪ | Try `ultracode:` prefix in Claude Code on a real codebase audit; save as `.claude/workflows/<name>.js` | Sat | [2026-07-17/03 §3](./2026-07-17/03-practical-skills-and-tools.md#3-ultracode) |
+| ⚪ | Record `shot-scraper video` demo of the cache-hit before/after (attach to portfolio README) | Sat | [2026-07-17/03 §6](./2026-07-17/03-practical-skills-and-tools.md#6-simon) |
+
+### Ongoing this week — MCP migration + tracker updates
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **MCP `2026-07-28` spec migration audit** — grep any MCP server you maintain for `Mcp-Session-Id` / `session_id`, move to `_meta`; add `Mcp-Method`/`Mcp-Name` headers; test against RC before Jul 28 | **T-11 days** | [2026-07-17/03 §5](./2026-07-17/03-practical-skills-and-tools.md#5-mcp-spec) |
+| ⚪ | Update Claude Code to 2.1.212+; add `CLAUDE_CODE_MAX_SUBAGENTS_PER_SESSION=50` to shell profile | Mon | [2026-07-17/03 §1](./2026-07-17/03-practical-skills-and-tools.md#1-claude-code) |
+| ⚪ | Read AI2 "Rethinking Evaluation of Harness Evolution" paper (arXiv 2607.12227) — highest-ROI interview prep for agent-eval questions | This week | [2026-07-17/04 §2](./2026-07-17/04-research-progress.md#2-harness-evolution) |
+| ⚪ | STARTUPS.md re-rank — close "generic FDE-as-a-service" (anchored by Ode now); promote "agent identity/IAM" (Oak $60M seed anchored the category) | This week | [STARTUPS.md](./STARTUPS.md) |
+| ⚪ | Watch for Xi's WAIC speech text publication; log specific phrases (they'll appear in Chinese-vendor pitches for 6 months) | This week | [2026-07-17/01 §2](./2026-07-17/01-big-lab-moves.md#2-gemini-3-5-pro) |
+| ⚪ | If MLE-inclined + interested in EU: read the EC DMA specification proceedings for Google search-data + Android AI parity (first-in-line for the FRAND API when it opens Jan 2027) | This week | [2026-07-17/01 §3](./2026-07-17/01-big-lab-moves.md#3-eu-dma) |
 
 ---
 

@@ -4,9 +4,57 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-07-17**
 
 ---
+
+## This week (Jul 13 – Jul 19)
+
+### Friday Jul 17 — ODE LAUNCH + Gemini 3.5 Pro day
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Apply to Ode with Anthropic** — reference the Jul 15 press release (Chris Taylor CEO, Fractional AI base, PE-portfolio mandate); attach 1 artifact (cache-hit audit OR Ring-1T weekend project) | **Today** | [2026-07-17/05 §1](./2026-07-17/05-career-and-startup.md#1-ode-fde) |
+| ⚪ | Apply to 1 Anthropic Solutions / FDE role (parallel) | **Today** | [2026-07-17/05 §1](./2026-07-17/05-career-and-startup.md#1-ode-fde) |
+| ⚪ | Apply to 1 OpenAI Deployment Company / FDE role (comp benchmark + backup) | **Today** | [2026-07-17/05 §1](./2026-07-17/05-career-and-startup.md#1-ode-fde) |
+| ⚪ | Add **Ode with Anthropic** to APPLICATIONS.md tracker | **Today** | [APPLICATIONS.md](./APPLICATIONS.md) |
+| ⚪ | Update LinkedIn headline to include "AI Integration Engineer / FDE — Anthropic-stack" if not already | **Today** | [2026-07-17/05 §1](./2026-07-17/05-career-and-startup.md#1-ode-fde) |
+| ⚪ | Watch for actual Gemini 3.5 Pro model card / real pricing announcement (targeted today); log to WATCHLIST | **Today** | [2026-07-17/01 §2](./2026-07-17/01-big-lab-moves.md#2-gemini-3-5-pro) |
+
+### Saturday Jul 18 — cache-hit + Ring-1T weekend
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Cache-hit audit on highest-volume Claude project — log `cache_creation_input_tokens` vs `cache_read_input_tokens`, reorder blocks, target ≥60% hit rate** (ProjectDiscovery 7% → 84% play) | Sat | [2026-07-17/03 §4](./2026-07-17/03-practical-skills-and-tools.md#4-cache-hit) |
+| ⚪ | Ring-1T weekend project — pull `inclusionAI/Ring-1T` from HF, run a small ablation, write it up (Karpathy-adjacent portfolio artifact) | Sat/Sun | [2026-07-17/04 §1](./2026-07-17/04-research-progress.md#1-ring-zero) |
+| ⚪ | Try `ultracode:` prefix in Claude Code on a real audit; save as `.claude/workflows/<name>.js` | Sat | [2026-07-17/03 §3](./2026-07-17/03-practical-skills-and-tools.md#3-ultracode) |
+| ⚪ | Record a `shot-scraper video` demo of the cache-hit before/after; attach to portfolio README | Sat | [2026-07-17/03 §6](./2026-07-17/03-practical-skills-and-tools.md#6-simon) |
+
+### Sunday Jul 19 — weekly rollup
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Weekly review: write WEEK-2026-07-13.md rollup | Sun | (rollup convention) |
+| ⚪ | Cleanup ACTIONS.md (move open items to next week, archive 🟢 / 🔴) | Sun | (this file) |
+| ⚪ | STARTUPS.md re-rank — demote "generic FDE-as-a-service" (now closed by Ode); promote "agent identity/IAM" (Oak raised $60M seed) | Sun | [STARTUPS.md](./STARTUPS.md) |
+| ⚪ | Read Xi's WAIC speech text when published; log any specific policy phrases | Sun | [2026-07-17/01 §2](./2026-07-17/01-big-lab-moves.md#2-gemini-3-5-pro) |
+
+### Ongoing this week (Jul 13–19)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **MCP 2026-07-28 spec migration** — grep any MCP server for `Mcp-Session-Id` / `session_id`, move to `_meta`; test against RC before Jul 28 | This week (T-11 days) | [2026-07-17/03 §5](./2026-07-17/03-practical-skills-and-tools.md#5-mcp-spec) |
+| ⚪ | Update Claude Code to 2.1.212+; set `CLAUDE_CODE_MAX_SUBAGENTS_PER_SESSION=50` | Mon | [2026-07-17/03 §1](./2026-07-17/03-practical-skills-and-tools.md#1-claude-code) |
+| ⚪ | If on JetBrains: enable Copilot BYOK, point at Groq or Fireworks endpoint | This week | [2026-07-17/03 §7](./2026-07-17/03-practical-skills-and-tools.md#7-copilot) |
+| ⚪ | Read the AI2 "Rethinking Evaluation of Harness Evolution" paper (arXiv 2607.12227) — highest-ROI interview prep for agent-eval questions | This week | [2026-07-17/04 §2](./2026-07-17/04-research-progress.md#2-harness-evolution) |
+| ⚪ | Read Anthropic J-lens paper + try the Neuronpedia demo | This week | [2026-07-17/04 §3](./2026-07-17/04-research-progress.md#3-j-lens) |
+
+---
+
+## Archive (older weeks — kept for reference)
+
+<details>
+<summary>Week of May 19–25 (archived 2026-07-17)</summary>
 
 ## This week (May 19 – May 25)
 
@@ -97,6 +145,10 @@ Last updated: **2026-05-22**
 ## Archive (recently done — keep for ~30 days)
 
 (none yet — this file is new as of 2026-05-19)
+
+---
+
+</details>
 
 ---
 

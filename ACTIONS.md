@@ -4,7 +4,47 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-07-17**
+Last updated: **2026-07-18**
+
+---
+
+## Added 2026-07-18 (Saturday) — KIMI K3 #1 on Frontend Code Arena · Gemini 3.5 Pro no-show · WAIC Day 2 (5,000 seats, ASEAN/Arab League/AU/BRICS partnerships) · Project Perception ships · Oracle -30K · Fable-5-free sunset Sun midnight
+
+Everything here derives from [today's edition](./2026-07-18/).
+
+### Saturday July 18 — capture Fable-5 evals TODAY; ship the 3×3 open-vs-closed matrix
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **CAPTURE FABLE-5-FREE EVALS BEFORE SUNDAY 11:59 PM PT SUNSET** — 90-min play: pass-rate + $/task + tool-call fabrication rate on top 3 workloads (structured extraction, MCP tool-use, agentic coding); commit CSV logs to your evals repo | **TODAY (Sat)** | [2026-07-18/03 §1](./2026-07-18/03-practical-skills-and-tools.md#1-fable-5-evals) |
+| ⚪ | **SET UP KIMI K3 HOSTED VIA OPENROUTER** — 30-min: sign up, $10 credit, point eval harness at `moonshotai/kimi-k3`, run same 20-task-per-workload eval you ran for Fable 5 | **TODAY (Sat)** | [2026-07-18/03 §2](./2026-07-18/03-practical-skills-and-tools.md#2-kimi-k3-eval) |
+| ⚪ | **SET UP INKLING HOSTED** — Databricks account OR HF Inference endpoint OR TML's Tinker; run same eval | **TODAY (Sat)** | [2026-07-18/04 §1](./2026-07-18/04-research-progress.md#1-inkling-arch) |
+| ⚪ | **SHIP THE 3×3 EVALUATION MATRIX** on GitHub — repo with `router.py` + `schemas/` + `eval/` + `docs/methodology.md` + `logs/results.csv` + demo GIF + MIT license; README opens with Kimi-K3 Frontend Code Arena #1 chart | **Sat by 10 PM** | [2026-07-18/05 §3](./2026-07-18/05-career-and-startup.md#3-artifact-brief) |
+| ⚪ | **ADD PROVIDER-AVAILABILITY PROBE** to your router (30 LOC, boots probe of 5-token ping per declared model, prunes chain, structured-JSON log) — defensive against Gemini-3.5-Pro-style no-shows | **Sat evening** | [2026-07-18/03 §3](./2026-07-18/03-practical-skills-and-tools.md#3-provider-probe) |
+| ⚪ | **READ Sebastian Raschka on Inkling architecture** (15 min) — interview-prep for MLE screens | **Sat afternoon** | [2026-07-18/04 §1](./2026-07-18/04-research-progress.md#1-inkling-arch) |
+| ⚪ | **READ Simon Willison on Kimi K3 + pelican benchmark** (10 min) | **Sat night** | [Simon Willison Jul 16](https://simonwillison.net/2026/Jul/16/kimi-k3/) |
+
+### Sunday July 19 — distribute the artifact + final Fable-5-free hours + apply
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **LINKEDIN POST**: 4 bullets — (1) Kimi K3 #1 on Arena Frontend Code Arena, (2) 3×3 matrix on my task suite, (3) empirical Grok/Kimi/Fable routing threshold on my workload was ~X%, (4) repo link. Include the Arena chart. | **Sun 10 AM** | [2026-07-18/05 §3](./2026-07-18/05-career-and-startup.md#3-artifact-brief) |
+| ⚪ | **CLOSE THE ODE + ANTHROPIC + OPENAI DEP CO APPLICATIONS** (queued from Fri Jul 17) — cover letter uses the 3×3-matrix numbers as the specific-evidence close | **Sun** | [2026-07-18/05 §2](./2026-07-18/05-career-and-startup.md#2-ode-followup) |
+| ⚪ | **APPLY TO TOGETHER AI** (Solutions Engineer / Field Engineer) — newly $800M-funded neocloud, thinner queue than frontier labs | **Sun** | [2026-07-18/05 §2](./2026-07-18/05-career-and-startup.md#2-ode-followup) |
+| ⚪ | **APPLY TO OLLAMA** (Founding / early SE) — $88M just raised, small team = high ownership | **Sun** | [2026-07-18/05 §2](./2026-07-18/05-career-and-startup.md#2-ode-followup) |
+| ⚪ | **FINAL FABLE-5-FREE HOURS** (until 11:59 PM PT Sun) — any remaining eval capture, then plan post-sunset budget | **Sun before midnight PT** | [2026-07-18/02 §2](./2026-07-18/02-new-emerging.md#2-fable-5-sunset) |
+| ⚪ | Log all Sunday application outcomes in [APPLICATIONS.md](./APPLICATIONS.md) | **Sun evening** | [2026-07-18/05 §2](./2026-07-18/05-career-and-startup.md#2-ode-followup) |
+| ⚪ | Weekly reflection: sent-count vs reply-rate; refresh ACTIONS.md for next week | **Sun evening** | [ME.md personal rules](./ME.md) |
+
+### Rolling this week (any day, before next Sat)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Watch **[Google DeepMind Blog](https://deepmind.google/blog/)** daily (5 min/day) for Gemini 3.5 Pro official model card — do NOT update comparison table until Google publishes primary source | Mon-Fri | [2026-07-18/01 §2](./2026-07-18/01-big-lab-moves.md#2-gemini-no-show) |
+| ⚪ | Watch **[Hugging Face](https://huggingface.co/)** for Kimi K3 open-weight drop (promised Jul 27) — set an HF watcher on `moonshotai/kimi-k3` if not already | Rolling to Jul 27 | [2026-07-18/01 §1](./2026-07-18/01-big-lab-moves.md#1-kimi-k3) |
+| ⚪ | Add **UN AI Advisory Body**, **UNCTAD digital economy**, **WMO** (weather-warning system), **ASEAN AI Task Force**, **AU AI Strategy office** to APPLICATIONS.md monitoring | This week | [2026-07-18/05 §5](./2026-07-18/05-career-and-startup.md#5-waico-programs) |
+| ⚪ | Bump [STARTUPS.md](./STARTUPS.md): **Cost-aware multi-provider router (w/ jurisdiction toggle) → fit-5**; **Trajectory-verifier/policy-eval as Perception+Mythos backend → fit-5**; add **Kimi K3 for regulated Global South hosting → fit-4**; add **Jurisdiction-aware routing (WAICO vs US-allied) → fit-4** | This week | [2026-07-18/05 §4](./2026-07-18/05-career-and-startup.md#4-wedges) |
+| ⚪ | Add **Kimi K3 open-weights Jul 27**, **Fable-5-free sunset Jul 19**, **Project Perception vs Mythos 5**, **Oracle Stargate labor bill**, **Gemini 3.5 Pro slipped past target** to [WATCHLIST.md](./WATCHLIST.md) | This week | [2026-07-18/00](./2026-07-18/00-tldr.md) — Watchlist deltas |
 
 ---
 

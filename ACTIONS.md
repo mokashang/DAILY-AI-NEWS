@@ -4,9 +4,84 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-07-20**
 
 ---
+
+## This week (Jul 20 – Jul 26)
+
+### Monday Jul 20 — Opus 4.7 tokenizer audit + Anthropic-focus revalidation
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **1-hour Opus 4.7 tokenizer bill audit** — pull `~/.claude/usage.jsonl` last 7 days, divide token count by 1.30 to estimate Opus-4.6-equivalent spend, compute delta as % of monthly budget; ship as **public gist by Friday** | Mon start / Fri ship | [2026-07-20/03 §3](./2026-07-20/03-practical-skills-and-tools.md#3-tokenizer-cost) |
+| ⚪ | **Update ME.md focusing decision line** to explicitly cite Jumper + Adler + Pritzel → Anthropic + Karpathy pretraining team as the validating signal cluster | Mon | [2026-07-20/01 §1](./2026-07-20/01-big-lab-moves.md#1-deepmind-exodus) |
+| ⚪ | **Set up 3–5 parallel Claude Code sessions in git worktrees** (native support now; 1 planner Opus + 2–3 workers Sonnet + 1 verifier Opus) — install this once, use forever | Mon night | [2026-07-20/03 §1](./2026-07-20/03-practical-skills-and-tools.md#1-claude-code-playbook) |
+
+### Tuesday–Wednesday Jul 21–22 — apply-with-artifact push
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Send 5 targeted applications with an artifact attached** — Anthropic Solutions, OpenAI FDE, Harvey, Emergent, Hebbia (or Glean); attach the in-progress tokenizer-audit gist as evidence of production-cost thinking | Tue–Wed | [2026-07-20/05 §4](./2026-07-20/05-career-and-startup.md#4-solutions-hunting) |
+| ⚪ | Rewrite résumé to add Meta RL-environment vocabulary (environment design, reward specification, evaluator wiring, distributed rollouts, task-suite curation); apply to Meta Applied AI Eng new-grad | Wed | [2026-07-20/05 §3](./2026-07-20/05-career-and-startup.md#3-rl-env-engineer) |
+| ⚪ | Add **CAISI / pre-deployment-eval / capability-benchmarking pack / bank AI-risk** to skills vocabulary; add JPM + Goldman + MSCI + Moody's AI-Risk teams to APPLICATIONS.md | Wed | [2026-07-20/05 §2](./2026-07-20/05-career-and-startup.md#2-caisi-lane) |
+
+### Thursday Jul 23 — build the tier-picker
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Build the Sol / Terra / Luna tier picker** (30-line router + 20-prompt eval per task class); public repo with `benchmark_results.md` | Thu | [2026-07-20/03 §2](./2026-07-20/03-practical-skills-and-tools.md#2-provider-router) |
+| ⚪ | Extend router to include **Opus 4.7 + Sonnet 4.6 + Haiku 4.5** — completes the 3-provider comparison table carried from May | Thu | [2026-07-20/03 §2](./2026-07-20/03-practical-skills-and-tools.md#2-provider-router) |
+
+### Friday Jul 24 — ship the tokenizer audit
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship the Opus 4.7 tokenizer-audit gist publicly** — headline the delta % + the one-line mitigation (Opus-orchestrator/Sonnet-worker split) | Fri | [2026-07-20/03 §3](./2026-07-20/03-practical-skills-and-tools.md#3-tokenizer-cost) |
+| ⚪ | **3 customer-discovery DMs** to Claude-Code-heavy friends: run the audit on their bill, hand them a number, ask *"would you pay $X/mo for this to run automatically and cap you at $Y?"* — real customer discovery for STARTUPS.md cost-router wedge | Fri | [2026-07-20/03 §3](./2026-07-20/03-practical-skills-and-tools.md#3-tokenizer-cost) |
+
+### Weekend Jul 25–26 — HAL / research reading + STARTUPS re-rank
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Read Holistic Agent Leaderboard (HAL, arXiv 2510.11977) end-to-end;** skim HAS-Bench (2607.04329) + AlphaEval (2604.12162) — highest ROI-per-hour interview prep this month | Sat | [2026-07-20/04 §1](./2026-07-20/04-research-progress.md#1-agent-benchmarks) |
+| ⚪ | **STARTUPS.md re-rank** — promote **agent-identity/scope-management** (Oak precedent, $60M seed) and **scientific-agent eval harnesses** (Jumper-to-Anthropic signal) into top-3 slots | Sat | [2026-07-20/02 §4](./2026-07-20/02-new-emerging.md#4-oak) + [2026-07-20/05 §5](./2026-07-20/05-career-and-startup.md#5-health-lane) |
+| ⚪ | **Draft a small scientific-agent eval harness** (5–10 tasks; protein-family / drug-ADMET / clinical-note extraction) — publish next week; unlocks Isomorphic + Neko + biotech-AI outreach | Sun | [2026-07-20/05 §5](./2026-07-20/05-career-and-startup.md#5-health-lane) |
+| ⚪ | Weekly review — write WEEK-2026-07-20.md rollup | Sun | (cadence) |
+
+---
+
+## Active multi-week threads (no fixed due date)
+
+| Status | Action | Carried from | Notes |
+|---|---|---|---|
+| ⚪ | Ship public MCP server (3 tools, 5-case eval, README, demo gif) | [ME.md](./ME.md) | Pin above resume projects |
+| ⚪ | Personal Claude billing audit + writeup | [ME.md](./ME.md) | **Now urgent — tokenizer changed silently** ([2026-07-20/03 §3](./2026-07-20/03-practical-skills-and-tools.md#3-tokenizer-cost)) |
+| ⚪ | One vertical-Claude-for-X workflow library | [ME.md](./ME.md) | Doubles as Solopreneurship Accelerator application asset |
+| ⚪ | Apply to Isomorphic Labs eng role (London / Cambridge MA / Lausanne) | [2026-05-18/02](./2026-05-18/02-new-emerging.md) | Higher priority now with Jumper → Anthropic signal |
+| ⚪ | Drop `CLAUDE.md` (Karpathy template) into every active project root | [2026-05-17/03](./2026-05-17/03-practical-skills-and-tools.md) | One-time install |
+| ⚪ | Enable prompt caching on highest-volume project | [2026-05-17/03](./2026-05-17/03-practical-skills-and-tools.md) | **More valuable post-tokenizer-change** — 60–90% input-cost cut |
+| ⚪ | Apply to OpenAI Residency 2026 | [ME.md](./ME.md) | Rolling; submit this month |
+| ⚪ | Apply to Anthropic AI Safety Fellowship | [ME.md](./ME.md) | Next cohort |
+| ⚪ | Apply to Google DeepMind Early Career | [ME.md](./ME.md) | **Lower confidence now** — DeepMind exodus / execution risk |
+
+---
+
+## Archive (completed / dropped — retain ~30 days)
+
+- 🟢 [May 19–24 actions] — moved out; carry-forwards folded into July threads above.
+
+---
+
+## Notes
+
+- **One rule:** ACTIONS.md only contains things *you* will do. Watching-threads live in [WATCHLIST.md](./WATCHLIST.md).
+- **Monday + Sunday update cadence:** Monday after the daily edition lands, Sunday during the weekly rollup.
+- **If an action sits ⚪ for 14 days,** either upgrade to 🟡, drop to 🔴 (with a one-line reason), or move it to a `someday/` section. Don't let dead items accumulate.
+
+---
+
+## Prior weeks (archived)
 
 ## This week (May 19 – May 25)
 

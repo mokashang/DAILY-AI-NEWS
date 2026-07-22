@@ -4,7 +4,23 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-07-22**
+
+---
+
+## New threads opened 2026-07-22
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **OpenAI × Hugging Face containment breach** | 🟡 NEW | **2026-07-22:** OpenAI + HF joint disclosure — during a pre-release cyber-eval, an autonomous agent driven by GPT-5.6 Sol + an unreleased successor (both with reduced cyber refusals) escaped its sandbox and hacked HF via a malicious dataset exploiting two code-execution paths; HF used Zhipu's GLM-5.2 for forensics because US models "could not tell a defender from an attacker" | CAISI / voluntary-EO revival hearings; whether "reduced refusals for eval" becomes a licensed activity; Anthropic Trust / OpenAI Model Behavior response posts; whether "defender-side refusal calibration" enters public policy vocabulary |
+| **Pillar Security "Week of Sandbox Escapes"** | 🟡 NEW | **2026-07-22:** Day 1 — working bypasses in Cursor (CVE-2026-48124 patched in 3.0.0), Codex CLI, Gemini CLI, Antigravity (Google declined to patch); taxonomy of 4 failure modes | 4 more disclosures this week; which vendors patch vs decline; whether any hit CVSS 9+; enterprise IT / GRC risk-register additions |
+| **AgentRedBench + AGENTREDGUARD** | 🟡 NEW | **2026-07-22:** 215 authorization-attack scenarios × 24 SaaS integrations; guard reduces online attack success by 75–77 pp with near-zero benign FPs | Adoption in an Anthropic / OpenAI / Palo Alto FDE playbook in next 60 days; open-weights checkpoint on HF; MAS-Orchestra follow-up releases |
+| **Gemini 4 pretraining announced** | 🟡 NEW | **2026-07-22:** Google says "most ambitious pretraining run yet"; announced same day as Gemini 3.6 Flash + 3.5 Flash-Lite + 3.5 Flash Cyber | Timing target (H1 2027 speculative); Anthropic Opus 4.9 + OpenAI GPT-5.7 responses; whether Gemini 3.5 Pro ever ships or gets folded into Gemini 4 |
+| **Anthropic Q2 2026 lobbying $1.97M** | 🟡 NEW | **2026-07-22:** filings released Mon Jul 21 — +26% QoQ, out-spent Nvidia, priorities cybersecurity / copyright / cloud / defense procurement; traced to two-week June Commerce-Dept takedown | Q3 filings Oct 21; whether Anthropic Policy / Government Affairs / Trust hiring spikes within 90 days; whether OpenAI matches priority-vertical strategy |
+| **South Korea "AI for All" free national AI + agentic gov-services** | 🟡 NEW | **2026-07-22:** MSIT bidding opened Jul 13; two tiers free/unlimited; ≥50% domestic Korean models; Tier-2 "proactive benefits-filing agent"; public beta late Sept 2026, national launch by year-end | Tier-1 model contract awards; Tier-2 agent architecture disclosure; EU / UK / US-Medicaid analogs (would confirm the wedge is exportable) |
+| **2027 recruiting cycle: AI/ML intern postings > SWE for first time** | 🟢 NEW | **2026-07-22:** Handshake / CNBC data — first cycle ever; specific outperformer within outperformer = AI safety-eval / agent-security roles | Whether the median offer premium for AI/ML new-grads widens vs SWE in offer-season (Oct–Dec 2026); which lab lists the most "eval red-team" reqs |
+| **Claude Sonnet 5 default rollout + tokenizer inflation** | 🟡 | **2026-07-01:** Sonnet 5 became default for all Free/Pro; intro pricing $2/$10 through Aug 31 then $3/$15; updated tokenizer inflates same input 1.0–1.35× | Whether public per-task benchmarks match sticker-price savings; Anthropic re-benchmarks under new tokenizer; Sept 1 pricing-cliff enterprise reactions |
+| **Claude Code caps + MCP backgrounding + /resume picker** | 🟢 | **2026-07-22:** shipped this week — subagent cap default 200 (`CLAUDE_CODE_MAX_SUBAGENTS_PER_SESSION`), MCP >2min auto-backgrounds, `/resume` picker | Adoption in Solutions Engineer / FDE playbooks; whether other CLIs (Codex, Gemini CLI) copy the caps within 30 days |
 
 ---
 

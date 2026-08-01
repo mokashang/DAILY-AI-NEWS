@@ -4,7 +4,53 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-07-20**
+Last updated: **2026-08-01**
+
+---
+
+## Added 2026-08-01 (Saturday) — WH FRAMEWORK AUG-1 DEADLINE + ANTHROPIC 141K-SESSION POSTMORTEM + DEEPSEEK V4-FLASH-0731 GA + AI4 T-3 + PRICING SUNSETS
+
+Everything here derives from [today's edition](./2026-08-01/).
+
+### Saturday Aug 1 — ship the MCP-Workers artifact + assurance-lane applications
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship MCP 2026-07-28 stateless server on Cloudflare Workers** (2-3 hrs) — one repo, Tasks + Apps tools, `Mcp-Method`/`Mcp-Name` headers, OAuth 2.1 resource server, 90-sec Loom | **Sat AM** | [2026-08-01/03 §1](./2026-08-01/03-practical-skills-and-tools.md#1-mcp-workers-weekend) |
+| ⚪ | **Apply to Anthropic Applied AI FDE** (Menlo Ventures job board) with MCP-Workers artifact linked | **Sat PM** | [2026-08-01/05 §1](./2026-08-01/05-career-and-startup.md#1-assurance-lane-week1) |
+| ⚪ | **Apply to one CAISI reviewer contractor** (Booz Allen · MITRE · RAND) with the MCP artifact + a two-sentence containment-doc pitch | **Sat PM** | [2026-08-01/05 §1](./2026-08-01/05-career-and-startup.md#1-assurance-lane-week1) |
+| ⚪ | **Rewrite LinkedIn skills** to add: `pre-deployment evaluation`, `containment postmortem`, `agent CTF isolation`, `eval-session forensics`, `victim notification workflow` | **Sat AM** | [2026-08-01/05 §1](./2026-08-01/05-career-and-startup.md#1-assurance-lane-week1) |
+
+### Sunday Aug 2 — pricing sunset + router refresh + cold outreach
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **⏰ HARD DEADLINE: claim Claude Fable 5 $100 promotional credit** before it expires | **Sun** | [2026-08-01/03 §3](./2026-08-01/03-practical-skills-and-tools.md#3-two-5min-audits) |
+| ⚪ | **Add DeepSeek V4-Flash-0731 to the tier picker** (20 min) — benchmark against Luna, Sonnet 5, Kimi K3 on 20 real messages; log `$/successful task` | **Sun AM** | [2026-08-01/03 §2](./2026-08-01/03-practical-skills-and-tools.md#2-deepseek-router-refresh) |
+| ⚪ | **Audit top-5 recurring Sonnet 5 jobs — plan Sept 1 demotions to V4-Flash-0731 / Haiku 4.5** (Sonnet 5 promo ends Aug 31, 50% step-up on Sept 1) | **Sun AM** | [2026-08-01/03 §3](./2026-08-01/03-practical-skills-and-tools.md#3-two-5min-audits) |
+| ⚪ | **Send 3 cold LinkedIn DMs to Ai4 exhibitor booth staff** for a Tue/Wed 10-min meet in Vegas | **Sun PM** | [2026-08-01/05 §2](./2026-08-01/05-career-and-startup.md#2-ai4-cold-outreach) |
+| ⚪ | **Send 3 cold emails to OpenAI Preparedness / Anthropic Trust & Safety engineers** — one concrete question about the postmortem, no ask, no meeting request | **Sun PM** | [2026-08-01/05 §1](./2026-08-01/05-career-and-startup.md#1-assurance-lane-week1) |
+
+### Monday Aug 3 — Ramp AI Index + Watchlist update
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Screenshot Ramp AI Index Monday print + update WATCHLIST** — track Anthropic-vs-OpenAI adoption line + top-1% AI-spend trajectory | **Mon AM** | [2026-08-01/02 §2](./2026-08-01/02-new-emerging.md#2-ramp-index-preview) |
+| ⚪ | **Add `CYBER-EVAL-CONTAINMENT.md` to your agent-container project** — two mitigations from the Claude postmortem (reduced-refusals scope + victim-notification workflow) | **Mon** | [2026-08-01/03 §4](./2026-08-01/03-practical-skills-and-tools.md#4-containment-checklist-delta) |
+
+### Tuesday–Thursday Aug 4-6 — Ai4 conference follow-up window
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Follow up with any Ai4 DM replies** — target 1-2 real 10-min meetings by end of Wed | **Tue–Wed** | [2026-08-01/05 §2](./2026-08-01/05-career-and-startup.md#2-ai4-cold-outreach) |
+| ⚪ | **Watch Ai4 keynote streams** — Hinton / Fei-Fei / Ng joint keynote + Waymo + Mistral for signal on next-quarter direction | **Tue** | [2026-08-01/02 §1](./2026-08-01/02-new-emerging.md#1-ai4-las-vegas) |
+
+### Friday Aug 7 — weekly retrospective
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Weekly retro + STARTUPS.md wedge-score refresh** — did any of this week's stories move a wedge score up/down? Update accordingly | **Fri** | [ME.md](./ME.md) personal rules |
+| ⚪ | **YC S26 checkpoint decision** — apply this batch, or use the exercise for a founding-engineer pitch instead | **Fri** | [2026-08-01/05 §3](./2026-08-01/05-career-and-startup.md#3-yc-s26-checkpoint) |
 
 ---
 

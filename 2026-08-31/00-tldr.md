@@ -2,7 +2,7 @@
 
 Sixty-second skim. **The distribution wars just got a top-of-funnel: Salesforce embedded Anthropic across the #1 CRM ("Claudeforce"), and Google confirmed Gemini replaces Assistant on Android this Friday (Sep 4).** **OpenAI shipped an `Ultrafast` mode for GPT-5.6 Sol (≈14× speed, ~750 t/s) and a per-response effort slider inside ChatGPT** — mainstream product now has the same knob the API had. **Anthropic won its First-Amendment case against the DoW supply-chain-risk designation** (Aug 27) — a huge unlock for federal-adjacent revenue. **MCP got its first enterprise-scale governance layer** (Enterprise-managed auth GA on Aug 24; **Model Hardware Standard** preview on Aug 27 — MCP now reaches into wet labs and robotic arms). Meanwhile **Meta shipped Muse Code** (Aug 5) — a real fourth coding-agent option — and **Prometheus raised $12B at $41B** for industrial AI (year's largest B-round). The workhorse tier stayed flat on price; the *distribution* tier is where all the leverage moved this month.
 
-*(Note: last edition in this archive was 2026-07-25. Five weeks have passed. This is a fresh Monday read, not a continuation — I've cross-linked back where a thread survives.)*
+*(Note: this Monday-edition picks up after the [2026-08-02 edition](../2026-08-02/), the most recent one before today. Threads that continue from before are cross-linked back where they survive.)*
 
 ---
 
@@ -31,9 +31,9 @@ Sixty-second skim. **The distribution wars just got a top-of-funnel: Salesforce 
 2. **Tonight (15 min) — migrate one MCP server to enterprise-managed auth** on Datadog *or* Notion (the two lowest-friction integrations that just went GA). Screenshot the auth-token config + `claude mcp status` output — that's your interview visual. [`03` §2](./03-practical-skills-and-tools.md#2-mcp-connectors)
 3. **Wednesday (2–3 hrs) — ship the Salesforce-agents cost log artifact.** One repo: Salesforce read + Slack write + Claude Opus 5 planner at `effort=high`, Sonnet 5 workers at `effort=medium`, cost per opportunity logged. Post it Thursday with the 3-model comparison (Opus 5 vs. GPT-5.6 Sol Ultrafast vs. Muse Code) so the timing matches the Claudeforce beta window. [`03` §4](./03-practical-skills-and-tools.md#4-this-weeks-artifact)
 
-## Watchlist deltas since 2026-07-25
+## Watchlist deltas since 2026-08-02
 
-*Five weeks have passed. Threads that survived:*
+*Four weeks since the last archived edition. Threads that survived:*
 
 - 🆕 **Claudeforce (Salesforce × Anthropic, Aug 26)** — new thread. First named distribution alliance at CRM scale. The template other SaaS category leaders will copy in Q4.
 - 🆕 **OpenAI Ultrafast + ChatGPT effort slider (Aug 13 / Aug 26)** — extends the [Opus 5 effort-toggle thread](../2026-07-25/01-big-lab-moves.md#1-opus-5). The API primitive is now a consumer control.

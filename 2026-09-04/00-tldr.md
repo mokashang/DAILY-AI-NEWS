@@ -2,7 +2,7 @@
 
 Sixty-second skim. **The frontier crossed the "Critical cyber" line and the workhorse tier repriced again — all in the same 96-hour window.** **OpenAI shipped GPT-6 Astra on 2026-09-03** — the first model OpenAI itself rates **Critical** on cybersecurity under the Preparedness Framework, $10/$50 per MTok API (2.5× GPT-5.6 Sol), OSWorld 2.0 72.6%, ExploitBench 100%, FrontierMath T4 97.6%. **Anthropic shipped Claude Fable 5.1 + Mythos 5.1 on 2026-09-01** — same headline pricing as Fable 5, **cache reads dropped 75% ($1.00 → $0.25 per MTok)** — plus a restricted-access "Mythos" SKU for vetted cyber/bio orgs. **CrowdStrike announced SafeMind at Fal.Con** (Red Tempest 27B offensive + Blue Solano 128B/12B-active defensive, both on Nvidia Nemotron) — the first shipped autonomous red-team/blue-team loop against a digital twin. And **the Air Force's Sept-1 "purge Anthropic" deadline landed** — Anthropic is suing, DoD still lists it as a "Supply Chain Risk," Commerce Sec. Lutnick softened publicly ("we trust Anthropic; back on the right side"). The **three-lab market is now a three-lab cyber-arms race**.
 
-*(Last edition in this archive was [2026-07-25](../2026-07-25/). Six-week gap — treat this as a fresh week's read, threads cross-linked where they survived.)*
+*(Follows [2026-09-03](../2026-09-03/). Astra shipped 24h later — this edition is the day-after read on Astra's Critical rating, the same-week Fable 5.1 caching move, and the CrowdStrike SafeMind Fal.Con announcement.)*
 
 ---
 
@@ -31,20 +31,18 @@ Sixty-second skim. **The frontier crossed the "Critical cyber" line and the work
 2. **Saturday (3h) — add an Astra-fallback path.** Wrap your primary Fable-5.1 call in a `try/except` that falls to `gpt-6-astra` at `effort=medium` on 5xx or timeout. Log the fallback rate. This is the multi-vendor discipline the Sept-3 tri-outage just made non-optional ([`03` §3](./03-practical-skills-and-tools.md#3-multi-vendor-hardening)).
 3. **Sunday afternoon (2h) — publish a one-pager: "Fable 5.1 vs. Astra vs. Sol on a real MCP-server workflow, with cost logs."** Post to your portfolio and one LinkedIn/X post. This is exactly the artifact FDE screens read for; interview conversion on it is measurable ([`05` §1](./05-career-and-startup.md#1-fde-hardest-hire)).
 
-## Watchlist deltas since the [2026-07-25](../2026-07-25/) edition
+## Watchlist deltas since [2026-09-03](../2026-09-03/)
 
-*Six weeks have passed. The threads that survived:*
+*24-hour delta focused on Astra shipping + adjacent moves. Longer-arc threads back to [2026-09-01](../2026-09-01/), [2026-09-02](../2026-09-02/), [2026-09-03](../2026-09-03/):*
 
-- 🆕 **GPT-6 Astra (2026-09-03)** — new thread. First **Critical cyber** rating in any lab's frontier framework. Sets the ceiling of both capability and gating for the next 6 months.
-- 🆕 **Claude Fable 5.1 / Mythos 5.1 (2026-09-01)** — extends the [Opus 5 effort-toggle](../2026-07-25/01-big-lab-moves.md#1-opus-5) thread; **the pricing-lever is now cache-read cost, not headline token price**. New sub-thread.
-- ➡️ **Anthropic-Pentagon dispute** — extends [2026-07-25 §3 (Amazon retreat)](../2026-07-25/01-big-lab-moves.md#3-amazon-agi-lab) by adjacency: the frontier-lab-vs-gov relationship is now the risk axis, not lab-vs-lab. Anthropic's counter-move is **geographic** (Bengaluru) + **legal** (suit).
-- 🆕 **CrowdStrike SafeMind** — new thread. First real agentic-security product with public architecture (Nemotron-based, red/blue split, digital-twin loop). Template for vertical agentic products.
-- ➡️ **MCP 2026-07-28** — now shipped and in production. Migration window from [2026-07-25 §4](../2026-07-25/00-tldr.md) closed. Portfolio delta: any MCP server not on the new spec is dated.
-- 🆕 **Sept-3 tri-outage** — new signal. Multi-vendor as **production requirement**.
-- ⬇️ **Amazon AGI Lab closure** — thread continues quietly; consolidation to three labs is the operating assumption ([2026-07-25 §3](../2026-07-25/01-big-lab-moves.md#3-amazon-agi-lab)).
-- ⬇️ **Gemini 3.5 Pro** — still "coming soon" as of early Sept; the trough between Google generations continues (see [2026-07-25 §4](../2026-07-25/01-big-lab-moves.md#4-gemini-flash)). Astra + Fable 5.1 both landed in that trough.
-- ➡️ **FDE market** — now called the tightest senior tech market on the board. Comp bands tightened, hiring bar unchanged.
-- 🆕 **Anthropic Fellows Nov 2026 cohort** — assumed submitted per the [2026-07-25 §5](../2026-07-25/00-tldr.md) deadline. If not, note the miss and set the next call.
+- 🆕 **GPT-6 Astra shipped 2026-09-03 → the day-after read is here.** First **Critical cyber** rating in any lab's frontier framework; Anthropic's [Astra "Daybreak Blue" gated-alpha resumption note from 09-02](../2026-09-02/) has now landed in production. Sets the ceiling of both capability and gating for the next 6 months.
+- ➡️ **Claude Fable 5.1 / Mythos 5.1 (2026-09-01)** — [09-03 characterized the cache-read cut as "~25–45% cheaper agentic workloads"](../2026-09-03/). Today's edition ships the tactical recipe: rewrite one MCP prompt tonight ([`03` §1](./03-practical-skills-and-tools.md#1-fable-caching)).
+- 🆕 **Anthropic vs. Pentagon** — the [Air Force Sept-1 "purge" deadline referenced in 08-31](../2026-08-31/) has now landed. Anthropic filed suit. Read alongside [09-01's Pentagon-added-ChatGPT-Mil+Grok note](../2026-09-01/): federal AI lane is a Gemini/OpenAI/xAI carve-up in the near term; Anthropic counters via geography (Bengaluru per [09-01](../2026-09-01/)) + legal (suit).
+- 🆕 **CrowdStrike SafeMind (Fal.Con Sept 1)** — new thread. First shipped agentic-security product with public architecture (Nemotron-based, 27B offensive + 128B MoE defensive, digital-twin loop). Template for vertical agentic products; the applied form of the paired-adversary + verifier-loop research pattern that has been surfacing since [09-03's OpenAI×METR×Redwood coordination-detection methodology](../2026-09-03/).
+- 🆕 **Sept-3 tri-outage** — new signal. Multi-vendor as **production requirement**, not preference.
+- ➡️ **MCP 2026-07-28** — [08-02 called it live and default](../2026-08-02/); this week's Google + Microsoft scaling guides ([09-03 §](../2026-09-03/)) mark the migration window formally closed. Portfolio delta: any MCP server not on the new spec is dated.
+- ⬇️ **Gemini 3.5 Pro** — still "coming soon" as of early Sept; the trough between Google generations continues. Astra + Fable 5.1 both landed in that trough.
+- ➡️ **FDE market** — now called the tightest senior tech market on the board ([09-03](../2026-09-03/) had specific req counts: Palantir 51 · OpenAI 31 · Databricks 12 · Mistral 11 · Cohere 10). Comp bands tightened, hiring bar unchanged.
 
 ---
 

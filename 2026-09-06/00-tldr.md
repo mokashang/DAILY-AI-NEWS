@@ -2,7 +2,7 @@
 
 Sixty-second skim. **The frontier moved on all three labs inside one week, and the enterprise-safety plumbing got redrawn.** **OpenAI shipped GPT-6 Astra (Sept 3)** with Greg Brockman on record calling it "the start of the AGI era" — 1M context, 72.6% OSWorld 2.0, saturates FrontierMath T4 and ARC-AGI-3, priced at $10/$50 per MTok. **Anthropic released Claude Fable 5.1 + Mythos 5.1 (Sept 1)** — same model, two safeguard tiers; cybersecurity false-positive rate cut ~60%, biology fallback ~85%; **Enterprise Frontier Safeguards (EFS)** moves monitoring into the customer's cloud. **Google DeepMind shipped Gemini 3.8 Flash + Flash Cyber (Sept 2).** **Sonnet 5 promo pricing ended Aug 31** — every prod bill re-prices tomorrow if it hasn't already. And the **FDE market crossed 982 live postings / 462 companies**, with OpenAI opening **Healthcare + Legal FDE tracks**. **OpenAI DevDay Sept 29** is the next scheduled inflection point.
 
-*(This is the first edition after a long gap in the archive — treat it as a fresh week's read. Cross-references back to the [2026-07-25 edition](../2026-07-25/) where a thread survives.)*
+*(Follows [yesterday's 2026-09-05 edition](../2026-09-05/). This is the Sunday-regroup view — same week's news but re-lensed for weekend action.)*
 
 ---
 
@@ -30,14 +30,14 @@ Sixty-second skim. **The frontier moved on all three labs inside one week, and t
 
 → **Ship a 3-model comparison artifact by tonight.** Take one real task from your portfolio (an MCP server exercise or the dual-model sanitiser you scoped in the [May 20 edition](../2026-05-20/03-practical-skills-and-tools.md)), and run it three ways: **GPT-6 Astra (`Fast` off) · Claude Fable 5.1 · Gemini 3.8 Flash**. Log per-call latency, cost, and one-shot correctness. Publish it as a public gist by Monday morning. This is **the exact artifact** the ME.md portfolio lists as "1-page Gemini-vs-Claude-vs-OpenAI comparison" and it's cheaper to build this week than any other: all three flagships are 1M context, and Astra + Fable both just moved. Cross-link: [`03` §4](./03-practical-skills-and-tools.md#4-this-weekends-artifact).
 
-## Watchlist deltas since the 2026-07-25 edition
+## Watchlist deltas since yesterday (2026-09-05)
 
-- 🆕 **GPT-6 Astra** — new thread. The AGI-framing hits the record; also normalizes $10/$50 as the new flagship price band (2× Opus 5).
-- 🆕 **Claude Fable 5.1 / Mythos 5.1 + EFS** — extends the [Opus 5 thread from 2026-07-25](../2026-07-25/01-big-lab-moves.md#1-opus-5); safeguard-tiering + customer-cloud telemetry is a new product primitive.
-- ➡️ **MCP as protocol** — the [2026-07-28 stateless spec](../2026-07-25/02-new-emerging.md#4-mcp-stateless) is in the wild; enterprise-managed MCP servers (Claude Code `managedMcpServers`) is the first *deployment* primitive after the protocol matured.
-- ➡️ **FDE market** — extends the [+1,165% YoY thread from 2026-07-25](../2026-07-25/05-career-and-startup.md#2-fde-market); now measured at 982 live postings, and **OpenAI just opened Healthcare + Legal FDE tracks** — first public verticalization of a lab FDE org.
-- ⬇️ **Gemini 3.5 Pro** — still no ship, three Flash releases into the trough; keep watching, don't wait.
-- 🆕 **DevDay 2026 (Sept 29)** — new calendar item. Every serious portfolio should have a live comparison artifact by then.
+- ➡️ **GPT-6 Astra (Sept 3)** — [09-05](../2026-09-05/) framed it as "AGI-adjacent + Critical cyber-rating"; the Sunday re-lens emphasizes the **$10/$50 price band** (2× Opus 5) as the *product* deltafor grad-student portfolio economics — a hard ceiling that changes agent-team routing math this week.
+- ➡️ **Fable 5.1 / Mythos 5.1 + EFS** — [09-05](../2026-09-05/) covered the **75% cache-read cut**; the safeguard-tuning delta (**~60% fewer false positives on cyber, ~85% on biology**) is the *demo unblocker* for parked SOC/red-team portfolios (see [`01` §2](./01-big-lab-moves.md#2-fable-mythos-5-1)).
+- 🆕 **Sonnet 5 promo → standard pricing (+50%/+50%) is Sunday cost-audit fuel** — extends the [09-01 Sonnet 5 price cliff note](../2026-09-01/) with the concrete re-audit checklist ([`03` §3](./03-practical-skills-and-tools.md#3-sonnet-repricing)).
+- 🆕 **FDE market crossed 982 live postings** (Sept 4) with **OpenAI opening Healthcare + Legal FDE tracks** — first public verticalization; extends the [+1,165% YoY thread from 2026-07-25](../2026-07-25/05-career-and-startup.md#2-fde-market).
+- ➡️ **Gemini 3.8 Flash + Flash Cyber (Sept 2)** — Google's workhorse cadence stays live; still no 3.5 Pro — the 3-model comparison harness is cheaper to run this weekend than any prior weekend of 2026.
+- ➡️ **DevDay Sept 29** — refresh applications + pre-stage the comparison-post skeleton this week ([`05` §3](./05-career-and-startup.md#3-devday-hiring)).
 
 ---
 

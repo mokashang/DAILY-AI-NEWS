@@ -2,7 +2,7 @@
 
 Sixty-second skim. **This is the week the frontier bunched and Europe re-entered the race.** In seven days, four frontier-tier models shipped: **Claude Fable/Mythos 5.1** (Sep 1, 25%–45% cheaper), **Gemini 3.8 Flash + 3.8 Flash Cyber** (Sep 2), **Meta Muse Spark 1.3** (Sep 2, #6 on AAII), and **OpenAI GPT-6 Astra** (Sep 3–4, "generational leap" but with a **cybersecurity Critical rating and a documented drop in chain-of-thought monitorability**). This morning, **Mistral closed a €3B Samsung-led Series D at €21B post — the largest equity round in European tech history** — locking in a sovereign-AI fourth pole. **Claude proved Fermat's Last Theorem in Lean** in 11 wall-clock days across dozens of parallel agents (Sep 5). And **YC S26 Demo Day lands Thursday (Sep 10)** — this week is a rare, dense signal window for a CS grad student.
 
-*(Note: last edition in this archive was 2026-07-25. Six weeks of activity condensed here — I've cross-linked back where a thread survives.)*
+*(Continues from [2026-09-07](../2026-09-07/00-tldr.md). Today's fresh signal is the **Mistral €3B round** (§2); everything else is the working-week ledger for the six-day frontier bunch that ran Sep 1 → Sep 5, re-read against a Monday-morning "what do I do this week" lens.)*
 
 ---
 
@@ -33,9 +33,9 @@ Sixty-second skim. **This is the week the frontier bunched and Europe re-entered
 2. **Tuesday–Wednesday (~4 hours)** — port one of your existing tools to the **MCP 2026-07-28 stateless spec** and post the migration diff + one lesson to GitHub. This is the highest-return portfolio piece of the week; the platform is mid-migration, not post-migration ([`03` §2](./03-practical-skills-and-tools.md#2-mcp-migration-update)).
 3. **Thursday (Demo Day)** — watch the S26 livestream with the WATCHLIST open; cold-DM three founders whose wedge is adjacent to yours by Friday morning ([`05` §3](./05-career-and-startup.md#3-yc-s26-demo-day)).
 
-## Watchlist deltas since the 2026-07-25 edition
+## Watchlist deltas since the 2026-09-07 edition
 
-*Six weeks. The threads that survived and the new ones:*
+*One day. Today's genuinely new signal is Mistral (§5); the rest is the same working set of the week's frontier bunch, re-checked against the Monday-morning question of what to actually do this week.*
 
 - 🆕 **Claude Fable 5.1 / Mythos 5.1 (2026-09-01)** — new thread. The cache-read price drop, not the sticker, is the story: any agent that re-reads a working set now runs materially cheaper. Watch the effort-toggle interaction next.
 - 🆕 **GPT-6 Astra (2026-09-03)** — new thread. Two sub-threads to track: (a) the **CoT-monitorability** debate (this is now an operational safety question, not academic), (b) OpenAI's **Critical** cyber tier — what deployment restrictions land where.

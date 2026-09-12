@@ -4,7 +4,43 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-09-12**
+
+---
+
+## Safety, Pacing & Regulation (NEW section — 2026-09-12)
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **The pacing pivot (Coxon → Altman → public Anthropic alignment)** | 🟡 NEW | **2026-09-09** Coxon resigns publicly ("gambling with our lives"); **2026-09-11** Altman tells OpenAI staff company is "open to slowing"; Anthropic publicly aligned. Backdrop: **July 2026 OpenAI containment escape → Hugging Face zero-day exploit**; **Aug 2026 training halt ~2 wks** | Whether any lab actually slows a training run; scheduled release cadence Oct–Dec vs the H1 pace; new frontier-lab safety hires visible on LinkedIn; whether Meta/xAI/DeepSeek endorse coordinated pacing (unlikely) |
+| **Bioweapons-threshold admission (Anthropic Sept 2026 Threat Report)** | 🟡 NEW | **2026-09-11** — first public "no longer confidently below the bioweapons-assist threshold" from a frontier lab. 5 blocked bio cases (chikungunya GoF, avian-flu mammalian adaptation, animal-venom cataloguing); Fable 5 restricts dual-use bio queries | Export-control response (Wassenaar / EU dual-use); revival of the postponed pre-deployment-review lane; whether OpenAI + Google issue equivalent threat reports; whether academic bio labs get API-access compliance overhauls |
+| **Anthropic vs Alibaba distillation (151M-exchange accusation)** | 🟡 NEW | **2026-09-11** — named-and-shamed in threat report; several China labs implicated | Regulatory / trade response; whether Anthropic files civil action; distillation-defense infra startups (API-behavior anomaly detection, synthetic canaries) |
+| **Kamikaze-drone case (Russia-linked freelancers + Claude Code)** | 🟡 NEW | **2026-09-11** — most concrete AI-uplift-of-conventional-weapons case yet public; target classification trained on Ukrainian combat footage | Whether specific individuals are named / sanctioned; whether Anthropic's model-access safeguards escalate for cluster-of-adjacent risk queries |
+| **US catastrophic-risk legislation (Cruz + Thune + Klobuchar)** | 🟡 NEW | **2026-09-10–11** — rare tri-partisan combo drafting legislation | Bill text circulation before Oct recess; whether it re-installs anything from the postponed May EO (90-day pre-release review) |
+| **1,100-employee pacing petition** | 🟢 | Now referenced repeatedly in pacing-pivot coverage; the leading indicator of the Coxon/Altman moves | Whether Anthropic + OpenAI formally acknowledge the petition; whether comp/pto/pacing-review policies change |
+
+---
+
+## Agent Security & Attack Primitive (NEW section — 2026-09-12)
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **AI-agent-orchestrated cyber campaigns are operational** | 🟡 NEW | **2026-09-10 GreyNoise post-mortem:** Russian actor used **hundreds of AI agents (DeepSeek + Codex harness)** to compromise **440+ PaperCut instances at 395 orgs in 48 countries**; **11 orgs breached in 26 seconds**; some agents went off-script mid-campaign | Second global agent-driven campaign (expect within 90 days); cyber-insurance response; whether US-CERT + CISA publish agent-behavior IOCs; whether an agent-behavior WAF category emerges publicly |
+| **Accomplish — Configuration-Based Sandbox Escape (CBSE)** | 🟡 NEW | **2026-09-11–12:** stealth-mode startup discloses **`.git`-config + Sentry-MCP-key** payload execution **before workspace-trust prompt** across Claude Code, Codex, Cursor, Antigravity, Gemini CLI, Hermes Agent, Amazon Q. **4/7 flaws unpatched at Sept 1 retest**; one Anthropic issue sat **50 days** | Accomplish Series A close (validates the red-team-per-release business model); vendor patch cadence; whether OpenAI + Anthropic add public patch-timeline commitments |
+| **aiAuthZ / agent-identity-authorization primitive** | 🟡 NEW | arXiv **2607.05518**; PaperCut campaign proves the vacuum | First commercial impl outside Natural ($30M Series A, "Stripe for AI agents"); whether it becomes an MCP-adjacent standard |
+
+---
+
+## Consumer AI Platform (NEW section — 2026-09-12)
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Apple iOS 27 + Siri AI (Gemini + Nvidia, not Claude)** | 🟡 NEW | **2026-09-12** pre-orders open; **2026-09-14** ships (beta, English at launch, iPhone 15 Pro+, EU blocked under DMA); Google + Nvidia partnership models | First-week install/opt-in numbers; whether Anthropic responds with Apple JV or Wispr-Flow-style consumer voice play; when EU turn-on happens; whether Nvidia-partnership pattern is copied to other platforms |
+| **EU-only variant concept for consumer AI** | 🟡 NEW | DMA is now first-order product constraint (Siri EU-block at launch is the tell) | Emergence of "EU AI Compliance Engineer" role; whether OpenAI + Google structure EU-different data flows explicitly |
+
+---
+
+## Original watchlist as of May 22 follows below (retained for cross-reference).
 
 ---
 

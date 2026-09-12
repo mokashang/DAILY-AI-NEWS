@@ -4,11 +4,48 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-09-12**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (Sept 12 – Sept 18) — the pacing pivot + agent-security window
+
+### Saturday Sept 12 (today)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Ship **router v2** = v1 + policy-layer route + 7th eval case (dual-use refuse-and-explain) + `.git`-hygiene README section. Push. | Sat night | [2026-09-12/03 §1](./2026-09-12/03-practical-skills-and-tools.md#1-router-policy-layer) |
+| ⚪ | Rotate every MCP token (Sentry-shaped keys first); verify workspace-trust prompt on in Claude Code / Cursor / Codex | Sat | [2026-09-12/03 §2](./2026-09-12/03-practical-skills-and-tools.md#2-hygiene) |
+| ⚪ | Save Anthropic Sept-2026 threat report as `.claude/skills/anthropic-threat-report-2026-09.md` | Sat | [2026-09-12/03 §3](./2026-09-12/03-practical-skills-and-tools.md#3-tactical) |
+
+### Sunday Sept 13
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | 60 min — read one of {**EvoArena 2606.13681 / "Second-Half" survey 2602.06052 / Storage-to-Experience 2605.06716**}; draft 5-sentence LinkedIn post on "memory as a policy, not a vector DB" | Sun AM | [2026-09-12/04 §1](./2026-09-12/04-research-progress.md#1-agent-memory-dynamic) |
+| ⚪ | 30 min — draft one-page memo on **Sandbox+Runtime** *or* **Detection+Trust** wedge; append to `STARTUPS.md` | Sun | [2026-09-12/05 §2](./2026-09-12/05-career-and-startup.md#2-verticals) |
+| ⚪ | 30 min — draft 3 cold emails: 1 lab safety team + 1 AI-security startup + 1 cyber incumbent; each cites the router v2 + a specific Anthropic-threat-report or GreyNoise-post line | Sun | [2026-09-12/05 §3](./2026-09-12/05-career-and-startup.md#3-actions) |
+
+### Monday Sept 14 — iOS 27 + Siri AI beta day
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | 8 AM — post LinkedIn note tying router v2 → safety-lane re-price; 1 paragraph + 1 screenshot + 1 link | Mon | [2026-09-12/05 §1](./2026-09-12/05-career-and-startup.md#1-safety-lanes) |
+| ⚪ | Send the 3 Sunday cold emails | Mon | [2026-09-12/05 §3](./2026-09-12/05-career-and-startup.md#3-actions) |
+| ⚪ | Watch iOS 27 launch (Gemini + Nvidia Siri stack, EU blocked); note Anthropic response if any | Mon | [2026-09-12/01 §3](./2026-09-12/01-big-lab-moves.md#3-apple-siri) |
+
+### This week — ongoing
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Apply to **2 safety/eval/red-team reqs at Anthropic** (Trust & Safety, Alignment Science, Frontier Red Team) + **1 OpenAI Preparedness / Safety Systems** — router-v2 as attached artifact | This week | [2026-09-12/05 §1](./2026-09-12/05-career-and-startup.md#1-safety-lanes) |
+| ⚪ | Apply to **1 AI-security startup founding-engineer role** (Accomplish-adjacent — track their fundraise) | This week | [2026-09-12/02 §2](./2026-09-12/02-new-emerging.md#2-accomplish-sandbox) |
+| ⚪ | Read **PaperArena (arXiv 2510.10909)** next Sunday — tool-augmented agentic reasoning benchmark | Sun 9/20 | [2026-09-12/04 §4](./2026-09-12/04-research-progress.md#4-next-week) |
+| ⚪ | Update `WATCHLIST.md` — add the pacing-pivot, bioweapons-threshold, agent-attack-primitive, Accomplish, Siri-Gemini threads (see below) | Sun | (this repo) |
+
+---
+
+## Archived — week of May 19–25 (kept for reference)
 
 ### Tuesday May 19 — I/O DAY (done)
 

@@ -4,7 +4,26 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-09-14**
+
+---
+
+## 🆕 New threads (2026-09-14)
+
+| Thread | Status | First seen | Watching for |
+|---|---|---|---|
+| **Cross-lab pacing accord (Amodei essay + METR permanent access + Altman + Hassabis)** | 🟡 NEW | 2026-09-12 | Whether OpenAI matches the *second* and *third* commitments (implied); whether METR is joined by Apollo Research + UK AISI / US CAISI on same terms; contractual language on evaluator access; the first concrete "we slowed release" data point over the next quarter |
+| **Anthropic threat-intel: Russia GTG-20006 + China distillation (Alibaba/Qwen)** | 🟡 NEW | 2026-09-10/11 | Whether OpenAI + DeepMind publish parallel reports; whether US export-controls compliance leans on the distillation findings; whether "prove-you-didn't-distill" audit becomes an enterprise buyer requirement |
+| **Cognition (Devin) $2B+ Series E at $48B — ~$900M ARR** | 🟢 NEW | 2026-09-08 | NVIDIA→Cognition M&A rumors; Cursor/Codeium/Zed/Replit response rounds; coding-agent ARR multiple contagion into the rest of the AI-tooling comp set |
+| **Positron AI $875M at $5B (inference silicon, Asimov chip, Titan system)** | 🟢 NEW | 2026-09-10 | Asimov N3P tape-out end-2026; whether Groq/Cerebras/Etched/XDOF follow with comparable rounds; first Positron enterprise customer disclosure |
+| **Forus $150M at $3B (vertical healthcare AI, prescription-transaction agents)** | 🟢 NEW | 2026-09-08 | Whether the "transaction-loop moat" pattern gets copied into legal / compliance / B2B sales-op verticals in next 60 days |
+| **MCP verticalizes: DaVinci Resolve 21.1 native MCP + ReleasePad + Docusign GA (Sept 30)** | 🟡 NEW | 2026-09-08 → 09-14 | Figma / Ableton / Blender / Fusion 360 native MCP; whether MCP-implementation-of-record becomes a distinct SaaS category |
+| **Google $15.1B Finland AI investment (3 datacenters + 22-yr Loviisa nuclear PPA)** | 🟢 NEW | 2026-09-09 | Google Cloud Nordics/EMEA hiring waves; whether Microsoft / Anthropic / OpenAI announce comparable EU nuclear PPAs in next quarter |
+| **NVIDIA × SSI strategic partnership + Vera Rubin access** | 🟢 NEW | 2026-09-09/10 | SSI hiring visibility; whether SSI's compute ramp gets called out as a pacing-accord loophole |
+| **OpenAI ChatGPT for Financial Services (Morgan Stanley + Evercore)** | 🟢 NEW | 2026-09-10 | Adoption vs Anthropic's Claude for Financial Services; whether Rogo / Hebbia / Perplexity Finance are M&A'd within 90 days |
+| **Ramp AI Index Sept — first "cracks in the thesis"** | 🟡 NEW | 2026-09-09 | Whether Oct 2026 index continues the –10% m/m spend-per-employee trend; whether adoption rate keeps rising as spend falls; token-price convergence toward $0.50/1M |
+| **Claude Code v2.1.267–269 stack upgrade (plugin eval + subagent cap + cache fix + MCP fallback)** | 🟢 NEW | 2026-09-09/11 | Community adoption of `claude plugin eval`; whether "we ship evals" repos become an FDE application signal; MCP ecosystem reliability rebound |
+| **Evaluator-org career lane (METR / Apollo / AISI equivalents)** | 🟡 NEW | 2026-09-12 | METR/Apollo Q4 hiring volume; whether the lab-paid-evaluator model expands to a third-party consultancy tier; whether policy-technical translator roles get formalized |
 
 ---
 

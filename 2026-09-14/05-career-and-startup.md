@@ -27,7 +27,7 @@ Ara Kharazian's substack framed this as "cracks in the AI thesis, part 2" — th
 ### Why it matters to you
 
 - **Job lens:** The "we'll hire anyone who says AI" phase is over. Every enterprise buyer that pulled back per-employee spend also **raised the internal bar for what an "AI hire" needs to deliver.** Translation for your applications: **generic "worked with LLMs" bullets are now null-value.** Ship at least one artifact that quantifies the *value* of your AI work — cost reduction, throughput increase, eval pass-rate lift. The [`03` §1 plugin-eval report](./03-practical-skills-and-tools.md#1-plugin-eval) is the fastest way to generate that number.
-- **Startup lens:** Token-price compression means **application-layer margins are compressing.** If your startup wedge assumes you can pass $3/1M input to enterprise buyers with a 5× markup, that math just got worse. Wedges that survive: (a) **transaction-loop revenue** (Forus-style, [`02` §3](./02-new-emerging.md#3-forus)); (b) **per-outcome pricing** (from May's playbook); (c) **eval / observability / compliance** — sold *to* the labs, priced against their savings, not their spend.
+- **Startup lens:** Token-price compression means **application-layer margins are compressing.** If your startup wedge assumes you can pass $3/1M input to enterprise buyers with a 5× markup, that math just got worse. Wedges that survive: (a) **transaction-loop revenue** (Forus-style, [`02` §2](./02-new-emerging.md#2-forus)); (b) **per-outcome pricing** (from May's playbook); (c) **eval / observability / compliance** — sold *to* the labs, priced against their savings, not their spend.
 - **Insight:** Read this alongside adoption still rising. **Adoption up + spend/employee down + token price down = healthy market maturing, not collapsing.** The doom-take is wrong; the "money is finding better allocation" take is closer. But the transition period (Q4 2026 through Q1 2027) will look like a hiring slowdown from the candidate side.
 
 ---
@@ -127,9 +127,9 @@ This is the first time a top-tier lab has publicly committed to *paying* for ext
 
 ---
 
-## Weekly action list (Sunday → next Sunday)
+## Weekly action list (Monday → next Monday)
 
-1. **Tonight**: Write 5 plugin-eval golden cases, run before/after, commit report to GitHub. ([`03` §1](./03-practical-skills-and-tools.md#1-plugin-eval))
-2. **Mon–Wed**: Apply to **5 roles** — 2× Anthropic Applied AI + 1× Sierra Agent Engineer + 1× METR/Apollo evaluator + 1× funded startup FDE from the [Vinit Shahdeo tracker](https://github.com/vinitshahdeo). Cite your plugin-eval report in each cover letter.
-3. **Thu**: Recruiter/alumni outreach — **5 DMs**, one paragraph each, referencing the pacing accord as the industry-context signal.
-4. **This weekend**: Ship the **MCP-server + evals repo** (per [`02` §4](./02-new-emerging.md#4-mcp-verticalizes) pattern + [`03` §1](./03-practical-skills-and-tools.md#1-plugin-eval) discipline). One vertical, three tools, five evals, README. That's the *third* portfolio artifact in [ME.md's active list](../ME.md#active-portfolio-artifacts).
+1. **Tonight (Mon)**: Write 5 plugin-eval golden cases, run before/after, commit report to GitHub. ([`03` §1](./03-practical-skills-and-tools.md#1-plugin-eval))
+2. **Tue–Wed** (during Dreamforce): Apply to **5 roles** — 2× Anthropic Applied AI + 1× Sierra Agent Engineer + 1× METR/Apollo evaluator + 1× Salesforce Agentforce Engineer (named agents just launched — timing is now). Cite your plugin-eval report in each cover letter.
+3. **Thu**: Recruiter/alumni outreach — **5 DMs**, one paragraph each, referencing the pacing accord + Dreamforce announcements as the industry-context signal.
+4. **This weekend**: Ship the **MCP-server + evals repo** (per [`02` §3](./02-new-emerging.md#3-mcp-verticalizes) pattern + [`03` §1](./03-practical-skills-and-tools.md#1-plugin-eval) discipline). One vertical, three tools, five evals, README. That's the *third* portfolio artifact in [ME.md's active list](../ME.md#active-portfolio-artifacts).

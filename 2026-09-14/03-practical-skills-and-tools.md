@@ -20,7 +20,7 @@ This is the eval loop that was missing for anyone building custom `.claude/skill
 4. **Commit** the report to your repo under `evals/reports/YYYY-MM-DD-<skill>.md`. This is the "we ship evals, not vibes" artifact.
 5. **Iterate** — improve the skill, re-run, watch the delta. This *is* the interview differentiator for FDE roles.
 
-### Why this is Sunday's DO
+### Why this is tonight's DO
 
 The [Sept 3 GPT-6 Astra launch](../2026-09-10/01-big-lab-moves.md#1-model-fatigue) and the [pacing accord (Sept 12)](./01-big-lab-moves.md#1-pace-the-frontier) collectively re-priced two skills: **model-routing** and **eval-authoring** (per [`05` §1](./05-career-and-startup.md#1-ramp-cracks)). The router artifact you shipped last week gives you the first; **plugin eval + one commit of before/after reports gives you the second.** This is the smallest possible artifact that visibly demonstrates eval discipline on a public repo — and it takes one afternoon.
 
@@ -89,7 +89,7 @@ claude mcp doctor              # diagnostics on each server
 claude mcp add <url> --name <n>
 ```
 
-Combined effect: **the MCP ecosystem got noticeably more reliable this week without any behavior change on your end** other than upgrading. In light of the [DaVinci Resolve 21.1 + ReleasePad MCP wave (§02 §4)](./02-new-emerging.md#4-mcp-verticalizes), this is the right week to re-audit which MCP servers actually belong in your `.claude/settings.json`.
+Combined effect: **the MCP ecosystem got noticeably more reliable this week without any behavior change on your end** other than upgrading. In light of the [DaVinci Resolve 21.1 + ReleasePad MCP wave (§02 §3)](./02-new-emerging.md#3-mcp-verticalizes), this is the right week to re-audit which MCP servers actually belong in your `.claude/settings.json`.
 
 ### Sources
 - [Anthropic Claude Code Changelog — v2.1.268 / v2.1.269](https://code.claude.com/docs/en/changelog) `[primary]`
@@ -98,7 +98,7 @@ Combined effect: **the MCP ecosystem got noticeably more reliable this week with
 
 ## Bonus: the 4-line stack upgrade for tonight
 
-If you have exactly one hour and want the maximum-ROI Sunday-night upgrade:
+If you have exactly one hour and want the maximum-ROI Monday-night upgrade:
 
 ```bash
 # 1) Upgrade Claude Code

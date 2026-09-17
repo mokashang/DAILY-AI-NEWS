@@ -4,11 +4,45 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-09-17**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (Sept 14 – Sept 20)
+
+### Thursday Sept 17 — one-Claude + Sponsored Agents launch day
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Rewrite one project's `CLAUDE.md` as a prompt-as-router Skill** (90 min): pick one recurring task, write a 20-line prompt that produces a finished Slides file, run 3× and commit | Tonight | [2026-09-17/03 §1](./2026-09-17/03-practical-skills-and-tools.md#1-one-claude-workflow) |
+| ⚪ | **Apply to 2 Anthropic Solutions/FDE/Applied-AI roles** — anchor cover letter to your one-Claude workflow + EFS-ready ref-app + cost-audit note | Tonight | [2026-09-17/05 §1](./2026-09-17/05-career-and-startup.md#1-market) |
+| ⚪ | **Apply to 1 OpenAI FDE role** — Ads / HubSpot / Shopify partner-engineering pods spinning up | Tonight | [2026-09-17/05 §1](./2026-09-17/05-career-and-startup.md#1-market) |
+| ⚪ | Rewrite LinkedIn "About" to mention **prompt-as-router + BYO-cloud enterprise deploy** (under-supplied vocabulary — 30-day window) | Tonight (10 min) | [2026-09-17/05 §2](./2026-09-17/05-career-and-startup.md#2-reprice) |
+| ⚪ | Read **AgileThinker (arXiv 2511.04898)**; write 3-line summary + 1 testable claim in your notes | Tonight (20 min) | [2026-09-17/04 §1](./2026-09-17/04-research-progress.md#1-agilethinker) |
+| ⚪ | Send 1 tailored outbound to a **funded seed founder from mid-Sept tape** (TypeSafe AI = top pick for CS-grad-with-tooling background) | Thursday | [2026-09-17/02 §1](./2026-09-17/02-new-emerging.md#1-funding-mid-sept) |
+
+### Friday Sept 18 — EFS reference app + cost audit
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship EFS-ready reference app** to GitHub: Claude API app that reads/writes only through customer-owned S3 + KMS key + strict IAM. README with the questionnaire-response template | Fri night | [2026-09-17/03 §2](./2026-09-17/03-practical-skills-and-tools.md#2-efs-setup) |
+| ⚪ | **Fable 5.1 cache audit**: enable caching on your longest reused prompt prefixes; instrument per-request cost (cache-hit / cache-miss / cache-write); log a week baseline | Fri | [2026-09-17/03 §3](./2026-09-17/03-practical-skills-and-tools.md#3-fable-51-cache-recap) |
+| ⚪ | Skim: **Unified LLM-Agent Eval Framework (arXiv 2605.27898)** + **Memory in the Age of AI Agents survey (arXiv 2512.13564)** — 20 min each | Fri | [2026-09-17/04 §2](./2026-09-17/04-research-progress.md#2-unified-eval) · [§3](./2026-09-17/04-research-progress.md#3-memory-survey) |
+
+### Weekend Sept 19–20 — templates + wedge one-pager
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship "one-Claude workflow templates" GitHub repo** — 3 Skills (weekly investor update, deal memo, board pre-read); each with the deliverable/context/constraints/output shape | Sat | [2026-09-17/03 §1](./2026-09-17/03-practical-skills-and-tools.md#1-one-claude-workflow) |
+| ⚪ | Post the templates to LinkedIn + tag Anthropic Solutions folks; cross-post to X | Sat | [2026-09-17/03 §1](./2026-09-17/03-practical-skills-and-tools.md#1-one-claude-workflow) |
+| ⚪ | **If 3+ criteria in §4 hit, 90-min Sunday block:** draft one-pager on **sponsored-agent attribution wedge** — thesis, target buyer, v0 SDK scope, 90-day plan | Sun | [2026-09-17/05 §4](./2026-09-17/05-career-and-startup.md#4-founder-wedge) |
+| ⚪ | Monthly cost-audit (still on the 4th-of-month cadence — this run bumped to weekend given Fable 5.1 cache changes worth revisiting) | Sun | [2026-09-17/03 §3](./2026-09-17/03-practical-skills-and-tools.md#3-fable-51-cache-recap) |
+
+---
+
+## Historic — earlier weeks (kept for continuity)
+
+### This week (May 19 – May 25)
 
 ### Tuesday May 19 — I/O DAY (done)
 

@@ -4,7 +4,22 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-09-17**
+
+---
+
+## 2026-09-17 additions
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Anthropic "one Claude" — Cowork+chat+Design merged; Docs + Slides beta** | 🟡 NEW | **2026-09-16:** unified UI announced; Pro/Max first, Team+Free "soon," Enterprise on 30-day notice; Docs (PDF/PowerPoint export) + Slides + inline Design | Rollout to Team/Free/Enterprise; F500 productivity RFP wins vs Workspace/M365; Docs/Slides feature-parity gap (30/60/90d); collab layer (multiplayer editing) |
+| **OpenAI Sponsored Agents + HubSpot/Shopify** | 🟡 NEW | **2026-09-16:** advertiser-run agents piloting inside ChatGPT (US, select advertisers); ChatGPT Ads creation inside ChatGPT Work; HubSpot = first CRM partner, Shopify = first ecommerce partner; targets $2.5B'26 → $100B/yr'30 | First measurement/attribution standard; brand-safety incidents; agent-mediated-commerce startup wave; Anthropic ad-free counter-response |
+| **X/SpaceXAI drop Apple from antitrust — Pittman in-camera review noon Sept 17** | 🟡 NEW | **2026-09-14:** Musk moves to dismiss Apple with prejudice, keeps case against OpenAI; **Sept 15:** Judge Mark Pittman (N.D. Tex.) orders in-camera review of the settlement agreement by noon Sept 17 | Deal terms (Grok-in-iOS distribution?); Apple v OpenAI trade-secrets Oct 1 Davila hearing still on; iOS Extensions ecosystem impact |
+| **Anthropic Enterprise Frontier Safeguards (EFS)** | 🟡 NEW | **2026-09-01:** ZDR-plus-monitoring; BYO-cloud (S3/Azure/GCS) under customer keys; automated misuse monitoring only, no human review; free; developed with 100+ customers; phased rollout later fall; ZDR on Fable 5/5.1 kept during transition | Which industries land in wave 1; whether BYO-cloud logs becomes industry pattern; competitive responses from OpenAI/Google/Mistral; audit tools (Register angle) |
+| **Google Fairwind (Gemini 3.8 Flash Cyber) + 100-company cyber-defense letter** | 🟡 NEW | **Early Sept 2026:** Fairwind = access-controlled program (govs/healthcare/telecoms) with early access to Gemini 3.8 Flash Cyber; 100+ companies (labs + CrowdStrike/Okta/Fortinet) signed joint letter warning of escalation | First Fairwind-enrolled sector rollouts; whether restricted-access-tier pattern spreads from cyber → bio → nuclear; agentic-SOC follow-on rounds |
+| **Anthropic IPO — S-1 confidentially filed June 1, Sept/Oct window** | 🟡 UPDATE | **2026-06-01 (confirmed):** confidential S-1 filed; **mid-Sept 2026:** $47B ARR run-rate, $65B Series H at $965B post, ~80% enterprise revenue, Claude Code cited as market-defining product | Public S-1; Day-1 pop; whether Claude Code is disclosed as >40% of revenue; comp-band published on careers page |
+| **Sponsored-agent primitives category (no funded founders yet)** | 🟡 NEW | **2026-09-17 (thesis):** attribution/measurement, brand safety, agent-mediated-no-ads commerce, agent-to-agent negotiation — four primitives around Sponsored Agents launch, all unfounded | First seed round in the category; whether YC W27 batches includes ≥1 |
+| **Machine-native models thesis (TypeSafe AI $40M seed, Sept 15)** | 🟡 NEW | **2026-09-15:** DCVC led $40M seed into TypeSafe AI (machine-native models / developer tech); thesis = code, types, tools legible to LLMs first, humans second | Series A criteria (ARR, customer count); adjacent seed rounds in the category; whether "machine-native" becomes a JD keyword |
 
 ---
 

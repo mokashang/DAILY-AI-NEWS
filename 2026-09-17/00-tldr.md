@@ -36,9 +36,10 @@ Sixty-second skim. **The product surface consolidated and the business surface d
 - 🆕 **Sponsored Agents in ChatGPT + HubSpot/Shopify:** new thread. Watch (a) advertiser-run agent trust incidents (this is IPI-adjacent), (b) attribution measurement — first standard becomes a $B TAM, (c) Anthropic's response (agent-mediated commerce w/o ads?).
 - 🆕 **X/SpaceXAI-Apple settlement — Pittman in-camera review noon Thursday:** track whether the terms leak; whether Apple's separate trade-secrets suit against OpenAI (Oct 1 Davila) is affected; whether the deal touches iPhone-integration exclusivity.
 - 🆕 **Anthropic EFS rollout — phased through fall:** watch which industries hit wave 1; whether "BYO-cloud logs" becomes the enterprise-AI privacy pattern (competitors will copy fast).
-- ➡️ **Anthropic IPO Sept/Oct (from 2026-09-10):** June 1 confidential S-1 confirmed; $47B ARR, ~$965B post; 80% enterprise revenue. Watch weekly for public S-1 filing.
-- ➡️ **Apple v OpenAI trade-secrets — Oct 1 Davila (from 2026-09-10):** still on calendar; evidence-destruction allegation still live.
-- ➡️ **Model fatigue as a market condition (from 2026-09-10):** no new frontier releases this week — the pause itself is a signal. Track whether Q4 slows down or three more ship before month-end.
+- ➡️ **Anthropic IPO — substantive S-1 filed Sept 11 (per [2026-09-11/01](../2026-09-11/01-big-lab-moves.md)):** GS/MS/JPM bookrunners; ANTH ticker on NYSE reserved; roadshow ~4 wks; late-Oct pricing target. Claude Code ~46% of TTM revenue, gross margin >72%.
+- ➡️ **Apple v OpenAI trade-secrets — Oct 1 Davila (from 2026-09-10 + 2026-09-11):** still on calendar; Slack-log-deletion admission now in the record; hardware-timeline slippage probability materially up.
+- ➡️ **Model fatigue as a market condition (from 2026-09-10 + pacing pivot [2026-09-12/01 §1](../2026-09-12/01-big-lab-moves.md#1-pacing-pivot)):** pacing pivot moved from remarks (Coxon → Altman → Anthropic) to first commitment (METR permanent employee-level access, OpenAI matched). Track whether H2 sees *fewer* releases, not more.
+- ➡️ **Dreamforce 2026 (Sept 15–17, closes today):** first F500 Agentforce customer rollouts announced this week; watch whether any name-brand F500 pushed a Salesforce-Anthropic rather than Salesforce-OpenAI variant. See [2026-09-14/01 §2](../2026-09-14/01-big-lab-moves.md#2-dreamforce-t1).
 - ⬇️ **Standalone "Cowork" as a product name:** deprecated by Anthropic. Update your resume / portfolio references.
 
 ---

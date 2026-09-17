@@ -145,15 +145,17 @@ Backdrop: the original suit (filed Aug 25, 2025) alleged a **June 2024 Apple–O
 
 ---
 
-## 6. Anthropic IPO: Sept/Oct window firms up (S-1 filed confidentially June 1) {#6-anthropic-ipo}
+## 6. Anthropic IPO: substantive S-1 filed Sept 11, roadshow ~4 wks, late-Oct pricing {#6-anthropic-ipo}
 
-**What happened (context / running thread):** Anthropic confidentially filed a **draft S-1 with the SEC on June 1, 2026** (see [2026-09-10 WATCHLIST update](../2026-09-10/00-tldr.md)). Public-facing detail as of mid-September:
+**What happened (context / running thread):** Anthropic first confidentially filed a **draft S-1 on June 1, 2026** and then **filed the substantive S-1 on Sept 11, 2026** (see [2026-09-11/01](../2026-09-11/01-big-lab-moves.md)). Public-facing detail as of mid-September:
 
-- **Annualized revenue run-rate crossed ~$47B.** (Up from $44B in May; enterprise-driven.)
+- **Bookrunners: Goldman Sachs / Morgan Stanley / JPMorgan.** NYSE **ticker `ANTH` reserved**.
+- **Roadshow ~4 weeks; pricing target late-October 2026.**
+- **TTM revenue ~$46B** (Q3 run-rate annualised; Q2 was $10.9B per [2026-05-21/01](../2026-05-21/01-big-lab-moves.md)). Coverage cites $47B ARR — same order.
+- **Claude Code segment gross margin >72%; Claude Code ~46% of TTM revenue.**
 - **Recent private raise: $65B Series H at $965B post.**
 - **~80% of revenue is from business customers**, not consumer.
-- **Claude Code** cited as the market-defining product driving the growth curve.
-- Target IPO listing window: **late September or October 2026.** No price / share-count / date locked.
+- Contracted compute disclosed: **Colossus 1 $1.25B/mo through 2029 + Google TPU commitment $200B over 6 years = ~$255B through 2032** — largest pre-IPO contracted infra base ever.
 
 **Sources:**
 - [NPR — AI giant Anthropic prepares to sell stock to the public, files preliminary IPO paperwork (June 1, 2026)](https://www.npr.org/2026/06/01/nx-s1-5843199/anthropic-ipo-filing-ai-large) `[secondary]`
@@ -161,6 +163,7 @@ Backdrop: the original suit (filed Aug 25, 2025) alleged a **June 2024 Apple–O
 - [Yahoo Finance — Anthropic Files Confidential S-1: Joins $3 Trillion AI IPO Race](https://finance.yahoo.com/markets/stocks/articles/anthropic-files-confidential-1-joins-161008569.html) `[analysis]`
 - [SmartAsset — Anthropic IPO: Valuation, Timeline and Investment Options](https://smartasset.com/investing/anthropic-ipo) `[analysis]`
 - [ETF Trends — From Claude to the Stock Market: Anthropic's IPO Filing, Explained](https://www.etftrends.com/leveraged-inverse-content-hub/claude-stock-market-anthropic-ipo-filing-explained/) `[analysis]`
+- [2026-09-11/01 — Anthropic S-1 substantive filing (per this repo's edition)](../2026-09-11/01-big-lab-moves.md) `[analysis]`
 
 ### Why it matters to you
 

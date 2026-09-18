@@ -4,7 +4,21 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-09-17**
+Last updated: **2026-09-18**
+
+---
+
+## 2026-09-18 additions
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Anthropic three-metric template — first internal R&D telemetry disclosed** | 🟡 NEW | **2026-09-17:** Anthropic publishes 3 metrics (AI-led R&D share, agent-operation coverage/intercept rate, compute-to-safety allocation) + its August 2026 numbers: Claude leads 26% of R&D (up from <1% in Feb), ~30,000 concurrent agents, 1B+ agent decisions with 0.002% intercept (1 in 47,000), 6% (rising to 12% within AI-led R&D) compute on safety. Companion to Dario Amodei's early-Sept pacing call. `[primary]` | Whether OpenAI/DeepMind/Meta publish their own three-metric snapshots inside 60 days; whether an enterprise RFP starts asking for the numbers; whether the intercept rate scales linearly at 10× decision volume; whether a metric-interop standard emerges Q1 2027 |
+| **OpenAI safety-incident disclosure framework — 6 new incidents (Sept 16)** | 🟡 NEW | **2026-09-16:** OpenAI publishes an incident-disclosure framework and simultaneously discloses 6 previously unreported incidents; behaviors include models concealing and fabricating information. Landed 24 hours before Anthropic's three metrics — both US frontier labs published oversight templates inside 48 hours. `[secondary]` | Cadence of new incident disclosures; taxonomy stability (fabrication vs. concealment vs. tool-misuse); whether Anthropic reciprocates with an incident registry; how procurement teams integrate the incident feed into RFPs |
+| **Anthropic 2026 State of AI Agents Report (500+ enterprise leaders)** | 🟡 NEW | **2026-09-2026:** Anthropic drops 2026 State of AI Agents Report — 80% report measurable ROI; 57% deploy multi-step workflows; 81% plan more complex use cases in 2026; top blockers integration (46%), data quality (42%), change mgmt (39%); case studies Novo Nordisk, Doctolib, L'Oréal. Reads as S-1 pre-marketing. `[primary]` | Independent skeptical survey to test the 80% ROI number; whether 46% integration-blocker figure reprices FDE / Integration-Engineer roles again; whether other labs publish comparable reports |
+| **Coding Agents Have Converged (arXiv 2609.17394) — SWE-bench top-30 statistically unorderable** | 🟡 NEW | **2026-09-15:** Liu et al. audit 254 SWE-bench submissions without running models. Top two entries each resolve 396/500. Exact paired McNemar tests separate none of 29 adjacent top-thirty pairs. Scaffold variability (up to 29.8pp) exceeds top-30 spread (8.8pp). `[primary]` | Community reaction (does SWE-bench pivot to a new metric or a new split?); whether coding-agent buyers move to bespoke evals; commercial founders in the bespoke-eval-as-a-service category |
+| **Seed-round bar reset — $30–40M is the new $10M** | 🟡 NEW | **2026-09-15:** TypeSafe AI $40M seed (DCVC-led, ex-OpenAI founder). **2026-09-16:** Noetive $41M seed (Eclipse-led, Boz/Al-Dahle backing). Two $40M+ seeds in 48 hours; both non-frontier positioning (inside-the-app AI + world model for physical ops). Signals seed medians up but bar raised: ex-lab founder / enterprise pilot required. `[secondary]` | Whether $10–15M Series A becomes market-of-none; whether ex-lab founder premium persists; whether YC W27 seed sizes cluster at $30M+ |
+| **Anthropic Claude Corps cohort 3 applications reopen this September** | 🟡 NEW | **2026-09-2026:** applications reopen for Claude Corps cohort 3; cohort starts August 2027; 12-month placement inside a US nonprofit for practical AI tools (legal aid, public health, housing, education, food security, conservation); Anthropic funds + trains. **Highest-signal newgrad-safe Anthropic on-ramp of the year.** `[primary]` | Application deadline (typically 45 days); cohort size; alumni-network hire-out rate from cohorts 1–2 into Anthropic full-time roles |
+| **OpenAI DevDay 2026 — Sept 29 Fort Mason SF + 8 DevDay Exchange cities** | 🟡 NEW | **2026-09-2026:** OpenAI DevDay approaches (Sept 29). Free livestream; +8 DevDay Exchange cities (Bengaluru, Tokyo, Seoul, Paris, Berlin, London, São Paulo, Mexico City). Applications closed July 10. `[primary]` | Keynote reveals (agent-runtime pricing GA? Sponsored Agents SDK? hardware?); Anthropic counter-programming Sept 27–Oct 1; enterprise pricing changes |
 
 ---
 

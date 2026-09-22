@@ -4,7 +4,50 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-09-17**
+Last updated: **2026-09-22**
+
+---
+
+## This week (Sept 22 – Sept 28) — pacing consensus week
+
+### Tuesday Sept 22 — UN General Assembly / pacing-consensus takes shape
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship router-in-Temporal artifact** (wrap [2026-09-10/03 §3](./2026-09-10/03-practical-skills-and-tools.md#3-router-artifact) in Temporal workflow; public repo; README shows failure modes eliminated) | Tonight (60–90 min) | [2026-09-22/03 §1](./2026-09-22/03-practical-skills-and-tools.md#1-durable-execution) |
+| ⚪ | **Update LinkedIn** — add: "durable execution", "pre-deployment eval", "parallel-agent orchestration", "recursive-self-improvement monitoring", "interpretable memory" | Today (20 min) | [2026-09-22/05 §2](./2026-09-22/05-career-and-startup.md#2-reprice) |
+| ⚪ | Read Amodei "We Must Pace the Frontier" primary source | Today (15 min) | [2026-09-22/01 §2](./2026-09-22/01-big-lab-moves.md#2-amodei-pacing) |
+| ⚪ | Skim UN Red Lines declaration + signatory list | Today (10 min) | [2026-09-22/01 §1](./2026-09-22/01-big-lab-moves.md#1-red-lines) |
+
+### Wed Sept 23 – Fri Sept 25 — application push
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **3 Anthropic apps** (Applied AI Eng / Solutions / Frontier Red Team) — attach router-in-Temporal repo; reference 26% self-improvement disclosure as "why R&D-supervision" | This week | [2026-09-22/05 §1](./2026-09-22/05-career-and-startup.md#1-hiring-map) |
+| ⚪ | **2 OpenAI apps** (FDE / Preparedness) — attach Astra-vs-Fable eval-run README | This week | [2026-09-22/05 §1](./2026-09-22/05-career-and-startup.md#1-hiring-map) |
+| ⚪ | **1 Temporal SE/Solutions app** — router-in-Temporal repo is the work sample | This week | [2026-09-22/05 §4](./2026-09-22/05-career-and-startup.md#4-this-tuesdays-concrete-moves) |
+| ⚪ | **1 US or UK AISI application** — pacing consensus + UN Red Lines as cover-letter opener | This week | [2026-09-22/05 §4](./2026-09-22/05-career-and-startup.md#4-this-tuesdays-concrete-moves) |
+| ⚪ | Read ONE RSI paper (recommended: arXiv 2609.19526 fast-tree-search — most implementable) + memory-controller abstract | This week (30 min) | [2026-09-22/04 §1](./2026-09-22/04-research-progress.md#1-rsi-papers) · [2026-09-22/04 §2](./2026-09-22/04-research-progress.md#2-memory-controllers) |
+
+### Weekend Sept 26–28
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **One founder-wedge memo** (pick A durable-execution middleware / B RSI-observability / C interpretable-memory middleware); post publicly | Sun | [2026-09-22/05 §3](./2026-09-22/05-career-and-startup.md#3-startup-wedges) |
+| ⚪ | (optional stretch) Parallel Claude Projects reproducer repo (coordinator + 3 worker subagents on separate branches; post-write test hook) | Sat/Sun | [2026-09-22/03 §2](./2026-09-22/03-practical-skills-and-tools.md#2-parallel-projects) |
+| ⚪ | Weekly review: write `WEEK-2026-09-22.md` rollup | Sun | (convention) |
+| ⚪ | Cleanup ACTIONS.md (move open items to next week, archive 🟢 / 🔴) | Sun | (this file) |
+
+### End-of-week checkpoint
+- ✅ Router-in-Temporal repo shipped and public.
+- ✅ 6 applications out (3 Anthropic + 2 OpenAI + 1 Temporal + 1 AISI).
+- ✅ 2 papers read (Amodei essay + 1 RSI paper).
+- ✅ 1 founder-wedge memo posted.
+- **If yes to all four: materially ahead of the Sept 10 plan trajectory.**
+
+---
+
+## Prior week (Sept 14 – Sept 20) — archived from main
 
 ---
 
@@ -903,6 +946,7 @@ Rolls up alongside the existing week block below. All from [today's edition](./2
 > **Watching (not actions):** Anthropic raise *signing* (track the term sheet, not the reporting); SpaceX SPCX ~June 12; Gemini 3.5 Pro June date; Pope encyclical → Article 51 framing.
 
 ### Older archive (May 19 – May 25)
+## Historical — this week (May 19 – May 25) — archived
 
 ### Tuesday May 19 — I/O DAY (done)
 

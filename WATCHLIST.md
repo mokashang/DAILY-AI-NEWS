@@ -4,7 +4,19 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-09-20**
+Last updated: **2026-09-22**
+
+---
+
+## Pacing, Policy & Safety (NEW category 2026-09-22)
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **UN Global Call for AI Red Lines** | 🟡 NEW | **2026-09-22 (today):** delivered on UN General Assembly floor; 300+ signatories incl. 11 Nobel laureates (Hinton, Stiglitz, Acemoglu, Ressa), OpenAI cofounder Wojciech Zaremba, **Anthropic CISO Jason Clinton**, DeepMind's Ian Goodfellow, Mary Robinson, Juan Manuel Santos; ask: binding red lines **by end of 2026** | Which governments formally cosign; which labs formalize commitments; enforcement mechanisms named; whether US/EU/UK operationalize |
+| **OpenAI vs Anthropic enterprise-spend flip (Astra > Fable)** | 🟡 NEW | **2026-09-22:** Ramp mid-Sept — GPT-6 Astra 13% enterprise AI spend vs Claude Fable 8%; first time OpenRouter spent more on OpenAI than Anthropic in 2.5 years; Anthropic **weighing a new counter-model** against its own pacing call (Techstrong/Benzinga) — sharpest values-vs-revenue moment of pre-IPO year | Whether Anthropic counter-model ships on time, capability-restricted (Mythos template), or delays 60+ days; monthly Ramp reads |
+| **Temporal $550M Series E at $12.55B (Sept 14)** | 🟢 NEW | **2026-09-14:** Lightspeed lead + Wellington/Goldman/Tiger co-leads; 1.9T billable actions/Aug (+350% YoY), 4,300 customers (+139%), OpenAI usage 60× in <1yr; customers OpenAI/Snap/NVIDIA/JPM = durable execution is now core agent infra | Solutions/CE/FDE hiring wave; Temporal Cloud enterprise deals; SDK-integrated durable-execution competitors |
+| **Cornelis Networks $205M + Active Compute Fabric (Sept 15)** | 🟢 NEW | **2026-09-15:** Intel spinoff; open GPU-agnostic AI-cluster fabric; anti-InfiniBand play; pairs with Nexthop AI ~$500M same month = AI networking is a funded category | Follow-on rounds in open-fabric category; Nvidia response; enterprise adoption at hyperscalers-outside-Big-3 |
+| **SpaceX acquired Cursor ($29.3B, $3B ARR)** | 🟢 NEW | **2026-08-14 close** (surfaced fully in Sept coverage); coding-agent layer now vertically integrated w/ compute owner; three-corner: Anthropic-Colossus rental / OpenAI-Stargate / xAI-Cursor | Anthropic response (IDE acquisition or Claude Code IDE tightening); Cursor pricing/API changes; product roadmap under SpaceX |
 
 ---
 

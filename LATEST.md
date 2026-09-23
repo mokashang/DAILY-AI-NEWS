@@ -1,6 +1,6 @@
 # LATEST — pointer to the most recent edition
 
-> **2026-09-18** — see [`2026-09-18/00-tldr.md`](./2026-09-18/00-tldr.md)
+> **2026-09-23** — see [`2026-09-23/00-tldr.md`](./2026-09-23/00-tldr.md)
 
 This file is auto-updated every edition so a one-click read of the latest TL;DR is always at the repo root.
 

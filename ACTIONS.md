@@ -4,7 +4,37 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-09-22**
+Last updated: **2026-09-24**
+
+---
+
+## Thursday Sept 24 — TODAY: price collapse + biolab + UN follow-up (60 minutes)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | LinkedIn skill refresh — add: `AI evaluation design`, `cost-aware model routing`, `agent orchestration`, `MCP`, `Claude Code`; remove standalone `prompt engineering` | Tonight | [2026-09-24/05 §2](./2026-09-24/05-career-and-startup.md#2-safety-eval-repriced) |
+| ⚪ | Scaffold the router-artifact extension repo (README skeleton per spec) — commit-1 today, public, MIT | Tonight | [2026-09-24/03 §3](./2026-09-24/03-practical-skills-and-tools.md#3-router-extension) |
+| ⚪ | 3 Anthropic applications (FDE / Solutions / Applied AI / Life Sciences Applied AI) — link empty router repo | Tonight | [2026-09-24/05 §4](./2026-09-24/05-career-and-startup.md#4-thursday-action) |
+| ⚪ | 2 funded-startup applications (Sierra / Decagon / Twelve Labs / Instinct / Cognition) | Tonight | [2026-09-24/05 §4](./2026-09-24/05-career-and-startup.md#4-thursday-action) |
+| ⚪ | Log 5 applications in [APPLICATIONS.md](./APPLICATIONS.md) — company, role, resume version, date | Tonight | [2026-09-24/05 §4](./2026-09-24/05-career-and-startup.md#4-thursday-action) |
+
+### Weekend (Sept 27–28)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **SHIP router artifact v0.1** — Opus 5.5 + Sol + Luna + Gemini 3.8 Flash + Muse Spark 1.3 across 5 eval cases (extraction / coding / long-agentic / multimodal / **novel-discovery-style** inspired by ART) | Sat | [2026-09-24/03 §3](./2026-09-24/03-practical-skills-and-tools.md#3-router-extension) |
+| ⚪ | LinkedIn post announcing the artifact | Sat evening | [2026-09-24/05 §4](./2026-09-24/05-career-and-startup.md#4-thursday-action) |
+| ⚪ | If any Sora-dependent code: run migration playbook (Runway / Kling / Veo 3) + publish 800-word writeup | Sun | [2026-09-24/03 §4](./2026-09-24/03-practical-skills-and-tools.md#4-sora-migration) |
+| ⚪ | Alt: 500-word summary of one DolphinBench-cited memory paper (EvoMemBench recommended) | Sun | [2026-09-24/04 §1](./2026-09-24/04-research-progress.md#1-dolphinbench) |
+
+### This week (rolling — Sept 22 additions still live below)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Refresh unit-economics deck / cost dashboard with Opus 5.5 + Sol/Luna price points | This week | [2026-09-24/01 §1](./2026-09-24/01-big-lab-moves.md#1-opus-5-5) |
+| ⚪ | Add **Bio-AI Engineer / AI-scientist tooling** targets — Anthropic Life Sciences, Isomorphic, Xaira, Chai Discovery, Cradle Bio | This week | [2026-09-24/02 §3](./2026-09-24/02-new-emerging.md#3-bio-ai-repriced) |
+| ⚪ | Add **AI Safety / Eval / Red-team** lane — Anthropic Red Team, NIST AISI, UK AISI, CAISI, external evaluators | This week | [2026-09-24/01 §4](./2026-09-24/01-big-lab-moves.md#4-un-security-council) |
+| ⚪ | Choose one startup wedge from [2026-09-24/05 §3](./2026-09-24/05-career-and-startup.md#3-startup-wedges) (top pick: **model-router-as-a-service** — composes with the artifact); commit to 4-week timeboxed MVP | This week | [2026-09-24/05 §3](./2026-09-24/05-career-and-startup.md#3-startup-wedges) |
 
 ---
 

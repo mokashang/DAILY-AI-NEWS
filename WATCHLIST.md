@@ -4,7 +4,26 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-09-22**
+Last updated: **2026-09-24**
+
+---
+
+## New threads added 2026-09-24 (price collapse + biolab + UN follow-up)
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Anthropic Opus 5.5 — Fable-beating agentic at 40% lower cost** | 🟢 NEW | **2026-09-22:** $4/$20 per 1M in/out, cache reads $0.20/1M (60% off), "fast mode" 2× price / 2.5× speed; beats Fable 5.1 on key agentic benchmarks; typical workload cost ~40% less | Whether Anthropic drops another cache-read cut before year-end; whether "fast mode" pricing pattern spreads to other labs; migration wave from Fable 5.1 → Opus 5.5 in production stacks | See [2026-09-24/01 §1](./2026-09-24/01-big-lab-moves.md#1-opus-5-5) |
+| **OpenAI three-tier family (Astra/Sol/Luna) + "permanent pricing"** | 🟢 NEW | **2026-09-22 (~90 min after Opus 5.5):** GPT-6 Sol $2/$10, Luna $0.10/$0.50; OpenAI spokesperson: "permanent, not promotional" — coordinated slowdown over | Anthropic's response to "permanent" framing; whether Google/Meta match by end of week; whether the ~$0.10/1M "clerical" tier consolidates | See [2026-09-24/01 §2](./2026-09-24/01-big-lab-moves.md#2-gpt-6-sol-luna) |
+| **Anthropic wet lab + autonomous scientific discovery (ART)** | 🟡 NEW | **2026-09-23:** Bay Area BSL-1/2 lab; Claude autonomously found array-associated reverse transcriptases (ART) enzyme using ~950 agents / 21h / 210M tokens; **Feng Zhang endorsement** | Independent lab reproduction of ART; DeepMind/OpenAI competing lab announcements; Anthropic Life Sciences careers page for new hires | See [2026-09-24/01 §3](./2026-09-24/01-big-lab-moves.md#3-anthropic-biolab), [`04` §2](./2026-09-24/04-research-progress.md#2-art-method) |
+| **UN Security Council AI session (Amodei + Altman)** | 🟡 NEW | **2026-09-23–24:** Amodei's three proposals — (a) bio-weapons ban, (b) verification systems, (c) common testing + incident-notification network; Altman implicit China carve-out | UN First Committee (disarmament) October follow-up; whether bio-weapons treaty proposal formalises; incident-notification protocol tenders | See [2026-09-24/01 §4](./2026-09-24/01-big-lab-moves.md#4-un-security-council) |
+| **Sora API sunset (Sept 24)** | 🟢 CLOSED | **2026-09-24:** all Sora-2 endpoints go dark today; server-only content deleted | (thread closed — migration is now the story) | See [2026-09-24/02 §1](./2026-09-24/02-new-emerging.md#1-sora-api-shutdown) |
+| **Twelve Labs $100M Series B (NEA + Naver, video-understanding)** | 🟢 NEW | **2026-09:** validates video-search-as-primitive; Sora shutdown timing = optimal | Hiring volume; whether a verticalised competitor raises | See [2026-09-24/02 §2](./2026-09-24/02-new-emerging.md#2-funding-round) |
+| **Stability AI $76M with music-label cap table (UMG/Sony/Warner + EA + AMD Ventures)** | 🟢 NEW | **2026-09:** rights-cleared training data moat; labels-as-investors precedent | Whether other generative-media startups pursue the same shape; music-focused AI startup with Spotify + Universal + Nvidia would be obvious next | See [2026-09-24/02 §2](./2026-09-24/02-new-emerging.md#2-funding-round) |
+| **Bio-AI subsector re-priced upward by ART** | 🟡 NEW | **2026-09-23:** Isomorphic / Xaira / Insitro / Chai Discovery / Cradle Bio + university spinouts all repriced; expected 20–40% Series A valuation lift in 60 days | First "we did our own ART" moment at Xaira or a university spinout; Isomorphic Q4 up-round | See [2026-09-24/02 §3](./2026-09-24/02-new-emerging.md#3-bio-ai-repriced) |
+| **DolphinBench + agent-memory Pareto frontier (arXiv 2609.24971)** | 🟡 NEW | **2026-09-21:** joins EvoMemBench + MemTools + evolving-state benchmarks as Q3 memory-benchmark wave | First memory-as-a-service startup to close a $10M+ round; whether Mem0 / EverMemOS lead consolidates | See [2026-09-24/04 §1](./2026-09-24/04-research-progress.md#1-dolphinbench) |
+| **AI safety / eval as an internationally-visible career lane** | 🟡 NEW | **2026-09-23–24:** UN address makes it explicit; roles at Anthropic Red Team, OpenAI Safety, NIST AISI, UK AISI, CAISI, external evaluators (RAND / MITRE / GovAI) | Hiring pattern next 30 days; whether standards bodies open contractor pipelines | See [2026-09-24/05 §2](./2026-09-24/05-career-and-startup.md#2-safety-eval-repriced) |
+| **Gemini 3.8 Flash Jan 2027 price double** | 🟡 NEW | **2026-09-02:** intro $0.75/$3.75 through Dec 31, then $1.50/$7.50 Jan 1, 2027 | Whether customers migrate to Luna / Muse Spark by Dec; whether Google backs off under competitive pressure | See [2026-09-24/01 §5](./2026-09-24/01-big-lab-moves.md#5-google-meta-context) |
+| **Meta Muse Spark open-weights (roadmap-hinted, no date)** | ⚪ NEW | **2026-09-02:** "on the roadmap" | Release date; license terms; whether it resets AI cost floor for self-hosting economics | See [2026-09-24/01 §5](./2026-09-24/01-big-lab-moves.md#5-google-meta-context) |
 
 ---
 

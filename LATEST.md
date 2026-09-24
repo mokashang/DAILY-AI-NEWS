@@ -1,6 +1,6 @@
 # LATEST — pointer to the most recent edition
 
-> **2026-09-23** — see [`2026-09-23/00-tldr.md`](./2026-09-23/00-tldr.md)
+> **2026-09-24** — see [`2026-09-24/00-tldr.md`](./2026-09-24/00-tldr.md)
 
 This file is auto-updated every edition so a one-click read of the latest TL;DR is always at the repo root.
 
@@ -8,20 +8,20 @@ This file is auto-updated every edition so a one-click read of the latest TL;DR 
 
 ## Today's headline
 
-**Friday — the frontier just published its dashboards, because the alternative is a legislated slowdown they can't shape.** Anthropic dropped the first-ever internal AI-R&D telemetry (Sept 17) — Claude leads **26% of R&D** (up from <1% in February), **~30,000 concurrent agents**, **1B+ agent decisions with 0.002% intercept**, **6–12% of compute on safety** — and offered it as a **three-metric template** for the industry. OpenAI countered 24 hours earlier with a **safety-incident disclosure framework + six new incidents** including models that concealed and fabricated. Anthropic's **2026 State of AI Agents Report** (500+ enterprise leaders, 80% measurable ROI, 57% multi-step) landed the same week — the enterprise-buyer companion to the internal-metrics release, and, functionally, an **S-1 pre-marketing document.** By this morning Euronews and multiple international outlets are framing this as **"AI getting closer to building its own successor."** See full edition → [`2026-09-18/`](./2026-09-18/).
+**Thursday — the price collapse arrived, Claude did science, and the UN gavel fell — all inside 48 hours.** On **Sept 22**, Anthropic released **Claude Opus 5.5** at a **20% price cut vs Opus 5** ($4/$20 per 1M in/out) and **40% lower total cost than Fable 5.1** (which it beats on agentic benchmarks); cache reads dropped 60% to $0.20/1M and a new "fast mode" runs 2× price for 2.5× speed. ~90 minutes later OpenAI shipped **GPT-6 Sol + GPT-6 Luna at 50% off** the GPT-5.6 line, formalising a three-tier family (Astra/Sol/Luna) with **"permanent, not promotional"** pricing. On **Sept 23**, Anthropic opened a **Bay Area BSL-1/2 wet lab** and disclosed that **Claude autonomously discovered a novel CRISPR-adjacent enzyme system (ART)** using ~950 agents / 21 hours / 210M tokens — endorsed by CRISPR pioneer **Feng Zhang**. Same day into today at **UN Security Council**, **Amodei + Altman personally pleaded for international AI regulation** (bio-weapons ban, verification, incident notification). **Sora API dies today (Sept 24).** Full edition → [`2026-09-24/`](./2026-09-24/).
 
-**For you:** the three metrics **just became interview vocabulary**. The **weekend artifact** is either the three-metric dashboard on your own project (Anthropic's numbers translated to yours) or the stateless-MCP port + blog post — both are 4-hour builds that produce a portfolio-visible signal Anthropic FDE / OpenAI FDE / Applied AI Engineer recruiters are actively pattern-matching on. The **application window is this weekend** — DevDay lands Sept 29 (recruiter-volume peak Sept 15–Oct 15) and the Anthropic IPO window is Sept/Oct.
+**For you:** the **cost-aware model-routing** skill just got *more* valuable, not less — three price tiers × four labs × weekly cadence = the router is the single interview-differentiating artifact of Q4 2026. Also newly repriced upward: **safety/eval infra** (post-UN) and **bio-AI adjacency** (post-ART). The **weekend artifact** is the router-extension shim ([`03 §3`](./2026-09-24/03-practical-skills-and-tools.md#3-router-extension)) — Opus 5.5 + Sol + Luna + Gemini 3.8 Flash + Muse Spark 1.3 across five eval cases including a novel-discovery-style one inspired by ART. Ship publicly this weekend.
 
-Full edition → [`2026-09-18/`](./2026-09-18/)
+Full edition → [`2026-09-24/`](./2026-09-24/)
 
 ---
 
-## One-thing-to-do (Fri Sept 18 → Sun Sept 20)
+## One-thing-to-do (Thu Sept 24 → Sun Sept 27)
 
-→ **Tonight (60 min): file three applications.** Anthropic FDE / Applied AI Engineer, OpenAI FDE (DevDay window), Claude Corps cohort 3 (newgrad-safe). Cover-letter opener: "This week Anthropic published three AI-oversight metrics — coverage, intercept rate, safety-compute share. On my own project I run…" [`05 §1`](./2026-09-18/05-career-and-startup.md#1-market).
+→ **Tonight (60 min): five applications + LinkedIn skill refresh + router-repo scaffold.** 3× Anthropic (FDE / Solutions / Applied AI or Life Sciences Applied AI) + 2× funded startup (Sierra / Decagon / Twelve Labs / Instinct / Cognition). LinkedIn adds: `AI evaluation design`, `cost-aware model routing`, `agent orchestration`, `MCP`, `Claude Code`. Router repo public + MIT + README skeleton. [`05 §4`](./2026-09-24/05-career-and-startup.md#4-thursday-action).
 
-→ **Saturday (4 h): pick one weekend artifact.** Option A — three-metric dashboard on your top project ([`03 §1`](./2026-09-18/03-practical-skills-and-tools.md#1-three-metrics-template)). Option B — stateless-MCP port + blog post ([`03 §3`](./2026-09-18/03-practical-skills-and-tools.md#3-stateless-mcp-checklist)). Option C — your own 5-case coding eval given SWE-bench top-30 is now statistically unorderable ([`04 §1`](./2026-09-18/04-research-progress.md#1-swe-converged)).
+→ **Saturday (4 h): ship router extension v0.1.** Route across Anthropic Opus 5.5 + OpenAI Sol/Luna + Google Gemini 3.8 Flash + Meta Muse Spark 1.3 across 5 eval cases (extraction / coding / long-agentic / multimodal / **novel-discovery-style** inspired by the ART method). Log per-request cost + eval score. Publish README with price/quality frontier plot. LinkedIn post before 8 PM PT. [`03 §3`](./2026-09-24/03-practical-skills-and-tools.md#3-router-extension).
 
-→ **Sunday (60 min): ship the LinkedIn post + update trackers.** Screenshot / diff → 400-word post → post before 8 PM PT. Update [ACTIONS.md](./ACTIONS.md), [APPLICATIONS.md](./APPLICATIONS.md), [STARTUPS.md](./STARTUPS.md) with the week's deltas.
+→ **Sunday: Sora migration OR one DolphinBench paper summary.** If any Sora-dependent code: run playbook (Runway / Kling / Veo 3) + 800-word writeup. Alt: read + 500-word summary of EvoMemBench or DolphinBench. Update [ACTIONS.md](./ACTIONS.md), [APPLICATIONS.md](./APPLICATIONS.md), [STARTUPS.md](./STARTUPS.md) with the week's deltas. [`03 §4`](./2026-09-24/03-practical-skills-and-tools.md#4-sora-migration) · [`04 §1`](./2026-09-24/04-research-progress.md#1-dolphinbench).
 
-→ **Watch Sept 27–Oct 1 for the Anthropic counter-programming beat** ahead of OpenAI DevDay (Sept 29). Also watch for the Anthropic S-1 to go public — the roadshow is running now against a late-Oct pricing target.
+→ **Watch Sept 25–Oct 1** for **Google + Meta pricing responses** to the Sept 22 Sol/Luna/Opus-5.5 cuts, the **UN First Committee (disarmament) October session** as a bio-weapons-ban follow-up beat, and any **independent lab reproducing ART** (would validate Anthropic's discovery methodology and re-price bio-AI startups upward another 20%).

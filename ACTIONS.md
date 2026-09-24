@@ -4,11 +4,58 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-09-24**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (Sept 22 – Sept 28) — the price collapse + biolab + UN week
+
+### Thursday Sept 24 — TODAY (60 minutes)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | LinkedIn skill refresh — add: `AI evaluation design`, `cost-aware model routing`, `agent orchestration`, `MCP`, `Claude Code`; remove standalone `prompt engineering` | Tonight | [2026-09-24/05 §2](./2026-09-24/05-career-and-startup.md#2-safety-eval-repriced) |
+| ⚪ | Scaffold the router-artifact GitHub repo (README skeleton per spec) — commit-1 today, public, MIT | Tonight | [2026-09-24/03 §3](./2026-09-24/03-practical-skills-and-tools.md#3-router-extension) |
+| ⚪ | 3 Anthropic applications (FDE / Solutions / Applied AI) — link empty router repo in resume, "publishing this weekend" | Tonight | [2026-09-24/05 §4](./2026-09-24/05-career-and-startup.md#4-thursday-action) |
+| ⚪ | 2 funded-startup applications (Sierra / Decagon / Twelve Labs / Instinct / from Vinit Shahdeo tracker) | Tonight | [2026-09-24/05 §4](./2026-09-24/05-career-and-startup.md#4-thursday-action) |
+| ⚪ | Log all 5 applications in [APPLICATIONS.md](./APPLICATIONS.md) — company, role, resume version, date | Tonight | [2026-09-24/05 §4](./2026-09-24/05-career-and-startup.md#4-thursday-action) |
+
+### Friday Sept 25 — routing rubric internalisation
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Memorise the three-tier routing rubric (Clerical / Workhorse / Frontier × 4 labs) — walk through the decision tree from memory | Fri | [2026-09-24/03 §1](./2026-09-24/03-practical-skills-and-tools.md#1-three-tier-routing) |
+| ⚪ | Draft the router artifact's price/quality frontier plot spec (matplotlib or plotly) | Fri | [2026-09-24/03 §3](./2026-09-24/03-practical-skills-and-tools.md#3-router-extension) |
+| ⚪ | Read the DolphinBench abstract + one of the four cited memory papers (recommended: EvoMemBench) | Fri | [2026-09-24/04 §1](./2026-09-24/04-research-progress.md#1-dolphinbench) |
+
+### Saturday Sept 27 — SHIP router v0.1
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Implement the router shim (~60 lines Python): tier × lab routing + fallback + logging | Sat | [2026-09-24/03 §3](./2026-09-24/03-practical-skills-and-tools.md#3-router-extension) |
+| ⚪ | Write the 5 eval cases (extraction / coding / long-agentic / multimodal-optional / novel-discovery-style) | Sat | [2026-09-24/03 §3](./2026-09-24/03-practical-skills-and-tools.md#3-router-extension) |
+| ⚪ | Run the eval; publish the results + plot in the README | Sat | [2026-09-24/03 §3](./2026-09-24/03-practical-skills-and-tools.md#3-router-extension) |
+| ⚪ | LinkedIn post announcing the artifact — "here's how I route across Opus 5.5, Sol, Luna, Gemini 3.8 Flash, Muse Spark 1.3" | Sat evening | [2026-09-24/05 §4](./2026-09-24/05-career-and-startup.md#4-thursday-action) |
+
+### Sunday Sept 28 — Sora migration OR paper summary
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | If you have any Sora-dependent code: run the migration playbook (Runway / Kling / Veo 3) + publish 800-word writeup | Sun | [2026-09-24/03 §4](./2026-09-24/03-practical-skills-and-tools.md#4-sora-migration) |
+| ⚪ | Alternate: 500-word summary of one DolphinBench-cited memory paper | Sun | [2026-09-24/04 §1](./2026-09-24/04-research-progress.md#1-dolphinbench) |
+
+### This week (rolling)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Refresh unit-economics deck / cost dashboard with Opus 5.5 + Sol/Luna price points | This week | [2026-09-24/01 §1](./2026-09-24/01-big-lab-moves.md#1-opus-5-5) |
+| ⚪ | Add **Bio-AI Engineer / AI-scientist tooling** to apply-to-list — Anthropic Life Sciences, Isomorphic, Xaira, Chai Discovery, Cradle Bio | This week | [2026-09-24/02 §3](./2026-09-24/02-new-emerging.md#3-bio-ai-repriced) |
+| ⚪ | Add **AI Safety / Eval / Red-team** lane — Anthropic Red Team, NIST AISI, UK AISI, CAISI | This week | [2026-09-24/01 §4](./2026-09-24/01-big-lab-moves.md#4-un-security-council) |
+| ⚪ | Choose one startup wedge from [2026-09-24/05 §3](./2026-09-24/05-career-and-startup.md#3-startup-wedges); commit to a 4-week timeboxed MVP (top pick: model-router-as-a-service, composes with the artifact) | This week | [2026-09-24/05 §3](./2026-09-24/05-career-and-startup.md#3-startup-wedges) |
+
+---
+
+## Archive — earlier week (May 19–25)
 
 ### Tuesday May 19 — I/O DAY (done)
 

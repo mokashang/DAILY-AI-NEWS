@@ -4,7 +4,36 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-09-24**
+Last updated: **2026-09-25**
+
+---
+
+## Friday Sept 25 — TODAY: Amazon-agents + Batch API + Muse metrics + router refresh (60 minutes)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship the router-refresh PR tonight** — add Opus 5.5 + GPT-6 Sol + GPT-6 Luna + OpenRouter Batch to the router artifact. Include README screenshot + `docs/cost.md` table. 5 lines of code, one interview-worthy PR. | Tonight | [2026-09-25/03 §3](./2026-09-25/03-practical-skills-and-tools.md#3-router-refresh) |
+| ⚪ | Run the 20-min cost audit — export last 30d spend by model → recompute at new tiers (Opus 5.5 / Sol / Luna, Batch where applicable). Post before/after screenshot. | Tonight | [2026-09-25/03 §1](./2026-09-25/03-practical-skills-and-tools.md#1-opus-55-economics) |
+| ⚪ | Update LinkedIn skills: add **"Agentic AI," "Claude Opus 5.5," "OpenRouter Batch API," "Amazon Bedrock Agents."** Pin router repo. | Today | [2026-09-25/05 §1](./2026-09-25/05-career-and-startup.md#1-hiring-map) |
+| ⚪ | Add **AI-Integration-Engineer-for-Marketplaces** and **AI-Policy/Compliance-Engineer** to target lanes in ME.md. | Today | [2026-09-25/05 §1](./2026-09-25/05-career-and-startup.md#1-hiring-map), [§3](./2026-09-25/05-career-and-startup.md#3-policy-lane) |
+
+### Weekend (Sept 26–27)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Start the multi-marketplace agent skeleton** — Amazon Selling Partner plugin + Shopify Admin API + Claude Agent SDK. Aim to publish OSS Sunday night. This is *the* weekend artifact given the Sept-23 Amazon beta window. | Sat–Sun | [2026-09-25/05 §2](./2026-09-25/05-career-and-startup.md#2-marketplace-integrations) |
+| ⚪ | Read Jev-Mem paper (arXiv 2609.23986) — 3 quotable sentences on System-One/Two agent memory for Monday interviews. | Sun | [2026-09-25/04 §1](./2026-09-25/04-research-progress.md#1-jev-mem) |
+| ⚪ | Extend router with a `MemRouter` class draft (skeleton only). | Sun | [2026-09-25/04 §1](./2026-09-25/04-research-progress.md#1-jev-mem) |
+
+### Next week (Sept 29 – Oct 3) — Anthropic S-1 watch
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Publish the multi-marketplace agent skeleton repo. LinkedIn post + Reddit r/LocalLLaMA cross-post. | Mon | [2026-09-25/05 §4](./2026-09-25/05-career-and-startup.md#4-thesis) |
+| ⚪ | 5 cold outreach messages: 2× Anthropic (Solutions + Applied AI on the Amazon partnership) + 1× Amazon Bedrock Agents + 1× Shopify AI Platform + 1× pre-A marketplace-agent startup. Log in APPLICATIONS.md. | Tue | [2026-09-25/05 §4](./2026-09-25/05-career-and-startup.md#4-thesis) |
+| ⚪ | **Monitor Anthropic public S-1 filing** (expected next 2 weeks). When it drops: extract product-revenue mix / geo mix / headcount by function → 1-page memo → LinkedIn post same day. | Rolling | [2026-09-25/01 §5](./2026-09-25/01-big-lab-moves.md#5-anthropic-s1) |
+| ⚪ | 2 formal applications: **Anthropic Solutions/FDE** + **Amazon Bedrock Agents / Selling Partner** (attach router repo + multi-marketplace skeleton). | Thu | [2026-09-25/05 §1](./2026-09-25/05-career-and-startup.md#1-hiring-map) |
+| ⚪ | Rerun cost audit; take the week-over-week delta screenshot. | Fri Oct 2 | [2026-09-25/03 §1](./2026-09-25/03-practical-skills-and-tools.md#1-opus-55-economics) |
 
 ---
 

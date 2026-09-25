@@ -4,7 +4,23 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-09-24**
+Last updated: **2026-09-25**
+
+---
+
+## New / promoted threads 2026-09-25 (Amazon agents, Batch API, Muse metrics, Sherman-Act suit)
+
+| Thread | Status | Last move | Watching for | Source |
+|---|---|---|---|---|
+| **Amazon Seller Central → outside AI agents (Claude on Bedrock beta)** | 🟢 NEW | **2026-09-23:** Selling Partner plugin — GA in Amazon Quick, beta with Anthropic Claude; Seller Assistant now has persistent memory + always-on workflows; runs on Bedrock + Nova + Claude, US only | Shopify / Etsy / eBay / Walmart / Mercado Libre parity announcements (30–90 day window); first multi-marketplace-agent startup >$5M ARR; international expansion date | [2026-09-25/01 §4](./2026-09-25/01-big-lab-moves.md#4-amazon-agents) |
+| **OpenRouter Batch API (50% off across 70+ models)** | 🟢 NEW | **2026-09-22:** median 7-min turnaround, p90 1 hr, p99 10.3 hr; 230K+ batches in beta; batch-Luna = $0.05 / $0.25 per 1M | Whether OpenAI/Anthropic/Google ship native batch SKUs inside 90 days; whether batch-native routing startups emerge | [2026-09-25/02 §1](./2026-09-25/02-new-emerging.md#1-openrouter-batch) |
+| **Meta Muse consumer agent (Shopify/PayPal/Expedia/Instacart connectors)** | 🟡 NEW | **Sept 2026:** 500K users / 250K DAU / 2M prompts in ~1 week post-launch; Meta publicly *dissents* from pacing = live counter-experiment | 60/90-day retention; whether OpenAI/Anthropic ship equivalent connectors; Meta's next connector wave | [2026-09-25/01 §6](./2026-09-25/01-big-lab-moves.md#6-meta-muse) |
+| **Pacing coalition → Sherman-Act class action** | 🟡 PROMOTED | **2026-09-18:** 4-consumer suit in N.D. Cal names Anthropic + OpenAI + xAI + Google under Sherman Act (coordination for safety = alleged violation); Amodei calls for narrow-safety-waiver bill | (a) DOJ/FTC statement; (b) bill introduced; (c) whether Meta hardens the "we don't pace" positioning as competitive lever; (d) CAISI/AISI as legal intermediaries | [2026-09-25/01 §1](./2026-09-25/01-big-lab-moves.md#1-pacing-antitrust) |
+| **Nvidia $500B chip-financing securitization** | 🟡 NEW | **Aug 2026:** Apollo/BlackRock/Blackstone/Brookfield/Goldman Sachs/KKR; $750B+ in-flight arrangements; rumored $250B guarantee for OpenAI Ohio; Q2 FY27 rev $96.2B / DC $89.0B | Non-Nvidia securitization (AMD/TSMC/Broadcom); how the arrangement reads in the Anthropic S-1 | [2026-09-25/01 §7](./2026-09-25/01-big-lab-moves.md#7-nvidia-infra) |
+| **Jev-Mem + agent-memory-as-routing frame** | 🟡 NEW | **arXiv 2609.23986:** System-One/System-Two agent memory, +11.0% LoCoMo, lower latency; converges with Memory-in-the-Age-of-AI-Agents survey | First open-source `MemRouter` library; whether vector-DB category concedes the gate-decision layer | [2026-09-25/04 §1](./2026-09-25/04-research-progress.md#1-jev-mem) |
+| **Nscale S-1 (Sept 18)** | 🟢 NEW | UK-based AI-native data-center operator; second AI-infra IPO after CoreWeave | Pricing range; public multiple vs CoreWeave; downstream impact on private DC comparables | [2026-09-25/02 §4](./2026-09-25/02-new-emerging.md#4-adjacent) |
+| **AI-Integration-Engineer, Marketplaces (new hiring lane)** | 🟡 NEW | Amazon Bedrock Agents / Selling Partner team hiring; Shopify AI Platform likely stands up parity team inside 30 days | Shopify / Walmart / Etsy job-req flood; salary bands vs standard AI-integration roles | [2026-09-25/05 §2](./2026-09-25/05-career-and-startup.md#2-marketplace-integrations) |
+| **AI-Policy / Compliance-Engineer lane repriced upward** | 🟡 NEW | Amodei essay + antitrust suit → labs need Congressional-Affairs Engineers, T&S Ops Engineers, Compliance Platform Engineers | Anthropic Responsible Scaling posting volume; OpenAI Global Policy technical roles; CAISI/AISI hiring; salary reset | [2026-09-25/05 §3](./2026-09-25/05-career-and-startup.md#3-policy-lane) |
 
 ---
 

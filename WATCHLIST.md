@@ -4,7 +4,24 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-09-25**
+Last updated: **2026-09-26**
+
+---
+
+## New / promoted threads 2026-09-26 (Dreamforce + Copilot Autopilot + Meta Connect + Qwen-Audio 3.1)
+
+| Thread | Status | Last move | Watching for | Source |
+|---|---|---|---|---|
+| **Salesforce AIforce + Headless 360 (60+ MCP tools) + Claudeforce** | 🟢 NEW | **Dreamforce '26:** Marc Benioff unveils an agentic layer that drives Salesforce from Claude/Slack/Lightning; Amodei on stage; **Koa** vertical model built with NVIDIA on Nemotron | HubSpot / Zendesk / Adobe / Workday parity announcements (30-day window); whether Koa's weights are open; F500 CIO's first named Claudeforce deploys | [2026-09-26/01 §1](./2026-09-26/01-big-lab-moves.md#1-dreamforce-aiforce) |
+| **Microsoft Copilot redesign — Home / Code / Autopilot + Agent 365** | 🟢 NEW | **2026-09-25:** Autopilot = persistent tenant-native agent (identity + memory + workspace); Copilot Managed Runtime hosts NL-built apps in-tenant; Agent 365 = identity + monitoring + policy + spend controls for agents specifically; Autopilot to private preview end of Sept | Autopilot private-preview customer names; whether Agent 365 becomes an MCP host by end of Q4; competitor governance-as-a-service ships from Salesforce/Amazon/Google | [2026-09-26/01 §2](./2026-09-26/01-big-lab-moves.md#2-microsoft-copilot) |
+| **Alibaba Qwen-Audio 3.1 — voice API pricing floor** | 🟢 NEW | **2026-09-23–24:** Five-model stack (ASR / TTS / Realtime / ASR-Next / TTS-Next); **ASR up to −95%, TTS ~−70%, Realtime ~−85%** | Deepgram / ElevenLabs / OpenAI US-side price responses within 30 days; whether US enterprise procurement accepts Alibaba Cloud endpoints; open-weight Qwen-Audio self-hosting break-even scale | [2026-09-26/02 §1](./2026-09-26/02-new-emerging.md#1-qwen-audio) |
+| **Meta Muse Charm pendant + Muse Realtime Avatar + 100 AI-glasses styles** | 🟢 NEW | **Meta Connect 2026-09-24:** First-to-market consumer AI device at scale; OpenAI Jony-Ive hardware further delayed by Apple lawsuit | Q3 earnings for Muse-device unit numbers; SDK open date (est. Q1 2027); consumer retention of Muse (post-500K launch cohort) | [2026-09-26/01 §5](./2026-09-26/01-big-lab-moves.md#5-meta-connect) |
+| **DolphinBench + agent-memory-eval canon (accuracy × cost × latency)** | 🟢 NEW | **arXiv 2609.24971 (Sept 21):** 200 tasks/persona verified; joint measurement of accuracy + cost + latency = first Pareto-frontier memory benchmark. Pair with MemCalib (2609.24259), Jev-Mem (2609.23986), EverMemBench (2602.01313) | Whether frontier labs cite DolphinBench in their next system-card / memory benchmark; whether agent-memory startups (mem0, Zep, Cognee, EverMemOS) publish DolphinBench numbers | [2026-09-26/04 §1](./2026-09-26/04-research-progress.md#1-dolphinbench) |
+| **Google Gemini 4 in post-training — "much earlier than year-end"** | 🟡 PROMOTED | **Kavukcuoglu 2026-09-24:** early stages of post-training; prediction markets ~74% pre-November | Firm release date; benchmark tier vs GPT-6 Astra + Claude Opus 5.5; pricing structure | [2026-09-26/01 §4](./2026-09-26/01-big-lab-moves.md#4-google) |
+| **Gemini 3.8 Live + Live Avatar (97 languages) in Gemini Enterprise** | 🟢 NEW | **This week:** near-real-time video generation + live dialogue + 97-language lip-sync in Enterprise | Regulated-industry integrations (HIPAA/GDPR/FedRAMP); whether Sora API's Sept-24 sunset creates enterprise-avatar migration into Gemini | [2026-09-26/04 §2](./2026-09-26/04-research-progress.md#2-live-avatar) |
+| **MCP-server cascade (5 F500-scale ships in 5 days: Salesforce + Amazon + Microsoft + Eventtia)** | 🟡 PROMOTED | MCP is now baseline standard; **MCP-server author-experience** is the differentiating skill for the next 6 months; every mid-cap SaaS shipping MCP in Q4 = 1-3 integration engineers per launch | Aggregate: which 3 more F500 SaaS ship Q4? Net-new MCP integration-engineer JD count by December | [2026-09-26/02 §2](./2026-09-26/02-new-emerging.md#2-mcp-cascade) |
+| **"AI Integration Engineer for F500 SaaS agent surfaces" (new hiring lane)** | 🟢 NEW | 500-1,000 unadvertised roles across SaaS/Big-4/lab-Solutions/SI shops now, 10,000-15,000 by December | Whether Big-4 (PwC/Deloitte/Accenture/EY) formalize sub-practices; salary bands vs standard AI-integration roles; whether Anthropic Solutions grows FTE count 3× by year-end | [2026-09-26/05 §2](./2026-09-26/05-career-and-startup.md#2-integration-lane) |
+| **Anthropic public S-1 — window narrowed to end of September** | 🟡 PROMOTED | Confidential filing Jun 1; public filing expected end-of-Sept; roadshow Sept-Oct; first-trade October at ~$965B-$2T | Public filing date (put SEC Google Alert on `Anthropic`); segment-revenue lines; risk-factors section (esp. Sherman-Act suit disclosure); comp band signal | [2026-09-26/01 §3](./2026-09-26/01-big-lab-moves.md#3-anthropic-s1) |
 
 ---
 

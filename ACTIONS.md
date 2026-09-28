@@ -4,7 +4,48 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-09-28**
+
+---
+
+## This week (Sept 28 – Oct 4)
+
+### Monday Sept 28 — Opus 5.5 router + Standards Agency response
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Publish the Opus-5.5-vs-Fable-5.1 router table on GitHub tonight** (extend router artifact with `opus-5.5` leg + refreshed 5-case eval + comparison README) | Mon night | [2026-09-28/03 §1](./2026-09-28/03-practical-skills-and-tools.md#1-opus55-router) |
+| ⚪ | Add "CPU inference / edge inference / distributed compute" and "pre-deployment eval / red-team" to LinkedIn skills row | Mon | [2026-09-28/05 §1](./2026-09-28/05-career-and-startup.md#1-two-lanes) |
+| ⚪ | Draft the "why I want to co-found with a frontier-lab alum" one-pager | Mon (45 min) | [2026-09-28/05 §2](./2026-09-28/05-career-and-startup.md#2-alumni-flywheel) |
+
+### Tue–Wed Sept 29–30 — Applications week (Priority 1)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **1× Anthropic** (Solutions Engineer / Applied AI / DevRel) — reference the Fable 5.1 economics + Opus 5.5 router table in cover letter | Wed | [2026-09-28/05 §3](./2026-09-28/05-career-and-startup.md#3-applications) |
+| ⚪ | **1× OpenAI FDE** — reference the July HF compromise study + your sandbox checklist | Wed | [2026-09-28/05 §3](./2026-09-28/05-career-and-startup.md#3-applications) |
+| ⚪ | **1× Akamai** (Distributed Inference Engineer / Edge AI Platform) — brand-new req window from the $11.6B Anthropic contract | Wed | [2026-09-28/01 §2](./2026-09-28/01-big-lab-moves.md#2-akamai) |
+| ⚪ | **1× Cyera** (FDE / GTM Engineering / Solutions Architect) — fresh $400M Series G ext reqs | Wed | [2026-09-28/02 §1](./2026-09-28/02-new-emerging.md#1-funding-week) |
+| ⚪ | Write 300-word critique of OpenAI DNS-sandbox-escape report (save as `SANDBOX-CRITIQUE.md`) | Tue night | [2026-09-28/04 §3](./2026-09-28/04-research-progress.md#3-sandbox) |
+
+### Thu–Fri Oct 1–2 — Ship the plugin + priority-2 applications
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship first Claude Code plugin** (`plugin.json` — 1 skill + 1 slash command + 1 hook), submit to the plugin directory | Thu/Fri | [2026-09-28/03 §2](./2026-09-28/03-practical-skills-and-tools.md#2-plugins-mcp) |
+| ⚪ | **Add SAFETY.md agent-sandbox checklist** to any repo that ships tool-using agents | Thu | [2026-09-28/03 §3](./2026-09-28/03-practical-skills-and-tools.md#3-agent-safety) |
+| ⚪ | 4 priority-2 applications: Chamelio + Confido + Mantic + Complir | Fri | [2026-09-28/05 §3](./2026-09-28/05-career-and-startup.md#3-applications) |
+| ⚪ | Draft 5 curiosity-style DMs to pre-2024 Anthropic/OpenAI/DeepMind engineers (no ask) | Fri | [2026-09-28/05 §2](./2026-09-28/05-career-and-startup.md#2-alumni-flywheel) |
+
+### Weekend Oct 3–4 — Reach lane + research reading
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Anthropic AI Safety Fellowship application** — this week's news is the most relevant application context of the year | Sat | [2026-09-28/05 §3](./2026-09-28/05-career-and-startup.md#3-applications) |
+| ⚪ | **OpenAI Residency 2026 application** — reference DNS-sandbox critique | Sat | [2026-09-28/05 §3](./2026-09-28/05-career-and-startup.md#3-applications) |
+| ⚪ | **Read arXiv 2603.07670 (memory taxonomy) end-to-end** + write 200-word summary for LinkedIn | Sat | [2026-09-28/04 §2](./2026-09-28/04-research-progress.md#2-memory-survey) |
+| ⚪ | Weekly review: write WEEK-2026-09-28.md rollup | Sun | (weekly convention) |
+| ⚪ | List 20 target-tier Anthropic/OpenAI/DeepMind engineers who joined pre-2024 → save as `alumni-outreach.md` | Sun | [2026-09-28/05 §2](./2026-09-28/05-career-and-startup.md#2-alumni-flywheel) |
 
 ---
 

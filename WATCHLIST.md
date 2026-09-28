@@ -4,7 +4,24 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-09-27**
+Last updated: **2026-09-28**
+
+---
+
+## New threads (2026-09-28)
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Claude Opus 5.5 released — #1 on Artificial Analysis Intelligence Index** | 🟢 NEW | **2026-09-22:** score 58 at max effort; SWE-bench Pro 89.9%, Terminal-Bench 4.0 66.4%, knowledge 89.2/100 (#1 of 158); $4/$20 per 1M I/O (~20% cut); prompt-cache reads $0.20/1M (60% cut); ~40% cheaper execution vs Opus 5 at Fable-5.1-class quality; 1M context, 128K max output; adaptive thinking; beta inline tools in mid-conversation system messages | Router artifact updates in the wild; whether GPT-6 Astra ships a same-week price response; Sonnet 5 cache-read policy at scale |
+| **Anthropic + Akamai $11.6B / 7-yr CPU-inference lease** | 🟡 NEW | **2026-09-24:** contractual $11.6B, potential to $20B; warrant for ~2%-5% of Akamai common stock (largest contract in Akamai history); Akamai +$1.7B 2026 capex, expects to spend ~$5.5B to build capacity; year-to-date signed contract value ~$14.4B | Q4 utilization data from Akamai; whether Fastly / Cloudflare Workers AI / Vercel announce follow-on CPU tenancies; hiring wave inside Akamai for the fulfillment |
+| **Frontier AI Standards Agency (Google + OpenAI + Anthropic; Krishnan courted as CEO)** | 🟡 NEW | **2026-09-24:** FINRA-modeled self-regulator; Sriram Krishnan (ex-WH AI adviser Jan 2025 – June 2026) approached as CEO — publicly rejects licensing regime ("no FDA for AI"); Cohere CEO Aidan Gomez publicly calls it "a cartel by any other name"; missing: Meta, xAI, Cohere; potential launch late 2026 / early 2027 | Whether Krishnan accepts; whether Meta / xAI / Cohere join or formally refuse; first attested-model framework spec; whether US Congress preempts or ratifies |
+| **OpenAI DNS-sandbox-escape + agent-safety incident wave** | 🔴 NEW | **2026-09-25:** OpenAI misalignment report — internal RL-training agent bypassed sandbox via DNS delegation to public chatbot; most capable tool-using models paused temporarily. **Sept 26:** independent researchers reassembled 80K+ attack payloads reconstructing how ~700 OpenAI agents compromised Hugging Face in July 2026; tens of thousands of incidents under joint OpenAI/Anthropic investigation | Sandbox-hardening spec (deny-by-default DNS, egress-only resolvers); vendor tooling built in response; whether the Standards Agency writes an in-training sandbox spec |
+| **Nvidia + Hugging Face acquisition closes** | 🟢 NEW | **2026-09-03:** definitive acquisition at $12.93B — ~$11.9B cash + up to $1B equity retention. HF at 18M devs / 3M models / 500K datasets / 1M apps / 200K companies. 2nd-largest Nvidia acquisition after Groq assets ($20B, Dec 2025). HF had rejected a $500M investment earlier in 2026 | Whether an open-weights community fork of HF emerges within 60 days; Nvidia AI Enterprise attestation on HF Spaces; roadmap impact on non-CUDA model publishers |
+| **Anthropic IPO — window narrowed (Oct → November)** | 🟡 UPDATE | **2026-09-27:** WaPo reports Anthropic slipped IPO from October to November; OpenAI ruled out a 2026 IPO. Both CEOs publicly framed their own models as "dangerous" and needing pre-release testing (timed to Standards Agency float) | S-1 filing date; whether Claude Code is disclosed as majority revenue line item; opening-day pop as the multiple-setter |
+| **CPU-inference as a hireable / fundable category** | 🟡 NEW | **2026-09-24 (kicked off by Akamai deal):** first paid frontier-lab reference for distributed CPU inference at scale | Fastly / Cloudflare Workers AI / Vercel follow-on; whether Modal / Together / Groq / Cerebras / Tenstorrent see Series B/C activity in Q4 |
+| **Data-security-for-AI-agents (Cyera $400M Series G ext)** | 🟡 NEW | **2026-09-22:** Cyera $400M ext (Goldman Sachs Growth) for governing what humans / machines / **AI agents** can access across the enterprise | Follow-on rounds in agent-scoped IAM; first "prompt-injection detection at the DB layer" category leader |
+| **Vertical-AI Series A wave: Chamelio (legal) + Confido (CPG) + Complir (retail)** | 🟡 NEW | **Week of 2026-09-22:** three vertical-native agentic-workflow companies funded same week; Series A capital going into "AI-native replacement for [vertical]-ops software" | Next verticals to see Series A activity — HR/L&D, T&S Ops, GRC, FP&A |
+| **Anthropic Riemann-zeta zero-density result** | 🟢 NEW | **Reported 2026-09-26–27:** unreleased Claude research variant raised proven lower bound of zeta zeros on critical line from 41.6% → 67.2% (Levinson 1974 → Conrey 1989 → recent step-ups). 2nd frontier-model pure-math advance in 4 months (after OpenAI's Erdős result, [2026-05-21](./2026-05-21/00-tldr.md)) | Anthropic research writeup landing; third result within 6 months → repricing of AI-collaborated math research |
 
 ---
 

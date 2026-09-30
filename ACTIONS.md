@@ -4,7 +4,36 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-09-28**
+Last updated: **2026-09-30**
+
+---
+
+## Wed Sept 30 — post-DevDay + pre-Apple-hearing (added today)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Publish 200-word Anthropic S-1 post tonight** — quote one specific risk-disclosure line (from Fortune/TechCrunch coverage of the 09-28 leak), translate into an enterprise procurement question, offer Q&A template DM | Tonight 45 min | [2026-09-30/03 §3](./2026-09-30/03-practical-skills-and-tools.md#3-s1-post) |
+| ⚪ | Update LinkedIn skills: add "S-1 primary-source analysis", "cache-aware agent design", "cost-per-task dashboards", "Claude Skills", "RIME-style memory", "fleet-management (Dots + subagents + cost caps)" | Today 5 min | [2026-09-30/05 §4](./2026-09-30/05-career-and-startup.md#4-this-week) |
+| ⚪ | Set alert on **CourtListener 5:26-cv-07078** for tomorrow's Judge Davila ruling (9 AM PT Ctrm 4, San Jose) | Today | [2026-09-30/01 §2](./2026-09-30/01-big-lab-moves.md#2-apple-openai) |
+| ⚪ | Skim the three arXiv abstracts (RIME 2609.34438, Memory Control Signals 2609.27286, AgentWorld) — pick which to deep-read this weekend | Tonight 20 min | [2026-09-30/04](./2026-09-30/04-research-progress.md) |
+| ⚪ | **Trial OpenAI Pro 500 + Dots for your own job-hunt workflow** (personal Dot for daily research + application tracking) — screenshot into a public gist | This week | [2026-09-30/01 §1](./2026-09-30/01-big-lab-moves.md#1-devday-recap) |
+
+### Thu Oct 1 — Apple v OpenAI motion-to-dismiss hearing (9 AM PT)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Watch [CourtListener docket 5:26-cv-07078](https://www.courtlistener.com/docket/73602437/apple-inc-v-liu/) for Judge Davila's order | Thu ~12 PM PT | [2026-09-30/01 §2](./2026-09-30/01-big-lab-moves.md#2-apple-openai) |
+| ⚪ | 1-paragraph follow-up LinkedIn post citing specific ruling language (grant / deny / narrowed) | Thu evening | [2026-09-30/01 §2](./2026-09-30/01-big-lab-moves.md#2-apple-openai) |
+
+### Sat–Sun Oct 3–4 — Sonnet 5.5 diff + arXiv writeup + Claude Code weekend rewrite
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Rerun one Sonnet-5 project on Sonnet 5.5** — capture (tokens/task, steps/task, cost/task, wall-clock, success rate). Publish delta table as diff. Zero code change other than model swap. | Sat 90 min | [2026-09-30/03 §1](./2026-09-30/03-practical-skills-and-tools.md#1-sonnet-55-economics) |
+| ⚪ | **Claude Code four-primitive rewrite** — extract prompt rules → Hooks; procedures → `.claude/skills/<name>/SKILL.md`; shorten CLAUDE.md < 60 lines; add 1 MCP server. Public repo. | Sat 3 h | [2026-09-30/03 §2](./2026-09-30/03-practical-skills-and-tools.md#2-primitive-map) |
+| ⚪ | Read 3 arXiv papers (RIME, Memory Control Signals, AgentWorld). Write 400-word blog post *"Three papers from last week that changed how I'd design a persistent-memory agent."* Publish. | Sun 2 h | [2026-09-30/04 §4](./2026-09-30/04-research-progress.md#4-weekend-reading) |
+| ⚪ | Publish 20-question S-1 procurement Q&A template as a public gist; link from Wed's post | Sun | [2026-09-30/03 §3](./2026-09-30/03-practical-skills-and-tools.md#3-s1-post) |
+| ⚪ | Update the model-router artifact with Opus 5.5 / GPT-6 Sol / GPT-6 Luna / Sonnet 5.5 / DeepSeek V4.1-Flash cost rows (or extend existing router-diff repo from 09-25) | Sat–Sun | [2026-09-10/03 §3 (router base)](./2026-09-10/03-practical-skills-and-tools.md#3-router-artifact) |
 
 ---
 

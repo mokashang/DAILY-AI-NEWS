@@ -4,7 +4,23 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-09-28**
+Last updated: **2026-09-30**
+
+---
+
+## New threads (2026-09-30)
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **OpenAI DevDay 2026 shipping wave (Dots + Pro 500 + Ultrafast + Plugin Extensions + ChatGPT Space + Private Intelligence + Agents API computer-use)** | 🟢 NEW | **2026-09-29 Fort Mason SF:** 20+ product launches; **Dots** = always-on AI agents inside ChatGPT (Pro / Business Premium first); **Pro 500** tier; **Ultrafast** speed tier (up to 8× faster in Codex, up to 6× in API); **Plugin Extensions** = full apps native to ChatGPT/Codex; **ChatGPT Space** shared workspace; **Private Intelligence** preview; **Agents API + computer-use**; Codex adds cloud environments + voice + code review | Dots roll-out cadence to non-Pro tiers; Plugin Extensions marketplace metrics (first plugin to $100K MRR); enterprise adoption of ChatGPT Space; Anthropic/Google responses to Ultrafast pricing axis |
+| **Apple v OpenAI: Oct 1 motion-to-dismiss hearing (Judge Davila, 9 AM PT, San Jose Ctrm 4)** | 🟡 NEW | **Docketed Apple Inc. v. Liu, 5:26-cv-07078, N.D. Cal.**; evidence-destruction allegation on file (late Aug); hearing tomorrow on OpenAI's motion to dismiss | Grant / deny / narrowed ruling and downstream discovery-scope; hardware-timeline impact on OpenAI + io Products; whether the evidence-destruction claim advances into sanctions territory |
+| **Sonnet 5.5 behavior-price cut (48h read)** | 🟢 | **Sept 28 launch → Sept 30 report:** hands-on reports confirm 20–30% step-count drops on standard agent loops with no code change other than the model swap; Copilot GA holding across Pro/Pro+/Max/Business/Enterprise | OpenAI matching on effective-price (harder) vs list-price cut (easier + margin-erosive); Sonnet-tier vs Opus-tier task-migration patterns |
+| **DeepSeek V4.1-Flash $0.003/M cache-hit floor** | 🟢 | **Sept 10** release: cache-hit $0.003/M off-peak (–~87% vs V4-Pro $0.022/M); KV-cache 1/4 the memory of V4-Flash; time-of-day peak/off-peak pricing debuts; $0.15/$0.60 miss peak, $1.20/M output peak; 50-page tech report on Hugging Face; **90% cache hit → 63% fixed-invoice cut** | Whether Anthropic responds on cache-read (Fable 5.1 $0.25/M vs DeepSeek $0.003/M is ~83× gap); whether time-of-day pricing spreads; agent-workload category expansion (always-on personal analysts) |
+| **Ema $77M Series B (agentic-workforce)** | 🟢 | **Sept 23:** Creaegis lead; Accel/Section 32/Prosus follow-on; total funding $140M; ~4× valuation step-up from 2024; ~100 pre-configured corporate agent roles (HR/IT/finance); TechCrunch frame: "AI eating enterprise software and services" | Adjacent mid-market vertical rounds inside 60 days; agent-audit / evidence-integrity funded as its own category |
+| **arXiv Sept 25–28 memory cluster (RIME + Memory Control Signals + AgentWorld)** | 🟡 NEW | **Sept 28:** RIME (2609.34438) — retrieval-induced memory evolution; **Sept 25:** AgentWorld (COLM 2026) + ClawsBench + ComplexMCP + ClawMark; Sept: Memory Control Signals (2609.27286) — pre-action activations | Which of RIME/AgentWorld becomes the community-blessed default; hosted memory-as-a-service adoption (Mem0/EverMemOS/Zep retrofits); pre-action observability tooling for closed models |
+| **Anthropic S-1 24-hour retrospective (frame that stuck: ~80/261 catastrophic-risk pages)** | 🟡 UPDATE | 24 hours after the Sept 28 leak: existential-risk framing dominant across Reuters/Fortune/CNBC/TechCrunch; first F500 GC procurement Qs referencing S-1 language visible in LinkedIn AI-Ops groups; the compute-buildout comparable ($518B, ~80% non-cancelable) hardened as the reference | Public S-1 filing date; whether OpenAI's Q4 S-1 mirrors safety-disclosure format; first vendor-assessment SaaS to raise seed on the "SOC-2 for AI safety" thesis |
+| **Layoff spike Sept +199% MoM but 77% from one Major Internet co** | 🟡 NEW | Sept: layoffs up 199% MoM but a single major internet company drove 77% (~4,400 workers); OpenAI plans 4,500 → 8,000 by EOY (KORE1); Glassdoor US shows 14,245 open AI Engineer roles | Which Major Internet co is the outlier; underlying (ex-outlier) MoM trend; Q4 hiring plans at Anthropic + OpenAI post-IPO windows |
+| **Wedge C — S-1-aware enterprise procurement primitives** | ⚪ NEW | Founder wedge opened by the Sept 28 S-1 leak — vendor-assessment SaaS keyed to lab risk disclosures; Anthropic's S-1 is the seed document | First "SOC-2 for AI safety" style product to raise seed; F500 GC procurement checklists that cite S-1 language verbatim |
 
 ---
 

@@ -4,7 +4,47 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-09-30**
+Last updated: **2026-10-02**
+
+---
+
+## Fri Oct 2 — Argon landed · OpenAI DevDay recap · Anthropic IPO repushed (added today)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship Router v2** to GitHub (add **Gemini 4 Argon** + **GPT-6.1 Sol** to the routing table, re-run 5-case eval, scoreboard + per-model $ per correct answer) | Tonight (90 min) | [2026-10-02/03 §1](./2026-10-02/03-practical-skills-and-tools.md#1-router-v2) |
+| ⚪ | Tweet / LinkedIn-post Router v2 PR with scoreboard screenshot | Tonight after push | [2026-10-02/03 §1](./2026-10-02/03-practical-skills-and-tools.md#1-router-v2) |
+| ⚪ | Replace "Experienced with LLM APIs" / specific model-version lines on resume with router artifact link | Tonight | [2026-10-02/05 §1](./2026-10-02/05-career-and-startup.md#1-salary-map) |
+
+### Sat Oct 3 — memory lane + Claude Code migration
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Add MEM-1 case** (DolphinBench-inspired 10-session user, interdependent recall: name + allergy + cat-named novel protagonist) to router eval | Sat | [2026-10-02/03 §3](./2026-10-02/03-practical-skills-and-tools.md#3-memory-lane) |
+| ⚪ | Run MEM-1 against **Dots, Claude memory tool, Argon system-prompt-stuffed, raw Fable 5.1 baseline** — publish results | Sat | [2026-10-02/03 §3](./2026-10-02/03-practical-skills-and-tools.md#3-memory-lane) |
+| ⚪ | **Migrate Claude Code** to deferred tool loading; audit `.mcp.json` for 5+ tool servers; enable **streamable HTTP + OAuth 2.1 w/ PKCE** on any self-hosted MCP server | Sat (90 min) | [2026-10-02/03 §2](./2026-10-02/03-practical-skills-and-tools.md#2-claude-code-mcp-mature) |
+| ⚪ | Install the Anthropic skill shortlist: **skill-creator, frontend-design, webapp-testing, mcp-builder, Superpowers, gstack** | Sat | [2026-10-02/03 §2](./2026-10-02/03-practical-skills-and-tools.md#2-claude-code-mcp-mature) |
+| ⚪ | Walk CLAUDE.md + Skills + Hooks + Subagents against the 4-primitive table; delete anything duplicated across primitives | Sat | [2026-10-02/03 §2](./2026-10-02/03-practical-skills-and-tools.md#2-claude-code-mcp-mature) |
+| ⚪ | Pin every MCP server by npm version + container digest (security hygiene) | Sat | [2026-10-02/03 §2](./2026-10-02/03-practical-skills-and-tools.md#2-claude-code-mcp-mature) |
+| ⚪ | **Read DolphinBench abstract + methodology** (25 min); skim HaluMem + DreamBench-SWE | Sat | [2026-10-02/04 §1](./2026-10-02/04-research-progress.md#1-memory-wave) |
+
+### Sun Oct 4 — persistent-agent post + 2 apps + Anthropic pre-stage + monthly spend audit
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Draft 500-word post**: Dots vs Managed Agents vs Antigravity Managed Agents (persistent-agent primitive comparison) | Sun | [2026-10-02/02 §3](./2026-10-02/02-new-emerging.md#3-dots-primitive) |
+| ⚪ | **Apply to 2 FDE / AI Engineer roles**: 1 at Anthropic (pre-IPO queue), 1 at 8090 Solutions **or** OpenAI Dot-infrastructure or Google Vertex/Argon team | Sun | [2026-10-02/05 §1](./2026-10-02/05-career-and-startup.md#1-salary-map) |
+| ⚪ | **Pre-stage Anthropic application for Oct 20** (before mid-November IPO roadshow queue surge) — artifacts + referral path lined up | Sun | [2026-10-02/01 §2](./2026-10-02/01-big-lab-moves.md#2-ipo-split) |
+| ⚪ | **Monthly AI-spend audit** (personal rule — 4th of month = Mon Oct 5; prep today) | Sun | [ME.md](./ME.md#personal-rules) |
+
+### This week (ongoing)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **DM 3 current Anthropic engineers** — join the first-wave alumni-founder network before the IPO lands (half-life ~6 months once liquidity hits) | This week | [2026-10-02/01 §2](./2026-10-02/01-big-lab-moves.md#2-ipo-split) |
+| ⚪ | Add **"persistent-agent architecture"** to LinkedIn headline / skills — 0 competitors in search results in Q4 2026 | This week | [2026-10-02/05 §2](./2026-10-02/05-career-and-startup.md#2-reprice) |
+| ⚪ | Add to apply list: **OpenAI Dot Infrastructure Engineer, Google Vertex/Antigravity (Argon-adjacent), Sail Research (long-horizon inference infra), Anthropic AI Safety Fellowship** (reopened by pacing truce) | This week | [2026-10-02/05 §1](./2026-10-02/05-career-and-startup.md#1-salary-map) |
+| ⚪ | Delete model-version-specific lines from resume (Opus 5.5, Sonnet 5.5, Fable 5.1, etc.) — multi-vendor + routing framing instead | This week | [2026-10-02/05 §2](./2026-10-02/05-career-and-startup.md#2-reprice) |
 
 ---
 

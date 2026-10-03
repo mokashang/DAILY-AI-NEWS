@@ -4,7 +4,28 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-10-03**
+
+---
+
+## 2026-10-03 Deltas (new threads / state changes)
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Anthropic S-1 (leaked Sept 29)** | 🟢 LEAKED | $4.59B 2025 rev · Q2 2026 ~$11.5B · $8.06B op loss · $42B GAAP net loss (mostly $34B non-cash convertibles) · $518B compute obligations · $20.28B cash · two customers = ~24% rev · dual-class 7-cofounder control · Nov listing eyed · up to ~$2T val | Official SEC filing · roadshow dates · first-day pop · the Claude-Code revenue line item in the real filing |
+| **OpenAI Dots (persistent cloud-PC agents)** | 🟢 LAUNCHED Sept 29 | DevDay 2026 launch; Slack/Teams integration; enabled by workspace admin; Edu + Healthcare included | Anthropic + Google parity SKUs (expected 60d); first viral Dots use case; first security incident |
+| **OpenAI GPT-6.1 Sol (⅕ price of Astra)** | 🟢 LAUNCHED Sept 29 | Approaches Astra perf at ⅕ input/output price | Claude + Gemini matching price cuts; whether Astra gets a corresponding "pro" tier reprice |
+| **OpenAI Ultrafast (8× faster Codex)** | 🟢 LAUNCHED Sept 29 | 300 tok/s Codex, 6× faster API; premium tier | Developer adoption; whether anyone ships a real-time-coding product on top |
+| **OpenAI ChatGPT Space + $500/mo Pro** | 🟢 LAUNCHED Sept 29 | Shared human+agent workspace; Living Pages; collaborative slides | Enterprise adoption; whether Pro tier upsells materialize |
+| **Claude Code mods (TypeScript hooks, NOT sandboxed)** | 🟢 LAUNCHED Oct 1 | v2.1.287+; `/plugin` install; examples Token Weather / Blast Radius / Replay Theater; can read API key | First 10 breakout mods on the directory; first security incident; whether Anthropic ships a sandboxed-mode option |
+| **Claude for Government (FedRAMP High GA)** | 🟢 LAUNCHED | Federal + state agencies; Claude Code CLI + Claude for M365 in early access | First named federal/state customer in a case study; Pentagon re-engagement signals |
+| **Microsoft Autopilot + Copilot Code** | 🟢 LAUNCHED | Scout upgraded to "digital coworker with configurable permissions"; Copilot Code = NL apps + dashboards | First-month seat adoption; whether permissions model becomes cross-vendor primitive |
+| **Amazon Ads Agent (agentic commerce at platform scale)** | 🟢 LAUNCHED | Ads console + DVA unified; AI campaign setup now default | First-quarter advertiser retention delta; whether Google / Meta ship ads-agent parity in Q4 |
+| **MCP harness category (Earendil Pi 1.0, Yedric, aweb)** | 🟡 CONSOLIDATING | Pi 1.0 shipped MIT w/ Codemode + native MCP + non-LLM backends; Yedric adds 1-script-tag agents; aweb = open comms + stable identities | Install counts; first enterprise reference customers; AGNTCon + MCPCon (Oct 22-23) announcements |
+| **arXiv agent-safety trio: PACE / TRACE / DeFA + "Verify Claims Not Scores"** | 🟢 PUBLISHED | Provenance / multi-turn attribution / dependency-graph attribution / component-level verification | Follow-up papers Q4; whether Agent SDK + MCP add provenance tags in a spec revision |
+| **AI/ML labor split: 500K+ open AI/ML roles, 63% shortage; entry-level SWE down 25% YoY** | 🟡 OPERATIONAL | ATS systems routing by title keyword; portfolio-and-practical replacing PhD-required | Whether Big Tech restores new-grad SWE hiring; whether AI/ML new-grad band pushes above $150K base |
+| **Agent conference wave (AGNTCon + MCPCon Oct 22–23 San Jose)** | 🟡 UPCOMING | Linux Foundation / Agentic AI Foundation hosted; first year with enterprise sponsorship | Attendee list; first serious infrastructure vendor sponsorships; announcements timed to coincide |
+| **"Mod directory for your stack" startup wedge** | ⚪ NEW IDEA | See [2026-10-03/05 §5](./2026-10-03/05-career-and-startup.md#5-wedge) — multi-vendor extension directory with security-audit layer | Whether Anthropic ships an official audit layer first; mod ecosystem growth over 60d |
 
 ---
 

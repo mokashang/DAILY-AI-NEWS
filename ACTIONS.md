@@ -4,11 +4,101 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-10-03**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (Oct 3 – Oct 9) — the Anthropic-S-1-window + DevDay-backfill sprint
+
+### Saturday Oct 3 (today)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Fork `claude-code/mods-examples`, write ONE mod** (cost-router / secrets-redaction / weekly-spend) and publish as a plugin — record 60-sec gif | Today | [2026-10-03/03 §1](./2026-10-03/03-practical-skills-and-tools.md#1-claude-code-mods) |
+| ⚪ | **Add GPT-6.1 Sol row to router repo** + rerun 5-case eval suite + update leaderboard README + push | Today | [2026-10-03/03 §2](./2026-10-03/03-practical-skills-and-tools.md#2-gpt61-sol-routing) |
+| ⚪ | Confirm `claude code --version` ≥ 2.1.287 on every active project (silent-fail prevention) | Today | [2026-10-03/03 §4](./2026-10-03/03-practical-skills-and-tools.md#4-habits) |
+
+### Sunday Oct 4
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **1-page persistent-agent design memo** using the 5-question template (state/cost/HITL/observability/failure) | Sun | [2026-10-03/03 §3](./2026-10-03/03-practical-skills-and-tools.md#3-persistent-agents) |
+| ⚪ | **Rewrite resume headline** to "AI Engineer / Integration Engineer — Claude Code mods, cost-aware routing, persistent-agent design" | Sun | [2026-10-03/05 §1](./2026-10-03/05-career-and-startup.md#1-labor-split) |
+| ⚪ | Write WEEK-2026-09-28.md rollup (restart the weekly rollup convention) | Sun | [2026-10-03/05 §4](./2026-10-03/05-career-and-startup.md#4-weekend-plan) |
+| ⚪ | Memorize S-1 numbers: $4.59B 2025 · $11.5B Q2 2026 · $8B op loss · $518B compute · $20.28B cash | Sun | [2026-10-03/01 §1](./2026-10-03/01-big-lab-moves.md#1-anthropic-s1) |
+
+### Monday Oct 5
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **LinkedIn post** with mod gif + 3-sentence writeup | Mon AM | [2026-10-03/05 §4](./2026-10-03/05-career-and-startup.md#4-weekend-plan) |
+| ⚪ | **Send 1 Anthropic Solutions/FDE/Integration application** — reference Code w/ Claude London keynote decision (Ami Vora / Boris Cherny / Angela Jiang) | Mon | [2026-10-03/05 §3](./2026-10-03/05-career-and-startup.md#3-apply-list) |
+| ⚪ | Add **Anthropic Public Sector / Federal** roles to apply queue (thin applicant pool) | Mon | [2026-10-03/01 §3](./2026-10-03/01-big-lab-moves.md#3-claude-government) |
+
+### Tuesday Oct 6
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | 1 application — OpenAI (Dots team / Agents API / Codex Cloud) | Tue | [2026-10-03/05 §3](./2026-10-03/05-career-and-startup.md#3-apply-list) |
+| ⚪ | Read **PACE** paper end-to-end + 1-paragraph LinkedIn post | Tue | [2026-10-03/04 §1](./2026-10-03/04-research-progress.md#1-agent-safety-trio) |
+
+### Wednesday Oct 7
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | 1 application — Anthropic (second role of the week — Finance or Healthcare vertical) | Wed | [2026-10-03/05 §3](./2026-10-03/05-career-and-startup.md#3-apply-list) |
+| ⚪ | Read **DeFA** paper + add component-attribution to persistent-agent memo | Wed | [2026-10-03/04 §1](./2026-10-03/04-research-progress.md#1-agent-safety-trio) |
+
+### Thursday Oct 8
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | 1 application — Shield AI / Peregrine / Mercor / Nscale (tertiary tier) | Thu | [2026-10-03/05 §3](./2026-10-03/05-career-and-startup.md#3-apply-list) |
+| ⚪ | 3 cold emails to Claude Code mod authors — "what would you want from a directory?" (startup wedge discovery) | Thu | [2026-10-03/05 §5](./2026-10-03/05-career-and-startup.md#5-wedge) |
+
+### Friday Oct 9
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | 1 application — PwC / Deloitte / Accenture / EY (AI Engineer, Client Delivery) as safety net | Fri | [2026-10-03/05 §3](./2026-10-03/05-career-and-startup.md#3-apply-list) |
+| ⚪ | **1-page startup wedge memo**: "Mod directory for your stack" — multi-vendor, security-audit layer | Fri night | [2026-10-03/05 §5](./2026-10-03/05-career-and-startup.md#5-wedge) |
+| ⚪ | Weekly router re-run cadence — set a Saturday-noon cron | Fri | [2026-10-03/03 §4](./2026-10-03/03-practical-skills-and-tools.md#4-habits) |
+
+### Pre-Oct 24 (hard deadline — Anthropic S-1 flood window closes)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **5 Anthropic applications** across Solutions / FDE / Integration / Public Sector / vertical teams | Oct 24 | [2026-10-03/05 §3](./2026-10-03/05-career-and-startup.md#3-apply-list) |
+| ⚪ | **4 shipped mods** (one per week through Oct) — ride the empty-directory window | Oct 24 | [2026-10-03/03 §1](./2026-10-03/03-practical-skills-and-tools.md#1-claude-code-mods) |
+| ⚪ | Register for **AGNTCon + MCPCon** (Oct 22–23, San Jose) if attending; otherwise follow livestream + post takeaways | Oct 22 | [2026-10-03/02 §2](./2026-10-03/02-new-emerging.md#2-mcp-harness-wave) |
+
+---
+
+## Active multi-week threads (no fixed due date)
+
+| Status | Action | Carried from | Notes |
+|---|---|---|---|
+| ⚪ | Ship public MCP server (3 tools, 5-case eval, README, demo gif) | [ME.md](./ME.md) | Pin above resume projects |
+| ⚪ | Personal Claude billing audit + writeup | [ME.md](./ME.md) | Can double as the weekly-spend MOD — kill two birds |
+| ⚪ | One vertical-Claude-for-X workflow library | [ME.md](./ME.md) | Doubles as Solopreneurship Accelerator application asset |
+| ⚪ | Apply to OpenAI Residency 2026 | [ME.md](./ME.md) | Submit this month |
+| ⚪ | Apply to Anthropic AI Safety Fellowship | [ME.md](./ME.md) | Submit this month |
+| ⚪ | Apply to Google DeepMind Early Career | [ME.md](./ME.md) | Submit this month |
+| ⚪ | Audit own model/token spend for 2 weeks | [2026-05-10](./2026-05-10/) | The weekly-spend mod makes this trivial |
+| ⚪ | Pick ONE of 5 AI sub-roles | [2026-05-16/05](./2026-05-16/05-career-and-startup.md) | Current lead: AI Integration Engineer |
+| ⚪ | WeekN rollup convention — restart this week | [2026-05-19](./2026-05-19/) | 15-min Sunday discipline |
+
+---
+
+## Archive (pre-2026-10-03 — see git history for May 2026 action resolutions)
+
+Older actions moved out of this file at 2026-10-03 refresh. Reconstructable from the archive via `git log ACTIONS.md`.
+
+---
+
+## Legacy block (pre-2026-10-03, kept for traceability — DO NOT act on)
+
+### Prior week (May 19 – May 25)
 
 ### Tuesday May 19 — I/O DAY (done)
 

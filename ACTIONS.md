@@ -55,6 +55,14 @@ Last updated: **2026-10-04**
 | ⚪ | **Compare the week's shipped artifacts to Monday's follow-ups** — which signals got replies? | Fri | — |
 | ⚪ | Write WEEK-2026-10-04.md rollup | Fri/Sat | (weekly convention) |
 
+### Pre-Oct 24 (hard deadline — Anthropic S-1 flood window closes)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **5 Anthropic applications** across Solutions / FDE / Integration / Public Sector / vertical teams | Oct 24 | [2026-10-03/05](./2026-10-03/05-career-and-startup.md) |
+| ⚪ | **4 shipped Claude Code mods** (one per weekend through Oct) — ride the empty-directory window | Oct 24 | [2026-10-04/03 §1](./2026-10-04/03-practical-skills-and-tools.md#1-mods) |
+| ⚪ | Register for **AGNTCon + MCPCon** (Oct 22–23, San Jose) if attending; otherwise follow livestream + post takeaways | Oct 22 | [2026-10-03/02](./2026-10-03/02-new-emerging.md) |
+
 ---
 
 ## Open founder-mode brainstorm (if I pivot this weekend)

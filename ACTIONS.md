@@ -4,174 +4,76 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-10-03**
+Last updated: **2026-10-04**
 
 ---
 
-## This week (Oct 3 – Oct 9) — the Anthropic-S-1-window + DevDay-backfill sprint
+## This week (Oct 4 – Oct 10) — "the mod + Frontier Academy weekend"
 
-### Saturday Oct 3 (today)
-
-| Status | Action | Due | Source |
-|---|---|---|---|
-| ⚪ | **Fork `claude-code/mods-examples`, write ONE mod** (cost-router / secrets-redaction / weekly-spend) and publish as a plugin — record 60-sec gif | Today | [2026-10-03/03 §1](./2026-10-03/03-practical-skills-and-tools.md#1-claude-code-mods) |
-| ⚪ | **Add GPT-6.1 Sol row to router repo** + rerun 5-case eval suite + update leaderboard README + push | Today | [2026-10-03/03 §2](./2026-10-03/03-practical-skills-and-tools.md#2-gpt61-sol-routing) |
-| ⚪ | Confirm `claude code --version` ≥ 2.1.287 on every active project (silent-fail prevention) | Today | [2026-10-03/03 §4](./2026-10-03/03-practical-skills-and-tools.md#4-habits) |
-
-### Sunday Oct 4
+### Saturday Oct 4 — ship
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | **1-page persistent-agent design memo** using the 5-question template (state/cost/HITL/observability/failure) | Sun | [2026-10-03/03 §3](./2026-10-03/03-practical-skills-and-tools.md#3-persistent-agents) |
-| ⚪ | **Rewrite resume headline** to "AI Engineer / Integration Engineer — Claude Code mods, cost-aware routing, persistent-agent design" | Sun | [2026-10-03/05 §1](./2026-10-03/05-career-and-startup.md#1-labor-split) |
-| ⚪ | Write WEEK-2026-09-28.md rollup (restart the weekly rollup convention) | Sun | [2026-10-03/05 §4](./2026-10-03/05-career-and-startup.md#4-weekend-plan) |
-| ⚪ | Memorize S-1 numbers: $4.59B 2025 · $11.5B Q2 2026 · $8B op loss · $518B compute · $20.28B cash | Sun | [2026-10-03/01 §1](./2026-10-03/01-big-lab-moves.md#1-anthropic-s1) |
+| ⚪ | **Build + push secrets-redaction Claude Code mod to GitHub** (MIT, README, 3 test cases, asciinema→gif) | Sat | [2026-10-04/03 §1](./2026-10-04/03-practical-skills-and-tools.md#1-mods) |
+| ⚪ | **Submit the mod to the Claude directory** | Sat | [2026-10-04/03 §1](./2026-10-04/03-practical-skills-and-tools.md#1-mods) |
+| ⚪ | **Apply to ONE Partner Network firm AI Engineer role** (Accenture / Deloitte / McKinsey / Morgan Stanley — pick one, concentrate) — cite Frontier Academy by name in cover letter | Sat | [2026-10-04/05 §2](./2026-10-04/05-career-and-startup.md#2-frontier-academy-wedge) |
+| ⚪ | **Draft 400-word blog post:** *"Why I shipped a Claude Code mod this weekend"* | Sat | [2026-10-04/05 §5](./2026-10-04/05-career-and-startup.md#5-weekend-action) |
+| ⚪ | Add Baselayer / Temporal / Supabase / Armadin to STARTUPS.md watchlist | Sat | [STARTUPS.md](./STARTUPS.md) |
 
-### Monday Oct 5
-
-| Status | Action | Due | Source |
-|---|---|---|---|
-| ⚪ | **LinkedIn post** with mod gif + 3-sentence writeup | Mon AM | [2026-10-03/05 §4](./2026-10-03/05-career-and-startup.md#4-weekend-plan) |
-| ⚪ | **Send 1 Anthropic Solutions/FDE/Integration application** — reference Code w/ Claude London keynote decision (Ami Vora / Boris Cherny / Angela Jiang) | Mon | [2026-10-03/05 §3](./2026-10-03/05-career-and-startup.md#3-apply-list) |
-| ⚪ | Add **Anthropic Public Sector / Federal** roles to apply queue (thin applicant pool) | Mon | [2026-10-03/01 §3](./2026-10-03/01-big-lab-moves.md#3-claude-government) |
-
-### Tuesday Oct 6
+### Sunday Oct 5 — distribute + read
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | 1 application — OpenAI (Dots team / Agents API / Codex Cloud) | Tue | [2026-10-03/05 §3](./2026-10-03/05-career-and-startup.md#3-apply-list) |
-| ⚪ | Read **PACE** paper end-to-end + 1-paragraph LinkedIn post | Tue | [2026-10-03/04 §1](./2026-10-03/04-research-progress.md#1-agent-safety-trio) |
+| ⚪ | **Post mod + blog on LinkedIn + X + Hacker News** (Show HN works for a mod repo) | Sun | [2026-10-04/05 §5](./2026-10-04/05-career-and-startup.md#5-weekend-action) |
+| ⚪ | **Draw the 5-primitive Claude Code decision tree** (Hooks · Skills · Subagents · CLAUDE.md · Mods); publish as a 1-pager | Sun | [2026-10-04/03 §2](./2026-10-04/03-practical-skills-and-tools.md#2-decision-tree-updated) |
+| ⚪ | **Read Heavy-Tailed Memory Traces (arXiv 2610.00010)**; write 400-word summary connecting CTWM to practical prompt-budget design | Sun | [2026-10-04/04 §1](./2026-10-04/04-research-progress.md#1-heavy-tailed-memory) |
+| ⚪ | Add **CTWM + 5-primitive decision tree + Claude Code mod** to resume artifacts list | Sun | [ME.md](./ME.md) |
 
-### Wednesday Oct 7
-
-| Status | Action | Due | Source |
-|---|---|---|---|
-| ⚪ | 1 application — Anthropic (second role of the week — Finance or Healthcare vertical) | Wed | [2026-10-03/05 §3](./2026-10-03/05-career-and-startup.md#3-apply-list) |
-| ⚪ | Read **DeFA** paper + add component-attribution to persistent-agent memo | Wed | [2026-10-03/04 §1](./2026-10-03/04-research-progress.md#1-agent-safety-trio) |
-
-### Thursday Oct 8
+### Monday–Tuesday Oct 6–7 — network + follow-up
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | 1 application — Shield AI / Peregrine / Mercor / Nscale (tertiary tier) | Thu | [2026-10-03/05 §3](./2026-10-03/05-career-and-startup.md#3-apply-list) |
-| ⚪ | 3 cold emails to Claude Code mod authors — "what would you want from a directory?" (startup wedge discovery) | Thu | [2026-10-03/05 §5](./2026-10-03/05-career-and-startup.md#5-wedge) |
+| ⚪ | **Find 10 current employees** of the Partner Network firm I targeted Saturday who've worked on Anthropic deployments | Mon | [2026-10-04/05 §2](./2026-10-04/05-career-and-startup.md#2-frontier-academy-wedge) |
+| ⚪ | **Send 3 personalized LinkedIn messages** ("saw your post on X, I built Y mod, how is your firm tracking Frontier Academy?") | Mon/Tue | [2026-10-04/05 §2](./2026-10-04/05-career-and-startup.md#2-frontier-academy-wedge) |
+| ⚪ | **Follow up on Saturday's application** — reference the LinkedIn post + mod | Tue | [2026-10-04/05 §2](./2026-10-04/05-career-and-startup.md#2-frontier-academy-wedge) |
+| ⚪ | **Add OpenAI Astra cancellation → eval lane** to resume keywords ("pre-deployment evaluation", "red teaming", "eval harness authoring") | Mon | [2026-10-04/05 §3](./2026-10-04/05-career-and-startup.md#3-eval-lane) |
 
-### Friday Oct 9
+### Wednesday–Thursday Oct 8–9 — migrate + eval
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | 1 application — PwC / Deloitte / Accenture / EY (AI Engineer, Client Delivery) as safety net | Fri | [2026-10-03/05 §3](./2026-10-03/05-career-and-startup.md#3-apply-list) |
-| ⚪ | **1-page startup wedge memo**: "Mod directory for your stack" — multi-vendor, security-audit layer | Fri night | [2026-10-03/05 §5](./2026-10-03/05-career-and-startup.md#5-wedge) |
-| ⚪ | Weekly router re-run cadence — set a Saturday-noon cron | Fri | [2026-10-03/03 §4](./2026-10-03/03-practical-skills-and-tools.md#4-habits) |
+| ⚪ | **Ship the GPT-6.1 Sol migration shim + 5-case regression eval** (publish to GitHub + google sheet with per-case cost / latency / quality) | Wed/Thu | [2026-10-04/03 §3](./2026-10-04/03-practical-skills-and-tools.md#3-sol-migration) |
+| ⚪ | **Wrap one agent step in a Temporal workflow with explicit retry policy** — add to the router repo | Wed | [2026-10-04/02 §1](./2026-10-04/02-new-emerging.md#1-temporal) |
+| ⚪ | **Apply to Temporal Solutions Engineering** (or any Temporal AI-adjacent role) — attach the Sol+Temporal demo | Thu | [2026-10-04/05 §1](./2026-10-04/05-career-and-startup.md#1-hiring-map) |
+| ⚪ | **Apply to one eval-lane role** — Anthropic Alignment / OpenAI Safety Systems / METR / Apollo / US CAISI / UK AISI | Thu | [2026-10-04/05 §3](./2026-10-04/05-career-and-startup.md#3-eval-lane) |
+
+### Friday Oct 10 — weekly review
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Audit own AI spend** (monthly rule — 4th of each month, slipped to this Friday for sanity) | Fri | [ME.md](./ME.md) |
+| ⚪ | **Compare the week's shipped artifacts to Monday's follow-ups** — which signals got replies? | Fri | — |
+| ⚪ | Write WEEK-2026-10-04.md rollup | Fri/Sat | (weekly convention) |
 
 ### Pre-Oct 24 (hard deadline — Anthropic S-1 flood window closes)
 
 | Status | Action | Due | Source |
 |---|---|---|---|
-| ⚪ | **5 Anthropic applications** across Solutions / FDE / Integration / Public Sector / vertical teams | Oct 24 | [2026-10-03/05 §3](./2026-10-03/05-career-and-startup.md#3-apply-list) |
-| ⚪ | **4 shipped mods** (one per week through Oct) — ride the empty-directory window | Oct 24 | [2026-10-03/03 §1](./2026-10-03/03-practical-skills-and-tools.md#1-claude-code-mods) |
-| ⚪ | Register for **AGNTCon + MCPCon** (Oct 22–23, San Jose) if attending; otherwise follow livestream + post takeaways | Oct 22 | [2026-10-03/02 §2](./2026-10-03/02-new-emerging.md#2-mcp-harness-wave) |
+| ⚪ | **5 Anthropic applications** across Solutions / FDE / Integration / Public Sector / vertical teams | Oct 24 | [2026-10-03/05](./2026-10-03/05-career-and-startup.md) |
+| ⚪ | **4 shipped Claude Code mods** (one per weekend through Oct) — ride the empty-directory window | Oct 24 | [2026-10-04/03 §1](./2026-10-04/03-practical-skills-and-tools.md#1-mods) |
+| ⚪ | Register for **AGNTCon + MCPCon** (Oct 22–23, San Jose) if attending; otherwise follow livestream + post takeaways | Oct 22 | [2026-10-03/02](./2026-10-03/02-new-emerging.md) |
 
 ---
 
-## Active multi-week threads (no fixed due date)
+## Open founder-mode brainstorm (if I pivot this weekend)
 
-| Status | Action | Carried from | Notes |
-|---|---|---|---|
-| ⚪ | Ship public MCP server (3 tools, 5-case eval, README, demo gif) | [ME.md](./ME.md) | Pin above resume projects |
-| ⚪ | Personal Claude billing audit + writeup | [ME.md](./ME.md) | Can double as the weekly-spend MOD — kill two birds |
-| ⚪ | One vertical-Claude-for-X workflow library | [ME.md](./ME.md) | Doubles as Solopreneurship Accelerator application asset |
-| ⚪ | Apply to OpenAI Residency 2026 | [ME.md](./ME.md) | Submit this month |
-| ⚪ | Apply to Anthropic AI Safety Fellowship | [ME.md](./ME.md) | Submit this month |
-| ⚪ | Apply to Google DeepMind Early Career | [ME.md](./ME.md) | Submit this month |
-| ⚪ | Audit own model/token spend for 2 weeks | [2026-05-10](./2026-05-10/) | The weekly-spend mod makes this trivial |
-| ⚪ | Pick ONE of 5 AI sub-roles | [2026-05-16/05](./2026-05-16/05-career-and-startup.md) | Current lead: AI Integration Engineer |
-| ⚪ | WeekN rollup convention — restart this week | [2026-05-19](./2026-05-19/) | 15-min Sunday discipline |
+Pick ONE wedge (⚪ unfunded in [2026-10-04/05 §4](./2026-10-04/05-career-and-startup.md#4-chat-ui)):
 
----
-
-## Archive (pre-2026-10-03 — see git history for May 2026 action resolutions)
-
-Older actions moved out of this file at 2026-10-03 refresh. Reconstructable from the archive via `git log ACTIONS.md`.
-
----
-
-## Legacy block (pre-2026-10-03, kept for traceability — DO NOT act on)
-
-### Prior week (May 19 – May 25)
-### Tuesday May 19 — I/O DAY (done)
-
-| Status | Action | Due | Source |
-|---|---|---|---|
-| 🟢 | Run 15-min-block I/O live-monitoring discipline | Tue | [2026-05-19/03 §1](./2026-05-19/03-practical-skills-and-tools.md#1-io-live-discipline) |
-| 🟢 | Publish Gemini-vs-Claude-vs-GPT comparison (real numbers now in [2026-05-20/03 §1](./2026-05-20/03-practical-skills-and-tools.md#1-comparison-table)) | Tue/Wed | [2026-05-20/03 §1](./2026-05-20/03-practical-skills-and-tools.md#1-comparison-table) |
-| 🟡 | Update LinkedIn skills — **keyword corrected**: NOT "Vertex AI Agent Platform"; real terms are Antigravity 2.0 / Managed Agents (Gemini API) / WebMCP | Wed | [2026-05-20/01 §1](./2026-05-20/01-big-lab-moves.md#1-io-scorecard) |
-| 🟢 | Watch Code w/ Claude London slice | Tue | [2026-05-19/03 §2](./2026-05-19/03-practical-skills-and-tools.md#3-cwc-london-monitoring) |
-
-### Today (Wednesday May 20) — Meta cut executing
-
-| Status | Action | Due | Source |
-|---|---|---|---|
-| ⚪ | **Publish the GRADED I/O comparison table** (real Flash $1.50/1M numbers) + 1-line take | Today | [2026-05-20/03 §1](./2026-05-20/03-practical-skills-and-tools.md#1-comparison-table) |
-| ⚪ | Fix LinkedIn skills row to real on-stage terms (Antigravity / Managed Agents / WebMCP / Gemini 3.5 Flash) | Today | [2026-05-20/01 §1](./2026-05-20/01-big-lab-moves.md#1-io-scorecard) |
-| ⚪ | Apply to one OpenAI FDE role before Tomoro-integration flood | Today | [2026-05-19/05 §2](./2026-05-19/05-career-and-startup.md#2-openai-deployment-co) |
-| ⚪ | Apply to one Anthropic Solutions / Integration role | Today | [2026-05-19/05 §2](./2026-05-19/05-career-and-startup.md#2-openai-deployment-co) |
-| ⚪ | Add **Google Cloud Agent / Antigravity Solutions** roles to apply list (thin queue, just stood up) | Today | [2026-05-20/05 §4](./2026-05-20/05-career-and-startup.md#4-applications) |
-| ⚪ | LinkedIn-search 20 Tomoro FDEs + send connect requests | Wed | [2026-05-19/05 §2](./2026-05-19/05-career-and-startup.md#2-openai-deployment-co) |
-| ⚪ | Add Gemini 3.5 Flash as cheap leg in 3-provider router + log per-step cost | Wed/this week | [2026-05-20/03 §4](./2026-05-20/03-practical-skills-and-tools.md#4-cost-routing) |
-
-### Thursday May 21 (Meta-alumni outreach window)
-
-| Status | Action | Due | Source |
-|---|---|---|---|
-| ⚪ | 8 AM PT — send 10 Meta DMs; **split pools: (a) displaced = substance, (b) redirected-to-AI = congrats/no-ask, (c) spinning-out = track** | Thu 8 AM PT | [2026-05-21/05 §1](./2026-05-21/05-career-and-startup.md#1-meta-outreach) |
-| ⚪ | Add all DMs to `apps/meta-alumni-tracker.md` + APPLICATIONS.md (tag pool a/b/c, set 90-day follow-up) | Thu evening | [2026-05-21/05 §1](./2026-05-21/05-career-and-startup.md#1-meta-outreach) |
-| ⚪ | Add **pre-deployment evaluation / AI-assurance** to skills vocabulary; add **bank AI-risk teams** (JPM/GS) to apply list — new lane the AI EO just opened | This week | [2026-05-21/05 §3](./2026-05-21/05-career-and-startup.md#3-eo-lane) |
-| ⚪ | Keep the weekly **1 Anthropic Solutions/FDE/Integration** application (artifacts attached) — profitable-early + $15B/yr compute = growth-hire posture | This week | [2026-05-21/05 §4](./2026-05-21/05-career-and-startup.md#4-anthropic-hiring) |
-
-### Friday May 22
-
-| Status | Action | Due | Source |
-|---|---|---|---|
-| ⚪ | 30-min Meta-alumni reply window (log replies in `apps/meta-alumni-tracker.md`, set 90-day follow-up) | Fri | [2026-05-22/05 §3](./2026-05-22/05-career-and-startup.md#3-meta-followup) |
-| ⚪ | **Ship the dual-model sanitiser project — REFRAMED:** Opus-planner/Sonnet-worker team + verify against **one real MCP server** (cite MCP-Atlas / Toolathlon) + **per-step token-by-model cost table** → answers orchestration + real-tool-verification + cost in one artifact | Fri night | [2026-05-22/03 §2](./2026-05-22/03-practical-skills-and-tools.md#2-artifact) · [2026-05-22/04 §1](./2026-05-22/04-research-progress.md#1-real-tool-benchmarks) |
-| ⚪ | Set up the **Opus-4.7 orchestrator + Sonnet-4.6 workers** agent team (~40% cheaper) + the plan→annotate→"address all notes, don't implement yet" loop | Fri/tonight | [2026-05-22/03 §1](./2026-05-22/03-practical-skills-and-tools.md#1-agent-team-cost) |
-| ⚪ | Apply to 1 Anthropic role **referencing the Karpathy pre-training-automation direction specifically** (artifacts attached) — before the Karpathy-effect applicant wave | This week | [2026-05-22/05 §1](./2026-05-22/05-career-and-startup.md#1-karpathy-signal) |
-| ⚪ | Add **agentic-SOC / AI security operations** (Exaforce + category) to apply/watch list — thin, two-tailwind lane (VC + EO cyber half) | This week | [2026-05-22/05 §4](./2026-05-22/05-career-and-startup.md#4-soc-lane) |
-| ⚪ | Read the **"Agentic Reasoning" survey** (arXiv 2601.12538) for the 3-layer taxonomy — highest ROI-per-hour interview prep | This week | [2026-05-22/04 §2](./2026-05-22/04-research-progress.md#2-agentic-reasoning-survey) |
-| ⚪ | (optional) Ship AIRS-Bench portfolio project | Fri | [2026-05-19/05 §3](./2026-05-19/05-career-and-startup.md#3-airs-bench-project) |
-
-### Saturday May 23
-
-| Status | Action | Due | Source |
-|---|---|---|---|
-| ⚪ | **Ship the queued project *as a publishable Claude Skill*** — `SKILL.md` (trigger, not summary) + cost-logger helper script (Opus-planner/Sonnet-worker token table) + `gotchas.md` (from a *real* MCP-server run) + 5-case eval (3 tool-use + 2 injection-refusal). One Skill = orchestration + real-tool verification + cost + reusability | Sat | [2026-05-23/03 §2](./2026-05-23/03-practical-skills-and-tools.md#2-artifact) · [2026-05-23/03 §1](./2026-05-23/03-practical-skills-and-tools.md#1-claude-skills) |
-| ⚪ | **File the Workday × Anthropic Solopreneurship Accelerator application** — attach the Skill above as the asset | Sat | [2026-05-19/05 §5](./2026-05-19/05-career-and-startup.md#5-workday-solopreneur) |
-| ⚪ | **Add 5 small / AI-native companies** to the apply list (founding-eng / first-AI-hire framing) — where the openings actually are (big-tech new-grad −50%) | Sat | [2026-05-23/05 §1](./2026-05-23/05-career-and-startup.md#1-labor-as-data) |
-| ⚪ | Apply to 1 Anthropic role referencing the **Karpathy pre-training-automation** direction specifically (carry from Fri) | Sat | [2026-05-22/05 §1](./2026-05-22/05-career-and-startup.md#1-karpathy-signal) |
-| ⚪ | **STARTUPS.md re-rank** — promote *consented expert-work-capture* (Meta-backlash wedge) + *AI-research verification* (math-milestone wedge) | Sat | [2026-05-23/05 §2](./2026-05-23/05-career-and-startup.md#2-weekend-execution) · [STARTUPS.md](./STARTUPS.md) |
-| ⚪ | (carry) Ship WebMCP origin-trial demo / "what I'll build when Chrome 149 lands" post | Sat | [2026-05-20/03 §2](./2026-05-20/03-practical-skills-and-tools.md#2-webmcp-demo) |
-
-### Sunday May 24
-
-| Status | Action | Due | Source |
-|---|---|---|---|
-| ⚪ | **Write the week's 3 moves** (ship migration Skill · apply to 2 FDE roles + 1 referral · audit Claude spend before June 15), then close the laptop | Sun (15 min) | [2026-05-24/05 §1](./2026-05-24/05-career-and-startup.md#1-week-setup) |
-| ⚪ | **Re-frame the Skill artifact around the SaaSpocalypse:** *"Replace N seats of [Salesforce/ServiceNow] with one governed agent workflow"* — README opens with the per-action vs per-seat cost table | Sun/this week | [2026-05-24/03 §2](./2026-05-24/03-practical-skills-and-tools.md#2-this-week) |
-| ⚪ | Re-title LinkedIn headline to the **migration job-to-be-done** (AI Integration / FDE — migrating teams off per-seat SaaS onto governed, cost-aware agent workflows) | Sun | [2026-05-24/05 §1](./2026-05-24/05-career-and-startup.md#1-week-setup) |
-| ⚪ | Re-confirm Anthropic Solutions/FDE applications are **live** — the $900B round = hiring window | Sun | [2026-05-24/01 §1](./2026-05-24/01-big-lab-moves.md#1-anthropic-round) |
-| ⚪ | Weekly review: write WEEK-2026-05-18.md rollup | Sun | (new convention this week) |
-| ⚪ | Cleanup ACTIONS.md (move open items to next week, archive 🟢 / 🔴) | Sun | (this file) |
-
-### Next week (May 26 – June 1)
-
-| Status | Action | Due | Source |
-|---|---|---|---|
-| ⚪ | **Watch the Anthropic round *close*** (week of May 26) — log final structure + primary/secondary mix in WATCHLIST | Week of May 26 | [2026-05-24/01 §1](./2026-05-24/01-big-lab-moves.md#1-anthropic-round) |
-| ⚪ | Apply to **2 FDE/Integration roles** with the migration-Skill link + secure **≥1 referral** (referrals > cold apps); target the Anthropic window + 1 on-prem shop (post OpenAI×Dell) | This week | [2026-05-24/05 §1](./2026-05-24/05-career-and-startup.md#1-week-setup) · [2026-05-24/01 §3](./2026-05-24/01-big-lab-moves.md#3-openai-dell) |
-| ⚪ | **Audit Claude programmatic spend** (2-week trace) — also the Skill's headline cost number + June-15 mitigation | By June 15 | [2026-05-24/03 §1](./2026-05-24/03-practical-skills-and-tools.md#1-countdown) |
-| ⚪ | Read **memory-security survey** (arXiv 2604.16548) + post 1 LinkedIn takeaway tying it to the SaaSpocalypse | This week | [2026-05-24/04 §2](./2026-05-24/04-research-progress.md#2-read) |
-| ⚪ | Start an **"ex-Anthropic founders" watch list** as the round closes (network for wedge + job) | This week | [2026-05-24/05 §2](./2026-05-24/05-career-and-startup.md#2-equity) |
+| Status | Wedge | 1-week due-diligence task |
+|---|---|---|
+| ⚪ | **Reputation / Audit layer for agents** ("Experian for agents") | 10 merchant interviews — "would you trust an agent that showed its reputation score?" |
+| ⚪ | **Know Your Mod** (mod SBOM + runtime attestation + verified-publisher marketplace) | 5 enterprise-security interviews — "would you install mods if signed?" |
+| ⚪ | **Agent eval marketplace** (HuggingFace for eval suites) | Count usable eval suites on GitHub; interview 5 FDEs on willingness-to-pay |
 
 ---
 
@@ -182,31 +84,29 @@ Older actions moved out of this file at 2026-10-03 refresh. Reconstructable from
 | ⚪ | Ship public MCP server (3 tools, 5-case eval, README, demo gif) | [ME.md](./ME.md) | Pin above resume projects |
 | ⚪ | Personal Claude billing audit + writeup | [ME.md](./ME.md) | Doubles as validation for router-startup wedge |
 | ⚪ | One vertical-Claude-for-X workflow library | [ME.md](./ME.md) | Doubles as Solopreneurship Accelerator application asset |
-| ⚪ | Pre-built 10-Meta-engineer outreach short-list | [2026-05-18/05](./2026-05-18/05-career-and-startup.md) | Use Thursday May 21 |
-| ⚪ | 5 Meta sub-org DM templates | [2026-05-18/05](./2026-05-18/05-career-and-startup.md) | Use Thursday May 21 |
-| ⚪ | Read CHAL paper end-to-end + post LinkedIn paragraph | [2026-05-18/04](./2026-05-18/04-research-progress.md) | This week |
-| ⚪ | Apply to Isomorphic Labs eng role (London / Cambridge MA / Lausanne) | [2026-05-18/02](./2026-05-18/02-new-emerging.md) | Within next 30 days of Series B close |
-| ⚪ | Drop `CLAUDE.md` (Karpathy template) into every active project root | [2026-05-17/03](./2026-05-17/03-practical-skills-and-tools.md) | One-time install |
-| ⚪ | Enable prompt caching on highest-volume project | [2026-05-17/03](./2026-05-17/03-practical-skills-and-tools.md) | Confirm via cache_read_input_tokens > 0 |
-| ⚪ | Build 3-provider router (Claude + GPT + Gemini) | [2026-05-10](./2026-05-10/) | Ship to GitHub |
+| ⚪ | Build 3-provider router (Claude + GPT + Gemini) — now add GPT-6.1 Sol + Temporal wrapping | [2026-05-10](./2026-05-10/) · [2026-10-04/03](./2026-10-04/03-practical-skills-and-tools.md#3-sol-migration) | Ship to GitHub |
 | ⚪ | Apply to OpenAI Residency 2026 | [ME.md](./ME.md) | Submit this month |
 | ⚪ | Apply to Anthropic AI Safety Fellowship | [ME.md](./ME.md) | Submit this month |
 | ⚪ | Apply to Google DeepMind Early Career | [ME.md](./ME.md) | Submit this month |
-| ⚪ | Audit own model/token spend for 2 weeks | [2026-05-10](./2026-05-10/) | Doubles as validation for model-router startup |
-| ⚪ | Pitch 1 local SMB on a "vertical-Claude-for-X" workflow | [2026-05-17/05](./2026-05-17/05-career-and-startup.md) | Customer discovery for startup wedge |
+| ⚪ | **Build next 3 Claude Code mods: cost-router, deterministic-replay, red-team-fuzzer** | [2026-10-04/03 §1](./2026-10-04/03-practical-skills-and-tools.md#1-mods) | One per weekend through October |
+| ⚪ | **Build the public eval-suite portfolio artifact** (5 categories × 20 cases, documented failure-mode taxonomy) | [2026-10-04/05 §3](./2026-10-04/05-career-and-startup.md#3-eval-lane) | 3-week project; underpins eval-lane applications |
 | ⚪ | Pick ONE of 5 AI sub-roles (Applied / Platform / LLM / Product / Responsible) | [2026-05-16/05](./2026-05-16/05-career-and-startup.md) | Then rewrite resume headline to match |
-| ⚪ | Toggle Agent SDK credit setting in Claude account | [2026-05-18/03](./2026-05-18/03-practical-skills-and-tools.md) | 5-min fix, silent fail June 15 if skipped |
+| ⚪ | Enable prompt caching on highest-volume project — now with Fable 5.1 $0.25/1M cache reads | [2026-05-17/03](./2026-05-17/03-practical-skills-and-tools.md) · [2026-09-10/03](./2026-09-10/03-practical-skills-and-tools.md#1-fable-51-economics) | Confirm via cache_read_input_tokens > 0 |
+| ⚪ | Drop `CLAUDE.md` (Karpathy template) into every active project root | [2026-05-17/03](./2026-05-17/03-practical-skills-and-tools.md) | One-time install |
 
 ---
 
 ## Archive (recently done — keep for ~30 days)
 
-(none yet — this file is new as of 2026-05-19)
+| Status | Action | Done date | Notes |
+|---|---|---|---|
+| 🟢 | Ship the 30-line model-routing shim + 5-case eval suite | 2026-09 week | Baseline router — now extend with Sol + Temporal |
 
 ---
 
 ## Notes
 
 - **One rule:** ACTIONS.md only contains things *you* will do, not threads to watch. Watching-threads live in [WATCHLIST.md](./WATCHLIST.md).
-- **Tuesday + Sunday update cadence:** Tuesday after the daily edition lands, Sunday during the weekly rollup.
-- **If an action sits ⚪ for 14 days,** either upgrade to 🟡, drop to 🔴 (with a one-line reason), or move it to a `someday/` section. Don't let dead items accumulate.
+- **Saturday + Friday update cadence** (shifted from Tuesday+Sunday for Q4 2026 to match the shipping-first weekend).
+- **If an action sits ⚪ for 14 days,** either upgrade to 🟡, drop to 🔴 (with a one-line reason), or move it to the `founder-mode` section. Don't let dead items accumulate.
+- **Oct 2026 override:** this is a *concentrated-artifact week* — ship four portfolio pieces (mod, decision-tree diagram, memory-paper summary, Sol+Temporal demo) by Thursday. Cadence > intensity is the May rule; **Q4 2026 needs the override.**

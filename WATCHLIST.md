@@ -4,7 +4,31 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-10-05**
+
+---
+
+## 🆕 Threads opened 2026-10-05
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **OpenAI "dots" — always-on ChatGPT agents** | 🟢 NEW | **2026-09-29 (DevDay):** each dot runs on GPT-6 Astra, gets its own cloud computer + browser, interactable via ChatGPT/Slack/Teams, 4,000+ connected apps; 1 dot included with Pro ($100/mo) | Adoption inside the Pro tier; first malicious-dot incident; whether Anthropic/Google ship parity (Claude "workers" / Gemini "assistants") inside 60 days |
+| **GPT-6.1 Sol — Astra at ~⅕ price** | 🟡 NEW | **2026-09-29:** announced; Astra available now, Sol *coming soon*; near-Astra quality at ~20% of Astra's token price | Public pricing live date; indie benchmarks (Artificial Analysis / Scale leaderboard) vs Fable 5.1 cached; whether Anthropic/Google respond with mid-tier price cuts |
+| **Ultrafast tier (8× Codex / 6× API)** | 🟡 NEW | **2026-09-29:** live on GPT-6 Astra for Pro 500 + Enterprise | Independent latency numbers; whether the "paid speed tier" model migrates to Claude/Gemini |
+| **Codex-in-the-cloud + voice; ChatGPT Space + Pages** | 🟢 NEW | **2026-09-29:** Codex now cloud + voice; Space (team workspace for humans + dots); Pages (doc editor built for humans + dots) | Enterprise adoption of Space/Pages vs Google Workspace + Microsoft 365; first integration pattern that uses Space as the agent-UI primitive |
+| **Anthropic Claude Code mods** | 🟢 NEW | **2026-10-01 (v2.1.287):** TypeScript plugins can redraw UI, intercept tool calls, re-route to different models; `/plugin install`; Claude directory; demo mods Token Weather + Blast Radius | First mod to cross 10K installs; first malicious-mod incident + Anthropic's response; whether OpenAI ships a dot-mod equivalent; enterprise-managed mod admission policy templates |
+| **Barclays bank-wide Claude rollout** | 🟢 NEW | **2026-10-01:** target 50% of Barclays developers on Claude Code by EOY 2026; 120K client emails/day already on Anthropic models in Barclays Markets; 16K Barclays UK on Colleague Knowledge Assistant | Peer bank (HSBC/BNP/Deutsche/UBS/Lloyds/Santander) announcements; Big-4 "Claude practice" hiring volume; whether OpenAI/Dots lands a universal-bank account inside 90 days |
+| **Anthropic Claude Frontier Academy** | 🟢 NEW | **2026-10-02:** $100M, 10,000 FDE credentials by end of 2027; first cohorts Accenture/Bain/Deloitte/McKinsey/Morgan Stanley; residency-style (simulated enterprise deployment → graded assessment → credential) | Individual (non-firm-nominated) application window opens; residency compensation disclosure; whether Google / OpenAI launch a parity program within 90 days; first graduating cohort's Claude-project outcomes |
+| **Google Gemini 4 Argon + 3.8 Flash family (incl. Flash Cyber) + SynthID Bio + Live Avatar + Googlebook pre-order** | 🟢 NEW | **2026-09 recap (blog.google 2026-10-02):** Argon frontier w/ 1M-token *output* ceiling, cyber-defense tilt; Flash Cyber variant; SynthID Bio extends provenance to biosequences; Googlebook pre-order live; Gemini app on Windows | Argon production benchmarks (long-form generation at 1M output); Flash Cyber adoption inside enterprise SOCs; Googlebook ship date + developer SDK; whether Argon's 1M-output ceiling flips any product shape (books, codebases, full compliance reports) |
+| **Rhoda AI $450M Series A (video-pretrained robotics)** | 🟢 NEW | **2026-03-10 announced; surfaced in Sept-Oct fundraising recap:** Direct Video Action (DVA) model; internet-scale video pretraining + closed-loop video-predictive control; 25kg standard / 40kg peak payload; dual go-to-market (license FutureVision + build own data-collection robots) | First DVA inference economics teardown; competing claims from Physical Intelligence/Skild/1X/Figure/Covariant; whether YouTube/Twitch/Vimeo data-rights contracts get renegotiated |
+| **Sail Research $80M at $450M** | 🟢 NEW | **2026-09-30 window:** Sequoia Seed + Kleiner Perkins A; Redpoint/Theory/Vine/CRV/A*/Abstract; Movva (ex-NVIDIA/Apple/Together AI) + Menon; Sailboxes (persistent sandbox + OpenAI-compat); 12× cheaper claim; trillions of tokens served | Independent price-perf benchmarks (OpenRouter / Artificial Analysis); whether Together/Fireworks/Modal cut prices; first Sail-powered enterprise agent announcement |
+| **Anthropic IPO window (slip to "before Thanksgiving")** | 🟡 UPDATED | **2026-10 reporting:** target now **"before Thanksgiving"** (was September per 2026-09-10/01 §2); pre-IPO investor day scheduled as next catalyst | Pre-IPO investor day date; S-1 filing; whether Claude Code shows up as a majority revenue driver in the prospectus |
+| **Claude available in Google's Gemini Enterprise Agent Platform Model Garden** | 🟢 NEW | **2026-09-28:** Claude models joined Google Cloud's Gemini Enterprise Agent Platform Model Garden — multi-cloud procurement path for Claude expands | Google Cloud "Claude practice" hiring listings; whether AWS/Azure respond with new co-marketing with Anthropic |
+| **Self-Organizing Agent Teams (arXiv 2609.22682)** | 🟢 NEW | **2026-09-19 Pappu et al. (Stanford/Columbia):** 66.7% vs 48.8% strongest-member vs 59.0% perfect-router across 5 math/physics benchmarks; +13.4pt over router on AIME 2026; teamwork strategies transfer unchanged using only 40 training problems | Follow-up papers testing SAT on real-world code / cyber / scientific benchmarks; whether OpenAI/Anthropic ship a product that productizes "learned team topology"; adoption inside Anthropic Managed Agents (Dreaming) |
+| **KaliBench + Argo-Bench + AutoCompact benchmark wave** | 🟡 NEW | **2026-10-03 arxiv-agents-radar digest #318:** real-service cyber/coding agent benchmarks + context-compaction techniques — the eval surface is now the deployment surface | Which frontier lab reports KaliBench/Argo-Bench numbers first; whether these benchmarks displace MCP-Atlas/Toolathlon in next-gen procurement RFPs |
+| **Salt method + KernelArc** | 🟡 NEW | **Sept arXiv:** Salt — one researcher autonomously designed + taped out a verified RISC-V processor via gen-AI + formal verification; KernelArc — multi-agent GPU-kernel optimization w/ measurable speedup | Whether a chip-design-automation startup raises on Salt-shape thesis; whether PyTorch/NVIDIA integrate KernelArc-style multi-agent kernel search; impact on CUDA/Triton tool-chain roadmap |
+
+---
 
 ---
 

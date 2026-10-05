@@ -4,6 +4,80 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
+Last updated: **2026-10-05**
+
+---
+
+## This week (Oct 5 – Oct 11)
+
+### Monday Oct 5 — Deployment-layer week opens
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship cost-weather Claude Code mod (90 min)** + submit to Claude directory + push GitHub repo + record 15-sec gif | Mon night | [2026-10-05/03 §1](./2026-10-05/03-practical-skills-and-tools.md#1-mods-tonight) |
+| ⚪ | Update LinkedIn headline + skills row: **Frontier Deployed Engineer / Claude residency track / simulated enterprise deployment / Agent operator / Claude Code mod / MCP, Subagents, Hooks, CLAUDE.md** | Mon | [2026-10-05/05 §1](./2026-10-05/05-career-and-startup.md#1-frontier-academy-signal) |
+| ⚪ | Apply to **1 Big-5 "Claude Practice" role** (Deloitte / Accenture / PwC / EY / Bain / McKinsey Digital) with the three §1–3 artifacts attached as the portfolio | Mon | [2026-10-05/05 §1](./2026-10-05/05-career-and-startup.md#1-frontier-academy-signal) |
+
+### Tue–Sun — the 7-day AADR run
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Day 0 scope (60 min):** pick ONE repeatable workflow; scope the dot/subagent Custom Rules (may do unattended / must ask / must never); pick surface (OpenAI Dot if Pro / Claude subagent + hook / Codex-cloud schedule) | Tue | [2026-10-05/03 §2](./2026-10-05/03-practical-skills-and-tools.md#2-agent-direct-report) |
+| ⚪ | **Days 1–6:** 5-min daily review; two incident postmortems during the week (one correct-but-surprising, one wrong) | Tue–Sat | [2026-10-05/03 §2](./2026-10-05/03-practical-skills-and-tools.md#2-agent-direct-report) |
+| ⚪ | **Day 7 writeup (400 words):** publish "my first week with an AI direct report" post + log repo + tag `agent-direct-report-week-01` on GitHub | Sun | [2026-10-05/03 §2](./2026-10-05/03-practical-skills-and-tools.md#2-agent-direct-report) |
+
+### Tuesday Oct 6 — Applications
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Apply to **1 Anthropic FDE/Solutions/Applied-AI** role — attach the three artifacts (mod + AADR Day-0 scope + cost dashboard-in-progress) | Tue | [2026-10-05/05 §1](./2026-10-05/05-career-and-startup.md#1-frontier-academy-signal) |
+| ⚪ | Apply to **1 OpenAI Deployment Company / FDE** role | Tue | [2026-10-05/05 §1](./2026-10-05/05-career-and-startup.md#1-frontier-academy-signal) |
+| ⚪ | Apply to **1 funded-startup AI-Engineer** role (from Vinit Shahdeo 160-list) — pick an agent-infra or FDE-adjacent one | Tue | [2026-10-05/05 §2](./2026-10-05/05-career-and-startup.md#2-market-reality) |
+| ⚪ | **Watch:** Anthropic Frontier Academy careers page daily for individual-application window | daily | [2026-10-05/01 §4](./2026-10-05/01-big-lab-moves.md#4-frontier-academy) |
+
+### Mid-week — Cost table
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Pull **last 7 days of model-cost rows** from your production logs; replot by model + rank by $/task | Wed | [2026-10-05/03 §3](./2026-10-05/03-practical-skills-and-tools.md#3-cost-table) |
+| ⚪ | **Switch one top-2 cost-line workload** to Fable-cached or GPT-6.1 Sol (per the routing table); publish before/after cost graph to the artifact repo | Thu | [2026-10-05/03 §3](./2026-10-05/03-practical-skills-and-tools.md#3-cost-table) |
+
+### Weekend Oct 10–11 — the agent-primitive memo
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **4 hours**: pick ONE of {identity, communication, authorization, reputation, dispute resolution, storage}; name 3 real agent-to-agent payloads that fail today; design ≤5 endpoints; ship **500-line reference impl**; 1-page memo | Sat | [2026-10-05/03 §4](./2026-10-05/03-practical-skills-and-tools.md#4-primitive-memo) |
+| ⚪ | Publish repo + memo; close with a 10-line "why this is a venture-fundable wedge" paragraph | Sun | [2026-10-05/03 §4](./2026-10-05/03-practical-skills-and-tools.md#4-primitive-memo) |
+
+### Reading list (anytime this week)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Self-Organizing Agent Teams** (arXiv 2609.22682) — 20 min for first two sections; 1 hr full read; write a 400-word blog on the demonstrability-correlation finding + toy repro | Fri | [2026-10-05/04 §1](./2026-10-05/04-research-progress.md#1-sat) |
+| ⚪ | **arxiv-agents-radar digest #318** (Oct 3) — 15 min skim, star 2–3 papers to deep-read next week | Fri | [2026-10-05/04 §2](./2026-10-05/04-research-progress.md#2-real-world-generalization) |
+
+### End-of-week checkpoint (Sun Oct 11)
+
+- 🟢 1 Claude Code mod published to the directory
+- 🟢 7-day AADR run complete, 400-word writeup posted
+- 🟢 Cost dashboard before/after graph in the artifact repo
+- 🟢 Agent-primitive memo + 500-line reference impl live
+- 🟢 4 apps out (1 Anthropic + 1 OpenAI Deployment Co + 1 Big-5 Claude Practice + 1 funded startup)
+- 🟢 SAT paper read; 400-word blog post live
+
+**If you hit this → you're on the Frontier-Academy-portfolio glidepath.**
+
+---
+
+## This week's archived (May) — ⚪ open items from 2026-05 edition
+
+(preserved below for continuity; see §Active multi-week threads for the long-running ones)
+
+### Carried from Friday May 22
+
+---
+
+## Archived — Original May 19–25 action list (preserved for continuity)
 Last updated: **2026-10-04**
 
 ---

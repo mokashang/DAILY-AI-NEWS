@@ -4,6 +4,27 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
+Last updated: **2026-10-07**
+
+## New threads added 2026-10-07 (real-world Oct 2025 reference)
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **OpenAI DevDay 2025 — AgentKit + Apps SDK (both MCP-based)** | 🟢 NEW | **2025-10-06:** OpenAI shipped AgentKit (visual Agent Builder + ChatKit + evals), Apps SDK on MCP (launch partners: Booking · Canva · Coursera · Expedia · Figma · Spotify · Zillow), GPT-5 Pro, Sora 2 in the API, gpt-realtime-mini | First Apps SDK DAU numbers; ChatGPT "app store" monetization terms; whether OpenAI stays MCP-native through 2026 |
+| **OpenAI × AMD — ~6GW Instinct + up-to-10% equity warrant** | 🟡 NEW | **2025-10-06:** AMD +23.7% on day; warrant vests on deployment + stock milestones at $0.01/share | Deployment pace; first OpenAI Instinct-powered inference workloads; whether Nvidia counter-moves with its own equity-for-compute deal |
+| **Claude Sonnet 4.5 + Claude Agent SDK + Claude Skills** | 🟢 NEW | **2025-09-29:** 77.2% SWE-bench Verified, 61.4% OSWorld, 30+ hour agentic sessions, same price ($3/$15); Agent SDK is the production evolution of Claude Code; Skills are a reusable primitive with `skill-creator` meta-skill | First widely-adopted public Skills repos; enterprise contracts mentioning "Skills library"; whether OpenAI matches the Skills primitive by EOY |
+| **Anthropic APAC build-out (Tokyo + Seoul + TPU + Life Sciences)** | 🟡 NEW | **2025-10-20–29:** Claude for Life Sciences (Oct 20); Dario on American AI leadership (Oct 21); Seoul office + Google TPU expansion (Oct 23); Tokyo office + Japan AISI MoC (Oct 29) | APAC-specific FDE/Solutions hiring posts in 30 days; whether the Japan AISI MoC gets replicated with UK AISI / US AISI; Life Sciences lighthouse enterprise logo |
+| **ChatGPT Atlas** | 🟡 NEW | **2025-10-21:** macOS Chromium browser w/ ChatGPT side panel + agent mode (Plus/Pro/Business); browser history as personalization layer | Windows/iOS/Android timing; agent-mode privacy / incident reports; Comet / Dia / Chrome competitive responses; whether enterprise tenancy (SSO + policy) ships |
+| **Thinking Machines Lab — Tinker + $50B talks** | 🟡 NEW | **Oct 2025:** Tinker (managed fine-tuning API) launched; Nov 2025 reporting had next round at ~$50B (4× in a quarter on one product); seed was $2B at $12B (a16z + Nvidia + AMD + Accel + Cisco + Jane Street) | $50B round close; next Tinker product; whether Anthropic / OpenAI launch competing fine-tune APIs |
+| **Perplexity $18B valuation (+$100M)** | 🟢 NEW | **Oct 2025:** +$100M at $18B (tripled in a year) | Comet browser adoption curve; enterprise ARR; whether Perplexity ships an MCP server for its own search |
+| **FDE boom (+729% YoY per Indeed)** | 🟡 NEW | **Apr 2025 → Apr 2026:** +729% YoY on FDE postings; median mid-level FDE TC at frontier labs ~$385K; range $150K–$700K+ | Whether consultancies (Deloitte/PwC/Accenture/EY) formalize FDE as a track; US university career-services formal placement data |
+| **MCP cross-vendor adoption** | 🟢 NEW | **Oct 2025:** OpenAI Apps SDK ships on MCP; IBM i MCP server released; Anthropic/Google/Meta all shipping MCP integrations | Whether a VC-backed MCP registry / marketplace emerges by EOY; first standardization-body steward conversation |
+| **Agent memory as production-grade eval axis** | 🟡 NEW | **Oct 2025:** `mem-agent` (Dria, Oct 9), `MemoryAgentBench` (4-axis framework), `MemoryArena`, `Mem2ActBench` all land; "memory in the age of agents" (Sept 10 thread, arXiv 2512.13564) is now a measurable eval cluster | First enterprise-grade agent monitoring product with explicit memory metrics; whether "memory score" becomes a standard column in model benchmark tables |
+
+---
+
+## Pre-existing threads
+
 Last updated: **2026-05-22**
 
 ---

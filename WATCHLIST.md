@@ -4,7 +4,25 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-10-07**
+Last updated: **2026-10-08**
+
+## New threads added 2026-10-08
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **OpenAI Dots (always-on agent runtime)** | 🟡 NEW | **2026-09-29:** DevDay keynote launched Dots — always-on cloud-resident agents, 4,000+ app integrations via OpenAI plugins, GPT-6 Astra backend, one dot included free on ChatGPT Pro and Business Premium | Enterprise/Edu/Healthcare admin controls; multi-dot access; pricing when free dot ends; whether per-dot cloud computer stays included in Pro past Jan 1 |
+| **Anthropic October 2026 Nasdaq listing** | 🟡 NEW | **2026-10-08:** Confidential S-1 filed June; trading-focused coverage targets **October Nasdaq listing** at $965B post-money (Goldman/JPM/Morgan Stanley lead); $47B run-rate (up from $9B at YE 2025) — stacks with the roadshow signal from [2026-10-06](./2026-10-06/) | Public S-1 drop (triggers detailed revenue mix disclosure); Claude Code as a revenue line item; price range; opening-day pop → first-earnings arc |
+| **Offensive-security agent category (Armadin)** | 🟢 NEW | **2026-10-01:** Armadin $255.5M Series B at $2.5B+ (a16z + Accel lead); first mega-round for AI-native offensive cybersecurity (Kevin Mandia; also covered in [2026-10-04](./2026-10-04/)) | Follow-on raises in the category (API-sec / cloud-misconfig / insider-threat); incumbent response from Pentera / Horizon3 / SpecterOps; defender-side policy tooling startups |
+| **GPT-6 Sol + Luna ~50% API cut** | 🟢 NEW | **2026-09-22:** GPT-6 Sol priced at $2 in / $10 out per 1M (down from $4/$20 for GPT-5.6 Sol); Luna in Free & Go; Work/Codex/API only | Standard Chat rollout; whether Anthropic responds with Haiku-5 or deeper Fable cache cut; Gemini 3.8 Flash price-double impact on Jan 1 |
+| **Gemini 3.8 Flash intro price doubles Jan 1, 2027** | 🟡 NEW | **2026-10-08:** $0.75/$3.75 per 1M intro pricing through Dec 31; doubles to $1.50/$7.50 on Jan 1 — the planted migration event of Q1 2027 | Whether cost-router SaaS firms sell "see my new bill" audits Dec 20–Jan 15; impact on vertical-SaaS startups that leaned on 3.8 Flash for extraction/classification |
+| **Instinct $1B at $10B (personal AI agent)** | 🟢 NEW | **2026-09-28:** Sequoia + Benchmark + Coatue; 4× markup in ~one month from $250M at $2.5B; still invite-only | GA launch date; first disclosed revenue / user count; whether the valuation markup pulls ex-Sierra / ex-frontier-lab founders into the category |
+| **EliseAI $350M Series F at $4B (housing + healthcare)** | 🟢 NEW | **2026-09-29:** a16z + Bessemer co-lead (Ontario Teachers, Sapphire, Navitas participated); **$200M ARR, 1-in-6 US apartments**; previous Series E at $2.2B | Deployment Eng + Solutions Eng hiring volume; expansion into additional healthcare segments; whether a16z/Bessemer repeat the template in a related vertical |
+| **Flow Engineering $50M Series B (hardware-design agent)** | 🟡 NEW | **2026-10-03:** $750M post-money reported (lead investor undisclosed); first ventureable "hardware-design agent" raise | Confirmed terms + lead; whether EDA incumbents (Cadence/Synopsys) acquire or counter-raise; follow-on in HLS or chip-level design |
+| **OneByZero $20M Series A (productized enterprise AI deployment services)** | 🟢 NEW | **2026-10-05:** Jungle Ventures named; productized Big-4-style AI deployment services | First major enterprise logo; whether the model generalizes beyond Southeast Asia / early markets; comparison with how Big-4 Claude practices scale |
+| **Prompt injection as structural (arXiv:2605.17634)** | 🟡 NEW | **2026-10-08:** arXiv:2605.17634 formalizes a lower bound on injection success for agents with tool-use + untrusted inputs — defense must move to runtime-level | Runtime-level defenses in Dots / Managed Agents / Antigravity; capability-based tool access becoming a product feature; whether offensive-agent category (Armadin) accelerates defender-side investment |
+| **Q3 2026 AI = 64% of global VC** | 🟢 NEW | **2026-10-08:** Crunchbase-cited $102B AI VC in Q3 2026 (first full quarter above 60% share) | Q4 share; whether concentration-risk pushback from LPs shows up in Q1 2027 pacing; non-AI startup capital-starvation becoming structural |
+
+---
 
 ## New threads added 2026-10-07 (real-world Oct 2025 reference)
 

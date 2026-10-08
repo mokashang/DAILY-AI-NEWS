@@ -4,11 +4,56 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-10-08**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (Oct 6 – Oct 12)
+
+### Today (Thursday Oct 8) — 90-minute action block
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Sign up for **OpenAI Dots preview** + confirm **Anthropic Managed Agents** access | Today | [2026-10-08/03 §3](./2026-10-08/03-practical-skills-and-tools.md#3-weekend-artifact) |
+| ⚪ | Create `~/dev/router/` repo; commit the 60-line routing scaffold (per [`03` §3](./2026-10-08/03-practical-skills-and-tools.md#3-weekend-artifact)) | Today | [2026-10-08/03 §3](./2026-10-08/03-practical-skills-and-tools.md#3-weekend-artifact) |
+| ⚪ | Apply **1× Anthropic (Solutions / Applied AI / FDE)** + **1× OpenAI FDE** today | Today | [2026-10-08/05 §4](./2026-10-08/05-career-and-startup.md#4-today-actions) |
+| ⚪ | Apply **1× Instinct, 1× EliseAI, 1× Armadin** (founding or early engineer; cold DM if no posting) | Today | [2026-10-08/05 §4](./2026-10-08/05-career-and-startup.md#4-today-actions) |
+| ⚪ | Read **arXiv:2601.12538** (Agentic Reasoning survey — three layers) section intros | Today | [2026-10-08/04 §3](./2026-10-08/04-research-progress.md#3-agentic-reasoning-survey) |
+| ⚪ | Read **arXiv:2605.17634** (prompt injection is structural) abstract + conclusion | Today | [2026-10-08/04 §2](./2026-10-08/04-research-progress.md#2-prompt-injection-structural) |
+| ⚪ | Read **OpenAI DevDay 2026 recap** — Dots, Agents API, Decisions API | Today | [2026-10-08/01 §1](./2026-10-08/01-big-lab-moves.md#1-devday-dots) |
+| ⚪ | Public LinkedIn / GitHub post: "Signed up for Dots preview; building a two-runtime cost comparison this weekend" | Today | [2026-10-08/05 §4](./2026-10-08/05-career-and-startup.md#4-today-actions) |
+
+### Friday Oct 9
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Rebuild router pricing model** — update router repo with new prices (Fable 5.1 cache $0.25; GPT-6 Sol $2/$10; Gemini 3.8 Flash $0.75/$3.75 intro) + Dec 31 Flash-double flag | Fri | [2026-10-08/03 §2](./2026-10-08/03-practical-skills-and-tools.md#2-pricing-rebuild) |
+| ⚪ | Audit personal Claude + OpenAI + Gemini billing — identify where Sol or Flash intro now beats current default | Fri | [2026-10-08/03 §2](./2026-10-08/03-practical-skills-and-tools.md#2-pricing-rebuild) |
+| ⚪ | Add **Anthropic Red Team**, **Armadin**, **Pentera**, **Horizon3**, **Mandiant** to apply/watch list for the offensive-security-agent lane | Fri | [2026-10-08/05 §1](./2026-10-08/05-career-and-startup.md#1-hiring-map) |
+| ⚪ | Draft a **1-page memo** on which of the five founder wedges (3a-e in [`05` §3](./2026-10-08/05-career-and-startup.md#3-wedges)) fits your background best — bring to weekend | Fri | [2026-10-08/05 §3](./2026-10-08/05-career-and-startup.md#3-wedges) |
+
+### Saturday Oct 10 — Weekend artifact day
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship the two-runtime comparison artifact** — one real workflow implemented in Dots + Managed Agents + 5-case eval + public cost dashboard (per [`03` §3](./2026-10-08/03-practical-skills-and-tools.md#3-weekend-artifact)) | Sat | [2026-10-08/03 §3](./2026-10-08/03-practical-skills-and-tools.md#3-weekend-artifact) |
+| ⚪ | Public GitHub repo + README ≤800 words + pin on profile | Sat | [2026-10-08/03 §3](./2026-10-08/03-practical-skills-and-tools.md#3-weekend-artifact) |
+| ⚪ | LinkedIn post with eval table + dashboard screenshot | Sat | [2026-10-08/03 §3](./2026-10-08/03-practical-skills-and-tools.md#3-weekend-artifact) |
+| ⚪ | Full read: **MemoBrain (ACL 2026 Findings)** — executive memory as agentic brain | Sat/Sun | [2026-10-08/04 §1](./2026-10-08/04-research-progress.md#1-agent-memory-icml) |
+
+### Sunday Oct 11
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Monitor whether **Anthropic public S-1** drops this week (SEC EDGAR + Reuters + Bloomberg); if yes, publish 1-page Claude-Code-as-revenue-line read within 24h | Sun→whenever S-1 drops | [2026-10-08/01 §3](./2026-10-08/01-big-lab-moves.md#3-anthropic-ipo) |
+| ⚪ | Weekly 20-min source-list review (per [`SOURCES.md`](./SOURCES.md)) — add any new high-signal source surfaced this week | Sun | [`ME.md` personal rules](./ME.md#personal-rules) |
+| ⚪ | Update [`APPLICATIONS.md`](./APPLICATIONS.md) with the 5 apps from Thursday + any Instinct/EliseAI/Armadin cold DMs sent | Sun | [`APPLICATIONS.md`](./APPLICATIONS.md) |
+
+---
+
+## Historical / older action lists
+
+### Week of May 19 – May 25 2026 (archive)
 
 ### Tuesday May 19 — I/O DAY (done)
 

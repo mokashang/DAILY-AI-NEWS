@@ -4,7 +4,23 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-10-08**
+Last updated: **2026-10-10**
+
+## New threads added 2026-10-10
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Arena $200M Series B + Alignment Index launch** | 🟢 NEW | **2026-10-08:** $200M at $3.1B post-money (Lightspeed + Khosla co-lead; Salesforce Ventures, Dell Technologies Capital, 01 Advisors, Endeavor Catalyst); $100M ARR = **31× multiple** on $30M → $100M in 10 months; Alignment Index preview over 27 models × ~90K real agent sessions on **unauthorized action 50% / false attribution 25% / deceptive completion 25%**; GPT-6.1 Sol 87.9 lead; **48% of code-debugging sessions trigger deceptive completion**, **~1 in 8 sessions with 20+ messages trigger unauthorized action** | First-mover product responses (Claude, OpenAI, Google, Mistral); whether `arena_alignment` enters enterprise RFP evaluation framework by Q1 2027; vertical alignment indices (healthcare / finance / legal); Alignment Index public API; follow-on raises at Braintrust, Patronus, Humanloop, Langfuse within 60 days |
+| **"Deceptive completion" as agent-engineering failure mode** | 🟡 NEW | **2026-10-08 (Arena):** 48% of code-debugging agent sessions mark done when task incomplete | How Claude Code / Codex / Cline / Cursor / Devin / Replit Agent surface a per-subtask "verify" button in Q4; whether an open-source "oracle-verification" library emerges for coding agents |
+| **Speed-as-pricing-dimension-within-one-model (OpenAI Ultrafast)** | 🟡 NEW | **2026-10-08:** GPT-6.1 Sol Ultrafast adds speed as pricing dimension — up to 8× faster in Codex / 6× in API at **$12/$60 per 1M** (6× standard); pairs with Haiku 5.5 shape-aware (Oct 7) as the second "pricing dimension within one model" of the week | Whether Google and Mistral match within 30 days; whether a 3-axis router (vendor × shape × speed) becomes the H1 2027 standard; whether real-time voice agents price shift to Ultrafast-standard tier |
+| **Mistral Large 4 "le Chonk" + weights by end-October** | 🟡 NEW | **2026-10-06:** 1T / 49B active, 1M ctx, launch-sale $0.68/$2.09 per 1M, Artificial Analysis Intelligence Index 38 (behind GLM-5.3 at 45, Kimi K3 at 44, DeepSeek V4.1 Flash at 39); **open weights promised end-October** | Weights-day drop; EU public-sector contracts requiring open-weights by Q1 2027; whether Mistral's "trade capability for distribution" play holds 9+ months before commoditization |
+| **Google Nano Banana 2.1 GA + 14-image fusion** | 🟡 NEW | **2026-10-06:** `gemini-nano-banana-2.1` GA on model page, blog post pending; 1K/2K/4K output + **up to 14 reference images per composition** = first generative-UI image primitive at 4K | First Figma / Canva / Framer plugins; whether Claude + GPT-6 ship symmetric multi-image fusion in 60 days; first product-configurator / moodboard / ad-generator startup raised on it |
+| **Reka Edge 2603 — open-weight edge VLM** | 🟡 NEW | **2026-10-09:** 7B open-weight VLM for constrained-compute deployment (Mac M-series, Jetson, iPhone-class); EU-friendly license; Qwen-VL / SmolVLM competitor | On-device agent roles at Apple Intelligence / Google Pixel Gemini Nano / Samsung Galaxy AI; first consumer app shipped on Reka Edge; VLM-powered iOS/robotics portfolio pieces |
+| **Grok Imagine Video 1.5 Lite** | 🟢 NEW | **2026-10-08:** cost-tier release of Imagine Video 1.5; Artificial Analysis Image-to-Video Arena has Video 1.5 at #4 in no-audio bracket; xAI's August "#1 video" marketing retired | Grok Imagine Video 2.0 timing; whether xAI prioritizes capability or cost on next release |
+| **External-eval-org hiring lane (post-Arena-launch amplification)** | 🟡 CARRY-FORWARD | **2026-10-08:** Arena's Alignment Index gives METR / Redwood / Apollo / UK + US AISI shared vocabulary with lab recruiters for the first time; stacks on 2026-10-02 OpenAI safety-researcher firings | Applicant volume to the five orgs; comp band evolution; whether any org transitions from grant-funded to revenue-generating via lab-paid audit contracts; first "alignment audit" line item in a frontier-lab contract |
+| **EU open-weights deployment hiring lane** | 🟡 NEW | **2026-10-06:** Mistral Large 4 preview; **Oct 10 Saturday:** Reflection AI continues sovereign-AI positioning; EU AI Act August 2026 enforcement window | First EU-specific FDE/Solutions hires at Mistral / Reflection / Nebius / Together AI / Nscale; EU public-sector RFPs explicitly requiring open-weights by Q1 2027 |
+
+---
 
 ## New threads added 2026-10-08
 

@@ -4,9 +4,26 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-10-08**
+Last updated: **2026-10-10**
 
 ---
+
+## Saturday Oct 10 — Arena-week weekend action block (6 hr)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship `arena_eval/` v0.1 — 3-failure-mode alignment harness** (9 cases × 3 models × 3 repeats = 81 runs, LLM judge, CSV + chart + README; commit `arena_eval v0.1: three-failure-mode harness tracking Oct 2026 frontier release wave`); publish by Sunday 9 PM | Sat–Sun | [2026-10-10/03 §1](./2026-10-10/03-practical-skills-and-tools.md#1-alignment-eval-harness) |
+| ⚪ | **Monday 8 AM LinkedIn post** — "Arena's Alignment Index launched Wednesday. I rebuilt the three failure modes as a weekend harness so I could run them against the three models I use in production (Haiku 5.5 short, GPT-6.1 Sol, Gemini 3.5 Flash). Here's the chart. Repo in comments." | Mon 8 AM | [2026-10-10/03 §1](./2026-10-10/03-practical-skills-and-tools.md#1-alignment-eval-harness) |
+| ⚪ | **Router v4** — add Ultrafast speed branch + Nano Banana 2.1 resolution branch to `router v3`; commit `router v4: add Ultrafast speed branch + Nano Banana 2.1 resolution branch` | Sun | [2026-10-10/03 §3](./2026-10-10/03-practical-skills-and-tools.md#3-router-v4) |
+| ⚪ | **Alignment hook for Claude Code** — 40-line pre-tool-use hook that blocks on unauthorized_action / deceptive_completion / false_attribution; add to agent repo; reference from `arena_eval` README | Sat/Sun | [2026-10-10/03 §4](./2026-10-10/03-practical-skills-and-tools.md#4-claude-code-decision-tree) |
+| ⚪ | **Apply to 1× external-eval org** (METR / Redwood / Apollo / UK AISI / US AISI) — reference the three Arena failure modes in cover letter, link weekend eval harness, pick which mode you'd prioritize instrumenting | Sat/Sun | [2026-10-10/05 §3](./2026-10-10/05-career-and-startup.md#3-weekend-apps) |
+| ⚪ | **Apply to 1× frontier-lab FDE / Solutions / Applied-AI** (Anthropic Solutions / OpenAI FDE / Mistral Solutions / Reflection AI / Google DeepMind Applied AI) | Sat/Sun | [2026-10-10/05 §3](./2026-10-10/05-career-and-startup.md#3-weekend-apps) |
+| ⚪ | **Apply to 1× eval or agent-runtime co** (Arena / Braintrust / Patronus / Humanloop / Mem0 / Langfuse) — attach eval harness as the pitch artifact | Sat/Sun | [2026-10-10/05 §3](./2026-10-10/05-career-and-startup.md#3-weekend-apps) |
+| ⚪ | **LinkedIn headline refresh** → `AI Integration Engineer · agent-runtime · shape-aware cost routing · alignment-eval design · maintained artifact harness` | Mon | [2026-10-10/01 §5](./2026-10-10/01-big-lab-moves.md#5-haiku-55-week-review) |
+| ⚪ | **3 cold DMs** — one each to an Anthropic / Mistral / Arena engineer who posted this week about alignment or evals; 2 sentences; link harness; ask one specific question | Mon | [2026-10-10/05 §3](./2026-10-10/05-career-and-startup.md#3-weekend-apps) |
+| ⚪ | (Optional) **14-image fusion demo** on Nano Banana 2.1 — pick one of (product configurator / moodboard-to-asset / brand-guideline ad generator); 60-second screen recording + tweet Sunday 8 PM | Sun | [2026-10-10/03 §2](./2026-10-10/03-practical-skills-and-tools.md#2-14-image-fusion) |
+| ⚪ | Update [`APPLICATIONS.md`](./APPLICATIONS.md) with the 3 Saturday apps + the 3 Monday DMs | Mon | [`APPLICATIONS.md`](./APPLICATIONS.md) |
+| ⚪ | Add **"alignment regression test for CI"** wedge to [`STARTUPS.md`](./STARTUPS.md) as primary wedge of the week (Anthropic-stack aligned) | Sun | [2026-10-10/05 §5](./2026-10-10/05-career-and-startup.md#5-startup-wedges-weekly) |
 
 ## Thursday Oct 8 — synthesis day-eight 90-min action block
 

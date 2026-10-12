@@ -4,9 +4,30 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-10-12**
 
 ---
+
+## This week (Oct 12 – Oct 18) — Q4 Anthropic-posture window
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship the 5.5-family router update** (replace Opus-5→Opus-5.5, Sonnet-5→Sonnet-5.5, add Computer-Use leg via Agents API) + log per-request cost + publish diff | Tonight | [2026-10-12/03 §1](./2026-10-12/03-practical-skills-and-tools.md#1-router-update) |
+| ⚪ | **Ship the Dots + Computer-Use demo** (Dots-style always-on agent + Computer-Use subagent + Opus-5.5 planner, 60-sec GIF + GitHub + LinkedIn post) | This week | [2026-10-12/03 §2](./2026-10-12/03-practical-skills-and-tools.md#2-dots-computer-use) |
+| ⚪ | **Re-run the Claude bill audit** against Opus-5.5 + Sonnet-5.5 pricing (cache-hit math + 5.5 behavioral cost delta) → one-page writeup | This week | [2026-10-12/03 §3](./2026-10-12/03-practical-skills-and-tools.md#3-prompt-caching) |
+| ⚪ | **1 Anthropic Solutions / FDE / Integration application** — lead with the GitHub link to the router + Dots demo | This week | [2026-10-12/05 §2](./2026-10-12/05-career-and-startup.md#2-anthropic-hiring) |
+| ⚪ | **1 Anthropic Applied-AI — Mission Programs application** (Health / Education) — Gates-Foundation thread as cover-letter hook | This week | [2026-10-12/05 §2](./2026-10-12/05-career-and-startup.md#2-anthropic-hiring) |
+| ⚪ | **1 OpenAI FDE / Platform-Engineer application** (ChatGPT-as-workspace native-experience angle) | This week | [2026-10-12/05 §4](./2026-10-12/05-career-and-startup.md#4-split) |
+| ⚪ | **1 cold email** to an Anthropic engineer whose work you've engaged with — lead with GitHub link | This week | [2026-10-12/05 §2](./2026-10-12/05-career-and-startup.md#2-anthropic-hiring) |
+| ⚪ | **Add compliance keywords to LinkedIn** — "AI assurance", "GPAI compliance", "model documentation (Article 53)" | Today | [2026-10-12/01 §5](./2026-10-12/01-big-lab-moves.md#5-eu-enforcement) |
+| ⚪ | **Update LinkedIn headline** — "AI Engineer | Model Routing · Agent Evals · Computer Use" | Today | [2026-10-12/05 §3](./2026-10-12/05-career-and-startup.md#3-reprice) |
+| ⚪ | **Add Instinct hiring page to weekly watch**; start tracking Noah Shinn's public writing | This week | [2026-10-12/05 §5](./2026-10-12/05-career-and-startup.md#5-founder-watch) |
+| ⚪ | **Add Mistral careers to the apply list** *if EU work auth*; else set Q2 2027 reminder for US expansion | This week | [2026-10-12/02 §1](./2026-10-12/02-new-emerging.md#1-mistral) |
+| ⚪ | **Memorize the three-sentence lifelong-memory-cluster summary** (PLACEMEM / All-Mem / Scaling Teams/Time / Ask-Only-When-Needed) | This week | [2026-10-12/04 §1](./2026-10-12/04-research-progress.md#1-lifelong-memory) |
+
+---
+
+## Prior weeks (archived)
 
 ## This week (May 19 – May 25)
 

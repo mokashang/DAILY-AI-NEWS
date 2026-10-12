@@ -4,7 +4,24 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-10-12**
+
+### 2026-10-12 deltas (summary, see edition for sources)
+
+- 🟢 **Anthropic Opus 5.5** released Sept 22 — Terminal-Bench 4.0 66.4%, GDPval 1846 Elo, $4/$20 (**20% flagship price cut**), 1M input / 128K output. First time a frontier lab cut its flagship price *with* the release.
+- 🟢 **Anthropic Sonnet 5.5** released Sept 28 — $2/$10 (same price), ~30% cheaper per task, ~30% faster. Haiku 5.5 announced, release pending.
+- 🟡 **OpenAI DevDay Sept 29** — 20+ announcements, **platform turn**: Dots (always-on agents on GPT-6 Astra), Agents API with Computer Use, Decisions API, ChatGPT-as-workspace for 1.2B weekly users, Pro 500 ($500/mo), Codex Security Cloud.
+- 🔴 **OpenAI IPO 2026** — Altman explicitly ruled out ("I would say not 2026"); Fortune, Sept 12. Anthropic lead widens to ~24 months.
+- 🟡 **Anthropic IPO** — confidential S-1 filed June 1, 2026, $965B post-money; NYT reports fall listing possible.
+- 🟢 **Mistral €3B / ~$24B Series D** — Samsung led, Sept 8. Resolves the May "EU sovereignty catalyst" row.
+- 🟢 **Instinct $1B / $10B Series C** — Sequoia + Benchmark + Coatue, Sept 28. 4× valuation step in 4 weeks.
+- 🟢 **Oct 8 funding wave** — 46 rounds, $1.81B, 11 countries. Butterfly Effect $500M (China) + Arena $200M (US) + FieldAI $700M at $10B.
+- 🟢 **OpenRouter $113M Series B / $1.3B** — model-router category now has a public comp.
+- 🟡 **Nvidia + Hugging Face ~$12.93B** reported Sept 3 — transaction structure unconfirmed (acquisition vs strategic investment).
+- 🟡 **Google Gemini 4** — in post-training; "before year-end 2026" per Kavukcuoglu, late September. No official date.
+- 🟡 **EU AI Act GPAI enforcement LIVE Aug 2, 2026** — €15M / 3% turnover penalty. First action pending; CSA research note is the reference text.
+- 🟡 **Lifelong-agent memory cluster (new arXiv thread)** — PLACEMEM (2607.04089), All-Mem (2603.19595), Scaling Teams/Time (2604.03295), Ask-Only-When-Needed (2604.20572).
+- 🟡 **Noah Shinn / Instinct** — new founder-watch row. Researcher-to-founder-to-unicorn template in 18 months.
 
 ---
 

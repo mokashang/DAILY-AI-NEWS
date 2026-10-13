@@ -4,11 +4,62 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-10-12**
+Last updated: **2026-10-13**
 
 ---
 
-## This week (Oct 12 – Oct 18) — Q4 Anthropic-posture window
+## This week (Oct 13 – Oct 19)
+
+### Tuesday Oct 13 — ship the memory-aware extraction harness
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship the memory-aware extraction harness** (Haiku 5.5 + 1M context + SQLite memory store + per-user scope/expire/forget + verifier pass + per-query cost dashboard) | Tue night | [2026-10-13/03 §2](./2026-10-13/03-practical-skills-and-tools.md#2-memory-harness-artifact) |
+| ⚪ | **Retrofit the §3 policy-literate checklist** onto the harness (agent-id token, sandbox isolation + logging, kill switch, retraction protocol) | Tue night | [2026-10-13/03 §3](./2026-10-13/03-practical-skills-and-tools.md#3-policy-checklist) |
+| ⚪ | **Four-vendor router update** — add Haiku 5.5 cheap-batch leg + Sonnet 5.5 cache-read price cut + Grok Imagine Video 1.5 Lite image/video leg + adaptive-thinking tiering | Tue night | [2026-10-13/03 §5](./2026-10-13/03-practical-skills-and-tools.md#5-router-update) |
+| ⚪ | Apply to **1 Anthropic Solutions / Integration / Applied Safety** role, memory-harness repo + checklist link attached in cover | Tue | [2026-10-13/05 §3](./2026-10-13/05-career-and-startup.md#3-barbell-apply) |
+| ⚪ | Apply to **1 OpenAI FDE / Deployment Co / Model-risk / Preparedness** role (Deployment Co backlog still filling) | Tue | [2026-10-13/05 §3](./2026-10-13/05-career-and-startup.md#3-barbell-apply) |
+
+### Wednesday Oct 14 — assurance lane entry
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Add **"AI assurance"** + **"memory engineering"** + **"policy-literate agent design"** to LinkedIn skills row (before the recruiting-signal flood) | Wed | [2026-10-13/05 §2](./2026-10-13/05-career-and-startup.md#2-assurance-lane) |
+| ⚪ | Apply to **1 Google Antigravity Solutions / Managed Agents** role (Project Suncatcher-adjacent if available) | Wed | [2026-10-13/05 §3](./2026-10-13/05-career-and-startup.md#3-barbell-apply) |
+| ⚪ | Apply to **1 agent-primitive seed/A startup** (Hone, Beltic, Natural, or a Vinit Shahdeo tracker pick) with memory-harness repo attached | Wed | [2026-10-13/05 §3](./2026-10-13/05-career-and-startup.md#3-barbell-apply) |
+| ⚪ | Benchmark top-2 batch jobs on **Haiku 5.5** vs. Fable-5.1-cache-reads; publish the numbers as a short blog post | Wed/Thu | [2026-10-13/03 §1](./2026-10-13/03-practical-skills-and-tools.md#1-haiku-55) |
+
+### Thursday Oct 15 — Big-4 AI assurance
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Apply to **1 Big-4 AI assurance** role (PwC or Deloitte first — PwC rides the 30K-trained-on-Claude thread from May) | Thu | [2026-10-13/05 §2](./2026-10-13/05-career-and-startup.md#2-assurance-lane) |
+| ⚪ | Read the three memory-benchmark abstracts: **AMA-Bench, Memoria-Bench, LongMemEval-V2** — add 3-sentence summaries to interview-prep notes | Thu night | [2026-10-13/04 §1](./2026-10-13/04-research-progress.md#1-memory-benchmarks) |
+| ⚪ | Read **"Silent Dissent"** CVPR workshop best paper + the 3 mitigations (private deliberation / role-asymmetric / diversity-reward) | Thu night | [2026-10-13/04 §3](./2026-10-13/04-research-progress.md#3-silent-dissent) |
+
+### Friday Oct 16
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **30-min reply window** — log all week's apps + replies in [APPLICATIONS.md](./APPLICATIONS.md), tag by lane | Fri | [2026-10-13/05 §3](./2026-10-13/05-career-and-startup.md#3-barbell-apply) |
+| ⚪ | **Ship a 90-min Beltic-pattern agent-id token mini-repo** (sign outbound tool call + verify on receiving server + per-agent-id rate-limit log) | Fri night | [2026-10-13/02 §3](./2026-10-13/02-new-emerging.md#3-beltic) |
+| ⚪ | Update [STARTUPS.md](./STARTUPS.md) wedge log — add **memory-SLA infra**, **outcome-ownership agents (vs. Hone)**, **KYA-for-agents (vs. Beltic)**, **AI assurance / audit tooling (post-accord)** | Fri | [2026-10-13/02 §1](./2026-10-13/02-new-emerging.md#1-funding-shape) |
+
+### Weekend Oct 17–18
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Polish + publish the memory-harness repo** — README, 90-sec screencap, cost dashboard screenshot, link in LinkedIn post | Sat | [2026-10-13/03 §2](./2026-10-13/03-practical-skills-and-tools.md#2-memory-harness-artifact) |
+| ⚪ | Write 1-paragraph "verification engineering is a lane" post citing the OpenAI 3-paper walkback | Sun | [2026-10-13/04 §2](./2026-10-13/04-research-progress.md#2-openai-math) |
+| ⚪ | Monthly AI spend audit (4th-of-month moved to this weekend; include Haiku 5.5 rebench results) | Sun | [ME.md](./ME.md) |
+
+---
+
+## Earlier weeks (archive)
+
+Older actions kept for reference below.
+
+### Previous: Oct 12 – Oct 18 — Q4 Anthropic-posture window
 
 | Status | Action | Due | Source |
 |---|---|---|---|

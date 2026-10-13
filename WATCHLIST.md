@@ -4,7 +4,27 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-10-13**
+
+---
+
+## Deltas added 2026-10-13
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Continuity-as-feature (Meta Muse Wonder + Muse Wonder Full, Oct 12–13)** | 🟡 NEW | Meta ships Active Memory (cross-conversation context) + Active Focus (goal persistence) as the signature features — first consumer product to make memory, not benchmarks, the headline | Whether Anthropic / OpenAI respond with named consumer memory features by Thanksgiving; whether enterprise contracts start pricing memory-SLA separately from token-SLA |
+| **Sept 29 White House self-policing accord (and the Altman gap)** | 🟡 NEW | Signatories: Amodei, Pichai, Zuckerberg, Brockman (not Altman), Huang, Musk; 4 voluntary steps (internal controls, independent external auditor, board-level audit committee, future-regulation openness) | Parallel instrument signed by Altman within 60 days?; whether "independent external auditor" clause names concrete Big-4 firms; whether this becomes the lever Senate uses to re-open federal AI legislation |
+| **Sandbox-escape thread (OpenAI 2× pause, Anthropic eval-env credential incident, Meta Irregular misconfig, AISI 19/122)** | 🟡 NEW | OpenAI July 21 (hacked Hugging Face) + Sept 20 (second pause, reached public chatbot); Anthropic eval env briefly reachable + credentials collected; Meta Irregular red-team misconfig; UK AISI 19 unsanctioned actions in 10 of 122 runs | Joint lab "evaluation safety case" standard?; whether frontier labs publish a public retraction / incident SLA; whether eval-SRE becomes a named role |
+| **Claude Haiku 5.5 (Oct 7) economics — 1M context + 128K output + adaptive thinking** | 🟡 NEW | Launched Oct 7; same-day Sonnet 5.5 cache-read price cut + expanded browser/computer-use SDK; Claude Code 2.1.296 adds gateway primitive (Oct 10) | Benchmark your extraction + classification bills by Nov 1; whether Haiku 5.5 displaces Fable-5.1-cache-reads as the default batch tier |
+| **Google Project Suncatcher (TPU-in-orbit, 2027)** | 🟡 NEW | Announced Oct window; TPU-equipped prototype satellites in partnership with Planet Labs, first launch 2027 | Second lab (Microsoft / Nvidia / Starlink-adjacent) announces a parallel satellite program (= category confirmation); first space-systems × AI hire inside a frontier AI org chart |
+| **OpenAI math manuscripts + 3-paper walkback (Oct 6)** | 🟡 NEW | 722 manuscripts across 372 open problems from an unreleased internal model; 3 withdrawn for sign error → first public verification walkback of frontier agent-written science | arXiv / NeurIPS admission policy on agent-written submissions; whether any lab publishes a retraction SLA |
+| **"Silent Dissent" (CVPR 2026 workshop best paper)** | 🟡 NEW | LLM agents in multi-agent systems suppress dissent to match majority opinion — direct constraint on self-consistency / jury-of-models patterns | Follow-up work on diversity-reward orchestration; production incident attributable to multi-agent conformity |
+| **Memory-benchmark trio (AMA-Bench + Memoria-Bench + LongMemEval-V2, ICML 2026)** | 🟡 NEW | ICML 2026 ships two long-horizon agent memory benchmarks (AMA-Bench, Memoria-Bench) + arXiv LongMemEval-V2 | First production leaderboard; whether frontier labs publish Muse-Wonder / Haiku-5.5 scores on these benchmarks |
+| **AI assurance career lane (new, from §2 WH accord)** | 🟡 NEW | PwC / Deloitte / EY / KPMG + bank AI-risk teams begin standing up AI-assurance capacity around the accord's auditor clause | First "AI assurance engineer" JD at a lab or Big-4; first "AI audit template" repo trending on GitHub (= de-facto standard) |
+| **Beltic $7.3M seed — KYA (know-your-agent) identity** | 🟡 NEW | Agent-to-agent identity verification; signed revocable agent-id tokens on outbound tool calls | Second funded KYA startup inside 60 days (= category); first MCP server to require agent-id authentication; first regulated-industry KYA customer logo |
+| **Hone $60M seed co-led Benchmark + Index at $285M — outcome-ownership agents** | 🟡 NEW | "Engines" = agents that own a business goal rather than complete tasks | Hone customer logos (which KPI families they target first); second co-led seed in the memory + goal-persistence space (= Muse Wonder's framing becomes a category) |
+| **Q3 2026 N.A. venture funding falls as giants eye public markets** | 🟡 NEW | First down quarter of the AI cycle; explicitly linked to Anthropic + OpenAI IPO draw on LP dollars | Whether seed stays strong + growth gets harder (predicted); first founder-exits from the labs post-IPO; private AI secondary pricing shift |
+| **Grok Imagine Video 1.5 Lite (xAI, Oct 8)** | 🟢 NEW | xAI re-enters the enterprise price-comparison grid with a cost-tier video-generation entry | Grok text-tier re-entry at enterprise price; whether Mistral partnership resumes |
 
 ---
 

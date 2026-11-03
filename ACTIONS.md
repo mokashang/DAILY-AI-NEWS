@@ -4,11 +4,69 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-10-13**
+Last updated: **2026-11-03**
 
 ---
 
-## This week (Oct 13 – Oct 19)
+## This week (Nov 3 – Nov 9) — ANT roadshow countdown
+
+### Monday Nov 3 — S-1 grep + two apps + Opus-4.8 audit
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Run the S-1 grep** against the Oct-26 ANT filing on EDGAR; log 3 disclosure items (Pentagon-break language, $895B compute commitments, path-to-profitability MD&A paragraph) to a 3-row MD table in ACTIONS.md | Mon night | [2026-11-03/05 §3](./2026-11-03/05-career-and-startup.md#3-s1-grep) |
+| ⚪ | **Audit every pinned agent for `claude-opus-4-8` / `fast: true`** — run the grep commands; open one-line tickets per hit; nothing silently fails on Dec 1 | Mon night | [2026-11-03/03 §1](./2026-11-03/03-practical-skills-and-tools.md#1-opus-48-sunset) |
+| ⚪ | Read the Warren letter summary (AI Weekly) + MLex coverage; extract the 10 Q headlines into WATCHLIST.md | Mon | [2026-11-03/01 §2](./2026-11-03/01-big-lab-moves.md#2-warren-letter) |
+| ⚪ | Submit **Deloitte Associate GenAI Engineer** application (May 2025–May 2026 grads, Summer 2026 start — your window) with cover-letter citing the S-1 grep + Opus 5.5 migration experience | Mon 11:59 PM | [2026-11-03/05 §2](./2026-11-03/05-career-and-startup.md#2-6day-plan) |
+| ⚪ | Submit **Anthropic Applied AI Engineer, Enterprise** (Oct 20 posting) application | Mon 11:59 PM | [2026-11-03/05 §2](./2026-11-03/05-career-and-startup.md#2-6day-plan) |
+
+### Tuesday Nov 4 — read Anthropic's Warren response + partner-firm app
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Read Anthropic's public response to Warren** (likely today/tomorrow); write 500-word blog on how Anthropic framed the three disclosure items from Monday; publish to blog + LinkedIn + /skills module | Tue night | [2026-11-03/05 §2](./2026-11-03/05-career-and-startup.md#2-6day-plan) |
+| ⚪ | Submit **McKinsey QuantumBlack AI Specialist** or **Capgemini AI Engineer** application | Tue | [2026-11-03/05 §2](./2026-11-03/05-career-and-startup.md#2-6day-plan) |
+
+### Wednesday Nov 5 — begin cost-per-deployment calculator + Opus 5.5 migration
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Scaffold the cost-per-deployment calculator** — 3 scenario presets (dev-tool / browser-use subagent / enterprise RAG+tool-call) + the 70/30 open-weight-vs-frontier row + pricing table dated 2026-11-03; push WIP to GitHub | Wed night | [2026-11-03/03 §3](./2026-11-03/03-practical-skills-and-tools.md#3-cost-per-deployment) |
+| ⚪ | **Begin Opus 4.8 → Opus 5.5 migration** on the main portfolio agent; swap `fast: true` for the matching effort level; document the diff | Wed night | [2026-11-03/03 §1](./2026-11-03/03-practical-skills-and-tools.md#1-opus-48-sunset) |
+
+### Thursday Nov 6 — publish both
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Finish the cost-per-deployment calculator**; publish `calculator.html` + README + `pricing.json`; 400-word Simon-Willison-style write-up; add to portfolio README | Thu night | [2026-11-03/03 §3](./2026-11-03/03-practical-skills-and-tools.md#3-cost-per-deployment) |
+| ⚪ | **Finish the Opus 4.8 → Opus 5.5 migration**; document pre/post cost delta as 300-word note; publish | Thu night | [2026-11-03/03 §1](./2026-11-03/03-practical-skills-and-tools.md#1-opus-48-sunset) |
+
+### Friday Nov 7 — vertical MCP server scaffold + app
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Scaffold the vertical MCP server** — pick one of industrial-MES / dental-practice / legal-practice / logistics-TMS / real-estate-CRM / municipal records; 3 tools + 5-case eval + README + demo gif; MCP registry + AAIF Agent-Skill wrapper submission started | Fri night | [2026-11-03/03 §4](./2026-11-03/03-practical-skills-and-tools.md#4-vertical-mcp-still-open) |
+| ⚪ | Submit **Scale AI Frontier Agents Engineer** or **Sierra Customer Engineer** application | Fri | [2026-11-03/05 §2](./2026-11-03/05-career-and-startup.md#2-6day-plan) |
+
+### Saturday Nov 8 — finish MCP server + begin thread-aware eval harness
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Finish and publish the vertical MCP server**; tweet / HN post; add to portfolio | Sat | [2026-11-03/03 §4](./2026-11-03/03-practical-skills-and-tools.md#4-vertical-mcp-still-open) |
+| ⚪ | **Begin thread-aware eval harness** — fork BizAgentBench or AgentLens, migrate to beta message threads; measure tokens-per-task, cache-hit %, failure-mode delta | Sat night | [2026-11-03/03 §2](./2026-11-03/03-practical-skills-and-tools.md#2-beta-threads) |
+
+### Sunday Nov 9 — finish eval harness + final apply push
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Finish and publish the thread-aware eval harness** — publish the 3-axis measurement write-up | Sun night | [2026-11-03/03 §2](./2026-11-03/03-practical-skills-and-tools.md#2-beta-threads) |
+| ⚪ | Submit **1 Frontier Academy partner firm** (Bain / Morgan Stanley AI-Tech Division / Novo Nordisk Digital Health) application | Sun | [2026-11-03/05 §2](./2026-11-03/05-career-and-startup.md#2-6day-plan) |
+| ⚪ | Submit **1 OpenAI public-sector role** (AI Deployment Engineer Public Sector / Mission Support ML) | Sun | [2026-11-03/01 §3](./2026-11-03/01-big-lab-moves.md#3-daybreak-reactivated) |
+| ⚪ | **End-of-week delivery count self-review:** 3 artifacts shipped (cost-calc, MCP server, eval harness), 2 writeups published (Warren response, Opus-migration), 5 apps submitted. **This is your answer to "what did you do during the IPO week?"** at every Q1 2027 interview | Sun night | [2026-11-03/05 §2](./2026-11-03/05-career-and-startup.md#2-6day-plan) |
+
+---
+
+## Previous: Oct 13 – Oct 19 (archived below for reference)
 
 ### Tuesday Oct 13 — ship the memory-aware extraction harness
 

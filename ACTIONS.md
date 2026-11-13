@@ -4,11 +4,74 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-11-03**
+Last updated: **2026-11-13**
 
 ---
 
-## This week (Nov 3 – Nov 9) — ANT roadshow countdown
+## IPO week (Nov 13 – Nov 20) — Anthropic ANT pricing + first trade
+
+### Friday Nov 13 (today)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Read Anthropic S-1 Risk Factors + MD&A sections (90 min)** — the highest-ROI interview prep of Q4; surfaces DoD concentration, Palantir unwind, EU/UK regulatory surface, Frontier Academy cost line | Tonight | [2026-11-13/00](./2026-11-13/00-tldr.md) · [SEC EDGAR filing](https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/exhibit45-sx1.htm) |
+| ⚪ | Ship 2 Category-A apps (Anthropic Solutions/FDE + OpenAI FDE) BEFORE Anthropic recruiter attention goes to zero for IPO week | Tonight | [2026-11-13/05 §2](./2026-11-13/05-career-and-startup.md#2-apply-plan) |
+| ⚪ | Update résumé + LinkedIn with "Fable 5.2 ($8/$40, 65 intelligence-index) + Haiku 5.5 effort levels + Claude Meetings beta" line | Tonight | [2026-11-13/05 §2](./2026-11-13/05-career-and-startup.md#2-apply-plan) |
+
+### Saturday Nov 14
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Ship 3 more apps (2 Category-B enterprise foundation-model: Capital One AI Eng 4 + Microsoft ML Research Eng; 1 Category-C: Rox Founding AI Engineer) | Sat | [2026-11-13/05 §2](./2026-11-13/05-career-and-startup.md#2-apply-plan) |
+| ⚪ | Rebuild cost-router artifact with Fable 5.2 orchestrator + Haiku 5.5 worker + Mythos 5.2 fallback; add Fast-mode promotion rule; update README citing Nov 9 pricing | Sat | [2026-11-13/03 §1](./2026-11-13/03-practical-skills-and-tools.md#1-fable-52-checklist) |
+| ⚪ | Run 30-day billing audit — look for Fable 5.1 residuals, Fast mode on async paths, prompt-cache hit rate <40% | Sat | [2026-11-13/03 §1](./2026-11-13/03-practical-skills-and-tools.md#1-fable-52-checklist) |
+| ⚪ | Prune CLAUDE.md under 200 lines; move workflow-specific content into on-demand skills | Sat | [2026-11-13/03 §1](./2026-11-13/03-practical-skills-and-tools.md#1-fable-52-checklist) |
+| ⚪ | Build Google-Meet-plus-Claude 90-second demo (admit Claude → ask for plan live → show chat reply → show post-call notes in claude.ai) | Sat | [2026-11-13/03 §2](./2026-11-13/03-practical-skills-and-tools.md#2-meetings-demo) |
+
+### Sunday Nov 15
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Record 90-second Meetings demo screencast; draft LinkedIn post (don't post yet) | Sun | [2026-11-13/03 §2](./2026-11-13/03-practical-skills-and-tools.md#2-meetings-demo) |
+| ⚪ | Read the two-paper governance pair (arXiv 2611.06764 access control + 2611.12941 agentic governance NeurIPS 2026) — 45 min | Sun | [2026-11-13/04 §1](./2026-11-13/04-research-progress.md#1-november-arxiv) |
+
+### Monday Nov 16
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **8:30 AM PT:** Post Meetings demo on LinkedIn — first-mover window on "Claude in Google Meet" content closes in ~2 weeks | Mon | [2026-11-13/03 §2](./2026-11-13/03-practical-skills-and-tools.md#2-meetings-demo) |
+| ⚪ | Ship 1 more app if demo generates recruiter inbound | Mon | [2026-11-13/05 §2](./2026-11-13/05-career-and-startup.md#2-apply-plan) |
+
+### Tuesday Nov 17
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Build 15-line ANT tracker widget (yfinance + tmux status bar) | Tue | [2026-11-13/03 §3](./2026-11-13/03-practical-skills-and-tools.md#3-ant-tracker) |
+| ⚪ | Set calendar alerts: **Wed Nov 18 after-hours (pricing)** + **Thu Nov 19 9:30 AM ET (first trade)** | Tue | [2026-11-13/05 §3](./2026-11-13/05-career-and-startup.md#3-ipo-week-moves) |
+
+### Wednesday Nov 18 — pricing night
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Check final price against $70–$78 range; re-read [`05` §1](./2026-11-13/05-career-and-startup.md#1-reprice) comp-math reset through the lens of the actual number | After-hours Wed | [2026-11-13/01 §1](./2026-11-13/01-big-lab-moves.md#1-anthropic-ipo) |
+
+### Thursday Nov 19 — first trade
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | 9:30 AM ET: note open + 10am + close prices in WATCHLIST.md | Thu | [2026-11-13/05 §3](./2026-11-13/05-career-and-startup.md#3-ipo-week-moves) |
+| ⚪ | **IF ANT >$95 (~$1.25T):** send 3 additional apps to partner firms by EOD — their reqs will update over the weekend with new comp bands | Thu | [2026-11-13/05 §3](./2026-11-13/05-career-and-startup.md#3-ipo-week-moves) |
+| ⚪ | **IF ANT <$70 (break-issue):** execute cooling-market pivot — pause Anthropic/OpenAI apps for 2 weeks; double enterprise foundation-model apps (Capital One / JPMC / MSFT); shift Category-C to profitable AI (Cursor/Replit/Vercel/Databricks) | Thu | [2026-11-13/05 §2](./2026-11-13/05-career-and-startup.md#2-apply-plan) |
+
+### Friday Nov 20
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Draft 150-word "what the Anthropic IPO means for AI careers" LinkedIn post (don't post yet — send Sunday or Monday after Monday close) | Fri | [2026-11-13/05 §3](./2026-11-13/05-career-and-startup.md#3-ipo-week-moves) |
+
+---
+
+## Archive — May 19 – May 25
 
 ### Monday Nov 3 — S-1 grep + two apps + Opus-4.8 audit
 

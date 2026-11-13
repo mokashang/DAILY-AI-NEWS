@@ -40,8 +40,9 @@ Personalization context so every daily edition can be written *to* this profile,
 - [ ] One-page Gemini-vs-Claude-vs-OpenAI agent comparison (publish day after Google I/O)
 - [ ] 3 cold emails to frontier-lab engineers this week
 
-## Job-search targeting (as of latest edition)
-- **Apply to**: Anthropic (Solutions / FDE / Integration), OpenAI (FDE), Sierra / Decagon / Cognigy (Customer Eng), PwC / Deloitte / Accenture / EY (AI Engineer — Client Delivery), Plaid / Intuit / HubSpot / Canva (AI Integration)
+## Job-search targeting (as of 2026-05-25 edition)
+- **Apply to**: Anthropic (Solutions / FDE / Integration), OpenAI (FDE / Deployment Company), Google Cloud (Agent / Antigravity Solutions), Sierra / Decagon / Cognigy (Customer Eng), PwC / Deloitte / Accenture / EY (AI Engineer — Client Delivery), Plaid / Intuit / HubSpot / Canva (AI Integration)
+- **NEW lane (2026-05-25)**: AI-governance / trust-&-safety / Responsible-AI roles — legitimized by the Pope Leo XIV encyclical + EU Article 51 (Aug) + enterprise procurement; my eval/verification portfolio is the technical half of this job
 - **Adjacent track**: GridCARE / Crusoe / Sphere AI for AI-infrastructure roles (less-crowded lane)
 - **Reach lane**: OpenAI Residency 2026, Anthropic AI Safety Fellowship, Google DeepMind Early Career
 

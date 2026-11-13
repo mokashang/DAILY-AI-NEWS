@@ -4,7 +4,31 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-11-13**
+
+---
+
+## 2026-11-13 deltas — IPO week
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Anthropic IPO (ANT on Nasdaq)** | 🟡 NEW LIVE | **2026-11-10:** S-1/A Amendment No. 2 on file; roadshow launched; range **$70–$78**; 825M Class A shares (801.35M Anthropic + 23.65M stockholders); implied **~$1.02T diluted** at $78 (FT reports book testing **$1.5T+**); pricing expected **Nov 18 after-hours**; first trade **Nov 19 9:30am ET** | Final pricing vs range; first-day open + close; lockup expiry mid-May 2027; first 10-Q disclosures (Pentagon-break revenue gap, Frontier Academy cost line, Palantir exposure) |
+| **Claude Fable 5.2 / Mythos 5.2** | 🟢 NEW SHIPPED | **2026-11-09:** released at **$8/$40 per 1M (standard)**, $16/$80 (fast), $4/$20 (batch); **65 on Artificial Analysis Intelligence Index** (top); **76.3% CyScenarioBench** (vs 61.7%); **89.6% CVE Rediscovery** (vs 78.3%); Terminal-Bench-Science 75.3%; ~30% faster output; Mythos 5.2 restricted to Anthropic-verified cyber + life-sciences orgs | OpenAI/Google reprice responses in Dec; whether Gemini 4 Carbon public benchmarks dethrone it before year-end; Mythos 5.2 verification waitlist size |
+| **Claude Meetings / Whiteboards / Sheets** | 🟡 NEW BETA | **2026-11-10:** Claude Meetings beta (Team + Enterprise) launched — Claude as visible meeting participant on Google Meet; announces itself; auto-exits unauthorized externals; drafts timelines live; posts to meeting chat; notes + action items to claude.ai after. **2026-11-13:** Google Meet expansion live. Microsoft Teams "coming" per Computerworld. Claude Data + Interactive Connectors GA same day. | Zoom / Teams / Webex launch dates; adoption inside Frontier Academy partner firms; UX-rulebook response from OpenAI (ChatGPT-in-Meet?) and Google (Gemini-in-Meet?) |
+| **Anthropic Nov 13 outage** | 🟡 NEW | **2026-11-13 today:** Claude.ai + Claude Code auth-related login failures during IPO roadshow week | Public post-mortem; any 8-K / prospectus amendment on service availability; impact on final pricing |
+| **Google Gemini 4 Carbon** | 🟡 NEW SHIPPED | **2026-11-10:** limited-access release same day as Anthropic roadshow launch; counter-release spoiled by Fable 5.2's higher intelligence-index score | Access expansion; public benchmarks; comparison with Fable 5.2 on CyScenarioBench + Terminal-Bench-Science |
+| **Google Gemini API reroute** | 🟡 NEW | **2026-11-02 announcement:** from **Dec 1 2026**, `gemini-2.5-pro`/`flash` API requests auto-route to newer models | Pinning best-practice guidance; production impact reports after Dec 1 |
+| **OpenAI Images 2.6 (Flare / Sunburst)** | 🟢 NEW SHIPPED | **2026-11-04:** GPT-Image-2.6 Flare (fast) + Sunburst (precise) live across ChatGPT/Codex/API; "mode as parameter" primitive now cross-vendor | OpenAI equivalent of Mythos (verified-access-only cyber model); next mode-pattern release from Google or xAI |
+| **xAI content-provenance defaults** | 🟡 NEW | **2026-11-07:** Grok API text watermarking defaulted-on across 7 Grok models per xAI developer docs; **xAI first lab with content-provenance default-on** | OpenAI / Anthropic follow timing (likely 90 days per EU AI Act Article 50 pressure); detection tooling appearance |
+| **xAI Grok Bot 1.0 (team coding)** | 🟡 NEW | **2026-11-11:** Grok Bot 1.0 team-oriented coding agent reportedly announced; Grok Build remains individual-dev tier. **2026-11-10:** Grok 4.7 on AWS Kiro | Official xAI confirmation of Grok Bot naming; AWS Kiro + Grok pricing; enterprise adoption vs Claude Code |
+| **Rox $100M Series B @ $1.3B** | 🟢 NEW | **2026-11-11:** General Catalyst + March Capital co-led; SF AI research agents | Hiring volume Nov 18 – Dec 26 (post-raise under-hire window); first enterprise customer logos |
+| **Laza Medical ~$160M Series B** | 🟢 NEW | **2026-11-11:** GE HealthCare led; AI healthcare | Modality disclosure; FDA filings; hiring in regulatory-aware MLE roles |
+| **Prometheus (physical AI) $12B @ $41B** | ⚪ RUMOR | **2026-11-11:** Bezos + ex-Google Vik Bajaj; single-source blog; not confirmed on SEC Form D | Confirming tier-1 press by Dec 1; if real, reshapes physical-AI thesis |
+| **"Avatar Intelligence" paradigm (arXiv 2611.03092)** | 🟡 NEW | **2026-11-02:** paper names the long-horizon personal-agent problem as a single paradigm | Citation count; whether Anthropic Memory / OpenAI Memory teams adopt the frame |
+| **Agentic governance (arXiv 2611.12941, NeurIPS 2026)** | 🟡 NEW | **2026-11-11:** governance of agentic systems paper accepted at NeurIPS 2026; tiered-stack frame (per-agent / per-deployment / per-sector) | Whether Anthropic + OpenAI reference the frame in their IPO / regulatory filings |
+| **Agent access-control survey (arXiv 2611.06764)** | 🟡 NEW | **2026-11-04:** surveys policy spec + identity/delegation + enforcement + info-flow control for AI agents | Startups implementing the taxonomy as a sellable shim; EU AI Act cross-reference |
+| **BuySideFlow point-in-time investment-research benchmark (arXiv 2611.12966)** | 🟢 NEW | **2026-11-11:** point-in-time benchmark for LLM agents in investment research | Scores from Fable 5.2 / Gemini 4 Carbon / GPT-6 variants |
+| **Anthropic–AP licensing** | 🟡 NEW | Nov: first digital-publisher licensing deal (AP → Claude live election data) | Follow-on deals (WSJ? NYT? Bloomberg?) by Q1 2027 |
 
 ---
 

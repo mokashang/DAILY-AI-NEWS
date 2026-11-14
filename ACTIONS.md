@@ -4,11 +4,56 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-05-22**
+Last updated: **2026-11-14**
 
 ---
 
-## This week (May 19 – May 25)
+## This week (Nov 10 – Nov 16) — Anthropic IPO week + MSFT buyout window
+
+### Today (Saturday Nov 14)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Rewrite résumé top section for FDE pitch** (3 lines: customer-facing, prototype velocity, vertical) | Today | [2026-11-14/05 §2](./2026-11-14/05-career-and-startup.md#2-fde-boom) |
+| ⚪ | **Fire 5 FDE apps: Glean, Distyl, Decagon, Sierra, Harvey** (Palantir/OpenAI LAST — 8+ wk pipelines) | Today/Sun | [2026-11-14/05 §2](./2026-11-14/05-career-and-startup.md#2-fde-boom) |
+| ⚪ | Scan HN "Who's hiring Nov 2026" for "forward deployed / founding engineer / AI research engineer" | 30 min | [2026-11-14/05](./2026-11-14/05-career-and-startup.md) |
+
+### Sunday Nov 15 — Weekend ship window
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship one MCP server (FastMCP; 3 tools; 5-case eval; README; demo gif)** — the #1 FDE portfolio artifact | Sun | [2026-11-14/03 §3](./2026-11-14/03-practical-skills-and-tools.md#3-mcp-fastmcp) |
+| ⚪ | Install Claude Code 2.1.318 + drop a `safe-shipper` skill + SubagentStop `pytest` hook into one active project | Sun | [2026-11-14/03 §1](./2026-11-14/03-practical-skills-and-tools.md#1-claude-code-2-1-318) |
+| ⚪ | Install `llm` 0.37 + pipe one real workflow through it (git log → commit message) | Sun | [2026-11-14/03 §2](./2026-11-14/03-practical-skills-and-tools.md#2-llm-0-37) |
+
+### Monday Nov 16 — IPO pricing day watch
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Watch ANT pricing + Day 1 trading** — bookmark for how to anchor Anthropic comp negotiations | Mon | [2026-11-14/01 §1](./2026-11-14/01-big-lab-moves.md#1-anthropic-ipo-roadshow) |
+| ⚪ | Submit 1 Anthropic Solutions / Integration / FDE app before quiet-period hiring tightens | Mon | [2026-11-14/01 §1](./2026-11-14/01-big-lab-moves.md#1-anthropic-ipo-roadshow) |
+
+### Mid-week — MSFT buyout wave + Ramp Index work
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Build 10-company shortlist of MSFT-alumni-friendly AI startups** (Glean, Writer, Cresta, Observe.AI, Cohere, Snorkel, Weaviate, Pinecone, LangChain, Modal) + cold-apply with "aware of MSFT buyout wave" framing | Wed | [2026-11-14/05 §1](./2026-11-14/05-career-and-startup.md#1-microsoft-buyout) |
+| ⚪ | Download Nov 2026 Ramp AI Index → top-30 fastest-growing AI vendors → cross-ref careers pages → shortlist 10 | Wed | [2026-11-14/05 §5](./2026-11-14/05-career-and-startup.md#5-ramp-ai-index) |
+| ⚪ | 60 min on TrueUp cross-referencing target companies: filter by "which team got cut" (Research cut = sell signal) | Wed | [2026-11-14/05 §3](./2026-11-14/05-career-and-startup.md#3-layoffs-200k) |
+
+### Weekend of Nov 21 — W26 founder outreach + LangChain HITL demo
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **workatastartup.com → W26 + Founding Engineer + ≤2 YOE; pick 5; email founders directly** (3–5× normal response in 6-wk post-Demo-Day window, which starts Mar 24, 2027) | Nov 21 | [2026-11-14/05 §4](./2026-11-14/05-career-and-startup.md#4-yc-w26) |
+| ⚪ | Build 20-line LangChain 1.4.9 per-call HITL demo (approvals on writes only) + publish to GitHub | Nov 21 | [2026-11-14/03 §4](./2026-11-14/03-practical-skills-and-tools.md#4-langchain-1-4-9) |
+| ⚪ | Reproduce MRTPO (arXiv 2610.21439) on 1–2 GPUs with a toy verifier; publish README | Nov 21–22 | [2026-11-14/04 §6](./2026-11-14/04-research-progress.md#6-mrtpo) |
+
+---
+
+## Previous weeks (archived)
+
+### This week (May 19 – May 25)
 
 ### Tuesday May 19 — I/O DAY (done)
 

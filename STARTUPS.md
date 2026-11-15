@@ -6,7 +6,30 @@ Status legend: 💡 noted · 🔍 researching · 🟡 prototyping · 🟢 active
 
 Fit score (1–5): 5 = your strengths + market wide-open; 1 = poor fit or market closed
 
-Last updated: **2026-05-25**
+Last updated: **2026-11-15**
+
+---
+
+## Nov 2026 additions — new wedges from this week
+
+| Status | Wedge | Buyer | Contract size | Anchor competitor(s) | Fit | Notes / Source |
+|---|---|---|---|---|---|---|
+| 💡 | **Mid-trajectory verifier middleware for production agents** | Mid-stage AI vendors shipping agents | $0.001–0.01 per check | None productized; research-level: 2611.13254 + TrajAD | 5 | Pair with LangGraph 1.2.20 strict resume. Ship as open-source + paid-hosted. [2026-11-15/04 §1](./2026-11-15/04-research-progress.md#1-dependable-agents) |
+| 💡 | **Clarification-ranker middleware (Ask2Decide negative result)** | Agent platforms + enterprise copilots | $100–1K/mo per workspace | None; research-level: 2611.13015 | 5 | First to productize = category-defining. [2026-11-15/04 §4](./2026-11-15/04-research-progress.md#4-ask2decide) |
+| 💡 | **Agent-native object storage (versioned, signed, audit-logged)** | Production agent teams + govtech | $0.02/GB/mo + audit tier | Tigris (just acquired by Dropbox for ~$350M) | 4 | Dropbox exit = category comp. [2026-11-15/02 §10](./2026-11-15/02-new-emerging.md#10-oura-tigris) |
+| 💡 | **Shadow-AI endpoint detector (open detector per arXiv 2611.12377)** | CISOs + SOC teams | $5–50K/yr per org | Kindo ($30M), Hone, Armadin | 4 | Ship open + paid tier. "Shadow SaaS" of 2027. [2026-11-15/04 §5](./2026-11-15/04-research-progress.md#5-shadow-ai) |
+| 💡 | **Western SaaS on Kimi K3.1 Pro + Mistral Large 4 on own GPUs (sovereign-AI stack)** | EU + Asia enterprises under data-residency reqs | $20–200K/yr per customer | No direct comp; vLLM + sglang infra required | 4 | Open-weight geography wedge. [2026-11-15/01 §5](./2026-11-15/01-big-lab-moves.md#5-kimi-k31-pro) |
+| 💡 | **Multi-vendor router (Anthropic + OpenAI + Mistral) sold as audit-friendly middleware** | Enterprises hedging Ramp share-shift | $0.0001/token + flat $1–10K/mo | OpenRouter (consumer), early commercial | 4 | Pairs directly with the weekend MCP-server project. [2026-11-15/03 §2](./2026-11-15/03-practical-skills-and-tools.md#2-mcp-2026-07-28) |
+| 💡 | **Agent-payments non-ChatGPT (Claude Payments, voice agents, vertical surfaces)** | Agent platforms outside OpenAI surface | $0.001–0.01 per txn + $1–10K/mo | ChatGPT Wallet (killed the horizontal play) | 3 | Pivot play for Natural / Parallel cohort. [2026-11-15/01 §3](./2026-11-15/01-big-lab-moves.md#3-openai-weekend) |
+| 💡 | **Vertical-law seeds (IP, immigration, small-firm ops)** | SMB law firms | $500–3K/mo per firm | Harvey (top), Blackletter/Athena (seed-stage) | 3 | 60-day customer-discovery project. [2026-11-15/02 §11](./2026-11-15/02-new-emerging.md#11-vertical-seeds) |
+| 💡 | **Voice-agent orchestration layer ("LangGraph for voice", <1s latency)** | Agent platforms building on Boson/Deepgram/Eleven | $200–2K/mo per workspace | None yet; Claude Meetings sets the bar | 3 | Boson AI $70M = the model-layer comp. [2026-11-15/02 §8](./2026-11-15/02-new-emerging.md#8-boson-ai) |
+
+### Reference competitor refresh (Nov 2026)
+
+- **Mirendil** — $1B Series A at ~$5B, agentic AI for R&D workflows (Kleiner + Clearlake). The new "agentic AI for X-research" anchor.
+- **Mercor** — $750M Series D at ~$20B. AI-training SME marketplace. Reference for any "experts-on-tap" wedge.
+- **Maritime / Nodus Compute / Vorelios / Hesper AI** — YC F26 agent-infra bias. Reference competitors for seed-stage infra pitches.
+- **LangChain** — $300M Series C at $3B (CapitalG). The agent-framework incumbent at the layer above you if you're building on top.
 
 ---
 

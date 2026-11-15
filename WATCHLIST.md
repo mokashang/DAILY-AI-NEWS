@@ -4,7 +4,75 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-11-13**
+Last updated: **2026-11-15**
+
+---
+
+## 2026-11-15 — new & updated threads (quick index)
+
+**Highest priority (next 7 days):**
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Anthropic (ANT) IPO — Nasdaq, Nov 18 pricing / Nov 19 first trade** | 🟡 | **2026-11-15:** 6× oversubscribed; FT says syndicate weighing pricing above $70–$78 range → ~$1.5T; **$26B Class N private placement** to AMD/Broadcom/Google/Micron/Microsoft/Nvidia/TSMC; 49 compute mentions in roadshow; 35% long-term op-margin target | Final pricing (above vs inside range); Day-1 pop; ~6mo lockup = mid-May 2027 supply event |
+| **NVIDIA Q3 FY27 earnings Mon Nov 17** | 🟡 NEW | **2026-11-15:** pre-close; guide $108.0B ± 2%, GM 74.0%; **Rubin CPX long-context SKU status is the open question** (Buck pulled at GTC; Kuo HBM4 revival Q1 CY27); $40B/GW Rubin vs $25B/GW Blackwell | Rubin CPX mention; Broadcom threat framing; guide vs consensus |
+| **Anthropic Residency 2026 — Nov 22 deadline** | 🟡 NEW | **2026-11-15:** applications open; alignment/interpretability/eval lanes explicit | Submission by Nov 22; cohort size disclosure; first intake date |
+| **MSFT buyout India sub-window Dec 1 / US/UK/Canada "early December"** | 🟡 | **2026-11-15:** India Dec 1 window firmer than US; no uptake disclosure; blog-rumored <5% uptake = 1,200–3,000 engs hit market Jan 1 | Actual uptake %; destination companies (Azure alumni → Glean/Writer/Cresta hubs) |
+| **OpenAI GPT-6 Cyber (via Releasebot Nov 14) + ChatGPT Wallet (Nov 13 US Pro)** | 🟡 NEW | **2026-11-15:** 48.5% ExploitGym vs 32.1% for 5.6-Cyber; High→Critical Preparedness Framework; Daybreak Red narrow-gate. Wallet = biometric in-ChatGPT purchases. | OpenAI primary-source confirmation of GPT-6 Cyber; Wallet rollout to Plus/Free; Natural / Parallel / "Stripe-for-agents" cohort pivot moves |
+| **Gemini 4 Argon → Carbon (two-week SKU cadence)** | 🟡 NEW | **2026-11-15:** Carbon leads Artificial Analysis Intelligence Index v5 at 59 pts; cyber-defense + long-running agents, gated to Fairwind security experts | Broader GA; whether Carbon is the flagship or a cyber sub-SKU; Vertex pricing |
+| **Three-way vertical cyber race: Mythos 5.2 vs GPT-6 Cyber vs Gemini 4 Carbon** | 🟡 NEW | **2026-11-15:** all three labs ship a cyber-specific flagship within a 60-day window | Shared-eval benchmarks; govtech RFP responses; CISO adoption patterns |
+| **Kimi K3.1 Pro open-weight + 30% revenue-share license** | 🟡 NEW | **2026-11-15:** weights on HF ~Nov 2–4; 1M ctx; rev-share kicks in at $20M Kimi-served ARR | First western SaaS anchored on it; Mistral/Qwen/GLM equivalent commercial terms |
+| **Mistral Large 4 open weights (HF live Nov 14)** | 🟡 NEW | **2026-11-15:** first Mistral flagship with full open weights since Large 2 (2024); Mistral Ecosystem Open Weight License | Fine-tune ecosystem; EU regulated-vertical adoption |
+
+**Funding & M&A (Nov 2026):**
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **LangChain $300M Series C at $3B — CapitalG lead** | 🟢 NEW | 2026-11-13 | LangSmith + LangGraph HITL hiring; whether LangChain deepens Anthropic integration or diversifies |
+| **Mirendil $1B Series A at ~$5B (agentic AI for R&D)** | 🟢 NEW | 2026-11-12 (Kleiner + Clearlake co-lead) | FDE/Applied-AI hiring Dec–Jan 2027; whether Thermo Fisher / Danaher strategic-invest in response |
+| **Mercor $750M Series D at ~$20B (AI-training SME marketplace)** | 🟢 NEW | Early Nov | Surge / Scale / Invisible comparative moves |
+| **Bedrock Robotics $600M + Tutor Intelligence $75M (a16z) + 4 more = $1.03B/week robotics** | 🟢 NEW | Early Nov | VLA fine-tuning hiring; first production vertical robotics IPO 2027 candidate |
+| **Boson AI ~$70M voice foundation models** | 🟢 NEW | 2026-11-09 | Whether Claude Meetings integration lands; voice MLE hiring surge |
+| **Kindo $30M AI secops** | 🟢 NEW | 2026-11-10 | Internal-AI governance category consolidation |
+| **Meta/Conductor acquisition (coding agent, parallel workspaces)** | 🟢 NEW | 2026-11-04 (TechCrunch, Meta confirmed) | Whether Conductor integrates with Code w/ Claude or stays self-contained |
+| **Five9 → Level AI $325M** | 🟢 NEW | 2026-11-05 | Sierra / Decagon / Cognigy response |
+| **OpenAI → Odessia (travel agents)** | 🟢 NEW | Early Nov | ChatGPT vertical surface expansion (finance / health next?) |
+| **Oura → Counsel Health $625M** | 🟢 NEW | Early Nov | Apple / Garmin / Whoop response; health-agent exit vintage forming |
+| **Dropbox → Tigris Data ~$350M (8-K)** | 🟢 NEW | Early Nov | Box / Google Workspace / MS365 equivalent moves; "agent-native storage" as wedge |
+| **YC F26 batch (~108 companies) heavy on agent infra; W27 announcing** | 🟡 NEW | **2026-11-15:** Maritime / Nodus / Vorelios / Hesper AI | Founding-engineer hiring (peak window); W27 batch size + composition |
+
+**Practical / Dev tools (Nov 2026):**
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **MCP spec revision 2026-07-28 stable + TS SDK 2.4.0** | 🟢 NEW | 2026-11-10 → 2026-11-12 | Ruby/Go SDK parity; MS365 Copilot integration (Arctera gov layer) adoption |
+| **Claude Code 2.1.295 / 2.1.304 (InstructionsLoaded hook + 32-skill cap + 1024 hooks/source)** | 🟢 NEW | 2026-11-15 | Hook adoption patterns; community response to skill cap |
+| **LangGraph 1.2.20 strict resume (HITL race fix) + LangChain 1.5.0 drops Py 3.10** | 🟢 NEW | 2026-11-05 → 2026-11-11 | 1.2.22 release notes; Py 3.10 migration churn |
+| **`llm` 0.37.2 security fix** | 🟢 NEW | 2026-11-11 | CVE numbers issued; downstream `llm-*` plugin updates |
+| **Antigravity 2.0 (ADK 2.0) hardens Managed Agents primitive** | 🟡 | 2026-11-03 | Google Cloud Agent hiring; whether Anthropic Managed Agents (self-hosted) matches |
+
+**Career / Comp (Nov 2026):**
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Ramp AI Index Nov: Anthropic 49.3% (−3.9pt), OpenAI 46.1%, SpaceXAI #1 growth** | 🟡 NEW | Week ending Nov 1 | Dec Index — whether Anthropic holds above 45% through IPO vs dips below 45% |
+| **FDE lane concentration — Palantir has structural new-grad pipeline; Anthropic hires under "Applied AI Engineer"** | 🟡 | 2026-11-15 | Comp band drift; whether Anthropic rebrands FDE as "Applied AI Engineer" permanently |
+| **`AI Engineer` median $155.5K vs `ML/AI SWE` $250.9K title delta** | 🟡 NEW | Levels.fyi Nov 14 pull | Whether title inflation closes the gap in 2027 |
+| **H-1B / OPT fee NPRM (closed Nov 9), $100K fee status fluid, duration-of-status blocked** | 🟡 | Comment period closed 2026-11-09 | DHS appeal outcome; NPRM final rule |
+| **Reversal pattern: Salesforce + Ford rehiring after AI-replacement cuts** | 🟡 NEW | **2026-11-15** | Whether pattern spreads; "agent + human-in-loop" hiring volume in 2027 |
+| **Anthropic Automated Alignment Researchers (Opus 4.8 beats 28 humans)** | 🟢 NEW | **2026-11-15** | Whether residency / safety hiring explicitly mentions this track |
+
+**Research (2611.xxxxx wave):**
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Dependable Long-Horizon Agents (2611.13254)** | 🟢 NEW | 2026-11-09 | Follow-up implementations; whether labs adopt mid-trajectory verifiers in production |
+| **Ask2Decide clarification benchmark (2611.13015)** | 🟢 NEW | Nov 2026 | Whether clarification-ranker middleware startups surface |
+| **RLiD decision-plane RL 99.3% ALFWorld (2611.02455)** | 🟢 NEW | 2026-11-02 | Reproductions; whether the pattern generalizes beyond ALFWorld |
+| **Peer Memory negative result (2611.09990)** | 🟢 NEW | 2026-11-02 | Impact on multi-agent memory startup pitches (expect de-ratings) |
+| **OpenVLA goal-representation editing (2611.08895)** | 🟢 NEW | 2026-11-06 | VLA interpretability as safety-of-robotics research lane |
+| **TTS at small scale + pruning + diffusion (2611.02208, 2611.01133, 2611.10486)** | 🟢 NEW | Nov 2026 | "Pruned + TTS" cost arbitrage adoption |
+| **SWE-bench Verified saturation + SWE-bench Pro conflict** | 🟡 | 2026-11-15 | Which benchmark becomes the industry standard |
 
 ---
 

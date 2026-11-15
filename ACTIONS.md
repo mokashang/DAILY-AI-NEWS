@@ -4,7 +4,69 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-11-13**
+Last updated: **2026-11-15**
+
+---
+
+## This week (Nov 15 – Nov 22) — the 36-hour re-pricing window + Anthropic Residency deadline
+
+### Today (Sunday Nov 15) — Weekend ship window
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship one MCP server on TS SDK 2.4.0 (Skills-over-MCP; 3 tools; 5-case eval; README; demo gif) — route across Anthropic + OpenAI** (hedges Ramp share erosion) | Today 10 pm | [2026-11-15/03 §2](./2026-11-15/03-practical-skills-and-tools.md#2-mcp-2026-07-28) |
+| ⚪ | **Draft Anthropic Residency 2026 application at 60%** (cite Mech Interp Survey 2611.08438 + Automated Alignment Researchers + one portfolio artifact) | Tonight | [2026-11-15/05 §4](./2026-11-15/05-career-and-startup.md#4-anthropic-residency) |
+| ⚪ | **Upgrade `llm` to 0.37.2** (SECURITY FIX for `llm openai endpoint add`) | 5 min | [2026-11-15/03 §4](./2026-11-15/03-practical-skills-and-tools.md#4-llm-0-37-2) |
+| ⚪ | **Upgrade LangGraph to 1.2.20+ + flip interrupts to strict resume** (if using HITL) | 15 min | [2026-11-15/03 §3](./2026-11-15/03-practical-skills-and-tools.md#3-langchain-langgraph) |
+| ⚪ | **Prompt-caching audit** on one real Claude Code project (`/cost` screenshots before/after) | 90 min | [2026-11-15/03 §5](./2026-11-15/03-practical-skills-and-tools.md#5-prompt-caching) |
+
+### Monday Nov 16 — Residency polish + résumé rebrand
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Polish Anthropic Residency application; aim to submit Tuesday** to beat last-minute traffic | Mon night | [2026-11-15/05 §4](./2026-11-15/05-career-and-startup.md#4-anthropic-residency) |
+| ⚪ | **Rewrite résumé to pass Anthropic "Applied AI Engineer" keyword screen** (add MCP, FastMCP, Fable 5.2, agent control plane, HITL interrupts up top; drop "fine-tuned a Llama") | Mon | [2026-11-15/05 §2](./2026-11-15/05-career-and-startup.md#2-fde-lane) |
+
+### Monday Nov 17 — NVIDIA Q3 FY27 earnings (pre-close) — the single biggest datapoint of the week
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Watch NVIDIA Q3 FY27 earnings live** — note Rubin CPX status (shelved vs revived), Broadcom-threat framing, $108B ± 2% guide confirm | Mon pre-close | [2026-11-15/01 §2](./2026-11-15/01-big-lab-moves.md#2-nvidia-q3) |
+
+### Tuesday Nov 18 — ANT IPO pricing + Residency submit
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Submit Anthropic Residency 2026 application** (final polish, submit by noon to avoid last-minute queue) | Tue | [2026-11-15/05 §4](./2026-11-15/05-career-and-startup.md#4-anthropic-residency) |
+| ⚪ | **Watch ANT pricing** (after close Tuesday) — if above $78 = ~$1.5T; if inside range = $1.0–1.4T | Tue PM | [2026-11-15/01 §1](./2026-11-15/01-big-lab-moves.md#1-anthropic-ipo) |
+
+### Wednesday Nov 19 — ANT first trade
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Watch ANT first trade / Day-1 pop** — bookmark for comp negotiations across Anthropic + hiring-partner Class-N holders (AMD/Broadcom/Google/Micron/Microsoft/Nvidia/TSMC) | Wed open | [2026-11-15/01 §1](./2026-11-15/01-big-lab-moves.md#1-anthropic-ipo) |
+| ⚪ | **Submit 1 Anthropic "Applied AI Engineer" application** before quiet-period hiring tightens | Wed | [2026-11-15/05 §2](./2026-11-15/05-career-and-startup.md#2-fde-lane) |
+
+### Thu–Fri Nov 20–21 — Post-IPO product-cluster watch
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Monitor Google / Microsoft / Meta for post-IPO product clusters** (prediction: launch cluster week of Nov 24) | Thu–Fri | [2026-11-15/01 §6](./2026-11-15/01-big-lab-moves.md#6-quiet-weekend) |
+
+### Saturday Nov 22 — ANTHROPIC RESIDENCY 2026 DEADLINE
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **FINAL DEADLINE: Anthropic Residency 2026 application** | Sat | [2026-11-15/05 §4](./2026-11-15/05-career-and-startup.md#4-anthropic-residency) |
+
+### FDE apps — fire 10 before Dec 1 to beat India MSFT wave
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **1× Palantir new-grad FDE app** (only big-three with structural new-grad pipeline) | By Nov 21 | [2026-11-15/05 §2](./2026-11-15/05-career-and-startup.md#2-fde-lane) |
+| ⚪ | **1× Anthropic Applied AI Engineer** app | Wed Nov 19 | [2026-11-15/05 §2](./2026-11-15/05-career-and-startup.md#2-fde-lane) |
+| ⚪ | **3× Glean / Distyl / Decagon** apps (weekend) | By Nov 22 | [2026-11-15/05 §2](./2026-11-15/05-career-and-startup.md#2-fde-lane) |
+| ⚪ | **5× MSFT-alumni-friendly AI startups** cold-apply with "aware of MSFT buyout wave" framing: Glean, Writer, Cresta, Observe.AI, Cohere, Snorkel, Weaviate, Pinecone, LangChain, Modal | By Dec 1 | [2026-11-15/05 §1](./2026-11-15/05-career-and-startup.md#1-msft-timing) |
 
 ---
 

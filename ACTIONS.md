@@ -4,13 +4,55 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-11-14**
+Last updated: **2026-11-19**
 
 ---
 
-## This week (Nov 10 – Nov 16) — Anthropic IPO week + MSFT buyout window
+## This week (Nov 17 – Nov 23) — ANT trades, Opus 4.8 sunsets, FDE census pivot
 
-### Today (Saturday Nov 14)
+### Today (Thursday Nov 19) — ANT Day 1
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Screenshot ANT opening-day tape on your brokerage** (Day 1 chart = 90-day interview prop) | Today | [2026-11-19/05 §1](./2026-11-19/05-career-and-startup.md#1-ant-day-one) |
+| ⚪ | **Submit 1 Anthropic Solutions / Integration / FDE app TODAY** (before public-company quiet-period tightens hiring Mon) | Today | [2026-11-19/05 §1](./2026-11-19/05-career-and-startup.md#1-ant-day-one) |
+| ⚪ | **Pivot FDE application list → Databricks-weighted** (2–3 Databricks FDE roles across verticals; add to tracker above Palantir) | Today | [2026-11-19/05 §2](./2026-11-19/05-career-and-startup.md#2-fde-census) |
+| ⚪ | **Audit production code for `opus-4.8-fast` references** — grep for the string, plan migration path (Fable 5.2 / Opus 5.5 low effort / opus-4.8-base) | Today | [2026-11-19/03 §2](./2026-11-19/03-practical-skills-and-tools.md#2-opus-48-sunset) |
+| ⚪ | **Delete GAIA citations from résumé / portfolio / LinkedIn** → replace with GDPval-AA v2.1 or BenchLM | 15 min | [2026-11-19/03 §3](./2026-11-19/03-practical-skills-and-tools.md#3-gdpval-aa) |
+
+### Friday Nov 20 — Market Day 2 + ANT comp sheet
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Log ANT closing prices Nov 19–20 into a comp-anchoring spreadsheet** — compute first-5-day close average for future RSU negotiation | End of day Fri | [2026-11-19/05 §1](./2026-11-19/05-career-and-startup.md#1-ant-day-one) |
+| ⚪ | Rewrite résumé / LinkedIn "vibe coding" / "prompt engineering" / "LLM-powered app" language → **"agentic engineering"** | 30 min | [2026-11-19/03 §5](./2026-11-19/03-practical-skills-and-tools.md#5-agentic-engineering) |
+| ⚪ | Submit 2 Databricks FDE applications (industry verticals: FS, healthcare, or retail) | Fri | [2026-11-19/05 §2](./2026-11-19/05-career-and-startup.md#2-fde-census) |
+
+### Weekend Nov 22–23 — Opus 4.8 Migration Playbook + PIPETTE artifact
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship "Opus 4.8 Migration Playbook" public repo** (decision-tree doc + grep script + before/after.yaml) | Sat | [2026-11-19/03 §6](./2026-11-19/03-practical-skills-and-tools.md#6-ship-artifact) |
+| ⚪ | **Wrap PIPETTE (arXiv 2611.24362) around your MCP server** — publish 1 failure trace + fix PR | Sun | [2026-11-19/03 §4](./2026-11-19/03-practical-skills-and-tools.md#4-pipette) |
+| ⚪ | Read + implement a threshold-rule demo from "Threshold Theory of Plan Commitment" (arXiv 2611.19663) → add to agent-control-plane portfolio | Sun | [2026-11-19/04 §2](./2026-11-19/04-research-progress.md#2-plan-commitment) |
+| ⚪ | Install Claude Code 2.1.326 + update `.claude/CLAUDE.md` to reflect **Code Mode as default** | 15 min | [2026-11-19/03 §1](./2026-11-19/03-practical-skills-and-tools.md#1-claude-code-code-mode) |
+
+### Next week (Nov 24 – Nov 30) — Opus 4.8 cutoff + YC Demo Day prep
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Opus 4.8 fast-mode hard-error deadline Nov 30** — all production migrations must be live by this date | Nov 30 | [2026-11-19/03 §2](./2026-11-19/03-practical-skills-and-tools.md#2-opus-48-sunset) |
+| ⚪ | Build 20-company YC F26 AI-tagged watch-list (ycombinator.com/companies filter) before Dec 2 Demo Day | Nov 24 | [2026-11-19/05 §4](./2026-11-19/05-career-and-startup.md#4-yc-demo-day) |
+| ⚪ | Cold-apply 3–5 YC F26 founding-engineer roles Dec 3–10 | Dec 3–10 | [2026-11-19/05 §4](./2026-11-19/05-career-and-startup.md#4-yc-demo-day) |
+| ⚪ | Watch MSFT buyout final uptake number (early December) — **update Jan 1 ex-MSFT wave forecast to actual** (~1,500–2,500 total; engineer subset ~800–1,500) | Early Dec | [2026-11-19/05 §3](./2026-11-19/05-career-and-startup.md#3-msft-buyout-update) |
+
+---
+
+## Previous weeks (archived)
+
+### Week of Nov 10 – Nov 16 — Anthropic IPO week + MSFT buyout window (archived)
+
+### Saturday Nov 14
 
 | Status | Action | Due | Source |
 |---|---|---|---|

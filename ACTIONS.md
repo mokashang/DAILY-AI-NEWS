@@ -4,13 +4,54 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-11-19**
+Last updated: **2026-11-23**
 
 ---
 
-## This week (Nov 17 – Nov 23) — ANT trades, Opus 4.8 sunsets, FDE census pivot
+## This week (Nov 23 – Nov 29) — Post-IPO Monday, Thanksgiving-short, MSFT Dec 1 deadline looms
 
-### Today (Thursday Nov 19) — ANT Day 1
+### Today (Monday Nov 23) — apply this week, before quiet period tightens + before Thanksgiving
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Fire 5 FDE apps in this order: Anthropic → OpenAI → Sierra → Glean → Decagon** (ANT quiet period tightens recruiting; Sierra re-marks pre-$30B close) | Today / Tue | [2026-11-23/05 §1](./2026-11-23/05-career-and-startup.md#1-ant-comp-aftermath) · [§5](./2026-11-23/05-career-and-startup.md#5-sierra-fde) |
+| ⚪ | **Patch Claude Code to ≥ 2.1.326** (2.1.319 fixes Bash perm bypass + worktree sandbox escape — security) | Today | [2026-11-23/03 §1](./2026-11-23/03-practical-skills-and-tools.md#1-claude-code) |
+| ⚪ | **Ship `router.md` + 20-case eval to a public GitHub repo tonight** (the 2026 FDE portfolio piece) | Tonight | [2026-11-23/03 §2](./2026-11-23/03-practical-skills-and-tools.md#2-routing-policy) |
+| ⚪ | Add 'Anthropic 49.3% token share (Ramp Nov index)' one-liner to cover letter template | 30 min | [2026-11-23/05 §3](./2026-11-23/05-career-and-startup.md#3-ramp-index) |
+| ⚪ | Mark **May 17, 2027** on calendar as "ANT lockup expiry — watch volatility" | 2 min | [2026-11-23/05 §1](./2026-11-23/05-career-and-startup.md#1-ant-comp-aftermath) |
+
+### Tue–Wed Nov 24–25 — before Thanksgiving hiring freeze
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Add **Gemini 4 Neon** case (Vending-Bench + SEC-bench style) to your 20-case eval | Tue | [2026-11-23/03 §3](./2026-11-23/03-practical-skills-and-tools.md#3-neon-vending-bench) |
+| ⚪ | LinkedIn-search 20 Anthropic FDEs + Sierra Customer Eng; send 5 tailored connects | Tue–Wed | [2026-11-23/05 §5](./2026-11-23/05-career-and-startup.md#5-sierra-fde) |
+| ⚪ | For any Anthropic interviews on the schedule: ask recruiter for **grant share count, vesting cliff, double-trigger acceleration** in writing | As scheduled | [2026-11-23/05 §4](./2026-11-23/05-career-and-startup.md#4-fde-comp) |
+| ⚪ | Monitor ANT price daily; note the week's close for lockup-math reference | Thu close | [2026-11-23/01 §1](./2026-11-23/01-big-lab-moves.md#1-ant-ipo) |
+
+### Thanksgiving weekend Nov 26–29 — ship window (quiet; no hiring-mgr email responses)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship a working customer-service-agent demo** for a public vertical (your uni's IT helpdesk, a public SaaS's docs) — Sierra app support artifact | Sat–Sun | [2026-11-23/05 §5](./2026-11-23/05-career-and-startup.md#5-sierra-fde) |
+| ⚪ | Upgrade portfolio MCP server to **Code Mode + agent-team** pattern (`.claude/agents.yml`) | Sun | [2026-11-23/03 §6](./2026-11-23/03-practical-skills-and-tools.md#6-vibe-coding) |
+| ⚪ | Read the Terminal-Bench 2.1 Audit paper (arXiv 2611.08417) + add 'version my scores' discipline to eval repo | Sun, 30 min | [2026-11-23/04 §2](./2026-11-23/04-research-progress.md#2-terminal-bench-21) |
+
+### Dec 1 is MSFT election deadline — pre-position before Jan 1 applicant flood
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Confirm by Nov 30 that all 5 FDE apps + Sierra demo + router + MCP upgrade are shipped and public** — stack is smaller pre-Dec 1 | Nov 30 | [2026-11-23/05 §2](./2026-11-23/05-career-and-startup.md#2-msft-buyout-deadline) |
+| ⚪ | Dec 1 → Dec 20: fire follow-up emails on silence from Nov apps | Dec 1–20 | [2026-11-23/05 §2](./2026-11-23/05-career-and-startup.md#2-msft-buyout-deadline) |
+
+---
+
+## Previous weeks (archived)
+
+### This week (Nov 10 – Nov 16) — Anthropic IPO week + MSFT buyout window (done or superseded)
+### Nov 17 – Nov 23 archive — ANT trades, Opus 4.8 sunsets, FDE census pivot
+
+### Thursday Nov 19 — ANT Day 1
 
 | Status | Action | Due | Source |
 |---|---|---|---|

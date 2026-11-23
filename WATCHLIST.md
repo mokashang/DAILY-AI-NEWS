@@ -4,7 +4,27 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-05-22**
+Last updated: **2026-11-23**
+
+---
+
+## 2026-11-23 updates (top-of-file — rolls into sections below over time)
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **Anthropic IPO → public: ANT** | 🟢 **RESOLVED (was 🟡)** | **2026-11-18–19:** Priced $83 (980M Class A, upsized from 825M), **$81.3B raise = largest IPO on record**. Day 1 opened $111.50 (+34.3%), closed $97.17 (+17%). Today (Nov 23) ~$89.77. Market cap at Day-1 close widely cited **~$1.27T–$1.5T fully diluted**. | **ANT lockup expiry ~May 17, 2027** (~180d). Q4 earnings Feb 2027 = first legible comp anchor. Daily ANT price for negotiation reference. |
+| **ANT lockup clock (new)** | 🟡 NEW | Inherits from the IPO row; ~6-month post-IPO lockup | Insider sales post-expiry; Anthropic attrition rate; ex-Anthropic researcher seed rounds Q2 2027; backfill req opening Aug–Oct 2027 |
+| **OpenAI GPT-6.2 Astra + Sol** | 🟢 NEW | **2026-11-17:** Astra $8/$40 (cache $0.40), Sol $2/$10 w/ 2×/1.5× surcharge >272K ctx. Astra #2 on Artificial Analysis Intelligence Index behind Fable 5.2; +5.2 pts on Agents' Last Exam at <1/3 cost | Whether "High" self-improvement Preparedness-threshold claim is confirmed by a second primary source; OpenAI's own Preparedness-Framework assessment; third-party replications (METR / Apollo); Anthropic + Google responses within 30 days |
+| **Google Gemini 4 Neon** | 🟢 NEW | **2026-11-18:** 4th Gemini 4 variant in 7 weeks (Argon Oct 13 → Carbon Nov 10 → Hydrogen Nov 12 → Neon Nov 18); $3/$15 per M at 1M ctx; Intelligence Index 61 at max-effort (#3 overall); **#1 Vending-Bench 2 $16,843 + #1 SEC-bench Pro 90.5%**; trails Opus 5.5 on Terminal-Bench 4.1 + FrontierCode 2.0 | Which vertical-SaaS starts routing to Neon as default; whether Google's SKU cadence (~monthly) continues through Q1 2027 |
+| **Three-model price band ($8/$40, $3/$15)** | 🟡 NEW | **2026-11-10 → 2026-11-18:** Fable 5.2 + GPT-6.2 Astra at identical $8/$40; Neon at $3/$15; Sol at $2/$10 — price-per-intelligence-point dropped ~30% in 10 weeks | Whether the $0–$2 input band fills with next-gen open-weight frontier (Muse Spark Open, Qwen 3.8, GLM 5.3); whether cache tiering becomes universal |
+| **NVIDIA supply-chain expansion** | 🟢 NEW | **2026-11-18:** Commitments with Amkor + Foxconn + Kinsus + Samsung Electro-Mechanics + SPIL + TSMC for substrates + advanced packaging + wafers; Vera Rubin NVL72 + Vera CPUs in volume shipment Q3 2026 on TSMC 5nm/3nm + CoWoS; no dollar figures | NVIDIA Feb 2027 earnings guide for 2027 Rubin revenue; whether CoWoS capacity bottleneck opens as a startup lane |
+| **Sierra ~$30B / ~$1.5B raise talks** | 🟡 NEW | **2026-11-18 (The Information):** Sierra in talks to raise ~$1.5B at ~$30B — 2× May mark ($15–15.8B at $950M). Not a closed round | Round close announcement; lead investor identity; whether pre-IPO positioning triggers Anthropic / OpenAI / Harvey / Decagon revaluations in Q1 2027 |
+| **Ramp AI Index Nov 2026 — token-spend regime change** | 🟢 NEW | **2026-11-11:** Total AI token spend +10.5% MoM (breaks ~flat Aug–Sept pattern); Anthropic 49.3% token share; 44.8% dollars vs OpenAI 40.6%; top-1% $10,199/employee/month (up from $7,500); engineering ~72% of classified AI spend (secondary) | Whether Dec/Jan prints extend the token-spend reacceleration; whether engineering share stays ~70% or broadens into Marketing/Ops |
+| **Microsoft 60K voluntary buyout — Dec 1 deadline** | 🟡 | **Oct 30 → Dec 1:** election deadline 8 days away (as of Nov 23). Industry baseline uptake 3–5% → 1,800–3,000 engineers to Jan 1 market | Uptake %; AI/ML share of departures; destination companies; Q1 2027 pre-seed round spike from ex-MSFT founders |
+| **Claude Code 2.1.319 → 2.1.326** | 🟢 NEW | **Nov 6 → Nov 16:** 2.1.319 was >50% security fixes (Bash permission bypass + worktree sandbox escape); 2.1.326 wires **Code Mode into agent teams** (planner → coder → verifier as one SDK call) | Whether Code Mode + agent teams becomes the Nov 2026 "`.editorconfig` moment" — teams publishing `.claude/agents.yml` templates; whether competitor coding agents (Cursor, Cline, Zed) ship agent-team parity |
+| **Terminal-Bench 2.1 Audit (arXiv 2611.08417)** | 🟢 NEW | **Nov 5:** ~30% of Terminal-Bench 2.0 tasks had issues; 2.1 released with repairs | Whether other top-5 benchmarks (SWE-Bench, LiveCodeBench, Agents' Last Exam, Vending-Bench 2) get audit papers in the next 90-day window |
+| **SlackBench (arXiv 2611.05512) + research-agent delivery (arXiv 2611.14364)** | 🟢 NEW | **Nov 5 / Nov 10:** workplace-chat + evolving-repo agents cap at ~80% best, most <66%; standalone-task benchmarks overstate real-world reliability | Whether an "agent memory / cross-session continuity" category raises a visible mega-round in Q1 2027 |
+| **FDE comp bands (post-IPO legibility)** | 🟡 | **2026-11-23:** Paraform cites Anthropic FDE $300K–$1.2M (ceiling outlier); public ANT grants now priceable in real dollars | Whether Feb 2027 Anthropic Q4 earnings crystallizes a new new-grad FDE band; Sierra comp step-up after $30B close |
 
 ---
 

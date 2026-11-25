@@ -4,7 +4,25 @@ Open threads that span multiple days — so nothing drops between editions.
 
 Status legend: 🟢 confirmed/closed · 🟡 active/developing · 🔴 stalled · ⚪ rumor
 
-Last updated: **2026-11-23**
+Last updated: **2026-11-25**
+
+---
+
+## New threads opened 2026-11-25
+
+| Thread | Status | Last move | Watching for |
+|---|---|---|---|
+| **ANT (Anthropic) below IPO price in six trading days** | 🟡 NEW | **2026-11-24:** closed **$81.91 (-6.54% on day, -26.5% from Nov 19 debut, below the $83 offer)**. Day 1 (Nov 19) opened $111.50 (+34%), closed $97.17 (+17%). Raised $81.3B — largest IPO on record. Staggered multi-tranche lockup. Dario + Daniela Amodei each sold ≥3.37M shares at $83 to underwriters Nov 20 | Floor price (does ANT find support before year-end?); S-1 lockup schedule → first release tranche date (likely May–Jul 2027 = peak apply window); whether ANT below offer is the "Snap moment" marking local AI-equity peak |
+| **NVIDIA Q3 FY27: $115.8B rev + Vera Rubin $20B first-quarter ramp + Q4 guide $130B** | 🟡 NEW | **2026-11-19:** rev $115.8B, EPS $2.68 vs $2.47 est, Data Center $107.6B (+110% YoY), Rubin first quarter ~$20B (fastest NVIDIA ramp), Q4 guide $130B ±3% ex-China, GM 71–72%, Colette Kress still interim CEO | Q4 FY27 actual vs guide; permanent CEO announcement; whether $500B Blackwell+Rubin visibility gets reaffirmed next cycle; Oracle + Google Cloud Rubin GA utilization data |
+| **"AI chip prices will crash" (Ghodsi) vs. NVIDIA $130B Q4 guide** | 🟡 NEW | **2026-11 (The Information):** Databricks CEO Ali Ghodsi publicly predicts a "major drop in AI chip prices"; NVIDIA Q4 guide contradicts on 2–3 quarter horizon | SemiAnalysis independent read; Morgan Stanley / Bernstein response; whether any hyperscaler captures SKU-level ASP data |
+| **Agentic Reasoning Caching (ARCs, arXiv 2611.09891)** | 🟡 NEW | **2026-11-06:** compile LLM reasoning traces into CPU-executable caches for bounded input distributions | Replication on HumanEval+ / LiveCodeBench / SWE-bench Verified; pre-trained ARC public release; first production deployment of an ARC in a vertical workload |
+| **MCP "Predictable Release Cycle"** | 🟡 NEW | **2026-11-11:** steering group formalized hard-freeze cadence (one month before release); 2026-07-28 stateless spec stable | Next spec preview date; which Tier 1 SDK (Python, TS, Go, Rust) ships first after the next freeze |
+| **Isomorphic Labs $5B Series C** | 🟡 NEW | **2026-11-16:** closed per AI Funding Tracker (no sanctioned press release yet); ~2.4× uplift from May $2.1B round | Press release / anchor-pharma identity confirmation; hiring volume in London / Cambridge MA / Lausanne; next IND filing date |
+| **Model ML $250M Series B (General Atlantic + QED co-lead)** | 🟡 NEW | **2026-11-17:** financial-services-first agent platform (data-room + model-governance for banks) | Deployed-Engineer hiring post volume; which top-tier bank signs first; whether insurance/treasury vertical equivalents raise next |
+| **Claude Code auto-mode-default (v2.1.319, Nov 6)** | 🟡 NEW | **2026-11-06:** auto mode is now the default; actions server can't check get prompted or denied; adds MCP task support in terminal; v2.1.326 added Code Mode × agent teams; v2.1.327 (Nov 17) short-notes subagent summaries cut token cost | Which teams publish their `.claude/settings.json` + hook templates; whether structured-output-by-default is next default; Fast mode on Opus 4.8 sunset Nov 30 — downstream migrations |
+| **Thanksgiving-window application tactic** | 🟡 NEW | **2026-11-25:** 24-hour window to submit before US Thanksgiving dark period (Nov 26–Dec 1); top of the Dec 1 queue when recruiters re-engage | Application outcome delta (3 apps submitted by noon ET today) — log in APPLICATIONS.md |
+| **GPT-6.2 Astra/Sol rumor (single-source)** | ⚪ NEW | **2026-11-23 (PasqualePillitteri.it):** claims OpenAI announced 30-day retirement of GPT-5.6 Sol (Dec 23) and that GPT-6.2 Astra/Sol have been live in ChatGPT Work + Codex since Nov 17. **No corroboration.** NOTE: 2026-11-23 edition on this repo logs the GPT-6.2 Astra+Sol launch as 🟢 (confirmed) — the two lines refer to the same thread; verify against primary source before using as fact. | openai.com/news between now and Dec 23. If retirement notice is real, model names are probably right too |
+| **ANT lockup → H2 2027 "ex-Anthropic researcher" seed wave** | 🟡 NEW | **2026-11-25 planning:** per staggered lockup, first tranche release likely May–Jul 2027 | Exact release-date confirmation from S-1; "ex-Anthropic researcher" announcements starting from ~May 2027; prep cold-outreach template |
 
 ---
 

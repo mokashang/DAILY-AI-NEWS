@@ -4,11 +4,58 @@ Pulled out of WATCHLIST.md so that "what am I supposed to do this week" lives in
 
 Status legend: ⚪ open · 🟡 in progress · 🟢 done · 🔴 dropped (with reason)
 
-Last updated: **2026-11-14**
+Last updated: **2026-11-25**
 
 ---
 
-## This week (Nov 10 – Nov 16) — Anthropic IPO week + MSFT buyout window
+## This week (Nov 24 – Nov 30) — ANT post-IPO + Thanksgiving-window apps
+
+### Today (Tuesday Nov 25) — 24 hours before the Thanksgiving dark period
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Submit 3 FDE/Solutions apps BEFORE 12pm ET today**: Anthropic FDE, Glean Founding FDE, Model ML Deployed Engineer | **Today 12pm ET** | [2026-11-25/05 §2](./2026-11-25/05-career-and-startup.md#2-thanksgiving-window) |
+| ⚪ | **Rewrite résumé top 3 lines** (no "passionate about AI"; each line = repo URL / company / measured number) | Today | [2026-11-25/05 §1](./2026-11-25/05-career-and-startup.md#1-fde-new-grad-window) |
+| ⚪ | Each app cover line must reference **one specific primary-source item from this week** (ANT, NVIDIA Q3, Claude Code 2.1.319, MCP cadence, ARCs) | Today | [2026-11-25/03 §4](./2026-11-25/03-practical-skills-and-tools.md#4-source-tiering) |
+| ⚪ | Verify `.claude/settings.json` has `permissionMode: auto-safe` + explicit Bash allowlists + SubagentStop hooks | 10 min | [2026-11-25/03 §1](./2026-11-25/03-practical-skills-and-tools.md#1-claude-code-nov-cluster) |
+| ⚪ | **Fast mode on Opus 4.8 sunsets Nov 30** — if any pinned pipeline, migrate this week | By Fri | [2026-11-25/03 §1](./2026-11-25/03-practical-skills-and-tools.md#1-claude-code-nov-cluster) |
+
+### Wednesday Nov 26 — pre-Thanksgiving mop-up
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Follow-up email to any FDE application that confirmed receipt — one-line, with GitHub link to MCP server if shipped | Wed | [2026-11-25/05 §2](./2026-11-25/05-career-and-startup.md#2-thanksgiving-window) |
+| ⚪ | 30-min read of **ARCs paper (arXiv 2611.09891)** end-to-end; log 3-sentence note in `paper-notes` repo | Wed | [2026-11-25/04 §1](./2026-11-25/04-research-progress.md#1-arcs) |
+| ⚪ | Check **Model ML, Assort Health, Steno, LanceDB** careers pages — net-new postings in next 60 days | Wed | [2026-11-25/05 §4](./2026-11-25/05-career-and-startup.md#4-portfolio-target-list) |
+
+### Thu Nov 26 – Sun Nov 29 — Thanksgiving ship window
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Ship one public MCP server** (FastMCP, 2026-07-28 spec, 3 tools, 5-case Python eval, README + demo clip, auto-mode-default `.claude/settings.json`) | Sun night | [2026-11-25/03 §3](./2026-11-25/03-practical-skills-and-tools.md#3-mcp-weekend-artifact) |
+| ⚪ | Post MCP server on: Simon Willison's LLM-tag feed, `r/LocalLLaMA`, HN Show HN, LinkedIn | Sun night | [2026-11-25/03 §3](./2026-11-25/03-practical-skills-and-tools.md#3-mcp-weekend-artifact) |
+| ⚪ | **Friday 30-minute "one paper read"** — begin the weekly habit; log in `github.com/<handle>/paper-notes` | Fri | [2026-11-25/04 §5](./2026-11-25/04-research-progress.md#5-primary-source-habit) |
+
+### Mon Nov 30 – Fri Dec 4 — Dec 1 recruiter-re-engage week
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | **Dec 1 (Monday): verify all 3 Tuesday apps show "in review" / "submitted" status**; follow up on anything in "received" after 72 hrs | Dec 1 | [2026-11-25/05 §2](./2026-11-25/05-career-and-startup.md#2-thanksgiving-window) |
+| ⚪ | **MSFT 60K buyout deadline is Dec 1 (Mon)** — 5 cold outreach emails Dec 1 to AI-startup managers framed as "MSFT-alumni-friendly wave is coming — my calendar is open the week of Jan 5" | Dec 1 | [2026-11-14/05 §1](./2026-11-14/05-career-and-startup.md#1-microsoft-buyout) |
+| ⚪ | Submit 2 more Tier A apps (Assort Health, Steno, or LanceDB) + 1 Tier B (fal or Sierra) | Wed | [2026-11-25/05 §4](./2026-11-25/05-career-and-startup.md#4-portfolio-target-list) |
+
+### Watch items (passive — do not act, just track)
+
+| Status | Action | Due | Source |
+|---|---|---|---|
+| ⚪ | Track **ANT price floor** between now and Dec 31 — does it find support? Does it cross back above $83? | EOY | [2026-11-25/01 §1](./2026-11-25/01-big-lab-moves.md#1-anthropic-ipo-debut) |
+| ⚪ | Track **openai.com/news** for GPT-5.6 Sol retirement (Dec 23?) confirmation — if real, GPT-6.2 rumor firms up | Dec 23 | [2026-11-25/01 §5](./2026-11-25/01-big-lab-moves.md#5-openai-rumor) |
+| ⚪ | Track **MCP next spec preview** per "Predictable Release Cycle" post | Rolling | [2026-11-25/03 §2](./2026-11-25/03-practical-skills-and-tools.md#2-mcp-release-cycle) |
+| ⚪ | Track **Isomorphic Labs** press release confirming $5B Series C details | Rolling | [2026-11-25/02 §1](./2026-11-25/02-new-emerging.md#1-isomorphic-5b) |
+
+---
+
+## Prior week (Nov 10 – Nov 16) — Anthropic IPO week + MSFT buyout window
 
 ### Today (Saturday Nov 14)
 

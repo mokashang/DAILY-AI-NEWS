@@ -1,57 +1,57 @@
-# TL;DR — 2026-11-26 (Thanksgiving Eve)
+# TL;DR — 2026-11-26 (Thanksgiving Day)
 
-Sixty-second skim. **Anthropic is a public company. ANT priced at $83 on Nov 18, opened at $111.50 on Nov 19, raised ~$81.3B — the largest IPO on record, bigger than SpaceX if it ever lists.** OpenAI shipped **GPT-6.2 Astra + Sol on Nov 17** at the exact same $8/$40 and $2/$10 price points as Claude Fable 5.2 / Mythos 5.2 — the frontier is now explicitly priced the same by the top two labs, so the arena moves entirely to **routing, tool-use, and eval quality**. Google ran a two-model Gemini 4 drop: **Carbon (Nov 10, frontier)** and **Hydrogen (Nov 12, fast/cheap)**, with **Neon** already spotted in the Gemini web app code. Anthropic followed its own IPO week by **launching Claude Ship on Nov 23** — AI agents that **review, fix, *and* approve** pull-request changes end-to-end on GitHub (Team + Enterprise). **NVIDIA FY27 Q3 printed $115.8B revenue (+103% YoY), $107.6B Data Center (+110%), and guided Q4 to $130B** — AI infra demand did not cool one bit. Under the surface: **Mercor $750M Series D at $20B (NVDA + Salesforce + Zoom)**, **Sierra in talks at ~$30B on $1.5B (The Information)**, **a16z launched a Forward-Deployed Engineer Fellowship (Dec 31 deadline)**, **Microsoft's 60K-person voluntary buyout hit its Dec 1 deadline** (Nadella: "I wish I could say it'll all be the same — I cannot"), and **Chinese open-weight frontier compressed to Kimi K3.1 Pro / GLM-5.3 / Qwen 3.8** on the Artificial Analysis v5 index. Research-side: **DiscoveryAgent (arXiv 2611.21950)** showed audit agents help human scientists catch **14× more valid errors**; **"Agents, Think Only When It Helps" (arXiv 2611.05709)** dismantled a lot of chain-of-thought dogma for distilled agents. **FDE is still the single highest-leverage lane for a CS grad without a PhD; MCP servers + eval harnesses are still the portfolio asset to ship this weekend** — but the new skill to add is **PR-review automation** (Claude Ship + Code Review + `@claude review` triggers).
-
----
-
-1. **Anthropic ANT: $83 IPO, $111.50 open, $81.3B raised — the biggest IPO ever.** Priced above the $70–78 range on **Nov 18**, began trading **Nov 19** on Nasdaq Global Select under **ANT**, closed the offering **Nov 20**. **980M shares** sold, fully-diluted market cap near **$1.5T** at open per CNBC. **Lockup expiry ~May 2027 = Q2 2027 is still the hottest "ex-Anthropic researcher seed" window of the cycle**, now with real price discovery behind it. → [`01` §1](./01-big-lab-moves.md#1-anthropic-ant-ipo) `#anthropic #ipo #comp`
-
-2. **OpenAI GPT-6.2 Astra + Sol ship Nov 17 — same price points as Claude Fable 5.2 / Mythos 5.2.** **Astra $8/M in, $40/M out** (frontier); **Sol $2/M in, $10/M out** (everyday). Both in ChatGPT Work, Codex, and the API as `gpt-6.2-astra` and `gpt-6.2-sol`. **Astra is the first model OpenAI has deployed that crossed its Preparedness Framework "High" threshold for AI Self-Improvement.** Independent benches: #2 overall, trails Fable 5.2 on coding-agent evals. → [`01` §2](./01-big-lab-moves.md#2-gpt-62-astra-sol) `#openai #models #pricing`
-
-3. **Google Gemini 4 Carbon (Nov 10) + Hydrogen (Nov 12), Neon leaked.** **Carbon** = frontier long-horizon model (intro pricing through Nov 30; then **$4/M in, $20/M out**). **Hydrogen** = fast/cheap daily driver. **Neon** spotted in Gemini web-app code with no model card yet. Carbon went to a cybersecurity-defender early-access group two weeks before public GA. → [`01` §3](./01-big-lab-moves.md#3-gemini-4-carbon-hydrogen) `#google #gemini #pricing`
-
-4. **Anthropic Claude Ship (Nov 23) — AI agents that review, fix, AND approve PRs.** Team + Enterprise plans, GitHub repos. Builds on Code Review (March 2026) + the `@claude review` command — but now closes the loop: an agent can **propose the fix, apply it on a branch, and auto-approve** when the eval gates pass. This is the first mainstream "merge-without-a-human" surface. → [`01` §4](./01-big-lab-moves.md#4-claude-ship) `#anthropic #claude-code #agents`
-
-5. **NVIDIA FY27 Q3: $115.8B revenue (+103%), $107.6B Data Center (+110%), Q4 guide $130B.** Hyperscalers $60.1B (+71%); **AI-cloud/industrial/enterprise $47.5B (+195%)** — non-hyperscale is now the faster-growing bucket. Shipped **$2.4B Hopper to China this quarter but guides $0 China DC compute for Q4**. Vera Rubin shipping under interim CEO Colette Kress. → [`01` §5](./01-big-lab-moves.md#5-nvidia-fy27-q3) `#nvidia #chips #infra`
-
-6. **Mercor $750M Series D at $20B — NVDA + Salesforce + Zoom join (Nov 10–11).** Valuation **doubled in a year** (Series C was $350M at $10B, Oct 2025). Round includes an undisclosed employee tender. Mercor runs the data-labor marketplace that most frontier labs quietly rely on for RLHF + eval. → [`02` §1](./02-new-emerging.md#1-mercor) `#funding #rlhf #data-labor`
-
-7. **Sierra in talks at ~$30B on ~$1.5B round (The Information, Nov 18).** Lightspeed, Greenoaks, Benchmark as leads. **ARR hit $400M in October** (from $150M in Feb). This would be **~75× ARR** — the "enterprise-logo premium" from 2026-11-14's Rox entry has only compressed further. → [`02` §2](./02-new-emerging.md#2-sierra) `#funding #agents #customer-support`
-
-8. **Chinese open-weight frontier now = Kimi K3.1 Pro / GLM-5.3 / Qwen 3.8.** AA Index v5 (Nov 5) rankings: **K3.1 Pro 46 / GLM-5.3 32 / Qwen 3.8-27B** in the running. Five Chinese labs have compressed into a thirty-day release window on two licensing models (modified-MIT, revenue-gated custom). **The US open-weight frontier is still not obviously best.** → [`02` §3](./02-new-emerging.md#3-china-open-weight) `#open-source #china`
-
-9. **Microsoft 60K voluntary-buyout Dec 1 deadline passed; Nadella confirms AI is behind it.** At the Nov 19 analyst Q&A: *"I wish I could just sit here and say it'll all be the same. I cannot."* Industry 3–5% baseline uptake → **1,800–3,000 ex-MSFT engineers hit the open market by Jan 1**. The **Jan 2027 market will be flooded** — fire your apps by Dec 15 or wait until March. → [`05` §1](./05-career-and-startup.md#1-microsoft-buyout) `#msft #layoffs #timing`
-
-10. **a16z Forward-Deployed Engineer Fellowship 2027 — Dec 31, 2026 deadline.** Eight-week fellowship for FDEs and applied-AI leaders. First institutional-VC program explicitly for the FDE track. **Combine this with the Microsoft wave and the Anthropic IPO: the FDE lane is now (a) VC-credentialed, (b) backed by public-market comps (ANT), (c) still the fastest-growing non-research AI role.** → [`05` §2](./05-career-and-startup.md#2-a16z-fde) `#fde #careers #fellowship`
-
-11. **Research this fortnight: DiscoveryAgent + "Think Only When It Helps" + Access-Control for Agents.** (a) **DiscoveryAgent (arXiv 2611.21950)** — audit agents find **14×** more valid errors when paired with human scientists. (b) **"Agents, Think Only When It Helps" (arXiv 2611.05709)** — altering/discarding reasoning traces barely hurts distilled agent performance; implication: a lot of chain-of-thought spend is wasted on eval-passing routines. (c) **"Rethinking Access Control for AI Agents" (arXiv 2611.06764)** — the first systematic survey of what breaks when you let an agent act with a user's permissions. → [`04`](./04-research-progress.md) `#arxiv #agents #security`
-
-12. **Practical: Claude Code 2.1.327 (Nov 17) + Claude Ship + MCP 2026-07-28 + `@claude review` triggers.** The new portfolio recipe: **(a)** publish one MCP server, **(b)** wire it to a `@claude review` GitHub trigger, **(c)** ship a Claude Ship-eligible eval gate, **(d)** show one `/skill-doctor`-clean skill that uses it. This is the current single-weekend FDE-ready portfolio stack. → [`03`](./03-practical-skills-and-tools.md) `#claude-code #mcp #fde-portfolio`
-
-13. **The re-price of the fortnight: the frontier is now a commodity at $8/$40 (Claude Fable 5.2, GPT-6.2 Astra, Gemini 4 Carbon post-promo all at same price tier).** Three labs independently converged on the identical price point for the identical capability tier within six weeks. **Pricing is no longer a differentiator; routing / eval / vertical data / forward deployment are.** For job search: **stop benchmarking by model name**; **start benchmarking by eval-harness design + MCP surface built + PRs merged by a review-agent you configured.** → [`05`](./05-career-and-startup.md) `#reprice #careers #skills`
-
-14. **Secondary moves worth 60 seconds each:** (a) **OpenAI raised ~$11B on Nov 6** per aggregator reporting — follows the Microsoft/Nvidia/SoftBank compute-commit chain. (b) **Fal $1.65B at $16B (Series E+F)** confirmed by Bessemer lead. (c) **Mind Robotics**, **Wayve**, **AI21 Labs** all back on the quarterly-funding leaderboard. (d) **Palantir has NOT run mass layoffs in 2026**, despite click-bait headlines — FDEs still hiring. → [`02` §4](./02-new-emerging.md#4-secondary-moves) `#funding #robotics`
+Sixty-second skim. **US markets are closed today (Thanksgiving); half-day Friday.** Yesterday (Nov 25) was the deepest AI selloff since September — **Nasdaq −3.98%, NVIDIA −8.69%, AMD −9.56%, ANT a small bounce to ~$82.79 close (session range $73.85–$85.92) but still below its $83 offer**, 7 trading days after the biggest IPO in history. The pattern from [2026-11-25](../2026-11-25/00-tldr.md) holds — **fundamentals strong, multiples contracting** — and today's holiday pause is a gift: use it to prep for the **Dec 1 reopen**, when (a) Microsoft's 60K buyout acceptance deadline hits, (b) the Monday pipeline queues flush, and (c) Dec 2 YC F26 Demo Day lands (71% AI-tagged per Nov 24 edition). **Three things are genuinely new since yesterday's edition**: (1) **Anthropic launched Claude Ship on Nov 23** — agents that **review, fix, AND approve** PRs on GitHub (TechCrunch broke it; builds on March's Code Review product); (2) **Walmart opened Black Friday to Meta's Muse AI agent with per-agent spending caps and human-approval gates** — the first large-retail commerce surface wired for autonomous agent buying; (3) **ElevenLabs is in early talks for a 2027 round at $33B** (up from $22B) — voice-agent infra re-rated as a top-5 AI category. Research pick of the fortnight: **DiscoveryAgent (arXiv 2611.21950)** showed audit sub-agents help scientists catch **14× more valid errors**, and **a16z launched a Forward-Deployed Engineer Fellowship 2027 with a Dec 31 deadline** — the first VC-run FDE track. **Your action this week**: fire 5–10 FDE applications by Dec 15 (before the MSFT wave swamps Jan 2 pipelines), and ship one Claude Ship-eligible eval gate on a public repo over the long weekend.
 
 ---
 
-## One thing to DO this Thursday
+1. **ANT week-one tape:** Nov 24 close **$81.91** (−6.54% day, −26.5% from debut), Nov 25 session range **$73.85–$85.92** closing near **$82.79 (-1.7%)** with after-hours ticking up to ~$83.3 — **still below the $83 IPO offer 7 trading days in.** Nasdaq broadly **−3.98% on Nov 25** with NVDA **−8.69%** and AMD **−9.56%**. Staggered lockup from the S-1 stands; the first ~May 2027 tranche is the single most-watchable date in AI venture. → [`01` §1](./01-big-lab-moves.md#1-ant-week-one) `#anthropic #ipo #ant`
 
-→ **Spend 90 minutes today setting up Claude Ship on one of your own GitHub repos. Then, in 20 minutes, draft the a16z FDE Fellowship application.** The Microsoft buyout wave + the Anthropic IPO lockup math + the a16z Dec-31 deadline + the Jan-1 flood are *all one story*: **the FDE hiring window is open right now and starts closing in six weeks**. Put ANT, GPT-6.2, and Gemini 4 Carbon through a single cost-aware router (one afternoon with LiteLLM or similar) and screenshot the cost-per-task delta — that chart is an interview answer on its own. Detailed steps in [`05` §2](./05-career-and-startup.md#2-a16z-fde).
+2. **Anthropic launches Claude Ship (Nov 23) — agents review, fix, AND approve PRs.** Beta for Team + Enterprise plans; GitHub-only. **First mainstream agent surface where the agent is the approver**, not just a commenter. Builds on March's Code Review product and the July `@claude review` behavior update. Expected cost $15–25 per PR. → [`01` §2](./01-big-lab-moves.md#2-claude-ship) `#anthropic #claude-code #agents`
 
-## Watchlist deltas
+3. **Walmart × Meta Muse: first large-retail Black Friday wired for an autonomous agent (Nov 25).** Walmart opened its Black Friday catalogue to **Meta's Muse AI agent** with per-agent spending caps and human-approval gates. **The first production "AI agent buys from you" surface at retail scale** — Amazon and Meta are separately in talks to end Amazon's Muse-on-Instagram blockade. This is the commerce-side companion to Claude Ship's approve-on-GitHub surface. → [`01` §3](./01-big-lab-moves.md#3-walmart-muse) `#meta #commerce #agents`
 
-- 🆕 **ANT public trading:** new thread. Track price vs. $83 IPO + opening $111.50; watch for the **May 2027 lockup expiry** and Anthropic's first earnings call cycle (probably late Feb 2027).
-- 🆕 **GPT-6.2 Astra "AI Self-Improvement High" designation:** new thread. First frontier model shipped past OpenAI's own Preparedness threshold — track whether Anthropic / Google follow with similar public designations under their RSPs.
-- 🆕 **Gemini 4 Carbon / Hydrogen / Neon:** new thread. Watch which model gets Antigravity integration and whether Google starts routing Workspace by SKU.
-- 🆕 **Claude Ship "AI-approved merges":** new thread. First major surface where an agent *approves* (not just comments). Watch the first regulated-industry incident (fintech, healthcare) and how GitHub's required-reviewer rules evolve.
-- 🆕 **NVIDIA $0 China DC guide:** new thread. First quarter with explicit $0 China data-center compute guidance — track Huawei Ascend ramps and whether Chinese labs retool around domestic silicon.
-- 🆕 **Mercor $20B + NVDA/Salesforce/Zoom stakes:** new thread. Data-labor marketplaces now a top-5 AI category by valuation; track Scale AI, Surge, Toloka response.
-- 🆕 **a16z FDE Fellowship:** new thread. First VC-run program for the FDE track — track admission rate, placements, and whether YC follows.
-- ➡️ **Anthropic IPO window (from 2026-11-14):** resolved. Thread moves to ANT public-market trading + lockup.
-- ➡️ **Microsoft 60K buyout (from 2026-11-14):** Dec 1 deadline arrives today. Watch uptake % announcement in the Nadella Dec earnings commentary.
-- ➡️ **FDE lane (from 2026-10-14, 2026-11-14):** reinforced. a16z fellowship + MSFT Frontier Company (6K FDEs) + EY $1B commitment stacks.
-- ⬇️ **"Latest model" fluency:** further deprecated. Three labs converged on $8/$40 within six weeks; the model-name résumé bullet is now effectively zero-signal.
-- ⬇️ **Generic "AI agent" wedges:** Sierra at $30B closes the enterprise-support category for new entrants without vertical data.
+4. **ElevenLabs in early talks at $33B for a 2027 round (Nov 25 reporting).** Up from $22B. Voice-agent infra now priced as a top-5 AI category. Context: Claude Meetings had an outage-and-restore cycle through mid-November; Sierra at ~$30B; Mercor at $20B. Voice + customer-service + data-labor rounds are the triangle. → [`02` §1](./02-new-emerging.md#1-elevenlabs) `#funding #voice #agents`
+
+5. **Australia Digital Duty of Care Act — fines up to 5% of global revenue.** Passed through parliament this week. Puts Australia alongside the EU AI Act for scope. For US startups: **if your AI product has Australian users, you need an impact-assessment artifact by the effective-date trigger**. Watch for the UK's equivalent in Q1 2027. → [`02` §2](./02-new-emerging.md#2-australia-ddc) `#policy #regulation`
+
+6. **Tidal to delete ~29M fully AI-generated tracks starting Dec 9.** First major streaming platform to do explicit AI-slop removal. Signal: **platform-level content gating is now a real surface area for AI policy**, and provenance-tagging (C2PA, model-watermarks) starts to matter commercially. → [`02` §3](./02-new-emerging.md#3-tidal-ai-removal) `#policy #content #provenance`
+
+7. **a16z Forward-Deployed Engineer Fellowship 2027 — Dec 31, 2026 deadline.** **Eight-week fellowship** for FDEs and applied-AI leaders. First VC-run FDE track — a16z institutionalizing the lane. Stacks with MSFT Frontier Company (6K FDEs) + Anthropic Frontier Academy ($100M / 10K FDEs by 2027) + EY $1B Assurance FDE practice. → [`05` §2](./05-career-and-startup.md#2-a16z-fde) `#fde #careers #fellowship`
+
+8. **Microsoft 60K voluntary-buyout: Dec 1 deadline, 5 days away.** Industry-baseline 3–5% uptake → **1,800–3,000 engineers hit the market Jan 1**. Nadella (Nov 19 analyst Q&A): *"I wish I could just sit here and say it'll all be the same. I cannot."* Combined with Dec 2 YC F26 Demo Day (71% AI-tagged per the Nov 24 edition), **Jan 2 is the most saturated AI job market of the cycle. Fire your apps by Dec 15.** → [`05` §1](./05-career-and-startup.md#1-microsoft-buyout) `#msft #layoffs #timing`
+
+9. **Research pick: DiscoveryAgent (arXiv 2611.21950, Nov 16).** Audit sub-agents help scientists catch **14× more valid errors** vs. manual review alone. First published concrete human-in-the-loop multiplier. Pairs directly with Claude Ship's auto-approve surface: *the agent proposes; the audit sub-agent verifies; humans sign off on only the exceptions*. → [`04` §1](./04-research-progress.md#1-discoveryagent) `#arxiv #agents #audit`
+
+10. **Secondary research this fortnight:** **"Agents, Think Only When It Helps" (arXiv 2611.05709, Nov 3)** — altering/discarding reasoning traces barely hurts distilled agents; implication: much CoT spend is wasted recipe-replay; **"Rethinking Access Control for AI Agents" (arXiv 2611.06764, Nov 4)** — first systematic survey of agent permissions, catalogues confused-deputy and delegation-chain failure modes; **DiscoveryAgent + Access Control = the compliance stack for agent-approved merges.** → [`04` §2–3](./04-research-progress.md#2-think-only-when-it-helps) `#arxiv #audit #access-control`
+
+11. **Chinese open-weight frontier compresses: Kimi K3.1 Pro / GLM-5.3 / Qwen 3.8.** Five Chinese labs on two licensing models in a 30-day window (modified-MIT and revenue-gated custom). AA Index v5 (Nov 5) rankings now include K3.1 Pro at 46 + GLM-5.3 at 32. **The US open-weight frontier is still not obviously best.** → [`02` §4](./02-new-emerging.md#4-china-open-weight) `#open-source #china`
+
+12. **Three-labs-at-$8/$40 holds — the frontier is a commodity.** Claude Fable 5.2, GPT-6.2 Astra, and Gemini 4 Carbon (post-Nov 30 promo) all land at the identical frontier price point. **Model-name résumé bullets are now zero-signal; routing + eval + MCP surface + Claude Ship compliance are the hireable skills.** See the Nov 25 edition's FDE Tier 1 vs Tier 2 split — **Tier 2 ($120–200K) is the new-grad slot**. → [`05` §3](./05-career-and-startup.md#3-commodity-price) `#reprice #careers`
+
+13. **Practical weekend plan:** **(a) set up Claude Ship on a public repo — one merged agent-approved PR as a screenshot artifact;** **(b)** ship a 5-tool MCP server with a 10-case eval; **(c)** draft the a16z FDE Fellowship application. The MCP recipe from [2026-11-25 §3](../2026-11-25/03-practical-skills-and-tools.md#3-mcp-weekend-artifact) still stands; add Claude Ship as the new fortnight artifact. → [`03`](./03-practical-skills-and-tools.md) `#weekend #portfolio #fde`
+
+14. **Timing playbook for the 25-day sprint (Dec 1 – Dec 31):** This is a **sprint window**. Dec 1 reopen → Dec 15 last high-signal application date → Dec 22 last low-volume day → Dec 31 a16z deadline. Fire 5 apps Dec 1–8, 5 more Dec 8–15, Claude Ship + MCP + router artifacts Dec 1–20, a16z draft Dec 15–30. **Then rest until March 1** — the MSFT wave + Google / Amazon / Meta likely follow-on programs will swamp Jan 2–Mar 1 pipelines. → [`05`](./05-career-and-startup.md) `#timing #applications`
+
+---
+
+## One thing to DO this Thanksgiving
+
+→ **Spend 60 minutes today reading the [2026-11-25 edition](../2026-11-25/00-tldr.md) + this one, then open the a16z FDE Fellowship application tab and jot down three paragraph seeds** (one customer story, one artifact link, one "why I'd ship X at an a16z portfolio company"). Do nothing else today. **Markets are closed; recruiters are off; your competitors are eating turkey. You read, then rest.** The Friday half-day → Monday Dec 1 window is where you file applications. Detailed playbook in [`05` §2](./05-career-and-startup.md#2-a16z-fde).
+
+## Watchlist deltas (new since Nov 25)
+
+- 🆕 **Nov 25 Nasdaq −3.98% AI selloff:** new thread. Track whether Friday's half-day stabilizes or deepens the move; watch NVDA / AMD / Broadcom; ANT finding a floor at/below $80 is the key price level to watch Mon Dec 1.
+- 🆕 **Walmart × Meta Muse first retail agent-buying surface:** new thread. Watch Amazon's response (Muse-on-Instagram unblock, own agent integration, or counter-launch) and Target / Best Buy follow-on.
+- 🆕 **Australia Digital Duty of Care Act (5% global revenue fine):** new thread. Watch UK + Canada equivalents; US startups with Aus users need a compliance doc.
+- 🆕 **Tidal AI-generated track deletion (Dec 9):** new thread. Spotify / Apple Music / YouTube Music follow-on will be the signal.
+- 🆕 **ElevenLabs $33B talks:** new thread. Voice infra now a top-5 AI venture category; track whether the round closes above or below the markup.
+- 🆕 **Claude Ship auto-approve surface:** new thread (also in `01`). First PR-merge-without-human-signoff product at scale; compliance surface is wide open.
+- 🆕 **a16z FDE Fellowship 2027:** new thread. First VC-run FDE track; placement outcomes in June 2027 will tell the story.
+- ➡️ **ANT lockup → ~May 2027:** staggered schedule per S-1; this is still the single most-watchable date in AI venture for the next 18 months.
+- ➡️ **MSFT 60K buyout, Dec 1 deadline:** **5 days away**. Expect uptake disclosure in the Dec earnings commentary.
+- ➡️ **YC F26 Demo Day, Dec 2** (per [2026-11-24 edition](../2026-11-24/00-tldr.md)): 71% of 231 companies AI-tagged. Track the top-5 funded pre-Demo-Day.
+- ⬇️ **"Model-name fluency" résumé line:** still deprecated. Three labs at $8/$40.
+- ⬇️ **Generic PR-review startups:** Claude Ship closed that category — pivot to vertical / compliance / audit.
 
 ---
 
@@ -60,9 +60,9 @@ Sixty-second skim. **Anthropic is a public company. ANT priced at $83 on Nov 18,
 | Time budget | Path |
 |---|---|
 | 60 sec | This file. Done. |
-| 5 min | This file + [`01` §1](./01-big-lab-moves.md#1-anthropic-ant-ipo) (ANT trades) |
-| 20 min | [`01` §1–4](./01-big-lab-moves.md) + [`05` §1–2](./05-career-and-startup.md) — IPO + GPT-6.2 + Gemini 4 + Claude Ship + MSFT-buyout + FDE playbook |
-| Today | [`05` §2](./05-career-and-startup.md#2-a16z-fde) — draft the a16z FDE Fellowship app before Dec 31 |
-| This weekend | [`03` §2](./03-practical-skills-and-tools.md#2-claude-ship-setup) — wire Claude Ship into one of your own repos + screenshot one merged agent-approved PR for your portfolio |
+| 5 min | This file + [`01` §1](./01-big-lab-moves.md#1-ant-week-one) (ANT week-one tape + Nov 25 selloff) |
+| 20 min | [`01` §1–3](./01-big-lab-moves.md) + [`05` §1–2](./05-career-and-startup.md) — ANT + Claude Ship + Walmart/Muse + MSFT-buyout + a16z FDE playbook |
+| Today (Thanksgiving) | Read 2026-11-25 + today's edition; three paragraph seeds for a16z. Nothing else. |
+| Long weekend | [`03` §2](./03-practical-skills-and-tools.md#2-claude-ship-setup) — ship Claude Ship + one merged agent-approved PR as a portfolio artifact |
 
 Source-confidence legend: `[primary]` first-party · `[secondary]` reputable journalism · `[aggregator]` curated digest · `[analysis]` analyst writeup · `[rumor]` leaked / unconfirmed.

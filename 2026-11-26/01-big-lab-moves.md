@@ -1,156 +1,116 @@
 # Big Lab Moves — 2026-11-26
 
-The fortnight between the last edition (Nov 14) and today is dominated by two events: **Anthropic went public on Nov 19 at an $81.3B deal size — the largest IPO ever recorded** — and **OpenAI shipped GPT-6.2 Astra + Sol on Nov 17 at the exact same $8/$40 price point as Claude Fable 5.2**, pinning the frontier to a shared commodity price. Google kept pace with **Gemini 4 Carbon (Nov 10) + Hydrogen (Nov 12)**, Anthropic followed its roadshow by **launching Claude Ship on Nov 23** (agents that *approve* PRs), and **NVIDIA's FY27 Q3 print ($115.8B revenue) + Q4 guide ($130B)** showed AI-infra demand did not blink. Any secondary-source number here is tier-tagged — verify before quoting in an interview.
+**Markets are closed today (US Thanksgiving); half-day Friday.** The headline is yesterday's **Nasdaq −3.98% AI-sector selloff** — NVDA −8.69%, AMD −9.56% — with **ANT a small bounce to ~$82.79 close (session range $73.85–$85.92) but still below its $83 offer 7 trading days in**. Also fresh since yesterday's edition: **Anthropic launched Claude Ship on Nov 23** (agents that review, fix, AND approve PRs), **Walmart × Meta Muse** became the first large-retail Black Friday with an autonomous-agent buying surface, and **ElevenLabs is in early talks at $33B for a 2027 round**. For the week's earlier events (GPT-6.2 Astra+Sol Nov 17, NVIDIA Q3 FY27 Nov 17, Gemini 4 Argon/Carbon/Hydrogen/Neon rollout, Isomorphic Labs $5B, Model ML $250M, Claude Code 2.1.319/.327), see the [2026-11-23](../2026-11-23/01-big-lab-moves.md) / [2026-11-24](../2026-11-24/01-big-lab-moves.md) / [2026-11-25](../2026-11-25/01-big-lab-moves.md) editions — not repeated here.
 
-Tags: `#labs #anthropic #openai #google #deepmind #nvidia #ipo #products #chips`
+Tags: `#labs #anthropic #meta #commerce #ant #selloff`
 
 ---
 
-## 1. Anthropic IPO prices at $83, opens at $111.50 — largest offering ever at $81.3B {#1-anthropic-ant-ipo}
+## 1. ANT week-one tape — still below $83 offer; Nov 25 Nasdaq −3.98% AI selloff {#1-ant-week-one}
 
-**What happened (2026-11-18 → 2026-11-20):**
-- **Nov 18:** Anthropic priced its IPO at **$83/share**, above the amended **$70–78** marketed range. Offering upsized to **~980M shares** → **~$81.3B raised** before underwriting discounts.
-- **Nov 19:** Shares began trading on **Nasdaq Global Select** under **ANT**. Opening print **$111.50 (+34%)**, with intra-day dip below $100 before settling.
-- **Nov 20:** Offering formally closed. Fully-diluted market cap near **~$1.5T** per CNBC at open; some sources cite ~$965B (the last private Series H mark, May 2026).
-- **Books led by Goldman Sachs, JPMorgan, Morgan Stanley.** Dual-class structure preserves founder control.
-- **Lockup:** standard **180-day (~May 2027) expiry** for employee + pre-IPO investor shares.
+**What happened (Nov 19 → Nov 25):**
+- **Nov 19 (IPO day):** priced **$83**, opened **$111.50 (+34%)**, closed **$97.17 (+17%)**. $81.3B raised — largest IPO on record.
+- **Nov 20–21:** drift lower through day-two/-three.
+- **Nov 22–23 (Sat–Sun):** no trading; **Nov 23 after-hours: Apple-agent "crack"** (per [2026-11-24 edition](../2026-11-24/01-big-lab-moves.md) — Apple posted on-device competing-agent reqs; ANT after-hours −5%).
+- **Nov 24:** closed **$81.91 (−6.54% on day, −26.5% from debut, below the $83 IPO offer)**.
+- **Nov 25:** session range **$73.85–$85.92**, closed ~**$82.79 (−1.7% on day)**; after-hours ticked to ~$83.3. **Broader Nasdaq −3.98%**, **NVDA −8.69%**, **AMD −9.56%** — deepest AI-sector selloff since September.
+- Staggered lockup from the S-1 stands; the first (~May 2027) tranche is the single most-watchable AI-venture date for the next 18 months.
 
 **Sources:**
-- [CNBC — Anthropic IPO raises over $81 billion, largest on record](https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html) `[secondary]`
-- [UPI — Anthropic stock to be priced $70–78 range](https://www.upi.com/Top_News/US/2026/11/10/anthropic-ipo-stock-range-nasdaq/6651794326745/) `[secondary]`
-- [Fox News — ANT soars 34% past IPO price in Nasdaq debut](https://www.foxnews.com/live-news/anthropic-claude-ai-ipo-nasdaq-11-19-26) `[secondary]`
-- [TMGM — Anthropic IPO date, price, S-1 summary](https://www.tmgm.com/en/academy/trading-academy/when-is-anthropic-ipo-everything-you-need-to-know) `[analysis]`
-- [Wolf Financial — ANT ticker, dates, terms](https://wolf.financial/blog/anthropic-ipo) `[analysis]`
+- [Robinhood — ANT session range $73.85–$85.92 Nov 25](https://robinhood.com/us/en/stocks/ANT/) `[primary]`
+- [Investing.com — ANT Nov 25 close ~$82.79](https://www.investing.com/equities/anthropic-chart) `[secondary]`
+- [Kraken — ANT prev close $81.91](https://www.kraken.com/stocks/ant) `[secondary]`
+- [Trading Economics — ANT daily change −2.15%](https://tradingeconomics.com/ant:us) `[secondary]`
+- [CoinMarketCap — ANT Nov 25 price](https://coinmarketcap.com/real-world-assets/anthropic/) `[aggregator]`
 
 ### Why it matters to you
 
-- **Job lens:** Comp is now legible for the entire AI job market. ANT's trading price sets a public RSU benchmark — **every private-lab competitor just had its "mark" re-anchored**. Expect three downstream effects: (a) Anthropic enters its **quiet period**, which means interview panels will be lighter on live-coding and heavier on async take-homes; (b) the **May 2027 lockup expiry** is now a scheduled attrition event — every recruiter you talk to has May 2027 on a Gantt chart; (c) base-salary negotiating leverage *rises* for engineers at the other labs through Q1 as they compare against ANT trading, then compresses after the lockup. **Apply to Anthropic now while they're in quiet period and backfilling with conservative pipelines.**
-- **Startup lens:** The IPO validates the API-plus-enterprise model at scale, but the trading tape will now be a drag on **every multi-vendor pitch**. For founders: (a) **rising tide for every "built on Claude" vertical** — enterprise buyers now treat Anthropic as an equivalent credit risk to Microsoft or Google; (b) the Series H investors who wanted liquidity got it this week, so expect **fewer corporate-dev conversations** out of Anthropic for the next ~60 days; (c) the **best angel round window of the cycle is Q2 2027** when lockup expires and senior researchers get their first liquidity. Build your rolodex of ex-Anthropic connections *now* so your pitch in May is a warm intro, not a cold one.
-- **Insight:** **Watch the first analyst day, not the IPO pop.** The first time public-market analysts get to ask Anthropic's CFO about gross margins on Claude Fable 5.2 vs. Haiku 5.5 is the moment the "model lab vs. hyperscaler" distinction becomes real and investable. Also: dual-class IPO means **founder compensation stays stapled to the mission for the next capex cycle**, which matters for how aggressively Anthropic will keep spending through 2028.
+- **Job lens:** **ANT's below-offer week is a hiring-narrative gift.** Candidates interviewing at Anthropic in the next 60 days can credibly ask: *"How do you think about retention compensation during a sub-offer trading window?"* — a question that signals you understand both comp mechanics and that Anthropic cares about keeping its senior engineers through the May 2027 lockup. **Contrarian take:** the sub-offer trading window is the *best* time to accept an Anthropic offer, because the equity grant is struck at market (now sub-$83) vs. anchored at IPO highs. Your grant appreciates on any mean-reversion.
+- **Startup lens:** For founders fundraising right now: **the public-market multiple compression is already being priced into private rounds.** Expect late-stage markdowns and down-rounds in Q1 2027 if ANT closes below $80 for two consecutive weeks. **Raise now if your term sheet is signed; wait for Q2 2027 if you're just starting outreach.** Valuations post-ANT-stabilization will be the market's new normal.
+- **Insight:** **The Nov 25 broader selloff was correlated across the AI chip stack (NVDA, AMD) and the AI app layer (ANT trades like an AI name now).** This is important: **the "AI premium" is now one sector-wide beta**, not idiosyncratic to individual names. A single bearish datapoint on compute cost or revenue mix will move the whole stack. The hedge that works: **long cash flows, short multiples** — i.e., stay close to companies with real revenue and avoid the pure-story names until Q2 2027 compression plays out.
 
-→ Cross-link: [`02` §1 — Mercor $20B](./02-new-emerging.md#1-mercor) · [`05` §1 — Microsoft buyout timing](./05-career-and-startup.md#1-microsoft-buyout)
-
----
-
-## 2. OpenAI ships GPT-6.2 Astra + Sol — same $8/$40 price as Claude Fable 5.2 {#2-gpt-62-astra-sol}
-
-**What happened (2026-11-17):**
-- **GPT-6.2 Astra** — frontier model for "hardest projects." API pricing **$8/M input, $40/M output**. Available in ChatGPT Work, Codex, and the API as `gpt-6.2-astra`.
-- **GPT-6.2 Sol** — "everyday" model. **$2/M input, $10/M output** as `gpt-6.2-sol`.
-- OpenAI says **Astra is the first external model to cross the "High" threshold for AI Self-Improvement** in its Preparedness Framework — triggering tighter safeguards, especially for cybersecurity assistance.
-- **GPT-6.1 Astra was scrapped in October** after internal testing found it didn't meet safety/alignment bars — this is Astra's first external deployment.
-- Independent reporting: Astra **#2 overall behind Claude Fable 5.2**, with **no improvement over 6.1 Terra on coding-agent benchmarks**.
-
-**Sources:**
-- [OpenAI — Introducing GPT-6.2 Astra & Sol](https://openai.com/index/introducing-gpt-6-2-astra-sol) `[primary]`
-- [Decrypt — Astra challenges Anthropic price but not every benchmark](https://decrypt.co/383488/openai-gpt-6-2-astra-challenges-anthropic-price-but-not-every-benchmark) `[secondary]`
-- [TNW — Astra benchmarks + monitorability + cyber](https://thenextweb.com/news/gpt-6-astra-benchmarks-monitorability-cyber) `[secondary]`
-- [TestingCatalog — GPT-6.2 launch on ChatGPT and APIs](https://www.testingcatalog.com/openai-launches-gpt-6-2-astra-and-sol-on-chatgpt-and-apis/) `[aggregator]`
-- [Gagadget — OpenAI ships GPT-6.2 Astra seven weeks after scrapping 6.1](https://gagadget.com/en/734695-openai-ships-gpt-62-astra-seven-weeks-after-scrapping-61/) `[secondary]`
-
-### Why it matters to you
-
-- **Job lens:** OpenAI, Anthropic, and (post-promo) Google all land at **$8/M input, $40/M output** for the top tier within six weeks. **The "latest-model fluency" résumé bullet is dead** — nobody will read "worked with GPT-6.2 Astra" as different from "worked with Claude Fable 5.2." What you *can* say credibly: "built a cost-aware router that saved X% by splitting Y% of traffic to Sol/Haiku/Hydrogen with no measurable eval regression." That's an **FDE interview answer, not a pitch bullet**. For roles at OpenAI itself — the Preparedness Framework "High" designation means the **model-evals / preparedness / cyber-eval teams are expanding fastest**; that's where internal hiring heat sits this quarter.
-- **Startup lens:** Three labs converging on the same price means (a) **margin compression on any thin API-passthrough product**, (b) **no model-lock pricing moat** for app layers, (c) **Astra's cybersecurity gating** opens a vertical: anyone building in SOC / incident response / red-team now has a **reason to use Astra specifically, not Claude or Gemini** — and that reason is defensible. The first startup to integrate Astra's high-threshold cyber modes behind a compliance-friendly wrapper owns a real wedge.
-- **Insight:** **The Preparedness Framework "High" threshold is now a product category, not just a safety heuristic.** OpenAI will almost certainly ship future narrow-gated variants (medicine, bio, finance) with the same gating pattern — it's a cleaner productization play than Anthropic's "Mythos" tier or Google's cybersecurity-defender early-access. If you want to understand where OpenAI goes product-wise in 2027, read the Preparedness Framework, not the model cards.
-
-→ Cross-link: [`03` §1 — router pattern](./03-practical-skills-and-tools.md#1-cost-aware-router) · [`05` §3 — frontier-price commodity note](./05-career-and-startup.md#3-commodity-price)
+→ Cross-link: [`02` §4 — Chinese open-weight compression](./02-new-emerging.md#4-china-open-weight) · [`05` §3 — commodity-price reprice](./05-career-and-startup.md#3-commodity-price)
 
 ---
 
-## 3. Google Gemini 4 Carbon + Hydrogen ship; Neon leaked {#3-gemini-4-carbon-hydrogen}
-
-**What happened (2026-11-10 → 2026-11-18):**
-- **Nov 10: Gemini 4 Carbon GA** — Google's frontier long-horizon model, publicly available after a **two-week cybersecurity-defender early access**. Intro pricing through **Nov 30**; after that, **$4/M input, $20/M output** — currently *half* the OpenAI/Anthropic frontier tier (though Carbon's coding benchmarks lag).
-- **Nov 12: Gemini 4 Hydrogen GA** — fast, cost-efficient daily driver. Price tier not disclosed at time of writing but positioned against Haiku 5.5 and Sol.
-- **Nov 18:** Third model **Gemini 4 Neon** spotted in Gemini web-app code — no model card, API listing, or pricing yet.
-- Kavukcuoglu (DeepMind head) publicly said in September that Gemini 4 was in "early post-training"; **Carbon shipped exactly to that pre-end-of-2026 commitment**.
-
-**Sources:**
-- [Let's Data Science — Google rolls Gemini 4 Carbon to general public](https://letsdatascience.com/news/google-rolls-out-gemini-4-carbon-to-general-public-9b41bcb4) `[secondary]`
-- [OrcaRouter — Gemini 4 release notes (Carbon / Hydrogen / Neon)](https://www.orcarouter.ai/blog/gemini-4-release-date) `[analysis]`
-- [Emergent — Gemini 4 release date tracker](https://emergent.sh/news/gemini-4-release-date) `[aggregator]`
-- [9to5Google — Gemini 4 release "as soon as possible" (Kavukcuoglu, Sept)](https://9to5google.com/2026/09/24/google-says-gemini-4-release-is-coming-as-soon-as-possible/) `[secondary]`
-
-### Why it matters to you
-
-- **Job lens:** Google DeepMind — not Google — now runs its own P&L and product cadence. That means **DeepMind applied / FDE / Solutions roles are now distinct from Google Cloud AI roles** — applications routed through different portals, different interview loops. Target Carbon-adjacent (model-evals, post-training, agent harness) at **DeepMind**, and target Gemini-Enterprise-Agent-Platform (customer delivery, vertical integration) at **Google Cloud**. For a CS grad with no PhD, the second lane is more realistic.
-- **Startup lens:** Carbon's **$4/$20 intro-to-regular pricing creates an arbitrage** for the first startup to credibly route non-coding frontier workloads to Gemini 4 Carbon. The pitch writes itself: "we save enterprise buyers 50% vs Fable/Astra by routing eligible tasks to Carbon, with eval parity gates." That's a one-afternoon demo and a defensible wedge for ~6 months until the price gap closes.
-- **Insight:** **The Carbon → Hydrogen → Neon naming pattern = elements of increasing atomic mass. Google has pre-committed to a model-family branding that implies many more coming.** Watch for **Oxygen, Fluorine, Sodium** in Q1 2027. Each new release will be gated on a different capability dimension (speed, cost, reasoning depth, modality); this is the first real test of whether a *family-SKU* strategy beats Anthropic's "one model, two tiers" and OpenAI's "frontier + everyday" cuts.
-
-→ Cross-link: [`04` §1 — DeepMind research cadence](./04-research-progress.md#1-discoveryagent) · [`03` §1 — router arbitrage](./03-practical-skills-and-tools.md#1-cost-aware-router)
-
----
-
-## 4. Anthropic ships Claude Ship — AI agents that review, fix, AND approve PRs (Nov 23) {#4-claude-ship}
+## 2. Anthropic ships Claude Ship (Nov 23) — AI agents review, fix, AND approve PRs {#2-claude-ship}
 
 **What happened (2026-11-23):**
-- Anthropic announced **Claude Ship** — AI agents for GitHub pull requests that **(a) review the diff, (b) propose fixes, (c) apply them to a branch, and (d) auto-approve** once eval gates pass.
-- Beta for **Claude Team + Enterprise** plans; GitHub-only at launch.
-- Builds on **Code Review** (March 2026 research preview, agent-team-based) and the **`@claude review` command** (July 2026 behavior update). The new piece is **the approval surface** — not just inline comments.
-- Expected to cost **$15–25 per PR** at launch (same ballpark as Code Review), but with an eval-gate option that short-circuits when a configured check fails.
+- Anthropic announced **Claude Ship** — AI agents for GitHub pull requests that **(a) review the diff, (b) propose fixes, (c) apply them to a branch, and (d) auto-approve** when configured eval gates pass.
+- **Team + Enterprise plans only**; GitHub-only at launch.
+- Builds on **Code Review** (March 2026 research preview) and the **`@claude review`** command (July 2026 behavior update). The new piece is the **approval surface** — not just inline comments.
+- Expected to cost **$15–25 per PR** at launch (same ballpark as Code Review), with an eval-gate option that short-circuits when a configured check fails.
+- Shipped **during Anthropic's IPO quiet period** — one of the few product-level signals from the lab this fortnight.
 
 **Sources:**
 - [TechCrunch — Anthropic launches Claude Ship (Nov 23)](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/) `[secondary]`
 - [Anthropic — Bringing Code Review to Claude Code (March baseline)](https://claude.com/blog/code-review) `[primary]`
 - [Claude Code docs — Code Review](https://code.claude.com/docs/en/code-review) `[primary]`
-- [Help Net Security — AI agents to find bugs in PRs](https://www.helpnetsecurity.com/2026/03/10/anthropic-claude-code-review/) `[secondary]`
+- [Help Net Security — AI agents find bugs in PRs](https://www.helpnetsecurity.com/2026/03/10/anthropic-claude-code-review/) `[secondary]`
 
 ### Why it matters to you
 
-- **Job lens:** This is the single most interview-able new Anthropic surface of the fortnight. **Setting up Claude Ship on one of your own public repos — with an eval gate you designed, and a merged agent-approved PR as the artifact — is the clearest FDE portfolio proof-point this month.** It demonstrates: (a) you understand the agent-review loop, (b) you can design a non-trivial eval, (c) you can configure the tool safely in a real repo. Pair this with [`03` §2](./03-practical-skills-and-tools.md#2-claude-ship-setup) and you have a one-weekend story that reads strong on an Anthropic / OpenAI / Palantir FDE résumé.
-- **Startup lens:** Claude Ship **eats half the pitch of every AI-code-review YC company of the last 18 months** (Greptile, CodeRabbit, Codium, etc.). What survives: vertical code review (SOC2-regulated / healthcare / fintech-gated), language-specific review (Rust, Solidity, SQL migrations), and *orchestration* (multi-repo monorepos, policy-as-code, release-gate integration). If you were pitching generic PR review — pivot or sunset.
-- **Insight:** **Auto-approve is a contract-law event, not just a feature.** The first time a Claude Ship-approved PR introduces a regulated-industry outage (think PII leak via a config change), expect a **GitHub-required-reviewer-rule retrofit** and a cascade of enterprise-audit requirements. The companies that win the next 18 months are the ones that ship the **compliance and audit surface around agent-approved merges** before the first incident forces it. Keep an eye on who ships "Claude Ship compliance adapters" first — that company has a durable wedge.
+- **Job lens:** This is **the single most interview-able new Anthropic surface of the fortnight.** Setting up Claude Ship on one of your own public repos — with an eval gate you designed, and a merged agent-approved PR as the artifact — is the clearest FDE portfolio proof-point this month. It demonstrates: (a) you understand the agent-review loop, (b) you can design a non-trivial eval, (c) you can configure the tool safely in a real repo. Pair this with the [`03` §2](./03-practical-skills-and-tools.md#2-claude-ship-setup) weekend guide and you have a one-weekend story that reads strong on an Anthropic / OpenAI / Palantir FDE résumé.
+- **Startup lens:** Claude Ship **eats half the pitch of every AI-code-review YC company of the last 18 months** (Greptile, CodeRabbit, Codium, etc.). What survives: vertical code review (SOC2-regulated, healthcare, fintech-gated), language-specific review (Rust, Solidity, SQL migrations), and *orchestration* (multi-repo monorepos, policy-as-code, release-gate integration). If you were pitching generic PR review — pivot or sunset.
+- **Insight:** **Auto-approve is a contract-law event, not just a feature.** The first time a Claude Ship-approved PR introduces a regulated-industry outage, expect a **GitHub-required-reviewer-rule retrofit** and a cascade of enterprise-audit requirements. The companies that win the next 18 months are the ones that ship the **compliance and audit surface around agent-approved merges** before the first incident forces it.
 
-→ Cross-link: [`03` §2 — Claude Ship setup](./03-practical-skills-and-tools.md#2-claude-ship-setup) · [`05` §2 — FDE portfolio proof-point](./05-career-and-startup.md#2-a16z-fde)
+→ Cross-link: [`03` §2 — Claude Ship setup](./03-practical-skills-and-tools.md#2-claude-ship-setup) · [`04` §3 — Access Control for Agents](./04-research-progress.md#3-access-control)
 
 ---
 
-## 5. NVIDIA FY27 Q3: $115.8B revenue (+103%); Data Center $107.6B; Q4 guide $130B {#5-nvidia-fy27-q3}
+## 3. Walmart × Meta Muse — first large-retail Black Friday wired for an autonomous agent (Nov 25) {#3-walmart-muse}
 
-**What happened (2026-11-17):**
-- **Revenue $115.8B (+103% YoY); non-GAAP diluted EPS $2.68.** Sixth straight quarter beating consensus.
-- **Data Center $107.6B (+110% YoY)** — ~93% of total revenue.
-  - **Hyperscalers $60.1B (+71% YoY).**
-  - **AI-cloud / industrial / enterprise $47.5B (+195% YoY)** — non-hyperscale now the faster-growing bucket.
-- **Edge Computing $8.2B (+42% YoY)** — the former Gaming + Pro Viz + Auto + Robotics rollup.
-- **China:** **$2.4B Hopper shipped to China this quarter; Q4 guide = $0 China data-center compute** — first explicit zeroing-out.
-- **Q4 guide: $130B ±3%** (fiscal Q4 FY27 has an extra week, so apples-to-apples growth is somewhat slower).
-- **Vera Rubin shipping under interim CEO Colette Kress** — note CEO change; permanent appointment not yet announced.
+**What happened (2026-11-25):**
+- Walmart opened its Black Friday catalogue to **Meta's Muse AI agent** with **per-agent spending caps and human-approval gates for high-ticket items**.
+- **First production "AI agent buys from you" surface at retail scale** — a buyer-facing commerce counterpart to Claude Ship's maker-facing approval surface on GitHub.
+- Parallel reporting: **Amazon and Meta are in talks to end Amazon's blockade of Muse on Instagram** — would reunify two of the largest discovery+commerce stacks.
+- Muse (Meta's open-weight + agent framework, descended from the Muse Spark Open release covered in [2026-11-14 §2 §3](../2026-11-14/02-new-emerging.md#3-muse-spark-open)) is now **the explicit commerce-agent default** inside the Meta properties.
 
 **Sources:**
-- [NVIDIA — Q3 FY2027 financial results](https://www.streetinsider.com/dr/news.php?gfv=1&id=27363954) `[primary]`
-- [Let's Data Science — Q3 revenue $115.8B, up 103%](https://letsdatascience.com/news/nvidia-reports-third-quarter-revenue-of-1158-billion-up-103-385a5092) `[secondary]`
-- [247 Wall St — Q3 2027: six straight beats and what comes next](https://247wallst.com/cards/nvidia-q3-2027-earnings-nvda-01m7nph36m2fmpwcfatxg16f2z) `[analysis]`
-- [Xenospectrum — FY27 Q3 data-center growth breakdown](https://xenospectrum.com/en/nvidia-fy2027-q3-data-center-growth/) `[analysis]`
-- [Credence Research — Vera Rubin shipping under interim CEO Kress](https://www.credenceresearch.com/news/nvidia-q3-fiscal-2027-revenue-115-8-billion-vera-rubin-interim-ceo-kress) `[analysis]`
+- [TechCrunch AI — AI news aggregation (Nov 25–26)](https://techcrunch.com/category/artificial-intelligence/) `[secondary]`
+- [AI Weekly — AI news Nov 25 top stories](https://aiweekly.co/ai-news-today) `[aggregator]`
 
 ### Why it matters to you
 
-- **Job lens:** The 195% YoY in non-hyperscale means **NVIDIA's enterprise-facing sales + applied-SA + developer-relations orgs are expanding fastest** — more than the core hyperscaler account teams. For a CS grad, NVIDIA Developer Programs / Enterprise Solutions / NIMs-adjacent engineering are **less-crowded than the DGX / hyperscaler-facing roles** and compensate competitively. Also watch for permanent-CEO succession — the next CEO's hiring agenda will set the 2027 req pattern.
-- **Startup lens:** The **$0 China DC guide** is a startup-creation event. Chinese labs retool around Huawei Ascend, Cambricon, and domestic silicon; **the first US-based startup that credibly offers a Chinese-silicon abstraction layer (think "LiteLLM for domestic Chinese accelerators") has a geopolitically defensible wedge**. Separately, the non-hyperscale growth bucket is where **AI-infra-for-mid-market** startups will find enterprise LPs willing to anchor.
-- **Insight:** **NVIDIA's segment restructure (two segments: Data Center + Edge Computing) buries Auto, Pro Viz, and Robotics inside Edge Computing.** That's a tell: **NVIDIA is signaling to the market that Robotics revenue is small but the growth rate justifies the strategic attention** — expect a GR00T + Rubin Edge line to be broken out in FY28. If you have robotics coursework or VLA fine-tuning experience, NVIDIA Edge Computing is a live hiring lane that nobody is targeting hard yet.
+- **Job lens:** **Agent-commerce engineering is a hiring lane that didn't visibly exist 60 days ago.** Target companies: Walmart Labs, Meta Shops, Instacart, DoorDash, Shopify Magic — any marketplace-layer business that sees the Muse integration as competitive pressure. Role titles to search: **"Agent Integration Engineer," "Conversational Commerce PM," "Agent Payments Engineer."** The compensation data is still forming, but founding-level agent-commerce SE roles will mirror Sierra's $200–300K bands.
+- **Startup lens:** **Agent-native checkout, agent-fraud, and agent-returns are three startup wedges opened this week.** Specifically: (a) a product that gates what agents can buy by rules (not just spending caps); (b) a product that detects agent-driven fraud patterns (different from human fraud); (c) a product that handles agent-driven returns at scale. Each is 12–18 months from being obviously necessary; Mastercard / Visa / Stripe are the acquirers.
+- **Insight:** **The Walmart move signals that agent-buying is being productized retail-side faster than agent-selling.** This flips the 2025 assumption that chatbot-salespersons would be the first AI commerce surface. Builders should optimize for the *buyer-side agent* now — the bigger spend lives there and the auth/approval tooling is further behind.
 
-→ Cross-link: [`04` §4 — robotics research progress](./04-research-progress.md#4-agent-societies) · [`02` §4 — robotics funding](./02-new-emerging.md#4-secondary-moves)
+→ Cross-link: [`02` §1 — ElevenLabs $33B voice-agent category](./02-new-emerging.md#1-elevenlabs) · [`05` §2 — commerce-agent FDE roles](./05-career-and-startup.md#2-a16z-fde)
 
 ---
 
-## 6. OpenAI ~$11B primary raise + Claude Meetings outage/restore (Nov 6 → Nov 19) {#6-openai-raise-claude-meetings}
+## 4. OpenAI / Google — quiet-period consequences continued {#4-quiet-period-consequences}
 
-**What happened:**
-- **OpenAI raised ~$11B on Nov 6**, per aggregator reporting — part of the ongoing Microsoft / Nvidia / SoftBank compute-commit chain. Primary amount vs. secondary / strategic unclear at time of writing.
-- **Claude Meetings outage:** Anthropic paused automatic attendance for Claude Meetings after call-joining problems through mid-November. **Nov 19:** automatic attendance **restored for all Enterprise customers and some Team customers**. Normal joining resumed.
-- **OpenAI Nov cluster recap** (mostly pre-fortnight, referenced for continuity): **GPT Image 2.6 Flare + Sunburst** (Nov 4), **GPT-5.6 Cyber** (AWS GovCloud), **ChatGPT Enterprise on AWS Marketplace**.
+**What's holding:**
+- Anthropic remains in **IPO quiet period**; expect sparse first-party announcements through late Q1 2027. Product signals are coming through Claude Code release notes (see Nov 24–25 editions) and partner-side press (e.g., Claude Ship via TechCrunch, not Anthropic's own blog).
+- OpenAI shipped **GPT-6.2 Astra + Sol on Nov 17** at $8/$40 and $2/$10 respectively, plus a cluster of ChatGPT Work surfaces through mid-November (see [2026-11-24 §1](../2026-11-24/01-big-lab-moves.md)). **No new major product launches** from OpenAI in the Nov 23–26 window; the next cluster is likely post-Thanksgiving.
+- Google continued **Gemini 4 Carbon/Hydrogen/Neon rollout** (see Nov 24–25 editions). Neon leads coding-agent benchmarks per AA's Coding Agent Index at 58.64 vs Fable 5.2 at 58.47.
+
+### Why it matters to you
+
+- **Job lens:** **Quiet period = conservative interview loops at Anthropic.** More async take-homes, fewer live-coding sessions, tighter NDAs on anything you build during loops. For candidates: ship your portfolio artifacts *before* applying so your public links do the talking. For current Anthropic employees reading this: it's the best moment to refer a friend — intake standards and comp bands are explicit against ANT's trading price.
+- **Startup lens:** With Anthropic in quiet period and OpenAI post-GPT-6.2, **the next 30 days have thin lab-side news flow**. Use that gap to launch, promote, and get coverage — your product announcement won't be buried under a Fable 5.3 drop. **Launch windows this quiet matter.**
+- **Insight:** **The era of "big lab shipping every two weeks" is ending temporarily** — not because the labs can't, but because (a) Anthropic is quiet-period gated, (b) OpenAI just shipped Astra+Sol, (c) Google is pacing the Gemini 4 element releases. Expect **Jan 2027 to be the next product-flood window**, synchronized with the MSFT engineer wave hitting the market.
+
+→ Cross-link: [`03` §1 — cost-aware router across three labs](./03-practical-skills-and-tools.md#1-cost-aware-router)
+
+---
+
+## 5. Anthropic Claude Meetings outage/restore + the agent-outage pattern {#5-claude-meetings}
+
+**What happened (mid-Nov → 2026-11-19):**
+- Anthropic **paused automatic attendance for Claude Meetings** (introduced in Nov 10 Fable 5.2 launch) after call-joining problems through mid-November.
+- **Nov 19:** automatic attendance **restored for all Enterprise customers and some Team customers**. Normal joining resumed.
 
 **Sources:**
-- [Startup Corners — Funding Roundup Nov 26, 2026 (OpenAI $11B)](https://startupcorners.com/digest/funding-digest-2026-11-26) `[aggregator]`
-- [Geeky Gadgets — Claude Nov 2026 feature updates + Meetings restore](https://www.geeky-gadgets.com/anthropic-claude-november-2026-features/) `[secondary]`
+- [Geeky Gadgets — Claude Nov 2026 features + Meetings restore](https://www.geeky-gadgets.com/anthropic-claude-november-2026-features/) `[secondary]`
 - [Releasebot — Anthropic Nov 2026 changelog](https://releasebot.io/updates/anthropic) `[aggregator]`
 
 ### Why it matters to you
 
-- **Job lens:** OpenAI's primary raises keep funding the **Codex / ChatGPT Work / Enterprise** push — those three product surfaces are the hiring engines through Q1 2027. For FDE/Solutions candidates, **ChatGPT Work + Codex teams are hiring at the fastest rate** of any OpenAI sub-org. The AWS Marketplace listing means OpenAI now has **triple-cloud distribution** (Azure, AWS, and GCP via BYO contracts); if you have AWS Marketplace integration experience specifically, flag it on your résumé.
-- **Startup lens:** Claude Meetings' outage + restore is a **real ops story** for anyone building voice/meeting agents: **don't underestimate how hard the "join and act in realtime" problem is**. If you're building in that space, (a) design for graceful degradation when the join fails, (b) build your own fallback to transcript+summary-after-the-fact, (c) treat the restore pattern (enterprise-first, team-partial) as the template for your own incident playbook.
-- **Insight:** **OpenAI's compute-commit chain is now a capital-markets event.** $11B a few weeks after a $300B SoftBank commit and an Nvidia/Microsoft compute pact means OpenAI is **front-loading pre-IPO capacity** — expect its own S-1 inside 12 months once Anthropic's trading settles. For employees comparing offers: **Anthropic (ANT) public comp is now legible; OpenAI's is not (yet)** — factor that into negotiation.
+- **Job lens:** **The agent-outage incident writeup pattern is about to become a job skill.** Watch what Anthropic publishes (or doesn't) about the root cause of the Meetings outage — compare against Microsoft/Google post-mortem norms. If you can describe a credible post-mortem for an agent-join / tool-chain / timeout failure, that's an interview answer that lands at Anthropic Reliability, OpenAI Platform Engineering, Google SRE-for-AI.
+- **Startup lens:** The restore pattern (**Enterprise first, Team partial**) is the **standard template for your own incident playbook**. Write it down. For voice/meeting agent products, build the **graceful-degradation to transcript-plus-summary fallback** as a first-class feature, not a last-resort hack.
+- **Insight:** **"Join a live call and act" is the hardest consumer-agent surface** — latency, streaming, tool-use, dialogue management, and partial-failure recovery all have to work together. Every lab will ship their version; the first one to make it reliable on a quarterly SLA basis defines the category.
 
-→ Cross-link: [`02` §2 — Sierra $30B comp pattern](./02-new-emerging.md#2-sierra) · [`05` §3 — commodity-price note](./05-career-and-startup.md#3-commodity-price)
+→ Cross-link: [`03` §4 — tests-as-spec eval gate](./03-practical-skills-and-tools.md#4-tests-as-spec)
